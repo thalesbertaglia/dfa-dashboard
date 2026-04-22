@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585802",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:07Z",
+    "finished_at": "2026-04-14T12:37:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers can render a game unplayable at any time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13340,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear policymakers, I welcome the objectives outlined in the Digital Fairness Act and support its intent to restore balance, transparency, and accountability in the digital economy. Nonetheless, I would like to bring to your attention several points that have not been explicitly mentioned. 1. Protection Against Unilateral Revocation of Digital Purchases A growing concern in the digital economy is the unchecked ability of merchants to revoke access to products that consumers have purchasedwithout recourse, explanation, or legal justification. The video game industry in particular has embraced a model where publishers can render a game unplayable at any time, even if the consumer paid full price. This anti-consumer practice has given rise to the \"Stop Killing Games\" movement, which highlights how digital goods are increasingly treated not as owned property, but as licenses subject to arbitrary revocation. I urge the Act to address this imbalance. If consumers pay for access to a productespecially one marketed as a \"purchase\"they should retain that right. Merchants should not be permitted to unilaterally revoke access or functionality without due cause, due process, and legal safeguards. This is particularly urgent as physical media declines and software-based products become the norm. 2. Financial Institutions and the Erosion of Sovereignty Another pressing issue concerns the role of payment processors such as Visa and Mastercard, which have repeatedly pressured online platforms to censor content they deem unacceptableoften without transparency, legal mandate, or jurisdictional oversight. This practice amounts to financial coercion and raises serious concerns about national sovereignty and freedom of expression. When global financial intermediaries can effectively dictate the terms of speech, commerce, or service availability based on opaque internal policies, they bypass democratic institutions and undermine national legal frameworks. Such powers should be constrained by public law and subject to transparent regulatory oversight. I urge the Digital Fairness Act to include provisions that prevent financial infrastructure providers from acting as unaccountable, privatized arbiters of legality and morality. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.927655Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585802.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585802",
+    "chunks_doc_id": "F3585802",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

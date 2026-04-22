@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586565",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:01Z",
+    "finished_at": "2026-04-14T12:59:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would kindly ask to consider adding protection against the destruction of video games to the Digital Fairness Act."
+              },
+              {
+                "quote": "At this point in time video games can be destroyed when a company doesn't want to support it anymore."
+              },
+              {
+                "quote": "Even though I bought them, I can never play them again because the companies behind them decided to destroy it after."
+              },
+              {
+                "quote": "I just want them to leave the game they sold me in a playable state when they decide not to support it anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22235,
+          "unit_kind": "feedback"
+        },
+        "text": "I would kindly ask to consider adding protection against the destruction of video games to the Digital Fairness Act. At this point in time video games can be destroyed when a company doesn't want to support it anymore. This happened with multiple games I bought and liked playing (like The Crew and The Culling). Even though I bought them, I can never play them again because the companies behind them decided to destroy it after. This shouldn't be possible. When I buy a movie, song, book, etc. it becomes mine and I can enjoy it whenever I want. But when I buy a video game it can be taken away from me because the companies don't want me playing their old games, they want you to buy their new ones. I don't want to force the companies to work on their games forever or always keep their servers running, that's not at all what I'm asking for. I just want them to leave the game they sold me in a playable state when they decide not to support it anymore. I don't want to lose these pieces of art that many people worked their hardest for and that bring me so much joy, simply because of corporate greed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.279593Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586565.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586565",
+    "chunks_doc_id": "F3586565",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586565.clean.paragraph.json"
+}

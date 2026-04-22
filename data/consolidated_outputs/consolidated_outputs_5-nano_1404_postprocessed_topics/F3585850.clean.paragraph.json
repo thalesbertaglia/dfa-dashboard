@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585850",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:48Z",
+    "finished_at": "2026-04-14T12:39:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a purchased game can be withdrawn from the market at once today."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16675,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I am 38 years old and a video spile Entusiast since my whole life, I find it a shame that a purchased game can be withdrawn from the market at once today. I hope that in the future we will see a law or regulation that supports our right to own after buying. If you bought something earlier, be it a car or in this case a video game, you had it and could play until it was broken. I still have games from the 1990s that are fully operational. Today, on the other hand, manufacturers can simply withdraw what we buy from the market by closing the servers. My proposal... If a game is no longer supported, privately owned servers should be able to post online. Free access to games Files by digital download or ‘X’% reimbursement of the game at release price. Thanks",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.953378Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585850.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585850",
+    "chunks_doc_id": "F3585850",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585850.clean.paragraph.json"
+}

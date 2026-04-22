@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588660",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:47Z",
+    "finished_at": "2026-04-14T13:24:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games should not come with an expiration date."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11883,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I do not devote too much time to video games myself, and I understand the current text of the Act touches on a lot of other important issues, however I would still like to direct your attention to the Stop Killing Games initiative. Please consider adding a provision so that video game publishers need to provide users with means of running the game after its official end of life. This especially concerns online-only titles, such as those created by Ubisoft, that need Internet access to function even in singleplayer. If the video game publisher decides to shut down official servers, they should, for example, offer a free patch that allows the game to be played with community-run third-party servers. Video games should not come with an expiration date. Thank you for taking the time to read my message.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.668517Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588660.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588660",
+    "chunks_doc_id": "F3588660",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588660.clean.paragraph.json"
+}

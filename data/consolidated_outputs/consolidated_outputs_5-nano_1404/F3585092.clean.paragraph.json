@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585092",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:54Z",
+    "finished_at": "2026-04-14T12:20:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability publishers have to forbid players access from the product they purchased for any reason at any time is unfair and anti-consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "censorship from payment processing companies which resulted in forcing digital storefronts such a Steam and Itch.io to delete hundreds of games considered as not safe for work from their catalogue because they were considered dangerous."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21641,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi dear member of the European Commission, as a French citizen but also as a gamer and avid internet user am increasingly worried about some of the practices that are currently emerging in the video game industry. Particularly the ability publishers have to forbid players access from the product they purchased for any reason at any time is unfair and anti-consumer. This already happened with games such as The Crew, which is reflected in Ubisoft's EULA, but also a plethora of other live service, online-only video games that have been lost because of a lack of support from the developers and an inability for the community to keep them alive through other means. This particular issue is already being tackled by the European Citizen's Initiative \"Stop Destroying Videogames\" which stands at over 1.4 million signatures as of today but I would like for this to also be reflected in this new Digital Fairness Act as it is seems absolutely relevant to the core of the Act to me. I would also like to share to you the fear I have concerning the recent situation about censorship from payment processing companies which resulted in forcing digital storefronts such a Steam and Itch.io to delete hundreds of games considered as not safe for work from their catalogue because they were considered dangerous. While it is right to regulate content which is illegal, it definitely is not the role of payment processors to exert this duty and they should take no part in lobbying or putting pressure on online stores to decide which purchase they allow or not. Besides, this might be seen as a form of censorship which I am strongly against, as long as all the content is in accordance to its relevant legislation and the platform's terms and services. In my opinion, it is the platform which promotes the content which should be held responsible to regulate it and not any third-party companies through means of pressure. I thought this topic would also be interesting to review, as it is important for consumers' rights and freedom to keep protecting the ability to purchase the content they like as long as it isn't illegal of course. Thank you for reading my feedback and have a great rest of your day - A concerned EU citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.592508Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585092.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585092",
+    "chunks_doc_id": "F3585092",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

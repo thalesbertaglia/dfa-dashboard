@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585506",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:19Z",
+    "finished_at": "2026-04-14T12:30:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers and companies force unfair and one-sided licences"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online video game retailers like Steam and Itch.io were forced to remove products deemed unsuitable by the payment processors for them to continue their service with the retailers"
+              },
+              {
+                "quote": "these payment processors thus hold effective control over the retailer and their ability to sell products"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40661,
+          "unit_kind": "feedback"
+        },
+        "text": "1. On the unfair licenses and EULAs in regards to video games. Like the Stop Destroying Videogames EU Citizens' Initiative outlines, video game publishers and companies force unfair and one-sided licences where they retain absolute control over your practical access to the product even though they are sold to you like any other products, except for the unfair licence, regardless of a possible physical \"licence\" like a disc. Publishers regularly shutdown services and access to video games sold to consumers without any End-of-Life plan or date at the time of purchase, including any digital items you have purchased for the game that only work with the game. The decision to shutdown a video game is often done to push consumers to buy the next game that is more profitable. Video games are unique, irreplaceable works of art like books and film alike, but the latter two usually allow you to keep enjoying and preserving them if you purchase them outside of the context of an ongoing service. Video game publishers artificially force their video games to be ongoing services(GaaS) so they can impose this control onto customers as an excuse for being a service they provide instead of a typical licence to a product. Because of the diversity of video games as a medium, combining audio-visual and narrative experiences as an interactive software product, this GaaS loophole should be regulated and require efforts from the companies selling video games, to provide an actionable End-of-Life plan and effectively Right-to-Repair and maintain the product to reasonable extent by third-parties and consumers. When a video game publisher sells a video game, they would need to create the product in such a way that after their support for it ends, those who have purchased the video game, have the necessary tools to maintain the game in a reasonably playable state, like providing server binaries for online features. 2. Payment processors and their control over and effective censorship of entertainment like video games. Every retailer, especially online, must use payment processors to facilitate purchases, these payment processors thus hold effective control over the retailer and their ability to sell products. Competition is not effectively correcting this problem because not all payment processors are interchangeable, may have anti-competitive clauses or every reasonable alternative is making the same demands, leaving retailers no options. This is not just hypothetical, recently online video game retailers like Steam and Itch.io were forced to remove products deemed unsuitable by the payment processors for them to continue their service with the retailers. Payment processors and banks frame this under the guise of risk management, but this is not about refusing service with retailers that are mostly \"risky\" but rather targeting specific products on otherwise suitable retailers, leading to effective censorship that payment processors and banks shouldn't dictate. There have been cases where a retailer has completely been driven out of business on the whims of payment processors deciding to not accept the content the retailer is selling even though such content has always been the main business of the retailer, suddenly being out of options. Most payment processors are also American, bringing into question European sovereignty without proper options and their control over non-American businesses and consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.778093Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585506.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585506",
+    "chunks_doc_id": "F3585506",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

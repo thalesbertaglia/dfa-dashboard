@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585584",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:01Z",
+    "finished_at": "2026-04-14T12:31:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games be added to the purview of the Digital Fairness Act."
+              },
+              {
+                "quote": "The planned and willful obsolescence of games is a travesty, and is not tolerated in any other industry."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11842,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to join the rest of the comments, and suggest video games be added to the purview of the Digital Fairness Act. The planned and willful obsolescence of games is a travesty, and is not tolerated in any other industry. Noone would to tolerate books whose ink wilfully fades away, music or movie CDs that lock themselves to be played or a painting that is intentionally flakes off its paint in a few years. It is not only bad for consumers, but it's intentionally destroying a work of passion of many people, and preventing it from beibg archived and preserved in the name of pure greed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.815208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585584.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585584",
+    "chunks_doc_id": "F3585584",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

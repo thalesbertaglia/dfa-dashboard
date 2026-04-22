@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584704",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:03Z",
+    "finished_at": "2026-04-14T12:07:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I bought Overwatch with the ability to earn lootboxes when I leveled up."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it would be like buying a car, and then they ask you to pay more for access to the GPS when you already bought the car with GPS installed, buit because they updated the map, they are making you pay to use the new map without giving you the ability to use the GPS with the old map that you already bought."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Promising no in-game microtransaction. Implementing microtransactions and removing the ability to play the game without microtransactions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34609,
+          "unit_kind": "feedback"
+        },
+        "text": "Be able to use the product as you bought it. I bought Overwatch with the ability to earn lootboxes when I leveled up. And fall guys with the ability to earn Kudos after every game. Yes, these are online service games, but the fact that I bought a game with the promise of being able to play to earn. For them to sell to a larger corporation, giving them the ability to remove the play-to-earn ability for monetary gain. Yes, these are online games. But when they don't allow you to play offline with the features you bought the game with. These issues are also prevalent in offline, single-player games. Promising no in-game microtransaction. Implementing microtransactions and removing the ability to play the game without microtransactions. When I buy a game with a promise, they won't sell me more. And they don't keep their promise. The least I can ask for is the ability to play the game that I bought. Even if they add new features, I feel like removing the original product feels wrong. It would be like buying a car, and then they ask you to pay more for access to the GPS when you already bought the car with GPS installed, buit because they updated the map, they are making you pay to use the new map without giving you the ability to use the GPS with the old map that you already bought. I never agreed to microtransactions in some games, so why are they able to force them on me without any concessions when they promised me not to?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.363936Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584704.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584704",
+    "chunks_doc_id": "F3584704",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584704.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3602170",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:48Z",
+    "finished_at": "2026-04-14T13:41:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the user is forced to create an account on the manufacturer’s platform"
+              },
+              {
+                "quote": "these applications are designed in such a way that the user without internet access cannot use the application"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "all user data, such as age, gender, health data, and location data, are transmitted and used by the manufacturer to provide the service, diagnostic or marketing data."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38568,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that it is a problem with the privacy of sports watch companies. When a user buys a GPS sports watch to use and activate such a watch, the user is forced to create an account on the manufacturer’s platform and, in addition, all user data, such as age, gender, health data, and location data, are transmitted and used by the manufacturer to provide the service, diagnostic or marketing data. Unfortunately, part of the service delivery is simply a lies because, after training, I can view all the training data on the watch, as well as the data related to regeneration (which allegedly need to be calculated on servers) or position on the map. This shows that servers are not needed to calculate advanced statistics as they are generated during watch training anyway. Such advanced statistics can be generated locally on the user’s telephone without the least problems. Another issue is the storage of these data. Automatically after the watch has uploaded this data to the application, it is uploaded to the server, which should not be the case for such sensitive data, these applications are designed in such a way that the user without internet access cannot use the application, leading to a situation where the user cannot see his or her own data. I believe that applications such as Garmin, Suunto, Polar or Coros should operate without the need to register, and that uploading training data to a server should be optional and fully voluntary. The data I send from the watch to the phone over the app should be on the phone instead of being erased, for the sole purpose of obliging the user to leave it online. This is a huge privacy breach that can result in the leakage of users’ sensitive data. These applications collect ever-increasing amounts of data every year, such as stress, sleep, user’s well-being or the day of a monthly cycle. These companies should be obliged to provide their services without the need to register, access the internet or transmit such data to their servers. Moreover, they should provide, for example, a website, files needed to connect to navigation systems, and should be compatible with other manufacturers, as the chipset responsible for the connection to navigation is most often provided by the same manufacturer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.989483Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3602170.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3602170",
+    "chunks_doc_id": "F3602170",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

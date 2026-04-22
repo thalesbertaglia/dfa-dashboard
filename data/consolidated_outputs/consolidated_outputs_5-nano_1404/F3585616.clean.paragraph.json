@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585616",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:37Z",
+    "finished_at": "2026-04-14T12:32:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design of computer games"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "computer games in themselves offer a very strong addictive potential."
+              },
+              {
+                "quote": "a ‘game currency’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27701,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, I had in the past, in relation to computer games, where the content is mainly designed in the singel player and was secured with online activation/online only and was no longer to be used after deactivation. These safeguards may well be useful at the start of the product. However, there is no longer any need for this at the end of the product cycle. With regard to addictive design of computer games, I can say from my own experience that computer games in themselves offer a very strong addictive potential. This risk is compounded by various methods, e.g. a ‘game currency’. It is desirable to provide protection for underage users who are particularly vulnerable here. Kind regards,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.833106Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585616.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585616",
+    "chunks_doc_id": "F3585616",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

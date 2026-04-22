@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33070886",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:17Z",
+    "finished_at": "2026-04-14T09:28:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restrict users from installing applications they wish to install"
+              },
+              {
+                "quote": "display a warning when the developer is not verified."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19403,
+          "unit_kind": "feedback"
+        },
+        "text": "I think recent Android efforts to restrict users from installing applications they wish to install (under the argument of \"mandating the app developer to be verified\") is problematic, for developers which do not want to go through a Google-managed process, and for users who own their device, and shouldn't NEED Google's approval to install any application they wish to. Developer verification should not prevent users from using their device the way their wish. A more reasonable (even if still flawed) is the Windows approach to display a warning when the developer is not verified.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.487904Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33070886.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33070886",
+    "chunks_doc_id": "F33070886",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33070886.clean.paragraph.json"
+}

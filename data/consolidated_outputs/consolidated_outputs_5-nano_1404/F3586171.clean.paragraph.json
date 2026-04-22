@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586171",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:28Z",
+    "finished_at": "2026-04-14T12:50:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that depend on online servers or include 'killswitch' DRM code"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Watch before it's gone on [date]"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "access to your content may be revoked at any time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45653,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe this act is a move firmly in the right direction. I think it should also cover predatory practices related to time-limited, licensed content, where this time limited nature is not advertised up-front. This includes video games that depend on online servers or include 'killswitch' DRM code, as well as other digital content like movies and TV series on online streaming services. For video games dependent on online services or DRM, publishers do not advertise the time-limited nature of their products at all, only hiding terms like \"access to your content may be revoked at any time\" in the EULA. Consumers usually find out their game, which they expected to own forever, shuts down with little or even zero notice. Sometimes, publishers make a press release shortly before the online services are shut off, which I believe is vastly insufficient warning. The ideal state would be for publishers to announce the exact length of time a product will be available during purchase, or, if such a date is unknown, a guarantee should be made for the product to not stop working without at least a year's advance notice, which should displayed on storefronts and consumers' game libraries. For streaming services, websites such as Netflix usually only inform the consumer that their streaming licenses are going to expire shortly before the content is taken off the platform, while attempting to push people into watching the content before it's gone. Such notices should be available on all content at all times instead, notifying the user how long the streaming service holds a license for such content. This notice should not push the user to watch the content with phrases like \"Watch before it's gone on [date]\", or using attention-drawing UI elements if the expiry date is close.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.130985Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586171.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586171",
+    "chunks_doc_id": "F3586171",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

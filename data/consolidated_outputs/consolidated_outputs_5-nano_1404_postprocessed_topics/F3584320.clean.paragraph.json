@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584320",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:03Z",
+    "finished_at": "2026-04-14T11:55:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect their right to actually own the game that they bought"
+              },
+              {
+                "quote": "turn off its servers"
+              },
+              {
+                "quote": "even single players games are often only able to be played, if you are connected to the games server"
+              },
+              {
+                "quote": "There are already hundreds if not thousands of games that are not playble anymore, even if you have bought it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28677,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i would be very gratefull if the Digital Fairness Acts were to include the protection of video games. As one can see with the \"Stop Destroying Videogames\" initiative, well over a million people are hoping to protect their right to actually own the game that they bought. That includes beeing able to play the game even when the games publishers decide to turn off its servers. This is more important then ever, because the industry is heavily leaning to live services games at the moment. However, even single players games are often only able to be played, if you are connected to the games server. There are already hundreds if not thousands of games that are not playble anymore, even if you have bought it. Some of these games are art pieces that became culture and isn't it important to preserve art in all forms? Thank you for reading and giving us the oportunity to give feedback, its very much appreciated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.176492Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584320.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584320",
+    "chunks_doc_id": "F3584320",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584320.clean.paragraph.json"
+}

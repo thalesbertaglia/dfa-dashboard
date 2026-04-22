@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588680",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:57Z",
+    "finished_at": "2026-04-14T13:25:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry shutting down games if they are not successful enough"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "2. Company visa dictating what sites and stores can and cannot sell otherwise they wont do business with the company."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26807,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi I would like to address a few concerning topics that are rising up in the world 1. video game industry shutting down games if they are not successful enough that the consumer played full price usually 60. They can kill a game in 2 months if they deem it so. As a consumer you should own the thing you pay for (services excluded). Imagine that you buy a car and the company decides they will make an new model and shut down your car and say don't worry just buy our new car and they don't let you sell your old car. 2. Company visa dictating what sites and stores can and cannot sell otherwise they wont do business with the company. Visa has dictated to multiple companies if they sell stuff they deem un ethical (not illegal) the company cant use visa. example (only fans can't show certain stuff because visa said so. the list in longer i just don't know about the details) Sorry for a not well spoken letter English is not my first language",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.670108Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588680.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588680",
+    "chunks_doc_id": "F3588680",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588680.clean.paragraph.json"
+}

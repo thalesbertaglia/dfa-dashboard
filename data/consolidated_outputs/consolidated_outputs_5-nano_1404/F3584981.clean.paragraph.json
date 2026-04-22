@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584981",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:03Z",
+    "finished_at": "2026-04-14T12:17:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include a stop for computer game companies to just take my bought games away."
+              },
+              {
+                "quote": "I just don't want to have my game literally killed by a company."
+              },
+              {
+                "quote": "This happens, when a game does rely on a central server."
+              },
+              {
+                "quote": "But when support for the game ends, that also means the central server is shut down, which means, my game is dead."
+              },
+              {
+                "quote": "\"end of life\" plan for the game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16890,
+          "unit_kind": "feedback"
+        },
+        "text": "I love what the \"Digital Fairness Act\" tries to archive. We consumers were always the ones that got the short end of the stick. Digital Companys really try to get away with really consumer unfriendly behavior and it's an up hill battle to keep our rights as consumers. But besides all the good things of the already planed digital fairness act, it would be really great to include a stop for computer game companies to just take my bought games away. I understand, that no company can support a game (and more over an online game) forever. That is not what i am talking about. I just don't want to have my game literally killed by a company. This happens, when a game does rely on a central server. There are many old games that didn't rely on a central server and we can still play them today. But more modern games claim a central server is nescessary. But when support for the game ends, that also means the central server is shut down, which means, my game is dead. Some game companys try to be fair and update the game, so it can be played without a central server when their support endet. But these examples are far and few. But this also shows, that this is possible, at least for some games. I also understand, that it would be hard for companys to rewrite their games not to need a central server. But what i wish for to include the Digital Fairness act, that new games should include an \"end of life\" plan for the game, so it can be played, even after it reached the end of their life cycle and support ends. Thanks for all your hard work!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.536920Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584981.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584981",
+    "chunks_doc_id": "F3584981",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

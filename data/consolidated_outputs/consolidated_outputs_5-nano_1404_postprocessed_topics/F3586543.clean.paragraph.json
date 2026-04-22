@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586543",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:59Z",
+    "finished_at": "2026-04-14T12:59:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game preservation"
+              },
+              {
+                "quote": "Over the years more and more games are being destroyed after some time, lost forever."
+              },
+              {
+                "quote": "that keeps them playable in an acceptable form."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24785,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, i would like to request video game preservation to be included into this act. Over the years more and more games are being destroyed after some time, lost forever. Besides not being playable anymore, i just do not think this is how it should be considering games are considered an art form. Art being destroyed because it does not make any profit anymore is wrong in my opinion. Publishers/Developers should include after life plans into their early planning for games that keeps them playable in an acceptable form. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.279115Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586543.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586543",
+    "chunks_doc_id": "F3586543",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586543.clean.paragraph.json"
+}

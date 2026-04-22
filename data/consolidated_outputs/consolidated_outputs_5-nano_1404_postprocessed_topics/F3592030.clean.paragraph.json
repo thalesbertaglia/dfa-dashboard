@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3592030",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:02Z",
+    "finished_at": "2026-04-14T13:37:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect consumers from losing access to legally purchased video games."
+              },
+              {
+                "quote": "Publishers can deactivate games permanently, even for titles that are entirely single-player, simply by shutting down servers or removing DRM access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14222,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I urge you to include in the Digital Fairness Act provisions that protect consumers from losing access to legally purchased video games. Today, publishers can deactivate games permanently, even for titles that are entirely single-player, simply by shutting down servers or removing DRM access. This practice leaves consumers with unusable software despite having paid full price and legally owning a copy. A growing movement, #StopKillingGames, calls attention to this issue. Its not just about nostalgia its about digital ownership and fair use. What should be included: Mandatory end-of-life plans for digital games: Publishers should be required to: Maintain offline access where possible, Allow private server hosting to keep multiplayer functionality alive, Or offer a refund when continued use is no longer possible. Developer obligations during development: Games should be built with end-of-life in mind including the technical ability to enable offline or community-hosted access when official support ends. This issue is closely related to the goals of the Digital Fairness Act ensuring transparency, preventing digital exploitation, and protecting long-term consumer rights. Please ensure that digital products, including video games, are treated with the same fairness as physical goods. What we buy, we should be able to keep. Sincerely, [A concerned EU citizen]",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.902860Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592030.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592030",
+    "chunks_doc_id": "F3592030",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592030.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585940",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:39Z",
+    "finished_at": "2026-04-14T12:42:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the consumer has paid for, but the publishing company decides that the customer does not own the game bought, but only a license to use it for an unspecified amount of time."
+              },
+              {
+                "quote": "the consumer must uninstall and potentially destroy all copies of the game when the company ceases support or the game's \"life cycle\" ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25911,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider including video games that the consumer has paid for, but the publishing company decides that the customer does not own the game bought, but only a license to use it for an unspecified amount of time. Therefore, companies can render a game unplayable according to their whim. Some companies (UBISOFT) even include a clause in the EULA stating that the consumer must uninstall and potentially destroy all copies of the game when the company ceases support or the game's \"life cycle\" ends.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.997293Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585940.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585940",
+    "chunks_doc_id": "F3585940",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585940.clean.paragraph.json"
+}

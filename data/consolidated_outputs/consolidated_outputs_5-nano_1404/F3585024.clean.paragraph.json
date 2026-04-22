@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585024",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:16Z",
+    "finished_at": "2026-04-14T12:18:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many modern games are designed to be rendered inoperable once service by the company ends"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12918,
+          "unit_kind": "feedback"
+        },
+        "text": "The video game industry has grown over the years and has changed rapidly overtime as new technology develops. However, many modern games are designed to be rendered inoperable once service by the company ends, and these games are often being sold to customers without knowledge of whenever the service ends, meaning it could be anywhere between years or mere days. Despite many games having been practically destroyed through being rendered unplayable by methods, the law has not been clear whenever such act is legal or illegal. I hope that the people behind the Digital Fairness Act will take the current state of video games into consideration on their mission to provide better customer protection in digital commerce.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.558634Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585024.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585024",
+    "chunks_doc_id": "F3585024",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

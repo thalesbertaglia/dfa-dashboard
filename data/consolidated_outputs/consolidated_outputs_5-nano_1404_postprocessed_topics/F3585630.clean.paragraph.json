@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585630",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:58Z",
+    "finished_at": "2026-04-14T12:32:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games purchased by consumers."
+              },
+              {
+                "quote": "Many consumers today buy digital games through perpetual licenses, under the reasonable expectation that they are making a lasting purchase."
+              },
+              {
+                "quote": "DRM systems"
+              },
+              {
+                "quote": "When companies discontinue servers or stop maintaining platforms, consumers can permanently lose access to content they have fully paid for despite no fault of their own."
+              },
+              {
+                "quote": "the right to use their purchased games offline or through third-party solutions, provided there is no risk to the companys legitimate commercial interests."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21684,
+          "unit_kind": "feedback"
+        },
+        "text": "I hope this message finds you well. I am writing to express my support for the ongoing efforts to strengthen digital consumer rights in the EU, as highlighted in the Commissions Staff Working Document on the Fitness Check of EU consumer law on digital fairness. I would like to respectfully raise a concern regarding the long-term accessibility of digital games purchased by consumers. Many consumers today buy digital games through perpetual licenses, under the reasonable expectation that they are making a lasting purchase. However, access to these products is often contingent on online authentication, DRM systems, or continued support from service providers. When companies discontinue servers or stop maintaining platforms, consumers can permanently lose access to content they have fully paid for despite no fault of their own. Therefore, I kindly urge the Commission to consider introducing safeguards that guarantee consumers continued use of digital games after service discontinuation. Where a company decides to cease providing online support for a product, consumers should have the right to use their purchased games offline or through third-party solutions, provided there is no risk to the companys legitimate commercial interests.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.841832Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585630.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585630",
+    "chunks_doc_id": "F3585630",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585630.clean.paragraph.json"
+}

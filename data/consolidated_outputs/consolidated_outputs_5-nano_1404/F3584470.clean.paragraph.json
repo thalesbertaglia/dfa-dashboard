@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584470",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:02Z",
+    "finished_at": "2026-04-14T11:59:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gaming is my hobby and I know it is probably not your passion."
+              },
+              {
+                "quote": "I came to this commentary from the StopKillingGames movement."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "And what's more, they remotely deactivate your device so that you're suddenly in the market again for that exact product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31324,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to leave a comment in the support of digital fairness. Currently, companies are handling the wild-west of online exchange of goods rather poorly. Transactions are made, and then products are remotely being disabled, made unusable or actively destroyed. Digital goods, once transferred, should become an ownable product by the consumer. We don't need permanent ownership. Even if we buy a digital good for a limited time (like a service) that would be fine. But the product aught to tell us what is being bought before it is acquired. Whilst I know this act does not initially include games specifically, nor end of life plans for games. I do think that the world could do with some new legislation on the ownership of digital goods. I came to this commentary from the StopKillingGames movement. I support this movement because I have lost some digital properties that were very dear to me. Gaming is my hobby and I know it is probably not your passion. So I will try and paint a scenario: You buy a mixer in your kitchen. A microwave oven or a GPS for your car. A great product that has a marketed warranty of a few years. These are purchases that you consider alternatives of before you buy them. And then you buy it. Preferably at a store which you expect to survive the two year warranty period and has decent reviews for their support department. If anything goes wrong, you're covered. Then three months after buying your product, the manufacturer creates the new device. It's slightly more shiny, slightly bigger, slightly more functional. And what's more, they remotely deactivate your device so that you're suddenly in the market again for that exact product. Look, we don't need products that never die. That's impossible and not something we can ask companies for realistically. If I made a game today, thinking about what happens to it in 5 years time is the smallest worry I would have. But once a product is ready for the market, it would be very important for me to know how long I can expect this product to work. Once that is the case, I would vote with my money and go to a competitor if what they were offering would not suit me. I thank you for your time and hope that my commentary has helped. I consider our neck of the woods one of the more forward thinking ones in the world, and the robbing of digital products from my own library is an injustice I would see rectified.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.248457Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584470.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584470",
+    "chunks_doc_id": "F3584470",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

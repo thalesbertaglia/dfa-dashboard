@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585987",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:49Z",
+    "finished_at": "2026-04-14T12:43:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Digital Preservation",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Art or any creative form should be preserved"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16728,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Madam/Sir, I have enjoyed digital art since its very inception. That is since computer inception. Stories, images, art and music have since been lost to time because the medium has been treated as \"throw away\". Count from 1985 and forward in my case. This is an immense travesty. Art or any creative form should be preserved with the same fervor as any other that is rightfully guarded by EU standards. Are we to be selective in what we consider \"good\" vs \"bad\" or should we work to preserve and make sure more eyes in the future can learn from what has been accumulated in the past? I strongly advocate for the latter. I hope you do to. Thank you for your consideration. A concerned EU citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.022775Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585987.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585987",
+    "chunks_doc_id": "F3585987",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585987.clean.paragraph.json"
+}

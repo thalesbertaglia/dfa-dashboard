@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586970",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:56Z",
+    "finished_at": "2026-04-14T13:07:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Hey, I think the digital fairness act should include video games so our games wont get destroyed by the creators when they are done with them."
+              },
+              {
+                "quote": "be easily handed over to the community"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22782,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey, I think the digital fairness act should include video games so our games wont get destroyed by the creators when they are done with them. Many games like \"The Crew\" which is a car game I owned back when it was still alive can very much run as a single player game or be easily handed over to the community and I feel robbed from that experience since I spent 50-60 dollars on that game for it to be taken away. I had lots of good memories from that game with my grandpa and I wish the digital fairness act could include to preserve video games too.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.398476Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586970.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586970",
+    "chunks_doc_id": "F3586970",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586970.clean.paragraph.json"
+}

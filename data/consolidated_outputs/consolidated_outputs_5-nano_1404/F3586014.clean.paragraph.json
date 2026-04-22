@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586014",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:45Z",
+    "finished_at": "2026-04-14T12:44:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game distribution services like itch.io"
+              },
+              {
+                "quote": "a different issue is considering ownership of games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some companies write in their EULA that they reserve the right to revoke access to media/devices for any reason."
+              },
+              {
+                "quote": "i find that statements like these in EULA's are anti consumer and would like them to not be allowed to be used for the purposes of bricking functional devices and revoking access to media bought by the consumer."
+              },
+              {
+                "quote": "these issues occur because these devices/media require a connection to a server hosted by the publisher/manufacturer and if that connection is severed the bought device/media ends up completely useless."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45546,
+          "unit_kind": "feedback"
+        },
+        "text": "in recent times i have seen payment processors flex their near monopoly to restrict different media sold on certain platforms such as anime sites in japan or recently with video game distribution services like itch.io i would prefer not to have a company like mastercard or paypal decide what is and isn't available for purchase online i hope this issue could be addressed by any modifications to this act a different issue is considering ownership of games other digital media and or physical devices. some of these different things are having issues where a legally bought item/copy is rendered inaccessible or unusable through a process of \"bricking\" for physical devices or end of support for digital media. these issues occur because these devices/media require a connection to a server hosted by the publisher/manufacturer and if that connection is severed the bought device/media ends up completely useless. some companies write in their EULA that they reserve the right to revoke access to media/devices for any reason. i find that statements like these in EULA's are anti consumer and would like them to not be allowed to be used for the purposes of bricking functional devices and revoking access to media bought by the consumer. further when publishers/manufacturers decide they no longer want to support servers for a device/media that they set up a reasonable method to allow support of a device/media to be taken over by the public or to no longer require server support for that device/media. and thus prevent that media/device from being rendered useless without a recourse for the consumer. i hope my concerns might be addressed withing this act",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.036283Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586014.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586014",
+    "chunks_doc_id": "F3586014",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

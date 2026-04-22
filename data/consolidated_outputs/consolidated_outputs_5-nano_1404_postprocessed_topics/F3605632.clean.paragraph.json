@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3605632",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:33Z",
+    "finished_at": "2026-04-14T13:41:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "To date, more than 300 individual video games have been rendered unplayable simply due to publisher actions, with no recourse for consumers."
+              },
+              {
+                "quote": "Consumers are also not informed before or after purchase when access to the product they have purchased could or will end."
+              },
+              {
+                "quote": "and this includes video games being permanently and unfairly deprived from paying customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16640,
+          "unit_kind": "feedback"
+        },
+        "text": "Modern business practices by publishers in the space of digital distribution of video games has led to thousands of consumers being permanently deprived of their already purchased products across the EU, when this was not previously an issue in the era of physical distribution. To date, more than 300 individual video games have been rendered unplayable simply due to publisher actions, with no recourse for consumers. Consumers are also not informed before or after purchase when access to the product they have purchased could or will end. This is a clear example of planned obsolescence and is an unfair and entirely avoidable malicious commercial practice that I believe should be investigated and acted upon by the commission. The massive success of the \"Stop Killing Games\" movement with over one million signatures for the \"Stop Destroying Videogames\" initiative shows that this is an issue that is highly important to consumers within the EU and beyond, and I believe the Digital Fairness Act would benefit consumers by also focusing on this issue. In the digital era that we live in it is imperative that consumer protections are applied equally and fairly across all digital goods and services, just as they are with physical goods and services, and this includes video games being permanently and unfairly deprived from paying customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.002428Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605632.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605632",
+    "chunks_doc_id": "F3605632",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3605632.clean.paragraph.json"
+}

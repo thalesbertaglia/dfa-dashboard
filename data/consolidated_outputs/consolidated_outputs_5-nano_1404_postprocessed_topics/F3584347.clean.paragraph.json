@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584347",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:49Z",
+    "finished_at": "2026-04-14T11:56:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are uniquely vulnerable to remotely being disabled by developers or publishers that no longer have financial incentives to support a video game they sold as a product, but chose to operate as a service."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can also chose to through server dependencies, silently remove features of the product after sale."
+              },
+              {
+                "quote": "Consumers deserve clear and prominent disclosure WHEN online features are scheduled to end - as well as a route for owners of the video game to take that can restore or replace the functionality they are disabling, when they chose or plan to end it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26301,
+          "unit_kind": "feedback"
+        },
+        "text": "Please include video games explicitly in the Digital Fairness Act. Games are uniquely vulnerable to remotely being disabled by developers or publishers that no longer have financial incentives to support a video game they sold as a product, but chose to operate as a service. I was personally affected when a friend and I both bought a copy of Kane & Lynch on Xbox 360, marketed for twoplayer coop, only to find it unplayable because the servers had been shut down with no visible warning. Video games are cultural works and purchased products; their core functionality should be protected alongside other digital goods. They can also chose to through server dependencies, silently remove features of the product after sale. Consumers deserve clear and prominent disclosure WHEN online features are scheduled to end - as well as a route for owners of the video game to take that can restore or replace the functionality they are disabling, when they chose or plan to end it. (For example, offline patches or peertopeer options like dedicated server support - as opposed to purely publisher/developer reliant matchmaking servers.) If they are not willing to air refunds when thats not possible; the owners should be given legal permission for preservation, interoperability, and community/server replacements once official services cease.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.189797Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584347.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584347",
+    "chunks_doc_id": "F3584347",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584347.clean.paragraph.json"
+}

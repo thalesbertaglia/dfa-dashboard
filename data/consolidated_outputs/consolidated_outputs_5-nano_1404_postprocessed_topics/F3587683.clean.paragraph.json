@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587683",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:52Z",
+    "finished_at": "2026-04-14T13:20:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies and governments are benefiting on data that is being collected from everyone."
+              },
+              {
+                "quote": "This is often done without concent."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22252,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be nice that software is also protected. If I have paid for something, I should be able to use the product even when support has at ended. It would be just at my own risk. It is not uncommon to have old operating systems running in some critical software as update would cause too many problems and newer software isn't even suitable for the purpose. This same would apply also for videogames and other software. Other thing that must be protected is privacy. Companies and governments are benefiting on data that is being collected from everyone. This is often done without concent. Privacy should be something taken for granted. No one is following me in real life and constantly noting what I am doing and where I am going. That would be stalking and illegal. Why would this be allowed online and with software? It makes no sense.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.567179Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587683.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587683",
+    "chunks_doc_id": "F3587683",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587683.clean.paragraph.json"
+}

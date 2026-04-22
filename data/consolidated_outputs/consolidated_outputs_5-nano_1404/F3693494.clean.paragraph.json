@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3693494",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:02Z",
+    "finished_at": "2026-04-14T13:46:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it force devs to pay google"
+              },
+              {
+                "quote": "google can pick and choose to cener them by not giveing it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17339,
+          "unit_kind": "feedback"
+        },
+        "text": "Google prohibiting apps to be installed in android anything other than from Play Store (google's app store) or verified as a developer by paying google, giving their (developer's) personal information and hoping they would consider their app this in my opinion is the work of a monply just like apple it force devs to pay google and google can pick and choose to cener them by not giveing it",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.097237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3693494.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3693494",
+    "chunks_doc_id": "F3693494",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586527",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:35Z",
+    "finished_at": "2026-04-14T12:59:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that require a constant online Internet connection"
+              },
+              {
+                "quote": "publishers of these games are entitled to take down a game and effectively prevent anyone from accessing their purchased game whenever they wish."
+              },
+              {
+                "quote": "This should not be allowed, as a purchase of a product, whether digital or not, should allow me to access it whenever I wish."
+              },
+              {
+                "quote": "stop companies from killing games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27062,
+          "unit_kind": "feedback"
+        },
+        "text": "For far too long digital companies have been selling products as a digital license, withholding the right to take it away at any time they wish. For video games that require a constant online Internet connection this means that publishers of these games are entitled to take down a game and effectively prevent anyone from accessing their purchased game whenever they wish. This should not be allowed, as a purchase of a product, whether digital or not, should allow me to access it whenever I wish. I and many others wish that the Digital Fairness Act would include legislation about this practice of tearing away access to rightfully purchased video games and stop companies from killing games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.271520Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586527.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586527",
+    "chunks_doc_id": "F3586527",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

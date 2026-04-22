@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586295",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:07Z",
+    "finished_at": "2026-04-14T12:53:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29030,
+          "unit_kind": "feedback"
+        },
+        "text": "As a person that has played games for the majority of my life this is definitely an issue I find important, not only to make sure offline and online are treated the same consumers but to stop video game companies from thinking it is ok to continue to create games, charge people for them and shut that game down or otherwise cut the support for the game and not offer refunds. The main benefits for me personally are that I would like to OWN what I purchased with my own money. Like a dvd or music disc, just because I'm downloading files instead does not mean I shouldnt be allowed to own my games or at the very least the company that made the game should put effort into continuous support or a means of playing a game after it's \"use-by\" date has passed. I am confident that this proposed act will help combat piracy as well. As a consumer will not resolve to stealing the game that has been shut down, disabled or made unplayable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.192395Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586295.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586295",
+    "chunks_doc_id": "F3586295",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

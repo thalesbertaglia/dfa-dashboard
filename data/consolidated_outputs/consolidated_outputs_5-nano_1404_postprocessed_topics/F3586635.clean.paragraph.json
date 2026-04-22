@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586635",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:47Z",
+    "finished_at": "2026-04-14T13:01:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forcing online stores to remove items from sale and to abide by arbitrary rules as to what legal content they can or cannot sell"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers destroying video games which they have previously sold to customers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25139,
+          "unit_kind": "feedback"
+        },
+        "text": "While I broadly agree with the proposed legislation, I want to bring up two other current issues with digital services in Europe, which really need further consumer protections. The first is regarding the recent incidents of payment processors such as Stripe, Visa, and MasterCard forcing online stores to remove items from sale and to abide by arbitrary rules as to what legal content they can or cannot sell, which recently hit online storefronts such as Steam and Itch.io. The payment processors pushed these new rule in response to lobbying by religious zealots in Australia who are seeking to curtail art that depicts serious/adult themes or LGBTQ+ content. We need legislation that forbids any payment processor operating in Europe from setting rules on what legal content may be purchased through them. With most transactions in Europe now going through these payment processors, they should not have that kind of power over our citizens. The second is regarding the current practice of video game publishers destroying video games which they have previously sold to customers, both destroying valuable art and robbing customers of their legally-purchased goods. We need legislation that forces these companies to leave the games that they have sold to consumers in a usable state after support ends, instead of outright destroying them. Such legislation would address the recent EU Citizens Initiative calling for and end to these unfair practices, which recently garnered over 1 million signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.304324Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586635.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586635",
+    "chunks_doc_id": "F3586635",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586635.clean.paragraph.json"
+}

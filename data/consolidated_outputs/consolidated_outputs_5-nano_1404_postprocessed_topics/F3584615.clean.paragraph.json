@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584615",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:50Z",
+    "finished_at": "2026-04-14T12:04:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A matter of ownership should be considered for this act- ex as in video games or other products that are already sold as a whole product with no added obligations or conditions and then made unavailable or unusable by provider at their discretion."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory uses of digital ownership and should be stopped."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39421,
+          "unit_kind": "feedback"
+        },
+        "text": "A matter of ownership should be considered for this act- ex as in video games or other products that are already sold as a whole product with no added obligations or conditions and then made unavailable or unusable by provider at their discretion. Game publisher companies are already selling products and then denying access to purchased material and even demanding to destroy physicial copies of owned products. It's like a fridge manufacturer would demand to throw out the fridge you bought and are using because they discontinued its production. It can also spread to other media like movies produced and bought could be periodically withdrawed and then companies demand them to be bought again at their discretion. Practices like that are predatory uses of digital ownership and should be stopped.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.319357Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584615.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584615",
+    "chunks_doc_id": "F3584615",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584615.clean.paragraph.json"
+}

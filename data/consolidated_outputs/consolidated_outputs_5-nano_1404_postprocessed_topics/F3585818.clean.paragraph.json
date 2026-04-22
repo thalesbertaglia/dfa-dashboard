@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585818",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:31Z",
+    "finished_at": "2026-04-14T12:37:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutting down games and servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14105,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, I pretty much love everything about the Digital Fairness Act. and I believe that a law surrounding video-game longevity/preservation could be a great addition to this Act. I've noticed a trend of game publishers forcefully shutting down games and servers, and in some cases even remove games completely from their customers library. This means that they are preventing their customers, that purchased their product, from using its online component or even completely deleting said product from ones library. To me this feels wrong, to me it seems like they are (partially) taking away a product they sold to their customers, only because it benefits those companies. In my opinion this isn't a consumer friendly practice, it even feels a little bit like theft where they take back the product they sold to their customers without any form of consent, reimbursement, or compensation. I do understand that running and maintaining servers cost those companies a lot of money and that at some point it just isn't feasible to keep those servers running. At some point the amount of players using the online features is just too small to warrant these costs. But in my opinion this shouldn't allow those companies to make it impossible for their customers to completely prevent usage of the bought product. Off-line features should always be accessible for the consumers, because they run on their own hardware. It would also be fair to allow consumers to set up their own game servers to keep a game alive after the companies stop theirs. Effectively turning it in a community run and financed instance of their game. All the while copyright laws and such (I'm no expert on these matters.) continue to apply to protect the intellectual property of the company. Enough rambling, thanks you for reading! Thanks a lot and thanks for your time. Kind regards, Arjan P",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.936435Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585818.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585818",
+    "chunks_doc_id": "F3585818",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585818.clean.paragraph.json"
+}

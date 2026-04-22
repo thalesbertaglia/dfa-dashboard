@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584172",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:03Z",
+    "finished_at": "2026-04-14T11:51:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "turning off servers that host those features or games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13511,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen, I am happy to see the European Union taking strong and decisive steps to combat unfair online practices. I would also really appreciate if the Digital Fairness Act was expanded to include protections for citizens to be able to retain unfettered access to digital products and video games they have already paid for. In hundreds of cases video game companies have cut off access to features of video games or to entire video games from customers who have already paid for them by, for example, turning off servers that host those features or games. This has happened to me personally, two video games i made purchases in (Ace of Spades and Battlefield Play4Free) have been disabled by their parent companies.This is wholly unfair and unacceptable and a citizens' initiative that wishes to combat these unfair practices by the name of Stop Destroying Videogames has accrued 1.4 million signatures. The Digital Fairness Act already touches on the topic of video games and I'd be very grateful if it was expanded to include further protections for customers of digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.109580Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584172.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584172",
+    "chunks_doc_id": "F3584172",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

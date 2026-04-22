@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3710811",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:24Z",
+    "finished_at": "2026-04-14T13:46:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Platform Restrictions On Installing Software",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google and Apple cannot be allowed to dictate what I can or cannot install on a device I bought with my own money."
+              },
+              {
+                "quote": "The idea that I wouldn't be allowed to install whatever software I wanted on my computer is ludicrous"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12835,
+          "unit_kind": "feedback"
+        },
+        "text": "Google and Apple cannot be allowed to dictate what I can or cannot install on a device I bought with my own money. Between iOS and Android they basically got 100% of smartphone market share. The idea that I wouldn't be allowed to install whatever software I wanted on my computer is ludicrous and we must force the same standards on smartphones, which are essentially small computers. They'll say it's for safety but in reality it's because having control over installed software will let them keep even more of the money flowing through the ecosystem. The EU must ensure the freedom of its citizens to install whatever software they want, even if Google isn't happy about it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.104828Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3710811.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3710811",
+    "chunks_doc_id": "F3710811",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

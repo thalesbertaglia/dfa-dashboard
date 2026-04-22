@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586196",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:20Z",
+    "finished_at": "2026-04-14T12:50:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deliberate destruction of video games that consumers have legally purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17599,
+          "unit_kind": "feedback"
+        },
+        "text": "Subject: Protect Consumers from the Destruction of Purchased Video Games I urge the European institutions to take concrete action to stop the deliberate destruction of video games that consumers have legally purchased. I personally own several physical games that only work if I download an update. Once the servers go offline, these updates will no longer be available, and my games will become unusableeven though I paid for them. This is simply unacceptable and unfair to consumers. Hundreds of games have already been lost in this way, and hundreds more are at risk of disappearing in the near future. This is not only a consumer rights issue, but also a cultural and historical loss. The “Stop Killing Games” citizens initiative has already gathered over 1,400,000 signatures, showing how Deep concerned European citizens are about this issue. We call on lawmakers to require that publishers guarantee continued access to purchased gameseven after commercial support ends. Please stand up for consumer rights, respect for digital ownership, and the preservation of our digital heritage.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.146970Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586196.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586196",
+    "chunks_doc_id": "F3586196",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586196.clean.paragraph.json"
+}

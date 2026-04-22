@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3589016",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:56Z",
+    "finished_at": "2026-04-14T13:28:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Stop Killing Games initiative exists to protect consumers from losing access to the digital products theyve paid for."
+              },
+              {
+                "quote": "In today's digital world, more and more games are being sold as \"live services\"meaning they rely on online servers and can be shut down at any time."
+              },
+              {
+                "quote": "When companies choose to shut these games down, players lose access to something they legally purchased, sometimes without warning or compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26750,
+          "unit_kind": "feedback"
+        },
+        "text": "The Stop Killing Games initiative exists to protect consumers from losing access to the digital products theyve paid for. In today's digital world, more and more games are being sold as \"live services\"meaning they rely on online servers and can be shut down at any time. When companies choose to shut these games down, players lose access to something they legally purchased, sometimes without warning or compensation. This is not just inconvenientits unfair. Consumers deserve ownership, not rentals disguised as purchases. People invest their time, money, and passion into these games. Shutting them down breaks trust and undermines the basic rights of customers. Supporting this movement means standing up for digital rights, long-term access, and ethical treatment of consumers in the gaming industry.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.726798Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589016.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589016",
+    "chunks_doc_id": "F3589016",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589016.clean.paragraph.json"
+}

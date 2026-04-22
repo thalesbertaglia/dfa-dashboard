@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584816",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:11:17Z",
+    "finished_at": "2026-04-14T12:11:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Sony push me to register to their PSN service and provide my personal data (it was mandatory)"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "i bought video game \"Helldivers 2\" published by Sony"
+              },
+              {
+                "quote": "Sony decided to remove this game from sale in many european countries (Lithuania as well) and have made PSN unavailable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34041,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm non EU citizen, but i'm permanently living in Lithuania and have lithuanian residence permit. And i faced next situation some time ago: i bought video game \"Helldivers 2\" published by Sony, i pay full price, Sony push me to register to their PSN service and provide my personal data (it was mandatory), but then, just few weeks later, Sony decided to remove this game from sale in many european countries (Lithuania as well) and have made PSN unavailable. which made it impossible to use their product properly. As long as practice like this looks like fraud, maybe Digital Fairness Act may cover such cases somehow. and oblige video game publishers to provide the service if they have taken money",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.450692Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584816.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584816",
+    "chunks_doc_id": "F3584816",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

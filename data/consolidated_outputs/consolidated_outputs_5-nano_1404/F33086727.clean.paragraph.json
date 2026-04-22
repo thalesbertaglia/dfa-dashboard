@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33086727",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:31:44Z",
+    "finished_at": "2026-04-14T09:32:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "permanently disabling video games after sale."
+              },
+              {
+                "quote": "Currently, many video games are sold as purchases but require ongoing server access to function."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18980,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission, I am writing to request that the Digital Fairness Act include protections against publishers permanently disabling video games after sale. Currently, many video games are sold as purchases but require ongoing server access to function. When publishers discontinue these services, consumers lose access to products they have paid for; often without warning or refund. This represents a significant gap in consumer protection for digital goods. This issue aligns closely with the Acts existing concerns about digital fairness and consumer rights. Like other digital products covered by the Act, video games involve significant financial investment from consumers who reasonably expect continued access to their purchases. I respectfully request that the Digital Fairness Act require publishers to: - Provide reasonable end-of-life solutions when discontinuing support (such as offline modes or tools for community-run servers) - Clearly disclose at point of sale if a product requires ongoing server access with no guaranteed duration - Ensure that single-player or offline components remain functional after online services end This protection would ensure fair treatment of consumers in the digital marketplace while supporting long-term game preservation. Thank you for considering this feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.557579Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33086727.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33086727",
+    "chunks_doc_id": "F33086727",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

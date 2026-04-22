@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3700983",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:18Z",
+    "finished_at": "2026-04-14T13:46:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as seen when companies like PlayStation have attempted to delete user purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "locking consumers into closed systems that monetize their data and foster dependence."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Monopolies harm competition and consumer choice by reducing innovation and increasing prices."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "PayPal suspending accounts of creators for vague \"acceptable use\" policy violations, such as those linked to WikiLeaks and some adult content creators."
+              },
+              {
+                "quote": "These actions, based on broad and inconsistently applied content policies, limit free expression and raise concerns about the global influence of a few private financial institutions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31353,
+          "unit_kind": "feedback"
+        },
+        "text": "Googles new policies, which require developers to register their identity, signal a move toward a more closed ecosystem, much like Apple's. While framed as a security measure, this shift could restrict app sideloading, limit consumer choice, and strengthen Google's monopoly by making the Google Play Store the only viable distribution channel. This could stifle innovation and disproportionately harm developers in regions with limited access to Googles services. This trend of \"security\" measures isnt limited to Google. Device manufacturers are increasingly restricting user freedom, locking consumers into closed systems that monetize their data and foster dependence. The shift from owning digital media to leasing licenses further erodes consumer rights, as seen when companies like PlayStation have attempted to delete user purchases. This highlights the need for a regulatory push to ensure digital media is treated as permanent, transferable property. Monopolies harm competition and consumer choice by reducing innovation and increasing prices. This is especially dangerous in sectors like payment processing, where a single companys failure can cause widespread disruption. Private payment processors hold significant power, and their ability to censor or block transactions can severely impact creators and businesses. Examples of this power include PayPal suspending accounts of creators for vague \"acceptable use\" policy violations, such as those linked to WikiLeaks and some adult content creators. Visa and MasterCard have also been involved in freezing donations to political movements, such as the \"Freedom Convoy\" protests, and blocking payments to platforms like Pornhub and certain Japanese manga and anime sites. These actions, based on broad and inconsistently applied content policies, limit free expression and raise concerns about the global influence of a few private financial institutions.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.101928Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3700983.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3700983",
+    "chunks_doc_id": "F3700983",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

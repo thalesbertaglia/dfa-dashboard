@@ -1,0 +1,105 @@
+{
+  "doc_id": "F33095751",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:21:21Z",
+    "finished_at": "2026-04-14T10:22:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One of the stated objectives of the Digital Fairness Act is to prevent traders from deceiving and manipulating customers online."
+              },
+              {
+                "quote": "illusion of ownership."
+              },
+              {
+                "quote": "baiting customers with a good product and then end up making the product worse or completely revoking access to it."
+              },
+              {
+                "quote": "what company's are currently doing is very manipulative and anti consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the game \"Overwatch\", similar to \"The Crew\", access to the first game was revoked and a new title released, forcing players to loose everything they had in the previous game."
+              },
+              {
+                "quote": "\"Counter-Strike 2\", the previous title was not made unplayable, it remains playable with the only change being that you can now only play on community servers."
+              },
+              {
+                "quote": "Nest Secure was a complete home security system, and now those devices have turned into very expensive paperweights, e-waste, which the EU should be fighting."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you never truly purchased the chair, you only bought a license that allowed you to use it."
+              },
+              {
+                "quote": "A single payment indicates ownership, and as such should be respected by granting the customer indefinite access to their product as it was at the time of its purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 59476,
+          "unit_kind": "feedback"
+        },
+        "text": "As a Computer Science graduate from the University of Vienna, I would like to provide feedback on the Digital Fairness Act. One of the stated objectives of the Digital Fairness Act is to prevent traders from deceiving and manipulating customers online. One such manipulation tactic that is increasingly being used with software - and even making its way into more and more physical devices - is the illusion of ownership. When a customer makes a one-time payment for a product, the average consumer expects that they own what they purchased. This applies to both software and physical devices, like a chair or a fridge. However, with the rise of smart devices, more and more companies are baiting customers with a good product and then end up making the product worse or completely revoking access to it. Imagine Ikea walking into your home and removing one of the legs of your chair, something they claim they can do simply because you never truly purchased the chair, you only bought a license that allowed you to use it. Of course, at the moment this is not the case, however it is the direction that we are currently moving in. Imagine your smart fridge suddenly starts to display Advertisements and you can't disable them, similarly to the removal of the chair leg you may claim that this is also not realistic and that no company would ever do such a thing - only that you don't have to imagine, Samsung already did this: https://www.tomsguide.com/home/home-appliances/samsungs-smart-fridge-will-start-showing-ads-and-you-cant-disable-them. We would not let a company take our chair legs, yet this is being tolerated? The smart fridge example shows a product being degraded. In many other cases, the product is completely taken away from the customer. If Ikea went into your home and took your chair away they would be committing a crime. Yet, as many other feedbacks to the Digital Fairness Act are highlighting, when Ubisoft did it with \"The Crew\" nobody was sent to prison. Again, if companies started stealing our chairs we would riot, yet shutting down servers and removing access to purchased software is being tolerated. A similar example that friends of mine are affected by is the game \"Overwatch\", similar to \"The Crew\", access to the first game was revoked and a new title released, forcing players to loose everything they had in the previous game. A counter example to this is how Valve handled the release of \"Counter-Strike 2\", the previous title was not made unplayable, it remains playable with the only change being that you can now only play on community servers. This is the route that every seller should be forced to use - if your product requires a server for full functionality, options for self-hosting need to be provided if the seller is no longer able to. Products no longer being usable because the seller behind it is no longer able/willing to keep servers running is not an issue restricted to video-games, take as an example Google Nest Secure (2023 shutdown). Nest Secure was a complete home security system, and now those devices have turned into very expensive paperweights, e-waste, which the EU should be fighting. The Digital Fairness Act should take this into account, what company's are currently doing is very manipulative and anti consumer. A single payment indicates ownership, and as such should be respected by granting the customer indefinite access to their product as it was at the time of its purchase. In the modern world we are surrounded by smart devices, all of which depend on a server somewhere, any product you purchase that is unable to work without a server run by some company is not something that you can rely on. No matter how large or reputable a company may be, it could decide tomorrow to shut down the entire service - effectively legally stealing the product from its customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.775848Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095751.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095751",
+    "chunks_doc_id": "F33095751",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095751.clean.paragraph.json"
+}

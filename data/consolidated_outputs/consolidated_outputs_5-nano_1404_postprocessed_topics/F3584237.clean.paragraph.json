@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584237",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:58Z",
+    "finished_at": "2026-04-14T11:53:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading or mistreating customers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22010,
+          "unit_kind": "feedback"
+        },
+        "text": "I would greatly appreciate it if it were considered to add video games to the Digital Fairness Act, as there have been many cases of high profile game distributors and development studios misleading or mistreating customers over the last decade. Currently, many games are sold as if they are products, but are treated as services, with publishers and developers able to remove access to the game at any moment and for any reason.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.138631Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584237.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584237",
+    "chunks_doc_id": "F3584237",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584237.clean.paragraph.json"
+}

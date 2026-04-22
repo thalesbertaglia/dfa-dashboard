@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3601221",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:45Z",
+    "finished_at": "2026-04-14T13:41:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the manufacturer forces the online connection if the customer wants to collect data."
+              },
+              {
+                "quote": "the system MUST be regularly online in order, for example, to be able to play unquestioned updates, otherwise there is a risk of deactivation."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to also link productivity software or devices (e.g. for smart home applications) to an online force or to transmit unrequested data."
+              },
+              {
+                "quote": "the information was not disclosed before sale."
+              },
+              {
+                "quote": "the customer is monitored and the devices are not tampered with."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the meantime, both products can only be obtained in a ‘abo’ model (for products such as Lightroom, where access to personal data/projects depends on the licence, I am rather talking about a protection money model)"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Such rental models should then also have to be designated as such before the law – for the landlord this also comes with obligations, which is why the large groups then avoid the term in all circumstances and re-define very creative terms as you are surrounded by."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46704,
+          "unit_kind": "feedback"
+        },
+        "text": "I see the problem much more extensively than specifically limited to games. Over the last few years, there has been a very cumbersome trend to also link productivity software or devices (e.g. for smart home applications) to an online force or to transmit unrequested data. I do not accept this trend as far as possible, but I also have a few products in use, partly because of the lack of alternatives, partly because the information was not disclosed before sale. To give you some examples: The DEYE inverter Scandal: Apart from the fraud per se, the manufacturer forces the online connection if the customer wants to collect data. However, as part of this online connection, the customer is monitored and the devices are not tampered with. The Chinese manufacturer has already switched off the products. This is indiscutable! The Windows operating system increasingly restricts the user: Since Windows 10 there has been an online coercion, i.e. the system MUST be regularly online in order, for example, to be able to play unquestioned updates, otherwise there is a risk of deactivation. For example, a measurement site disconnected from the network, where private data are retained, is unacceptable. To my knowledge, Windows 11 is about to roll out an update that will no longer have local user accounts. This makes it completely impossible to deploy offline. Two of the few productivity products with activation force I am still in use are Adobe Lightroom and Adobe Photoshop. In the meantime, both products can only be obtained in a ‘abo’ model (for products such as Lightroom, where access to personal data/projects depends on the licence, I am rather talking about a protection money model), which I didn’t do with. However, the problem remains that if activation servers are switched off (in the case of my photoshop licence for the Mac) the product is no longer deactivated or activated! The use of the ventilation system of my house, which was renovated five years ago, depends on the availability of the Android or iOS application of the system. An open version for common standards (e.g. Windows/MacOS/Linux version or better than a pure browser application) is NOT offered. With a planned useful life > 20 years, the permanent availability of proprietary and fast-moving hardware is a serious problem. In the US, it is already common practice that customers are suddenly cut off their products, e.g. through firmware updates, and are returned only in exchange for protection money (‘bo’ models which were never part of the contract at the time of purchase). For the rest: Such rental models should then also have to be designated as such before the law – for the landlord this also comes with obligations, which is why the large groups then avoid the term in all circumstances and re-define very creative terms as you are surrounded by. This practice must never erupt in the EU, and there is a need for clear laws against this kind of anti-consumer behaviour. Games are ultimately only the tip of the iceberg...",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.987326Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3601221.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3601221",
+    "chunks_doc_id": "F3601221",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

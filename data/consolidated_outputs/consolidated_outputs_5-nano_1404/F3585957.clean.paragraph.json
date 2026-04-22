@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585957",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:00Z",
+    "finished_at": "2026-04-14T12:42:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When I buy a digital only video game I can't resell it because it is permanently tied to my user account."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15861,
+          "unit_kind": "feedback"
+        },
+        "text": "Please look into the issue of reselling digitally purchased software. For example, when I buy a physical release of a video game I can play it and once I am done with it I can sell it on a second-hand market. This is the norm for retro software and this is how the market operates for these games. When I buy a digital only video game I can't resell it because it is permanently tied to my user account. Usually my only recourse is to sell the whole user account, which also contains games that I want to keep.I am completely at the mercy of the digital game store. I do not understand where this distinction comes from and why is the first case okay while the second one is not. I feel like this setup gives unnecessary protection to game stores like Steam, Epic Store or GOG while robbing the clients of the ability to resell the games they've had back when physical releases were the norm. This kind of restriction is unnatural and makes zero sense. It is akin to being unable to sell the a book you own unless you sell the entire bookshelf.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.005569Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585957.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585957",
+    "chunks_doc_id": "F3585957",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

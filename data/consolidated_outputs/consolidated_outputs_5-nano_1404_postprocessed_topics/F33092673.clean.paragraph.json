@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33092673",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:55Z",
+    "finished_at": "2026-04-14T09:37:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many android apps requiring my smartphone to be connected to a google account and pass google's \"Safety Net\" checks."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "My copy of the game is rendered unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I wish Publishers would be required to at least compensate people who bought a copy or better, deliver a final patch that the game could be played without the features that relied on the server."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36741,
+          "unit_kind": "feedback"
+        },
+        "text": "A trend I noticed is many android apps requiring my smartphone to be connected to a google account and pass google's \"Safety Net\" checks. As I use an older Phone with a Custom Android Version I seem to not pass these tests. I see the requirement to validate the execution environment on my phone for important apps, like Banking, but it gets ridiculous when my gym apps refuses to run. I fear to at somepoint be locked out of real world services, just because I refuse to always buy the newest phone. I see it as unfair that I am refused service because Google decided thats the way it is, no reason given. Similar I feel exposed to Videogame Companies and Publishers. When a Publisher decides a game, that requires an essential Server on their side, will be discontinued all players loos access. My copy of the game is rendered unusable. I wish Publishers would be required to at least compensate people who bought a copy or better, deliver a final patch that the game could be played without the features that relied on the server. (or even better, the company would have an end of live plan to release the sources to the server, so the community could create their own).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.611065Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092673.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092673",
+    "chunks_doc_id": "F33092673",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33092673.clean.paragraph.json"
+}

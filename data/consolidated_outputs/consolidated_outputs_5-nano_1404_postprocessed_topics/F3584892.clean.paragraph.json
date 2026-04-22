@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584892",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:42Z",
+    "finished_at": "2026-04-14T12:14:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Secondly should take into consideration the issue of ownership of digital goods, specifically games."
+              },
+              {
+                "quote": "Many games are being sold as goods but are handled by their publisher as services, making them unplayable as soon as support for them ends."
+              },
+              {
+                "quote": "The consumer's right to own and play a game even after support from the publisher has ended should strengthened."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22155,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to ask you to take two additional things into consideration for this act: First payment processors like Stripe, PayPal, Authorize.net, Square and credit card networks like Visa and Mastercard and other services involved in facilitating online payments should not be allowed to decide who does and does not get to make money. They have a de facto monopoly and have been abusing their position for years. Visa is already being sued in the U.S. by the Department of Justice for nearly having a monopoly on debit cards. It should be illegal for them to ban individuals and companies from using their services unless directly ordered by law enforcement. Furthermore they should not be allowed to make their decisions on supposed \"risk assessment\" completely opaque by claiming them to be trade secrets. Secondly should take into consideration the issue of ownership of digital goods, specifically games. Many games are being sold as goods but are handled by their publisher as services, making them unplayable as soon as support for them ends. The consumer's right to own and play a game even after support from the publisher has ended should strengthened. There's already a European Citizens' Initiative with over 1.4 million signatures in support of this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.487428Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584892.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584892",
+    "chunks_doc_id": "F3584892",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584892.clean.paragraph.json"
+}

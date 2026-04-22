@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584268",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:42Z",
+    "finished_at": "2026-04-14T11:54:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to the video game market."
+              },
+              {
+                "quote": "give us the means to host our own."
+              },
+              {
+                "quote": "it's okay to no longer have official servers after the end-of-life period for a game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29741,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe this act is excellent, and I would like to see it extended to the video game market. Because all we are asking is for products we paid for not to be taken away. If I were to compare video games to cars, we are not asking for warranties to be extended or even spare parts to continue to be produced; the community proved time and time again that they are more than capable to do that themselves, we would like to not have that car taken away from us at the end of its lifecycle and for the manufacturer to give us the instruction on how to make those spare parts that are no longer available through official channels. Let us use our games; support doesn't necessarily mean actively maintaining said game, just giving us the means to maintain it ourselves. For example, it's okay to no longer have official servers after the end-of-life period for a game, but at least give us the means to host our own. If you just take a look at some games that have ended their lifecycle, you can see that passionate communities are playing and using them, no problem, as long as the games themselves aren't taken away. Examples of this include, but are not limited to, games like Titanfall 2 and Super Smash Bros. Melee. These games are still being actively played by people even though they are no longer 'supported'. And I think this is the essence of what Digital Fairness should be in gaming. I think this act is a step in the right direction and would be even more so if implemented in the spirit of what I stated above.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.153013Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584268.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584268",
+    "chunks_doc_id": "F3584268",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584268.clean.paragraph.json"
+}

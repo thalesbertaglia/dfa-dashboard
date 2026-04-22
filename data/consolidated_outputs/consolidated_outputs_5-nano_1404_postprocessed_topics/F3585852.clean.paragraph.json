@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585852",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:51Z",
+    "finished_at": "2026-04-14T12:39:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe that we are long overdue for some regulation that prevents products from being outright disabled and taken away from consumers."
+              },
+              {
+                "quote": "disable, and sometimes outright remove, games that customers have purchased."
+              },
+              {
+                "quote": "and denying them of any refund or compensation for essentially taking away a good that was purchased"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35828,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like there to be another practice added to the list of patterns being targeted in reference to gaming publishers who disable, and sometimes outright remove, games that customers have purchased. While I understand that some games categorize themselves as services and are sustained by various forms of monetization, I believe that we are long overdue for some regulation that prevents products from being outright disabled and taken away from consumers. There should be some avenue or steps that a publisher must partake to allow people who bought their games to be able to continue playing them past the point when support for the title is sunset. This is not something that be solved equally for every game but many companies have proven that when a title is developed with the mindset that, at some point, the online portion of it will stop being supported, they can allow for the game's core experience to remain playable far past the date when the online services stop working. An example of a company that does this well is From Software who have made some of my favorite games with a strong online component. Thus far, they've made it so on their titles, when online support ends players are still able to keep playing and enjoy it without the online features. In comparison to other publishers who sometimes drop support for an old game and stop players from being able to play them at all to then try to sell them a new version just to be able to keep enjoying their experience and denying them of any refund or compensation for essentially taking away a good that was purchased. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.954411Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585852.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585852",
+    "chunks_doc_id": "F3585852",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585852.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587642",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:24Z",
+    "finished_at": "2026-04-14T13:19:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"Stop Killing Games\" EU initiative, which already has 1.5m signatures."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17844,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi there. As the EU has shown in the past, it cares about consumer rights. So much so that it even bleeds over to other parts of the world. Large industries always seems to find a way to turn the little guy or gal upside down to shake the remaining gold coins out of their pockets. This is where we need you to have our backs. I ask you humbly to add something akin to the \"Stop Killing Games\" EU initiative, which already has 1.5m signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.559167Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587642.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587642",
+    "chunks_doc_id": "F3587642",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

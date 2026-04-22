@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585205",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:36Z",
+    "finished_at": "2026-04-14T12:22:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the current dangerous situation of video games, where developers can effectively scrap a product for which you have paid and believe you own."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12584,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi. I would be very grateful if the EU were to take into account the current dangerous situation of video games, where developers can effectively scrap a product for which you have paid and believe you own. As the world becomes more and more digital, it is time to look at the fairness of the current system to the consumer, including games and other digital products. I have paid for the product and I would appreciate if I could continue to use the product for which I have paid for. This is an initiative for the EU called ‘Stop killing games’ and I am a strong supporter of it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.634597Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585205.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585205",
+    "chunks_doc_id": "F3585205",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

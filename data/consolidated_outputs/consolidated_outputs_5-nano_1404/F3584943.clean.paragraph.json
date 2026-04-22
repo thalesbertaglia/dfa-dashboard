@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584943",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:14Z",
+    "finished_at": "2026-04-14T12:15:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The digital fairness act should cover video games as well, since those are a very major part of digital media."
+              },
+              {
+                "quote": "Seeing as guaranteed ownership of video games that were purchased as a product while being advertised as such is currently under attack by various companies like Ubisoft, this is a step many people deem necessary to protect the consumer rights of EU citizens."
+              },
+              {
+                "quote": "Thus it has become all the more important to include video games in the digital fairness act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22427,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital fairness act should cover video games as well, since those are a very major part of digital media. Seeing as guaranteed ownership of video games that were purchased as a product while being advertised as such is currently under attack by various companies like Ubisoft, this is a step many people deem necessary to protect the consumer rights of EU citizens. Furthermore, the previous initiative to attempt to protect the ownership of video games, \"stop killing games\", has also been under fire by those same companies that are attempting to take away the ownership of products that were previously paid for with no mention of possible removal of ownership in form of false claims and statements about the goals and wishes of the initiative \"stop killing games\". Thus it has become all the more important to include video games in the digital fairness act. This is an issue that should never have arisen, but it can be prevented from becoming dangerous. Thus, I as well as many other EU citizens that are not participating in any measures for various reasons that prohibit them from doing so, demand video games to be included in the digital fairness act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.515519Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584943.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584943",
+    "chunks_doc_id": "F3584943",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

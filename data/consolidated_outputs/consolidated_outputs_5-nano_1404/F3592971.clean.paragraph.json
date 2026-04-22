@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3592971",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:46Z",
+    "finished_at": "2026-04-14T13:39:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "removal of access to a purchased product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14988,
+          "unit_kind": "feedback"
+        },
+        "text": "It is absolutely imperative to protect consumers from game Studios, Publishers and creators in regards to the removal of access to a purchased product. There is an alarming trend where a product purchased can be taken away at any time for any reason due to the creators not wanting to support servers anymore. They also do not allow the consumer to create and host their own private servers to keep games alive after removal by the creators. I urge to EU to make provisions in the Digital Fairness act to protect consumers by making. game creators and hosts provide a way for consumers to keep online and single player games alive by hosting servers locally or privately online. There are numerous examples of Publishers simply killing a game by taking away all sever access, which effectively renders the product unplayable due to requiring online access to servers. The creators also take legal action when private servers are hosted by consumers after pulling support. Additionaly, they will take legal action against those who try to provide ways to keep the game alive after.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.943300Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592971.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592971",
+    "chunks_doc_id": "F3592971",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

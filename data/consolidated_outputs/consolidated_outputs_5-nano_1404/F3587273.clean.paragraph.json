@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587273",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:28Z",
+    "finished_at": "2026-04-14T13:14:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "charged amount was significantly higher, without our consent."
+              },
+              {
+                "quote": "final price will not exceed the range."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24551,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned about misleading pricing practices on Uber when booking third-party taxi services. When requesting a ride, the app shows a price range, leading consumers to reasonably expect that the final price will not exceed the range. However, it happened to us that after the trip, the charged amount was significantly higher, without our consent. There is no room for users to discover this earlier or negotiate. This also appears to conflict with Directive 2005/29/EC on Unfair Commercial Practices, particularly Article 6(1)(d), which prohibits misleading actions regarding the price or how it is calculated. I hope the upcoming Digital Fairness Act would explicitly cover such practices, ensuring that digital platforms cannot exploit pricing ambiguity in this way. I also think it is worth exploring other examples and use cases in which the Unfair Commercial Practices Directive is currently weakened through dark patterns, and should be strengthened in platforms' services.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.488877Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587273.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587273",
+    "chunks_doc_id": "F3587273",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

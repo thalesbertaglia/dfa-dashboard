@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585320",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:06Z",
+    "finished_at": "2026-04-14T12:25:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like this act to ensure that video games - which now are most often purchased from digital stores such as Steam, Epic Games Store, or Itch - not be killed."
+              },
+              {
+                "quote": "Some games require a computer server that is run by the publisher to be able to be played."
+              },
+              {
+                "quote": "When a publisher stops that software from being run ever again, the game is effectively \"killed\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14311,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like this act to ensure that video games - which now are most often purchased from digital stores such as Steam, Epic Games Store, or Itch - not be killed. Some games require a computer server that is run by the publisher to be able to be played. The publisher retains access to the software run by these servers. When a publisher stops that software from being run ever again, the game is effectively \"killed\". It cannot be played. In simple terms, the publisher could release a simplified version of the server software, allowing players to run their own servers at no cost to the publisher. This would allow the game to be preserved, played and studied.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.679806Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585320.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585320",
+    "chunks_doc_id": "F3585320",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585320.clean.paragraph.json"
+}

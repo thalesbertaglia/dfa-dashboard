@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585288",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:26Z",
+    "finished_at": "2026-04-14T12:24:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This has recently happened with a video game made by Ubisoft called \"The Crew\"."
+              },
+              {
+                "quote": "The only online component of it was other players driving around in the same world as you."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The product that I paid 60 euros for with the promise that I will be able to play it whenever I want."
+              },
+              {
+                "quote": "They have announced that they will no longer support the servers and have made the whole game impossible to play."
+              },
+              {
+                "quote": "I am just asking that the products are not allowed to be completely disabled just because their online component does not work."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27345,
+          "unit_kind": "feedback"
+        },
+        "text": "I love what the Digital Fairness Act stands for and it's a great thing for all consumers in the EU. However, I'd like to request that it stretch a little bit more and cover digital goods that were sold to consumers. There are many cases where digital products are sold with a one-time purchase. These products sometimes include an online component that is part of the functionality of the product. However, once the company decides to no longer host the servers required for the online component, they often make the whole product unusable and refuse to refund the customers. This has recently happened with a video game made by Ubisoft called \"The Crew\". I have purchased this game for the full price at launch (I believe it was 60 euros) and the game had a whole single-player experience with a lot of different activities that you could do alone. The only online component of it was other players driving around in the same world as you. Suspiciously around the launch of it's sequel, \"The Crew 2\". They have announced that they will no longer support the servers and have made the whole game impossible to play. This is a product that I paid 60 euros for with the promise that I will be able to play it whenever I want. However, that is no longer possible. I believe this was intentional by Ubisoft. They knew that there will be some players that will continue to play \"The Crew\" and will not purchase \"The Crew 2\". So instead of only disabling their online component and allowing offline play. They made the game in a way that it requires a connection to their servers (which are offline now), to just drive around alone. I would also like to make it clear that I do not wish for the servers to stay online forever (however, allowing self-hosted servers would be nice). I am just asking that the products are not allowed to be completely disabled just because their online component does not work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.668494Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585288.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585288",
+    "chunks_doc_id": "F3585288",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585288.clean.paragraph.json"
+}

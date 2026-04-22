@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585016",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:04Z",
+    "finished_at": "2026-04-14T12:18:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Well, in recent years, there have been numerous examples in the video games industry for continuous online games where servers have been shut down."
+              },
+              {
+                "quote": "This may be due to companies believing that it is not profitable to have the servers open, want to encourage players to move to another game that they have made of the same nature or other reasons."
+              },
+              {
+                "quote": "these games include micro transactions with what they lose access to goods they have paid"
+              },
+              {
+                "quote": "For this reason, I would like to request that the digital fairness act also be applied to video games as well, this would mean that companies would have to plan for games to be played offline even without servers and so hundreds of current games and thousands of future games can be preserved."
+              },
+              {
+                "quote": "video games are a good and an art and should be preserved."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30918,
+          "unit_kind": "feedback"
+        },
+        "text": "Well, in recent years, there have been numerous examples in the video games industry for continuous online games where servers have been shut down. This may be due to companies believing that it is not profitable to have the servers open, want to encourage players to move to another game that they have made of the same nature or other reasons. By doing so, consumers lose a good, most of these games include micro transactions with what they lose access to goods they have paid, and even if they had not done so, art is lost. This art can have worked tens or hundreds of people who have made efforts to create it. Hundreds of games have already been destroyed, in my personal case I have lost some such as ANTHEM (a game of bioma that cannot be played by closing the servers). For this reason, I would like to request that the digital fairness act also be applied to video games as well, this would mean that companies would have to plan for games to be played offline even without servers and so hundreds of current games and thousands of future games can be preserved. Please take this into account, video games are a good and an art and should be preserved.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.554556Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585016.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585016",
+    "chunks_doc_id": "F3585016",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585016.clean.paragraph.json"
+}

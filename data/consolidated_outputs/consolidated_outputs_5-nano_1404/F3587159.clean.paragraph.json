@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587159",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:03Z",
+    "finished_at": "2026-04-14T13:12:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "take your money and then shut down the game that you have bought."
+              },
+              {
+                "quote": "They can and should have plans for making their products, aka games, available in single player mode after they have finished supporting said product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18520,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a petition to save all consumers from big companies that thinks that they can take your money and then shut down the game that you have bought. It is like buying a car and using it for 10 years just to have it repocessed. These big companies need to have check and balances. They have no right to take away your product that you have paid for. They can and should have plans for making their products, aka games, available in single player mode after they have finished supporting said product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.454626Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587159.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587159",
+    "chunks_doc_id": "F3587159",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585152",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:24Z",
+    "finished_at": "2026-04-14T12:21:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames have been a large part of my childhood and I love going back to old titles to replay them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11289,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as you have no doubt also seen in other feedback, I would also like to express my wish to add videogames to this act. Videogames have been a large part of my childhood and I love going back to old titles to replay them. Children today unfortunately might not be as lucky as I am. That's because in todays videogame landscape, live-service games and games requiring a constant connection to official servers are abundant. This means that if a company decides to shut down one such game, there is no way to access it anymore. And this is in spite of the fact that the full asking price has been paid. The consequence of this trend is that in a couple decades most live service games and ones requiring online connection will be unplayable because it is either extremely difficult, and in some cases even prohibited by the developers, to run private servers. Even in cases where games have been revived by their communities after sunsetting, the lack of official support often makes the process of altering the game for that purpose unintuitive and often requires at least intermediate technical skills. I myself have spent considerable time playing games like Genshin Impact and Warframe, both of which require a constant connection to official servers and don't function at all without it. The thought of all that time being wasted and all those memories being inaccessible because someone decided it's not profitable anymore to keep the servers running saddens me deeply and thus it would make me very happy if you would consider my, and many others' proposals. Thank you for reading my feedback to the end and I hope you have a wonderful day!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.616006Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585152.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585152",
+    "chunks_doc_id": "F3585152",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585152.clean.paragraph.json"
+}

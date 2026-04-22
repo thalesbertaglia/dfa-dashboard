@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585146",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:09Z",
+    "finished_at": "2026-04-14T12:21:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'd like you to add a provision which makes it illegal to sell games which can be turned off at any point by the seller."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16143,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm a game developer working in the industry for more than 10 years. I'd like you to add a provision which makes it illegal to sell games which can be turned off at any point by the seller. Technically it includes both the store itself (like Steam) and the developer/publisher. At the moment as far as I'm aware the problem doesn't exist with storefronts because even if they're offline they still allow my customers to start their games. But it's a huge problem when it comes to publishers and developers. Especially when it comes to Massive Multiplayer Online games. If you want more information on the subject please refer to Stop Destroying Video Games EU initiative currently with more than a million signatures behind it. From my side, I'd also like to add the provision extending to store fronts as well - in case they decide in the future to shut down the games my clients had bought from me through the store with their money.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.614075Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585146.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585146",
+    "chunks_doc_id": "F3585146",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585146.clean.paragraph.json"
+}

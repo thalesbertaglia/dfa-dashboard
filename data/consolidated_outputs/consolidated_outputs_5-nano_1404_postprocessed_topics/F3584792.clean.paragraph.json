@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584792",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:20Z",
+    "finished_at": "2026-04-14T12:10:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"video games\""
+              },
+              {
+                "quote": "online-only titles are permanently shut down by publishers"
+              },
+              {
+                "quote": "offline modes"
+              },
+              {
+                "quote": "community-supported servers"
+              },
+              {
+                "quote": "end-of-life plan"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26455,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the \"Digital Fairness Act\" should explicitly include video games, to ensure they remain accessible even after official support ends. Many games, especially online-only titles are permanently shut down by publishers, making them completely unplayable and effectively erasing them from history. This practice not only strips consumers of access to content they legally purchased but also undermines the preservation of digital culture. The law should require that, when games are discontinued, companies provide alternative ways to access or play them, such as offline modes, community-supported servers or offer an end-of-life plan so that the buyer knows at the time of purchase how long they can expect to enjoy the game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.437389Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584792.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584792",
+    "chunks_doc_id": "F3584792",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584792.clean.paragraph.json"
+}

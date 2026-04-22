@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585048",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:50Z",
+    "finished_at": "2026-04-14T12:19:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is currently a major problem that includes video games fully paid by consumers at prices varying between 40-80 or in-game transactions processed via live services, without any possibility of maintenance by third parties and their own buyers."
+              },
+              {
+                "quote": "In most cases, once the servers have been switched off, these games can no longer be launched by consumers."
+              },
+              {
+                "quote": "To keep the option for the consumer, even if the developers themselves can no longer stop in the state, e.g. personal private servers, not completely killed by ‘Online Only’."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27159,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir, Madam, In the coming period, a number of routes have emerged in the large-scale gaming industry, exisiting to the detriment of consumers. There is currently a major problem that includes video games fully paid by consumers at prices varying between 40-80 or in-game transactions processed via live services, without any possibility of maintenance by third parties and their own buyers. In most cases, once the servers have been switched off, these games can no longer be launched by consumers. Attach a pair of video games that are no longer available, even at former full costs: Super Monday Night Combat LOADOUT! The Crew Concord Further examples of games that do not present any option for an End of Life Plan: SPIRAL Knights Sea of thieves Crossout Final Fantasy XIV To keep the option for the consumer, even if the developers themselves can no longer stop in the state, e.g. personal private servers, not completely killed by ‘Online Only’. Thank you for your time and I look forward to a possible positive answer from the Digital Acts Rights. Yours sincerely,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.570586Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585048.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585048",
+    "chunks_doc_id": "F3585048",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585048.clean.paragraph.json"
+}

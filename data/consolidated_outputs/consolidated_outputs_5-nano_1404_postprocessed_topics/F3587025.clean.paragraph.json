@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587025",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:29Z",
+    "finished_at": "2026-04-14T13:09:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              },
+              {
+                "quote": "they query an activation server when installed (which is no longer operated by the manufacturer or is no longer to be answered)"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "computer games, such as ‘Assassin’s Creed Identity’"
+              },
+              {
+                "quote": "are not really playable"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41945,
+          "unit_kind": "feedback"
+        },
+        "text": "With regard to unfair commercial practices related to dark patterns, I would ask you to check whether it is right to make purchased software (i.e. software that has not been rented out) unusable by the manufacturer. For example, it is no longer possible to install/use old Adobe Creative Suites as they query an activation server when installed (which is no longer operated by the manufacturer or is no longer to be answered): https://helpx.adobe.com/creative-suite.html). Similarly, computer games, such as ‘Assassin’s Creed Identity’, which can still be launched without a server, are not really playable (it is fixed at the first obstacle/counterfeit until the server no longer reaches a signal to pass on). The price of the software (and additional content/extension modules) has therefore been lost for me. The last remaining alternative to use the software would be for me to modify the software by third parties, but as things stand, this would not be legal (as in principle nothing other than hacking). The aim of the manufacturers is probably to buy similar new products from them, but as I did not have to get a temporary version of the software when I bought it, I feel that this was the case. For me, it would be fair if manufacturers were either obliged to provide a patch at the end of the support that removes that online force, or changes the laws to allow developers to legally modify software once the ‘support period’ has expired, in order to remove such online constraints on their own.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.415195Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587025.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587025",
+    "chunks_doc_id": "F3587025",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587025.clean.paragraph.json"
+}

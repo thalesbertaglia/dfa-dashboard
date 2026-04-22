@@ -1,0 +1,111 @@
+{
+  "doc_id": "F3586054",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:07Z",
+    "finished_at": "2026-04-14T12:46:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I feel like there may be some valid reasons to use personalise content like adds based on customer's \"vulnerable\" characteristics."
+              },
+              {
+                "quote": "advertisers having access to such information in the first place"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there should be a ban on companies listing monthly prices for subscriptions where the subscription is not paid monthly."
+              },
+              {
+                "quote": "prominently displaying a price of 5 a month, when the service is actually charging 60 a year."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This probably counts as a dark pattern"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there should be more rules to stop them making misleading claims on products."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Finally, I think that this law could also be changed to prevent video game developers from permanently disabling their games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 104613,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel like there may be some valid reasons to use personalise content like adds based on customer's \"vulnerable\" characteristics. For example, if someone has poor mental health, it may be a good idea to show ads for mental health charities/services, or if they smoke, services to help stop smoking could be recommended (although I do acknowledge that some people may still be wary about advertisers having access to such information in the first place, even if it is used for a good reason). I also feel like there should be a ban on companies listing monthly prices for subscriptions where the subscription is not paid monthly. For example, prominently displaying a price of 5 a month, when the service is actually charging 60 a year. This probably counts as a dark pattern, but I thought I would just mention it explicitly. In regards to influencers advertising products, I feel that there should be more rules to stop them making misleading claims on products. Like when people say that using a VPN will stop you getting hacked. While this is technically possible, there are many types of hacks that a VPN cannot protect you from, such as social engendering. Finally, I think that this law could also be changed to prevent video game developers from permanently disabling their games. When I was younger, I played Club Penguin, a game that has now been shut down. As the game required connecting to the developer's servers, one the company decided to stop working on the game no-one could play it, even those that have paid money on the game. Fan made servers were created, but taken down for copyright reasons. I feel like these sorts of games should remain playable even after the developers stop working on them, such as through official compatibility with community servers. This is not impossible to implement, games like Team Fortress 2 have implemented community servers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.059617Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586054.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586054",
+    "chunks_doc_id": "F3586054",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586054.clean.paragraph.json"
+}

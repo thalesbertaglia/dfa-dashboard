@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33079721",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:45Z",
+    "finished_at": "2026-04-14T09:29:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "So many games just disappear."
+              },
+              {
+                "quote": "One day theyre there, and the next, theyre gone forever because the servers shut down or the publisher moves on."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13147,
+          "unit_kind": "feedback"
+        },
+        "text": "Ive been a gamer for as long as I can remember. When I was a kid, my Game Boy was everything to me. Games werent just something to pass the time they were worlds I could escape to, experiences that stuck with me, memories I still carry. Thats why it really hurts to see how modern gaming works now. So many games just disappear. One day theyre there, and the next, theyre gone forever because the servers shut down or the publisher moves on. Players dont even get the chance to keep what they love. There have been a few rare moments that give me hope. For example, Spellbreak Community Edition and Knockout City. What Knockout Citys developers did was honestly incredible they shared clear instructions so people could host and play the game even after support ended. That kind of respect for players is something we dont see enough. But the truth is these moments are rare. Most games just vanish, and thats it. And it shouldnt be like that. Games are more than products theyre a part of our culture, our stories, our lives. They should be preserved, not shut down and lost. Thats why I support the Digital Fairness Act. Because its about giving games a second life and giving players the chance to hold on to something that matters to them. Its about stopping the unnecessary death of games and keeping the art, the memories, and the communities alive.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.527393Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079721.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079721",
+    "chunks_doc_id": "F33079721",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33079721.clean.paragraph.json"
+}

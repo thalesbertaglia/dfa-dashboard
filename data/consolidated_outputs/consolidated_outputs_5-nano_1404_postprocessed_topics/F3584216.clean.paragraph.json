@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584216",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:29Z",
+    "finished_at": "2026-04-14T11:52:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the destruction and censorship of video games has reached unsustainable proportions."
+              },
+              {
+                "quote": "This means that even a copy of the video game may no longer function on the devices they own, or their right to own the game is destroyed."
+              },
+              {
+                "quote": "It is intended that the consumer will be the owner of the video game he or she has paid for, since it is widely advertised."
+              },
+              {
+                "quote": "And not just rent it under a licence."
+              },
+              {
+                "quote": "And safeguarding consumer protection and fundamental rights to own, purchased and paid for the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15333,
+          "unit_kind": "feedback"
+        },
+        "text": "Hei, today, the destruction and censorship of video games has reached unsustainable proportions. Several universes are being destroyed and continuously censored around the world, on different platforms, by different companies, at an accelerating pace. This means that even a copy of the video game may no longer function on the devices they own, or their right to own the game is destroyed. I recommend visiting Stop Killing Games, an EU address that has already gathered more than one million EU citizens’ voices, for preserving and owning video games. It is intended that the consumer will be the owner of the video game he or she has paid for, since it is widely advertised. And not just rent it under a licence. And safeguarding consumer protection and fundamental rights to own, purchased and paid for the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.129196Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584216.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584216",
+    "chunks_doc_id": "F3584216",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584216.clean.paragraph.json"
+}

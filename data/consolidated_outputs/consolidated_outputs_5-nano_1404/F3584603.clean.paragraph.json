@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584603",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:16Z",
+    "finished_at": "2026-04-14T12:03:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games which have all their functionalities including those that would work in an offline environment tied to an online service."
+              },
+              {
+                "quote": "any instability will usually result in the game closing."
+              },
+              {
+                "quote": "the service may be shut down permanently once the game is no longer financially viable resulting in all existing, purchased copies becoming unusable."
+              },
+              {
+                "quote": "Video games that require an online connection should only require it for non-offline activities."
+              },
+              {
+                "quote": "No service is expected to be provided in perpetuity as every single one implies a monetary burden on the provider and closure is the correct action when the burden cannot be offset with revenue."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24888,
+          "unit_kind": "feedback"
+        },
+        "text": "There have been far too many gaps in the protections consumers have in the realm of digital purchases. The most offensive issue is that of video games which have all their functionalities including those that would work in an offline environment tied to an online service. This is a multifaceted issue: Firstly requires consumers to have a sufficiently stable connection to the service provided and any instability will usually result in the game closing. Secondly the companies providing said service may experience outages resulting in widespread cases of consumers unable to make use of the product they have purchased. Lastly, the service may be shut down permanently once the game is no longer financially viable resulting in all existing, purchased copies becoming unusable. These are not hypothetical scenarios and problems as all three of these have occurred multiple times in the last 10 to 15 years. Many video games experience service crashes at launch due to excessive user connections. There have been multiple outages of PlayStation Online resulting in thousands of users unable to use either the hardware they own nor the software contained within. And the closure of the video game \"The Crew\" which had a functional offline mode resulted that only required it to be enabled by the developers resulted in all the copies of said game to become completely useless. No service is expected to be provided in perpetuity as every single one implies a monetary burden on the provider and closure is the correct action when the burden cannot be offset with revenue. Video games that require an online connection should only require it for non-offline activities. Should a game become financially nonviable and require closure, the means by which the service is provided should be made public to allow the consumers that made their purchase to provide their own service the product they have purchased and keep its functionality. The situation in which we are now is equivalent to that of purchasing a car and should the vendor conclude that it is no longer profitable, all maintenance services to the car become immediately impossible and the entire vehicle ceases all function and effectively becomes scrap.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.313318Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584603.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584603",
+    "chunks_doc_id": "F3584603",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

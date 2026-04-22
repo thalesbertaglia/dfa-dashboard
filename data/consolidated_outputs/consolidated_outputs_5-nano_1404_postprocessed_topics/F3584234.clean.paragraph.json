@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584234",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:54Z",
+    "finished_at": "2026-04-14T11:53:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is a worrisome trend how the gaming industry is about to make games unusable after time when they shut down the server sided services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15135,
+          "unit_kind": "feedback"
+        },
+        "text": "There is a running petition until 31 of July for an \"stop killing games\" initiative. It is a worrisome trend how the gaming industry is about to make games unusable after time when they shut down the server sided services. That initiative points at that fact and trys to get the rights back to the user who buys that game in the first place. I do have quite some games myself which I fear will be lost in the future when noone is acting the do anything about that. In fact, it is already happening and many games are already lost. It's art, and I think art should be preservable for the future. I want to be able to show my next generation the games I once played with the memory I still have of it. Please take that in mind and take a look at the petition with all the other gamers who a looking forward to keep their games usable. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.137770Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584234.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584234",
+    "chunks_doc_id": "F3584234",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584234.clean.paragraph.json"
+}

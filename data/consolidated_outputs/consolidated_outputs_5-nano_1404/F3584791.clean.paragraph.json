@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584791",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:19Z",
+    "finished_at": "2026-04-14T12:10:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "their servers shut down,"
+              },
+              {
+                "quote": "Neither of these games could work without active servers"
+              },
+              {
+                "quote": "the existence of a private fan server would be an invaluable tool to me and potential thousands of others."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24510,
+          "unit_kind": "feedback"
+        },
+        "text": "Numerous games I have enjoyed could potentially, if luck is not on the side of the developers, have their servers shut down, for example, Sky: Children of the Light and Albion Online. Neither of these games could work without active servers and I greatly enjoy playing them and spending time with friends I have made in them. If the worst were to come to pass, the existence of a private fan server would be an invaluable tool to me and potential thousands of others.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.436472Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584791.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584791",
+    "chunks_doc_id": "F3584791",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589176",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:03Z",
+    "finished_at": "2026-04-14T13:30:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to see a further addition to the Digital Fairness Act and that is video game ownership."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As it is right now, publishers have reserved to themselves exclusive privilege to terminate a contracts for any reason and pressure the customer to buy a new version of a game/sequel born from lack of access to the original product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18733,
+          "unit_kind": "feedback"
+        },
+        "text": "This is an important part for the future of customer protections in the EU and I support this wholeheartedly. This is precisely the sort of action that I have hoped for a long time and I thank you for it. I would like to see a further addition to the Digital Fairness Act and that is video game ownership. As it is right now, publishers have reserved to themselves exclusive privilege to terminate a contracts for any reason and pressure the customer to buy a new version of a game/sequel born from lack of access to the original product. This, in my opinion, violates the spirit of DFA:s unfair influence clause. Therefore the EU needs to make sure that citizens are able to access their purchased products and not pressured to 'just buy the new one'. Thank you for your attention to this matter.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.767154Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589176.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589176",
+    "chunks_doc_id": "F3589176",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589176.clean.paragraph.json"
+}

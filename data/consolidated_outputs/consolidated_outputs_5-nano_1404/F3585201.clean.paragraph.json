@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585201",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:32Z",
+    "finished_at": "2026-04-14T12:22:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I have become familiar with the practices of video game companies and their tendency to drop the selling and maintenance of old games."
+              },
+              {
+                "quote": "I believe more action is required to stop the loss of access to purchased products after their owners' decide that their not worth preserving anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13676,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings. With regards to the current state of consumer rights in others jurisdictions outside the EU, I do feel greatly thankful I live where I do. Although, this doesn't stop that from changing in the future. I have become familiar with the practices of video game companies and their tendency to drop the selling and maintenance of old games. I believe more action is required to stop the loss of access to purchased products after their owners' decide that their not worth preserving anymore.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.633220Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585201.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585201",
+    "chunks_doc_id": "F3585201",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

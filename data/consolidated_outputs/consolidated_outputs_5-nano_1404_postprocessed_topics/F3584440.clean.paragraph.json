@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584440",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:23Z",
+    "finished_at": "2026-04-14T11:58:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes that bear a striking resemblance to gambling"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative pricing and interface design"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative pricing"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32763,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital video game market urgently requires stronger consumer protections. What was once a creative and playful medium has become increasingly shaped by aggressive monetisation and exploitative design choices. Many contemporary games now incorporate psychological tactics, such as loot boxes that bear a striking resemblance to gambling, or microtransactions that rely on manipulative pricing and interface design, bearing similarities to deceptive advertising practices. It has also become common practice to release unfinished products with vague promises of future fixes. In most industries, such an approach would be unacceptable, for example, selling a car that only becomes fully functional months after purchase. These practices are already subject to regulation in other areas, and it is time to apply the same standards to digital entertainment. It is vital that consumers are treated fairly, that they are kept informed, and that they have long-term access to the services they pay for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.234639Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584440.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584440",
+    "chunks_doc_id": "F3584440",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584440.clean.paragraph.json"
+}

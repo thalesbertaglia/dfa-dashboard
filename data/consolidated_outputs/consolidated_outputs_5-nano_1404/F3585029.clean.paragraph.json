@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585029",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:24Z",
+    "finished_at": "2026-04-14T12:18:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pertains especially to the gaming industry,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently the develloper of a digital product does not have to give any information about how long they will support software that needs a online connection."
+              },
+              {
+                "quote": "At any moment they can decide to shut off the server and by that prevent every owner of that software from (fully) using it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23776,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, my comment pertains especially to the gaming industry, but can sometimes be applied to other softwares as welll. Currently the develloper of a digital product does not have to give any information about how long they will support software that needs a online connection. At any moment they can decide to shut off the server and by that prevent every owner of that software from (fully) using it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.561031Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585029.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585029",
+    "chunks_doc_id": "F3585029",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

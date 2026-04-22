@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584945",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:19Z",
+    "finished_at": "2026-04-14T12:15:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If online games need to have the servers shut down, allow people to host their own servers or allow the game to function without online functionality."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription services (Netflix, Xbox Game pass, Amazon Kindle, etc.)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31837,
+          "unit_kind": "feedback"
+        },
+        "text": "It is my opinion that the digital fairness act should include measures to protect consumers against the loss of access to their purchased digital media (eg. Videogame, movies and other media). There have been many episodes in which many customers had their access terminated once the companies that mainaned such products deemed them \"not profitable enough\" to justify their upkeep ( one example is a Videogame from Ubisoft called \"The Crew\"). This act should include measures that allow individuals to retain their use even after it is about to be discontinued. If online games need to have the servers shut down, allow people to host their own servers or allow the game to function without online functionality. If stores that sell e-books or movies close their shops, give the opportunity to download such items before their are lost to them. To clarify it isn't my opinion that subscription services (Netflix, Xbox Game pass, Amazon Kindle, etc.) should provide access to their products after they are discontinued, such a course of action would be detrimental to such a business model, but anytime a person buys an individual piece of media such as a Book, a videogame or a movie, they should be entitled to their property and use irrespective of the company wishes to maintain them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.516451Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584945.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584945",
+    "chunks_doc_id": "F3584945",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

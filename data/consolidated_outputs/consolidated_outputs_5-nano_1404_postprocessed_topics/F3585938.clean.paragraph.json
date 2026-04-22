@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585938",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:31Z",
+    "finished_at": "2026-04-14T12:42:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some games have ingame marketplaces that cost real money."
+              },
+              {
+                "quote": "But I can't play \"the crew\" from ubisoft 2014."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "But they sold us a product, with no end of date time."
+              },
+              {
+                "quote": "If it's not sustainable to provide these services to a sold product. Then the product should be made to be usable despite these services being cut off."
+              },
+              {
+                "quote": "This is unjust for the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40463,
+          "unit_kind": "feedback"
+        },
+        "text": "Imagine your 2 year old car. Everything works, all the paperwork and such in order. EU and service requirements met. But the car company wants to force you to buy a newer model, so they send you a month notice and then disable your car. They \"might\" give you a company coupon for the next model, but they still disable your car and then reclaim it, barring you from future use of it. Hopefully you see the greedy nature of this, they are not only stealing the product they sold us, but disable and remove it forever. Product you have invested hundreds if not 1000s of hours into. All your achievements, records, legacy, social settings. Gone. Some games have ingame marketplaces that cost real money. Gone Stopp killing our games, our hobbies our social life. Yes, servers cost money to operate Yes, online features require maintenance Yes, it's unreasonable to expect such services forever. But they sold us a product, with no end of date time. If it's not sustainable to provide these services to a sold product. Then the product should be made to be usable despite these services being cut off. My car should still work, despite the makers made a new model, yes they must support it for a time (car parts and such) but in the end. They dont actively support the car. Their responsibility is limited to information and technical knowledge of the car. The car still works, the company moves on. (Volvo don't sell a 1990s car anymore, but I bet they got the info and such for it) Games should be able to be in atleast a playable state for the consumer that bought the product. I can still play my \"super Mario 64 on the N64\" from the 1996. But I can't play \"the crew\" from ubisoft 2014. This is unjust for the consumer. Thanks for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.995336Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585938.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585938",
+    "chunks_doc_id": "F3585938",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585938.clean.paragraph.json"
+}

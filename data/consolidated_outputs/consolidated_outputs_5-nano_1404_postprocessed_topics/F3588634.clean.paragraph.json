@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588634",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:28Z",
+    "finished_at": "2026-04-14T13:24:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lost access to a game I deeply love"
+              },
+              {
+                "quote": "despite having purchased it twice"
+              },
+              {
+                "quote": "the entire product has been erased."
+              },
+              {
+                "quote": "provide an offline or alternative version so that we can continue playing what we bought, even after online services end"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17299,
+          "unit_kind": "feedback"
+        },
+        "text": "Subject: Feedback on Digital Fairness Act Please Protect Access to Purchased Games (The Crew) To Whom It May Concern, I am writing to you because I have lost access to a game I deeply love, The Crew by Ubisoft, despite having purchased it twice and played it regularly for many years. Since its release in 2014, The Crew has been more than just a game to me it has been my favorite racing experience of all time. It is the only racing game that lets you drive freely across the entire United States, a unique feature that no other title has been able to match. I have played it for countless hours, year after year, and shared that joy with friends and family on my account and on theirs. Ubisoft has now taken this game away from everyone, making it impossible to play, even for those of us who legally bought it and supported it for years. I understand that games may lose online features over time, but in this case, the entire product has been erased. This is deeply unfair not only to me and all other paying customers, but also to the talented developers who made this masterpiece. I am not asking for a refund. Money will never replace what has been lost. All I want from the bottom of my heart is to be able to play The Crew again. I want the choice to continue enjoying the game I paid for and loved for over a decade. I ask that the Digital Fairness Act protect European consumers from losing access to purchased digital products in this way. At the very least, companies should be required to provide an offline or alternative version so that we can continue playing what we bought, even after online services end.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.663544Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588634.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588634",
+    "chunks_doc_id": "F3588634",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588634.clean.paragraph.json"
+}

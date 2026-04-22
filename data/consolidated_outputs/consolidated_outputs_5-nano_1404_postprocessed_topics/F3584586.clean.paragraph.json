@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584586",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:34Z",
+    "finished_at": "2026-04-14T12:02:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the permanent disabling of video games that consumers have purchased."
+              },
+              {
+                "quote": "A multiplayer game I loved was shut down by the publisher, rendering my purchase useless."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11406,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Commission, Thank you for your efforts in developing the Digital Fairness Act to enhance consumer protections in the digital space. As an EU citizen and passionate gamer, I would like to propose an addition to the Act to address a pressing issue: the permanent disabling of video games that consumers have purchased. I have personally felt the frustration of losing access to a game I paid for. A multiplayer game I loved was shut down by the publisher, rendering my purchase useless.This is not an isolated issue. Hundreds of games have already been made inaccessible, and many more, particularly online-only titles, are at risk due to a lack of end-of-life plans. The Digital Fairness Act is a perfect opportunity to protect consumers from this unfair practice. I kindly request that you consider including provisions to ensure purchased games remain accessible, such as requiring offline modes or server solutions after support ends. This aligns with the Acts goals of tackling unfair digital practices. Additionally, over one million EU citizens have supported a similar cause through the European Citizens Initiative, highlighting the urgency of this issue. I hope you will consider this suggestion to safeguard gamers rights and ensure we can continue enjoying the games weve paid for. Thank you for your dedication to creating a fairer digital market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.304854Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584586.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584586",
+    "chunks_doc_id": "F3584586",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584586.clean.paragraph.json"
+}

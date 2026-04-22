@@ -1,0 +1,98 @@
+{
+  "doc_id": "F33095743",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:20:52Z",
+    "finished_at": "2026-04-14T10:21:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Practices on how to delete one's account or unsubscribe are unnecessarily obfuscated."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Personally I have a distaste for automatic subscriptions renewing themselves without warning, a notice beforehand would be appreciated."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Applications, especially games, with in-app purchases available should be considered adult-only software by default."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently digital goods (including in-app purchased ones) can be removed from the customer without any repercussions."
+              },
+              {
+                "quote": "Publishers and platform holders can make changes or render the whole game inoperable without user consent."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20110,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital products, services and platforms need more regulation in order to protect consumer rights. Practices on how to delete one's account or unsubscribe are unnecessarily obfuscated. Personally I have a distaste for automatic subscriptions renewing themselves without warning, a notice beforehand would be appreciated. Also subscriptions should automatically expire after a certain period without user willingness to opt-in. Applications, especially games, with in-app purchases available should be considered adult-only software by default. Furthermore there needs to be better protection for the services and products the consumer has purchased. Currently digital goods (including in-app purchased ones) can be removed from the customer without any repercussions. This applies to book, audio and movie libraries but currently the problem is worst with games. Publishers and platform holders can make changes or render the whole game inoperable without user consent. Hopefully we can get better directives regarding these practices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.773351Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095743.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095743",
+    "chunks_doc_id": "F33095743",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

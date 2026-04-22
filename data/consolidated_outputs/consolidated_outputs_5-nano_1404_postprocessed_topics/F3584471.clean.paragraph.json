@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584471",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:03Z",
+    "finished_at": "2026-04-14T11:59:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "publishers of video games to kill a game, rendering it not usable for the consumer who bought it"
+              },
+              {
+                "quote": "\"exit strategy\" for their games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23654,
+          "unit_kind": "feedback"
+        },
+        "text": "As part of the Digital Fairness Act, it would make sense to also consider how digital goods like video games are handled. Unfortunately it is currently possible for publishers of video games to kill a game, rendering it not usable for the consumer who bought it, without the consumer being able to do anything about it. As more and more games require online access, even for single player games, this could end up in a situation where consumers ultimately lose access to all the games they paid for. Because of this, it would be fair to require game companies to have an \"exit strategy\" for their games, that leaves them working at the same state the game was in at the time of sunsetting the game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.248993Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584471.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584471",
+    "chunks_doc_id": "F3584471",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584471.clean.paragraph.json"
+}

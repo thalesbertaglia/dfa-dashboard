@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585150",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:22Z",
+    "finished_at": "2026-04-14T12:21:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the possibility for publishers to remove video games for which the players have already paid"
+              },
+              {
+                "quote": "EU citizen should actually own their games that they bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11682,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to welcome the States attention to the threatening problem of the possibility for publishers to remove video games for which the players have already paid. Imagine if you buy a book and someday all pages are blank. That's what happens to video games. EU citizen should actually own their games that they bought.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.615330Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585150.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585150",
+    "chunks_doc_id": "F3585150",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

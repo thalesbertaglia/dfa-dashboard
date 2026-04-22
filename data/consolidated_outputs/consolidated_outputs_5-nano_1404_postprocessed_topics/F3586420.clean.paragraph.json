@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586420",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:15Z",
+    "finished_at": "2026-04-14T12:56:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Theres been incidents of games being retroactively changed despite the purchase of the product having been finalized months or years before, to remove content that has been paid for."
+              },
+              {
+                "quote": "if developers/publishers include a \"live-service\" addition, they absolutely should have an end of life plan for that game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19204,
+          "unit_kind": "feedback"
+        },
+        "text": "I belive that games ive bought, treasured, and saved in my collection shouldnt be at the whims of publishers/developers of said games. Theres been incidents of games being retroactively changed despite the purchase of the product having been finalized months or years before, to remove content that has been paid for. Music in particular is vulnerable to these changes. Licensing concerns is not something that should impact a product you purchased in its entirety. I also belive that if developers/publishers include a \"live-service\" addition, they absolutely should have an end of life plan for that game. I dont belive publishers/developers should be forced to host the game or service indefinitely, but they need to allow for the games to be playable even if the game is then static from then on. In the case of online-only games, have a plan to give out server-host files and configurations so fans can run their own servers. The unwillingness to even consider this speaks volumes of the unfriendly attitudes towards their customers, and is an erosion of the rights for which th EU has painstakingly pushed for over the years. The consumer rights we have with electronics thanks to the EU should absolutely be expanded to these kinds of situations where games simply stop working, or is retroactively changed, on the publishers whims.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.235934Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586420.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586420",
+    "chunks_doc_id": "F3586420",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586420.clean.paragraph.json"
+}

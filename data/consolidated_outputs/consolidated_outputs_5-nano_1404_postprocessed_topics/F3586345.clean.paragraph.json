@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586345",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:38Z",
+    "finished_at": "2026-04-14T12:55:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This game is now no longer playable because the online services have been taken down."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Not only is this unfair to customers, but it also severely hampers preservation of digital content."
+              },
+              {
+                "quote": "Usually this happens because it's not sustainable to maintain said service."
+              },
+              {
+                "quote": "When this happens, the service is taken down and customers can no longer access their purchased content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29327,
+          "unit_kind": "feedback"
+        },
+        "text": "More and more media, especially games, are being produced in a \"digital only\" fashion and are downloaded and played through a service. This means that, whenever a customer wants to access purchased content, they rely on these services to be able to access it. In recent years, it has become apparent that these services can restrict access to said purchased content on a whim. Usually this happens because it's not sustainable to maintain said service. When this happens, the service is taken down and customers can no longer access their purchased content. This usually happens without any compensation to the customer, who will have lost their initial investment when purchasing the content. Examples like this are games like The Crew, which relied on online services, even when playing alone. This game is now no longer playable because the online services have been taken down. Customers who have purchased the game paid full price for it, and did not get any compensation for the game becoming unplayable. There's a number of other games that suffered the same fate. Such as WildStar and City of Heroes. Currently, it has been announced that the game Anthem will shut down in January 2026, adding another game to the list of \"killed\" games. Not only is this unfair to customers, but it also severely hampers preservation of digital content. Media that might be considered cornerstones in digital culture will be lost and never be accessible ever again. This means that future historians will not be able to research said media. What I'd wish to see is better end-of-support plans for games and services from developers. If games need a specific service to be able to function, allow customers to host this service themselves, rather to depend on the developer to host this. Or release a version that doesn't depend on the service to function, necessarily with certain concessions to make this work. And if these are not feasible, at least clearly communicate to the customer what the expected lifetime of the service will be, and what will happen once the service will go offline, before the customer makes a purchase. This so that the customer can make an informed decision before making a purchase. No service will last forever, everything can shut down at some point or another due to unforeseen events in the future. It is in out best interest to make sure that the least amount of content is lost when this happens, and that the customers suffer the least amount of loss as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.211673Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586345.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586345",
+    "chunks_doc_id": "F3586345",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586345.clean.paragraph.json"
+}

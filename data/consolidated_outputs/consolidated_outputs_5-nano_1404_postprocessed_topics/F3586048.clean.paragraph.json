@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586048",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:57Z",
+    "finished_at": "2026-04-14T12:45:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The developer and seller of these goods must clearly state how,when and where you're ownership ends, how the good is characterized and what it's function is, for example it being a limited licence or full copy, and this should be made abundantly clear from the first paragraph and not in the \"fine print\" of any Terms Of Service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29630,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello and thank you for taking the time to read this. I strongly support the principle that once you bought something you own it, period being it a physical copy, a digital one or whatever in between.The developer and seller of these goods must clearly state how,when and where you're ownership ends, how the good is characterized and what it's function is, for example it being a limited licence or full copy, and this should be made abundantly clear from the first paragraph and not in the \"fine print\" of any Terms Of Service. I hope that I made myself abundantly clear about the fact that once you buy something whatever it may be, you own it and you have the right to know exactly how the product works, if it's of limited time, a subscription etcetera. Thank you for reading this and I hope I made my message and intentions quite clear even if this is not my native language.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.056129Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586048.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586048",
+    "chunks_doc_id": "F3586048",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586048.clean.paragraph.json"
+}

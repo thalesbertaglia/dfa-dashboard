@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586627",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:26Z",
+    "finished_at": "2026-04-14T13:00:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "always online"
+              },
+              {
+                "quote": "buried deep in their EULAs"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21322,
+          "unit_kind": "feedback"
+        },
+        "text": "Many games that were sold pre-digital (and some after digital like The crew) are not available for purchase, rent or licensing anymore, some are even not possible to play anymore even if you have a physical copy of the game because of \"always online\". An what if example for movies: Imagine if you bought a James bond movie (physical copy) in 2013, it was one of your favorite moives to watch, but you hadn't touch it in a decade. One day you wanted to watch it again, but you found out that the movie was always online movie and the server went offline a month ago, and now you can't watch your favorite movie from a decade ago ever again. That was the feeling i had when the video game the crew went offline last year. Game publishers would rather let their games die, instead of persevering the game, since it would \"hurt\" development and their bottom line. This hurts the consumer most, since there is not clear messaging from said publisher that the game you just purchased might not be available to play in the next couple of years and it's only buried deep in their EULAs. I would also refer to the consumer movement \"stop killing game\" which has over a million signatures from EU citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.301055Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586627.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586627",
+    "chunks_doc_id": "F3586627",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586627.clean.paragraph.json"
+}

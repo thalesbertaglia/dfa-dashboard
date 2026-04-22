@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585847",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:38Z",
+    "finished_at": "2026-04-14T12:39:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game industry is struggling with aggressive monetization techniques and ownership issues"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers can revoke said licenses at any time without giving a reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36694,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission, The video game industry is struggling with aggressive monetization techniques and ownership issues, where games that were sold in physical form at the beginning of the 21st century are now fully digitized and sold as licenses, and currently, the game publishers can revoke said licenses at any time without giving a reason. Furthermore, the games and relevant licenses do not contain any information about product's end-of-life plans. It is unacceptable for products to simply be withdrawn from the market, leaving customers with no recourse. That's why the Digital Fairness Act goes hand-in-hand with the European Citizens' Initiative ''Stop Destroying Videogames'', I request that all or at least part of this European initiative be included in this regulation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.951714Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585847.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585847",
+    "chunks_doc_id": "F3585847",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

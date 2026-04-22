@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586670",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:31Z",
+    "finished_at": "2026-04-14T13:01:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gaming manufacturers have started to make games dependent on their servers even when this is not justified (e.g. one-person games)."
+              },
+              {
+                "quote": "The proposal is that in future gaming manufacturers will have to make an end of life plan for their products, i.e. make it clear to the buyer what will happen when the product is no longer maintained."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23026,
+          "unit_kind": "feedback"
+        },
+        "text": "Protecting children from inappropriate online things should be the task of their parents. Trying to control it with laws proposed by the DFA is disproportionate and too dangerous. In addition to the DFA, I propose to address the problem that gaming manufacturers have started to make games dependent on their servers even when this is not justified (e.g. one-person games). This is justified by the fact that you do not buy the game as a product but that it is a licence. However, it seems unreasonable to be able to sell a licence without specifying the period of validity that the seller can invalidate at any time without consideration. There is a related proposal from a group calling the Stop Killing Games with a milion printer that addresses this problem specifically. The proposal is that in future gaming manufacturers will have to make an end of life plan for their products, i.e. make it clear to the buyer what will happen when the product is no longer maintained.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.314668Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586670.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586670",
+    "chunks_doc_id": "F3586670",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

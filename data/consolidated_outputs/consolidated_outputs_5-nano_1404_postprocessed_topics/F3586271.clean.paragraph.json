@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586271",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:24Z",
+    "finished_at": "2026-04-14T12:53:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games are tied to non essential online services that \"brick\" the game once official support has ended."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40949,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act seems like a great initiative that aims to tackle a lot of bad online consumer practices that pray on the individual. I am in full support of it's main points and in the spirit of digital rights and protections I want to suggest adding games software as a part of it. Currently more and more games are tied to non essential online services that \"brick\" the game once official support has ended. Basically you pay for a product that becomes completely unusable once a company decides to no longer maintain it or when it becomes profitable to remove it. Due to that fan-lead preservation(unreliable) and online piracy(illegal) become the only viable ways of accessing older software and games. I think requiring publishers to have an \"end of life\" plan that leaves the software in an accessible state and a clear way of showing what you actually own once you buy a product is a good way of improving both the product and the overall market. There is already such an initiative called \"Stop Destroying Videogames\" that currently has over a million signatures, which shows there is a consumer want for such regulations. I implore you to consider games software preservation as a part of the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.184004Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586271.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586271",
+    "chunks_doc_id": "F3586271",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586271.clean.paragraph.json"
+}

@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3585492",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:56Z",
+    "finished_at": "2026-04-14T12:29:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns like lootboxes"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games with mostly single-player experiences are being sold requiring a constant internet connection"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "That's the core of the issue: a service is being sold as a product."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they might decide to simply pull the plug on these unnecessary components, making the game unable to run, as well as any additional content purchased."
+              },
+              {
+                "quote": "turning a one-time purchase into a service that can be unilaterally revoked."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30109,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the gap between how physical and digital goods is leading to unhealthy business practices for consumers and until that gap is closed, will only lead to more dark patterns like lootboxes, that will take advantage that legislation is slow to take effect, to abuse customer rights. Games with mostly single-player experiences are being sold requiring a constant internet connection, both as means of Digital Rights Management and Anti-Tampering systems that are not necessary for the function of the software. This design requires a constant upkeep on the part of the vendor, and they might decide to simply pull the plug on these unnecessary components, making the game unable to run, as well as any additional content purchased. Customers, when purchasing a physical good, expect that if it that good does not involve other people, then it should be enjoyed at any time, for any purpose, in any way that is at their disposition. Online functionality might be justified for accessing user-generated content and interactions, as well as publisher updates and additional content, but allowing it to be required during purely single-player experiences that necessitate no interaction with external servers or other players is a dark pattern. This forces consumers into an ongoing dependency on the publisher, turning a one-time purchase into a service that can be unilaterally revoked. That's the core of the issue: a service is being sold as a product. This opens the door to other malpractices, like forced updates that remove content without the user's consent, in-game advertising, and so on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.771084Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585492.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585492",
+    "chunks_doc_id": "F3585492",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

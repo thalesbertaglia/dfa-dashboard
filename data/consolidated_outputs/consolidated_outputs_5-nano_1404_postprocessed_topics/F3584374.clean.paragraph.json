@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584374",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:32Z",
+    "finished_at": "2026-04-14T11:57:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "retroactive deactivation of purchased video games crosses into misleading marketing territory."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Most video 'game purchase' transactions don't state clearly if or how license revocation can occur, effectively rendering the purchase unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the destruction of culturally important video games can be included for consideration."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44920,
+          "unit_kind": "feedback"
+        },
+        "text": "I hope the EU commission and the European legislative bodies will consider to include the preservation of consumer rights in the digital video game space in the scope of the Digital Fairness Act (DFA). While the topic may not be an exact fit for the summarised issues mentioned on the page, I think that some of the current industry practises regarding the retroactive deactivation of purchased video games crosses into misleading marketing territory. Most video 'game purchase' transactions don't state clearly if or how license revocation can occur, effectively rendering the purchase unusable. Recent popularity in the ECI Stop Destroying Video Games has shown relevancy and public interest. And if the above mentioned issues don't overextend the scope of the DFA, I hope prevention of the destruction of culturally important video games can be included for consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.203219Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584374.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584374",
+    "chunks_doc_id": "F3584374",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584374.clean.paragraph.json"
+}

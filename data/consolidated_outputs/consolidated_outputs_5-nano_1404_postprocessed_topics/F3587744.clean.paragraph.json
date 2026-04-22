@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587744",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:34Z",
+    "finished_at": "2026-04-14T13:20:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A company can lock out a customer from using their own assets due to some arbitrary reason which is meant to generate profit."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18712,
+          "unit_kind": "feedback"
+        },
+        "text": "Salutations to all, While I have been inspired to express my own thoughts by the initiative to prevent the destruction of video games, this is more of a general trend practiced by companies in the digital market to divide and conquer consumers by any means necessary. Profits above everything... Software has become a weapon that is used against the consumer. A company can lock out a customer from using their own assets due to some arbitrary reason which is meant to generate profit. For example, farmers have been complaining for a while about how their hardware can only be repaired by the same brand due to software locking. If farmers suffer, then the population suffers. Action MUST be taken to prevent ANY software from being turned into a weapon against the consumers. All the \"ethical\" training employees are forced to take in companies appears to mean nothing as you climb the corporate ladder. Please consider the well being of the people.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.579258Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587744.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587744",
+    "chunks_doc_id": "F3587744",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587744.clean.paragraph.json"
+}

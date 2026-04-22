@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584420",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:57Z",
+    "finished_at": "2026-04-14T11:58:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a company shouldn't be able to block access to a game just because they have moved on."
+              },
+              {
+                "quote": "\"end-of-service\" plan (or \"sunsetting\" as it is called in the industry), which means, when the publishers or developers doesn't find their product profitable enough, they'll simply pull the plug and brick the video-game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25276,
+          "unit_kind": "feedback"
+        },
+        "text": "As with many other digital services, video-games is also horrible lacking in behind with it comes to consumer rights. A lot of the issues is already highlighted with the \"Stop Destroying Videogames\" European Citizens' Initiative, that, at the time of writing this, have collected 1,438,644 signatures. To put it simply: Nowadays a lot of video-games, online or not, have a built in \"end-of-service\" plan (or \"sunsetting\" as it is called in the industry), which means, when the publishers or developers doesn't find their product profitable enough, they'll simply pull the plug and brick the video-game. Issue is not that they do such, but that they leave no options for a consumer to access the product they have brought, even if the game itself doesn't require full online connection to play (such is the case with Ubisoft's game The Crew, which was both an single player and multiplayer game that got shut down). This is also a modern trend, wheras in the past, most online game would provide the options to set up your own servers, so a dedicated community could keep playing a game after the developers had moved on, if they wished so. Simply put, video-games should be accessible in a basic form no matter what and a company shouldn't be able to block access to a game just because they have moved on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.227150Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584420.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584420",
+    "chunks_doc_id": "F3584420",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584420.clean.paragraph.json"
+}

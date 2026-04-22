@@ -1,0 +1,74 @@
+{
+  "doc_id": "F33084116",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:31:19Z",
+    "finished_at": "2026-04-14T09:31:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "First off this is a needed movement for all video game fans."
+              },
+              {
+                "quote": "To buy a digital version of a game and have it taken away from you is NOT RIGHT!!!!"
+              },
+              {
+                "quote": "I only buy physical copies of games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20478,
+          "unit_kind": "feedback"
+        },
+        "text": "First off this is a needed movement for all video game fans. I have been a video game player since the Atari 2600. Im not 50 years old and I love gaming to my core. Since I retired from the military, Ive taking most of my free time to dedicate towards my hobby which is my love towards video gameplay. Im happy that an organization has stepped up to support physical ownership as well as physical gameplay. To buy a digital version of a game and have it taken away from you is NOT RIGHT!!!! I only buy physical copies of games. I will continue to only buy physical for the rest of my life. Also, not just the game should be physical but later when downloadable content that comes out should be offered as well. So once all the updates are done then a new physical copy should be for sale. Everyone that games should support the movement and STOP KILLING GAMES/PHYSICAL COPIES ONLY!!!!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.551654Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33084116.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33084116",
+    "chunks_doc_id": "F33084116",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

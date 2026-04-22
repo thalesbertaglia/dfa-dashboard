@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587017",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:08Z",
+    "finished_at": "2026-04-14T13:08:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Licenses can be revoked by companies at any time making it possible for example, for purchased games to become unplayable if the license is withdrawn."
+              },
+              {
+                "quote": "they are only purchasing a lifetime revocable license."
+              },
+              {
+                "quote": "Promotional materials frequently use the term buy, giving the impression of permanent ownership."
+              },
+              {
+                "quote": "These practices mislead consumers and create a significant imbalance of power between digital platforms and users."
+              },
+              {
+                "quote": "for true digital fairness consumers should have enforceable rights to access and retain the digital media they have legally purchased regardless of official server shutdowns, product discontinuation, account issues or company closures, or End User License Agreements (EULAs) fine prints."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37541,
+          "unit_kind": "feedback"
+        },
+        "text": "It has become a industry standard that ownership of video games, movies, and other digital media has been replaced by licensing agreements. This is an unfair practice that effectively removes consumer ownership and the ability to reuse or retain access to digital media. Licenses can be revoked by companies at any time making it possible for example, for purchased games to become unplayable if the license is withdrawn. In the case of multiplayer games functionality may also be lost when official servers are shut down and in many cases the tools required to create unofficial servers are not made available to consumers. The same applies to movies, audiobooks and music. When companies release new or remastered versions of their content, they sometimes cancel or discontinue existing licenses forcing consumers to repurchase the content in a new format or edition. Furthermore most digital ownership today is tied to a user account. If a consumers account is banned, suspended, or deleted whether rightly or wrongly they lose access to all digital media associated with that account including content they have legally paid for. Even when offline downloads are available, many companies still restrict access or functionality unless the user is logged in, effectively rendering the content unusable if the account becomes inaccessible. If a company goes bankrupt or shuts down consumers can also lose access to all media linked to that company. This would have particularly disruptive consequences if it happened to major platforms such as Steam or Audible, which hold a significant share of the digital media market. The average Steam user library is in the hundreds of games making it a big loss if it becomes unavailable. Consumers are often unaware of these limitations. Promotional materials frequently use the term buy, giving the impression of permanent ownership. The fine print in EULAs (End User License Agreements) or any other agreements that few consumers read makes it clear that they are only purchasing a lifetime revocable license. These practices mislead consumers and create a significant imbalance of power between digital platforms and users. For true digital fairness consumers should have enforceable rights to access and retain the digital media they have legally purchased regardless of official server shutdowns, product discontinuation, account issues or company closures, or End User License Agreements (EULAs) fine prints.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.411772Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587017.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587017",
+    "chunks_doc_id": "F3587017",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587017.clean.paragraph.json"
+}

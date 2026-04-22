@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584904",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:02Z",
+    "finished_at": "2026-04-14T12:14:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to humbly request the addition of video games to the Digital Fairness Act."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Because the current situation makes it that the consumer buys a product but owns nothing."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35423,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, I would like to humbly request the addition of video games to the Digital Fairness Act. I personally have seen many cases of anti-consumer practices made by industry leading company's over these past few years and have lost faith in the industry correcting itself. There has been this festering trend of unnecessarily destroying video games by their developers. I think this is very anti-consumer since the product gets taken away after it gets bought, while this is very easy and cost negligible to add a end of life plan. I think this issue is very important and to be addressed as a question of owning a product. Because the current situation makes it that the consumer buys a product but owns nothing. While the game developer owns the IP and owns your individual copy of the product. I personally would like to see it that the development company owns the intelectual property and the consumer who buys their video game owns their copy of the video game. Which i hope doesn't sound like a unreasonable request. Imagine buying your car for 30.000 euro of your hard earned money. And 7 years later the manufacturer of that car decides that they're not earning enough money on that car anymore so they reposes it. Sounds very ridiculous, I know but that is our current situation. And in case this badly written response doesn't help to convince you. Please consider the counts and the dedication of the other feedback comments. That hopefully tells you that many of us count on your help to protect the thing we love dearly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.493668Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584904.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584904",
+    "chunks_doc_id": "F3584904",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584904.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587777",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:53Z",
+    "finished_at": "2026-04-14T13:21:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "take away access to games consumers have bought and paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24836,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European commission, I've been playing video games since I was 9 and I have invested a lot of time and money into the artform/digital medium. Current consumer protection legislation allows publishers and platforms like steam to take away access to games consumers have bought and paid for without providing a fallback copy or compensation. Examples of this include \"The Crew\", a game I have personally bought and some of \"Destiny\"s downloadable expansions, which at the time of this writing cannot be accessed by consumers anymore, that have already purchased copies of them. Please consider adding legislation that requires some end of life plan of purchased products, which would assure that consumers can still play the games they love and have paid money for, as well as force publishers to clarify that some games are not a \"purchase\" in the sense of the word, but access to a license for the game. Many publishers hide themselves behind the fact they only provide \"licenses\" but obscure the fact behind false language and deliberately obscure wordings",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.584654Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587777.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587777",
+    "chunks_doc_id": "F3587777",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

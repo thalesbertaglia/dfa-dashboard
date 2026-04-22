@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584174",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:04Z",
+    "finished_at": "2026-04-14T11:51:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the purchase of a video game does not guarantee that you can use the product that you have paid the full price,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the company can close access to the game and make it completely inoperative from one day to the next"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25231,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be good to include some kind of protection for the consumer of video games, now the purchase of a video game does not guarantee that you can use the product that you have paid the full price, the company can close access to the game and make it completely inoperative from one day to the next, something you have paid at full price (not a subscription), it should be possible to ensure that the video game can be used when the user so decides without the need to connect to a server or something similar. It is a product for which you have paid the full price and should be similar to buying a car or any other product. (very different from subscription, rent or other methods) Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.110613Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584174.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584174",
+    "chunks_doc_id": "F3584174",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584174.clean.paragraph.json"
+}

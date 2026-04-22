@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3658977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:57Z",
+    "finished_at": "2026-04-14T13:44:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android App Installation Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "plans to lock down android devices"
+              },
+              {
+                "quote": "ability to install any applications I want"
+              },
+              {
+                "quote": "The apps I install are not on the app store"
+              },
+              {
+                "quote": "they have no right to control my device"
+              },
+              {
+                "quote": "I should have the right to a full refund because they are fundamentally changing the device and revoking key functionality"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21118,
+          "unit_kind": "feedback"
+        },
+        "text": "I am angry and annoyed at Google's plans to lock down android devices. I specifically bought an android phone for the ability to install any applications I want to, I'm happy that Google give fair warning about the risks of applications not from their app store, but they have no right to control my device. If Google decide to close android, I should have the right to a full refund because they are fundamentally changing the device and revoking key functionality. The apps I install are not on the app store, which have developers who are not big enough to buy into Google's official development channels. Or they're alpha and beta releases that aren't ready to be published on Google's app store. I have a second phone, issued by my employer, which is an iPhone and I can immediately tell how it's locked down and controlled, and it helps me realise how android represents freedom. Although I am in the UK and not an eu citizen, I know the UK will follow the EU's lead. Regards Paul",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.060165Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3658977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3658977",
+    "chunks_doc_id": "F3658977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3658977.clean.paragraph.json"
+}

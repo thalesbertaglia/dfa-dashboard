@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584228",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:42Z",
+    "finished_at": "2026-04-14T11:52:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect consumers’ purchases of video games in the EU."
+              },
+              {
+                "quote": "servers disabled after a few years by their developer, making the game completely unusable for the user who bought it."
+              },
+              {
+                "quote": "‘End-of-life’ solutions exist."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15531,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think it is important to protect consumers’ purchases of video games in the EU. Far too many online games have their servers disabled after a few years by their developer, making the game completely unusable for the user who bought it. This was the case, for example, for the game ‘The Crew’ developed by Ubisoft and several hundred games have suffered the same fate... Hundreds of other similar games are at risk if their developers decide to cut the servers unilaterally. ‘End-of-life’ solutions exist. For example: the developer provides the necessary elements (binary files, documentation) for the user to continue hosting the game by himself. It is imperative to preserve the product purchased from the consumer, but also the cultural product represented by the game. Thank you for considering this issue if it is worth you! Cordially",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.134899Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584228.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584228",
+    "chunks_doc_id": "F3584228",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

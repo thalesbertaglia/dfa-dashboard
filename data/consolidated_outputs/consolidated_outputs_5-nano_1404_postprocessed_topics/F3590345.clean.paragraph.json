@@ -1,0 +1,108 @@
+{
+  "doc_id": "F3590345",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:15Z",
+    "finished_at": "2026-04-14T13:33:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protection for consumers from price increases of subscription services and no clear price data for further transactions before they occur."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game industry is bigger than movies and music combined, but their business practices are moving increasingly towards anti-consumers in recent years."
+              },
+              {
+                "quote": "Modern games, regardless of being intended for online play or solo play, have the inherent risk of being shut down with support ending."
+              },
+              {
+                "quote": "Companies shutting down servers so that older products dont work anymore or cant be installed anymore and not offering other solutions for older products is unacceptable."
+              },
+              {
+                "quote": "Please refer to the Stop Destroying Videogames European Citizens' Initiative."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protection for online creators from unfair practices of the platforms (e.g. Youtube, Twitch, Kick, )."
+              },
+              {
+                "quote": "For many people this is their sole source of income, and they can be banned/terminated by these platforms without giving any reasons and possibility of dispute."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35780,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Madam/Sir, I would like to propose some points to the initiative. Protection for consumers from price increases of subscription services and no clear price data for further transactions before they occur. E.g. Amazon offers subscribe & save for items that are bought in regular intervals (e.g. toothpaste). But the price and increase without decent notification. Consumers should be requested to accept the price increase with the same number of steps they would be required to cancel the service to prevent more dark patterns. Consumer need protection from unilateral license changes by companies after the sale, when this changes are in any way or form worse for consumers. The video game industry is bigger than movies and music combined, but their business practices are moving increasingly towards anti-consumers in recent years. Modern games, regardless of being intended for online play or solo play, have the inherent risk of being shut down with support ending. Companies should require an end-of-life plan for video games to keep them in a functioning state. Please refer to the Stop Destroying Videogames European Citizens' Initiative. This should also include other digital products such as Software/Apps. Companies shutting down servers so that older products dont work anymore or cant be installed anymore and not offering other solutions for older products is unacceptable. Requirement for online services or games to give a detailed list including evidence for the reasons that resulted in a suspension or banned and the possibility of having them reviewed by an independent third party. Protection for online creators from unfair practices of the platforms (e.g. Youtube, Twitch, Kick, ). Especially big platforms need to be held to the same standards as employers to their employees. For many people this is their sole source of income, and they can be banned/terminated by these platforms without giving any reasons and possibility of dispute.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.821343Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590345.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590345",
+    "chunks_doc_id": "F3590345",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590345.clean.paragraph.json"
+}

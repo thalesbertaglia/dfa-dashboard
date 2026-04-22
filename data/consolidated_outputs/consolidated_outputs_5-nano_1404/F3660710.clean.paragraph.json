@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3660710",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:34Z",
+    "finished_at": "2026-04-14T13:44:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "attack on the practice of sideloading."
+              },
+              {
+                "quote": "Upcoming policies from Google will make side loading apps on the Android platform more difficult if not impossible for smaller developers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16350,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned regarding the increasing attack on the practice of sideloading. Upcoming policies from Google will make side loading apps on the Android platform more difficult if not impossible for smaller developers. Therefore, in the context of ensuring fair practices in the digital marketplace, I strongly urge policymakers to consider the following points: Consumer Choice: Side loading allows users to choose from a broader range of applications and services. This diversity is essential for fostering innovation and competition. Privacy and Security: Enforcing overly restrictive regulations on side loading may inadvertently lead to reduced transparency in data handling practices and by limiting user choice, privacy and security might be compromised. Innovation and Fair Competition: Restrictions on side loading can stifle smaller developers who might not have the resources or support to publish their apps through official app stores. This could create an uneven playing field that disadvantages these innovators. I hope sincerely, that measures can be taken to prevent the closing of the Android platform and protect the interests of citizens, developers and businesses in the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.071204Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3660710.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3660710",
+    "chunks_doc_id": "F3660710",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

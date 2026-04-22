@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584450",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:40Z",
+    "finished_at": "2026-04-14T11:58:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rendered unplayable or are permanently removed from digital storefronts due to business decisions, server shutdowns, or DRM-related restrictions."
+              },
+              {
+                "quote": "prevent companies from rendering purchased digital games unplayable after sale;"
+              },
+              {
+                "quote": "Support the legal right to preserve and emulate games, especially when official access is discontinued;"
+              },
+              {
+                "quote": "Promote transparency about the lifespan of digital services or DRM protections that affect game accessibility."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11849,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Commission, I would like to express my appreciation for the objectives of the Digital Fairness Act and the broader efforts of the European Union to protect consumer rights in the digital age. As a concerned digital consumer, I respectfully urge the Commission to consider expanding the scope of the Act to explicitly address the preservation and accessibility of video gamesboth as digital products and as a vital part of our cultural heritage. Currently, many games are rendered unplayable or are permanently removed from digital storefronts due to business decisions, server shutdowns, or DRM-related restrictions. This not only undermines consumer rights but also results in the irreversible loss of creative works that form an important part of modern European and global culture. Movements such as Stop Destroying Videogames have highlighted these concerns and demonstrate significant public interest in establishing fair-use exemptions and preservation mechanisms. I believe the Digital Fairness Act presents a unique opportunity for the EU to lead by example in recognizing and safeguarding digital entertainment as a form of cultural expression worthy of long-term protection. In light of this, I kindly ask that the Commission: Explore provisions that would prevent companies from rendering purchased digital games unplayable after sale; Support the legal right to preserve and emulate games, especially when official access is discontinued; Promote transparency about the lifespan of digital services or DRM protections that affect game accessibility. Thank you for your attention to this matter and for your commitment to digital fairness and consumer rights. Sincerely, George Matei",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.239421Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584450.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584450",
+    "chunks_doc_id": "F3584450",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

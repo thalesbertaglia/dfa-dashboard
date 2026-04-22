@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584144",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:54Z",
+    "finished_at": "2026-04-14T11:50:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please, consider make some regulations protecting digital video games in all platforms!"
+              },
+              {
+                "quote": "Especially in the single player domain where they require always online, closing servers etc that doesnt seem to make any sense whatsoever and still i find it a very anti-consumer policy!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17706,
+          "unit_kind": "feedback"
+        },
+        "text": "Greeting from Greece! Thanks a lot for pushing this kind of initiatives! Please, consider make some regulations protecting digital video games in all platforms! Some of the publishers do not seem to care that we paid for a product and since we do not vilate any rules, we can keep it for ever. Especially in the single player domain where they require always online, closing servers etc that doesnt seem to make any sense whatsoever and still i find it a very anti-consumer policy! We Europeans should be first to implement such rules that protect us",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.093731Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584144.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584144",
+    "chunks_doc_id": "F3584144",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584144.clean.paragraph.json"
+}

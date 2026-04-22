@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3584870",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:09Z",
+    "finished_at": "2026-04-14T12:14:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please include video games and digital game preservation in the scope of this initiative."
+              },
+              {
+                "quote": "Many modern games are sold as live services but become entirely unplayable when servers are shut downdespite players having paid for them."
+              },
+              {
+                "quote": "In these cases, consumers lost all access with no refunds or alternatives, raising serious concerns about digital ownership and fairness."
+              },
+              {
+                "quote": "Recent examples include The Crew (Ubisoft), WildStar (NCSoft), and Battleborn (2K)."
+              },
+              {
+                "quote": "Include the gaming sector in enforcement against unfair design and marketing."
+              },
+              {
+                "quote": "Were losing entire digital worlds and cultural history due to publisher decisions."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive and manipulative designssuch as FOMO tactics, loot boxes, and dark patternsthat align directly with the issues this initiative seeks to tackle."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "with no refunds or alternatives"
+              },
+              {
+                "quote": "theres no obligation to preserve games or allow continued access after end-of-life."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53240,
+          "unit_kind": "feedback"
+        },
+        "text": "Please include video games and digital game preservation in the scope of this initiative. Many modern games are sold as live services but become entirely unplayable when servers are shut downdespite players having paid for them. Recent examples include The Crew (Ubisoft), WildStar (NCSoft), and Battleborn (2K). In these cases, consumers lost all access with no refunds or alternatives, raising serious concerns about digital ownership and fairness. These practices also undermine digital preservation. Unlike books or films, theres no obligation to preserve games or allow continued access after end-of-life. Were losing entire digital worlds and cultural history due to publisher decisions. Additionally, many games use addictive and manipulative designssuch as FOMO tactics, loot boxes, and dark patternsthat align directly with the issues this initiative seeks to tackle. I urge the Commission to: Address the shutdown of paid, server-dependent games; Support preservation efforts for retired titles; Include the gaming sector in enforcement against unfair design and marketing. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.479077Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584870.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584870",
+    "chunks_doc_id": "F3584870",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

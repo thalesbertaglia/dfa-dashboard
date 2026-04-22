@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585386",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:33Z",
+    "finished_at": "2026-04-14T12:26:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is done by using the language 'purchase' and 'buy' which implies ownership when it would be more accurate to say you are renting a license that it revokable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading the customer into thinking be bought a products when he in fact has only bough a temporary license to it."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is common in music, movie and video game markets."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24887,
+          "unit_kind": "feedback"
+        },
+        "text": "I would also like to see the practice of unnecessarily turning what otherwise should be normal products into license agreements for the purpose of extracting more money from the customer. Another bad practice that i would like to see addressed is misleading the customer into thinking be bought a products when he in fact has only bough a temporary license to it. This is done by using the language 'purchase' and 'buy' which implies ownership when it would be more accurate to say you are renting a license that it revokable. This is common in music, movie and video game markets. Normal customers are completaly unaware of these pratcices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.713663Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585386.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585386",
+    "chunks_doc_id": "F3585386",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

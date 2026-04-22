@@ -1,0 +1,102 @@
+{
+  "doc_id": "F33092914",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:37:16Z",
+    "finished_at": "2026-04-14T09:37:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark Patterns"
+              },
+              {
+                "quote": "the use of dark patterns online"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "There are many examples of video games becoming unplayable due to the choices of the businesses, like requiring a connection to their servers (sometimes even for single player experiences)."
+              },
+              {
+                "quote": "Businesses should be required to leave the game in a playable state once they want to stop supporting that title."
+              },
+              {
+                "quote": "For example, if a business would want to shut down the servers of a multiplayer game, they would have to allow player to play the game via peer-to-peer connections."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "user data being used for AI features should be Opt-In instead of Opt-Out, protecting users that would not have consented to the use of their data."
+              },
+              {
+                "quote": "the data cannot be deleted from an AI model once it has been trained, which goes against the Right of Erasure from the GDPR."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40388,
+          "unit_kind": "feedback"
+        },
+        "text": "As a designer that has done a deep dive into Dark Patterns I am very glad to see action being taken to prevent the malicious use the these techniques to harm consumer's wallet and time, especially in video games. Adding onto the use of dark patterns online, I would like to see Digital Cookies and similar tracking features requiring an reject all option, thus not requiring the user to opt-out of each feature manually. Also adding onto the use of dark patterns online, user data being used for AI features should be Opt-In instead of Opt-Out, protecting users that would not have consented to the use of their data. Especially since the data cannot be deleted from an AI model once it has been trained, which goes against the Right of Erasure from the GDPR. And adding onto addressing problematic features of digital products, consumers should have the right to be able to continue using video games they purchased. There are many examples of video games becoming unplayable due to the choices of the businesses, like requiring a connection to their servers (sometimes even for single player experiences). Businesses should be required to leave the game in a playable state once they want to stop supporting that title. For example, if a business would want to shut down the servers of a multiplayer game, they would have to allow player to play the game via peer-to-peer connections. Thank you for taking my feedback into consideration!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.613430Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092914.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092914",
+    "chunks_doc_id": "F33092914",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33092914.clean.paragraph.json"
+}

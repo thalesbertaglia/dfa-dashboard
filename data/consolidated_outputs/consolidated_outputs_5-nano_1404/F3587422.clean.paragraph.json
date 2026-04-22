@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587422",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:42Z",
+    "finished_at": "2026-04-14T13:16:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the growing trend of removing access to games and digital content that people have already paid for."
+              },
+              {
+                "quote": "More and more titles are being delisted, shut down, or made unplayableeven when theres no real technical reason to do so."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14470,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for putting forward the Digital Fairness Act. Its an important step toward rebalancing the relationship between consumers and digital platforms, especially as more of what we buy and use is tied to online services. Promoting transparency, protecting user rights, and holding companies accountable are all critical goalsand this Act is a solid move in the right direction. Id also like to raise an issue that fits closely with the Acts goals: the growing trend of removing access to games and digital content that people have already paid for. More and more titles are being delisted, shut down, or made unplayableeven when theres no real technical reason to do so. If someone buys a product, they should be able to use it without fear of it being taken away after the fact. Preserving access to purchased content would go a long way toward reinforcing trust and fairness in the digital space. Thanks again for taking this on. Its encouraging to see real action on these issues.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.521407Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587422.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587422",
+    "chunks_doc_id": "F3587422",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

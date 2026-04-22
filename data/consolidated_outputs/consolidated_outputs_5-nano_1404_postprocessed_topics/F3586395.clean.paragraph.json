@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3586395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:41Z",
+    "finished_at": "2026-04-14T12:56:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Microsoft Skype forced an update on me, that rendered the software inoperable on my system."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Several videogames that I bought, were rendered inoperable after updating them with the sole goal of making them inoperable, or when the owner took down the servers (which were needed to run the videogames)."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've also been tricked into getting getting or extending subscriptions."
+              },
+              {
+                "quote": "Then two days after I'm billed they announce they are not able to release the new season due to legal issues. Again, no refund was possible."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I paid money for those games and was NEVER informed there was an end-date after which I could no longer play these videogames."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43049,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm very much in favour of the Digital Fairness Act. In the past I've experienced numerous times where I lost access to software and the creator/owner did not refund me for it. Examples include: - Microsoft Skype forced an update on me, that rendered the software inoperable on my system. I reached out looking but they declared they could not help me, and that my 20 in skype credits could not be refunded. - Several videogames that I bought, were rendered inoperable after updating them with the sole goal of making them inoperable, or when the owner took down the servers (which were needed to run the videogames). That is a bad practice because I paid money for those games and was NEVER informed there was an end-date after which I could no longer play these videogames. I've also been tricked into getting getting or extending subscriptions. For example, Netflix accounced they would release a new season of Rick and Morty so I decided to not cancel my subscription. Then two days after I'm billed they announce they are not able to release the new season due to legal issues. Again, no refund was possible.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.228474Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586395",
+    "chunks_doc_id": "F3586395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586395.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585295",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:34Z",
+    "finished_at": "2026-04-14T12:24:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23430,
+          "unit_kind": "feedback"
+        },
+        "text": "As a just recently turned adult citizen, i have given my vote to the stop killing games movement, which has already gained more than 1.4 million signatures, and hope that the Union would find that video game also fall under the digital fairness act as it is something very important for not just me but many citizens of the EU and outwards. This step could lead into the right direction that we should take, which is that a consumer has the right to own the object/thing they bought same as the consumer their own private information owns and is entitled to their own privacy, restricting the not consumer friendly moves and actions future and present coporations may take that would go against the rights of citizens",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.671516Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585295.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585295",
+    "chunks_doc_id": "F3585295",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585295.clean.paragraph.json"
+}

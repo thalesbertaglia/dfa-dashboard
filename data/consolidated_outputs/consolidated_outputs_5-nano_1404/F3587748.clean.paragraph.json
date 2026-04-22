@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587748",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:37Z",
+    "finished_at": "2026-04-14T13:20:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm a huge fan of destiny 2 however the fact that I paid for a lot of the expansions and now I cant play most of them is completely despicable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I paid for something and now I cant play it anymore? How is that acceptable in any way whatsoever? This is completely unfair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20874,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm a huge fan of destiny 2 however the fact that I paid for a lot of the expansions and now I cant play most of them is completely despicable. The current rules are destroying the games I love. I paid for something and now I cant play it anymore? How is that acceptable in any way whatsoever? This is completely unfair. If you buy a car the manufacturer wont just suddenly take it back at some point, especially without paying you. Doing this only destroys art that countless people who love games have put years of their lives into. It is cruel.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.580311Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587748.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587748",
+    "chunks_doc_id": "F3587748",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

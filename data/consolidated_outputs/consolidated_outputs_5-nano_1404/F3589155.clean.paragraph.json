@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3589155",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:50Z",
+    "finished_at": "2026-04-14T13:30:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames, for example, don't expire."
+              },
+              {
+                "quote": "Some of them are shut down well within their life-time, because the publisher has made a sequel and wants to force consumers to spend more of their money (The Crew)."
+              },
+              {
+                "quote": "Some have forever removed paid content from the game (Destiny 2)."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital planned obsolescence makes no practical sense beyond greed."
+              },
+              {
+                "quote": "Corporations get to push new products and take away their own older alternatives to force people to buy into their decisions, no matter how unpopular those may be."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24864,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital planned obsolescence makes no practical sense beyond greed. Digital goods don't expire. Corporations get to push new products and take away their own older alternatives to force people to buy into their decisions, no matter how unpopular those may be. Videogames, for example, don't expire. Some of them are shut down well within their life-time, because the publisher has made a sequel and wants to force consumers to spend more of their money (The Crew). Some have forever removed paid content from the game (Destiny 2). Imagine if you purchase a car and after two years the makers brick it by pushing a firmware update that makes it stop starting, because a newer model is out. The tech industry needs to be a lot more heavily regulated and the DFA is a step in the right direction!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.763204Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589155.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589155",
+    "chunks_doc_id": "F3589155",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

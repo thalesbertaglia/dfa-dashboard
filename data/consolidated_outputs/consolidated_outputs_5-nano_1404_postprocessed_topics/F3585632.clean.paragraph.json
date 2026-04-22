@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585632",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:04Z",
+    "finished_at": "2026-04-14T12:32:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers that sell their games under pretext that they can take it away at any point in time."
+              },
+              {
+                "quote": "Any game sold cannot be taken away by the seller."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10732,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to bring your attention to the practice of video game publishers that sell their games under pretext that they can take it away at any point in time. That goes against basic commerce of selling something to a customer and then taking it back at undisclosed time in the future. Stop Killing Games european citizens initiative already accumulated over 1.4m signatures at the time of writing this so many gamers across EU agree that this practice needs to stop. Any game sold cannot be taken away by the seller. The game can be left behind and no longer supported by the creator/publisher, but that game must be left in a state that gamers can still access and play as was intended. Games in the past did not have this issue whether they were multiplayer or single player so there is no technical limitations. These companies are simply taking advantage of there being no clear law or ownership of a digital product. These games can all be made with the explicit intention to keep them going after the official support is ended no matter what game it is. The companies simply choose to not bother and shut them down so that they could sell you the sequel or a remake. This is right for consumers and a game once sold, but be left available to the buyer. Thank you and please help us stop killing games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.842976Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585632.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585632",
+    "chunks_doc_id": "F3585632",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585632.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589501",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:28Z",
+    "finished_at": "2026-04-14T13:31:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unnecessary destruction and loss of access to videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11274,
+          "unit_kind": "feedback"
+        },
+        "text": "One important issue that should be addressed in the Digital Fairness Act is the unnecessary destruction and loss of access to videogames. Consumers are often led to believe they are purchasing a product, not merely a license, yet access can be revoked at any time without prior notice. As a result, games can disappear permanentlyeven for those who paid for them. This form of digital planned obsolescence is both impractical and avoidable. There are viable, accessible methods for preserving videogames for the public, which could be implemented with minimal difficulty. Videogames are a legitimate art form and should be treated as such. Their preservation deserves serious attention. Please consider including this in the Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.794041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589501.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589501",
+    "chunks_doc_id": "F3589501",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

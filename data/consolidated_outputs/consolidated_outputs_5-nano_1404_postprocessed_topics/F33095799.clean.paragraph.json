@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33095799",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:22:07Z",
+    "finished_at": "2026-04-14T10:22:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Low-quality or misleading advertising for online services"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Encouraging 'lock-in': where possible, companies should offer versions of software, services, etc. for a once-off purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Physical media: Physical media (e.g. video games) should contain all data on the physical media (disc, cartridge, etc.) needed to play the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36598,
+          "unit_kind": "feedback"
+        },
+        "text": "There are a number of areas I feel that consumers require better protections: - Low-quality or misleading advertising for online services - Encouraging \"lock-in\": where possible, companies should offer versions of software, services, etc. for a once-off purchase. Many companies (e.g. Adobe, Microsoft) no longer offer or heavily dissuade single purchase use of their software, leaving customers who rely on these tools to pay indefinitely for features they don't need. - Physical media: Physical media (e.g. video games) should contain all data on the physical media (disc, cartridge, etc.) needed to play the game. Any additional updates should be optional.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.786021Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095799.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095799",
+    "chunks_doc_id": "F33095799",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095799.clean.paragraph.json"
+}

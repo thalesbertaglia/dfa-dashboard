@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585353",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:52Z",
+    "finished_at": "2026-04-14T12:26:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "(video) gaming industry"
+              },
+              {
+                "quote": "These games were destroyed by shutting down servers or other services that are requiried for these games to function."
+              },
+              {
+                "quote": "end-of-life plans for their games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19850,
+          "unit_kind": "feedback"
+        },
+        "text": "While adressing immensely important topics concerning consumer protection in the digital domain The Digital Fairness Act Is currently not adressing a major problem within the (video) gaming industry. When included it would strengthen the act considerably. More than 100 videogames have already been destroyed by their respective publishers. These include live service games but also traditional single and multiplayer games. These games were destroyed by shutting down servers or other services that are requiried for these games to function. This effectively gives the publisher the power to terminate games that are no longer profitable without informing the customer nor providing them with an end-of-life plan. The Digital Fairness Act could include proposed legislation to stop this from happening by requiring publishers to provide end-of-life plans for their games. This way consumers would be able to keep playing the games they payed for and should therefore own. The Stop Killing Games citizens initiative has already amassed over a million signatures on the matter, which indicates this issue is worth your attention. Please consider expanding The Digital Fairness Act on this matter.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.694137Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585353.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585353",
+    "chunks_doc_id": "F3585353",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

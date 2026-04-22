@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585343",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:33Z",
+    "finished_at": "2026-04-14T12:26:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One example would be TRON: Evolution, which got its DRM server turned off, which means you can't activate it any more, which means you can't play the game any more."
+              },
+              {
+                "quote": "software (including games) can't get turned off by the creator of the software."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you should be able to run that piece of software *forever*."
+              },
+              {
+                "quote": "software should never stop working because the creator triggered a killswitch."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27173,
+          "unit_kind": "feedback"
+        },
+        "text": "Stop Killing Games is a grassroots movement that would like the EU to add rules to ensure that software (including games) can't get turned off by the creator of the software. You pay for a license for a piece of software, you should be able to run that piece of software *forever*. This does NOT mean that companies must deliver *support* forever, but if I don't change a thing on my side - I don't change my OS, I don't change my hardware, software should never stop working because the creator triggered a killswitch. One example would be TRON: Evolution, which got its DRM server turned off, which means you can't activate it any more, which means you can't play the game any more. This gives (game) companies too much power over the people who buy their products - Sales too low? Just disable whatever people are still playing, so they'll start buying more from you. It's bad. \"You'll own nothing, and be happy\" is a disgusting mindset that companies have been pushing for too long. Time to do something about it. Please.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.689569Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585343.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585343",
+    "chunks_doc_id": "F3585343",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

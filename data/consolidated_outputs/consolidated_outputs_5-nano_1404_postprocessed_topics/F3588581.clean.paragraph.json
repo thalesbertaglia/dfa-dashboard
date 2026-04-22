@@ -1,0 +1,114 @@
+{
+  "doc_id": "F3588581",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:11Z",
+    "finished_at": "2026-04-14T13:25:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Certain publishers/distributors of video games circumvent standard legal guarantees in the context of returns, refunds and the right of withdrawal."
+              },
+              {
+                "quote": "All recent examples, most infamous of which was The Crew, show how publishers believe they should be able to sell me an item and then take it away while keeping the money."
+              }
+            ]
+          },
+          {
+            "topic": "Multilingual Websites",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Language region locking itself."
+              },
+              {
+                "quote": "If a language version exists it should be available to me."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "If a digital service or item is free of charge in some capacity (e.g., a \"free\" to play video game) it should not be requiring my payment information to use the free part of the content, as long as I do not engage in any payment."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment operators (e.g, Visa, Mastercard) should not be allowed to police purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Further privacy and data protections."
+              },
+              {
+                "quote": "there is more and more initiative to collect personal data and track internet users, and the EU law should be amended swiftly to increase protections against it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 55485,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that the following issues should be addressed in the Act: 1. Certain publishers/distributors of video games circumvent standard legal guarantees in the context of returns, refunds and the right of withdrawal. E.g., Sony; once I click \"buy\" and then \"download\" on PlayStation -- that's it. I no longer can get a refund or change my mind, except for some rare cases (e.g., Cyberpunk refunds on PS4). This leads to absurd cases where now I have several games (e.g., Call of Duty or Diablo) that are in Russian for some unfathomable reason, and I was refused a refund or exchange for another language version. 2. Language region locking itself. If a language version exists it should be available to me. It shouldn't matter that my account is registered in an EU country 'X' or that my IP shows that I'm in some country 'Y' -- I should be able to select whichever language I want. Of course, I do not intend to imply that developers/publishers should be obligated to create all language versions possible, but simply to offer the choice should such versions already exist. 3. When purchasing a video game I expect to purchase a.k.a buy a video game, not a licence to a game. All recent examples, most infamous of which was The Crew, show how publishers believe they should be able to sell me an item and then take it away while keeping the money. This has further been discussed recently in the Stop Destroying Videogames initiative. 4. If a digital service or item is free of charge in some capacity (e.g., a \"free\" to play video game) it should not be requiring my payment information to use the free part of the content, as long as I do not engage in any payment. 5. Payment operators (e.g, Visa, Mastercard) should not be allowed to police purchases. Recent examples of said companies forcing publishers/distributors (e.g. Steam) to remove certain items from the their stores should not have happened. If said products were in violation of the law then that is already addressed by the law and appropriate authorities should handle it. The payment operator is neither the government nor the appropriate authority and should not have the power to determine what I can or cannot purchase. 6. Further privacy and data protections. It seems to me that there is more and more initiative to collect personal data and track internet users, and the EU law should be amended swiftly to increase protections against it. No digital service provider should have (collect, store, etc.) any data of mine or about me unless it is absolutely necessary for the functioning of the service.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.658341Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588581.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588581",
+    "chunks_doc_id": "F3588581",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588581.clean.paragraph.json"
+}

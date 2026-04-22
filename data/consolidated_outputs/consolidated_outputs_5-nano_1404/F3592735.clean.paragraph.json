@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3592735",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:04Z",
+    "finished_at": "2026-04-14T13:38:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "common dark pattern: Obfuscation Through Legalese in cases where companies end support for products or go bankrupt."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games often see decrease in player time over time and due to that fact publishers often end support for that game."
+              },
+              {
+                "quote": "In cases of online multiplayer games they shutdown the play servers necessary to play the game."
+              },
+              {
+                "quote": "they can revoke software license at any time and discontinue support for the digital products."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This would leave consumer with a product that is inoperable."
+              },
+              {
+                "quote": "advertise in their marketing material and in their terms and conditions for how long is product supported and what happens if they withdraw their support."
+              },
+              {
+                "quote": "not disguise \"renting a license\" as \"buying the product\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34760,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, I think consumers would benefit greatly from having protection against common dark pattern: Obfuscation Through Legalese in cases where companies end support for products or go bankrupt. Companies purposely make Terms and condition vague and with broad protections against common consumers protection. This is not only a problem for digital products, but also physical products with digital elements. One example of such would be kitchen appliances that require mobile apps or remote server to function properly. These kinds of products should have end-of-life planned (offline mode) from the start of manufacturing to enable consumers ownership and continuous operation of the products even in the cases where companies decide to end support for the product or go bankrupt. Lets discuss two examples; I bought coffee maker that makes different coffees by itself, it requires mobile application and internet connection to be able to retrieve recipes from the remote server and to make coffee. If the manufacturer of this device decides it doesnt make sense anymore to host this server and support this product they have a term in the contract that they can revoke access and end support for the product at any time. This would leave consumer with a product that is inoperable. Companies and manufacturers should have clear end-of-life planned for each product so consumers can continue using the products they paid for. In this case companies should clearly advertise in their marketing material and in their terms and conditions for how long is product supported and what happens if they withdraw their support. In second scenario lets consider video games and other digital software, software publishers often include in their terms and conditions that they can revoke software license at any time and discontinue support for the digital products. Video games often see decrease in player time over time and due to that fact publishers often end support for that game. In these cases publishers also discontinue DRM (digital rights management) authentication servers and in cases of online multiplayer games they shutdown the play servers necessary to play the game. This leaves owners of the license with the game they cannot play. These problems can be solved with clearer Terms and conditions, but also clearer marketing that should not disguise \"renting a license\" as \"buying the product\". Please consider inputs and talking points of Stop Killing Games, European Citizens' Initiative that recently collected enough support and entered Verification phase: https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en. This initiative tackles consumer rights for digital products, planned obsolescence, game preservation and personal ownership. Some of the effects the initiative aims at are closely related to Digital Fairness Act. Thank you for your time and kind regards!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.926587Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592735.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592735",
+    "chunks_doc_id": "F3592735",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

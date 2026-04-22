@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586191",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:07Z",
+    "finished_at": "2026-04-14T12:50:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"selling\""
+              },
+              {
+                "quote": "\"bought\""
+              },
+              {
+                "quote": "digital media such as games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23038,
+          "unit_kind": "feedback"
+        },
+        "text": "This is very important but I would like to include digital media such as games into this act. Corporations are openly talking about the idea of \"selling\" games to people while not actually giving the ownership to the consumers. This is a problem because it allows companies to remove \"bought\" media from the end user at any point without any warnings. I use the word buy with apostrophes here because if you were really buying a piece of media the company would not have the rights to take it away from you at any point. This cannot continue like this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.142521Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586191.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586191",
+    "chunks_doc_id": "F3586191",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

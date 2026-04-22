@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585402",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:53Z",
+    "finished_at": "2026-04-14T12:27:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protecting consumers from publishers that can just permanently shut off the games that people bought when it's an online only model or a \"live service\" game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9955,
+          "unit_kind": "feedback"
+        },
+        "text": "There is a lot of good stuff in here for consumers, but one thing is missing. Protecting consumers from publishers that can just permanently shut off the games that people bought when it's an online only model or a \"live service\" game. This needs to change. The stop killing games initiative helps with that, but it would be even better if this would be included here as well as a 6th Point. This initiative has over 1 million people supporting it already so yes this is very important to a lot of people. Publishers shouldnt be able to permanently shut off access to a game that i bought whenever they feel like it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.722798Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585402.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585402",
+    "chunks_doc_id": "F3585402",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585402.clean.paragraph.json"
+}

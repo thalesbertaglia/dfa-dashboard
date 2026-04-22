@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585447",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:50Z",
+    "finished_at": "2026-04-14T12:28:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "platforms from which you bought the articles can remove the goods you have purchased"
+              },
+              {
+                "quote": "This can already be in play as it has been found that a few people have bullied visas and mastercard to force some online platforms to remove objects from their stores."
+              },
+              {
+                "quote": "Since they apply these rules arbitrarily without insights about what is purchased through the platforms, it seems like an unfair business practice conducted online."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49462,
+          "unit_kind": "feedback"
+        },
+        "text": "I think digitally bought goods such as music, movies, video games, software and so on, need additional protection, as the platforms from which you bought the articles can remove the goods you have purchased, without making it clear at that time or you only bought access to a limited time for the article you bought. Similarly, I think it is worrying that payment processors such as Visa and Mastercard force suppliers and platforms on the web to remove items from their stores, although the items for sale are not illeagal, under the threat that if these articles are not removed from the locations/platforms the payment processors will leave them, which would result in the websites. To me, this seems unfair because this means that the payment processors can dictate what content is available online, or for some platforms, as they can only make these threats one or a few companies selling an article and not others, and in this way direct customers to certain suppliers, which leads to opportunities for unfair benefits for some suppliers. This can already be in play as it has been found that a few people have bullied visas and mastercard to force some online platforms to remove objects from their stores, but have not done so for others who sell the same products. Since they apply these rules arbitrarily without insights about what is purchased through the platforms, it seems like an unfair business practice conducted online.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.747980Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585447.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585447",
+    "chunks_doc_id": "F3585447",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

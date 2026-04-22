@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3588130",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:29Z",
+    "finished_at": "2026-04-14T13:22:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nintendo is able to completely block its Swithc-2 console, leaving it completely inoperative in the event of a mere suspicion of non-compliance with its EULA"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "obliges users to pay a monthly fee, adding the need to connect to their servers (something that does not exist or only optional and free of charge in advance)"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction (or limitation of functionality) of the purchased products"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EULAS clauses that deny any kind of right to the user, giving full freedom to unilateral modification"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28789,
+          "unit_kind": "feedback"
+        },
+        "text": "My concern is about digital practices that seek to limit consumers’ rights. While physical ownership is a legal and defined asset, digital ownership is in a limbo from which companies try to benefit in a little unethical way in my view. These practices are based on the argument that while ownership of the hardware is owned by the user, the software governing it belongs to the company and the user only has a usage licence, usually accompanied by EULAS clauses that deny any kind of right to the user, giving full freedom to unilateral modification and often going far beyond the scope these documents should have (the case of companies whose products are purely software is particularly worrying). One example of such practices is the destruction (or limitation of functionality) of the purchased products. This fact, which has been growing for more than 10 years in the case of video games, has gradually expanded to other sectors: The case of the Norwegian company Futurehome’s products which, by means of a software update, obliges users to pay a monthly fee, adding the need to connect to their servers (something that does not exist or only optional and free of charge in advance) is another example of the need to connect to the internet in dishwashers, washing machines and other household appliances in order to access the most attractive features such as ECO programmes and savings. Nintendo is able to completely block its Swithc-2 console, leaving it completely inoperative in the event of a mere suspicion of non-compliance with its EULA, a product worth between EUR 400-500 destroyed at the sole will of the company, and in this case we are not talking about software or software, but a real device in the user’s home. Note that the obligation to connect to a company server would invariably result in the disqualification of the function once the company decides for any reason to stop supporting it. In summary, this type of practice involves at best limiting functionality and, in the worst case, destroying products legally purchased by the consumer unilaterally. The fundamental consequences of the above would range from the planned obsolescence at the choice of the undertaking of the products, the deterioration of the quality of the new products as the need to compete with what has previously been sold is eliminated, the limitation or disposal according to the sectors of the second-hand market and the limitation of the consumer’s right to repair among others. I hope that this comment can help legislators to take into account a problem that we are slowly approaching.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.616451Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588130.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588130",
+    "chunks_doc_id": "F3588130",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588130.clean.paragraph.json"
+}

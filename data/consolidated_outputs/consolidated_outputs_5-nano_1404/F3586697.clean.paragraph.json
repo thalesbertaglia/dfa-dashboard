@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3586697",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:00Z",
+    "finished_at": "2026-04-14T13:02:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "With termination for whatever reason, you must immediately uninstall the product and destroy all copies of the product in your possession"
+              },
+              {
+                "quote": "The EULA enters into force on the day you first buy, download or use the product, whichever comes first, and it remains in force until it is terminated in accordance with the contract."
+              },
+              {
+                "quote": "consent is given as soon as the product is installed."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Of course, I am also familiar with games such as ‘World of Warcraft’ or ‘Final Fantasy 14’, which are MMO games (Massive Multi Online), but what you are in advance is a temporary licence."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consent is given as soon as the product is installed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41736,
+          "unit_kind": "feedback"
+        },
+        "text": "I have lost the ‘right’ to a purchased product. Just over a year ago, I was denied access to the game called ‘The Crew’, with which Ubisoft says ‘I should look for new adventures in the shop’. I paid fair money for this and, in my understanding, I bought the digital copy of the game. Even in Ubisoft’s shop, ‘buy’ is not ‘borrowing’ or ‘renting’. My understanding is that I buy a one-off payment and receive this product. What I did not understand is that this product can be taken back to me. This was to be found in the EULA, as I had to find after removal. However, it does not seem to me logical. If I bought a lawn mower in a building market, neither the manufacturer nor the building market itself should take it away with me, saying: “We no longer produce spare parts”. If they want to have it back, a recall of the product would have to be a valid reason for doing so like a defective component. In the case of ‘The Crew’, there is evidence that this game could run without Ubisoft’s servers. An ‘offline fashion’. I did not receive reimbursement of my money and unfortunately I could not turn to consumer protection. They were afraid that I should get a lawyer. As a normal citizen with an income below the average, I cannot afford to do so in a long-standing legal dispute with such a large company. Extending this Act to other digital goods, such as video games, could prevent some headaches for buyers. I would have liked my money or game back, but I do not think of the Ubisoft. I would like to urge them to protect consumers’ rights. What some firms do with their products is meaningless. It takes not only the name of the firm into the dirt, but also that of employees who spent the years of their life in order to create these worlds. The gaming industry is becoming more hier and they are turning their EULA as much as possible, making companies as little as possible. Ubisoft, for example, with its latest EULA update, had added an amendment which nobody was able to express in favour of the protection of the buyer. I quote under point 8 of 01. 2023 ‘With termination for whatever reason, you must immediately uninstall the product and destroy all copies of the product in your possession’. This makes no sense if it is already on the top line: ‘The EULA enters into force on the day you first buy, download or use the product, whichever comes first, and it remains in force until it is terminated in accordance with the contract.’ – which indicates that the product has been bought and not rented. The EULA also argues that consent is given as soon as the product is installed. However, this does not mean that the purchaser has read or even understood them, let alone agree. This is not quite a matter of coercion with the consumer and, in my view, is not groundless. I would very much welcome the fact that they are dealing with this situation and that firms like it are back on the right track. It would make a big difference that firms would be forced to advertise, rather than buy, in such ‘time-limited games’. Of course, I am also familiar with games such as ‘World of Warcraft’ or ‘Final Fantasy 14’, which are MMO games (Massive Multi Online), but what you are in advance is a temporary licence. I hope they will at least take action. This is the only point they forgotten in their law. Firms should not be able to use purchased products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.323425Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586697.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586697",
+    "chunks_doc_id": "F3586697",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585239",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:22Z",
+    "finished_at": "2026-04-14T12:23:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15581,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer of many Video games, i would like to request the Digital Fairness Act(DFA) to be reviewed if it could contain those games as well. Looking at the stop killing games initiative and how many supporters it has, I believe it is clear how interested the community is in change on a regulatory basis. With over a million other Europeans backing this initiative and hopefully plenty of them giving feedback on the DFA, I believe it is of political interest to decide over an inclusion of video games in it. The gaming industry is massive as of today, probably getting bigger in the next decades, and having a consumer friendly system in place that can hold the industry accountable would benefit all of us. Thank you for your effort in making the EU a better place! Greetings from Germany.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.650735Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585239.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585239",
+    "chunks_doc_id": "F3585239",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

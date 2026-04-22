@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584319",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:02Z",
+    "finished_at": "2026-04-14T11:55:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games have provided support to many people during difficult times not only as entertainment, but also as a form of learning, emotional relief, and meaningful personal experience."
+              },
+              {
+                "quote": "Unfortunately, some of these games are now being removed from digital platforms or shut down entirely by publishers."
+              },
+              {
+                "quote": "In many cases, they can no longer be accessed even if legally purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14140,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, I would like to share my thoughts regarding the importance of video games in the context of the ongoing work on the Digital Fairness Act. Video games have provided support to many people during difficult times not only as entertainment, but also as a form of learning, emotional relief, and meaningful personal experience. Unfortunately, some of these games are now being removed from digital platforms or shut down entirely by publishers. In many cases, they can no longer be accessed even if legally purchased. This results in people losing access to content that carried emotional, educational, or cultural value. Video games can teach languages, develop strategic thinking, and introduce players to history or complex topics. When they are taken down without any way to access them again, those stories and lessons are lost as if they never existed. This issue has recently received broader attention through the Stop Killing Games initiative, which has gathered significant support from across Europe. It shows that many citizens are personally affected and care about this matter. Thank you for the opportunity to express my perspective.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.176009Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584319.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584319",
+    "chunks_doc_id": "F3584319",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584319.clean.paragraph.json"
+}

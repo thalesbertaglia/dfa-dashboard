@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3591236",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:42Z",
+    "finished_at": "2026-04-14T13:35:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "demanding to destroy your copy of the book if you got it from some other store."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19446,
+          "unit_kind": "feedback"
+        },
+        "text": "Imagine you buy a book by Amazon. You like the book and reread it every couple of years. Some years later Amazon decides that it does not want to sell this book anymore to anyone because the profit from it is not that great anymore. So they make every copy of the book in the entire world unreadable. Also they write you a letter demanding to destroy your copy of the book if you got it from some other store. That is what happing with Video Games currently. Cultural history of multiple generations is being erased. This must be stopped.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.847362Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591236.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591236",
+    "chunks_doc_id": "F3591236",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591236.clean.paragraph.json"
+}

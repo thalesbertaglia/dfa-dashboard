@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584963",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:13Z",
+    "finished_at": "2026-04-14T12:16:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the consumer loses his ownership of something they rightfully own."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some of these patents stifle the development of games,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22401,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to bring forward my 2 main feedback points regarding this act. The first is ownership of video games, since the laws and regulations around video games are muddy, causing it to be unsure whether these are considered services or not, them being shut down like a service is very concerning, since people buy these games and get them taken away the moment these companies pull this \"service\" (which lawfully might not be one) the consumer loses his ownership of something they rightfully own. The second part of feedback is surrounding the patenting of game mechanics, I understand patents are important and needed, but some of these patents stifle the development of games, some of these patents haven't been used in years either, I feel like this is not the best way to deal with patents regarding digital products in general.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.527702Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584963.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584963",
+    "chunks_doc_id": "F3584963",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584963.clean.paragraph.json"
+}

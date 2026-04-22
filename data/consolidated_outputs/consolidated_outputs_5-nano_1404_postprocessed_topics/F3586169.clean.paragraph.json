@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586169",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:23Z",
+    "finished_at": "2026-04-14T12:49:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays, you only buy a license, it can be revoked for no reason"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Just to own what we buy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28315,
+          "unit_kind": "feedback"
+        },
+        "text": "Once upon a time buying a game meant that you own said game and you were called a customer. Nowadays, you only buy a license, it can be revoked for no reason and we are called consumers. Consume the product and move on. 90% of movies made before the 50s are just gone. Games are now suffering the same fate despite us having all the resources to preserve them. Customers deserve better. When we buy something, we should own it. Companies should be held accountable for providing people with what they pay for. I truly hope we can one day look back on this as a turning point where gamers are treated more fairly and their purchases are no longer undone. Please look into this. This has been going on for over 10 years now. Many games already are shut down with zero compensation for the customer. We aren't asking much here. Just to own what we buy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.129842Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586169.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586169",
+    "chunks_doc_id": "F3586169",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586169.clean.paragraph.json"
+}

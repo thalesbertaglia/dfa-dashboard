@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585504",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:18Z",
+    "finished_at": "2026-04-14T12:29:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of game publishers to cease the operation of video games and thus make them permanently inaccessible to purchasers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17084,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen of the European Commission, I would like to take the opportunity to provide you with feedback on the draft Digital Fairness Act. I very much welcome the initiative to protect consumers from unfair practices in the digital space. A key issue in my view, which has not been covered so far, is the practice of game publishers to cease the operation of video games and thus make them permanently inaccessible to purchasers. When a company sells a product, it should not have the right to destroy that product later arbitrarily. This applies not only to online multiplayer games, but also increasingly to single players’ titles that require online connection. I am worried about my digital game collection, in which I have invested money and time for years. The constant risk that these games could become worthless at any time because a publisher chooses to switch off servers is unacceptable and a clear disadvantage for consumers. I would therefore urge you to add a passage to the Digital Fairness Act which clarifies: “Only software sold once must not be rendered unusable by the manufacturer without a valid reason or an appropriate alternative for the buyer.” This would not only increase the trust of millions of players in the EU, but also set an important precedent for the protection of digital property. Thank you for your time and for taking my request into account. Yours sincerely, Lukas Sinning",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.777131Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585504.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585504",
+    "chunks_doc_id": "F3585504",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

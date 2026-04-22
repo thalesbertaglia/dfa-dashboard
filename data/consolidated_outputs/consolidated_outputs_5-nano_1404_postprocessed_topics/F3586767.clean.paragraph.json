@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586767",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:16Z",
+    "finished_at": "2026-04-14T13:03:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "restrict access to content that they feel reprehensible."
+              },
+              {
+                "quote": "I reject any form of censorship."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23009,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen, it is a great deal of concern to me that companies like MasterCard and Visa are so unheared trying to restrict access to content that they feel reprehensible. I had hoped for the EU and all its countries to take categorical action against censorship, but in the light of current events it seems that this is not the case. I want to be free to decide what content I want to interact financially with. As an EU citizen, I reject any form of censorship.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.339982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586767.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586767",
+    "chunks_doc_id": "F3586767",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586767.clean.paragraph.json"
+}

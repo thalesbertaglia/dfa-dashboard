@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584418",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:55Z",
+    "finished_at": "2026-04-14T11:58:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "interface tricks"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes that closely resemble gambling"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative pricing"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfinished products with vague promises of future fixes"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36477,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital video game market urgently needs stronger consumer protections. What was once a creative and playful medium has become increasingly shaped by aggressive monetisation and exploitative design choices. Many games now use psychological tactics, like loot boxes that closely resemble gambling, or micro transactions built around manipulative pricing and interface tricks, not unlike misleading advertising. Its also become common to release unfinished products with vague promises of future fixes, something that would be unacceptable in most industries, like selling a car that only becomes fully functional months later. These kinds of practices are already regulated elsewhere, and it's time we apply the same standards to digital entertainment. Consumers deserve fairness, transparency, and lasting access to what they pay for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.226145Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584418.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584418",
+    "chunks_doc_id": "F3584418",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584418.clean.paragraph.json"
+}

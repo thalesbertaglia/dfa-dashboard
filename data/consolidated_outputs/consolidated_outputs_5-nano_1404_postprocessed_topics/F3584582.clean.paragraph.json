@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584582",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:25Z",
+    "finished_at": "2026-04-14T12:02:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I respectfully request that videogames be included under the Digital Fairness Act."
+              },
+              {
+                "quote": "Currently, game publishers have the unfettered ability to delete games that consumers have lawfully purchased, rendering their purchases essentially worthless without warning."
+              },
+              {
+                "quote": "It's not about requiring companies to maintain game servers indefinitely; rather, it's about providing players with options to host and play their purchased games without relying on the original publisher's support."
+              },
+              {
+                "quote": "I urge you to consider this issue and explore ways to implement an end-of-life plan for videogames, ensuring that consumers can continue to access and enjoy the digital products they have paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22922,
+          "unit_kind": "feedback"
+        },
+        "text": "I respectfully request that videogames be included under the Digital Fairness Act. Currently, game publishers have the unfettered ability to delete games that consumers have lawfully purchased, rendering their purchases essentially worthless without warning. It is essential that developers and publishers establish a clear end-of-life plan for their products, rather than simply discarding them when they are no longer profitable. EU citizens have a right to retain digital goods they have paid for, and videogames should be protected under this principle just like other digital products. Moreover, preserving games can play a vital role in safeguarding our cultural heritage and technological history. Future generations will benefit from being able to access and learn from the evolution of gaming and technology. It's not about requiring companies to maintain game servers indefinitely; rather, it's about providing players with options to host and play their purchased games without relying on the original publisher's support. I urge you to consider this issue and explore ways to implement an end-of-life plan for videogames, ensuring that consumers can continue to access and enjoy the digital products they have paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.302741Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584582.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584582",
+    "chunks_doc_id": "F3584582",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584582.clean.paragraph.json"
+}

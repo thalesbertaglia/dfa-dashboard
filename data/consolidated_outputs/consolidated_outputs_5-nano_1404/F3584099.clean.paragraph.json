@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584099",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:12Z",
+    "finished_at": "2026-04-14T11:48:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the need to protect video games from disappearing."
+              },
+              {
+                "quote": "many games today only work if you're connected online."
+              },
+              {
+                "quote": "And when companies shut down the servers, whether because its not profitable anymore or for other reasons those games vanish."
+              },
+              {
+                "quote": "Even if you paid for them, theres no way to play them again."
+              },
+              {
+                "quote": "1. Games people buy remain playable, even after support ends."
+              },
+              {
+                "quote": "2. Companies provide offline modes or ways to keep the game running."
+              },
+              {
+                "quote": "3. Cultural institutions can preserve these works for the future."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13359,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi there, Id like to raise something I think is really important as the EU works on the Digital Fairness Act: the need to protect video games from disappearing. Games are more than just products, theyre art. They tell stories, explore ideas, and reflect culture, just like books or movies. But unlike a book on your shelf, many games today only work if you're connected online. And when companies shut down the servers, whether because its not profitable anymore or for other reasons those games vanish. Even if you paid for them, theres no way to play them again. Thats not fair, and its a real threat to preserving gaming as a cultural and artistic medium. I believe the EU should step in to make sure: 1. Games people buy remain playable, even after support ends. 2. Companies provide offline modes or ways to keep the game running. 3. Cultural institutions can preserve these works for the future. If we care about fairness in the digital world, we should also care about saving the art people create in it. Games matter. Lets not let them be erased. Thank you for reading,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.072709Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584099.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584099",
+    "chunks_doc_id": "F3584099",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

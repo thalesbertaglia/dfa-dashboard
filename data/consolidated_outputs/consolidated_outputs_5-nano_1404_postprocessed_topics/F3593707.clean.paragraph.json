@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3593707",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:39Z",
+    "finished_at": "2026-04-14T13:40:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that request, the wording of which was imprecise, appeared in a very small way on the page"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "contracts relating to subscriptions are stored in these accounts."
+              },
+              {
+                "quote": "An account should be able to remain open for some time (possibly one month) in order to be able to recover what it wants (invoices, contracts)."
+              },
+              {
+                "quote": "On the day my subscription was cut off, the account you had with that company was no longer valid."
+              },
+              {
+                "quote": "As a result, all invoices justifying my business relationship are no longer available to me, and the very last invoice that closed this relationship, I could never consult it!"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The same applies to certain video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39397,
+          "unit_kind": "feedback"
+        },
+        "text": "Nowadays everything has to be done on the internet. Accounts must be created for everything, and contracts relating to subscriptions are stored in these accounts. When there is a malfunction, I personally find that the companies are not sufficiently precise. We receive a message that gives little indication (see my PJ) and on the reporting account does not appear to be sufficiently precise. Most recently, there has been a disgrace with Orange’s society. To confirm a subscription, she asked me for a copy of my didentity document. However, that request, the wording of which was imprecise, appeared in a very small way on the page, whereas all the other elements of the webpage were much larger. Why this difference in size in the text? Reading on a screen is not easy for everyone and businesses need to make an extra effort to make their internet relationship more pleasant. By displaying what is important more clearly and by showing what is missing, particularly in the account which embodies the business relationship with the company. Another remark, if you had a subscription with another telephone provider, on the day my subscription was cut off, the account you had with that company was no longer valid. As a result, all invoices justifying my business relationship are no longer available to me, and the very last invoice that closed this relationship, I could never consult it! An account should be able to remain open for some time (possibly one month) in order to be able to recover what it wants (invoices, contracts). The same applies to certain video games. Nowadays, they are often only available on the internet and when developers stop the game, they disappear from the internet. Please take these comments into account.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.958350Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593707.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593707",
+    "chunks_doc_id": "F3593707",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593707.clean.paragraph.json"
+}

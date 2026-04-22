@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585722",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:47Z",
+    "finished_at": "2026-04-14T12:35:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games that I paid for e.g. The Crew by Ubisoft which has a huge single player part has become completely unplayable because it integrated online play right into it."
+              },
+              {
+                "quote": "They have since pulled the plug on the online part, rendering the game unplayable, you can not even start it up anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12674,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add videogames to this act. Games that I paid for e.g. The Crew by Ubisoft which has a huge single player part has become completely unplayable because it integrated online play right into it. They have since pulled the plug on the online part, rendering the game unplayable, you can not even start it up anymore. I see many many more games that this will be happening to if we don't put a stop to it. We don't expect servers for games to be up forever, just that there is a plan to either remove the online requirements when they sunset the games or other equivalent options to keep the game running but by the community (e.g. private servers instead of company servers)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.888972Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585722.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585722",
+    "chunks_doc_id": "F3585722",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585722.clean.paragraph.json"
+}

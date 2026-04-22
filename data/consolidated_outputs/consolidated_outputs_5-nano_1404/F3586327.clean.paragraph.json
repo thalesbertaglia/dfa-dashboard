@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586327",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:06Z",
+    "finished_at": "2026-04-14T12:54:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are many game publishers who will create a game that always must be connected to their proprietary servers, which they then shut down at any point in time that suits them."
+              },
+              {
+                "quote": "This leaves the games of many customers unplayable and unfix-able."
+              },
+              {
+                "quote": "The purchase of the video game only lasts as long as the publishers wants."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15391,
+          "unit_kind": "feedback"
+        },
+        "text": "The video game industry has a large economic size and provides services for entertainment and education for almost all citizens of the EU and the world. Unfortunately, there are unfair consumer practices in the video game industry. There are many game publishers who will create a game that always must be connected to their proprietary servers, which they then shut down at any point in time that suits them. This leaves the games of many customers unplayable and unfix-able. In this way, the purchase of the video game only lasts as long as the publishers wants. This happens outside of the video game industry as well, however i am less familiar with that. My concern is that important cultural games can no longer be played, causing money to be wasted. Additionally, a video game that you own for life is worth much more compared to a temporary video game. This extends to markets outside the EU, who are likely more willing to purchase games that will last. Just look at how popular old games like tetris still is. Tournaments still bring together a international group of individuals, which strengthens international bonds. Video games are a part of our modern culture, we cannot let them die because of the whims of a publishing company.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.205626Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586327.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586327",
+    "chunks_doc_id": "F3586327",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

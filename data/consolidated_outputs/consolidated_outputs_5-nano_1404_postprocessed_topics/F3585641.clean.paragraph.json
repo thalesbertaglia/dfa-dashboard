@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585641",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:12Z",
+    "finished_at": "2026-04-14T12:32:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online video games are discontinued and become entirely inaccessible, despite money having been spent on them."
+              },
+              {
+                "quote": "Many modern games require constant server access to function."
+              },
+              {
+                "quote": "There was no offline mode, no option for preservation, and no refund or credit."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24725,
+          "unit_kind": "feedback"
+        },
+        "text": "I respectfully write to raise a concern that affects millions of digital consumers across Europe: the lack of protection for customers when online video games are discontinued and become entirely inaccessible, despite money having been spent on them. Many modern games require constant server access to function. When these servers are shut down whether due to financial reasons or lack of support the entire game often becomes unplayable, even for paying customers. One personal example is Firefall, an online third-person shooter in which I invested both time and money. After its closure, the game became completely unavailable. There was no offline mode, no option for preservation, and no refund or credit. It simply vanished. This scenario is not unique. Numerous games like Paragon, Battleborn and The Crew have met the same fate. In any other industry, removing access to a paid product without recourse would be unacceptable. Yet in the gaming world, this has become a troubling norm. The growing grassroots movement Stop Killing Games, which has already gathered over 1.4 million signatures, reflects how widespread and serious this concern has become among consumers. I kindly urge the Commission to consider introducing digital consumer protection for such cases. Potential measures could include: Requiring games with purchasable content to offer offline modes or alternatives post-shutdown, where feasible. Mandating clearer shutdown notices and refund policies. Supporting digital preservation efforts for culturally significant games. The digital market deserves the same level of consumer rights as any other. I believe the EU can lead the way in protecting players, promoting fairness, and encouraging responsible publishing practices. Thank you for your attention and dedication.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.846610Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585641.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585641",
+    "chunks_doc_id": "F3585641",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585641.clean.paragraph.json"
+}

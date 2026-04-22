@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584759",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:02Z",
+    "finished_at": "2026-04-14T12:09:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I play video games, and at any time the video game publisher can simply deactivate the games that I have already paid for with no warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11256,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think that the DFA is a very good step for consumer protection, but could also include protections against companies deactivating or revoking products that consumers have already paid for. I play video games, and at any time the video game publisher can simply deactivate the games that I have already paid for with no warning. Not only is it unfair to the consumers, but also to the artists whose work will be gone forever. I hope this topic can also be considered for inclusion into the DFA.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.392584Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584759.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584759",
+    "chunks_doc_id": "F3584759",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584759.clean.paragraph.json"
+}

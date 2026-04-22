@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586416",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:02Z",
+    "finished_at": "2026-04-14T12:56:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there should be a way for customers to continue using the game independently, at their own cost, if official support ends."
+              },
+              {
+                "quote": "clear guidelines for how support is ended and how users can retain access afterward."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28703,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games have long existed in a legal grey area, but the European Union has recently taken important steps in regulation, particularly regarding loot boxes and mandatory 14-day refund rights for digital purchases. These measures have been valuable for consumers both in the EU and worldwide. However, one issue remains largely unaddressed: the end-of-life stage of games. Currently, developers and publishers are not required to maintain access to games once they discontinue support. As a result, customers may lose access to a product they paid for, simply because the company decides to shut it down. No one expects a game or service to be supported indefinitely, but a product that has been sold should not be rendered unusable. If a game's functionality depends on services run by the developer, there should be a way for customers to continue using the game independently, at their own cost, if official support ends. Right now, a game can be sold for 100 and be shut down within a year if it is not profitable. While this may make business sense, there should be clear guidelines for how support is ended and how users can retain access afterward. This legislation should apply only to future games, giving developers and publishers time to plan accordingly. The law could outline minimum requirements while allowing the technical specifics to be handled by the creators based on how their games operate. I hope this proposal can be considered alongside the existing Digital Rights Act, which has already improved consumer protection across the EU and beyond. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.234499Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586416.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586416",
+    "chunks_doc_id": "F3586416",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

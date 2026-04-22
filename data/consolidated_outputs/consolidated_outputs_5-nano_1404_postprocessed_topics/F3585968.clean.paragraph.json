@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585968",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:16Z",
+    "finished_at": "2026-04-14T12:43:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You are out of energy Pay 2.99 to instantly keep playing."
+              },
+              {
+                "quote": "This will take 12 Hours to complete. Pay 50 premium currency (Equal to 4.99) to skip."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Such as cloud & Server based Functions that make the product non-Functional if servers are inaccessible in some form."
+              },
+              {
+                "quote": "This seeks to protect EU customers from what is known as \"Shovel ware\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 50479,
+          "unit_kind": "feedback"
+        },
+        "text": "Title 1: I agree with the Digital Fairness act. Personally I am able to ignore many of the things the Digital Fairness act seeks to adress. But more and more i hear & see people get abused by these bad practices that are shared in Section B of the Digital fairness act. Esp as I become more aware of the Manipulative and unfair tactics these digital goods provide. Such as limiting the product through artificial means. Mobile games are one extreme case. \"You are out of energy Pay 2.99 to instantly keep playing.\" or \"This will take 12 Hours to complete. Pay 50 premium currency (Equal to 4.99) to skip.\" Because of these things I am vehemently avoiding games using these practices. Such practice intentionally limit the Digital Product to effectively force the users to pay to have any reasonable functionality of said product. Creating a Feedback loop that encourages and abuse addictive tendencies. Title 2: I would also like this act to address things that exist in a gray area between a Physical and digital goods - Smart functions that kill a Physical goods if the Digital goods stops. I would also like this act to include addressing Digital services that comes with Physical goods. Such as cloud & Server based Functions that make the product non-Functional if servers are inaccessible in some form. It does not matter how it becomes inaccessible. Many such physical goods are sold with those functions only for the Digital functionality to be stripped away by the business. With no recourse for the customer to recover some of the digital functionality. This can be done by providing some, if not all, functions Offline. Albeit in a worse capacity. At least at a physical level. One of the more notable & recent news stories in regards to this is \"Echelon kills smart home gym equipment offline capabilities with update\" - by ArsTechnica. This highlights How a product with Server based functionality (Digital Service) can be made useless in regards to the functions the consumer paid for. aka \"Bricked\" on the Whims of the Producer developer. Because they decided that without a connection to their servers the Exorcise bike can not function. In my opinion the fitness bike would be have a adequate \"offline functionality\" If the Bike was functional But unable to do the fitness tracking the servers provide while it is offline. Creating & Providing a Offline functionality that allows the physical goods to be used at some Basic functionality while the product is not connected to the Servers. This could Include a \"End of life\" plan once those servers are inevitably shut down. Allowing consumers to continue to use a product they bought. Albeit in a worse capacity. I would also like a \"End of Life\" plan for smart devices That relies on a server for any basic functionality. So that if the Fitness bike business decided to kill their servers the customer could create their own server to manage for the functions. My Brother has actively chosen \"Smart\" Products that he is able to Create his own server himself through open source functions. Rather then relying on a company to keep the servers alive forever. As the companies can not be expected to do. Such function is also a great \"End of life\" plan for such a product. By having the Physical Goods require a Digital service to function in it's physical form we enter a Gray area that is neither a Physical Goods or a Digital Goods. Instead it is something that requires both to function. Because of this gray area those products exist in i have chosen to share it here. This seeks to protect EU customers from what is known as \"Shovel ware\". Where a Digital goods is abandoned & killed in favour of a new Digital goods with similar or same functions as soon as the previous is available to the customers. As well as Protecting EU customers from a Physical product becoming unusable if the Digital server is shut down. Thank you for taking your time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.011282Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585968.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585968",
+    "chunks_doc_id": "F3585968",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585968.clean.paragraph.json"
+}

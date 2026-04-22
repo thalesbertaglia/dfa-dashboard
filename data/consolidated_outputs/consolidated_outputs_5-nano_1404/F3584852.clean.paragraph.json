@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584852",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:41Z",
+    "finished_at": "2026-04-14T12:13:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gacha games and online-only games"
+              },
+              {
+                "quote": "IN-GAME purchases"
+              },
+              {
+                "quote": "End of Service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23453,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I am reaching out because I am worried about certain types of games, specifically gacha games and online-only games, that eventually will reach EoS (End of Service) with NO way to access the content paid for in any way. Be it a game you pay for up-front or a game you have IN-GAME purchases for, particularly gacha and live-service games. One such game I am scared about is Persona5: The Phantom X. With it's recent global release, there has been unfair treatment to the global playerbase and people are worried they will try to squeeze out as much money before EoS, which would be extremely unfortunate. I would like there to be some way for these types of games to have a way to access the content paid for AFTER EoS.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.469714Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584852.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584852",
+    "chunks_doc_id": "F3584852",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

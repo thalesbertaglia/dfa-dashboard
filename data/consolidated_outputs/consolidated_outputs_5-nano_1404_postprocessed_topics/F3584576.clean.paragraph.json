@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584576",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:21Z",
+    "finished_at": "2026-04-14T12:02:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lootboxes/gambling"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Influencers should have clear and obvious disclaimers when promoting a game thanks to a sponsorship"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34300,
+          "unit_kind": "feedback"
+        },
+        "text": "I would love for games to also get protection since they are such a big part of everyone's life regardless if you play or not but even more if you actually play games you should expect protection for the product/service you buy and spent time with. There should be a lot of things regulated in games like gambling/dark patterns/end of life plines like stop killing games is working towards. Actually release a working product and not a MVP(Minimum Viable Product) Influencers should have clear and obvious disclaimers when promoting a game thanks to a sponsorship Addictive design shouldnt be allowed and have all chances/rng actual numbers if the game has lootboxes/gambling and anything along those lines. Thank you and I hope you guys take games seriously and protect this wonderful hobby that people take advantage off and ruin it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.301214Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584576.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584576",
+    "chunks_doc_id": "F3584576",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584576.clean.paragraph.json"
+}

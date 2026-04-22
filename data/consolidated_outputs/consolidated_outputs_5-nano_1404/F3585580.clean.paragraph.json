@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585580",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:50Z",
+    "finished_at": "2026-04-14T12:31:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preventing video game publishers from permanently destroying video games after they have already been sold to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10672,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, Thank you for giving citizens an opportunity to provide feedback on the Digital Fairness Act. I kindly request that you add protection for consumers by preventing video game publishers from permanently destroying video games after they have already been sold to customers. There have already been hundreds of video game titles that have been destroyed and made permanently impossible to play after already being sold to customers, without any form of compensation for the customers who made the purchases for no longer being allowed access to the product they paid for. Likewise there are even more video game titles facing a similar fate. Some recent examples include the titles The Crew, Anthem, XDefiant, and Concord. This is a topic that strongly aligns with the values of the Digital Fairness Act, as well as the values of EU citizens as has been made abundantly clear in the European Citizens' Initiative \"Stop Destroying Videogames\" which has currently reached over 1 400 000 signatures and surpassed the minimum signature threshold in 24 out of 27 countries, with 9 countries surpassing the minimum number of signatures more than threefold. The video game industry is one of, if not the, biggest entertainment industries in the world, projected to earn a revenue in 2025 of over 500 billion USD which is more than the movie and music industries combined. The paying customers are the ones making this happen and they dedicate significant amounts of their income in doing so, which is why it is vital to protect this extremely large customer base from unfair commercial practices that are only becoming more and more common. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.813189Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585580.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585580",
+    "chunks_doc_id": "F3585580",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

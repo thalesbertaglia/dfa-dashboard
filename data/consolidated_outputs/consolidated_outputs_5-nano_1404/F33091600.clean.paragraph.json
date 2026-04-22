@@ -1,0 +1,101 @@
+{
+  "doc_id": "F33091600",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:34:39Z",
+    "finished_at": "2026-04-14T09:35:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "E.g. a video game that requires online activation, should by law have such a requirement removed if seller goes out of business or wishes to sunset the servers."
+              },
+              {
+                "quote": "Many games have online components that ceases to function once the servers go offline."
+              },
+              {
+                "quote": "the company should have no legal grounds on which to block community driven servers in such a case."
+              },
+              {
+                "quote": "if server communication is encrypted to protect the integrity of the game, a final patch as support is ended to remove such encryption and releasing documentation of the protocol to ease third party development."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Software updates should not be allowed to introduce advertising, or make them more invasive if they were there originally, or otherwise degrade the device compared to the state in which it was purchased."
+              },
+              {
+                "quote": "E.g. if you buy a refrigerator with a display on it, it should not be legal to introduce advertising on that display in a subsequent software update."
+              },
+              {
+                "quote": "Related to the previous point, within reason it should not be allowed to reduce/remove functionality from a product."
+              },
+              {
+                "quote": "E.g. if a piece of software allows you to save to a certain file format, it should not be permitted to remove that functionality in an update."
+              },
+              {
+                "quote": "\"Within reason\" here could include making the update optional, with no loss of existing functionality as a consequence."
+              },
+              {
+                "quote": "E.g. you should not be able to force the consumer to \"update or else you lose this feature.\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49349,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to add some points. I expect they've already been covered by many, but to add to the numbers. 1. Digital goods that rely on servers/services provided by the seller, should be required to have reasonable fallbacks for when the seller ceases support for the product. E.g. a video game that requires online activation, should by law have such a requirement removed if seller goes out of business or wishes to sunset the servers. A digital picture frame that depends on an app on your phone to put images on it, should have alternative methods or be required to publish the necessary information in order for third parties to create an application to continue supporting the device, in the event that the company stops supporting the app. 2. Another video game point. Many games have online components that ceases to function once the servers go offline. That in itself is not an issue, companies cannot be forced into infinite support, but consumers should be protected by being granted the right to supply such services themselves in the event that the company ceases to do so (e.g. the company should have no legal grounds on which to block community driven servers in such a case). Within reason, the companies should also be required to provide information and/or software to aid such activities. E.g. if server communication is encrypted to protect the integrity of the game, a final patch as support is ended to remove such encryption and releasing documentation of the protocol to ease third party development. 3. Software updates should not be allowed to introduce advertising, or make them more invasive if they were there originally, or otherwise degrade the device compared to the state in which it was purchased. E.g. if you buy a refrigerator with a display on it, it should not be legal to introduce advertising on that display in a subsequent software update. 4. Related to the previous point, within reason it should not be allowed to reduce/remove functionality from a product. E.g. if a piece of software allows you to save to a certain file format, it should not be permitted to remove that functionality in an update. \"Within reason\" here could include making the update optional, with no loss of existing functionality as a consequence. E.g. you should not be able to force the consumer to \"update or else you lose this feature.\" The consumer would also need to be appropriately informed in order to make their decision.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.578704Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091600.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091600",
+    "chunks_doc_id": "F33091600",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

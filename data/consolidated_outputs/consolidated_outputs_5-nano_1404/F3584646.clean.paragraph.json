@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584646",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:06Z",
+    "finished_at": "2026-04-14T12:05:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the video games industry, it is common for a publisher to \"sell\" a game, when in fact they give you a \"license\" to play a game, is incredibly anti-consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "where a provider can terminate access to a product on their own accord without any recourse for the customer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28409,
+          "unit_kind": "feedback"
+        },
+        "text": "One important addition to the act would be the subject of digital ownership, which is currently exploited by companies in detriment of the customer. For example, in the video games industry, it is common for a publisher to \"sell\" a game, when in fact they give you a \"license\" to play a game, is incredibly anti-consumer. This has been exploited by companies in order to pull the plug on games they have already sold to customers, rendering the purchase completely unusable, which goes against any common sense. This issue is so prevalent, that an ECI initiative called Stop Destroying Videogames has been launched, which reached 1.4 million signatures, which is related to this issue, which shows that this is a important problem. This applies not only to video games, but to software in general, where a provider can terminate access to a product on their own accord without any recourse for the customer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.334880Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584646.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584646",
+    "chunks_doc_id": "F3584646",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

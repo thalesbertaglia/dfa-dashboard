@@ -1,0 +1,144 @@
+{
+  "doc_id": "F3589064",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:29:17Z",
+    "finished_at": "2026-04-15T08:30:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Software License Resale",
+            "topic_source": "new",
+            "evidence_quotes": [
+              "We should be legally permitted to resell software licenses once they no longer need them."
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Major changes to ToS should require explicit re-consent before we can continue using already-purchased software."
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Updates should preserve our privacy preferences or explicitly ask before altering them."
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Publishers should be required to include advertised game features at launch or offer clear, enforceable commitments."
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Updates for TVs, smartphones or similar devices must not auto-install apps that we did not opt in to."
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Privacy-protective settings should be the default.",
+              "Personalization and advertising tracking should require opt-in."
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Many SaaS platforms make it difficult to cancel or manage subscriptions.",
+              "Some auto-renewals happen by default, and its hard to find the cancellation option without navigating through multiple pages."
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Software or games that claim to be \"free\" but offer minimal functionality unless you pay for premium features or subscriptions."
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "New smartphones, tablets, or laptops often come pre-loaded with unwanted apps that cant be uninstalled."
+            ]
+          },
+          {
+            "topic": "Cloud Data Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              "Unclear who owns the data you upload, and what rights those company's have over it."
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Lack of Consumer-Friendly Refund Policies Digital products, especially games or downloadable software, often have very restrictive refund policies, or no refund option at all, making it hard for us to get our money back if the product doesnt meet expectations."
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Software updates pushed to older devices, which slow down or make the device unusable.",
+              "Even up to this day after Samsung and Apple have been caught multiple times."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48238,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Right to Resell Software We should be legally permitted to resell software licenses once they no longer need them. 2. Forced Agreement to New ToS Major changes to ToS should require explicit re-consent before we can continue using already-purchased software. 3. Software Updates Resetting Privacy Settings Updates should preserve our privacy preferences or explicitly ask before altering them. 4. Game Features Promised but Delivered Later or Not at All Publishers should be required to include advertised game features at launch or offer clear, enforceable commitments. 5. Unwanted Apps Installed by Software Updates Updates for TVs, smartphones or similar devices must not auto-install apps that we did not opt in to. 6. Privacy-Friendly Defaults for Personalization Privacy-protective settings should be the default. Personalization and advertising tracking should require opt-in. 7. Subscription Auto-Renewal Traps Many SaaS platforms make it difficult to cancel or manage subscriptions. Some auto-renewals happen by default, and its hard to find the cancellation option without navigating through multiple pages. 8. Locked Features Behind Paywalls in \"Free\" Software Software or games that claim to be \"free\" but offer minimal functionality unless you pay for premium features or subscriptions. 9. Bloatware on Devices New smartphones, tablets, or laptops often come pre-loaded with unwanted apps that cant be uninstalled. 10.Unclear Data Ownership in Cloud Services Cloud services sometimes make it unclear who owns the data you upload, and what rights those companys have over it. 11. Lack of Consumer-Friendly Refund Policies Digital products, especially games or downloadable software, often have very restrictive refund policies, or no refund option at all, making it hard for us to get our money back if the product doesnt meet expectations. 12. Forced Software Updates on Older Devices Software updates pushed to older devices, which slow down or make the device unusable. Even up to this day after Samsung and Apple have been caught multiple times.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.742919Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589064.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589064",
+    "chunks_doc_id": "F3589064",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

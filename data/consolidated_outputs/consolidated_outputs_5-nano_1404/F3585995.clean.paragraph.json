@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585995",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:11Z",
+    "finished_at": "2026-04-14T12:43:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the area of PC games, culture is destroyed by producers: Stories they tell, 3D and 2D art, which can only be browsed in play, music and sound effects that are only visible through the game."
+              },
+              {
+                "quote": "All this is destroyed by manufacturers when they shut down their supposed ‘products’ by disabling the online servers associated with them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26085,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative aims to tackle “problematic practices” in consumer protection online. In my opinion, however, the list of examples does not mention an important problematic practice: In the ‘real world’ and, of course, on the internet, digital software is sold as a product (e.g. Computer games), which, however, tend to have a service character with internet dependence. These ‘products’ can then be switched off at will by the manufacturer without I, as a consumer, expecting that (because a product was allegedly sold to me, not a service). This is an extremely problematic practice that should be addressed. In particular, in the area of PC games, culture is destroyed by producers: Stories they tell, 3D and 2D art, which can only be browsed in play, music and sound effects that are only visible through the game. All this is destroyed by manufacturers when they shut down their supposed ‘products’ by disabling the online servers associated with them. Please take this aspect of “PC games and culture unexpectedly destroyed by manufacturers” as a problematic practice to be addressed in this initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.027319Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585995.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585995",
+    "chunks_doc_id": "F3585995",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

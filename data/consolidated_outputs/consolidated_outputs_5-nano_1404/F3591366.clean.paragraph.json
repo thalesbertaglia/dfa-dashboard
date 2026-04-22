@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3591366",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:08Z",
+    "finished_at": "2026-04-14T13:35:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many online vendors claim that they are \"selling\" some (digital) good while in the end they are only granting a time limited (even if it's 100 years) licence to use, which drastically limits what we can do with the item. Quite often it's impossible to sell off such item, or even lend it to a friend. Be that games or ebooks."
+              },
+              {
+                "quote": "DRM may be a requirement to handle that (and that's fine) but then again - there is no single (and open!) solution and getting a book from one operator limits our option to use the item (e.g. getting a book from Amazon with Amazon DRM forces us to use Amazon Kindle; on the other hand if we get an ebook from other store we can't read it on Kindle)."
+              },
+              {
+                "quote": "There is also a case where we are basically force to use certain online platforms because there is no interoperability, but this may have been address somewhat in DMA."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32305,
+          "unit_kind": "feedback"
+        },
+        "text": "I very much welcome the initiative and proposed direction. However I think there are more areas where consumers rights could be better protected when dealing with digital goods: many online vendors claim that they are \"selling\" some (digital) good while in the end they are only granting a time limited (even if it's 100 years) licence to use, which drastically limits what we can do with the item. Quite often it's impossible to sell off such item, or even lend it to a friend. Be that games or ebooks. Considering that a lot of those have the price as physical goods in most cases, where we can easily lend the book to a family member or friend (we loose the posession of it for that time) or sell it off, current digital market is severely limiting. And because of the push to use it more and more, we are quite often loosing the possibility to get the item in any other way (this mostly applies to games and movies/series - getting a physical disc with it is starting to get more and more difficult). DRM may be a requirement to handle that (and that's fine) but then again - there is no single (and open!) solution and getting a book from one operator limits our option to use the item (e.g. getting a book from Amazon with Amazon DRM forces us to use Amazon Kindle; on the other hand if we get an ebook from other store we can't read it on Kindle). Another thing is, even though EU is a Union with supposedly single market, there are still border barriers and some goods or services are not available in all member states - this should change as soon as possible. I'm not sure what's the roadblock is (licence/rights?) but all digital services should be available in the whole EU! There is also a case where we are basically force to use certain online platforms because there is no interoperability, but this may have been address somewhat in DMA.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.857688Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591366.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591366",
+    "chunks_doc_id": "F3591366",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

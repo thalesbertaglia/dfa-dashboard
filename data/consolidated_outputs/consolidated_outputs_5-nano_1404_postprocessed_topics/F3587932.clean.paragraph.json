@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587932",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:24Z",
+    "finished_at": "2026-04-14T13:21:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I buy a video game, it can be made unavailable to me at any time by the publisher’s convenience and favourably."
+              },
+              {
+                "quote": "There are already hundreds of such games, which are now unusable."
+              },
+              {
+                "quote": "the inaccessibility or practical destruction of the video games purchased when they reach the end of their life cycle"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15406,
+          "unit_kind": "feedback"
+        },
+        "text": "It is very sad to the extent to which people are overlooked in the video game industry (and in the world of digital services in general). If I buy a video game, it can be made unavailable to me at any time by the publisher’s convenience and favourably. There are already hundreds of such games, which are now unusable.I would be very grateful if this law also addresses the issue of the inaccessibility or practical destruction of the video games purchased when they reach the end of their life cycle, even though publishers and developers could invest minimal or even no extra work to solve this problem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.595384Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587932.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587932",
+    "chunks_doc_id": "F3587932",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587932.clean.paragraph.json"
+}

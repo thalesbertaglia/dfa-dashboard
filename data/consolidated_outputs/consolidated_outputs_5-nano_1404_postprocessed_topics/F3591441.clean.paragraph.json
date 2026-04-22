@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3591441",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:28Z",
+    "finished_at": "2026-04-14T13:35:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "“Have no Artistic Value” included under Mastercard"
+              },
+              {
+                "quote": "no one has given them the authority to decide whether something has artistic value and can be sold or not."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31019,
+          "unit_kind": "feedback"
+        },
+        "text": "Payment processors such as the target and mastercard that have the privilege of having a global monopoly need to be regulated in order to avoid abuse of power. These companies together with PayPal have recently started to threaten to remove their services from certain platforms, especially Steam, if they did not remove content that they consider not fit with their terms and services. Such as; “Have no Artistic Value” included under Mastercard. As a citizen, I cannot accept that extremely powerful foreign companies can abuse their power to control what should or not be bought by me. If they are legal, they have an obligation to process the payment, no one has given them the authority to decide whether something has artistic value and can be sold or not. This not only affects the freedom of the consumer but also of the producers of this content. If we do not stop these abuses now we don’t know where these threats will stop. PayPal has recently started to remove its services from certain countries on the basis of the same argumenty.MasterCard has recently threatened another company “RiotGames” that had to censor its chat online not to talk about this topic at a global event under coercion to also remove its service. Give companies laws to protect themselves from these threats. Payment processors have had the huge privilege given by us to become unique on the market, and just like water, light, internet and other utilities nobody should be excluded from these services just because an executive has decided.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.864116Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591441.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591441",
+    "chunks_doc_id": "F3591441",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591441.clean.paragraph.json"
+}

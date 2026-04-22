@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3619169",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:12Z",
+    "finished_at": "2026-04-14T13:42:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Battlepasses are used by gaming companies to farm MAU(Monthly Active Users) from people and can cause bad habbits to form and make people feel forced to play."
+              },
+              {
+                "quote": "Cosmetics like Weapon Skins or Costumes for character models that have FOMO(Fear of Missing Out) causes people to make purchases under bad conditions."
+              },
+              {
+                "quote": "These cosmetics are also limitless and endless in quantity as they are digital and can be copy and pasted until storage drives allows it."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Live service games often have \"400% Value\" on their Bundles or packs, these \"value\" offers are misleading."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Live service game developers saying they won't nerf a character you've paid money for and they go back on their word and nerfs them anyway without any refund in any real money, in-game fake money or in-game resources."
+              }
+            ]
+          },
+          {
+            "topic": "DRM-Free Storefronts",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "EU should push game developers to publish/sell their games on GOG(Good Old Games) or similar DRM(Digital Rights Management) Free storefronts."
+              },
+              {
+                "quote": "DRM Free should be a right, DRM software often causes worse performance."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41466,
+          "unit_kind": "feedback"
+        },
+        "text": "Battlepasses are used by gaming companies to farm MAU(Monthly Active Users) from people and can cause bad habbits to form and make people feel forced to play. Cosmetics like Weapon Skins or Costumes for character models that have FOMO(Fear of Missing Out) causes people to make purchases under bad conditions. These cosmetics are also limitless and endless in quantity as they are digital and can be copy and pasted until storage drives allows it. Live service games often have \"400% Value\" on their Bundles or packs, these \"value\" offers are misleading. Live service game developers saying they won't nerf a character you've paid money for and they go back on their word and nerfs them anyway without any refund in any real money, in-game fake money or in-game resources. EU should push game developers to publish/sell their games on GOG(Good Old Games) or similar DRM(Digital Rights Management) Free storefronts. DRM Free should be a right, DRM software often causes worse performance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.019577Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3619169.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3619169",
+    "chunks_doc_id": "F3619169",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

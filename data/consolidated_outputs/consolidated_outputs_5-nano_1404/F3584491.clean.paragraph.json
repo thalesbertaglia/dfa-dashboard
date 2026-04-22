@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584491",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:33Z",
+    "finished_at": "2026-04-14T11:59:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections for video games, to prevent them from being destroyed forever."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14302,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a great step for the European Union. For too long massive companies have dominated the marketplace by using unfair and even harmful practices! I hope that the EU will continue to protect the rights of consumers. On that topic, there is another issue I and many people are passionate and concerned about, that being the right of people sold a game as a product to have access to it. In case you aren't aware, a huge movement getting over 1.4 million signatures in the EU citizens' initiative that aims to protect people's rights to own the games that they purchase. This is not just a want of people who want to keep playing, this is a movement of preservation of culture, which more and more is becoming digital. I would therefore if it would be possible for the digital fairness act to also include protections for video games, to prevent them from being destroyed forever. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.258777Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584491.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584491",
+    "chunks_doc_id": "F3584491",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

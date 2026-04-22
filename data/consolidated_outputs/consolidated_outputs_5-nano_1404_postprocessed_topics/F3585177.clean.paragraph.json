@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585177",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:59Z",
+    "finished_at": "2026-04-14T12:22:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of software, particularly video games."
+              },
+              {
+                "quote": "When publishers decide that these games are no longer profitable, they often shut down the online services, rendering the games unplayable and effectively destroying them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unilateral revocation of licenses without reason or compensation."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "data collection and digital marketplaces."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15703,
+          "unit_kind": "feedback"
+        },
+        "text": "While it's encouraging to see steps being taken towards digital fairness, I want to highlight an additional concern regarding potential violations of consumer lawsspecifically, the destruction of software, particularly video games. Many games today require online access for features that are not essential to the core gameplay but are instead related to additional functionalities like data collection and digital marketplaces. When publishers decide that these games are no longer profitable, they often shut down the online services, rendering the games unplayable and effectively destroying them. Some video game publishers engage in consumer-unfriendly practices, such as unilateral revocation of licenses without reason or compensation. This issue is also being addressed by the 'Stop Destroying Videogames' European Citizens' Initiative, which has already collected over 1.4 million signatures Now my personal experience: I used to play the game \"Overwatch\" made by Blizzard Entertainment. I paid 59,99 for the Origin Edition in 2016, which got literaly replaced in 2022 by an objectively worse free-to-play sequel with less content. I find it truly heartbreaking, as this video game has allowed me to forge numerous friendships with fellow Europeans. These connections have blossomed over time, and many of these individuals have now become my closest friends, enriching my life in ways I never anticipated. Our first commonality, which was a huge part of my and my friends adulesence, was simple destroyed by corporate greed and missing consumer protection laws.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.624991Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585177.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585177",
+    "chunks_doc_id": "F3585177",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585177.clean.paragraph.json"
+}

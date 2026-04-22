@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584120",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:56Z",
+    "finished_at": "2026-04-14T11:49:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers destroying videogames with centralized online server to connect to in order to play."
+              },
+              {
+                "quote": "consumers need to retain access to the digital products they bought, even after the seller decided to take their online-only products offline."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17719,
+          "unit_kind": "feedback"
+        },
+        "text": "The current draft of the Digital Fairness Act is a good start to combat online malpractice. In my opinion, it should include outlawing bad practices employed by video game publishers destroying videogames with centralized online server to connect to in order to play. Publishers tend to take these kinds of videogames offline for \"arbitrary reasons\" without warning the consumer beforehand and destroying tons of work and art in the process. This should definitely go against consumer protection laws in the EU where consumers need to retain access to the digital products they bought, even after the seller decided to take their online-only products offline. The \"Stop destroying videogames\" movement has already opened a EU petition against this shady business practice and destruction of art and got over 1.4 million EU citizen to sign it. I believe it is of utmost importance that combating malpractice such as described above should be included in this Act. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.082047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584120.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584120",
+    "chunks_doc_id": "F3584120",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584120.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588643",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:28Z",
+    "finished_at": "2026-04-14T13:24:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying our video games."
+              },
+              {
+                "quote": "preserve them or reimburse said purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18923,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings! Im writing to request that the Digital Fairness Act to request you add consumer protections to publishers destroying our video games. Some of my earliest memories as a child was sitting with my mother to play some of her old favorite video games and its a joy to know that I can enjoy those still today! But its sad to think that my children, if the industry keeps going down this path, wont be able to sit with me to enjoy the games I grew up with and share that special bond that hobbies can bring, or my childrens children. Theres already a huge list of games that are killed every year and counting, regardless of you payed full price for a product you should own, and video game publishers have made no effort to preserve them or reimburse said purchase. I hope you take my feedback and many other coming forward into consideration, and thank you for even launching this Act. Best of luck",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.664076Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588643.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588643",
+    "chunks_doc_id": "F3588643",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

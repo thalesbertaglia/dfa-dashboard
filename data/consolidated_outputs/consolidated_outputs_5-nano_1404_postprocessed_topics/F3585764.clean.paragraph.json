@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585764",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:06Z",
+    "finished_at": "2026-04-14T12:36:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sold video games being shutdown, removed and made unplayable"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22042,
+          "unit_kind": "feedback"
+        },
+        "text": "We really need some help and regulation in the video games industry, specifically relating to sold video games being shutdown, removed and made unplayable with no thoughts of the the consumers that have sometimes paid up to 80 for the products. The practice is becoming more and more common of selling a video game and then having it taken away from you with no more than an apology, never is there an offer a refund. We need to stop this by making developers plan to turn the game files over to its customers when they decide to shut down a live service, letting the owners of the products able to keep using the digital item they have purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.908962Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585764.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585764",
+    "chunks_doc_id": "F3585764",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585764.clean.paragraph.json"
+}

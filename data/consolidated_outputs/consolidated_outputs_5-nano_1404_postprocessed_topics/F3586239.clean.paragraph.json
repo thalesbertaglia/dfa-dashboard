@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586239",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:26Z",
+    "finished_at": "2026-04-14T12:51:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers from being able to make unavailable for me products I already payed for"
+              },
+              {
+                "quote": "the game depends on an online service in order to save my progress"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25773,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to say that I think this act should also include a provision to prevent video game publishers from being able to make unavailable for me products I already payed for, in my case, I purchased the open world single player racing video game Fuel just the day before it was disabled, the game depends on an online service in order to save my progress, so after playing close to an hour, when I closed the game my progress was deleted, it would have been easy to implement an end of life patch that allowed saving, since there are unofficial patches, but depending on unofficial 3rd parties to patch the game leaves consumers open to viruses, like this story, there are many games that could have lost online functionality but otherwise keep working, that consumers paid for and that are no longer usable, that's the reason I would like the EU to protect consumers from this practice Thank you, Ulises Alfaro",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.170377Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586239.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586239",
+    "chunks_doc_id": "F3586239",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586239.clean.paragraph.json"
+}

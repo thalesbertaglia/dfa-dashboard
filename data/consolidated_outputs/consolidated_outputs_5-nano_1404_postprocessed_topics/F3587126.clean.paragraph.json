@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587126",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:57Z",
+    "finished_at": "2026-04-14T13:11:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Studios making games reliant on online servers only to then take those away when the game stops being profitable is also worrying."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19307,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I think digital fairness is very important, especially as a disabled person who relies very much on the Internet as a source of information and method of survival. This includes using the Internet for entertainment, art, education, communication, etc. That is why I view recent Internet developments as highly worrying. Actors such as VISA blocking storefronts with content they view as risky is far beyond their scope as a payment processor. Studios making games reliant on online servers only to then take those away when the game stops being profitable is also worrying. I would therefore like to suggest taking these two situations into account when formatting the digital fairness act, as I, as a disabled EU citizen, am forced to rely on the goodwill of large companies in order to carry out my everyday life.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.444295Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587126.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587126",
+    "chunks_doc_id": "F3587126",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587126.clean.paragraph.json"
+}

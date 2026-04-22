@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3589015",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:56Z",
+    "finished_at": "2026-04-14T13:28:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Is it fair for companies to just remove acces to what I bough, even if the game have no online functionality or have a single player mode?"
+              },
+              {
+                "quote": "shouldn't that mean that I own the game?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24002,
+          "unit_kind": "feedback"
+        },
+        "text": "First off I would like to ask what does the word \"buy\" mean? what does it mean when the button I press on says \"Buy\"?, shouldn't that mean that I own the game? Is it fair for companies to just remove acces to what I bough, even if the game have no online functionality or have a single player mode? A end of service plan should only be fair, when a car manufacture stops service for a car, you can always find other mechanics to repair it. Here it's different, company stop service and we lose all possibilities to use our product unless we modify the game / files and in some cases that end up with threats of legal action.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.726259Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589015.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589015",
+    "chunks_doc_id": "F3589015",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589015.clean.paragraph.json"
+}

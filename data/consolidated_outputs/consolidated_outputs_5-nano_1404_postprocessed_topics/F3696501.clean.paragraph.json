@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3696501",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:05Z",
+    "finished_at": "2026-04-14T13:46:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "No, you cant use the tools that make you safe."
+              },
+              {
+                "quote": "UblockOrigin cause it blocks the scary ads, the bad spying bots, and the tricky fake websites."
+              },
+              {
+                "quote": "I should be able to block bad ads and bad scripts, cause some are trying to steal my money!"
+              },
+              {
+                "quote": "Chrome should keep UblockOrigin forever, or make their own super shield thats just as good."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30233,
+          "unit_kind": "feedback"
+        },
+        "text": "I need the web browser to go on the internet. Its like my window to see stuff! Every browser is a little different, like one has blue buttons, another has fast zoom, and people like the one they know cause it feels comfy, like their blanket. But big companies are being mean. They say, No, you cant use the tools that make you safe. Thats silly! We need things like UblockOrigin cause it blocks the scary ads, the bad spying bots, and the tricky fake websites. Without it, the internet feels yucky and dangerous, like walking in mud with monsters. I dont wanna give away my right to be safe. I should be able to block bad ads and bad scripts, cause some are trying to steal my money! UblockOrigin helps me, like a superhero shield. If Google takes it away, its like taking away my seatbelt in a car. Thats not fair. I think Chrome should keep UblockOrigin forever, or make their own super shield thats just as good. Cause without it, the internet is scary, and people can get hurt or lose lots of money. Its not just about ads, its about keeping us safe every day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.098250Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3696501.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3696501",
+    "chunks_doc_id": "F3696501",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3696501.clean.paragraph.json"
+}

@@ -1,0 +1,84 @@
+{
+  "doc_id": "F33071277",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:35Z",
+    "finished_at": "2026-04-14T09:29:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is concerning that payment processors use protecting kids as a excuse to force games and artists to censor what sexual and 18+ content is 'acceptable'."
+              },
+              {
+                "quote": "A duopoly like the existing payment processors shouldn't be able to play moral police over what games are on Steam or itch.io"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Patreon and Bluesky where vague TOS guidelines mean that any legal kink material can be banned"
+              },
+              {
+                "quote": "nor should Paypal be able to close your account because you bought a erotic book."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26229,
+          "unit_kind": "feedback"
+        },
+        "text": "While I fully agree that minors need to be protected from material not meant for them, us adults have a right to exist on the internet as well and to access such legal material without having to doxx ourselves or hand our IDs to unknown third parties. It is concerning that payment processors use protecting kids as a excuse to force games and artists to censor what sexual and 18+ content is 'acceptable'. We already see this spread to social platforms like Patreon and Bluesky where vague TOS guidelines mean that any legal kink material can be banned, meaning a artist drawing BDSM content is held to a higher standard than mainstream media where depictions of sexual violence is rife. A duopoly like the existing payment processors shouldn't be able to play moral police over what games are on Steam or itch.io, nor should Paypal be able to close your account because you bought a erotic book. People earning their income from legal NSFW content have just as much right to a fair digital space as everyone else.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.497219Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071277.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071277",
+    "chunks_doc_id": "F33071277",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33071277.clean.paragraph.json"
+}

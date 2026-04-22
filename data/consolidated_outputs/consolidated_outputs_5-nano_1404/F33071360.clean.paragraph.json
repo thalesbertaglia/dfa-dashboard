@@ -1,0 +1,89 @@
+{
+  "doc_id": "F33071360",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:36Z",
+    "finished_at": "2026-04-14T09:29:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prevent in-house software from making games and additional content (DLC) inaccessible, which can very well be used without the need to connect to a server."
+              },
+              {
+                "quote": "in-house software may at its discretion make a game purchased regularly by the customer inaccessible."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If the opposite had been the case, there would have been no difference with the various subscriptions that already exist to use games for a limited period of time."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it is absurd that software houses can write on the physical copy boxes that the copy must be destroyed if the licence is revoked because otherwise they would be in breach of the terms of use."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30141,
+          "unit_kind": "feedback"
+        },
+        "text": "In my view, European standards should be introduced to prevent in-house software from making games and additional content (DLC) inaccessible, which can very well be used without the need to connect to a server. I do not think that in-house software may at its discretion make a game purchased regularly by the customer inaccessible. It is as if an example were a publishing house to be at your home and take a book published by you simply because he turns so. In addition, this way of doing could also result in an incorrect practice towards the consumer. In fact, the in-house software could very well prevent tomorrow’s accommodation from gaining access to a given game by forcefully lucky to move on to a possible continuation of the same work. Moreover, I find it absurd that software houses can write on the physical copy boxes that the copy must be destroyed if the licence is revoked because otherwise they would be in breach of the terms of use. Although this has no real application and only serves them to be protected in this particular case, I find that both a freedom and beyond in-house software should not even have in theory. This is because the video game is a purchased asset and not a concession, I must be able to use it and I must be able to decide what to do. And I find it aberrant that someone is right to treat the video game as a licence. It is not a subscription that is a made and finished product that I buy. If the opposite had been the case, there would have been no difference with the various subscriptions that already exist to use games for a limited period of time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.498365Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071360.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071360",
+    "chunks_doc_id": "F33071360",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

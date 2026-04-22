@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588294",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:00Z",
+    "finished_at": "2026-04-14T13:23:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The aim is to find solutions against the loss of access to video games, once the creator removes the services needed to access them."
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "What seems to me problematic is the monopolisation of those two entities, which, by virtue of their influence, can bind companies such as Valve worth billions of US dollars, as well as the possibility of future censorship on matters that do not suit them."
+              }
+            ]
+          },
+          {
+            "topic": "Privacy",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I do not want to have to provide my personal data (identity card, passport or other) in order to access services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36623,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with some of the points of the EPR in case the measures put in place do not run counter to the GDPR. I do not want to have to provide my personal data (identity card, passport or other) in order to access services. There are solutions and I am sure they do not all require this exchange. I would also like to see the preservation of video works. The aim is to find solutions against the loss of access to video games, once the creator removes the services needed to access them. It is important to note that there is no need for measures to induce the companies concerned to retroactively make available products using outdated technologies, which would require a lot of resources and money. The ideal situation would be that any new product would be able to operate without these systems, if the company decides not to maintain them itself in the future. For example, this could take the form of a development tool (which could be the owner) to create a service that could be maintained by anyone (this could be open-source). An excellent example of this is the Forged Alliance Forever, which is a service that allows the Supreme Commander Forged Alliance to continue playing online while requiring a copy of the game (the company always receives the revenue upon buying a copy of the game). The last point I would like to address is the recent removal of thousands of games from itch.io and Steam platforms after Visa and Mastercard payment services threatened to stop processing payments if they did not take action on games with adult content. In response, Itch.io defeated thousands of games while Steam withdrew the targeted games from its digital front. What seems to me problematic is the monopolisation of those two entities, which, by virtue of their influence, can bind companies such as Valve worth billions of US dollars, as well as the possibility of future censorship on matters that do not suit them. Moreover, I can only feel a dissonance when I see that it is always possible to pay pornographic films with a Mastercard or Visa card, but games with adult content are considered inappropriate and must be removed. I am also worried about works that would like to explore difficult topics such as sexual abuse and incest, not to glorify these acts, but to launch a conversation about the importance of educating about these terrible events that destroyed lives. Art is first and foremost an expression to communicate and connect with others, on the beautiful as well as on the laid, by projecting a strong light on issues that should be known to everyone so that we all move forward to create a better next day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.637640Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588294.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588294",
+    "chunks_doc_id": "F3588294",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588294.clean.paragraph.json"
+}

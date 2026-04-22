@@ -1,0 +1,58 @@
+{
+  "doc_id": "F3720322",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:55Z",
+    "finished_at": "2026-04-14T13:47:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9618,
+          "unit_kind": "feedback"
+        },
+        "text": "Forcing only Google approved apps allows Google to monopolize apps even more than they already do. They say it will be easy to obtain developer status but says who? Them? Google is hardly a fair third party of who can be developers if they control everything. Besides, living in other countries than those in which I bought my phone means Google won't allow me to download the apps I need for every day life as they are region locked. Even though my phone is not. As such, side loading is the only way I can get some of the apps i need.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.116514Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720322.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720322",
+    "chunks_doc_id": "F3720322",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

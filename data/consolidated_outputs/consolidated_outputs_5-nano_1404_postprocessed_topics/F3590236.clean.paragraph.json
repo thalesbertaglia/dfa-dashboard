@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3590236",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:04Z",
+    "finished_at": "2026-04-14T13:33:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the deactivation and inaccessibility of the entire purchased product (e.g. video games or apps) after the publisher has stopped supporting it."
+              },
+              {
+                "quote": "this practice provides disproportionate leverage for large companies to indirectly force customers to purchase new versions of products, often with very similar content."
+              },
+              {
+                "quote": "the customer’s ownership of the product, but can be removed at any time without any real reason, which I consider to be highly unethical and unfair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20048,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to suggest that the Digital Fairness Act also takes into account common practices in the software industry, namely the deactivation and inaccessibility of the entire purchased product (e.g. video games or apps) after the publisher has stopped supporting it. Including in cases where the product contains substantial offline content that is not dependent on online servers, maintenance or other technical support. It seems to me that this practice provides disproportionate leverage for large companies to indirectly force customers to purchase new versions of products, often with very similar content. At the same time, this undermines the importance of the customer’s ownership of the product, but can be removed at any time without any real reason, which I consider to be highly unethical and unfair. Thank you in advance for the weighing and wish a good day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.819049Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590236.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590236",
+    "chunks_doc_id": "F3590236",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590236.clean.paragraph.json"
+}

@@ -1,0 +1,83 @@
+{
+  "doc_id": "F33091450",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:33:29Z",
+    "finished_at": "2026-04-14T09:33:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I am increasingly dissatisfied at my ever-decreasing level of ownership when it comes to digital purchases."
+              },
+              {
+                "quote": "Why bother creating innovate new media when you can just sell the same thing to the consumer over and over?"
+              },
+              {
+                "quote": "1. I can have access to the game revoked for any reason whatsoever on a whim of the rights holder or the digital store"
+              },
+              {
+                "quote": "2. I can have access to the game lost due to DRM mechanisms becoming unavailable (e the DRM supplier goes out of business)"
+              },
+              {
+                "quote": "3. I cannot backup the game"
+              },
+              {
+                "quote": "4. I cannot modify or format-shift the game to ensure it is playable on future hardware/operating systems (e running it through an emulator)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27729,
+          "unit_kind": "feedback"
+        },
+        "text": "I am increasingly dissatisfied at my ever-decreasing level of ownership when it comes to digital purchases. It is essentially impossible for a law-abiding consumer to purchase a piece of media (e.g a videogame) and have access to it for as long as they choose. This is seemingly intentional as a way to force consumers into re-buying the *same* product over and over OR for old products not to compete with newer products. Not only are these grossly unfair but both are bad for innovation. Why bother creating innovate new media when you can just sell the same thing to the consumer over and over? Let's say I purchase a videogame on a digital platform; 1. I can have access to the game revoked for any reason whatsoever on a whim of the rights holder or the digital store 2. I can have access to the game lost due to DRM mechanisms becoming unavailable (e.g the DRM supplier goes out of business) 3. I cannot backup the game 4. I cannot modify or format-shift the game to ensure it is playable on future hardware/operating systems (e.g running it through an emulator) I don't expect the rights holders to preserve my purchases for me indefinitely, I am willing to put in the work to do it myself (just like if I chose to preserve a classic car) however I cannot do so according to the legal agreements I am forced to sign. I feel like I'm asking for the absolute bare minimum of ownership and nothing that could even remotely be considered unfair or harmful to the people creating this content. If digital ownership does not improve and people continue to feel they are being increasingly taken advantage of, I absolutely believe they will just take themselves out of the market and stop purchasing new content. Instead, sticking with old videogame consoles and old media, where they did have some semblance of ownership and preservation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.575381Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091450.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091450",
+    "chunks_doc_id": "F33091450",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

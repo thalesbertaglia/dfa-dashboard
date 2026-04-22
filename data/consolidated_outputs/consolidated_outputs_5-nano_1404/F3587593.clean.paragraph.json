@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587593",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:52Z",
+    "finished_at": "2026-04-14T13:19:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ending support"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21043,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like this Act to be applied to Video Games and adjacent products as well, as large companies such as Ubisoft and EA among many others have sold products and then under the guise of \"ending support\", have blocked access to the products myself and many other people have bought, presumably to push the next product that will make the same thing happen. Including an \"end of life\" plan or making it so that it is playable or accessible whenever the buyer wants should be the norm. I would also like to mention that an adjacent campaign titled \"Stop Killing Games\" has around 1.4 Million signatures with some political support as well, proving that consumers are not happy with how the industry treats them. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.550777Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587593.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587593",
+    "chunks_doc_id": "F3587593",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

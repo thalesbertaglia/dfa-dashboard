@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584837",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:18Z",
+    "finished_at": "2026-04-14T12:12:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if i buy a game for 80 that require a online connect to a server of the company to play"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16402,
+          "unit_kind": "feedback"
+        },
+        "text": "i would like if you could add the when i have bought a game. that i remains my game, so when the game meet it's end of life by the company i have bought it from, that i can if i so wish continue play it. just like if i bought an car, even if the company making the car goes under, then my car still works, ofc there is no updates or spare parts from the original company, but i should have my rigth to if i wish so to repair or buy other spare parts from another 3-partiy service. but rigth now in games, if i buy a game for 80 that require a online connect to a server of the company to play they in my opinion they just stole the game i have payed for as well as used hours on. simple put The EU-Petition Stop Killing Games, is what i wish be add to this",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.462185Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584837.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584837",
+    "chunks_doc_id": "F3584837",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584837.clean.paragraph.json"
+}

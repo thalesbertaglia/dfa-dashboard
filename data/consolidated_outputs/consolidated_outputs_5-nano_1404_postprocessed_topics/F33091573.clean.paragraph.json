@@ -1,0 +1,84 @@
+{
+  "doc_id": "F33091573",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:34:19Z",
+    "finished_at": "2026-04-14T09:34:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "why a particular recommendation was made"
+              },
+              {
+                "quote": "where that data came from"
+              },
+              {
+                "quote": "when my personal data is sold to, transferred to or used by another company or app"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A 50% share of the price when my data is sold for profit and the right to veto the sale or transfer of my personal data"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19438,
+          "unit_kind": "feedback"
+        },
+        "text": "More than once have I found clear signs of different apps giving me suggestions based on things that has happened around me and not on any of my devices, or searches I've made in another app. I would like to see a number of changes to current practices: 1. More clearer messaging about why a particular recommendation was made and where that data came from. 2. Clearer messaging about when my personal data is sold to, transferred to or used by another company or app. 3. A 50% share of the price when my data is sold for profit and the right to veto the sale or transfer of my personal data.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.577675Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091573.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091573",
+    "chunks_doc_id": "F33091573",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33091573.clean.paragraph.json"
+}

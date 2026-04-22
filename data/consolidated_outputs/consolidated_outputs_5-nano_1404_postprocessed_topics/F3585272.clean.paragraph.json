@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585272",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:06Z",
+    "finished_at": "2026-04-14T12:24:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lootboxes"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hidden gambling mechanics"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Unfair termination of a physical or digital videogame I paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24575,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer who buy video games, I want to ask the Digital Fairness Act to defend my rights against the industry when it come to: Unfair termination of a physical or digital videogame I paid for. For example, The game \"The Crew\" was terminated by its publisher, making me unable to access the game in any ways. This game had no fair plans to allow me to be able to use it once its online service have been shut down. Its termination's short notice (under a few month instead of one or two year) also kept me from making a leveled decision about my purchase. The initiative \"Stop Killing Games\" give a more proper and detailed explanation about the issues, the nature of the movement and its potential solutions. There is also a lot of loopholes and dangerous elements (online gambling, lootboxes, price inflation on digital good, etc) that the game industry push relentlessly on its playerbase due to a lack of laws protecting the consumers right. Many people using digital goods are minors who are prone to be manipulated by theses aggressive microtransactions/hidden gambling mechanics.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.662534Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585272.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585272",
+    "chunks_doc_id": "F3585272",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585272.clean.paragraph.json"
+}

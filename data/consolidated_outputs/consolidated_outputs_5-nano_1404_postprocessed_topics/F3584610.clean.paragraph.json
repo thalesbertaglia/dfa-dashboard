@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584610",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:35Z",
+    "finished_at": "2026-04-14T12:05:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "‘dark patterns’"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are many ways of gambling online, often accessible to minors. It is not always a traditional casino, and gambling is often integrated into games targeted and marketed to children. These pseudo casinos are not covered by law and are not regulated in any way. Such a hazard is often in the form of loot boxes, gacha games, ruliets etc."
+              },
+              {
+                "quote": "The Steam platform on PC offers a bazzle on which won objects can be exchanged for money. This sales is used by third parties to operate an untaxed, illegal hazard."
+              },
+              {
+                "quote": "Finally, platforms such as Roblox should be prohibited from exploiting children’s work and earning on their creations."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is also important for me to be able to use the software I bought after the support from the publisher has ended."
+              },
+              {
+                "quote": "Many times after the end of the support, the publisher disables software and sometimes hardware, which is unacceptable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 108690,
+          "unit_kind": "feedback"
+        },
+        "text": "I am sure to solve problems like ‘dark patterns’, misleading AI, and trying to maximise profits with misleading strategies. It is also important for me to be able to use the software I bought after the support from the publisher has ended. Many times after the end of the support, the publisher disables software and sometimes hardware, which is unacceptable. Next, the issue of online gambling should finally be properly addressed. There are many ways of gambling online, often accessible to minors. It is not always a traditional casino, and gambling is often integrated into games targeted and marketed to children. These pseudo casinos are not covered by law and are not regulated in any way. Such a hazard is often in the form of loot boxes, gacha games, ruliets etc. The Steam platform on PC offers a bazzle on which won objects can be exchanged for money. This sales is used by third parties to operate an untaxed, illegal hazard. Of course, this is only one example. Similar cases occur on other platforms. Finally, platforms such as Roblox should be prohibited from exploiting children’s work and earning on their creations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.316968Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584610.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584610",
+    "chunks_doc_id": "F3584610",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584610.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3588382",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:19Z",
+    "finished_at": "2026-04-14T13:23:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "an option of making their own Servers of discontinued games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the right to destroy what i bought at any point in time should they wish"
+              },
+              {
+                "quote": "advertised as a purchase, and not a license."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20164,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, As a citizen of the EU i value the fair trade of goods, but in recent times we have seen an ever increasing amount of hostile licencing of services rather than used to be a purchase, i take issue with various publishers claiming they have the right to destroy what i bought at any point in time should they wish, even more so for older games and movies, that was advertised as a purchase, and not a license. The Retroactive policies of these game studios is of great potential to harm all future products on the internet, creating barriers to what i deem as fair trade. So i hereby request in hopes of a better future for the digital marketplace, that the EU implement policies that secure the future of games, as to provide users an option of making their own Servers of discontinued games, and let it be up to the individual to decide when they are done with their product, rather than greedy corporations, it would not bring any stress on these companies as they just have to provide users with access that they personally sit with, and today decide to abuse in the name of profit. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.643751Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588382.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588382",
+    "chunks_doc_id": "F3588382",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

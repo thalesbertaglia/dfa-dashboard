@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588954",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:41Z",
+    "finished_at": "2026-04-14T13:27:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game with mandatory online components that they can retract at any time and with no recourse from the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23974,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act will be an important piece of legislation for all our futures. Having said that, what is still missing for me are video games and the unfortunate fact that companies can sell you a video game with mandatory online components that they can retract at any time and with no recourse from the consumer. They can effectively kill video games at any point in time and they will be lost forever! Video games quickly become part of our cultural heritage, our childhood memories and at least some of them are art that should be preserved! The \"Stop destroying Video Games\" EU Initiative shows that many people strongly care about this issue. For me it is the MMORPG \"Tabula Rasa\" that wasn't successful enough and which is now lost forever with no chance of getting it back. All I have at this point are fond memories, and no way of experiencing it again or showing it to anyone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.704183Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588954.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588954",
+    "chunks_doc_id": "F3588954",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

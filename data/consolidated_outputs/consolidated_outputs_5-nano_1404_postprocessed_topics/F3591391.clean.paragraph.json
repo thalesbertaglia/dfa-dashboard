@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591391",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:13Z",
+    "finished_at": "2026-04-14T13:35:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ubisoft's removal of servers for the game The Crew, making it impossible to play in single-player mode even if the game ad been purchased;"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17952,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital services industry is currently heading in a worrying direction: Ubisoft's removal of servers for the game The Crew, making it impossible to play in single-player mode even if the game ad been purchased; pressure from payment processors (such as PayPal, Mastercard, Visa) on video game platforms (such as Itch.io, Steam) to censor certain types of games... For this reason, I believe that the Digital Equity Act should focus on these types of practices, forcing companies to make single-player games playable even after the game has been discontinued, and preventing certain companies (such as payment processors, banks) from determining how their users (buyers or sellers) can use their digital money for legal purposes.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.860293Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591391.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591391",
+    "chunks_doc_id": "F3591391",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591391.clean.paragraph.json"
+}

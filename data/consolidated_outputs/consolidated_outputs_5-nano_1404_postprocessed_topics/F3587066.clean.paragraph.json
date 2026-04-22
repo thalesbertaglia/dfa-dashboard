@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587066",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:15Z",
+    "finished_at": "2026-04-14T13:09:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair contractual terms under a duopoly"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark pattern."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30195,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I urge EU lawmakers to include these safeguards: 1. Payment Processor Neutrality Prohibit dominant payment processors (like Visa or Mastercard) from denying services to legally operating platforms based on subjective 'brand safety' concerns unrelated to fraud or illegality. Such denials restrict consumer choice, stifle competition, and constitute unfair contractual terms under a duopoly, violating the DFAs core objective of preventing market distortions. Payment processing is a vital service equivalent to a digital utility, granting processors unreasonable power to control marketsakin to 'gatekeepers' regulated under the DMA. I urge to extend \"fair access\" obligations to payment processors. 2. Ban Coercive 'Voluntary' Surveillance Treat 'voluntary consent' for chat scanning or data retentionwhen tied to service accessas an unfair commercial practice and dark pattern. This invalidates genuine consent under GDPR Article 7 and exploits consumer vulnerabilities, which the DFA explicitly targets. Such practices mirror 'forced continuity' (requiring invasive monitoring for basic service), already condemned in the DSA (Article 25) and DFA Fitness Check. I urge to classify coercive consent as a 'prohibited practice' under Annex 1 of the Unfair Commercial Practices Directive (UCPD). 3. Data Sovereignty Enforcement: Mandate that all consumer data processing/storage occur within EU jurisdiction, with extraterritorial safeguards (GDPR Article 48) to block non-EU data demands. Cloud providers must certify operational independence from foreign law. This is important as ECJs Schrems II ruling shows that existing regulation cannot ensure EU consumer data protection during EU-US data transfers",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.425344Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587066.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587066",
+    "chunks_doc_id": "F3587066",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587066.clean.paragraph.json"
+}

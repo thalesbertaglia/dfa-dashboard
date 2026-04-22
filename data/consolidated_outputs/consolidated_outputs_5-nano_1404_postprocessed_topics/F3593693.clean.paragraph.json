@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3593693",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:32Z",
+    "finished_at": "2026-04-14T13:39:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "requiring subscriptions, etc."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22264,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games have become one of the industries leading the charge in the harmful practice of taking payments for a product without selling it to you, and instead requiring subscriptions, etc. in order to \"lease\" the consumer the permission to use their product. This practice is so prevalent, it threatens to set an example for other big industries, which eventually could lead to an enormous loss of consumer rights. If you don't technically speaking own your product, then it follows that consumer protection regulations don't apply to you in such contexts. As such, the \"leasing\" of video games and other media threatens to undermine consumer protection as a whole, leaving companies wholly non-responsible for misleading their customers or outright scamming them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.956685Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593693.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593693",
+    "chunks_doc_id": "F3593693",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593693.clean.paragraph.json"
+}

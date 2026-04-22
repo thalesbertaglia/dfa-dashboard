@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3586105",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:05Z",
+    "finished_at": "2026-04-14T12:47:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "collecting and selling personal data"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "put a subscription on services and features that were freely available initially"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "often will the providers and sellers modify the End User Agreement and the service in general after the selling of the content in a way that is very unfavorable for the consumer."
+              },
+              {
+                "quote": "refund if they refuse the new agreement"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49687,
+          "unit_kind": "feedback"
+        },
+        "text": "The already included points about dark patterns and abusive marketing tactics are great, keep it! However I would like it to be extended to: -ownership of digital content. Nowadays almost everything online is sold as a service, or as a license that can be revoked any time for any reason, and this is an industry standard practice, which is very bad, and need to be regulated. For instance, a consumer buys a digital video game, or buys a digital movie, and the seller or publisher can rework access to it whenever they wish to, which is not right, as they 'sold' us the content, not 'rented' or 'licensed' it. - often will the providers and sellers modify the End User Agreement and the service in general after the selling of the content in a way that is very unfavorable for the consumer. For instance they might start collecting and selling personal data, or even worse put a subscription on services and features that were freely available initially when the user choose and bought into a service. Ofc sometimes it is inevitable to have a need to change the service, but after an agreement change, users should have the option to get a partial or full refund if they refuse the new agreement, now their only option is to stop using the content all together.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.092885Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586105.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586105",
+    "chunks_doc_id": "F3586105",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

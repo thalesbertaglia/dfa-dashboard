@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584861",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:02Z",
+    "finished_at": "2026-04-14T12:13:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies can shut down the severs of the video games you have paid for - completely destroying any useability of the game."
+              },
+              {
+                "quote": "A game should be required to always be in a playable state and playable, even when the creators have decided it's time to move on."
+              },
+              {
+                "quote": "The solution of letting the cusomers host their own servers - and what else might be needed - has been done since the first online video games came out."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Upon termination for any reason, You must immediately uninstall the Product and destroy all copies of the Product in Your possession"
+              },
+              {
+                "quote": "They destroy consumers purchaces because they feel like it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56570,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add videogames under things to be protected by the digital fairness act. Due to the nature of it being \"games\", laws around videogames tend to be very infantile. But its a multibillion dollar industry that currently have next to no safeguards in place. It breaks all the core rules of what this bill tries to talk about. Mainly the fact that video game companies can shut down the severs of the video games you have paid for - completely destroying any useability of the game. It should be required that videogame companies let the customers create private servers unrelated to and to no cost of the original creators. A game should be required to always be in a playable state and playable, even when the creators have decided it's time to move on. Videogame company Ubisoft is a great example of just how far this goes. Here is part of their EULA: \"Upon termination for any reason, You must immediately uninstall the Product and destroy all copies of the Product in Your possession\" This means that not only do they completely nullify your purchace just because they feel like it, they also legally require you to physically destroy your possession - which is against many laws. Can you imagine if your private car's creators decided they were tired of your car, and came to your house, set your car on fire, and left - all legal? This is no different. They destroy consumers purchaces because they feel like it. The solution of letting the cusomers host their own servers - and what else might be needed - has been done since the first online video games came out. It's neither difficult nor costly - and despite what they might say, it has never been a security risk either, as all personal data can be deleted while game data can be kept during the transfer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.474132Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584861.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584861",
+    "chunks_doc_id": "F3584861",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

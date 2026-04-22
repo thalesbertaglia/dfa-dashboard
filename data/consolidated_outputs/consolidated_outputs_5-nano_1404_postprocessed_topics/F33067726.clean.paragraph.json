@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33067726",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:28Z",
+    "finished_at": "2026-04-14T09:27:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games purchased by consumers."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "often at very high prices"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the duration of which depends only on the goodwill of the editors."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22183,
+          "unit_kind": "feedback"
+        },
+        "text": "Several laws protecting video games purchased by consumers. The latter are often truthful by their editors/creators, as part of consumer protection. Like a film, a book, a song, a painting or any other artistic work, the video game deserves a form of cultural protection, as it alone mixes all existing forms of art. The video game has been repeatedly recognised as a work of art and therefore deserves the same treatment as its equivalents. The owners of these games, whose financial interest goes beyond any other aspect of their works, very often end the service of their games, on the grounds that this costs them too expensive or any other argument that is normally inadmissible for another media. The Joueurs have for years been asking for protection of the games they buy, often at very high prices, while knowing that, although companies pretend to the contrary, players in reality only have a licence to use, the duration of which depends only on the goodwill of the editors. So far few, see none, there is no protection against these cases. Many suggestions exist, often not requiring any support from game creators. Only laws can change this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.463554Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067726.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067726",
+    "chunks_doc_id": "F33067726",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33067726.clean.paragraph.json"
+}

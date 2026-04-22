@@ -1,0 +1,96 @@
+{
+  "doc_id": "F33085395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:31:35Z",
+    "finished_at": "2026-04-14T09:32:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Clear and Transparent Price Indication: The price of in-game content or services must be shown in both in-game currency and real-world money, ensuring players can make informed decisions about their purchases."
+              },
+              {
+                "quote": "Avoiding Practices That Obscure Pricing: Game developers should not engage in tactics that obscure the true cost of digital content."
+              },
+              {
+                "quote": "No Forced Purchases: Developers should not design games that force consumers to spend more money on in-game currencies than necessary."
+              },
+              {
+                "quote": "Multiple Currencies: F2P game systems rely on multiple gameplay loops to be effective. To support these loops and give players meaningful choices, multiple currencies are essential."
+              },
+              {
+                "quote": "When a game is published, you set specific, pre-defined prices for all in-app purchases on stores like Google Play."
+              },
+              {
+                "quote": "Implementing the option to purchase something like 23 gems would either require rounding that purchase to the nearest predefined value (which violates the rule) or registering a huge number of specific values."
+              },
+              {
+                "quote": "Which will be a complete disaster for publishers."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Avoiding Practices That Obscure Pricing: Game developers should not engage in tactics that obscure the true cost of digital content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38856,
+          "unit_kind": "feedback"
+        },
+        "text": "Regarding the new regulations, three points are particularly worrisome: 1. Clear and Transparent Price Indication: The price of in-game content or services must be shown in both in-game currency and real-world money, ensuring players can make informed decisions about their purchases. 2. Avoiding Practices That Obscure Pricing: Game developers should not engage in tactics that obscure the true cost of digital content. This includes practices like mixing different in-game currencies or requiring multiple exchanges to make purchases. 3. No Forced Purchases: Developers should not design games that force consumers to spend more money on in-game currencies than necessary. Players should be able to choose the exact amount of currency they wish to purchase. I understand the underlying goal, but these rules reveal a fundamental ignorance of game design and development: 1. Inflation and Value: Virtual items and currencies constantly change their actual value during a games live operations due to in-game inflation and economic adjustments. Forcing us to show the real-money equivalent at all times will quickly become nonsensical. 2. Multiple Currencies: F2P game systems rely on multiple gameplay loops to be effective. To support these loops and give players meaningful choices, multiple currencies are essential. Without them, balancing becomes hellish, and the player experience suffersa genuine lose-lose scenario. 3. Purchase Flexibility: When a game is published, you set specific, pre-defined prices for all in-app purchases on stores like Google Play. Implementing the option to purchase something like 23 gems would either require rounding that purchase to the nearest predefined value (which violates the rule) or registering a huge number of specific values. Which will be a complete disaster for publishers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.554592Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33085395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33085395",
+    "chunks_doc_id": "F33085395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33085395.clean.paragraph.json"
+}

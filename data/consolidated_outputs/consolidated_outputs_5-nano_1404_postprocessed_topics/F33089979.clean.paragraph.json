@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33089979",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:32:08Z",
+    "finished_at": "2026-04-14T09:32:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Increasingly, video games are deliberately treated less favourably by their creating studios in buyers."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is used in many ways to devalue the product after it has been purchased and to artificially require further purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Under no circumstances should a seller be allowed to change the state of good after sale and against the will of the owner, let alone deliberately worsen it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34236,
+          "unit_kind": "feedback"
+        },
+        "text": "Increasingly, video games are deliberately treated less favourably by their creating studios in buyers. Hardly ever, users are well informed about changes to their already acquired, and even less often such information is ever available before buying. The idea is that games are not physically good and, therefore, even after sale, the seller’s control will continue and be further driven, with large firms now admitting this in part openly. This is used in many ways to devalue the product after it has been purchased and to artificially require further purchases. I think that it has long been necessary to stop these practices. My idea is very simple: Anyone who buys a good one should quite then have to use it well in the right place where it was bought. Under no circumstances should a seller be allowed to change the state of good after sale and against the will of the owner, let alone deliberately worsen it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.564545Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33089979.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33089979",
+    "chunks_doc_id": "F33089979",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33089979.clean.paragraph.json"
+}

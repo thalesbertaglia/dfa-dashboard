@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3585724",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:52Z",
+    "finished_at": "2026-04-14T12:35:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the button is purposefully hidden behind three other unrelated pages."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gambling with loot-boxes or other similar mechanics in games has also gotten pretty bad and should be much more restricted, especially looking at minors."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Something that seems at least adjacent to this is the topic of perpetual licences, explicitly companies selling a \\\"perpetual\\\" or \\\"lifetime\\\" licence for a product and then deciding that they can't be bothered to provide that product anymore at a later point."
+              },
+              {
+                "quote": "Even the fact that the consumer is buying a licence and not the product directly is often barely communicated visibly."
+              },
+              {
+                "quote": "Examples for this would be games requiring an online connection, that the developer just decides to not provide anymore, as addressed by the \\\"Stop killing games\\\" initiative at https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en#"
+              },
+              {
+                "quote": "German company Teamviewer ending infrastructure support for their software \\\"Teamviewer 12\\\" and leaving everyone who paid thousands of euros for a so called \\\"perpetual\\\" licence with the only options to pay again for an upgrade or stop using the service, as per their announcement at https://community.teamviewer.com/English/discussion/141015/end-of-support-for-teamviewer-versions-11-and-12/p1"
+              },
+              {
+                "quote": "Perpetual should mean perpetual."
+              },
+              {
+                "quote": "If it's not viable for the business to host a server that's fine of course, but then they should be at least required to provide the tools to the users (that paid for the service anyway) to do it themselves."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56085,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this legislation is very important and badly needed. I'd consider myself fairly adept at navigating digital services and subscriptions, but even I often find it hard and obtuse to cancel something, when the button is purposefully hidden behind three other unrelated pages. No idea how some older people are supposed to handle that. Gambling with loot-boxes or other similar mechanics in games has also gotten pretty bad and should be much more restricted, especially looking at minors. Something that seems at least adjacent to this is the topic of perpetual licences, explicitly companies selling a \"perpetual\" or \"lifetime\" licence for a product and then deciding that they can't be bothered to provide that product anymore at a later point. Even the fact that the consumer is buying a licence and not the product directly is often barely communicated visibly. Maybe this could be an area to address as well. Examples for this would be games requiring an online connection, that the developer just decides to not provide anymore, as addressed by the \"Stop killing games\" initiative at https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en# Another one that comes to mind is German company Teamviewer ending infrastructure support for their software \"Teamviewer 12\" and leaving everyone who paid thousands of euros for a so called \"perpetual\" licence with the only options to pay again for an upgrade or stop using the service, as per their announcement at https://community.teamviewer.com/English/discussion/141015/end-of-support-for-teamviewer-versions-11-and-12/p1 It feels extremely unfair, that a company is able to just alter a deal after it's been made. Perpetual should mean perpetual. If it's not viable for the business to host a server that's fine of course, but then they should be at least required to provide the tools to the users (that paid for the service anyway) to do it themselves.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.889957Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585724.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585724",
+    "chunks_doc_id": "F3585724",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585724.clean.paragraph.json"
+}

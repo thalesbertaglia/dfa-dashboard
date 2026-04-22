@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587528",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:05Z",
+    "finished_at": "2026-04-14T13:18:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I despise any practice that deceives, conveniently hides, or compromises products just for the sake of the companies' monetary interest."
+              }
+            ]
+          },
+          {
+            "topic": "Offline Component Preservation",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I know it is possible to detach the game's dependency from the servers so that their offline/solo component is preserved."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29397,
+          "unit_kind": "feedback"
+        },
+        "text": "I look at this as any other bad anti-consumer practice that any technological or not company does to their customer. I despise any practice that deceives, conveniently hides, or compromises products just for the sake of the companies' monetary interest. This is no exception. I'm a programmer. I know how to program. I know it is possible to provide support to games or any other software after the publisher shuts down the servers. I know it is possible to detach the game's dependency from the servers so that their offline/solo component is preserved. Don't throw people the \"it's hard, not possible\" just because they don't know better. A good programmer has the diligence to abstract implementations from the services they use. It is perfectly possible to provide a guide/support for people that want to go through the endeavor of supporting their favorite games or at least keep the offline component. Companies just don't want to do it for their own interest.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.538443Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587528.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587528",
+    "chunks_doc_id": "F3587528",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

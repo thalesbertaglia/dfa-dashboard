@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585571",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:39Z",
+    "finished_at": "2026-04-14T12:30:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "support videogames"
+              },
+              {
+                "quote": "servers get shut down"
+              },
+              {
+                "quote": "the game files to still be available"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15883,
+          "unit_kind": "feedback"
+        },
+        "text": "well it would be quite nifty if you would also support videogames as we seen more and more games customers have payd have been stolen from them as licenses ran out or servers get shut down no we dont want game companies to run servers indefinetly obviously thats stupid we want the game files to still be available so we can either play it alone or make our own servers maybe if companies are nice enough they can put in a peer to peer solution or something like that instead when they sunset the game however again this isnt a requirement but would be greatly appreciated",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.808766Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585571.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585571",
+    "chunks_doc_id": "F3585571",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3591668",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:27Z",
+    "finished_at": "2026-04-14T13:36:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect its peoples right to keep the videogames we buy online."
+              },
+              {
+                "quote": "games can shut down, leaving customers without acces to entertainment that the paid good money for."
+              },
+              {
+                "quote": "the company running the game servers, can shut down the servers, leaving consumers unable to play the games that they purchased."
+              },
+              {
+                "quote": "There are many examples of companies shutting down games, and its reasonable to fear that it will become more common in the future, as it can drive up profit for the big videogame producers."
+              },
+              {
+                "quote": "I hope part of digital fairness, can include legislation that forces product develepors to take steps, that ensure customers will have acces to the games they bought, even after the company supports end."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17469,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing this in my second language, because I think the message is important, and I dont want anything to be lost in translation. I hope that the EU will consider taking steps to protect its peoples right to keep the videogames we buy online. Its become popular to buy videogames on online platforms, such as Steam. This removes plastic waste and the need to ship disks across the world - its better for the environment. At the same time it leaves consumers vulnerable, because right now, games can shut down, leaving customers without acces to entertainment that the paid good money for. Even if customers buy a physical copy however, the company running the game servers, can shut down the servers, leaving consumers unable to play the games that they purchased. I hope part of digital fairness, can include legislation that forces product develepors to take steps, that ensure customers will have acces to the games they bought, even after the company supports end. Many games already have options for this. Other companies are using their options to shut down games, to force consumers to buy their new games, if the want to keep playing something similar, without the option of keep playing the earlier releases. There are many examples of companies shutting down games, and its reasonable to fear that it will become more common in the future, as it can drive up profit for the big videogame producers. Thank you for your attention to this matter.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.885736Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591668.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591668",
+    "chunks_doc_id": "F3591668",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

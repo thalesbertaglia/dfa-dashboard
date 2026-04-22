@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586222",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:53Z",
+    "finished_at": "2026-04-14T12:51:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers discontinuing and delisting access to software (but most notably games) consumers have paid for."
+              },
+              {
+                "quote": "or made unplayable due to DRM, online check-ins, or server shutdowns, not because the games no longer function, but because they were designed not to function without external dependencies that publishers later withdraw for products that were purchased in good faith."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18531,
+          "unit_kind": "feedback"
+        },
+        "text": "I write to express concern regarding a deeply troubling trend that has been growing for a long while now, that of publishers discontinuing and delisting access to software (but most notably games) consumers have paid for. In many cases, this includes rendering installed copies of said software inaccessible or entirely unplayable. This spans from massively multiplayer online titles to single-player experiences. This is not a niche issue. It is a systemic erosion of consumer rights, cultural preservation, and digital ownership. The \"Stop Killing Games\" initiative arose from this frustration and is currently supported by 1.4 million EU citizens alone, with much more support from outside the EU as well. It highlights the growing number of titles being removed from digital storefronts, revoked from user libraries, or made unplayable due to DRM, online check-ins, or server shutdowns, not because the games no longer function, but because they were designed not to function without external dependencies that publishers later withdraw for products that were purchased in good faith. I urge the Commission to consider: - Enshrining digital ownership: If a product is sold, it must remain accessible post-sale, regardless of corporate rebranding, licensing expiry, or infrastructure changes. Consumers deserve confidence that a purchased product remains theirs. - Server shutdown protections: For games with online dependencies, sunset plans should include offline fallback modes, patches, or open-sourcing components, server files or other necessary tools to enable private server operation by technically capable and passionate users. - Preservation as cultural duty: Games are not mere software, they are part of our cultural fabric. EU institutions already support preservation of film, literature, and music. Games deserve parity and efforts to preserve them should not be hindered after publishers are done supporting them. - Transparency mandates: If nothing above mentioned, at least: games that require persistent connections, or are subject to potential delisting, must disclose this clearly pre-purchase. - DRM impact assessments: Introduce requirements to assess the long-term viability and consumer risks of DRM strategies, especially for single-player titles, and its removal after a reasonable period. On average, DRM protections are bypassed within two years, at which point the system no longer prevents piracy and instead punishes legitimate users, actively encouraging more piracy, as DRMs use resources. If not negotiable then before ending support for said games. Let's ensure Europe leads in innovation and retention of rights, of culture and of trust. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.161663Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586222.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586222",
+    "chunks_doc_id": "F3586222",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586222.clean.paragraph.json"
+}

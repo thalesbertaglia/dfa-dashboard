@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587297",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:45Z",
+    "finished_at": "2026-04-14T13:15:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video game Dark Spore as a physical copy."
+              },
+              {
+                "quote": "since Electronic Arts shut the game's online servers down, I have no access to the product I bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23635,
+          "unit_kind": "feedback"
+        },
+        "text": "I am deeply concerned about consumer rights and the way companies have been allowed to trample all over them by operating in legal grey areas. We desperately need protection within the EU against corporations that deliberately destroy digital products (or products relying on digital components) that they sell consumers as a one-time purchase. This happened to me as I bought the video game Dark Spore as a physical copy. I went to a store, bought a box with a CD in it, and since Electronic Arts shut the game's online servers down, I have no access to the product I bought. At the time, I didn't even know that was possible. The physical CD I paid money for is now a completely useless piece of plastic. Currently, video games may be the big talking point because it's easy for companies to get away with destroying something that is not viewed as essential or important by society at large. However, if left unchecked, this will quickly spread to other products. Today, almost everything has a digital component. If I wanted to, I could connect my washing machine to the internet and download wash cycles. There are household appliances today that literally will not function without an internet connection, and as technology keeps evolving at an escalating rate, this issue will only spread further. Digital media, software, household appliances, vehicles, phones, computers, government systems, public infrastructure, websites, all of what we rely on in our everyday lives will be at risk. Please, I implore you, we need laws to protect consumers from unchecked capitalism.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.493299Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587297.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587297",
+    "chunks_doc_id": "F3587297",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587297.clean.paragraph.json"
+}

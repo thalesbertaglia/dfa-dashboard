@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584669",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:53Z",
+    "finished_at": "2026-04-14T12:06:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "From things like disguising what has been repeatedly proven to be just gambing for children as \"microtransactions\" and other \"surprise mechanics\" in video games"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in video games"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "making subscribing to a service a five-minute endeavor but unsubscribing an entire oddyssey."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying videogames after purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44604,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital age has allowed corporations to get away with far too much anti-consumer behavior. From things like disguising what has been repeatedly proven to be just gambing for children as \"microtransactions\" and other \"surprise mechanics\" in video games, to making subscribing to a service a five-minute endeavor but unsubscribing an entire oddyssey. All of these and more are finally addressed by this proposed legislation which is both a relief and long overdue. While the measures the Digital Fairness act proposes seem like an excellent start to combating these growing anti-consumer practices, the growing concern of ownership over our digital products should be addressed too. A prime example of such being the act of publishers destroying videogames after purchase, an act that is already being challenged by the Stop Destroying Videogames Citizens' Initiative, and that could be addressed by the Digital Fairness Act to close yet another way this digital age has allowed corporations to unfairly exploit their costumers",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.346468Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584669.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584669",
+    "chunks_doc_id": "F3584669",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

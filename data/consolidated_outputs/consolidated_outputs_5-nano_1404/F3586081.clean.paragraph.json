@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586081",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:08Z",
+    "finished_at": "2026-04-14T12:46:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Lifetime subscription that expire"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "purchases that can be terminated and be made unusable whenever a company feels like it."
+              }
+            ]
+          },
+          {
+            "topic": "Always-online DRM",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "More and more are our video games becoming completely dependent on having access to the internet, even if you own a physical copy and even then it can still be made unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36128,
+          "unit_kind": "feedback"
+        },
+        "text": "Lifetime subscription that expire, payment processors like VISA dictating what games are 'in line with their internal scrutiny' and purchases that can be terminated and be made unusable whenever a company feels like it. Are among a few of the many issue currently surrounding video games at this moment. The 'stop killing videogames' and 'stop destroying videogames' initiative are trying to provide a basic framework to work with lawmakers and deal with these issues. More and more are our video games becoming completely dependent on having access to the internet, even if you own a physical copy and even then it can still be made unusable. No other product/sector comes to mind that allows the complete disregard of our consumer rights, yet within the video game sector this is where it currently stand. And as such I believe the digital fairness act can and should do its best to address this oversight in regulation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.074860Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586081.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586081",
+    "chunks_doc_id": "F3586081",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

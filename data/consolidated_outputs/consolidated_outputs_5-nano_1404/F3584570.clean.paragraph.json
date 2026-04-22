@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584570",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:06Z",
+    "finished_at": "2026-04-14T12:02:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many modern games require constant online connections, even in single-player mode."
+              },
+              {
+                "quote": "When companies shut down servers, I permanently lose access to something I paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many games are licensed instead of sold, letting companies revoke access arbitrarily. This creates a false sense of ownership and leaves consumers powerless."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I am often not informed whether a game depends on online services or has a limited lifespan."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40758,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Core Concern As a consumer and long-time supporter of digital entertainment, I am increasingly concerned about how companies are allowed to disable or revoke access to digital productsespecially video gameseven after full payment. Games I have purchased have become unplayable due to server shutdowns or restrictive DRM, despite being technically capable of functioning offline. This undermines the very idea of ownership, erodes trust in digital marketplaces, and contradicts the EUs core principles of fairness, transparency, and consumer protection. I urge the Commission to address this growing problem as part of the Digital Fairness Act, and to include stronger rights and safeguards for buyers of digital content, particularly software and games. 2. Key Issues & Proposed Solutions a) Permanent Loss of Access After Server Shutdown Many modern games require constant online connections, even in single-player mode. When companies shut down servers, I permanently lose access to something I paid for. Suggestion: Require companies to offer an offline version or unlock patch when online support ends, where technically possible. b) Lack of Transparency at Point of Purchase I am often not informed whether a game depends on online services or has a limited lifespan. This lack of disclosure prevents informed decision-making. Suggestion: Require clear labeling of: DRM and online requirements. Use of platform-specific logins. Expected product lifespan and support timeline. c) No Legal Right to Continue Using Purchased Digital Goods Many games are licensed instead of sold, letting companies revoke access arbitrarily. This creates a false sense of ownership and leaves consumers powerless. Suggestion: Introduce digital ownership protections that guarantee ongoing access to purchased content, even after end-of-life or de-listing. d) No Compensation When Content Is Disabled or Delisted Even after buying a game shortly before it was pulled or disabled, Ive received no refund, credit, or even notice. This practice is unacceptable. Suggestion: Require: Pro-rated refunds or credits for recent purchases of discontinued content. Reasonable notice periods before removal or shutdown. 3. Preservation and Cultural Impact Video games are not disposable entertainment. They represent a growing form of cultural and artistic expression, and deserve to be preserved. Unfortunately, fan communities that try to maintain access to older titles are often shut down, even when the publisher no longer supports the game. Suggestion: Support legal emulation and preservation efforts. Encourage companies to release server tools or source code for abandoned titles. Recognize games as part of Europes digital cultural heritage. 4. Upholding EU Values If I pay for a product, I should be able to use it for as long as it functions on my device. The Digital Fairness Act is an opportunity for the EU to lead globally in restoring trust, ensuring fair access, and defending consumers in a rapidly evolving digital economy. 5. Conclusion I respectfully urge the Commission to include protections in the Digital Fairness Act that: Prevent companies from disabling access to paid digital content. Mandate clear disclosure at the point of sale. Support the preservation of games and other software. Guarantee compensation or alternatives when services are terminated. Digital fairness must include the right to retain access to what we purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.298222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584570.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584570",
+    "chunks_doc_id": "F3584570",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

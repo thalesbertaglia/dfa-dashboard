@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584679",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:08Z",
+    "finished_at": "2026-04-14T12:06:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect consumers from losing access to video games they've legally purchased."
+              },
+              {
+                "quote": "I can't use it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15016,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm concerned with how games are nowadays moving digital only, with limited physical releases and ownage. I strongly support the goals of the Digital Fairness Act. I also believe it should protect consumers from losing access to video games they've legally purchased. I'll tell you a story: I bought one of the first versions of the Mass Effect trilogy (not the remaster) for 80EUR and already at the time of purchase one game (ME 1) was unplayable, non-refundable and non-functional. Later the second one (ME 2) and the company's technical support just tells you to buy the remaster. I already bought the game, I have paid for it here and I can't use it. This is unacceptable behavior for me and I would like to see some customer protection in this regard. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.351423Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584679.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584679",
+    "chunks_doc_id": "F3584679",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584679.clean.paragraph.json"
+}

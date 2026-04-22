@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586264",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:15Z",
+    "finished_at": "2026-04-14T12:53:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forcing premium currency"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There should be an offline mode for single-person games and tools for multi-person games – e.g. C2C connection (customer-customer), possibility to set up an LAN server, possibility for the user to set up an unofficial server for others (the founder of the unofficial server will be responsible for the content and behaviour of other users of this server)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48123,
+          "unit_kind": "feedback"
+        },
+        "text": "Computer games (software) as cultural works and a product should be accessible to users when the developer/publisher ends official support. There should be an offline mode for single-person games and tools for multi-person games – e.g. C2C connection (customer-customer), possibility to set up an LAN server, possibility for the user to set up an unofficial server for others (the founder of the unofficial server will be responsible for the content and behaviour of other users of this server). Companies/companies providing banking payment services (e.g.: Visa, Mastercard, Paypal) and other companies cannot influence the content of the computer game distributor (inter alia: STEAM, itch.io), as it is an expression of a market monopoly. Reducing advertising, exposure (e.g. forcing premium currency) and the impact of micropayments on computer games (including blocking progress and access to content).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.182080Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586264.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586264",
+    "chunks_doc_id": "F3586264",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586264.clean.paragraph.json"
+}

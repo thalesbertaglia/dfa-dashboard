@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585876",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:43Z",
+    "finished_at": "2026-04-14T12:40:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "designed to fail"
+              },
+              {
+                "quote": "outright manipulative"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we need stronger consumer rights in the gaming space."
+              },
+              {
+                "quote": "self-host servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44440,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Dear representatives, we need stronger consumer rights in the gaming space. Publishers and developers have become increasingly greedy, anti-consumer, and outright manipulative, all in the pursuit of squeezing out every last bit of profit. While making money isnt inherently wrong, it becomes a problem when a product is designed to fail, just so they can take the cash and run, while stripping away the consumers right to use what theyve paid for, often across multiple devices and accounts. The Stop Killing Games initiative, along with potential protections under the Digital Fairness Act, are essential in todays world. We need to build a fairer, more innovative, and more stable market for video games and entertainment. Here are some examples showing both pro and anti-consumer practices: On the pro-consumer side, we have games like Counter-Strike, Minecraft, Mount & Blade, and many others. These titles often allow players to self-host servers, play offline, and preserve the experience long after official support ends. This enables the community to keep these games alive and evolving independently. On the anti-consumer side, there are games like Heroes & Generals, ArcheAge, and similar titles that have been poorly managed, eventually being shut down or left in low-maintenance zombie states. In the case of Heroes & Generals, the developers asked for money to create a new version. The community funded it, then they asked for more. When people said no, they shut the game down entirely. Its painful to see all that time and money wasted. If only they had allowed self-hosting, the community could have kept the game alive, possibly even improved it through mods and custom servers. Dear representatives, we need our rights protected from these bad faith actors. Such practices are becoming increasingly common, and they pose a serious, long term threat to the entire gaming industry. Kind regards, Kristian from Bulgaria.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.966254Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585876.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585876",
+    "chunks_doc_id": "F3585876",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584195",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:54Z",
+    "finished_at": "2026-04-14T11:52:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections against the deletion or deactivation of purchased digital video games."
+              },
+              {
+                "quote": "publishers shutting down access to games - even those that consumers have paid for - without recourse or compensation and with no due notice."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10711,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I would like to thank you for the important work being done on the Digital Fairness Act. Strengthening consumer rights in the digital environment is both timely and necessary. As a concerned German citizen and consumer, I respectfully urge you to expand the scope of the Act to include protections against the deletion or deactivation of purchased digital video games. This issue is at the heart of the growing Stop Killing Games campaign (stopkillinggames.com), which highlights the increasing trend of publishers shutting down access to games - even those that consumers have paid for - without recourse or compensation and with no due notice. Many games are left \"dead\" by publishers even though there is no gameplay or design reason to \"kill\" them - single-player or peer-hosted games could remain accessible feasibly so long as publishers choose to allow it, which is something they don't currently do. There are well over 1000 documented cases of games which are either already \"dead\" and completely unplayable or have no end-of-life plan that would keep them accessible. Digital fairness should mean that a purchase is respected, and access is not arbitrarily revoked post-sale. I recommend the Act include language with the goal to prevent the remote disabling of videogames by the publishers, before providing reasonable means to continue functioning of said videogames without the involvement from the side of the publisher. Thank you for considering this aspect of digital consumer rights. Ofek Germany",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.119733Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584195.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584195",
+    "chunks_doc_id": "F3584195",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584195.clean.paragraph.json"
+}

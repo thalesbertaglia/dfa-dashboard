@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3589023",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:05Z",
+    "finished_at": "2026-04-14T13:28:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the game The Crew is largely single-player, yet it is now unplayable because the required online servers have been shut down."
+              },
+              {
+                "quote": "the unfair practice of killing games and other software that consumers have legitimately purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Consumers have the right to expect that purchasing digital products grants them ownership, not a revocable license subject to arbitrary shutdowns."
+              },
+              {
+                "quote": "Protect against unilateral removal of content or features from products already sold."
+              },
+              {
+                "quote": "Finally, transparency and fairness in digital sales must ensure consumers are fully informed about online dependencies and DRM restrictions before purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35541,
+          "unit_kind": "feedback"
+        },
+        "text": "I urge the Digital Fairness Act to take a firm stance against the unfair practice of killing games and other software that consumers have legitimately purchased. For example, the game The Crew is largely single-player, yet it is now unplayable because the required online servers have been shut down. This effectively kills the game, denying access to content that should still be available offline. Consumers lose access to what they paid for, often without clear notice or alternatives. Similarly, software like Adobe Creative Suite CS4, purchased for substantial sums (approximately 1,500 to 2,750), can no longer be activated because licensing servers have been discontinued. This revokes access to fully purchased products and undermines ownership rights. The Digital Fairness Act must require companies to: Clearly disclose at the point of sale any dependence on online services that may be discontinued, including expected support lifespan or end-of-life dates. Provide fair notice and transition plans before shutting down essential online infrastructure, allowing users to prepare or migrate. Offer real alternatives such as DRM-free offline versions, offline modes, or the ability for third parties or communities to host servers once official support ends. Guarantee continued access to purchased digital goods, especially when offline functionality exists. Protect against unilateral removal of content or features from products already sold. Recognize digital permanence and ownership rights equivalent to physical goods. Ensure consumers can use their purchased products indefinitely, even if official support ends. Consumers have the right to expect that purchasing digital products grants them ownership, not a revocable license subject to arbitrary shutdowns. Current practices of server shutdowns and forced obsolescence without consumer consent are unfair, erode trust in digital markets, and destroy digital culture and heritage. While companies cannot be forced to maintain servers forever, this should not revoke user access. Instead, companies should provide an end-of-life plan that allows consumers to retain full use of their purchased products after support ends, similar to how physical goods lose warranty but remain usable. Finally, transparency and fairness in digital sales must ensure consumers are fully informed about online dependencies and DRM restrictions before purchase. The Digital Fairness Act is essential to protect consumer rights, preserve digital culture, and foster trust in the digital economy. Games and software that are bought must be considered owned, this principle must be respected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.729558Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589023.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589023",
+    "chunks_doc_id": "F3589023",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589023.clean.paragraph.json"
+}

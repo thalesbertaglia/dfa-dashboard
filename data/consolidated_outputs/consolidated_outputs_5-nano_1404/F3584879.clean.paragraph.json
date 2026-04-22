@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584879",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:24Z",
+    "finished_at": "2026-04-14T12:13:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "removing peoples access to video games that they have purchased."
+              },
+              {
+                "quote": "the process of transferring video games to personal servers without unnecessary hassle."
+              },
+              {
+                "quote": "whether a video game is for permanent purchase, or a removable \"online only\" video game"
+              },
+              {
+                "quote": "The word 'buy' should mean buy or purchase, not \"rent for an undisclosed amount of time.\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27900,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the DFA Initiative should include a segment against the practice of removing peoples access to video games that they have purchased. To be more specific, I ask that: 1: When video game companies wish to remove a game from online servers, customers or \"players\" should have free ability to host that same game on their own personal server. The people alone should have the ability to say when a game dies. 2: In accordance with 1, video game companies should be responsible for making the process of transferring video games to personal servers without unnecessary hassle. Companies can and may put up barriers so as to effectively prevent the transfer of the game, leaving it dead. 3: Stores or \"platforms\" for video games should clearly state whether a video game is for permanent purchase, or a removable \"online only\" video game, without need for further clarification in the form of small print. The word 'buy' should mean buy or purchase, not \"rent for an undisclosed amount of time.\"",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.481769Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584879.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584879",
+    "chunks_doc_id": "F3584879",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

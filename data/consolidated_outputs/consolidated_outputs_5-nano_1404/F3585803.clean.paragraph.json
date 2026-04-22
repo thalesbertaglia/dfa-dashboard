@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585803",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:09Z",
+    "finished_at": "2026-04-14T12:37:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "put some vague conditions in their terms of use"
+              },
+              {
+                "quote": "shut off the service whenever they want."
+              },
+              {
+                "quote": "take back what they already sold us, what we already paid for"
+              },
+              {
+                "quote": "to not allow companies and publishers to simply take away games and other digital goods that should be rightfully ours after we purchase them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22211,
+          "unit_kind": "feedback"
+        },
+        "text": "As a gamer and an EU citizen, it bothers me to no end how companies can sell us digital goods, put some vague conditions in their terms of use, and just shut off the service whenever they want. By doing so, they can effectively take back what they already sold us, what we already paid for, only so they can then sell the \"newer version\" to us again. Then do the same thing with that newer version and repeat indefinitely. Video Games suffer from this especially, so I would really want this practice to be regulated; to not allow companies and publishers to simply take away games and other digital goods that should be rightfully ours after we purchase them. I would love it if the Digital Fairness Act included ideas proposed in the Stop Destroying Videogames citizens' initiative. Nothing screams \"unfair\" to me more than video game companies taking our money and then taking away our access to the purchased goods, only to sell it to us again later.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.928130Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585803.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585803",
+    "chunks_doc_id": "F3585803",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

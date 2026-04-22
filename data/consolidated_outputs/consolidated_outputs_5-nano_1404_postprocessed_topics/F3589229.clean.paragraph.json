@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3589229",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:29:21Z",
+    "finished_at": "2026-04-15T08:30:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Gran Turismo 7 is from the start very, very limited without an internet connection."
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "using my data to train various LLMs among others"
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "My third point is the change in the terms of service/eula after the fact.",
+              "which were unilaterally decided by Epic Games."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 51099,
+          "unit_kind": "feedback"
+        },
+        "text": "I am of the opinion that in this digital world that we're living in, people paying for goods (either digital or physical) should have more protections in place. For example, if my online account gets restricted, for any reason, I have no more access to anything I paid for, being it movies on iTunes, books on Kindle or games on Sony Playstation. These are all products I was charged money for, that now are out of my reach. Then there is the issue of movies/Games that are completely removed from people's account retroactively, without any form of reimbursement, because of backstage deals between rights holders and publishers. My third point is the change in the terms of service/eula after the fact. I couldn't access my the games that I paid for in Epic Games Store without agreeing to their new terms of service (wich included using my data to train various LLMs among others). All my games I paid for are now unaccessible to me if I don't agree to the new terms of service, which were unilaterally decided by Epic Games. The fourth point would be removing the ability to play a game. I still have a disc copy of Ubisoft's \"the crew\" game, which is now unavailable because Ubisoft unilaterally decides to shut the server down. This is a racing game, with a story and a career mode, that shouldn't be tied to an online connection. Sony's Gran Turismo 7 is from the start very, very limited without an internet connection. Even the game's career mode is unavailable without an internet connection, which would be a problem when Sony decides to shut down the online service for GT7. A nice addition would be the ability to trade the product I paid for, even if it is restricted, like once a year or once every couple of years. We used to have the ability to resell, gift, or lend our DVDs and cassettes if we wanted. Now my spouse can't access games or movies I paid for because they are separate persons with separate accounts.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.770663Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589229.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589229",
+    "chunks_doc_id": "F3589229",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589229.clean.paragraph.json"
+}

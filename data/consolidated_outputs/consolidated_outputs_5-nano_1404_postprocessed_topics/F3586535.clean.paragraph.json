@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3586535",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:42Z",
+    "finished_at": "2026-04-14T12:59:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games since most or almost all of those are digital only nowadays."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design elements"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "are targeting mainly young adults or children."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices like in game currencies only being sold in packs that either give you too much or a litte less than required to purchase an item in the real money shop."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the industry already made a lot of games wich the customer already paid for unplayable without being transparent enough about that possibility while the customer was buying that game in the first place."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37667,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, please consider adding video games since most or almost all of those are digital only nowadays. First a lot of games use unfair commercial practices like in game currencies only being sold in packs that either give you too much or a litte less than required to purchase an item in the real money shop. Second the gaming industry is ramping up adding addictive design elements to further increase spending real money and are targeting mainly young adults or children. Additionally the advertisements are also pretty misleading especially in the mobile gaming industry whom are mainly targeting children. Another reason would be the industry already made a lot of games wich the customer already paid for unplayable without being transparent enough about that possibility while the customer was buying that game in the first place. Thank you for reading this feedback and have a nice day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.276056Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586535.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586535",
+    "chunks_doc_id": "F3586535",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586535.clean.paragraph.json"
+}

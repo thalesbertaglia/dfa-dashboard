@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585873",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:37Z",
+    "finished_at": "2026-04-14T12:39:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the closure of their central servers almost always means the disabling of the game as a whole"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18727,
+          "unit_kind": "feedback"
+        },
+        "text": "As a Spanish and European citizen, who supports this law, I would like to offer as a suggestion the inclusion of an additional point of approach to this legislation: stop the systematic destruction of online video games. This practice, as you know, is common among video games that require a constant internet connection, where the closure of their central servers almost always means the disabling of the game as a whole (remotely and without a detailed date at the time of purchase) and thus ensure the destruction of all the content included in the product. This practice is completely contrary to the interests of the consumer, since it usually lacks any form of compensation and is completely preventable, given that it was well planned during software development and the correct implementation of an ‘end-of-life plan’ at the time when the entrusted company no longer wants to maintain the game. Moreover, this conscious destruction of video games implies the irreversible loss of valuable cultural works, which can no longer be enjoyed or studied by future generations. The importance of this problem for the European population is also evident, thanks to the citizens’ initiative ‘Stop Destroying Videogames’, which recently exceeded 1.4 million signatures (including rays). It is a wide-ranging problem that has already meant the loss of hundreds of video games and threatens to destroy hundreds more who are in operation now and lack a defined end-of-life plan. That said, I consider that this is an important point to consider in this piece of legislation, given the clear imbalance that is created between the purchaser of a video game and the company responsible for maintaining it, representing a serious problem in terms of ‘digital fairness’ within the union. That practice is a theft of the consumer and a complete indifference to the preservation of digital works, which must be curtailed by a decisive measure.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.964873Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585873.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585873",
+    "chunks_doc_id": "F3585873",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

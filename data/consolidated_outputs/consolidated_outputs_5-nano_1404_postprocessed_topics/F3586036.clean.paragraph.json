@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586036",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:31Z",
+    "finished_at": "2026-04-14T12:44:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They can have access revoked without any sort of explanation, warning or even a time window to expect shutdown of the product."
+              },
+              {
+                "quote": "consumers need to spend money before even being able to read the terms and conditions that apply to buying and owning the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20928,
+          "unit_kind": "feedback"
+        },
+        "text": "Developers and publishers are ending support for games and removing access to products that we bought as consumers (the European court declared a transfer of rights through a license for money is a sale). Under any other circumstance this would be considered theft. When it comes to videogames however there is no legal protection, nor is there any pressure on the developers to give information for the length of the license or the time window it is available, nor does it take into account the fact that users are only subjected to a EULA after purchase, which means consumers need to spend money before even being able to read the terms and conditions that apply to buying and owning the product. All in all this means customers are at the whim of the developer and/or publisher of the piece of media that they have legally acquired. They can have access revoked without any sort of explanation, warning or even a time window to expect shutdown of the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.049084Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586036.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586036",
+    "chunks_doc_id": "F3586036",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586036.clean.paragraph.json"
+}

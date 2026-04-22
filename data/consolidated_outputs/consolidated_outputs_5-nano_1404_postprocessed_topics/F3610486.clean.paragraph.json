@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3610486",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:54Z",
+    "finished_at": "2026-04-14T13:42:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games and other software which are often externally modified to stop functioning once the publisher decides to end official support."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These publishers are deliberately destroying or taking away products consumers have paid for in order to force them to purchase a new product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21791,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe, as many others do, that the Digital Fairness Act should also address the issue of publishers arbitrarily revoking access to digital purchases, particularly video games and other software which are often externally modified to stop functioning once the publisher decides to end official support. It is one thing to stop providing updates or hosting official servers for a video game, which demonstrably costs the developers money and labor, and a whole another thing to actively prevent consumers from operating their own community servers, remotely sabotaging the product to make it stop functioning, or removing it from the digital libraries of paying customers, all of which are practices that certain developers currently engage in. It costs them nothing to allow consumers to play the video games they purchased even after the end of official support, nor does it cost them anything to allow the community to host their own servers as many other video games (eg. Team Fortress 2, Counter-Strike) have done for decades now. This is nothing more than a form of planned obsolescence. These publishers are deliberately destroying or taking away products consumers have paid for in order to force them to purchase a new product. This is a deeply unfair, exploitative and coercive business practice and should be properly addressed by the Digital Fairness Act, in my opinion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.015336Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3610486.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3610486",
+    "chunks_doc_id": "F3610486",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3610486.clean.paragraph.json"
+}

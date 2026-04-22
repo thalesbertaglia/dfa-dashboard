@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587239",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:00Z",
+    "finished_at": "2026-04-14T13:14:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games such as \"Apex Legends, Omega Strikers, The Finals, etc.\" are all games that one could spend money on"
+              },
+              {
+                "quote": "with no guarantee that their games they spend money on will still exist long after support for it is dropped"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22886,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to add to this, that games such as \"Apex Legends, Omega Strikers, The Finals, etc.\" are all games that one could spend money on, whilst having no guarantee that their games they spend money on will still exist long after support for it is dropped. It should really pe possible for these types of games to have an \"End-of-Life\" option, such as allowing Peer-to-Peer hosting. A game shouldn't be forever updated and kept up, that is not financially possible sadly, but it is more then possible for games to hand the tools of preservation of these medias to the consumer, since even when or if support is dropped, a small group of players will continue to play their favourite game and pull in a few new consumers every now and then, acting as a sort of small investment strategy for companies to still make money from games they don't support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.482690Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587239.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587239",
+    "chunks_doc_id": "F3587239",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

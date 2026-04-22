@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3654282",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:24Z",
+    "finished_at": "2026-04-14T13:43:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "things like YouTube premium"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "invasive advertising and data collection business"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21702,
+          "unit_kind": "feedback"
+        },
+        "text": "This is anti consumerism, hidden behind the usual vague argument of \"security\". I shouldn't require anyones permission let alone Google, a massive coroprations to load and run software on a device I have bought and legally owned, it doesn't work that way on say a Windows based PC, you can install whatever you like on it just by downloading the .exe file, because I bought the PC and own it so it is mine to do with as I wish. What this really is about is adverts, Google are trying to block off sideloading, because it can if one wishes be used to bypass their invasive advertising and data collection business, which again is well within someone's rights to do with their own device they paid for, citizens and their rights are not at the whims of Google or any other tech company. Can you honestly look at this and say Google is going to authorise app developers making apps that bypass their invasive practices that they make money from, or deny this is an attempt to force people towards things like YouTube premium, as advertisements are so pervasive now that there is more adverts than video. Even Apple have to allow loading apps from without their own store thanks to the EU, so why should Google be exempt. I would also point out that this is also going to negatively affect hobbiest devlopers who frequently make their own apps for fun and practice, who would be able to side load it onto their own phones for testing, with this change to Android that would no longer be the case and they too would be at the mercy and whim of Google.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.049109Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3654282.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3654282",
+    "chunks_doc_id": "F3654282",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

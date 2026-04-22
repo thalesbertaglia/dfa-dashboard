@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587508",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:50Z",
+    "finished_at": "2026-04-14T13:18:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remotely disable games people have purchased"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Restricting payment processors like Visa, Mastercard, and PayPal from refusing service to legal products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23117,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen, I strongly support this Act. However, I strongly believe it should include regulations on the following issues: 1. End-of-life plans for video games. At present, video game publishers can remotely disable games people have purchased without providing reasonable means for consumers to keep playing the games they have purchased. This has already occurred in more than 300 video games, and there is nothing to prevent publishers from continuing this practice. In fact, all of their incentives point towards destroying their old games, thus leaving consumers with the only option of purchasing their newer titles. There has been a recent successeful EU Citizens Initiative tackling this issue - called \"Stop Destroying Videogames\". It passed 1.4 million signatures, which clearly shows that a huge number of EU consumers have taken this issue to heart. 2. Restricting payment processors like Visa, Mastercard, and PayPal from refusing service to legal products. Visa and Mastercard hold 69% of the global payment processing market. Their payment processing services are essentially infrastructure. This is why it's especially egregious when they abuse that power. A recent case of such an abuse happened when Visa and Mastercard pressured online video game sellers Steam and Itch.io into removing adult games from their platforms. While some of the themes in said adult games were unsavoury, they were in no way illegal, yet these payment processors felt the need to act as an ersatz government and dictate what two independent sellers can or can't have on their platforms. The sellers in question had no choice but to comply, as failure to do so meant that Visa and Mastercard would not serve them, meaning that their online businesses would effectively collapse. This sort of cartel behaviour is unacceptable in infrastructure services such as water, electricity, or telecoms. So, it should be unacceptable in payment processing, as well, seeing as it's such an essential service when it comes to online commerce. Governments are the ones who should determine what can be put on online storefronts. Un-elected payment processors should not have that sort of power. Thank you for your time! I hope you will consider my feedback!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.533784Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587508.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587508",
+    "chunks_doc_id": "F3587508",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587508.clean.paragraph.json"
+}

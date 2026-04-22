@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3587369",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:40Z",
+    "finished_at": "2026-04-14T13:16:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lost the option of playing games"
+              },
+              {
+                "quote": "the servers chaparon and did not even give the option to make consignments locally or with our servers."
+              },
+              {
+                "quote": "They paid and felt they have stolen their money and removed what they bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29916,
+          "unit_kind": "feedback"
+        },
+        "text": "Several friends have lost the option of playing games where we met, because the servers chaparon and did not even give the option to make consignments locally or with our servers. They paid and felt they have stolen their money and removed what they bought.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.508518Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587369.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587369",
+    "chunks_doc_id": "F3587369",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

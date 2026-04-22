@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3588086",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:15Z",
+    "finished_at": "2026-04-14T13:22:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital goods such as videogames or paid content within these games, music and films, etc."
+              },
+              {
+                "quote": "should remain accessible after the end of their support from maker"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "like some subscrition with expiration date!"
+              },
+              {
+                "quote": "If it is sold as a digital good not as a service with expiration date."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Corporations should not be able to prevent paying consumers from theyr legitimed acces to the purchased and payd for goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27639,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should include that digitally acquired goods remain in the buyers possession and that access cannot be terminated at any time by firms, whether digital or not, because the product has been paid for with no termination date. For example, digital goods such as videogames or paid content within these games, music and films, etc. should remain accessible after the end of their support from maker, and should be offered for download at any time after purchase, in order to ensure that the product can be stored and continued to be used under its own responsibility. See, for example, the Stop Destroying Videogames Initiative. It has over 1,4 milion concerned citizens and consumers supporting it. It is not fair to the buyer / consumer that it is possible to buy and pay for digital goods and be deprived of access at any time like some subscrition with expiration date! If it is sold as a digital good not as a service with expiration date. Corporations should not be able to prevent paying consumers from theyr legitimed acces to the purchased and payd for goods. Please consider if The Digital Fairness Act should include thease rights for consumers. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.611865Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588086.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588086",
+    "chunks_doc_id": "F3588086",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588086.clean.paragraph.json"
+}

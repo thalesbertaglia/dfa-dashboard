@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588708",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:15Z",
+    "finished_at": "2026-04-14T13:25:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Things I ‘buy’ digitally, such as video games, should not be able to be switched off by developers without providing the community of the game with the tools to continue playing the good for which I have paid."
+              },
+              {
+                "quote": "One example is the game “The Crew” where developers closed the server and the game purchased could not be played because it requires a link to their server."
+              },
+              {
+                "quote": "But if a game that was released just a few years ago, once again, I take “The Crew” as an example, it is not even possible to play as a single player to determine it, it is at risk of being the norm for games if we go over 10-20 years."
+              },
+              {
+                "quote": "Or say clearly that the goods are ‘rented’ and not ‘purchased’."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24062,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir, Things I ‘buy’ digitally, such as video games, should not be able to be switched off by developers without providing the community of the game with the tools to continue playing the good for which I have paid. One example is the game “The Crew” where developers closed the server and the game purchased could not be played because it requires a link to their server. Like films bought on VHS, you can also see them with the right media players today. And games from the 90th century can also be played today with the right tools. But if a game that was released just a few years ago, once again, I take “The Crew” as an example, it is not even possible to play as a single player to determine it, it is at risk of being the norm for games if we go over 10-20 years. They can clearly present what their plan is for the game, whether it will be closed down in the future and what the judgment will give to the customer. Or say clearly that the goods are ‘rented’ and not ‘purchased’.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.676882Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588708.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588708",
+    "chunks_doc_id": "F3588708",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

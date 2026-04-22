@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588996",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:34Z",
+    "finished_at": "2026-04-14T13:28:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End of life support for software with always online components."
+              },
+              {
+                "quote": "As things stand now software IP holders are allowed at any time, and without warning, to end support for software that cannot operate without online access to IP holder's servers."
+              },
+              {
+                "quote": "There are multiple occasions where payment processors, many of whom are not even based in EU, are using their monopolistic or cartel control over online payments to limit consumer access to legal software by compelling vendors to delist or remove software that payment processors themselves do not approve for whatever arbitrary reason they are not legally required to justify to anyone."
+              },
+              {
+                "quote": "Either payment processors should be forbidden from limiting consumer access to any legal digital commodity, and severely punished if they attempt to do so, or alternatively if they are given power to block consumer access to legal digital commodities they should be made legally liable for any damage caused by them either preventing any transaction or approving transaction, given that they are given power to choose to do either at their discretion."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43568,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital fairness act should address two specific issues: 1) End of life support for software with always online components. As things stand now software IP holders are allowed at any time, and without warning, to end support for software that cannot operate without online access to IP holder's servers. This represents both harm to consumer rights, as well as harm to cultural legacy, as it renders software with artistic or cultural significance inaccessible to public. In other to prevent this harm to consumer and public interest IP holders should be legally required to either patch software they no longer want to support so it can operate without their online support, or release in to public software necessary for running of required servers so that their costumers can by themselves run and maintain required servers. 2) Censorship or compelled speech by payment processors There are multiple occasions where payment processors, many of whom are not even based in EU, are using their monopolistic or cartel control over online payments to limit consumer access to legal software by compelling vendors to delist or remove software that payment processors themselves do not approve for whatever arbitrary reason they are not legally required to justify to anyone. This issue can be resolved in one of two ways. Either payment processors should be forbidden from limiting consumer access to any legal digital commodity, and severely punished if they attempt to do so, or alternatively if they are given power to block consumer access to legal digital commodities they should be made legally liable for any damage caused by them either preventing any transaction or approving transaction, given that they are given power to choose to do either at their discretion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.719711Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588996.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588996",
+    "chunks_doc_id": "F3588996",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

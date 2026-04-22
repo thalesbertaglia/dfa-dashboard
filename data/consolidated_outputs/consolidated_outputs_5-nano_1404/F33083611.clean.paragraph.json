@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33083611",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:42Z",
+    "finished_at": "2026-04-14T09:31:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The generalisation of subscription models is, I believe, much resented by the public"
+              },
+              {
+                "quote": "It should be curtailed, limited to the cases where transfer of ownership is demonstrably impossible or unrealistic."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19346,
+          "unit_kind": "feedback"
+        },
+        "text": "Here from the \"stop killing games\" campaign. Their demands seem plain common sense. EU legislation should be about protecting individual rights in all cases: protect free speech, crack down on corporate malpractice! The generalisation of subscription models is, I believe, much resented by the public -remember the \"you will own nothing\" quote? pretty unpopular... It should be curtailed, limited to the cases where transfer of ownership is demonstrably impossible or unrealistic. Courageous legislation could go a long way in securing the future of the union, while submission to private interests, careerism and, of course, wars, will destroy it in the end. Thanks for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.546874Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33083611.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33083611",
+    "chunks_doc_id": "F33083611",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

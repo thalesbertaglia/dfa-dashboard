@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588859",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:06Z",
+    "finished_at": "2026-04-14T13:26:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the growing trend of video game publishers permanently shutting down games that consumers have purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers must clearly inform consumers, before purchase, how long online services or DRM servers will be maintained."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35491,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully support the goals of the EUs Digital Fairness Act and would like to raise a specific concern: the growing trend of video game publishers permanently shutting down games that consumers have purchased. As a supporter of the European Citizens Initiative: Stop Killing Games, I ask that the Act include protections for consumers whose paid digital games are later made unplayable. A clear example is Ubisofts The Crew (2014) and The Crew 2. These were sold as full games, not subscriptions. Yet Ubisoft later shut down the servers, making the games completely unplayable even for those who had paid for them. The Crew was also removed from players libraries, despite being purchased. This violates the reasonable expectation that buying a game means owning it. This is not an isolated case. Many games especially online-only titles are now delisted, disabled, or rendered unusable once a publisher decides to withdraw support. Consumers lose access to what they legally paid for. Meanwhile, companies increasingly promote the idea that \"you will own nothing and be happy\", reducing ownership to a temporary license at best. This is deeply unfair. Under current EU law, digital content providers are not clearly obligated to preserve consumer access to purchased content. The Digital Fairness Act can and should fix this by ensuring consumers maintain long-term access to the products they buy. I respectfully propose the following: Right to Use Purchased Content: Games sold as full products (not subscriptions) should remain accessible even after support ends. Companies should not be allowed to remotely disable them. Support Duration Transparency:Publishers must clearly inform consumers, before purchase, how long online services or DRM servers will be maintained. Offline Mode Requirement: If a game can reasonably be played offline, companies must provide such a mode after official servers shut down. Preservation & Emulation Rights:If a game is discontinued, legal emulation or access to server code should be allowed so that consumers or archivists can preserve its functionality. Games are more than entertainmentthey are part of European cultural life. Allowing companies to erase them at will damages digital heritage and undermines trust in digital markets. This issue affects millions of EU consumers, especially younger citizens. Strong protections will not only ensure fairness but also restore faith in digital commerce. Please ensure that the Digital Fairness Act defends the rights of gamers and all digital consumers. Companies must not be allowed to \"kill\" products people paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.693581Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588859.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588859",
+    "chunks_doc_id": "F3588859",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

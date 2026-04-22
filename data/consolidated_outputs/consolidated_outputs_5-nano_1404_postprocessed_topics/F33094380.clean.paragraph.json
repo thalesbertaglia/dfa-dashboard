@@ -1,0 +1,102 @@
+{
+  "doc_id": "F33094380",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:42:41Z",
+    "finished_at": "2026-04-14T09:43:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Stop Destroying Videogames initiative would require videogame developers to implement an end-of-life plan for their games."
+              },
+              {
+                "quote": "More and more we see even single player games (which shouldn't require an internet connection) apply these restrictions, but because of that will be unavailable when the publisher decides they want to end servers (for whatever reason)."
+              },
+              {
+                "quote": "Lootboxes should be considered gambling as it targets the same psychological targets as real life gambling (i.e. casino) does."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Referring to the EULA is invalid in my opinion as the (potential) customer does not have access to the EULA nor agreed to EULA at the moment of sale."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors and credit card companies are gatekeeping legal content for whatever reason they may have."
+              }
+            ]
+          },
+          {
+            "topic": "Internet-required Setup",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Microsoft requires internet to set up Windows"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39911,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly agree with the spirit of the Digital Fairness Act. As the world transition more and more to a digital world, existing laws and regulations are not considering that digital transition. It makes sense for the law to catch up. Already we see initiatives and concerns related to this digital world finds itself in too many grey zones with existing regulations. I would request the Digital Fairness Act specifically considers the Stop Destroying Videogames initiative. Publishers insist - via their EULA - that a license is sold. More and more we see even single player games (which shouldn't require an internet connection) apply these restrictions, but because of that will be unavailable when the publisher decides they want to end servers (for whatever reason). There are already multiple examples of this, with 'The Crew 2' as the most recent high profile example. There is also a (financial) incentive for these publishers to remotely deactivate their games, if they wish to publish and sell a new version of the same videogame. Videogames are - for the majority - sold without an expiry date being visible on the packaging or store page. When buying a physical game (i.e. disk in a box, etc.) in a store you don't know if that game will no longer be accessible after 1 year or 10 years. Referring to the EULA is invalid in my opinion as the (potential) customer does not have access to the EULA nor agreed to EULA at the moment of sale. The Stop Destroying Videogames initiative would require videogame developers to implement an end-of-life plan for their games. They would be free to choose how they want to implement this, and won't be affected before the end-of-life date. Furthermore I would like to request consideration for the following topics/concerns: > Censorship by financial institutions and/or credit card companies Payment processors and credit card companies are gatekeeping legal content for whatever reason they may have. Such companies should process any request for legal content and not block request for any reason except for illegal activities. Potential brand damage should not be a valid reason for blocking any request. > Microsoft requires internet to set up Windows Any user should be able to set up a local account. Microsoft is intentially blocking users to install and set up Windows without an internet connection. > Gambling with virtual currencies/digital goods (i.e. lootbox) Lootboxes should be considered gambling as it targets the same psychological targets as real life gambling (i.e. casino) does. I think this should be for both children AND adults.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.646145Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33094380.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33094380",
+    "chunks_doc_id": "F33094380",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33094380.clean.paragraph.json"
+}

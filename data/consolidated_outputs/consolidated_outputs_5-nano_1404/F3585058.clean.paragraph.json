@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585058",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:03Z",
+    "finished_at": "2026-04-14T12:19:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19642,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm concerned about consumer rights on digital goods, as a person playing video games. In recent years, a lot of games people bought, became simply unuseable, even when having a physical game on disc. Recent games with that are \"The Crew\", \"Dauntless\", or soon \"Anthem\". That happens because companies making these games don't want to support these games that were made to be always online, or requiring online checks at launch. And that's OK, companies can't support these products forever, I understand that. But these were still goods we paid for, with hard earned cash. I think these games or products should be made from the start with an end of life plan. This would prevent them from becoming totally useless, and making our purchase null down the road. They would still work, even if it's only partial functionality, and in the case of physical bought games, prevent them from ending in landfills.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.575734Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585058.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585058",
+    "chunks_doc_id": "F3585058",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

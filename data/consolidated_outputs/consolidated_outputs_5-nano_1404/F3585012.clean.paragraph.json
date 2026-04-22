@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585012",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:59Z",
+    "finished_at": "2026-04-14T12:18:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers regularly make purchased games unusable by cutting servers or DRM systems"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12689,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Representatives, I am writing to you because I am concerned about a recurrent problem in the video game industry: publishers regularly make purchased games unusable by cutting servers or DRM systems, even when the game could still operate offline or solo. This leaves consumers with products that they have paid for but can no longer use. I think it is essential that the legislation requires publishers either to design their games so that they remain accessible after the end of the medium, or to publish the files, patches or keys necessary to enable the community to operate them autonomously. Otherwise, we risk losing access to cultural works and seeing consumers’ rights continue to deteriorate.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.552436Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585012.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585012",
+    "chunks_doc_id": "F3585012",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

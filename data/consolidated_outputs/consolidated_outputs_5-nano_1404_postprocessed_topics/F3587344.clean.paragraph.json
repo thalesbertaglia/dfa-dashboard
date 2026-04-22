@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587344",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:10Z",
+    "finished_at": "2026-04-14T13:15:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "morally policing what sort of content citizens can purchase with their money, by pressuring websites and platforms into not selling certain types of content."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remotely disabling digital products that have been already sold to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27013,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my concerns and worries on two particular problems: Firstly: Recently payment processors have started morally policing what sort of content citizens can purchase with their money, by pressuring websites and platforms into not selling certain types of content. There needs to be regulation on the roles of payment processors so they cannot prevent and pressure platforms into removing legal content just because they do not consider them \"appropriate\". Secondly: I think the digital fairness act should cover and stop companies from remotely disabling digital products that have been already sold to customers. If I am making a one time payment in exchange for a digital product, like a video game or some other type of software, I should be allowed to use it for however long I want and not be forced to quit using it just because the company doesn't feel like supporting it anymore.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.501205Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587344.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587344",
+    "chunks_doc_id": "F3587344",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587344.clean.paragraph.json"
+}

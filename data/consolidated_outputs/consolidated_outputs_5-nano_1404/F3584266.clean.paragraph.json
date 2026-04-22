@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584266",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:41Z",
+    "finished_at": "2026-04-14T11:53:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include video games within the scope of this act"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16392,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear members of the European Commission, I would like to urge the EU to include video games within the scope of this act, particularly regarding the rights of consumers over purchased digital goods. Today, it is increasingly common for game publishers and developers to shut down servers, remove activation mechanisms or revoke access to games, rendering titles that consumers have legally purchased completely unplayable. This undermines the basic principle of digital ownership and erodes consumer trust. When a user buys a video game, they should retain the right to continue using that product, even if online services are discontinued. It is unacceptable for companies to unilaterally \"turn off\" games without offering any preservation mechanism, such as offline patches, server emulators, or the removal of DRM. Video games are a significant part of European culture and economy. They must be treated with the same fairness and consumer protection standards expected in other digital sectors. Ensuring users can access and use the products they purchase, even after official support ends, is essential to preserving both consumer rights and digital heritage. I strongly support a legal requirement for publishers to provide technical means for users to retain access to their purchased games once official services cease, and ask for this to be reflected in the Digital Fairness Act. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.152074Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584266.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584266",
+    "chunks_doc_id": "F3584266",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

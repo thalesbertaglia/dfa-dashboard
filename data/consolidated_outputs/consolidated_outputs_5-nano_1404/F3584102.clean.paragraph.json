@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584102",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:12Z",
+    "finished_at": "2026-04-14T11:48:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames added to the list of things that require protection as well under digital fairness"
+              },
+              {
+                "quote": "Video games are art and deserve to be preserved for future generations, and developers/publishers should not be allowed to shut off a game and take a purchased product away from their consumers."
+              },
+              {
+                "quote": "consumers are losing access to hundreds and thousands of products that they have paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18219,
+          "unit_kind": "feedback"
+        },
+        "text": "Dearest friends, I would be happy to see videogames added to the list of things that require protection as well under digital fairness, consumers are losing access to hundreds and thousands of products that they have paid for, and no longer have access to for completely arbitrary reasons on the part of developers and publishers. Video games are art and deserve to be preserved for future generations, and developers/publishers should not be allowed to shut off a game and take a purchased product away from their consumers. This issue is already active as a citizens initiative called Stop Destroying Games with over 1.4 million signatures, but as a consumer I would ask for all the help we can get to protect our rights and preserve video games as an artform. I highly appreciate the act and you all taking the time to listen to feedback from your citizens, and hope that you agree that consumers in the video game industry are being treated poorly right now, but that it can be changed. Thank you, I hope you will take it into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.073702Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584102.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584102",
+    "chunks_doc_id": "F3584102",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

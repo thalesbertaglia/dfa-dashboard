@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33096284",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:36:46Z",
+    "finished_at": "2026-04-14T10:37:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "no support to preserve the work of art offline for users who have already brought the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21977,
+          "unit_kind": "feedback"
+        },
+        "text": "As a supporter of Stop destroying games and a avid consumer of games, I am in full support of the creation of stricter consumer protection rules for online interactions under the Digital Fairness Act proposed. I would like if the companies stop destroying their products that i purchased both digitally or physically. Too many games created with passion from artists,programmers and more have ended with no support to preserve the work of art offline for users who have already brought the product. Thus, making the games completely unusable for future consumption. It takes months and years to make a game and seeing the work of many developers go in vain is geniunely heartbreaking.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.845163Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33096284.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33096284",
+    "chunks_doc_id": "F33096284",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33096284.clean.paragraph.json"
+}

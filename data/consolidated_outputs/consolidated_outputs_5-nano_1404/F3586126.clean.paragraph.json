@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586126",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:55Z",
+    "finished_at": "2026-04-14T12:48:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game products."
+              },
+              {
+                "quote": "purchases done inside a video game or the product itself,"
+              },
+              {
+                "quote": "currently supported servers for games including: Fortnite, Roblox, Genshin Impact,"
+              },
+              {
+                "quote": "purchased products that rely on online connectivity to be able to function at all."
+              },
+              {
+                "quote": "taken away once it's services shut down."
+              },
+              {
+                "quote": "end of live plan where games need a offline functionality,"
+              },
+              {
+                "quote": "keeping the in-game purchased content aswell as digital and physical copies of products still playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29485,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello there, I would like to give feedback concerning consumer protection for already purchased video game products. I am very passionate about many of my owned products that I've spent a lot of time and hours in. It's why I also feel it's important that any purchases done inside a video game or the product itself, be protected and not taken away once it's services shut down. Even now when I am asking for your consideration, I have spent a lot of money and years into currently supported servers for games including: Fortnite, Roblox, Genshin Impact, aswell as purchased products that rely on online connectivity to be able to function at all. It would be tragic for many, including me if those purchased products could be taken in the future without a way to preserve the value that many have spent. My feedback would be consideration of protecting consumers against having currently live services in games and the products themselves so that they cannot be taken away in the future, and instead requiring a end of live plan where games need a offline functionality, keeping the in-game purchased content aswell as digital and physical copies of products still playable. I would be very grateful if you would take this into consideration. Have a nice day!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.105499Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586126.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586126",
+    "chunks_doc_id": "F3586126",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

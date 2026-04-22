@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3719676",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:38Z",
+    "finished_at": "2026-04-14T13:47:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "things like \"games as service\", which are completely beholden to the whims of their creators, or more likely publishers, whether the product they sold remains accessible to the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23021,
+          "unit_kind": "feedback"
+        },
+        "text": "The situation with sold digital content is extremely concerning to me right now. It is possible, if not likely, that if I buy something completely digital right now (one-time, lump sum payment, i.e. NOT a subscription), I can lose it in the future, due to something completely unrelated to the product I purchased, for example: publisher servers shutting down. It's literally a case of me buying something to eat for tomorrow, but having it taken away from me in the evening, a.k.a. theft. Likewise, it is an even larger problem with things like \"games as service\", which are completely beholden to the whims of their creators, or more likely publishers, whether the product they sold remains accessible to the consumer. Any tools to counter that are few and far in between, and more and more consumers resort to things like digital piracy to keep things they actually paid for in the first place. At the very least, there should be means available for the consumers themselves to be able to maintain their product (in case of video games, emulators or dedicated server software for users to be able to create their own servers), or something like an archive to be able to retrieve their copy of the product (in case of things like music or digital images) in the event of publisher server shutdown.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.109548Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3719676.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3719676",
+    "chunks_doc_id": "F3719676",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

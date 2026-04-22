@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585117",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:30Z",
+    "finished_at": "2026-04-14T12:20:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It's not uncommon unfortunately that after a publisher decides to end support for a certain game it is rendered unusable for the customer that have purchased it."
+              },
+              {
+                "quote": "There should be regulations in place that demand them to leave the games in a functional state even after the decision of terminating support, in this way the customers will be able to keep making use of the product, just in the same way it would work for physically purchased goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16201,
+          "unit_kind": "feedback"
+        },
+        "text": "As a EU citizen I think the Digital Fairness Act should also tackle the matter of digital media ownership, regarding video games in particular. It's not uncommon unfortunately that after a publisher decides to end support for a certain game it is rendered unusable for the customer that have purchased it. There should be regulations in place that demand them to leave the games in a functional state even after the decision of terminating support, in this way the customers will be able to keep making use of the product, just in the same way it would work for physically purchased goods. It's important to note that this issue exists also for other forms of media (digitally purchased movies, e-books...), but video games are the most at risk with many examples of titles suffering this fate. The issue is also strongly felt by the european citizens, as proven by the fact that more than 1.4 million have signed for the \"Stop Killing Games\" initiative. Additionally, I personally think that protecting video games (and other forms of media) is not only important for the ownership rights of citizens, but also for the goal of preserving art.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.602583Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585117.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585117",
+    "chunks_doc_id": "F3585117",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585117.clean.paragraph.json"
+}

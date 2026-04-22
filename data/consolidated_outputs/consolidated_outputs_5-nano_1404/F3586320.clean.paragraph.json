@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586320",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:51Z",
+    "finished_at": "2026-04-14T12:55:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games bought on CDs, which were once playable and usable, are no longer usable due to the companies who own the rights to said games tampering with the ownership verification for the programs on those CDs, rendering them unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Government issued ID is being pushed as a means of verifying the age of users for various websites, which leaves this sensitive data exposed to hackers AND makes it accessible for untrustworthy entities who have malicious intent, while also seriously compromising their human right (as dictated by the Universal Declaration of Human Rights of the United Nations) to non-subjection to arbitrary interference with their privacy (Article 13)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to address the practice of selling goods and rendering them impossible to use afterwards."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 109925,
+          "unit_kind": "feedback"
+        },
+        "text": "In the context of Digital Fairness, I believe there should be a few addendums to this one - namely: a push for a reduction in the influence of third parties on the viability of websites and services; an effort to ensure that government issued ID is never used as a means of verifying a user's identity (or age) on websites not directly run by the government (or tightly affiliated with it); and an attempt (preferably successful) to address the practice of selling goods and rendering them impossible to use afterwards. As an example: MasterCard and Visa have (on multiple occasions) stopped providing Payment Processing services to various websites/services because of content hosted by said websites/services (even though that content is not illegal). Government issued ID is being pushed as a means of verifying the age of users for various websites, which leaves this sensitive data exposed to hackers AND makes it accessible for untrustworthy entities who have malicious intent, while also seriously compromising their human right (as dictated by the Universal Declaration of Human Rights of the United Nations) to non-subjection to arbitrary interference with their privacy (Article 13). Video Games bought on CDs, which were once playable and usable, are no longer usable due to the companies who own the rights to said games tampering with the ownership verification for the programs on those CDs, rendering them unusable. - As a more concrete example, I bought a copy of a certain game more than 15 years ago. To play that game, it needs to be installed onto a computer, and to successfully install it the user needs to input a code, found on the inside of the box within which the game's CD is situated. That code can be reused multiple times to install that particular program - or, at least, it could. The company that owns the rights to the game altered the verification settings of the game's installer, making it so no codes whatsoever are accepted, regardless of their legitimacy. When asked about this, the company responds that the game can no longer be played, even though it was sold to users as a product that can be used indefinitely, since it did not have a listed date of expiration or contract/service termination. Making those additions to the proposed Digital Fairness Act would really amp up the 'fairness' of it and would strengthen consumer protection considerably.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.202625Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586320.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586320",
+    "chunks_doc_id": "F3586320",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

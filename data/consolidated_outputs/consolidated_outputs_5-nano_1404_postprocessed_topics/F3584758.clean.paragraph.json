@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584758",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:00Z",
+    "finished_at": "2026-04-14T12:09:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "refusing to give the consumer an end of life plan."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19708,
+          "unit_kind": "feedback"
+        },
+        "text": "I would appreciate the consideration to put into law that software companies must have an end of life plan to ensure that the consumer doesn't lose out on the product they bought. This would ideally include an estimated timeline so that they know the life span of the software they are purchasing, allowing them to make more informed decisions during a time of economic struggle. Of course, I am primarily speaking from a video game stand point. However, wherever possible I do believe that software companies in general should adhere to this. Software companies (mainly video game ones) have adopted an incredibly aggressive and predatory practice of shutting down access to their software, asking people to destroy the copies they have of it and refusing to give the consumer an end of life plan. I am just requesting if the EU commission could consider putting consumer protections in place against this. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.392110Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584758.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584758",
+    "chunks_doc_id": "F3584758",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584758.clean.paragraph.json"
+}

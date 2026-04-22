@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584516",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:24Z",
+    "finished_at": "2026-04-14T12:00:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many games become unplayable after server shutdowns or DRM deactivation"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16377,
+          "unit_kind": "feedback"
+        },
+        "text": "I kindly ask the commission to consider the long-term accessibility of paid digital games as part of the Digital Fairness Act. Many games become unplayable after server shutdowns or DRM deactivation, even when users have paid full price. This can feel deeply unfair, especially when theres no way to preserve or revisit those experiences. It would be reassuring to see clearer communication around a products expected lifespan, and where possible, options for offline or archival versions after support ends. These games often hold cultural and personal value, and ensuring continued access would be a meaningful step toward a better digital environment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.270698Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584516.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584516",
+    "chunks_doc_id": "F3584516",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584516.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588993",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:27Z",
+    "finished_at": "2026-04-14T13:27:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "block or restrict my purchases of perfectly legal mature content on digital distribution platforms such as Steam and itch.io."
+              },
+              {
+                "quote": "abusive restrictions imposed by dominant actors."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17735,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am a citizen of the European Union, and I would like to bring to your attention one of my important concerns about my digital rights and my expectations regarding respect for the Digital Single Market. First, it recently found that some major payment processors such as Mastercard, Visa and PayPal block or restrict my purchases of perfectly legal mature content on digital distribution platforms such as Steam and itch.io. This situation directly affects me as a consumer and creates an unjustified form of stress. Even more worryingly, Stripe also mentioned a payment provider publicly as being able to process payments related to sexually explicit content. It states that this is due to restrictions imposed by its banking partners, even though card networks (such as Mastercard and Visa) allow such content in principle, provided that merchants are properly registered. This statement clearly suggests that it is the traditional partners probably the same as those mentioned above that exert pressure or impose indirect censorship on other providers, thus preventing legal transactions in the European Union. In my view, it is a form of commercial censorship, contrary to the principles of free movement of digital goods and services, and potentially in breach of European law. Thank you for taking this testimony into account and for ensuring that the rights of European citizens and consumers are fully respected in the digital environment, including against abusive restrictions imposed by dominant actors. Warmly, Lefranc Julien",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.718233Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588993.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588993",
+    "chunks_doc_id": "F3588993",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

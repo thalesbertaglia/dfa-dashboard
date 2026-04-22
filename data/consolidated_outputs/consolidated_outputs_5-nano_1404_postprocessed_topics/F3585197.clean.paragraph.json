@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585197",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:23Z",
+    "finished_at": "2026-04-14T12:22:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "move to a monthly subscription model"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "making sudden changes to pricing"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "escape clause in EULA 'allowing' to revoke access of the user for 'any reason seen fit'"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26522,
+          "unit_kind": "feedback"
+        },
+        "text": "It has been the unfortunate truth that the practices on the internet have grown more and more anti-user over the years. Firstly, I would hope to see some added protection for companies dealing with payment processors. In recent events the example of Visa, MasterCard and others using extortion to manipulate service providers into changing their already legal behaviour to restrict the extend of the services and products provided. A payment processor should not wield power to dictate what is legal in their eyes and therefore deny users of their service access to products or services. Not to mention these processors should not even be aware of the content of the purchase that is being made, in their own words. Another issue is licencing. It has been very common nowadays to call something a licence without stating and adhering to how long this licence will be valid. Program licences, online services, games and similar have the issue of their licences revoked by the publishers without any regulation or making sudden changes to pricing - It is common to have a 'permanent licence', as described at the moment of purchase, revoked by the provider because they have decided to move to a monthly subscription model, or an escape clause in EULA 'allowing' to revoke access of the user for 'any reason seen fit'. Online services and products should adhere to regulations and their providers should not have free reign to change what they can do with the product or service after it is in the hands of the final recipient. Thank you for your time. I certainly hope for better conditions for everyone online in the future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.631901Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585197.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585197",
+    "chunks_doc_id": "F3585197",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585197.clean.paragraph.json"
+}

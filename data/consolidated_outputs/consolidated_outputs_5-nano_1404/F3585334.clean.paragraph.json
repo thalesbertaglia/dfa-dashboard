@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585334",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:24Z",
+    "finished_at": "2026-04-14T12:25:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogame industry."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you are actually just renting the rights to use this product"
+              },
+              {
+                "quote": "change the wording from purchase/buy to rent/loan"
+              },
+              {
+                "quote": "End Of Life plan to hand over the tools for players to host their game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28460,
+          "unit_kind": "feedback"
+        },
+        "text": "I write this feedback as a plea to help protect consumers against being taken advantage of in the videogame industry. Back in the 90s we already had online videogames, the publisher would give you the option to play on their server or to host your own with friends or the wider online community, however nowadays a game is being 'sold' for 60 to (soon) 100 euro's a piece with a vague threat that they can take this 'purchase' away from you whenever they please, and a staggering amount of times this by default includes whenever an arbitrary date has passed in the future which would benefit the publisher the most, they provide no option to host your own after this date as this might lesser sales for their next brand new item, even if you spend your money to 'buy' this product, your game will be as useful as a coaster. And that's why I've put mentions of purchase in quotes, as they use this description for the interaction between consumer and themselves however you're actually just renting the rights to use this product which I find misleading, you wouldn't buy a car just for it to no longer start after any time between 1 and 7 years because the designers don't want to support it anymore and would rather want you to go out and buy their newer model, this is the only industry this is deemed \"acceptable\" as there's no-one to speak out for us. I want publishers to either make it very clear when servers will go down, change the wording from purchase/buy to rent/loan or, preferably, enforce an End Of Life plan to hand over the tools for players to host their game, as was possible way back in the day and is still possible nowadays in plenty of (indie) titles on PC especially, it just requires the push to make sure to include it at the start of development. My example of a game I used to own that was made unplayable is MAG, MAG is a shooter from 2010 on the PS3, after just 4 years in 2014 this ONLINE ONLY videogame's servers were shut down with no way of playing it nor even boot the game past the main menu, a piece of media, art in some eyes, gone forever, even if a way to host could've been provided to allow it to live forth as long as those files are available. Another game, that actually got saved by it's community as it had a PC release, is Battlefield Bad Company 2, also from 2010 but this game's servers were shut down at the very end of 2023 however players can still access and play multiplayer on PC through a community-run project called Project Rome, this is ideal in my opinion as it's just a handful of people still enjoying their purchase when they want, I assure you this does NOT cut into the sales of the next game nor costs EA any money for upkeep, however, this could've been an easier process for the community developers if they were given the tools to make this project instead of having to first make said tools themselves. For the sake of preservation of \"art\" and to preserve the legitimacy of purchasing power I humbly request the digital fairness act to protect us as we feel we have no voice, thank you for taking the time to read my plight.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.685075Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585334.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585334",
+    "chunks_doc_id": "F3585334",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

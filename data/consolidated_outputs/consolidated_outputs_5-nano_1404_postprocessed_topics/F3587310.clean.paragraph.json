@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587310",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:50Z",
+    "finished_at": "2026-04-14T13:15:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors such as Visa and Mastercard have been putting pressure on companies such as Steam and Itch.io to remove products from their catalogues"
+              },
+              {
+                "quote": "They threaten to withdraw their payment systems from these platforms if they do not dispose of those products."
+              },
+              {
+                "quote": "Payment processors should have no influence on what a customer can buy with his money, provided that what he purchases is legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34537,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to note that payment processors such as Visa and Mastercard have been putting pressure on companies such as Steam and Itch.io to remove products from their catalogues and even customer accounts that these payment processors consider inappropriate, but which are completely legal in most countries. They threaten to withdraw their payment systems from these platforms if they do not dispose of those products. They did so after an Australian group called ‘collective shout’ harassed them in this regard. Divesting a small group in a country to ban and censor the media worldwide. I do not think we want to repeat this precedent. Especially given that the same group appears to have been openly anti-abortist and anti-lgbtq +. This raises serious concerns about monopolistic behaviour and overwhelming by these companies, which may require some censorship in games or other media. In this case, this may be a lot of content for adults, but in the future a platform could be put under pressure to remove all content that includes LGBTQ + topics or perhaps media that are critical of a particular person or a politically controversial topic. Payment processors should have no influence on what a customer can buy with his money, provided that what he purchases is legal.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.495460Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587310.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587310",
+    "chunks_doc_id": "F3587310",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587310.clean.paragraph.json"
+}

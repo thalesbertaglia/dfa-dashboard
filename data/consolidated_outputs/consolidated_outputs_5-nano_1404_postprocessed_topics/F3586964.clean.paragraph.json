@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586964",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:52Z",
+    "finished_at": "2026-04-14T13:07:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers to revoke ownership of games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12481,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is a much needed initiative from the EU and I highly welcome it! However, I believe that, for it to be really effective, it needs to address the ongoing and ever-growing push from video game publishers to revoke ownership of games that people are paying, yes, paying for, on the pretext that they cannot support it anymore. This should be made illegal, and I hope the Digital Fairness Act takes this into account! For reference, this is what the Stop Killing Games initiative is for, which is registered as a European Citizens' Initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.396731Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586964.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586964",
+    "chunks_doc_id": "F3586964",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586964.clean.paragraph.json"
+}

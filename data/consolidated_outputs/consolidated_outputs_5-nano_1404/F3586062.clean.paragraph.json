@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586062",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:22Z",
+    "finished_at": "2026-04-14T12:45:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like, almost like any other product that isn't a consumable, to completely own a game if I bought it, no matter how deteriorated or unsafe it may be."
+              },
+              {
+                "quote": "but, at THE VERY LEAST, provide full control to the consumer of the last version of a game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19743,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like, almost like any other product that isn't a consumable, to completely own a game if I bought it, no matter how deteriorated or unsafe it may be. We are in the age of digital wonder, it's not only possible for companies to provide any and all updates to a game(like, for example, Minecraft and its many versions), but, at THE VERY LEAST, provide full control to the consumer of the last version of a game. Companies may pull any support or protections, making it very unsafe and maybe even an unfun experience as the company is no longer gaining profits from the game, but if that's the case, that's no longer the company's problem and should be a problem of the consumers. It is not only bad for consumer rights to not own something they paid for, but its also bad for any historic record of this time, archiving and games as well, its only way of still existing is trough external means(such as videos), leaving no \"foot mark\" if those means we're to go down for any reason. The means to do it dont have any major impact on companies as well, not only in a faniancial way, a legal way but a physical way as well. The process is very safe, relatively quick and relatively cheap(compared to how many resources AAA games have invested at this time, indie games or cheap games are exempt). For these reasons, I believe I should be able to own any game I purchase for an indefinite amount of time, no matter the consequences I may suffer due to it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.064215Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586062.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586062",
+    "chunks_doc_id": "F3586062",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

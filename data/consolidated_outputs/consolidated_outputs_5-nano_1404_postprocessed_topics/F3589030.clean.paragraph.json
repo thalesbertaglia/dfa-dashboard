@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3589030",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:10Z",
+    "finished_at": "2026-04-14T13:28:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark pattern against people who don't know any better"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Especially it is noticeable with videogames."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is almost always a statement in the EULA that access to software can be terminated without prior notification for any reason by the current owner of the IP over said software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42805,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! There is a problem that affects most of the sales of software products today. There is almost always a statement in the EULA that access to software can be terminated without prior notification for any reason by the current owner of the IP over said software. This affects many consumers in the EU, and as of right now we can see that access being revoked to something that the customer \"bought\" happens more and more in the recent years. Especially it is noticeable with videogames. Recent examples would be The Crew (Ubisoft is the rights owner) and Anthem (Electronic Arts is the rights owner, will be shut down pretty soon, players will lose access to the game forever, just like with The Crew). Those are pay-to-play products that costed money. Customers bought those games and were never notified about those games never getting any way to play if the IP owner decides to shut down the servers. Both games can be run pretty much solo (The Crew can be played entirely solo and the coop experience was riddled with connection issues and desync anyway), The Crew even has a way to generate a local save file that contains all of player data (and what was allegedly used by QA team who tested the game without needing an offline server), if you disconnect the game from the internet entirely - it functions just as you expected, and the only moment when the game actually disconnects the player from the server is when it tries to save the progress update for the player on the server save. All of the functions work just fine after disconnecting the internet - AI cars still appear in the world and move normally, car moves without any issues, the whole game world loads without interruptions, even the police AI that checks if the player obeys the traffic laws work the same as in online game. But the servers are shut down, the game that actually costed money now inaccessible in any way. In addition to that, publisher added a message to their own game launcher that they used to distribute the game on PC platform that can be only understood like inflammatory or like a dark pattern against people who don't know any better: \"You no longer have access to this game. Why not check the Store to pursue your adventures?\" Publisher released two other games in the series that pretty much have the same features and have very minor improvements. The problem is that those games have much more aggressive monetization, they exist in a worse technical state, require more powerful hardware to run and cost more money, plus have at least 2 premium currencies that are required for smooth progression. Only after Stop Destroying Videogames initiative started gaining traction, developers announced that both new products will receive offline modes, but considering the poor financial state of the IP owner (Ubisoft) and no meaningful updates released on the state of offline modes for both games since its announcement (only updates that sound like \"we're working on it\" with no more details), this promise has some risks - the risk of the publisher not having an intent to actually deliver on that promise and prioritizing fixing their finiancial situation by any means necessary. Both of those cases, The Crew and Anthem, raises concern about all of the other software products that can be rendered non-functional by IP owner at any time without prior notice for no good reason. Especially it raises concerns because both pieces of software were \"sold\" to customers, same as physical goods. Customers never lose access to physical goods, but digital products don't work the same way, the only protection here is either removing DRM (which is illegal in many places in the world), or taking devices offline after installing and running the software. Unfortunately, the first option can cause issues with IP owners, and the second one becomes more and more complicated by the day because of the publishers that require customers to be online to launch any game. Thank you for reading all this",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.731340Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589030.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589030",
+    "chunks_doc_id": "F3589030",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589030.clean.paragraph.json"
+}

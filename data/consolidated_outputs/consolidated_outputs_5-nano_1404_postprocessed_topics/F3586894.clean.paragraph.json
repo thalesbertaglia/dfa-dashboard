@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3586894",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:34Z",
+    "finished_at": "2026-04-14T13:06:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A good example how things should be handled is MATLAB, which gives you permanent acces to the software version that came out in the year you bought the subscribtion."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "however the prices don't reflect that."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it can be a videogame or buisness software"
+              },
+              {
+                "quote": "This excludes the such as multiplayer games, since the servers are run by the company"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the custumer should have every right to use, modify and keep the software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39445,
+          "unit_kind": "feedback"
+        },
+        "text": "Most software although not stated it outright is considered as a service even if the application itself runs on the PC of the customer. In my personal opinion this should not be the case. If the software is considered a service, it should have clarifications when it will end. Buying a software (it can be a videogame or buisness software) as a product is already starting to disappear, however the prices don't reflect that. A good example how things should be handled is MATLAB, which gives you permanent acces to the software version that came out in the year you bought the subscribtion. I think all companies should follow this example: provide a way where you can use the software as a product. The service is giving updates to the software, but the software itself should be cosnidered the same as a material product, and should have laws protecting it. I have to ephasize again, that the software runs on the PC of the customer, using their resources, so the custumer should have every right to use, modify and keep the software. This excludes the such as multiplayer games, since the servers are run by the company, but at the end of the service companies should address it's offline use. This feedback was written with consideration of Stop Killing Games movement, and personal frustration as a physicist with explotitive software service providers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.377698Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586894.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586894",
+    "chunks_doc_id": "F3586894",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586894.clean.paragraph.json"
+}

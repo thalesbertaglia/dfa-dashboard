@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585192",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:17Z",
+    "finished_at": "2026-04-14T12:22:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"end of life\" plan for video games reliant on a central servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29814,
+          "unit_kind": "feedback"
+        },
+        "text": "With the Digital Fairness Act's goal of combating potentially dark and harmful elements of digital media, it could be worth considering to include a section relying to the need for video game publishers to include an \"end of life\" plan for video games reliant on a central servers, preventing publishers from enforcing a method of forced obsolescence. The current landscape of video game sale and distribution is in a nebulous legality-zone where certain harmful practices, such as needlessly destroying the paid-for product when support ends without compensation or an end of life plan to leave the product in a functional state, have not been legally tested in the EU. While endlessly supporting an online video game is not feasible, there should be legislation put in place to ensure a fair relationship between producer and consumer, with the current state being too hostile for the latter. A product legally sold as a \"good\" should abide to the laws relating to distributions of goods. With the constantly changing landscape of the digital market, the laws relating to them should likewise change and adapt so as to combat potentially harmful strategies. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.630041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585192.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585192",
+    "chunks_doc_id": "F3585192",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

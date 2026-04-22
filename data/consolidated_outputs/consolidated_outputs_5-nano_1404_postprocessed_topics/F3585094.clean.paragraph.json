@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585094",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:57Z",
+    "finished_at": "2026-04-14T12:20:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online DRM, and online multiplayer options."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We have also seen a European company, updating their End-User-License-Agreement, adding that when they want to stop supporting a digital game, you must delete all copies that game, regardless if it is digital delivered or was delivered on a physical media!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28469,
+          "unit_kind": "feedback"
+        },
+        "text": "There are several things in this act that I covers stuff I have encountered numerous times. What I see missing is stuff regarding digital goods, that we have bought and paid for. And then the company behind the digital product, decides that they no longer want to provide support for this product anymore. Often, this is the very same companies, that very vocally, asks for protection laws against unauthorized use of their digital goods. We have numerous examples over the years of digital music and movies services, that uses DRM to protect the media they sold us, and then they shutdown their DRM servers making it impossible for consumers to continue to access their digital content. There many more instances of this kind of behavior. Internet of things devices, and various other products, that now require a supported online service to work. Then we video games, which used to be delivered on physical media, now most games are digital delivery only, and it is more and more common for big game companies, to include online DRM, and online multiplayer options. Even single player games are more and more requiring an online DRM server to install or even play. We have also seen a European company, updating their End-User-License-Agreement, adding that when they want to stop supporting a digital game, you must delete all copies that game, regardless if it is digital delivered or was delivered on a physical media! I have no words for how anti-consumer that is. So it would be great if this could be included in the digital fairness act, to allow customers to use of their fully working products, even if the manufacturer no longer wants to support the product, regardless if it is fully digital product, or a physical product that relies on a online service to function. I am not suggesting that we enforce companies to support old products. What I am suggesting, is that when companies design their products/services, that have online requirements, there must be an exit strategy when the company stops supporting their product, like shutting down their online services, they must supply updates to their product to either stop requiring the online services, and/or release a self hosted version of the online service with the required options to reconfigure their old products to talk to the locally hosted service instead. This does not matter if it is a smart home device, DRM server, online game server or cloud connected car. I understand this is complex mess, but most of why it is such a complex mess today, is that these products are deliberately designed this way now days, before many product worked fine in a local configuration with optional online service, which now have changed to require online service to work, and they have removed local options we used to have. For example we have games that allows players to host their own game servers, to play with friends. and other games, requires you to use their online servers to play with others, with no option for self hosted servers, imagine if you could host any multiplayer game on your own hardware and play with friends. Then game companies would only need to release a patch that remove any online DRM checks for games they no longer wants to support. Of course these self hosted servers would not be able to host massive amount of players etc, it would be scaled down version. So it is not that far fetched, we have the technology and knowledge how to do this, the question is do we have the will to actually do this? Digital products does not create e-waste, but physical products that today require cloud services support them to function, will create a lot of e-waste in the future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.593527Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585094.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585094",
+    "chunks_doc_id": "F3585094",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585094.clean.paragraph.json"
+}

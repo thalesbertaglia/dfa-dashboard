@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584626",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:21Z",
+    "finished_at": "2026-04-14T12:04:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Futurehome recently pushed a firmware update to smart house devices that rendered them useless without an online subscription, although they can work perfectly fine without internet, as they did before the update."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Last year Ubisoft closed down the servers of a videogame called The Crew, the game is 90% single player, so most of the game should be available offline, but now it is unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17493,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative is a good start. But there really should be something preventing anything that can work without an internet connection to not work without an internet connection. This is used more and more as a loophole to planned obsolecense. Some examples: Futurehome recently pushed a firmware update to smart house devices that rendered them useless without an online subscription, although they can work perfectly fine without internet, as they did before the update. Last year Ubisoft closed down the servers of a videogame called The Crew, the game is 90% single player, so most of the game should be available offline, but now it is unplayable. For more examples of consumer hostile practices like this you could contact Louis Rossmann. He is an American Right to Repair activist that has a lot of knowlege on these issues, and would probably be happy to provide you with more information on this. It is difficult to make laws that cover everything as no one can think of everything, there is often things that go under the radar. A general rule that forbids sofware locks that prevent offline use that doesn't actually need online connectivity to work should be in place. Of course making this retroactive might be unreasonable in many situations, and should only apply to future products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.324643Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584626.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584626",
+    "chunks_doc_id": "F3584626",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584626.clean.paragraph.json"
+}

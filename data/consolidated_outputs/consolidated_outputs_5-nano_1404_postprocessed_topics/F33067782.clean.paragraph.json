@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33067782",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:42Z",
+    "finished_at": "2026-04-14T09:28:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many dark pattern interfaces share, well, patterns."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17983,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for soliciting feedback on Digital Fairness Act. I see you have already received a lot of feedback regarding a fascinating, physical world reaching, dark pattern of video games dependent on central servers being sold seemingly as regular user software and then turned off by the publisher. I'm not going to repeat the details, but I fully agree with the sentiment of this not being a fair practice. For what it's worth, I don't find it fair for other types of software and digital data as well. I'd like to highlight one dark pattern of more traditional kind, scare screens in computer security products. It is a well known truism that a computer can't run malware if it can't run anything, so some \"anti-virus\" programs nowadays just check for a list of programs they know and block most of the others. This is actually an appropriate strategy in some highly restricted environments, assuming a purpose-built list. However, when a program is blocked, the messages don't necessarily - in my experience, rarely - indicate to the user what the reason is. This ranges from mixing partial factual description with sensational \"protection\" headings to assigning completely counterfactual malware indicators. It would be highly appreciated if DFA could outlaw the latter, at least. Many dark pattern interfaces share, well, patterns. One is mixing obvious action buttons with buttons that don't look like buttons. Another is repeating a question on a repeated question until the \"wanted\" option is selected, sometimes on every occasion, sometimes when given additional pretext. I do think expecting entities to remove such things when identified would be required, but I don't think putting descriptions of existing patterns into DFA itself would be particularly effective. DFA's stated targets that are not dark patterns are outside of my regular interests, so I don't see the use to comment on them further. However, given the very wide scope given by the title, DFA could hypothetically cover a lot of other things. I would particularly look into meta-regulation of EU law itself and preventing creation of second-class citizens in digital context, as evidenced by the disastrous \"Chat Control\" regulation proposal outlawing soundly encrypted communication in general except for specifically politicians for some reason, which seems very unfair to everyone else.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.467790Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067782.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067782",
+    "chunks_doc_id": "F33067782",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33067782.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33069869",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:00Z",
+    "finished_at": "2026-04-14T09:28:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "WE have the right to terminate this Agreement and your access to the Services, Virtual Items, and your Account, or provide such Services, at any time for any reason in our sole discretion."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25361,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act does not currently address the issue of publishers permanently disabling video games that they have already sold to customers, but covers neighbouring topics that also concern video games. It would therefore be useful to promote the inclusion of video games, as the largest market for digital entertainment, and to ban current practices or at least check the legality of ‘consumer rights’; see also Council Directive 93/13/EEC on unfair terms in consumer contracts of 5 April 1993. As an example, three excerpts from the general terms and conditions: Activision-Blizzard, Chapter B. Termination: “(ii) Blizzard reserves the right to terminate this Agreement at any time for any reason, or for no reason, with or without notice to you\" Ubisoft, Chapter 8. TERMINATION: “[...] Ubisoft (or its licensor) may terminate this EULA, at any time, for any reason. “Take-Two, Chapter 12. Termination: “[...] WE have the right to terminate this Agreement and your access to the Services, Virtual Items, and your Account, or provide such Services, at any time for any reason in our sole discretion.” Electronic Arts, Bethesda/ZeniMax) have similar wording in their general terms and conditions. I hope that the rights of customers – which are already in force – will be strengthened/recognised.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.476190Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33069869.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33069869",
+    "chunks_doc_id": "F33069869",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33069869.clean.paragraph.json"
+}

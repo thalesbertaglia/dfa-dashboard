@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585759",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:51Z",
+    "finished_at": "2026-04-14T12:36:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers have revoked all access to such products for real"
+              },
+              {
+                "quote": "destroy digital art in forms of video-games"
+              },
+              {
+                "quote": "video-games arent just some product you use once and then discard."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33713,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i would like you to consider adding some protection against companys (mainly publishers) destroying digital products you purchased. for me its mainly about video-games as those for many of us enjoying video-games arent just some product you use once and then discard. we create memories and experiences with others either online or together in front of one device by playing these games. sometimes we are emotionally attached due variety of reasons for example you play game x and you played it with your dad when your where a kid. suddenly it wont work any more and you cannot relive those memories. Sadly with products like \"The Crew\" for example now publishers have revoked all access to such products for real despite you having bought the product be it on a disk or digital. the feeling one feels its like if you go and buy a DVD or Blue-Ray of Star Wars and one day Disney goes and says. not enough people are using these and removes the ability to play what is on the Disc.it would be gratefully appreciated if something can be done about such things as are most likely going to happen more and more and with every digital product lost its like a piece of our history that we will loose too. so please consider the idea of adding something that publisher wont be able to just destroy digital art in forms of video-games, as its pretty unfair against the user having purchased a product and arent able to use it any more. many thanks a grateful citizen of the eu p.s. attached you will find a pdf with a german statement from ubisoft regarding the \"The Crew\" closure and how they revoked all access and playability of their product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.906505Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585759.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585759",
+    "chunks_doc_id": "F3585759",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585759.clean.paragraph.json"
+}

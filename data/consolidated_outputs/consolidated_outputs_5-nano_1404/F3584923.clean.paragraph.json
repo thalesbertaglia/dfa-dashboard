@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584923",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:38Z",
+    "finished_at": "2026-04-14T12:14:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the complete and sudden disabling of a purchased video game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15575,
+          "unit_kind": "feedback"
+        },
+        "text": "As the practices targeted by the Digital Fairness Act are highly profitable for companies, I strongly believe that regulation is essential to protect consumers. I personally support all of the proposed measures. Like many others, I would also like to suggest that the complete and sudden disabling of a purchased video game should fall within the scope of this act. My reasoning is as follows: If an online game clearly indicated on its cover or store page that it would be terminated within two years, with no end-of-life plan and no way to play it afterward, I would likely choose not to purchase it. However, under current practices, it is possible to buy a game under exactly these conditions without any prior warning and I might unknowingly spend money on something I wouldnt have bought had I been informed. This strikes me as misleading. In my view, consumers should at least be informed of a game's lifespan before purchase. Alternatively, a requirement for a minimal end-of-life plan would make the industry even more transparent and sustainable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.505530Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584923.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584923",
+    "chunks_doc_id": "F3584923",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

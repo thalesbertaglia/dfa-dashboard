@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585501",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:07Z",
+    "finished_at": "2026-04-14T12:29:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the \"gotcha\" mechanism to strategically pulls these products from the market in order to push their consumers to their newer products."
+              },
+              {
+                "quote": "A veritable planned obsolescence."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The companies that make these games have EULA's in place that allows them to end usage of the product whenever they see fit."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43009,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I'd like to leave some feedback and make a suggestion about the Digital Fairness Act, specifically related to video games. I personally work in the games industry and have done so since leaving college. I live in Ireland, thus most of my work within the industry has been in Ireland (although the games industry often pulls from talent from abroad or has teams working across multiple timezones). In the last 20 years or so, games have become a very large market, with global corporate entities like Google and Microsoft creating products for consumers of games. However, over the last few years consumers have begun to lose access to games that they purchased and have used for a very long, and sometimes, short time. The companies that make these games have EULA's in place that allows them to end usage of the product whenever they see fit. While for many years this was treated more as a \"did you know this could happen\" spooky story between friends and colleagues, in recent years companies have been using the \"gotcha\" mechanism to strategically pulls these products from the market in order to push their consumers to their newer products. A veritable planned obsolescence. I believe video games and their consumers, for whom which I both create products for and am of myself, are experiencing the beginning of an age of consumer rights abuse. While some laws are in place to protect consumers during the use of the product or purchase of the product, there are no laws limiting the suspension of them by the companies who own them. Options can exists, and can be put into place far easier than you'd expect, to allow consumers to use products beyond the end of life to minimal or no cost to the companies long term. I firmly believe video games are covered under the Digital Fairness Act and that the European Commission should help protect consumers from these unfair shutdown practices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.775390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585501.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585501",
+    "chunks_doc_id": "F3585501",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585501.clean.paragraph.json"
+}

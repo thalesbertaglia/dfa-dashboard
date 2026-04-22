@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586426",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:26Z",
+    "finished_at": "2026-04-14T12:56:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers are allowed to to revoke the right to use the initally paid digital product at any time and for any/no reason, according to most TOS/EULA fine print."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25053,
+          "unit_kind": "feedback"
+        },
+        "text": "I very much support all points tackled in this. I'd like to see one addition, given the DFA wants to remove bad practices, this topic should be included: As consumers spend money for a digital product initially and often as well for further digital goods connected to this; such as virtual currencies (aka Gems / Premium Currency), cosmetics (aka Skins) for in game features, additional downloadable content (aka DLC), and often much more, I can not stand the fact that publishers are allowed to to revoke the right to use the initally paid digital product at any time and for any/no reason, according to most TOS/EULA fine print. This affects not only video games but also other software. It is not fair practice, to have consumers spend a lot of money, while also have all paid things taken away from them again at an (at date of purchase) unknown point in time or for no reason at all. This is not only unfair because consumers spent money on nothing as a result - one could consider that in itself gambling (basically a coin flip, if we will be able to play/use this game/software in 2 years still) - it is especially unfair because games and software can be designed in a way that allows them to be used and played even after a publisher ends their support or deems it not profitable enough. Chosing to not do it that way is very much malicious intent. I suppose it is difficult to change already existing products, but this needs change for the future. I strongly suggest looking at the stopkillinggames initiatice for this. If developers would create future software in a way that allows to sunset their sold products without damaging the consumer, everybody would benefit from this. At least having a public end of life plan would allow consumers to make better choices like buying a digital product in the first place or not. I thank you for reading and hope for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.239251Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586426.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586426",
+    "chunks_doc_id": "F3586426",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585451",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:53Z",
+    "finished_at": "2026-04-14T12:28:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video game ‘The Crew’ (2014) was rendered unusable after the purchase"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair terms in consumer contracts"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22426,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission, please extend the Digital Fairness Act on “Purchase of digital licenses”. Unfortunately, it is currently common practice for software manufacturers such as Ubisoft, through unfair terms in consumer contracts, to harm their customers’ rights. More precisely, they offer software ‘for purchase’, although they only offer a lease with an undefined end date. For example, the video game ‘The Crew’ (2014) was rendered unusable after the purchase. Council Directive 93/13/EEC of 5 April 1993 on unfair terms in consumer contracts already prohibits this practice. Customers were not compensated and continued use of the product without support was prevented, although an offline version would already be possible without great effort. In view of this practice in the software industry, there should be a better policy on which software manufacturers offer fair conditions. An offline version of software at the end of the support must become the default version so that cultural goods are not lost and valuable tools are not rendered unusable. Yours sincerely, Mr Hübner",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.750026Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585451.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585451",
+    "chunks_doc_id": "F3585451",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

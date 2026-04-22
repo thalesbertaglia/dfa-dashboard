@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586124",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:49Z",
+    "finished_at": "2026-04-14T12:48:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove from their list of videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22896,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the goals of the Digital Fairness Act. However, I believe the bill should go further by hindering payment processors from imposing arbitrary censorship based on the will of private organizations, like in the latest case in which entities like Visa and Mastercard enforced Steam and Itch.io platforms to make them remove from their list of videogames several ones, despite they were perfectly legal, in terms of contents... and this all due to an arbitrary and questionable moral imposed from the group Collective Shout, regardless of local laws or cultural differences, sidestepping democratic input and stifling free expression. This hurts the consumer which can lose the access to goods and services, despite they are legal and also the freedom of choice. It also imposes unfair practices on businesses, since that causes concrete losses to their earnings and also damages their reputation with their customers, if not their complete disrupt. What i wrote above falls under several of the problematic practices mentioned within the DFA, so i strongly believe this fits with the scope of it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.104449Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586124.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586124",
+    "chunks_doc_id": "F3586124",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

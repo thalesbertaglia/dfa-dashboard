@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585487",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:48Z",
+    "finished_at": "2026-04-14T12:29:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the video game industry, it has become disturbingly common for publishers to shut down or revoke access to purchased gamesrendering them unusable and stripping consumers of their right to use what they bought."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "annual subscriptionretroactivelyjust to continue using their previously purchased smart-home hubs."
+              },
+              {
+                "quote": "This was implemented via a mandatory firmware update, effectively transforming a one-time-purchase product into a rental with no prior consent from users."
+              },
+              {
+                "quote": "Those who refused were locked out of core features such as automations, app control (even locally), and third-party integrations like Home Assistant."
+              },
+              {
+                "quote": "stop subscription coercion and planned obsolescence by software update."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers keep games and services in a functional state after end-of-life, without demanding ownership transfer or ongoing investment."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32787,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly urge legislators to expand this act to address the growing and dangerous trend of companies remotely disabling digital products that consumers have already paid for. In the video game industry, it has become disturbingly common for publishers to shut down or revoke access to purchased gamesrendering them unusable and stripping consumers of their right to use what they bought. This undermines the very concept of ownership and sets a dangerous precedent: companies can unilaterally erase access to legally purchased products without recourse or compensation. Often, this tactic is used to coerce consumers into buying newer titles, and it is entirely avoidable from a technical standpoint. A parallel and equally troubling example can now be seen in the smart-home sector. In 2025, Norwegian smart-home company Futurehome was acquired after bankruptcy, and its new owners announced that all existing customers would now have to pay an annual subscriptionretroactivelyjust to continue using their previously purchased smart-home hubs. Those who refused were locked out of core features such as automations, app control (even locally), and third-party integrations like Home Assistant. This was implemented via a mandatory firmware update, effectively transforming a one-time-purchase product into a rental with no prior consent from users. Over 38,000 households were impacted. This shows that such anti-consumer practices are expanding beyond entertainment into critical home infrastructure, where the stakes are even higher. This is not just a gaming issueit is about fundamental digital ownership and consumer rights. The European Citizens' Initiative Stop Destroying Videogames, which has already gathered over 1.4 million signatures, reflects the growing public demand for legal protections. The initiative calls for a requirement that publishers keep games and services in a functional state after end-of-life, without demanding ownership transfer or ongoing investment. This moment is a unique opportunity to enforce fair treatment of digital consumers, ensure product longevity, and stop the slide toward subscription coercion and planned obsolescence by software update. A product, once purchased, should remain usablewithout surprise revocations, fees, or forced dependence on cloud services. Whether it's a video game or a smart-home device, the rights of EU citizens to use what theyve paid for must be protected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.768330Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585487.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585487",
+    "chunks_doc_id": "F3585487",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585487.clean.paragraph.json"
+}

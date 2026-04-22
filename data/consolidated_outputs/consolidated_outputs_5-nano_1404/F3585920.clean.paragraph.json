@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585920",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:04Z",
+    "finished_at": "2026-04-14T12:41:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "conversion of accounts for services with a limited time free of charge for paid subscription accounts."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "bad practices in one of the most popular types of digital good, video games"
+              },
+              {
+                "quote": "spend money from the game itself"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41774,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that some of the objectives presented by this Act are in line with my perception of the European digital market, in particular as regards excessive spending by people (not only children) suffering from digital goods and services, and as regards the conversion of accounts for services with a limited time free of charge for paid subscription accounts. But as they touch on the topic of bad practices in one of the most popular types of digital good, video games, I would like to bring to the attention the topic of permanent closure of access to adised video games/video games that make it possible to spend money from the game itself. I believe that European law is not fit to protect all players buying games on online platforms, or postponing digital goods within video games, having first-hand experience of playing games in my digital library that I cannot access more (for example, I cannot play more ‘Ghost in the Shell: Stand Alone Complex – First Assault Online \", a multi-player shooting game of first person, even though it was offered to me by a friend before becoming a free game to play, and consequently closing its servers, and with them access to the game completely).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.985255Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585920.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585920",
+    "chunks_doc_id": "F3585920",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

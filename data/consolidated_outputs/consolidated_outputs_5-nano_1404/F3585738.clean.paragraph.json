@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585738",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:13Z",
+    "finished_at": "2026-04-14T12:36:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies can shut down servers and online digital services"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the way in which it is currently used, particularly within education and creative fields such as art and writing, is problematic and it must be taken care of."
+              },
+              {
+                "quote": "Regulations against AI as well as protections for citizens of the EU to not have their faces, photos, art, etc. stolen by AI would do wonders."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A sort of framework to prevent companies from simply taking your money and then shutting the service down would be very much needed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56490,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital landscape today is unfair towards the consumer and a majority of internet users, particularly when it comes to services and games. When one spends money to buy a game one expects said game to belong to the individual who purchased it. However with how online services works currently video game companies can shut down servers and online digital services which can instantly make games, products that you as a consumer have spent a good bit of money on, unplayable and unusable. Games are just one example but it is the most obvious and easiest one to make. But this problem exists for ALL digital services to some degree. A sort of framework to prevent companies from simply taking your money and then shutting the service down would be very much needed. Another rising problem online is AI. Whilst AI can definitely be used for some tasks, the way in which it is currently used, particularly within education and creative fields such as art and writing, is problematic and it must be taken care of. Regulations against AI as well as protections for citizens of the EU to not have their faces, photos, art, etc. stolen by AI would do wonders.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.896529Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585738.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585738",
+    "chunks_doc_id": "F3585738",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

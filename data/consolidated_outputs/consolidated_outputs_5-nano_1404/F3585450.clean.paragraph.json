@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585450",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:52Z",
+    "finished_at": "2026-04-14T12:28:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Overwatch 2 and delisted the game and so I couldn't play a game I bought without knowing when the service will end."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-of-life plan for video games, e-books, books, and films one buys, and due being licensing, it can be taken away at any moment without any compromise."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23354,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, To start this, I am happy with this action and the will to make such an act. It shows you care for the protection of consumers and a fair economy. Given being EU Act, I suggest addressing the wish of other nations across the globe to take inspiration from this act. In addition, I suggest adding an aspect of an end-of-life plan for video games, e-books, books, and films one buys, and due being licensing, it can be taken away at any moment without any compromise. For example, I bought a video game named Overwatch, and the company made Overwatch 2 and delisted the game and so I couldn't play a game I bought without knowing when the service will end. Another thing I think needs to be addressed is that payment processing companies such as Visa or Mastercard should not be allowed to pressure companies to remove content they don't see eye to eye, but is legal. Only cases they should ask companies not to allow process payment is just if the action is illegal, and in cases where companies like Visa and others of the sort push publishers to remove non-illegal content should be punished. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.749510Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585450.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585450",
+    "chunks_doc_id": "F3585450",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

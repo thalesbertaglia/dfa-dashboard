@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3607352",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:51Z",
+    "finished_at": "2026-04-14T13:42:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Software and online services: subscriptions subject to unilateral changes in terms, auto-renewals that are difficult to cancel, or downgrades in service levels."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Current law leaves gaps, as companies rely on contract fine print, technical control, or corporate restructuring to avoid obligations."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Interoperability obligations to prevent anti-competitive ecosystem lock-in that manipulates consumer choice."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41133,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly support the Digital Fairness Act and its goal of tackling manipulative and unfair digital practices. One key gap that deserves emphasis is that consumers often do not receive the full benefit of their purchase, as companies retain unilateral power to alter, restrict, or remove core functions after the transaction. This problem occurs across many parts of the digital economy: Digital content and media: purchased films, music, or games withdrawn from access without remedy. Smart devices and IoT: connected products that lose functionality when cloud services are discontinued or that are retroactively placed behind new subscriptions. Consumer electronics: hardware sold with known defects, without proper repair, or with proprietary restrictions that prevent independent servicing. Software and online services: subscriptions subject to unilateral changes in terms, auto-renewals that are difficult to cancel, or downgrades in service levels. Ecosystem lock-in: technical barriers that prevent interoperability or switching, such as messaging systems that reduce functionality across platforms, file-sharing limited to proprietary standards, or accessories artificially restricted to vendor-approved options. Other digital goods: artificial scarcity, premature obsolescence, or withdrawal of features essential to the purchase decision. The pattern across these cases is the same: value is removed post-sale, while consumers lack meaningful redress. Current law leaves gaps, as companies rely on contract fine print, technical control, or corporate restructuring to avoid obligations. The Digital Fairness Act should therefore ensure: Legal certainty that digital goods and services remain usable on the terms offered at purchase. Targeted prohibitions on withdrawing or ransoming essential functionality after sale. Interoperability obligations to prevent anti-competitive ecosystem lock-in that manipulates consumer choice. Clear enforcement tools so authorities can act against exploitative practices across sectors. Harmonised rules across the EU to avoid fragmentation and ensure a level playing field. Embedding these principles would strengthen consumer trust, safeguard cultural and economic value, and ensure that fairness in the digital single market is not undermined by post-sale practices or ecosystem lock-in.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.014499Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3607352.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3607352",
+    "chunks_doc_id": "F3607352",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

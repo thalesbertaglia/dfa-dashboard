@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585718",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:40Z",
+    "finished_at": "2026-04-14T12:35:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm thinking specifically about games with \"always-on DRM,\" like Diablo III or the more recent Ghost Recon titles or even Destiny 1."
+              },
+              {
+                "quote": "Creating a final patch to remove that online requirement seems like a concrete and doable action."
+              },
+              {
+                "quote": "But ensuring single-player games remain accessible is the most logical and clear place to begin."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20649,
+          "unit_kind": "feedback"
+        },
+        "text": "With all the talk about the \"Stop Killing Games\" initiative, I understand that figuring out game preservation is a huge and difficult task. I'm not expecting a perfect solution for everything right from the start. Instead, I believe a realistic first step could go a long way in earning trust with players. The focus should simply be on making sure that single-player games, or games with a large single-player part, are still fully playable after their required online services are shut down. Im thinking specifically about games with \"always-on DRM,\" like Diablo III or the more recent Ghost Recon titles or even Destiny 1. Creating a final patch to remove that online requirement seems like a concrete and doable action. It would be a positive start and show a real commitment to customers before we have to tackle the more complicated issues. I'm also well aware that some games present much bigger challenges. Things like proprietary, copyrighted server technology, software patents, or expiring music licenses are not easy problems to solve. But ensuring single-player games remain accessible is the most logical and clear place to begin.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.887003Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585718.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585718",
+    "chunks_doc_id": "F3585718",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

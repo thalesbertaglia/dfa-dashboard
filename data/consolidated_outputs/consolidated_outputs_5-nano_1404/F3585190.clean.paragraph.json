@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585190",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:15Z",
+    "finished_at": "2026-04-14T12:22:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "psychological trickery designed by psychiatry specialists to create addictive behavior"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game market"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End User License Agreements of the video game publishers that take away our rights"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18700,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to thank lawmakers for not abandoning us, the consumer, and express my concerns in regards to the video game market. As it is now, we are subject to confusing and ever-changing End User License Agreements of the video game publishers that take away our rights. We, as the video game companies themselves say, 'purchase video games,' and when the time comes to release a sequel or the video game stops making enough money, they destroy the game and/or its underlying infrastructure without any options for us to play the games we have purchased. While some might say that this is logical, I have to disagree. Before 2010, countless games were built in a way that allowed video game consumers to create their own servers and modifications that allow those video games to be played even today. Before someone says that that compromises people's security, I will say that with a proper design of video game systems, these problems would be solved by the users. Regarding the objective of protecting minors from problematic features of video games and other products, I hope you don't abandon the current adults who were exploited by such features when they were minors. By now, some of those adults are being continuously exploited by companies, and as such, I hope you, the lawmakers, put a stop to any exploitative features digital products might have. For goodness sake, the creators of such products use psychological trickery designed by psychiatry specialists to create addictive behavior, not only in minors. I thank you for reading and hopefully taking into account my feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.629728Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585190.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585190",
+    "chunks_doc_id": "F3585190",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584638",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:50Z",
+    "finished_at": "2026-04-14T12:05:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers are quietly erasing the rights of people who buy their games."
+              },
+              {
+                "quote": "And then, just like that, the publisher shuts down the servrs and the game you paid for? Gone."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Limit the use of DRM that stops people from running games theyve already paid for."
+              },
+              {
+                "quote": "Guarantee refunds or offline versions when a game is pulled."
+              },
+              {
+                "quote": "Make publishers give advance notice and be honest about what will and wont work after shutdowns."
+              },
+              {
+                "quote": "Protect preservation groups who want to keep old games alive."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33360,
+          "unit_kind": "feedback"
+        },
+        "text": "Im writing to call attention to something thats been bothering me and a lot of others for a long time now. Its about digital ownership and the way video game publishers are quietly erasing the rights of people who buy their games. The Digital Fairness Act is a step in the right direction, but right now, its missing something big: protection for the games we own. Over the years, Ive watched more and more games require constant internet access, even when its not necessary. And then, just like that, the publisher shuts down the servrs and the game you paid for? Gone. Doesnt matter if it was single-player or if you bought all the expansions. Its just... dead. Youre left with nothing, no refund, no way to keep playing. It feels like theft honestly. This isnt some unsolvable problem. Decades ago, games like Doom and Quake let players host their own servers. That kind of freedom kept those games alive for years. But today, publishers are locking everything behind online checks, and once they decide a games no longer profitable, they kill it off- sometimes just to push you toward the next $70 release. And the worst part? Communities who want to preserve these games often arent allowed to like The Last Stand: Dead Zone and City of Heroes. Developers block restoration efforts and refuse to offer offline alternatives. So even if people are willing to put in the work, theyre legally stopped from doing so. Its heartbreakng to see entire games...pieces of art really, just vanish. Thats why I believe the Digital Fairness Act needs to go further. It should: -Require offline patches when servers shut down, especially for single-player content. -Protect preservation groups who want to keep old games alive. -Make publishers give advance notice and be honest about what will and wont work after shutdowns. -Guarantee refunds or offline versions when a game is pulled. -Limit the use of DRM that stops people from running games theyve already paid for. At the end of the day, this is about fairness. Its about the right to access something youve bought. If we dont fix this, digital games wont really be ours anymore. Theyll just be temporary rentals, ready to vanish the moment someone flips a switch. We can do better than that.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.330823Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584638.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584638",
+    "chunks_doc_id": "F3584638",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

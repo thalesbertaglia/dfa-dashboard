@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584146",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:57Z",
+    "finished_at": "2026-04-14T11:50:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "revoked access or block playing the game in another way (after having purchased the game at full price)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18329,
+          "unit_kind": "feedback"
+        },
+        "text": "I would request this initiative take a detailed look at the practices surrounding video games. Purchasing a product should mean owning the product and having access to it at all times, however it is becoming more and more common for publishers and developers of video games to revoke access or block playing the game in another way (after having purchased the game at full price) to push players to purchasing their newer products. This does not happen in any other field of consumer products, your car is not just taken away from you because they released a newer model, and it not should happen in video games. If the deveoper and/or publisher no longer wishes to pay any upkeep to old(er) games they have sold, that is fine, but they must (within reasonable amount) provide players with a way to access the game in its current state, even after support stops. This is alsmost always possible, for online games by the use of private servers, for example.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.094717Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584146.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584146",
+    "chunks_doc_id": "F3584146",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

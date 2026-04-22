@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585331",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:18Z",
+    "finished_at": "2026-04-14T12:25:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "function as revocable licenses."
+              },
+              {
+                "quote": "they only receive a limited licensenot full ownership."
+              },
+              {
+                "quote": "Amazon can remove access due to licensing restrictions or geographic policy, meaning a purchase can be revoked without notice."
+              },
+              {
+                "quote": "terminate access at anytime."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22956,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act should address true digital ownership. Today, many digital goods are sold as purchases but function as revocable licenses. If a user buys somethinglike a movie, plugin, or appthey should have the right to download, store, and use it indefinitely, even after support ends. Licensing should not be used to avoid giving users the basic rights theyd expect from a purchase. At minimum, the law should require clear disclosure of what users are actually buying and guarantee access beyond the product's end-of-life, especially for content that was not subscription-based Amazons own terms admit that even when users \"buy\" movies or shows, they only receive a limited licensenot full ownership. Amazon can remove access due to licensing restrictions or geographic policy, meaning a purchase can be revoked without notice. This shows how current digital purchase models mislead consumers and underscores the need for clear digital ownership rights, including rights to indefinite offline access and preservation beyond support. I attach file with the images from Amazon Website, stating you buy the movie, but in the terms they say they can terminate access at anytime.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.683731Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585331.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585331",
+    "chunks_doc_id": "F3585331",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

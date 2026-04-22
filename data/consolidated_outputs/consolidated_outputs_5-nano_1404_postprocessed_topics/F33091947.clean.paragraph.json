@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33091947",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:41Z",
+    "finished_at": "2026-04-14T09:35:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the use of dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8886,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. My view on the digital fairness law proposed by the European Commission is very good as it helps to strengthen consumer protection online and ensure a level playing field and does so through different mechanisms, such as unfair commercial practices that address issues such as the use of dark patterns, protection for minors and transparent marketing. The European Commission has launched this law on digital fairness due to gaps they found in the current consumer protection legislation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.591050Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091947.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091947",
+    "chunks_doc_id": "F33091947",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33091947.clean.paragraph.json"
+}

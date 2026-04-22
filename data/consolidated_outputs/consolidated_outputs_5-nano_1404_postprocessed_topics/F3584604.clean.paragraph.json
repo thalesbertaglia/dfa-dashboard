@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584604",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:17Z",
+    "finished_at": "2026-04-14T12:03:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This initiative, supported by over one million citizens, calls for a simple but important measure: when a video game that consumers have legally purchased is no longer supported by its publisher or platform, it should remain playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21697,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my support for the goals of the proposed Digital Fairness Act and thank the Commission for its commitment to ensuring greater consumer protection in the digital environment. Nevertheless, I respectfully urge you to consider including the principles of the European Citizens Initiative Stop Killing Games in the final version of the legislation. This initiative, supported by over one million citizens, calls for a simple but important measure: when a video game that consumers have legally purchased is no longer supported by its publisher or platform, it should remain playable. If you buy a book, a movie or any other good, digital or not, you can use it to your likings as long as you want. You purchased it. With games that changed a while ago. Publishers can deactivate registration services or other online methods and the game, while still fully functional, can no longer be used. This must be changed! Nobody expects them to support games forever, but if the leave a game behind they need to leave it in a playable state (in that point in time), provide th3 sources for the community to find a solution, or something like that. Its a necessity for the consumers. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.313867Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584604.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584604",
+    "chunks_doc_id": "F3584604",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584604.clean.paragraph.json"
+}

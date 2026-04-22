@@ -1,0 +1,86 @@
+{
+  "doc_id": "F33071554",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:47Z",
+    "finished_at": "2026-04-14T09:29:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Users must bypass multiple explicit warnings to install apps outside the Play Store."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "By requiring government ID and fees for all distribution, Google has chosen the most restrictive possible approach."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "nor can it assume control of application identifiers without seizing exclusive distribution rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21121,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing regarding Google's Developer Verification policy for Android, which requires all developers, including those distributing apps outside Google Play Store, to register with Google and provide government identification. I understand the DMA permits security measures that are \"strictly necessary and proportionate\" to protect system integrity, but Google's policy fails both tests. Google already has effective security mechanisms that make developer registration unnecessary. Play Protect actively scans all apps on certified Android devices regardless of their source and can disable identified malware. Users must bypass multiple explicit warnings to install apps outside the Play Store. If developer registration were truly necessary for security, it's difficult to explain why Google Play itself regularly hosts malware despite verification systems. Meanwhile, alternatives like F-Droid demonstrate that open-source transparency, public build processes, and reproducible builds can provide stronger security guarantees than centralized verification. If this were really about security, Google would be supporting these transparent alternatives, not eliminating them. The policy is also disproportionate to any legitimate security concern. Requiring registration for distribution through competing stores or directly to users extends far beyond protecting Google's own marketplace. The policy will effectively destroy legitimate alternatives like F-Droid, which cannot require developers to register with a competitor, nor can it assume control of application identifiers without seizing exclusive distribution rights. This consolidates Google's monopoly. This requirement also excludes legitimate developers. Open-source contributors, privacy-conscious developers, and those in regions with problematic identification requirements will be forced off the platform. Less restrictive alternatives exist, enhanced scanning, user education, technical sandboxing improvements, or optional verification. By requiring government ID and fees for all distribution, Google has chosen the most restrictive possible approach. The timing of this announcement raises serious questions. Google introduced this policy shortly after losing the Epic v. Google antitrust case, where courts found their existing control over app distribution to be anticompetitive. For a company that has operated Android for over 17 years, suddenly requiring universal developer registration, extending even to apps distributed outside their store, appears to be a response to losing that legal battle rather than addressing any new security threat. This policy changes what it means to own an Android device. Users should have the right to install software of their choice on devices they own, just as they do on personal computers. Making that right conditional on a gatekeeper's permission transforms an open platform into a closed one. I urge the Commission to find that Google's policy is neither strictly necessary nor proportionate under DMA Article 6(4), and therefore violates the Act's provisions. The DMA balances security needs with preventing gatekeepers from abusing their position. That balance is threatened if gatekeepers can simply label any control measure as \"for security\" without real scrutiny. Alternative, less restrictive measures can address legitimate security concerns without consolidating Google's gatekeeper control over all Android software distribution. As an Android user who chose this platform specifically for its openness, I ask you to defend the competitive, open ecosystem that the DMA was designed to protect. The ability to install software from sources of our choice, without requiring permission from the device manufacturer, is fundamental to digital freedom and a healthy competitive market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.502475Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071554.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071554",
+    "chunks_doc_id": "F33071554",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

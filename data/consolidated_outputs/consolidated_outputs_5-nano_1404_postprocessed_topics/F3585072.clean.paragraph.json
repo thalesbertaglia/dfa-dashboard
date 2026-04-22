@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585072",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:25Z",
+    "finished_at": "2026-04-14T12:19:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they even allow themselves by their terms of service to remove game access for any reason or even no reason at all."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19762,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think the Digital Fairness Act should include the protection of digital ownership, especially (but not limited to) videogames. We lately had to deal with many games we already paid for getting removed from our libraries or becoming unplayable. Some got removed because the publishers don't want to continue the support of games (for example The Crew) and they even allow themselves by their terms of service to remove game access for any reason or even no reason at all. Others got removed because payment processors like Visa or Mastercard don't like their content (for example just recently on Steam or Itch.io). I want to make it very clear, that all these games were legal and only moral reasons led to this decision. Customers need protection against such arbitrary censorship and outright destruction of games. Please consider protection against such practices for inclusion in the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.582808Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585072.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585072",
+    "chunks_doc_id": "F3585072",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585072.clean.paragraph.json"
+}

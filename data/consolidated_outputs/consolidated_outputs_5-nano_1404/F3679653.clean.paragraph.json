@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3679653",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:48Z",
+    "finished_at": "2026-04-14T13:46:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Concerning dark patterns, it's highly questionable how many cookie banners actually don't qualify for not using dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the inability to transfer usage habits/preferences between streaming services - be it music, movie, or other streaming services - could be viewed as \"unfair personalisation practices\" and/or \"unfair commercial practices\"."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of Amazon Prime Video could be seen as an example of the worst offense of this, as there is only one price for the whole service package, while competing services at least have different tiers for different streaming qualities."
+              },
+              {
+                "quote": "Thus, Amazon is forcing users to pay for all content, including dedicated content in 4K/UHD and/or HDR, even when the user isn't even able to view them due to DRM."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30075,
+          "unit_kind": "feedback"
+        },
+        "text": "While Apple's iOS is still far from being open and allowing actual alternatives to both their app store and their browser in a way that doesn't make it unviable to use the alternatives, Google announced it would significantly close down its Android ecosystem, planning to only allow verified third parties to distribute apps beyond the Play Store. While in both cases security concerns are stated, these are highly questionable and unproven. On iOS the current model already led to third-party app censorship, and it's highly unlikely Google will not abuse their to-be-gained control in the same way. Meanwhile, there are no viable alternatives, as more and more apps expect Google's services and APIs (or similar from Apple) to be present, if they don't even expect the device to pass questionable integrity checks. Apps from sectors like banking, health, and most likely the upcoming ID wallets are impossible to use on any alternative platform, leaving the users with only two platforms that don't give much, if any, freedom of choice. At the same time, the inability to transfer usage habits/preferences between streaming services - be it music, movie, or other streaming services - could be viewed as \"unfair personalisation practices\" and/or \"unfair commercial practices\". To be able to switch between services, the user would need to manually transfer their preferences so the new service can then start to make recommendations as good as or better than the old service. Concerning dark patterns, it's highly questionable how many cookie banners actually don't qualify for not using dark patterns. Concerning desktop computer systems, the reliance on locked-down DRM methods that need deep integration into the OS in a closed-source way - thus basically excluding anything based on Linux beyond commercial and company-controlled systems like Android and ChromeOS and only allowing commercial systems like Windows and macOS with questionable practices - could very well be seen as \"unfair commercial practices\". While these are mostly being used by movie/series streaming services, and they don't fully prohibit streaming here completely, though they usually limit it to very low quality, the practice of Amazon Prime Video could be seen as an example of the worst offense of this, as there is only one price for the whole service package, while competing services at least have different tiers for different streaming qualities. Thus, Amazon is forcing users to pay for all content, including dedicated content in 4K/UHD and/or HDR, even when the user isn't even able to view them due to DRM.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.095051Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3679653.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3679653",
+    "chunks_doc_id": "F3679653",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

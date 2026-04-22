@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585179",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:02Z",
+    "finished_at": "2026-04-14T12:22:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It would greatly benefit the consumer side of the video gaming industry if this act also tackled the practice whereby video games, that require a connection to a server to function, eventually shut down without an end of life plan to allow the user to play without involvement or further investment by the developer/publisher."
+              },
+              {
+                "quote": "Many games have had their servers shut down for cost reasons, but developers rarely ever then provide users with a means to start their own servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20629,
+          "unit_kind": "feedback"
+        },
+        "text": "It would greatly benefit the consumer side of the video gaming industry if this act also tackled the practice whereby video games, that require a connection to a server to function, eventually shut down without an end of life plan to allow the user to play without involvement or further investment by the developer/publisher. Many games have had their servers shut down for cost reasons, but developers rarely ever then provide users with a means to start their own servers. This leaves huge, historical games to rot for all of history, completely unplayable by anyone. This practice has eroded away the feeling of actually owning your copy of a video game, as the developer can leave it non-functioning after purchase any time they like. This could easily be fixed by simply requiring developers to provide some method for users to host their own servers, so games could live indefinitely. This wouldn't require ongoing investment by developers, it's simply a one-time requirement that they provide a way for users to \"repair\" their own game. As is, developers have little incentive to do so, meaning many games stop functioning one day, either partly or completely, for no good reason except monetary incentives not aligning with consumer interests.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.625652Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585179.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585179",
+    "chunks_doc_id": "F3585179",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585179.clean.paragraph.json"
+}

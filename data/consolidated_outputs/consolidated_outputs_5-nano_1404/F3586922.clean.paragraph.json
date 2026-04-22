@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586922",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:04Z",
+    "finished_at": "2026-04-14T13:06:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Platforms should be required to disclose when personalization or automated decisionmaking is applied, including the main parameters that determine ranking, pricing, or recommendations."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Beyond overt dark patterns, the Act should explicitly address subtle but harmful practices such as misleading urgency cues, fake scarcity, inflated discounts, or default optins for paid services."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "default optins for paid services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48531,
+          "unit_kind": "feedback"
+        },
+        "text": "Feedback on the Digital Fairness Act I welcome the European Commissions initiative to strengthen consumer protection through the Digital Fairness Act. As digital platforms become central to daily life, clear rules on fairness, transparency, and accountability are urgently needed. I strongly support the Acts objectives, and would like to emphasize five areas that could enhance its effectiveness: 1. Algorithmic Transparency Platforms should be required to disclose when personalization or automated decisionmaking is applied, including the main parameters that determine ranking, pricing, or recommendations. Consumers deserve to know when their choices are being shaped by algorithms, and on what basis. 2. Combatting Manipulative Design Practices Beyond overt dark patterns, the Act should explicitly address subtle but harmful practices such as misleading urgency cues, fake scarcity, inflated discounts, or default optins for paid services. These undermine consumer autonomy and trust. Clear definitions and significant penalties are crucial for deterrence. 3. Genuine Consent and Control Consent must be simple, informed, and reversible. Interfaces should give equal prominence to accept and reject choices, with withdrawal of consent as easy as granting it. Overly complex or coercive consent flows erode consumer trust and defeat the spirit of data protection law. Conclusion The Digital Fairness Act is a timely and necessary step toward ensuring that the digital economy works in the interests of consumers, not just platforms. By embedding algorithmic transparency, tackling manipulative design, ensuring genuine consent, promoting accessibility, and guaranteeing effective enforcement, the EU can set a global standard for fairness online. I urge the Commission to adopt an ambitious and enforceable version of the Act to protect citizens and build longterm trust in Europes digital future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.384055Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586922.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586922",
+    "chunks_doc_id": "F3586922",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

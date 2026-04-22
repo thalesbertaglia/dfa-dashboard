@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588358",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:17Z",
+    "finished_at": "2026-04-14T13:23:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogame corporations to stop removing or destroying digital goods they have sold to customers for money"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "without any End of life plan or at least a warning that the product customers are purchasing are temporary and would last for X amount of time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30737,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness act is a great way to not only protect products that only accessible in a digital space but also to not allow companies to abuse the power they have too much. That being said, there's an initiative by the name \"Stop Destroying Games\", where I think the Digital Fairness Act would help immensely. \"Stop Destroying Games\" is basically trying to make Videogame corporations to stop removing or destroying digital goods they have sold to customers for money without any End of life plan or at least a warning that the product customers are purchasing are temporary and would last for X amount of time. In the now mostly \"All Digital\" Era we currently are, it becomes increasingly important to protect products customers bought with real and hard earned money. The initiative that I mentioned, is not asking for ownership. Not in the way Videogame Corporations may claim. But I want to be able to buy something and access it indefinitely without any influence from companies and if that's not possible then at the very least provide an explicit expiry date.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.642104Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588358.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588358",
+    "chunks_doc_id": "F3588358",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

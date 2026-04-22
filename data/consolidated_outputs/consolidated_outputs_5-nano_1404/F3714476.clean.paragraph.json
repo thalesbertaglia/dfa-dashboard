@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3714476",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:28Z",
+    "finished_at": "2026-04-14T13:46:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This game contained a single player component and a multiplayer component for which a connection to the server infrastructure of the owner of the rights was necessary."
+              },
+              {
+                "quote": "When the owner of the rights decided to pull the plug on the support last year they did not only turn off the multiplayer component, but also the single player component."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12287,
+          "unit_kind": "feedback"
+        },
+        "text": "Personally, I am very concerned that my ownership rights to much of what I have purchased including books, movies and video games is really weakly protected. While I try to purchase titles from places that provide a personal copy (downpour.com for audio books, physical media for movies where available, GOG.com for video games), in many fields various entities created de facto monopolies giving a regular person only two options: purchase where they are getting a really rotten deal or pirate. I understand that it is impossible to force an entity to create a more durable good that can be owned personally (e.g. movie Next-Gen from Netflix or The Idea of You from Amazon). Instead, I would like to increase customer protection in places where there is no need to artificially limit the customer. A recent example of this would the video game The Crew. I personally own two copies. One bought on the digital PC platform Steam, second a physical copy for Playstation 4. This game contained a single player component and a multiplayer component for which a connection to the server infrastructure of the owner of the rights was necessary. When the owner of the rights decided to pull the plug on the support last year they did not only turn off the multiplayer component, but also the single player component. I interpret this as a purely malicious action to herd impacted customers to the inferior sequels created by the owner of the rights. While this personally damaged me monetarily, as the combined cost of both copies was close to 100, I am more concerned about the completely brazen disregard to ownership in the digital age the owner of the rights showed. On a more personal note, this was one of the experiences I wanted to share with my newly born son when he gets older. This was taken from both me and not just European citizens, but humanity as the whole. I firmly believe that this is malicious art destruction in a brazen attempt to force customers to buy the \"new\" version without performing minimal due diligence to make sure as much of customer's original purchase is respected as possible. I would appreciate if the European Union would provide legal pressure on the digital marketplace to force all players to perform the minimal effort to provide a copy of a purchased product to end users be this a book, movie or a video game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.106101Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3714476.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3714476",
+    "chunks_doc_id": "F3714476",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

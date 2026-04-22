@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3662850",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:40Z",
+    "finished_at": "2026-04-14T13:45:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Sideloading is the only remaining check: it allows European innovators to reach users without begging for permission."
+              },
+              {
+                "quote": "The EU must act: enshrine sideloading as a protected right, ban discretionary verification schemes, and treat any restriction as prohibited anti-competitive conduct."
+              },
+              {
+                "quote": "Anything less is capitulation, leaving 450 million Europeans dependent on the goodwill of one company to exercise basic digital freedoms."
+              },
+              {
+                "quote": "Allowing Google to restrict sideloading is not a technical debateit is the transfer of sovereign power from democratic institutions to a single profit-driven corporation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22889,
+          "unit_kind": "feedback"
+        },
+        "text": "Allowing Google to restrict sideloading is not a technical debateit is the transfer of sovereign power from democratic institutions to a single profit-driven corporation. Evidence already shows abuse: in 2023 Google crippled the European open-source cloud service Nextcloud by revoking a key permission, forcing citizens to sideload for seven months while Google Drive, its direct competitor, remained untouched. That was not about safety; it was about market control. Both the European Commission (2023) and the UK CMA (2022) have confirmed that mobile ecosystems concentrate gatekeeper power in ways that stifle competition and harm consumers. Sideloading is the only remaining check: it allows European innovators to reach users without begging for permission. Strip it away, and the software market collapses into a Google-controlled whitelist where only corporations with the resources and political leverage to be verified survive. This is a direct violation of the Digital Markets Act, a threat to Europes digital sovereignty, and an existential risk to its innovation ecosystem. If Europe permits it, it will have ceded the ability to decide what lawful software its citizens may run to a single U.S. corporation with a clear conflict of interest. The EU must act: enshrine sideloading as a protected right, ban discretionary verification schemes, and treat any restriction as prohibited anti-competitive conduct. Anything less is capitulation, leaving 450 million Europeans dependent on the goodwill of one company to exercise basic digital freedoms.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.074266Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3662850.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3662850",
+    "chunks_doc_id": "F3662850",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3662850.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33079821",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:52Z",
+    "finished_at": "2026-04-14T09:30:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This new rule will require all software developers including those who distribute their applications independently or through alternative app stores to register with Google and submit personal information, including government-issued identification."
+              },
+              {
+                "quote": "If a developer does not comply, Google will restrict users from installing their software on any certified Android device."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25606,
+          "unit_kind": "feedback"
+        },
+        "text": "Subject: Report of Anticompetitive Behavior by Google LLC Regarding Android App Distribution Potential Violation of the Digital Markets Act To the European Commission Directorate-General for Competition (DG COMP) and the Digital Markets Act Enforcement Team: I am writing to report what I believe to be a clear and deliberate attempt by Google LLC (Alphabet Inc.) to circumvent recent competition rulings and the obligations established under the European Unions Digital Markets Act (DMA), thereby unlawfully maintaining its monopoly over the Android app distribution market within the European Economic Area. Background Google recently lost a significant antitrust lawsuit in the United States (Epic v. Google), in which a court found that the company operates an illegal monopoly through its Google Play Store and associated billing services. In what appears to be a direct response to that ruling and in potential defiance of the DMAs interoperability and fair access obligations Google has announced a new platform policy called Developer Verification, scheduled to roll out next month. The Anticompetitive Action Google presents Developer Verification as a security measure. In reality, it is a policy that extends Googles control far beyond its own marketplace. This new rule will require all software developers including those who distribute their applications independently or through alternative app stores to register with Google and submit personal information, including government-issued identification. If a developer does not comply, Google will restrict users from installing their software on any certified Android device. This policy is a thinly veiled attempt to solidify Googles gatekeeping position and to undermine the intent of the DMA. The reasons are as follows: Unlawful Extension of Market Power: Google is leveraging its dominance in the mobile operating system market (Android) to control the separate market for app distribution. By forcing all developers to register with them even if they do not use the Google Play Store Google effectively makes itself the mandatory gatekeeper for all software on Android devices. This action contradicts Articles 5 and 6 of the Digital Markets Act, which prohibit gatekeepers from restricting third-party app stores or independent distribution channels. Stifling Competition and Innovation: The policy creates significant barriers for independent developers. Many developers value their privacy or choose to distribute their work anonymously for legitimate reasons. This requirement will push them off the platform, reducing consumer choice and harming the open and competitive ecosystem that Android was originally intended to foster. As the provided text notes, the wish to maintain privacy is not synonymous with illicit intent. Pretextual Justification: Googles claim that this measure enhances user security is not credible. Android already contains multiple explicit safeguards and warnings that users must bypass to install applications from outside the official Play Store (sideloading). The true motive appears to be control a means to reassert monopolistic power and limit the effectiveness of emerging regulatory frameworks like the DMA. Conclusion This Developer Verification program represents a direct assault on the principles of openness and fairness underpinning the Digital Markets Act. It is an abuse of Googles dominant position to police all content and distribution even beyond its own store thereby ensuring its continued monopoly and obstructing compliance with EU competition law. I respectfully urge the European Commissions Directorate-General for Competition and the DMA enforcement authorities to investigate this new policy as an anticompetitive practice and a bad-faith attempt to circumvent the obligations imposed on designated gatekeepers under the Digital Markets Act. Thank you for your time and considerations",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.528417Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079821.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079821",
+    "chunks_doc_id": "F33079821",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

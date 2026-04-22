@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33093273",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:37:56Z",
+    "finished_at": "2026-04-14T09:38:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "block all attempts to install an app not approved by them on certified devices to prevent malware,"
+              },
+              {
+                "quote": "They do this by requiring app developers to give them personal information."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26107,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like for the Digital Fairness Act to also protect rights some regarding computers and what you are able to do on them. Specifically i want to talk about Android based smartphones, which are becoming more locked down and require approval of the manufacturer for more and more things. It starts with the Operating System (OS) the device runs. On almost all devices the phone checks if the OS is an approved one. This mechanism is a useful tool to prevent some kinds of attacks. However, it becomes a problem when you are not the one in control of it. On an increasing amount of devices you can not disable this feature to allow other OSs. SAMSUNG is a notable example of a manufacturer who recently stopped allowing this. Also, most phone who do allow this do not support enabling this for other OSs and thus force you to choose between all security feature or an OS of your choosing. But simply being allowed to run a different OS is not enough. In order for an OS to function correctly it needs certain information about the hardware that is specified in a device tree. Without this device tree you need a lot of work to get things to work and some things may not work correctly. Requiring manufactures to give out these device trees is feasible since 1 Google did it for years and only stopped recently and 2 almost every desktop computer has a mechanism to provide this information to whatever OS you want to run on it. Next up, lets talk about Android itself. With the Android Open Source Project (AOSP) it is supposedly an open system where everybody can make their own version of Android. However, Google has taken multiple measures to prevent people from just making an unapproved Android version. This is mainly done in 2 ways. Firstly, a lot of what one would consider core system functionality is located in a closed source app called \"Google Play services\", also known as Google Mobile Services (GMS). This app is installed with system permissions on versions of Android certified by Google and provides things like location services. This means that the system has to ask this app to know the current position of the device. But the bigger problem for alternative Android versions is the so called \"Play Integrity API\", which is sometimes marketed as a way to verify certain security aspects of the device and that apps run as intended. But it is mostly about checking that the system is approved by Google. The \"Basic Integrity\" requires that the root of trust is provided by Google. The \"Device Integrity\" requires that the device is running a certified version of Android by the manufacturer. Higher levels do have actual security requirements, but they require reaching the lower levels. The important thing is that only Google can make a system pass any level and anything above basic integrity is not reachable by third party Android versions independent of their security or integrity. And lastly lets talk about app stores. Google has been forced to allow other app stores on their own app store. But they also announced measures to ensure their control into the future. Specifically they want to block all attempts to install an app not approved by them on certified devices to prevent malware, but this could be changed to block apps Google does not like, such as NewPipe. They do this by requiring app developers to give them personal information. Only after this can their apps be installed. This also affects non certified devices since developers who do not want to give Google personal information only have a small amount of users left, which may not be enough for the continued development. These are some of the ways in which Android is becoming more locked down, but other devices can have similar issues. An EU regulation could ensure that our devices do what we want from them instead of working for somebody else. It could also ensure fair competition in the software market where some parties aren't excluded from the start.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.621494Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33093273.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33093273",
+    "chunks_doc_id": "F33093273",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

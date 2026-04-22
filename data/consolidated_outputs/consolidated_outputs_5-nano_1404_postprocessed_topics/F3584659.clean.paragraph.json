@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584659",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:34Z",
+    "finished_at": "2026-04-14T12:07:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We as gamers want to not only own the games we buy, but also be able to make our own servers etc to play with others if needed."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can put whatever they want in their EULA (End User License Agreement) to say that they can choose to shut it down whenever, or that they can ban users from ever owning or playing the game because of something they may or may not have done"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 95256,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! My name is Andreas. I just saw a video from Ross Scott aka Accursed Farms about the Digital Fairness Act and wanted to weigh in on the matter. As you may know, the Stop Killing Games, or Stop Destroying Games initiative have gotten more than a million signatures and the UK one got around 180 ish thousand signatures. So this is no laughing matter. We as gamers want to not only own the games we buy, but also be able to make our own servers etc to play with others if needed. This is what big publishers and developers like Ubisoft/EA do not want us doing so they can just pump out new games every year and then just shut them down whenever they feel like it. Also the fact that they can put whatever they want in their EULA (End User License Agreement) to say that they can choose to shut it down whenever, or that they can ban users from ever owning or playing the game because of something they may or may not have done, which is very frowned upon. Lastly, I just want to say that I kindly ask you to adding such a law into the act as a preventative measure. Thanks for taking the time to read all this. With kind regards, Andreas.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.341699Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584659.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584659",
+    "chunks_doc_id": "F3584659",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584659.clean.paragraph.json"
+}

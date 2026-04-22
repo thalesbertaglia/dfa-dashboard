@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585731",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:03Z",
+    "finished_at": "2026-04-14T12:35:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers purchase video games, thinking that they then own the game and can play it forever."
+              },
+              {
+                "quote": "not making it clear to the consumer that their purchase is \"merely a license to the game that can be revoked at any time for any or no reason\""
+              },
+              {
+                "quote": "taking away access to the game when they don't want to support it anymore, making the money spent on the game wasted."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30385,
+          "unit_kind": "feedback"
+        },
+        "text": "Please include the media of video games as part of this, as corporations have been destroying games over and over. Consumers purchase video games, thinking that they then own the game and can play it forever. Like the way you buy a physical book. You can read it over and over again for the rest of your life. But video game publishers have been a) not making it clear to the consumer that their purchase is \"merely a license to the game that can be revoked at any time for any or no reason\" and b) then taking away access to the game when they don't want to support it anymore, making the money spent on the game wasted.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.893838Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585731.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585731",
+    "chunks_doc_id": "F3585731",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3602395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:00Z",
+    "finished_at": "2026-04-14T13:41:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "From predatory and manipulative microtransactions based on principles such as FOMO (Fear Of Missing Out) to artificial scarcity, consumers are exploited and subconsciously manipulated."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game also uses a premium store with rotating content, meaning it is creating FOMO through artificial scarcity for no reason other than to manipulate the player."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "obfuscating premium currency sold in unfitting bundles"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33586,
+          "unit_kind": "feedback"
+        },
+        "text": "Video Games, Design and consumer protections are possibly the biggest passions in my life. I have been following the video game industry closely for 10+ years. The methods deployed in order to maximise profit and engagement margins are absolutely deplorable and desperately need to be regulated. From predatory and manipulative microtransactions based on principles such as FOMO (Fear Of Missing Out) to artificial scarcity, consumers are exploited and subconsciously manipulated. Game design integrity is compromised not for the sake of creating a better product, but to push the players closer into the monetization bubble, further exposing them and increasing the probability of spending (Designing progression systems and areas in-game to expose the players to monetization as much as possible, by for example placing a premium store specifically in a way that the player frequently walks past it). Developers are on purpose not given enough time to polish their work, quality checks are waived to save time. Marketing is created to market not the actual game, but a perfect and fictional version of it, only portraying the game in a way that most increases the possibility of consumers purchasing, often hiding the unfinished and broken state of the actual product. So much of all this is subconscious. The methods used range from tiny to large, but overall add up cumulatively to treat the consumer not as a person, but a squeezable wallet to drain. Let me give a few different kinds of specific examples to showcase different things done in recent years: - Tekken 8. When Tekken 8 was released, it had a good reception. Heck, I was happy to buy it as someone who played Tekken 1 and 2 back as a kid. Around a month after release though, they started to add monetization to the game in the form of an obfuscating premium currency sold in unfitting bundles and a battle pass (FOMO). None of this was marketed or communicated before release despite it being crucial information for a consumer to make their economic decision of whether to purchase the game or not. As a player, fan and consumer, I felt betrayed and scammed because I would not have bought the game if I knew about this beforehand. Very clearly this was a planned course of action, farming the initial release purchases before tainting the game with unpopular practices in order to ensure long-term profits. This, in my opinion should constitute a form of fraud. They manipulated the public perception in a premeditated way to increase sales before employing known dark patterns, so everyone who had already bought the game and played it, is stuck with their purchase since they cannot refund anymore. - Killing Floor 3. The game was and is marketed as a feature-complete finished product, an evolution of the franchise, a return to form that fans of the franchise and genre will love. Well, reality is the game is unfathomably unfinished, buggy, broken and unpolished. It was clearly released way too early under corporate pressure (Studio is owned by Embracer) to the detriment of the consumer. The professional quality in the game is barely reaching an intern-level, by anyone vised in the fields (Such as design) clearly looking slapped together hastily without much care and effort invested into it. The game also uses a premium store with rotating content, meaning it is creating FOMO through artificial scarcity for no reason other than to manipulate the player. Sadly I am reaching the character limit here. Man, I could talk for hours about this stuff. We NEED regulation regarding this. This is a very complex topic most people don't know or understand much about. There are way too money people who are taking it up to defend these practices and corporations because they make the franchise that they like. We need to re-align the expectations set through marketing and official communication with reality and disclaim the dark patterns utilized and prohibit the absurd ones.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.991566Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3602395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3602395",
+    "chunks_doc_id": "F3602395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

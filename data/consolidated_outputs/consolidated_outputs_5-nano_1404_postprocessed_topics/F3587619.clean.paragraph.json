@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587619",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:07Z",
+    "finished_at": "2026-04-14T13:19:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they only receive a service that can be canceled at any point by the seller."
+              },
+              {
+                "quote": "cancelation terms must be clear."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Removing access to a service due to abuse by the client is perfectly reasonable, but TOS often allow sellers to cancel the service entirely at their discretion."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19959,
+          "unit_kind": "feedback"
+        },
+        "text": "The distinction between buying a digital good (a song) paying for a service (ability to listen to a song) is often unclear in modern online platforms, especially in video games where clients tend to pay a single fee and expect to own the game forever. What happens often is that they only receive a service that can be canceled at any point by the seller. In addition to other protections, it should be clear exactly what a purchase provides - a good to use forever or a service that can be canceled. For example, an audiobook store should clarify whether upon purchase I will be able to download an MP3 file to use as I see fit, or will I have to use their online applications to listen to the book. In case of services, cancelation terms must be clear. Removing access to a service due to abuse by the client is perfectly reasonable, but TOS often allow sellers to cancel the service entirely at their discretion. Less savvy consumers may not always know the nuances of service vs good and may not understand exactly what they are purchasing.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.555406Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587619.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587619",
+    "chunks_doc_id": "F3587619",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587619.clean.paragraph.json"
+}

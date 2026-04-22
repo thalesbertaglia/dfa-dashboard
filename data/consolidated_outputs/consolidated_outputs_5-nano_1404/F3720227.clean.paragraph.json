@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3720227",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:46Z",
+    "finished_at": "2026-04-14T13:47:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Showing items without a complex suggestion algorithm. This reduces chance for manipulation and addictive patterns."
+              },
+              {
+                "quote": "Default settings should be privacy friendly and secure and require minimal user data."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Personalization should be user's choice, explicit opt-in only for a specific purpose."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currencies especially in games should not be abstracted away."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "any time revocable digital licensing and often behind a DRM(digital rights management) system, which prevents user from really own the purchased product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35677,
+          "unit_kind": "feedback"
+        },
+        "text": "In my opinion to achieve Digital Fairness the main focus point should be people's well-being, right as described in the provided document. Key points to achieve a better online experience: - Default settings should be privacy friendly and secure and require minimal user data. No online tracking by default, like Cookies, device or network based profiling... Users almost never change the default settings. - Default basic content sorting: by time, last-read, price, pieces sold... Showing items without a complex suggestion algorithm. This reduces chance for manipulation and addictive patterns. This provides users a clear and easy to understand viewing experience. - Personalization should be user's choice, explicit opt-in only for a specific purpose. - Strengthening and promoting digital ownership in physical products, software and content. \"If buying isn't owning, piracy isn't theft.\" - for private usage. Buying nowadays means in context of digital content: any time revocable digital licensing and often behind a DRM(digital rights management) system, which prevents user from really own the purchased product. (music, game, app, videos). In old times one could record for private use from the radio, tv via a VCR or a Casette Deck... Nowadays certain content is blacked out, or available from the service provider for a limited time, because of DRM. This results often in a worse experience. Not fair. When I buy a for example a CD, then I want be able to format shift it to play on my phone, stream from my NAS, and make a backup for the time, when the CD becomes unreadable. I pay for content which respects my ownership. - User should have the same rights with a device as the manufacturer. Example: On Android Default apps like Play Store or Play Services have permissions, which other apps can't have. A phone is just a computer, so a manufacturer should not decide what I can install on it. Free choice even of the OS (operating system). There are privacy friendly and minimalist OS alternatives, which aren't using dark patterns. This gives a clean clutter-free experience for the user. But Google has too much control over Android via Play Integrity API and Push Service, even if all or even more security measures are in place on an alternative OS, this prevents some Apps, especially Banking apps, or eID apps from running, limiting user choice. Example2: Apple makes installing apps from external sources even with results of the Digital Services Act extremely painful, and close to unusable, also keeps a tight control and strong restrictions on external apps via requiring a paid(for less limitations) developer account, even then I can't publish these on external stores without a legal business. A phone is just a computer. On a computer I can create and run my own app right after I wrote it in minutes, and can distribute to whoever I want. - IOT(Internet of Things) smart devices should provide offline API-s, without requiring an App, or Manufacturer's cloud services. This helps preventing e-waste, and provides a more secure way to control these devices. These API-s are already there, but available only for the manufacturer. Often insecure, and if discontinued of the cloud service, the device also becomes unusable. - Currencies especially in games should not be abstracted away. Example: Topping up 10Eur converts to in-game currency (499Gold), and an item costs (20Gem, where 1Gem=50Gold). The value of the \"Gem\" is abstracted away from real Currency.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.114452Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720227.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720227",
+    "chunks_doc_id": "F3720227",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

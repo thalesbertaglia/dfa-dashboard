@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585189",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:15Z",
+    "finished_at": "2026-04-14T12:22:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Two years ago, the servers for Battlefield 1943 were shut down, making the game completely unplayable."
+              },
+              {
+                "quote": "permanently disabling games that customers have already purchased."
+              },
+              {
+                "quote": "end-of-life plan when they discontinue support, such as releasing server software, offline patches, or other necessary files,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25821,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Commission, I am writing as an EU citizen and video game enthusiast to ask that the Digital Fairness Act include protections against publishers or game developers permanently disabling games that customers have already purchased. Two years ago, the servers for Battlefield 1943 were shut down, making the game completely unplayable. This was a console-exclusive title for Xbox 360 and PlayStation 3 that required a constant internet connection for everything, including just opening the settings menu. The game I bought years ago now sits useless on my console. Even if I wanted to play it again, I would need both an emulator or modded PlayStation 3 AND community-created servers, but no such community servers exist for this game yet. So currently, there's simply no way to play it at all. This isn't an isolated case. Hundreds of games have already been destroyed this way, and hundreds more are at risk. While some dedicated communities have managed to restore online functionality for certain titles, these efforts exist in a legal gray area and can be shut down at any time by publishers/game developers who have already abandoned their own games. Requiring publishers and game developers to provide an end-of-life plan when they discontinue support, such as releasing server software, offline patches, or other necessary files, would let customers continue accessing what they paid for. This seems like a natural fit alongside the other consumer protections in the Digital Fairness Act. Over one million EU citizens have already expressed support for protecting games from permanent destruction through the Stop Destroying Videogames European Citizens' Initiative. Adding this protection to the Digital Fairness Act would address a widespread problem that affects millions of European gamers. Thank you for considering this request. I hope the Commission will take this opportunity to ensure that digital purchases remain accessible to their owners.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.629403Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585189.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585189",
+    "chunks_doc_id": "F3585189",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

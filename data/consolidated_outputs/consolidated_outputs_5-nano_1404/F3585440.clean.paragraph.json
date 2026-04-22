@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585440",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:44Z",
+    "finished_at": "2026-04-14T12:27:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying video games that the customer has already paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12285,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it would be great if this act could be expanded to also cover the practice of publishers destroying video games that the customer has already paid for, thus taking away the customer's ability to use the product they bought. This practice has become standard in the gaming industry. Hundreds of games are at risk or have already been shut down forever, with customers having no idea if they will ever be able to play the game they paid for again. This is sometimes used as a tactic to arbitrarily force customers into buying a company's newer games by destroying the old ones and making them unplayable. This problem is completely avoidable, there is no reason why any game has to be destroyed and I believe it is an infringement on my rights as an EU citizen. A company should not be able to destroy a product I paid for whenever they want. This is important to me and I have already signed the \"Stop Destroying Videogames\" Citizens' Initiative which currently has over 1.4 million signatures. I think this is a great opportunity to strengthen the rights of EU citizens against predatory companies!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.744626Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585440.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585440",
+    "chunks_doc_id": "F3585440",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

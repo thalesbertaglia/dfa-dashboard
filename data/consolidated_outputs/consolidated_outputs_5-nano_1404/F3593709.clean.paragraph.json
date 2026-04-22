@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3593709",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:40Z",
+    "finished_at": "2026-04-14T13:40:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Personalised pricing in digital markets can create real risks for consumers when combined with manipulative interfaces, dark patterns, or data-driven profiling"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative interfaces, dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dynamic pricing exploiting situational vulnerabilitiese.g., targeting users when fatigued, stressed, or low on resourcescan lead to transactions consumers would not otherwise make, generating both individual and collective harm."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21462,
+          "unit_kind": "feedback"
+        },
+        "text": "Personalised pricing in digital markets can create real risks for consumers when combined with manipulative interfaces, dark patterns, or data-driven profiling, particularly in concentrated digital markets. While not inherently unfair, personalisation can undermine consumer autonomy, distort choices, reduce transparency, and entrench the power of dominant platforms. Practices such as dynamic pricing exploiting situational vulnerabilitiese.g., targeting users when fatigued, stressed, or low on resourcescan lead to transactions consumers would not otherwise make, generating both individual and collective harm. To address these risks, the Digital Fairness Act should focus on practices that materially distort decision-making, especially where vulnerable consumers such as minors or those with limited digital literacy are affected. Realistic interventions include requiring clear disclosure of personalised pricing mechanisms, the criteria and data used for price determination, and offering an easy, opt-out option for users who do not wish to be subject to personalisation. These measures are feasible for companies and provide meaningful agency for consumers. Enforcement should build on existing frameworks, including the AI Act, DSA, and DMA, for consistent oversight across consumer protection, behavioural regulation, and competition law. Practical tools include independent algorithmic audits, risk-based oversight of high-impact personalisation practices, and periodic reporting to regulators on the prevalence and effects of personalised pricing. Regulatory sandboxes could help test interventions without stifling innovation. Guidance and safe-harbour provisions for responsible personalisation could support businesses in complying with rules while maintaining competitive innovation. Consumer-facing measures, such as dashboards showing why a particular price was offered, and educational initiatives to improve digital literacy, would strengthen informed decision-making. Intervention thresholds should be proportionate and focused on material harm, such as repeated behavioural exploitation, systematic reduction of market transparency, or exclusionary effects in digital markets. Combining behavioural transparency, algorithmic accountability, and straightforward opt-out mechanisms would allow regulators to mitigate risks without overburdening businesses. The Digital Fairness Act can create a coherent framework that ensures personalisation delivers genuine value to consumers while maintaining fair competition and market integrity. Practical, achievable measuresdisclosure obligations, opt-out rights, algorithmic audits, and consumer empowerment toolswould enhance trust, protect vulnerable groups, and prevent manipulative practices, while keeping innovation and digital market growth intact.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.958985Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593709.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593709",
+    "chunks_doc_id": "F3593709",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588178",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:41Z",
+    "finished_at": "2026-04-14T13:22:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors, as unelected intermediaries, increasingly impose opaque restrictions on digital platforms like Steam and Itch.io, limiting access to legal, age-gated content without clear standards or public accountability."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16569,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned individual, I strongly support the European Commissions efforts to ensure fairness and transparency in the digital marketplace through the Digital Fairness Act. I urge the Commission to address the growing issue of monopolistic control by payment processors, which significantly impacts consumer choice and market access in digital ecosystems. Payment processors, as unelected intermediaries, increasingly impose opaque restrictions on digital platforms like Steam and Itch.io, limiting access to legal, age-gated content without clear standards or public accountability. This disproportionately affects niche creators, including independent developers and those producing culturally diverse or mature-themed content. Such practices not only restrict consumer access to lawful goods but also undermine competition by allowing a few dominant financial entities to dictate market terms. To enhance digital fairness, I recommend the following provisions in the Digital Fairness Act: Regulate Payment Processor Influence: Introduce measures to prevent payment processors from arbitrarily restricting access to legal digital content, ensuring decisions are transparent and subject to oversight. Promote Competition: Address monopolistic practices by payment processors to foster a level playing field for digital platforms and creators, aligning with the Acts goal of supporting innovation and smaller businesses. Protect Consumer Choice: Ensure consumers can access diverse, lawful digital content without undue interference from financial intermediaries, reinforcing the Acts focus on consumer empowerment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.621063Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588178.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588178",
+    "chunks_doc_id": "F3588178",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588178.clean.paragraph.json"
+}

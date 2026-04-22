@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584653",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:24Z",
+    "finished_at": "2026-04-14T12:05:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In my case this is primarily video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19658,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, im one of many people that would like to be able to have more control lover my digitally purchased goods. In my case this is primarily video games. As I hope you have seen the stop killing/destroying games movement has reached over 1 million signatures, and what they are describing is a wonderful starting point for figuring out how to protect digital entertainment. I would love for you to be able to help these initiatives goals to be realized, as you most likely have a lot in common when it comes to fair usage of digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.338709Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584653.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584653",
+    "chunks_doc_id": "F3584653",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584653.clean.paragraph.json"
+}

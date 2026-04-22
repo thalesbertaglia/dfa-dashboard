@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587182",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:46Z",
+    "finished_at": "2026-04-14T13:13:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "multiplayer games"
+              },
+              {
+                "quote": "create own servers"
+              },
+              {
+                "quote": "remove access to content you purchased"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13832,
+          "unit_kind": "feedback"
+        },
+        "text": "Buying is owning, and should include video games! Please consider adding protections to video games so that once purchased, consumers may retain ability to play as intended. In the case of multiplayer games, consumers must be able to create own servers when the game publisher retires servers and game support. Publishers and distributors like Steam, EA, Ubisoft, etc. should not be legally allowed to remove access to content you purchased. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.465118Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587182.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587182",
+    "chunks_doc_id": "F3587182",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587182.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586067",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:41Z",
+    "finished_at": "2026-04-14T12:46:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being unplayable after official support ends"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there is nothing the consumer can do to return the product to a functional state"
+              },
+              {
+                "quote": "completely up to the whims of publishers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23902,
+          "unit_kind": "feedback"
+        },
+        "text": "I am unhappy with consumers rights violations currently ongoing in the extremely lucrative video games industry. There have been too many occurrences over the years of video games being unplayable after official support ends even though consumers paid for these games and received no real warning to the fact that the product they purchased will be permanently unavailable after some arbitrary point completely up to the whims of publishers. I would be more than happy to keep these games alive myself if they were in such a state, but this requires developers to design these games with end of life in mind. This was not as widespread of an issue 10, 20 years ago, back when the mainstream companies had some restraint. We are in this situation now because nobody has held the industry accountable to such abuse and disregard for the consumer, making products people paid for completely and permanently inaccessible while keeping the money that was earned and not offering refunds. Game developers and publishers cooperate to make sure once they decide to end support, there is nothing the consumer can do to return the product to a functional state.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.067029Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586067.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586067",
+    "chunks_doc_id": "F3586067",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586839",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:34Z",
+    "finished_at": "2026-04-14T13:05:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video games, such as those protected by Games for Windows Live, are now unusable due to the shutdown of the servers required for online verification."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is deeply concerning that a third party may unilaterally determine what purchases are permissible, regardless of the legal status of the goods in question, and with no clear avenue for appeal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29661,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I'd like to suggest the following topics to be put under consideration for this act: 1. Always-Online Protection Mechanisms in Video Games: Many video games, such as those protected by Games for Windows Live, are now unusable due to the shutdown of the servers required for online verification. I respectfully urge consideration of an addition to the act that would require companies to limit the use of online-only verification mechanisms in their software. Furthermore, companies should be obligated to disable such protection mechanisms once the necessary verification infrastructure has been decommissioned, thereby allowing continued use of legitimately purchased software. 2.Influence of Payment Processors on Legal Sales: Recently, a number of legally published games have been removed from online storefronts (such as Steam and Itch.io) due to the decisions of payment processors. It is deeply concerning that a third party may unilaterally determine what purchases are permissible, regardless of the legal status of the goods in question, and with no clear avenue for appeal. If feasible, I respectfully ask that you consider legislation to restrict the influence of payment processors over which legal products may be purchased, in order to safeguard consumer rights and protect against undue censorship by third parties.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.363690Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586839.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586839",
+    "chunks_doc_id": "F3586839",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586839.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588721",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:21Z",
+    "finished_at": "2026-04-14T13:25:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Most companies reserve the right to shut it down (destroy/delete) once they think it's not profitable enough."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14825,
+          "unit_kind": "feedback"
+        },
+        "text": "As this Digital fairness act is striving to improve the digital wellbeing of consumers I would like to propose that it would also touch on the subject of ownership. As it currently stands a purchase of a video game is not necessarily owning it. Most companies reserve the right to shut it down (destroy/delete) once they think it's not profitable enough. At this time the consumer is, who spend their time and money on it, left without a trace of the product they have purchased. It would as simple as having an end of life plan for these video games where the community can breathe life into it once the company that made the game doesn't wish to do so.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.678527Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588721.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588721",
+    "chunks_doc_id": "F3588721",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588721.clean.paragraph.json"
+}

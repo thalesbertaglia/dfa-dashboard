@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33067710",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:28Z",
+    "finished_at": "2026-04-14T09:27:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-of-life plans and not render them unplayable once they end support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9900,
+          "unit_kind": "feedback"
+        },
+        "text": "I like what you are doing, but I think you should consider adding another protection for making all games have end-of-life plans and not render them unplayable once they end support. So that everyone who plays games can know that when they buy a game they will be able to play it indefinitely. Games like The Crew (2014), Darkspore (2011) and Overwatch (2016) can no longer be played since the publisher ended support. I hope you will consider this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.462526Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067710.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067710",
+    "chunks_doc_id": "F33067710",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33067710.clean.paragraph.json"
+}

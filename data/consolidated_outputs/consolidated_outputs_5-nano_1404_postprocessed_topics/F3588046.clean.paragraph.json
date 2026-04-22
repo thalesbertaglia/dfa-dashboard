@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588046",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:08Z",
+    "finished_at": "2026-04-14T13:22:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I don't feel like payment processors should hold any power whether the content of a legal platform selling legal products is in line with their (political) views."
+              },
+              {
+                "quote": "they should have no say and shouldn't be able to use their (large) market share to force the platform in question to remove any legal content."
+              },
+              {
+                "quote": "Only a government should hold that kind of power."
+              },
+              {
+                "quote": "It feels like a dangerous precedent for censoring anything a payment processor doesn't agree with."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20354,
+          "unit_kind": "feedback"
+        },
+        "text": "I don't feel like payment processors should hold any power whether the content of a legal platform selling legal products is in line with their (political) views. As long as the content is legal, they should have no say and shouldn't be able to use their (large) market share to force the platform in question to remove any legal content. Only a government should hold that kind of power. It feels like a dangerous precedent for censoring anything a payment processor doesn't agree with. It being certain nsfw, horror and lgbt games right now, but potentially more in the future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.608927Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588046.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588046",
+    "chunks_doc_id": "F3588046",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588046.clean.paragraph.json"
+}

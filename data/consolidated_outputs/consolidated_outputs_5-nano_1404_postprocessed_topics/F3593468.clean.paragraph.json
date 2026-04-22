@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3593468",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:22Z",
+    "finished_at": "2026-04-14T13:39:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I enjoy playing some older games"
+              },
+              {
+                "quote": "paid money for them"
+              },
+              {
+                "quote": "in perpetuity"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18122,
+          "unit_kind": "feedback"
+        },
+        "text": "I enjoy playing some older games, have paid money for them and would enjoy the ability to return to what I have paid for in perpetuity. I do not demand servers to remain hosted by the publisher, but for offline functionality to remain available and for private servers to be able to be hosted on our end. We have paid for the right to use the software and this should not be able to be taken away one-sided.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.952305Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593468.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593468",
+    "chunks_doc_id": "F3593468",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593468.clean.paragraph.json"
+}

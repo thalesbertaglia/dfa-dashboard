@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584776",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:44Z",
+    "finished_at": "2026-04-14T12:09:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many computer games require an internet connection to the manufacturer without any technical need."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13828,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative should include measures against digital obsolescence. More and more devices or software are sold at an arbitrary time by the manufacturer of all or part of the functionality. These functions typically require a server accessible via the Internet. They are shut down because their operation is no longer profitable for the manufacturer. It would be very far-reaching to oblige manufacturers to operate such servers on Ewig. But it is reasonable to provide the customer with all the necessary knowledge to provide the necessary infrastructure himself. This was very often the case in the past, for example in the case of video games, gangs and bars. Nowadays, the hardware and software already purchased by the few producers are being rendered unusable at a distance, without the customer being informed when purchasing the goods. Thousands of Internet of Things devices are unusable because manufacturers no longer provide updates, nor do they create and play them for customers themselves. Smartphones, which are still technically functioning, often receive no support after just a few years. However, alternative operating systems cannot be played up because manufacturers are blocked. Many computer games require an internet connection to the manufacturer without any technical need. If they are separated, customers will no longer be able to use their paid product. Most recently, this has been done in the media at The Crew of Ubisoft (France). The servers were shut down even though there were still thousands of customers who wanted to re-use their product. It is also different. The Baldur’s Gate 3 computer game can be played without the involvement of the manufacturer Larian (Belgium), even if it no longer exists because the server software is included in the game itself. With enough prediction, it is easy for a manufacturer to design his product in such a way that the customer can use it on Ewig without further support. It only needs to be willing or legislated to do so.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.424830Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584776.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584776",
+    "chunks_doc_id": "F3584776",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

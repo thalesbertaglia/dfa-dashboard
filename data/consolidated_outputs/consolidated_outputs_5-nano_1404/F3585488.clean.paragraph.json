@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585488",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:51Z",
+    "finished_at": "2026-04-14T12:29:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "retroactively revoke/disable purchased games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13213,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned citizen, I think it would be of great benefit to take into consideration the anti-consumer practices that are on the rise in regards to videogame publishers being able to retroactively revoke/disable purchased games. The European Citizens' Initiative \"Stop Destroying Videogames\" sums up this issue very well, and I and many others feel it is a natural extension of some of the things put forward in this act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.768977Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585488.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585488",
+    "chunks_doc_id": "F3585488",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586716",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:34Z",
+    "finished_at": "2026-04-14T13:03:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames and other digital media being destroyed: This should be illegal, too!"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "for any reason, or for no reason, with or without notice to you"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45162,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I'm an avid netizen. I have a few issues on my mind that are honestly stressing me out: 1. Age verification and the privacy risks that come with it 2. Visa & Mastercard acting as censors for legal content 3. Videogames and other digital media rendered inaccessible after being sold as a product 1. Age verification: it can't be implemented in a way that works and also protects user privacy. It's simply not possible. Either the system can be circumvented, or it's really invasive. Likely, it would be both: really invasive, yet able to be circumvented. The internet is inherently anonymous, and it's part of what makes it so beautiful. I won't trust anyone with my personal data. I begrudgingly hand it over to the companies that I can't live without, but I wish I didn't have to do that. Age verification would require me to give away more. When the data gets leaked, and yes, when, not if, bad actors will have access to it and abuse it. Digital security is a joke nowadays. It's almost like nobody actually cares about it. Our systems are flawed from the CPU, to the operating system, to the applications. It's all garbage. And you want me to trust your institutions with more of my information? No thanks. Data breaches happen constantly. Don't make me give more of my data away. Thank you. 2. Visa & Mastercard acting as censors: this should be illegal. We don't need global entities controlling what can be sold and bought, outside of governments and institutions. As you may know, Steam and Itch.io have pulled games from being sold due to pressure from Visa, Mastercard & Paypal. As far as I understand, this is due to pressure from an activist group called \"Collective Shout\". 3. Videogames and other digital media being destroyed: This should be illegal, too! There are many many instances of customers paying for products, only for those products to be taken away from them at a later date. It may be because the customer supposedly broke some rules, or the company who sold the product went bankrupt, or for any arbitrary reason that the seller decided was good enough. Blizzard, for example, states that they may terminate the EULA \"for any reason, or for no reason, with or without notice to you\". If I buy something from a store, I own it. If I buy something online, I have access to it as long as the seller thinks that's a good thing for them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.329555Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586716.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586716",
+    "chunks_doc_id": "F3586716",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

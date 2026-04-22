@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586469",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:58Z",
+    "finished_at": "2026-04-14T12:57:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In game industry we lost many of games from Gen 1-3 console era"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18353,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to encourage any digital act that will help with preservation of digital goods and help get rid of unfair companies polices. First of all act should add option to preserve right to media that you own when they expire/are no longer supported by company. Every EU citizen should have access to the website that preserving media older then 20 years(current public domain is way too long for digital media). In cinematography we lost 80% of Silent Movies to the fact that spools contained silver so they extract them destroying any copies left in world. In game industry we lost many of games from Gen 1-3 console era, we should act now or we lost very more then what we lost to this day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.252344Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586469.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586469",
+    "chunks_doc_id": "F3586469",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

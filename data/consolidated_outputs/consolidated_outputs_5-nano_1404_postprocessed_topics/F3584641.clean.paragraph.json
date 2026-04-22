@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584641",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:54Z",
+    "finished_at": "2026-04-14T12:05:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the detrimental impact that certain digital regulations and corporate practices are having on the longevity and accessibility of video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restrictive licensing terms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22167,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned citizen and passionate supporter of video game preservation, I am writing to urge the European Commission to consider the detrimental impact that certain digital regulations and corporate practices are having on the longevity and accessibility of video games. Video games are a vital part of our cultural heritage. However, many titles are being rendered inaccessible due to aggressive DRM systems, mandatory online check-ins, server shutdowns, and restrictive licensing terms. These practices effectively erase access to digital works even for those who have legally purchased them. I support the movement to \"Stop Killing Games,\" which calls for clear legal protections that Allow players to retain access to games they have bought, even after online services are shut down, Support legal emulation and modding for preservation and accessibility, Prevent companies from remotely disabling games for non-technical or business reasons and Encourage transparency and consumer rights in the digital marketplace. As you continue to shape the EU Digital Rulebook and other digital policies, I respectfully ask that you include strong measures to safeguard digital ownership and cultural preservation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.332423Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584641.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584641",
+    "chunks_doc_id": "F3584641",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584641.clean.paragraph.json"
+}

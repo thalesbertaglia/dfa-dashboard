@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585257",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:45Z",
+    "finished_at": "2026-04-14T12:24:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe that this purely a practice to obfuscate how much money you actually spend on the product."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gambling, games like for example Fifa, or NBA (if you want a horrible example, just search for NBA 2k20 slot machine, and you will see what i mean) use literal gamble mechanics or even directly look like slot machines or other gambling associated games, to an insane extend, while having no age rating."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"licenses\" can be arbitrarily taken away or even just entirely stop being usable."
+              },
+              {
+                "quote": "You could release Game A, and you have no idea, whether it will shut down in a month, in a year, in 5 years, never?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43651,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission, I think most of the ideas are a great step in the right direction, and I am aware that this not yet a proposal, however I still want to address a few in my opinion important things to add or extend the current plan. First: Currency, a lot of apps (especially games, but not limited to games), introduce secondary currencies (sometimes several levels of secondary currencies, that you can exchange for other currencies etc.). I believe that this purely a practice to obfuscate how much money you actually spend on the product.This is often times also coupled with \"weird\" values of currency, for example lets say i want item A, item A requires 500 of currency B, i can only purchase 520 or 255 of said currency (or more), so it is impossible for me to purchase product A without having weird leftover values of currency B leftover. Likewise often times, you have secondary/third currencies, so in some instances, you buy Currency B, exchange Currency B for Currency C, to buy item B, to exchange item B into Currency D, to buy item C, which is the item you actually wanted. So i would really like a law that either entirely prohibits this or makes this more fair for the consumer. Second: Gambling, games like for example Fifa, or NBA (if you want a horrible example, just search for NBA 2k20 slot machine, and you will see what i mean) use literal gamble mechanics or even directly look like slot machines or other gambling associated games, to an insane extend, while having no age rating. We should not teach our kids gambling period. Third: While I agree with to protect the kids (see for example above), currently some payment processors are forcing companies to abide by arbitrary \"rules\" (more like suggestions), to remove said software or product on a platform, regardless of legality (within a sovereign nation), globally. Usually, \"protecting kids\" is the excuse they use to enforce this globally, this is affecting mostly (but not exclusively) games that are targeted at adults (at least currently), but also for example minorities such as the LGBT community. And while I know this is not the primary concern here, I think customer protection (as well company protection) should be put in place, so that a product that is legal within a country (by going through the legal process of for example age ratings etc.) should be allowed to be sold within that nation. Fourth: This applies mostly to software but especially games, where a product is sold, without any plan for longevity of the service or game or how long the \"license\" functions, likewise \"licenses\" can be arbitrarily taken away or even just entirely stop being usable. For example, you could release Game A, and you have no idea, whether it will shut down in a month, in a year, in 5 years, never? You don't know, likewise there is no law or anything, that for example if you have a game with a single player component, you may lose access to the game entirely, if they decide to shut down services.(basically, they enforce an online connection purely as an \"anti-piracy\" measure, which after the services shut down, also \"destroys\" access to said product or service forever) I believe, that companies should be required to have some type of plan in place, so that they are required to provide a \"basic functional\" version or partial or full refund (in extreme cases, see Concord). A basic functional version in my opinion, does not have to meet for example security requirements for online connections, or even have the ability to connect to servers etc.(unlike the claim of some Companies, that want to protect this horrible practice). Regardless, something must be done here, because as it currently stands it's a \"wild west\". Some companies have literally tried to scam people by ending services after a day or two (and only refunded after pressure), others have done everything similar to what I mentioned above, others went even further beyond.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.657071Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585257.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585257",
+    "chunks_doc_id": "F3585257",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

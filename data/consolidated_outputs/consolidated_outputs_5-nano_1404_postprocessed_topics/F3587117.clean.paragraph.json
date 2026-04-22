@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587117",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:37Z",
+    "finished_at": "2026-04-14T13:11:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games being sold and lateron revoked, or unavailable to download."
+              },
+              {
+                "quote": "When the proprietary servers for these games are shutdown, there is no way to effective keep playing the game."
+              },
+              {
+                "quote": "As well as every money spent on ingame items being effectively deleted."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27926,
+          "unit_kind": "feedback"
+        },
+        "text": "With more goods being sold as services rather than objects, terms like the work \"purchase\" have been muddied. As the Digital Fairness Act already majorly tries to improve the rights of consumers online, expanding it to give a bit more focus on the games industry makes sense. Especially when it comes to Games being sold and lateron revoked, or unavailable to download. Many digital storefronts of game studios have vanished over the course of time. As an example there are the Nintendo 3DS and Playstation 3 online stores, which have been closed, and so the games \"purchased\" on these plattforms are not longer available for download. Yet the right of being able to create safety copies is almost unachievable. On the other hand there are games, that depend on a server infrastructure to exist to be playable, classing examples are live service games like Overwatch, Fortnite, Destiny, .... When the proprietary servers for these games are shutdown, there is no way to effective keep playing the game. As well as every money spent on ingame items being effectively deleted.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.441063Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587117.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587117",
+    "chunks_doc_id": "F3587117",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587117.clean.paragraph.json"
+}

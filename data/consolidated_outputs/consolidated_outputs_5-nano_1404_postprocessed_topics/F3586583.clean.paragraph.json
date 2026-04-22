@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586583",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:25Z",
+    "finished_at": "2026-04-14T13:00:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I have no rights to keep it and use it because the company that has sold it to me has decided to deny access to it."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there is a very big issue with companies pushing consumers that bought their game to give up their personal data in order to use the product."
+              },
+              {
+                "quote": "If I do not agree to give up this data the access to the purchased product is denied."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40534,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to express my support to the digital fairness act and also draw your attention that it also should include consumer protection against destroying video games that have been already purchased. It does not feel fair to me as a consumer that I buy a product and I have no rights to keep it and use it because the company that has sold it to me has decided to deny access to it. I feel robbed and it absolutely is not fair. The companies are free to continue to do this because there are no legal acts that stop them and therefore I kindly urge to include this consumer protection part in your act. I also want to mention that there is a very big issue with companies pushing consumers that bought their game to give up their personal data in order to use the product. If I do not agree to give up this data the access to the purchased product is denied. It is absolutely ridiculous and feels unlawful. Why are they allowed to push consumers to give up sensitive data in order to play the game? This is also quite prominent in the single player games where you do not interact with other players or would not need internet connection. I really hope that you can make a change with this act. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.285237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586583.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586583",
+    "chunks_doc_id": "F3586583",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586583.clean.paragraph.json"
+}

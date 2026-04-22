@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3656358",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:43Z",
+    "finished_at": "2026-04-14T13:44:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Now they are glued/soldered almost everything together, making everything very hard to fix."
+              },
+              {
+                "quote": "For example, AirPods devices can only be configured only on Apple devices and can't be controlled on any non-Apple devices at all."
+              },
+              {
+                "quote": "EU should look closely into them as most of there products are pretty much locked down and user unfriendly."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "refusing to sell replacement parts or selling parts/replacement service at a higher price so that the better option is buying a new product from them"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52989,
+          "unit_kind": "feedback"
+        },
+        "text": "This should not only applies for phones but also applies for every electronic or mechanical devices we own in general. In the old times most products we bought have instructions on how to tear down the product to do maintenance/parts replacement. Now they are glued/soldered almost everything together, making everything very hard to fix. That's not even say they're refusing to sell replacement parts or selling parts/replacement service at a higher price so that the better option is buying a new product from them, making them more devices sold to report to the shareholders. Recently Google start tightening Android sideloading by adding developer authentication feature which restricts apps from sideloading without developers verification from Google. While this sounds safety for users, an average user would not know or use sideloading to begin with, making this option dangerously close to locking down Android. I personally don't know and scared of what are they going to keep removing in the future. Apple has been notoriously locked down as it is, I don't want Android to follow the same route. Talking about Apple, EU should look closely into them as most of there products are pretty much locked down and user unfriendly. For example, AirPods devices can only be configured only on Apple devices and can't be controlled on any non-Apple devices at all. I'm fully supportive of this initiative and hope for law makers to limit down how companies controls our devices we own. We paid for the devices, we have the right to do whatever we want with it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.054876Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3656358.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3656358",
+    "chunks_doc_id": "F3656358",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3656358.clean.paragraph.json"
+}

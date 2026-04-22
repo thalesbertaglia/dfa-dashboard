@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584568",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:00Z",
+    "finished_at": "2026-04-14T12:02:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video games nowadays need an internet connection to function, as much of the code and data that is needed for them to run properly is handled on remote servers."
+              },
+              {
+                "quote": "When the servers are shut down, people will be unable to access those games that they paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17985,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I believe that preserving video games is highly important. While they generally seem to be beneath the notice of most politicians and lawmakers, they have been a part of culture as an entertainment medium for decades, since at least the 80s with the popularity of the NES. Many video games nowadays need an internet connection to function, as much of the code and data that is needed for them to run properly is handled on remote servers. Once the servers (generally maintained by the company that has developed or published the game) are shut down, that code and data is no longer accessible, making the games unplayable. For many games, this is necessary from a design standpoint. However, nowadays there are many games that require a constant internet connection to play, even if they are primarily single-player experiences. This means that when the servers are shut down, people will be unable to access those games that they paid for. Often, servers are shut down once a large game corporation feels that it is no longer profitable to keep them running. Just imagine not being able to watch a DVD anymore because the film studio shut it down! I had a personal experience with this with Darkspore, a primarily single-player game that could also be played with other players co-operatively, but it required the player to be online for both modes. The game released in 2011, and shut down in 2016, making it impossible to play even in single-player. While there was a fan-made effort to try to find a way to create a new server, attempting to reverse-engineer code and search for leftover data has proven highly difficult, and the project has been unsuccessful for 8 years and counting. So, people can permanently lose their purchases, even with games that do not, by design, necessitate requiring an internet connection. But what's the solution? Forcing companies to maintain servers indefinitely is simply not feasible. One solution is to require companies making always-online games to have an end-of-life plan to allow people to host their own servers once the official ones have been shut down. While this may sound drastic, player-hosted servers have been very common for many years now. For example, most Minecraft servers are hosted by players, and games like Conan Exile, 7 Days to Die and Valheim actually require players to host their own servers in order to play, providing tools to do so very easily, both within the game clients themselves and as standalone \"dedicated server\" programs. Likewise, City of Heroes, an old MMORPG (a genre that by definition requires an online server to function) has had private servers hosted by fans and volunteers. One of them has even made a legal agreement with NCSOFT, the game's publisher and IP holder, to continue development on it in a limited capacity. But, for every game that has had a successful revival by passionate players and a good bit of luck (as not all revivals are even technically possible), there are many that were lost forever after their shutdown, becoming permanently inaccessible, both to the consumers who paid money for them, and as small pieces of our culture. Some corporations may tell you that an end-of-life plan may be prohibitively expensive, but remember that even many small, independent game developers, certainly a far cry from large corporations like Electronic Arts or Ubisoft, are able to commonly provide the same server-hosting tools that many of us ask for. Most of said tools are already how said companies host their own, official servers to begin with, and would generally need little modification for a public release after the official servers have been shut down.. Please note that the Stop Destroying Videogames initivative has, at the time of writing, received over 1.4 million signatures on the European Citizens' Initiative website.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.297095Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584568.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584568",
+    "chunks_doc_id": "F3584568",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584568.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:50Z",
+    "finished_at": "2026-04-14T12:27:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games require a persistent connection to a proprietary server"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one that may be shut down with no notice and compensation for owners of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18316,
+          "unit_kind": "feedback"
+        },
+        "text": "As many others in this feedback section, I would like if video games were also covered by this act more thoroughly. As it stands, many video games require a persistent connection to a proprietary server, one that may be shut down with no notice and compensation for owners of the game. This can be used to force players to move to a new entry in the game series and spend more money. The European Citizen's Initiative \"Stop Destroying Videogames\" already has over a million signatures, showing widespread support for this stance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.718470Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585395",
+    "chunks_doc_id": "F3585395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585395.clean.paragraph.json"
+}

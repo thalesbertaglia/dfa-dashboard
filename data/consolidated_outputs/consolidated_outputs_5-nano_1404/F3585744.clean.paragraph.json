@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585744",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:30Z",
+    "finished_at": "2026-04-14T12:35:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games getting taken offline and no longer being available to consumers."
+              },
+              {
+                "quote": "other digitally bought media, e.g. movies, has been made unavailable without any recourse on sites like Amazon Prime Video."
+              },
+              {
+                "quote": "I payed for it and actually even clicked an option that said \"Buy\", next to another option that said \"Rent\", which implies I have ownership of this product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21104,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to first of all cosign all the feedback about video games getting taken offline and no longer being available to consumers. Second, I would like to also express my belief that this addition could be more broad than just to encompass video games. Due to licensing issues it frequently happens and has happened to me personally that other digitally bought media, e.g. movies, has been made unavailable without any recourse on sites like Amazon Prime Video. This should not lead to me as a customer losing access but to me getting a sort of Download-Link or something along those lines, since I payed for it and actually even clicked an option that said \"Buy\", next to another option that said \"Rent\", which implies I have ownership of this product. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.899579Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585744.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585744",
+    "chunks_doc_id": "F3585744",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

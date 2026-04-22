@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585186",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:13Z",
+    "finished_at": "2026-04-14T12:22:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames."
+              },
+              {
+                "quote": "Right now there are hundreds of games that are simply unplayable, regardless of the platform or device you try to play them."
+              },
+              {
+                "quote": "Thus, I hereby would like to request of you, to make policies in order to make these organizations create and deploy end-of-life plans for any games they develop that may require them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17808,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear members of the European Commission, I write this feedback to you because I am concerned of the control that game developers and publishers have over their products: videogames. Videogames are a part of culture, and time and time again these organizations have demonstrated that they are not concerned with the impact their actions might have on the public that enjoy their games. As creators of these products of culture they should have a certain amopunt of control over them, but what they have proved over the last decade is that they do not care of trampling over our rights as consumers in order to exercise that control. Right now there are hundreds of games that are simply unplayable, regardless of the platform or device you try to play them. This is absolutely unacceptable, we, as players and consumers, have bought these games and we have the right to enjoy them regardless of the wishes for control of the publishers and developers. Thus, I hereby would like to request of you, to make policies in order to make these organizations create and deploy end-of-life plans for any games they develop that may require them. Thank you for taking the time to read this feedback, Kind regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.628316Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585186.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585186",
+    "chunks_doc_id": "F3585186",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585186.clean.paragraph.json"
+}

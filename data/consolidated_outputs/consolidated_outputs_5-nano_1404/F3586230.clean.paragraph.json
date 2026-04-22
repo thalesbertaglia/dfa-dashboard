@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586230",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:17Z",
+    "finished_at": "2026-04-14T12:51:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "switch off the servers, making it impossible for me to access the game even though I paid for it."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Without ad-blockers, the internet is no longer used."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They keep one of them in a bubble, and they are only getting more into the bubble."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32463,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I find it absolutely correct and important the game that I have bought for me, and I cannot say that a developer/publisher can say that it can switch off the servers, making it impossible for me to access the game even though I paid for it. In addition, please accept something against madgetism in relation to online advertising. It is far too much. Without ad-blockers, the internet is no longer used. Moreover, social media are breaking us and they should be banned. They keep one of them in a bubble, and they are only getting more into the bubble. Especially since it can have a very negative mental impact, especially among children and adolescents. There is a completely distorted picture of people, leading to mental health problems. Social media should therefore be banned for all, especially for children and young people. In addition, advertising is often used there which is harmful and sometimes even criminal. Protects humanity from itself.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.166340Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586230.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586230",
+    "chunks_doc_id": "F3586230",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

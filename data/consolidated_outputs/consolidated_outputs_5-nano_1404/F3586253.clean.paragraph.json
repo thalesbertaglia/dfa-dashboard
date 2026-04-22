@@ -1,0 +1,101 @@
+{
+  "doc_id": "F3586253",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:53Z",
+    "finished_at": "2026-04-14T12:52:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that now is a subscription model."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Same goes for video games."
+              },
+              {
+                "quote": "Developers and publishers sell them as goods with fixed price and then when they decide, not the consumer that bought the good, they shut the thing down."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there was no clear indication on the product page, before you commit to buy that this \"good\" will expire in x-amount of days or maybe before year 20xx."
+              },
+              {
+                "quote": "nobody reads because lets be honest, nobody in their right mind would do that."
+              },
+              {
+                "quote": "but it turns out that bought goods, in any form, are not own-able."
+              },
+              {
+                "quote": "to set some regulations to protect the consumer by clearly stating/defining what is a good, and how a digital good should be sold, and how the consumer is protected from obfusctation with shady EULA's."
+              },
+              {
+                "quote": "consumer is protected from obfusctation with shady EULA's."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39445,
+          "unit_kind": "feedback"
+        },
+        "text": "The corporations are need to be regulated. First of all 10 years ago bought software, on CD complete, you can use it offline, was disable by the company because the authentication servers were shut down or something.. This is unacceptable because we as a consumer paid a fixed price for software (not a subscription model) and the company few years down the line shut it down in order to force people to buy a newer software that now is a subscription model. Same goes for video games. Developers and publishers sell them as goods with fixed price and then when they decide, not the consumer that bought the good, they shut the thing down. Sure they warn people weeks, maybe months before, but money was spent on a good, not a service. It feels like a service but it wasn't advertised like a service. And there was no clear indication on the product page, before you commit to buy that this \"good\" will expire in x-amount of days or maybe before year 20xx. We as a consumer are treated like slaves. Like a blind man at an orgy, we have to feel things out to know for a fact whats going to happen to us after certain amount of time. As it is right now, its not fair for the consumer. Consumers are not protected. And often they pack in \"clauses\" in their EULA's that nobody reads because lets be honest, nobody in their right mind would do that. Consumer see the product he wants, checks the price, if its bobby dezzler then you buy it, thinking that you own it, but it turns out that bought goods, in any form, are not own-able. Please consider to set some regulations to protect the consumer by clearly stating/defining what is a good, and how a digital good should be sold, and how the consumer is protected from obfusctation with shady EULA's.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.177381Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586253.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586253",
+    "chunks_doc_id": "F3586253",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

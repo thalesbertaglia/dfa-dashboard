@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33073298",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:12Z",
+    "finished_at": "2026-04-14T09:29:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hire psychologists to make their game more addicting for players."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "actively stripping away paid for digital content from their customers, then reselling pieces of the removed content at a later date, selling it at premium prices."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24517,
+          "unit_kind": "feedback"
+        },
+        "text": "Bungie is a North American game developer, based out of Bellevue, Washington. Their primary game or product is Destiny 2, a massive multiplayer online (MMO) game with a significant following. Throughout the years, Bungie has gained notoriety for how they treat their customers/players, by actively stripping away paid for digital content from their customers, then reselling pieces of the removed content at a later date, selling it at premium prices. Currently Bungie is facing a lawsuit by Matthew Kelsey Marne for copyright infringement within the United States. The reasoning behind this case is not of importance, but within the lawsuit itself, details that the accused copyrighted material, which was paid for content that was then removed, is now inadmissible in court unless it's provided intact and playable, which Bungie has admitted it is not as they themselves can no longer access it due to their failure in preserving it after its removal. Content that is bought is not only removed from consumers but any form of long term conservation is also not considered. Bungie has proven through countless times that they do not value consumer relations or product security, and that they instead rather practice predatory monetization schemes and hire psychologists to make their game more addicting for players. Bungie should be required, by law, to not remove any digital content from their customers that has been paid for. Not only that, any content removed from Destiny or any of their future products, should be either conserved in a playable manner, and be accessible to consumers if the product has outlasted official support. Below, I will provide several links detailing some of the claims I have made, as well as a list of the content that they have removed from their customers. ------------------------------------------------------------------ https://www.scribd.com/document/856616524/Court-Rejects-Bungie-s-Attempt-to-Dismiss-Destiny-2-Red-War-Lawsuit-Refuses-to-Consider-YouTube-Videos-and-Wiki-Pages-as-Evidence#:~:text=of%20a%20complaint%2C%20%5Bif%5D,.%E2%80%9D56%20%E2%80%9CDetermining%20whether%20a&text=Fernandez%2DMontes%20v.,the%20speculative%20level.%E2%80%9D%20Twombly%2C https://www.ign.com/articles/2015/04/02/bungie-used-behavioral-psychology-to-make-destiny-appealing https://en.wikipedia.org/wiki/Destiny_2_post-release_content",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.510020Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33073298.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33073298",
+    "chunks_doc_id": "F33073298",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

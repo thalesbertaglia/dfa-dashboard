@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584519",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:28Z",
+    "finished_at": "2026-04-14T12:01:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Pay-to-Win Mechanics In too many games now, players can buy their way to an advantage."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If a game was sold with online features as a major part of the experience, those features should be supported for longeror at least have a way for the community to keep them alive. Taking them away feels like losing access to something you paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Misleading Marketing",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Misleading Marketing Game trailers and ads are often not a true reflection of the actual product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32665,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to share some thoughts on a few problems I see too often in the gaming industry. These issues really take away from the experience and I think they deserve more attention. Specifically, I'm referring to: the sudden shutdown of online features, misleading advertising, and pay-to-win systems. End of Support in Online Games It's really disappointing when a game you enjoy suddenly loses its online functionality. Sometimes, entire multiplayer modes are shut down without giving players any real alternative. If a game was sold with online features as a major part of the experience, those features should be supported for longeror at least have a way for the community to keep them alive. Taking them away feels like losing access to something you paid for. Misleading Marketing Game trailers and ads are often not a true reflection of the actual product. Youll see flashy graphics, cinematic scenes, and gameplay mechanics that look amazingbut when you finally play the game, it just doesnt live up to what was shown. This kind of hype-building can be very misleading, especially when pre-orders and early sales are involved. Players deserve honest previews, not carefully edited illusions. Pay-to-Win Mechanics In too many games now, players can buy their way to an advantage. Whether it's through loot boxes, upgrade packs, or special gear, spending money often means skipping progression and overpowering others. It creates an uneven playing fieldespecially in games with competitive elementsand can ruin the fun for those who just want to play fairly. Cosmetic purchases are one thing, but selling power directly affects the balance and enjoyment of the game. These are just my thoughts, but I hope they help bring more awareness to how these practices affect players. Thanks for taking the time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.272244Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584519.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584519",
+    "chunks_doc_id": "F3584519",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587142",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:26Z",
+    "finished_at": "2026-04-14T13:12:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "growing problem of games being removed from stores and even from peoples accounts after purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Once we buy a game, we should have the right to access it it shouldn't just disappear because of a policy change, a license expiring, or pressure from third parties."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36875,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Id like to give some feedback on the Digital Fairness Act and raise a few concerns that I hope will be considered. Recently, large payment processors like Visa and Mastercard have started to pressure digital platforms such as Steam and Itch.io to remove certain products from their stores even when those products are completely legal in most countries. This seems to be happening because of campaigns from small activist groups outside the EU, like one in Australia. Its worrying that companies based outside Europe can push global platforms to censor or restrict content for all users. This isnt just about adult content the real concern is the power these payment companies have to influence what media were allowed to access. Today its adult games, but tomorrow it could be LGBTQ+ stories, political content, or anything else a group finds inappropriate. Thats not a fair or democratic system. Another issue Id like to bring up is the growing problem of games being removed from stores and even from peoples accounts after purchase. Theres a strong movement around this called Stop killing Video Games. Once we buy a game, we should have the right to access it it shouldn't just disappear because of a policy change, a license expiring, or pressure from third parties. In both cases, were seeing powerful companies making big decisions that affect European consumers, often with little accountability. The Digital Fairness Act seems like the right place to address this kind of overreach and make sure people in the EU have the right to access legal content and keep what theyve paid for. Please consider adding protections in the Act that stop payment processors or digital platforms from acting as private censors or quietly deleting media weve already bought. Thank you for listening and for opening this consultation to the public. Kind regards",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.449046Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587142.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587142",
+    "chunks_doc_id": "F3587142",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

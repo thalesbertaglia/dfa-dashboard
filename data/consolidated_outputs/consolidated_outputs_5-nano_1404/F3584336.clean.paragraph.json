@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3584336",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:34Z",
+    "finished_at": "2026-04-14T11:56:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "push an update that disabled their products unless customers started paying a subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "push a software update that disabled their products unless customers started paying a subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Crew is a video game released in 2014 by French company Ubisoft. The publisher disabled every copy of this game in 2024 without refunding their customers or giving them any recourse."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the television remains disabled until the consumer accepts the new terms and conditions which were not disclosed during the time of purchase."
+              },
+              {
+                "quote": "There is no way to decline these terms or get a refund without accepting them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28766,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital fairness act looks like a great move in the right direction and I believe this initiative could be slightly expanded upon to protect digital ownership. Not too long ago when a customer purchased a piece of software on a CD or other physical media, they truly owned that software. The creators could not push an update to remove or paywall features you had access to previously or change their terms of service after the purchase. These days however, when a customer purchases a digital product, the seller of this product often retains the ability to either make that product stop working or change the terms under which it was originally sold. I think I could illustrate this point best by giving some examples: - FutureHome is a smart home company that sold their products under a \"one time fee\" and then afterwards decided to push a software update that disabled their products unless customers started paying a subscription. Link to details: https://consumerrights.wiki/Futurehome_Smarthub_Mandatory_Subscription_Fee - The Crew is a video game released in 2014 by French company Ubisoft. The publisher disabled every copy of this game in 2024 without refunding their customers or giving them any recourse. - Roku is a company that sells televisions. They sell their televisions under a certain set of terms and conditions and once the customer has bought the product and updated the software, the television remains disabled until the consumer accepts the new terms and conditions which were not disclosed during the time of purchase. There is no way to decline these terms or get a refund without accepting them. Personal experience: From my personal experience the most common issue I have faced regarding digital rights is the problem of video games being taken away from me after I have purchased them. The crew is a game I purchased excitedly when it was released and I believe it should be a crime to remove that game from my possession without a refund or other recourse. I also purchased another video game called \"Anthem\" which is announced to be destroyed without any refunds for the customers who purchased this product. This is a completely unprecedented practice and citizens should be protected from losing the things they bought and own.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.184265Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584336.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584336",
+    "chunks_doc_id": "F3584336",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

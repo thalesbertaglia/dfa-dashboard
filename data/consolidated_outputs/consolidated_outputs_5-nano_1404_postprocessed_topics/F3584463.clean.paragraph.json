@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584463",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:55Z",
+    "finished_at": "2026-04-14T11:59:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "several malicious practices that affect videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hostile monetization via misleading UI design, or addictive design bordering on gambling."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The seller of the product shall not disable or make unusable the product that was sold to the customer after the seller of the product decides to retire, decomission, or otherwise abandon the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27157,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, While I am in support of the act, I would like to recommend expanding it to cover videogames more broadly. The act in its current proposed state already tackles several malicious practices that affect videogames, such as hostile monetization via misleading UI design, or addictive design bordering on gambling. I would like to propose adding an additional bullet point, that, while aiming specifically at videogames, may benefit other digital products as well: - The seller of the product shall not disable or make unusable the product that was sold to the customer after the seller of the product decides to retire, decomission, or otherwise abandon the product. In other words, this bullet point would act in favor of product preservation, where the responsibility of supporting and maintaining the product would be delegated to the buyer of the product, after the product was decomissioned by the seller. There are currently no laws that prevent the product seller from abandoning the product completely, rendering it unusable for all buyers. For example, if the server shuts down, the product becomes unusable for everyone who purchased it, it the product requires server components, like server authentication. The change proposed above would demand the product seller to provide a solution for a discontinued product to be usable at all times, for example, by removing server authentication component, or by allowing the client to set up the server component themselves.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.245047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584463.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584463",
+    "chunks_doc_id": "F3584463",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584463.clean.paragraph.json"
+}

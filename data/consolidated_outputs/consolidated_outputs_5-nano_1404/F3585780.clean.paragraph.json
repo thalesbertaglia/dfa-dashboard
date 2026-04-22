@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585780",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:32Z",
+    "finished_at": "2026-04-14T12:36:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the preservation of video games and the need for consumers to be able to enjoy the products they have purchased on a permanent basis."
+              },
+              {
+                "quote": "publishers who have remotely blocked access to their games to consumers who bought those products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16076,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, My opinion on the Digital Fairness Act (DFS) is as follows: Although the topics addressed by the current proposed measures are very important for European consumers, the subject that I personally care about and which should be part of the DFS is the preservation of video games and the need for consumers to be able to enjoy the products they have purchased on a permanent basis. Over the last ten years, there have been several examples in the video game industry of publishers who have remotely blocked access to their games to consumers who bought those products. These decisions and processes typically concern products requiring a constant internet connection to the publisher’s servers. In so doing, when the video game in question is no longer profitable for the publisher, some suddenly cut off access to their servers and granted themselves the right to withdraw the access to the game and the licence for which they paid without reimbursing them, whereas alternatives to continue to take advantage of those works exist. The best-known example of recent video game destruction is ‘The Crew’, a solely online racing video game output in 2014 and for which servers were cut off in 2024. People who still want to play this game no longer have the opportunity to do so even though they have bought the game and still own it. Conversely, many other games that are no longer supported by their publishers still have a prolific community of active players who make these games live through private servers organised by the players themselves. The issues of ownership, access and retention of video games must form an integral part of the DFS and concrete measures must prevent publishers from suddenly withdrawing access to the video games they have sold and must oblige developers to add an end-of-life plan to their games. For example, giving access to files enabling private servers to be set up while informing consumers that the publisher removes any liability for possible future bugs or problems would be a simple solution to perpetuate video games without compromising the publisher’s copyright and intellectual property. This feeling has been shared for some time by a large number of European citizens, as the European Citizens’ Initiative ‘Stop destroying Videogames’ recently collected more than 1.4 million signatures. This is a current proof of the feeling of millions of people who want to take advantage of the games they are expensive without being afraid to be deprived of them and who demand that this planned dobsolescence of video games should stop once and for all.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.916713Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585780.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585780",
+    "chunks_doc_id": "F3585780",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584549",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:20Z",
+    "finished_at": "2026-04-14T12:01:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there's a lot of bad/predatory practices in games nowadays."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we don't own what we pay for anymore, making it possible to deny access to the mentioned games at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16803,
+          "unit_kind": "feedback"
+        },
+        "text": "As mentioned in previous feedbacks and the act itself: there's a lot of bad/predatory practices in games nowadays. One that we, Stop Killing Games supporters, try to highlight is that as consumers we don't own what we pay for anymore, making it possible to deny access to the mentioned games at any time. The initiative came with, in my opinion, a reasonable solution for both the consumers and developers - to make a game available once it's out of service (withouth the need to support the game by the producent). I belive that games are an importand media that should be preserved. Therefore I'd like to propose for the Digital Fairness Act to back up this idea of securing games as an accessible media.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.287789Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584549.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584549",
+    "chunks_doc_id": "F3584549",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

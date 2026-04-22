@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589373",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:08Z",
+    "finished_at": "2026-04-14T13:31:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "giving the impression of ownership."
+              },
+              {
+                "quote": "This practice is misleading, and it undermines consumer rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18534,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, As a concerned EU citizen and digital consumer, I strongly support the goals of the Digital Fairness Act. I would like to highlight a pressing issue that affects millions of consumers: the loss of access to purchased digital products, especially video games. Currently, many companies advertise digital productsparticularly gamesas purchases, giving the impression of ownership. In reality, consumers are only granted a revocable license, which can be withdrawn without warning, compensation, or appeal. This practice is misleading, and it undermines consumer rights. I respectfully propose the following additions to the Digital Fairness Act: 1. Mandatory Game Preservation Require publishers to provide an offline, single-player-accessible version of any game sold, so consumers can continue using the product even after official servers shut down. 2. Clarity in Language Regulate the use of terms like buy or purchase in digital stores. If a user is not actually buying a product they will own indefinitely, platforms should clearly indicate that it is a temporary license. 3. Compensation for Revoked Access If a digital product becomes inaccessible after purchase through no fault of the user, consumers should be eligible for refund or equivalent compensation. 4. Protection Against Artificial Product Shutdowns Discourage companies from intentionally disabling access to products that consumers have legally obtained, especially when done solely for profit or anti-competitive reasons. This issue has already sparked movements such as Stop Killing Games, showing widespread frustration and distrust in the current digital marketplace. By addressing these concerns, the EU can take the lead in building a fairer and more transparent digital economy. Thank you for your work on this important initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.785170Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589373.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589373",
+    "chunks_doc_id": "F3589373",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

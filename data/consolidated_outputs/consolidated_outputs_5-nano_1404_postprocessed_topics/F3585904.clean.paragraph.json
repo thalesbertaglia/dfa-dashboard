@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585904",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:35Z",
+    "finished_at": "2026-04-14T12:40:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games such as ‘The Crew’ a video game I played in person are no longer playable, as the video game is no longer active via certain servers provided by the publisher."
+              },
+              {
+                "quote": "even if you bought it in a physical disk format, it is still impossible to play."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21491,
+          "unit_kind": "feedback"
+        },
+        "text": "An enclosed problem in the world of video games, which is likely to transform publishers’ full control over their video games into a state of play that is no longer possible for future or already sold video games. The consumer loses your purchase in this respect and the video game keeps it from the consumer. Video games such as ‘The Crew’ a video game I played in person are no longer playable, as the video game is no longer active via certain servers provided by the publisher. In short, even if you bought it in a physical disk format, it is still impossible to play. I would like to ask for a new law, rule or legislature against the destruction of video games. Dear Marcel",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.978317Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585904.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585904",
+    "chunks_doc_id": "F3585904",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585904.clean.paragraph.json"
+}

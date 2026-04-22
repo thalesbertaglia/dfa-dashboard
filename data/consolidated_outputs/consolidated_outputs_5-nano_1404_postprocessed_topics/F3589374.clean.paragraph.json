@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3589374",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:10Z",
+    "finished_at": "2026-04-14T13:31:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "render the video games purchased by customers unusable."
+              },
+              {
+                "quote": "I attach great importance to the preservation of video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16050,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, another point should be added on digital fairness, which enshrines the property rights of video games and other software products. At any time, the publisher may subsequently render the video games purchased by customers unusable. I want single players, multi-player games and software I have purchased to remain permanently usable, even if publishers switch off their servers. Finally, it is about ‘purchase’ and not just a ‘time-limited licence’. I attach great importance to the preservation of video games, which is why I also signed the ‘Stop Destroying Videogames’ petition. Yours sincerely, Brian Lessmann",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.785941Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589374.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589374",
+    "chunks_doc_id": "F3589374",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589374.clean.paragraph.json"
+}

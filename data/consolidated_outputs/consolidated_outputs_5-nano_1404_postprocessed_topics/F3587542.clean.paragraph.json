@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587542",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:13Z",
+    "finished_at": "2026-04-14T13:18:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "-Why do people preserve older versions of a given game or software?"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A lot of exploitation comes from companies 'lending' or 'licensing' use of their software and/or media."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31771,
+          "unit_kind": "feedback"
+        },
+        "text": "A lot of exploitation comes from companies 'lending' or 'licensing' use of their software and/or media. As it stands, this act covers too little and may even be outdated by the time it has been passed. For this act to succeed, I suggest diving deeper into what things people frequently do to obtain digital ownership, despite a company not wanting you to. Things such as: -Why do people bypass restrictions? (piracy, exploits, etc) -Why do people preserve older versions of a given game or software? -Why do people circumvent malicious advertisements by site owners? (Such as Youtube advertising gambling, content farms or other content that may exploit them).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.540041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587542.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587542",
+    "chunks_doc_id": "F3587542",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587542.clean.paragraph.json"
+}

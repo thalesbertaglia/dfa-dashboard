@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584357",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:04Z",
+    "finished_at": "2026-04-14T11:56:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video games in recent years are tied to a central server, hosted by the publishers/developers."
+              },
+              {
+                "quote": "when they are shut down, the video game becomes inoperable and thus, impossible to be played by the consumers who bought them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29002,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Many video games in recent years are tied to a central server, hosted by the publishers/developers. Many components that make these games required to function are streamed from those servers, so when they are shut down, the video game becomes inoperable and thus, impossible to be played by the consumers who bought them. In other words, these video games rely on a service from the developers (running the servers that keep the game operational), but instead of being sold as such (like a subscription), they are sold as goods (one-time free at the time of purchase). This directly violates consumers rights regarding the sale of goods and services by ignoring laws surrounding perpetual licenses (the right to own your specific copy of a product indefinitely). If the Digital Fairness Act addresses this violation, it would greatly help protect existing consumer laws surrounding the sale of video games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.194756Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584357.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584357",
+    "chunks_doc_id": "F3584357",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584357.clean.paragraph.json"
+}

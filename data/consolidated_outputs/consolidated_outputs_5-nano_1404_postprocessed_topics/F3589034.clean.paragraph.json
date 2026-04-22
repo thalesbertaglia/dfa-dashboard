@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589034",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:16Z",
+    "finished_at": "2026-04-14T13:28:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair trend of disabling access to games and software that consumers have rightfully purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Content and Features cannot be removed from already-sold products without user consent or suitable compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23255,
+          "unit_kind": "feedback"
+        },
+        "text": "Subject: Urging Stronger Consumer Protection in the Digital Fairness Act I strongly urge the Digital Fairness Act to take decisive action against the growing and unfair trend of disabling access to games and software that consumers have rightfully purchased. A clear example is The Crew, Anthem (which will be shut down in 2026 ) these games that includes substantial single-player content but has become entirely unplayable following the shutdown of its online servers. Despite being a paid product, players have been stripped of access without viable alternatives or fair compensation. This issue goes beyond gaming. Consider Adobe Creative Suite CS4 software that once cost users between $1,500 and $2,750. Today, it can no longer be activated because Adobe has disabled its licensing servers. Users who paid full price are now denied access to their legally purchased software. These cases highlight the urgent need for the Digital Fairness Act to address the erosion of digital ownership rights. The Act must ensure that: Full Disclosure is provided at the time of sale regarding any dependence on online infrastructure, including the expected support timeline and potential end-of-life dates. Advance Notice and Transition Plans are mandatory before discontinuing essential online services, giving users time to adapt or migrate their data and use. Viable Alternatives are made available, such as DRM-free versions, offline functionality, or community-hosted servers when official support ends. Continued Access to purchased digital products is guaranteed, especially when they include offline capabilities. Content and Features cannot be removed from already-sold products without user consent or suitable compensation. Digital Ownership Rights are treated with the same permanence and respect as physical goods. Just as a physical product remains usable after warranty expiration, so too should a digital product remain accessible after official support ends. Transparency and Consumer Awareness must be prioritized in digital sales, ensuring buyers understand online dependencies and DRM restrictions before purchase. Consumers deserve to feel confident that their purchases are meaningful not revocable at a companys discretion. Current practices involving server shutdowns and forced obsolescence undermine trust in digital marketplaces and contribute to the loss of digital culture and history. The Digital Fairness Act must reinforce the principle that buying a game or software license should equate to owning it with all the rights and permanence that ownership implies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.732924Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589034.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589034",
+    "chunks_doc_id": "F3589034",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589034.clean.paragraph.json"
+}

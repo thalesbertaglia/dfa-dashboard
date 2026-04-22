@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586696",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:58Z",
+    "finished_at": "2026-04-14T13:02:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers have denied consumers access to their own products on different occasions and in different ways."
+              },
+              {
+                "quote": "they have ceased to be playing or executable, either by means of a total closure of servers,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "without prior notice to the consumer prior to purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38512,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, my and many other people like the protection of video games to be included in the Digital Fairness Act. For many years, video game publishers have denied consumers access to their own products on different occasions and in different ways. There have been many cases of video games for which millions of people have paid that after a period of time, sometimes only a few weeks, they have ceased to be playing or executable, either by means of a total closure of servers, which makes the software inoperable even if some of the features of the software could be enjoyed without the need for a connection to the internet, or through more extreme ways such as deleting gambling from people’s digital libraries entirely, or banning the use of certain groups of people without any prior warning or warning. This is done without prior notice to the consumer prior to purchase, and these closures often come with only one day notice before they occur or even without warning. This is a serious case of planned obsolescence, which obliges the consumer to pay for new deliveries or directly to stop enjoying the product he has purchased. There are initiatives such as Stop Killing Games that seek to solve this, and I and thousands of players ask them to try to investigate this issue. Many thanks for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.322889Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586696.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586696",
+    "chunks_doc_id": "F3586696",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

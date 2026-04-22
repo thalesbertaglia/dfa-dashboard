@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586069",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:45Z",
+    "finished_at": "2026-04-14T12:46:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "see a video game."
+              },
+              {
+                "quote": "This could also apply to games in which money has been introduced by means of micropayments."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22823,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello there! I consider that the Digital Fair Act could be added to the control that users have over the products they buy and that their developers no longer maintain, see a video game. In the times before, many developers decide to maintain their server dependent services or games, which, if disconnected, leave the game or service in an unserviceable state, forcing a community to use their skills to ‘revive’ or re-run it. In my view, that law could include legislation obliging developers to have a Fin-of-Life Plan or to allow or provide users with tools or methods to maintain their products, if developers are ultimately unable to maintain the service they offer to users, it would be better to pass the witness to those with the ability to do so. This could also apply to games in which money has been introduced by means of micropayments.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.068031Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586069.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586069",
+    "chunks_doc_id": "F3586069",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

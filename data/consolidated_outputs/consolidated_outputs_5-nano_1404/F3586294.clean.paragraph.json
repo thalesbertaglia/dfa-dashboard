@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586294",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:05Z",
+    "finished_at": "2026-04-14T12:53:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "car features that they disable to squeeze more money as a subscription"
+              },
+              {
+                "quote": "software that suddenly dies or becomes subscription-based AFTER you bought a lifetime license"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "licenses that can be revoked at any moment and at their whim."
+              },
+              {
+                "quote": "suddenly forced to pay for a new, inferior product that doesn't even work on older hardware"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45072,
+          "unit_kind": "feedback"
+        },
+        "text": "We should do something to protect digital purchases which are currently treated by sellers as licenses that can be revoked at any moment and at their whim. Cameras and smart appliances that don't work because they took out the server, car features that they disable to squeeze more money as a subscription, software that suddenly dies or becomes subscription-based AFTER you bought a lifetime license, buyers of Windows 10, the \"last Windows we'll ever release\", suddenly forced to pay for a new, inferior product that doesn't even work on older hardware etc. A sale should be a sale, the digital product should be under your control. And sellers of digital products must have and disclose a clear plan to function after the seller drops support for it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.191953Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586294.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586294",
+    "chunks_doc_id": "F3586294",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

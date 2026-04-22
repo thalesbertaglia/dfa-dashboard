@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587342",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:09Z",
+    "finished_at": "2026-04-14T13:15:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many games produced recently and sold in Europe are sold in the form of a ‘digital license’, which give limited access to players and leave the publisher distributing the game free to withdraw the license, without the need to give any reason, and thus to prevent players from accessing their purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15140,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, the Digital Fairness Act seems to me to be a step in the direction of protecting consumers’ rights. I am particularly consonant with the regulation on the design of video games. By remaining on this topic, I would like to draw your attention to the practices around the sale of video games. Many games produced recently and sold in Europe are sold in the form of a ‘digital license’, which give limited access to players and leave the publisher distributing the game free to withdraw the license, without the need to give any reason, and thus to prevent players from accessing their purchase. One of the most telling examples is ‘The Crew’ produced and distributed by Ubisoft, who was simply supressed from the library of players who bought the game. If I were to apply that approach to physical and non-digital products, that would amount to a right for video game publishers to enter my home to recover or destroy a product they have sold to me, for products sold at the same price as a product offered for sale ‘in full right’ (as opposed to products sold through a user license). This is a profound violation of the Roman right to private property that has been beaten by the European Union and the political regimes of its constituent countries. I would therefore like to ask you to add a component to the Digital Fairness Act to prevent video game publishers from withdrawing access to their games from their users and/or from offering alternatives for such games to remain accessible after the publishers have decided to stop distributing them. Technical solutions exist and are not prohibitive in terms of costs, and are detailed in the European Citizens’ Initiative Stop Destroying Videogames.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.500367Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587342.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587342",
+    "chunks_doc_id": "F3587342",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587342.clean.paragraph.json"
+}

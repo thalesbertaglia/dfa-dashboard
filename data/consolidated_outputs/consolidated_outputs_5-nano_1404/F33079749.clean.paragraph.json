@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33079749",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:49Z",
+    "finished_at": "2026-04-14T09:30:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The forced upgrade to Windows 11 can be considered a dark pattern"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22601,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like the issue of publishers removing access/destroying digital products after or by removing support for such products to be included. At the moment digital publishers can arbitrarily remove access to purchased products, especially games, at arbitrary points in time, leaving consumers with dead products and e-waste. An example is \"The Crew\", a game being destroyed and made unusable by Ubisoft, even though it on a technical level is still perfectly usable. While publishers shouldn't need to provide support forever, they should at least be held responsible to make their products usable even after they end officially support. Much like chain saw doesn't break after you have purchased it because the supplier decided to discontinue the product, a digital product should also not suddenly break. Another prime example is Microsoft removing support for Windows 10: The forced upgrade to Windows 11 can be considered a dark pattern - Windows 11 has much higher hardware requirements than Windows 10, though there is no technical need for such. Moreover does Microsoft attempt to trick users into upgrading by putting up scary messages, as we as permanently announcing that Windows 10 is out of support. Then a few days before ending support, they announce they will continue it, may it be for a small fee. Publishers should not be allowed to arbitrarily discontinue products and then force consumers to buy new hardware or newer products, just because support has ended on the old products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.527898Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079749.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079749",
+    "chunks_doc_id": "F33079749",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

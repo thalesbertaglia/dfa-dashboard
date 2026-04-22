@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3589448",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:21Z",
+    "finished_at": "2026-04-14T13:31:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many companies in the industry create live games which the customer essentially doesn't own when one buys it."
+              },
+              {
+                "quote": "As most of modern games require internet access and connection to company servers, when the game is being shut down the product essentials disappears from customers account."
+              },
+              {
+                "quote": "I'd like to prohibit the industry from blocking access to a product one has bought."
+              },
+              {
+                "quote": "Issue could be fixed by making video games developers to create some sort of end-game plan for the product, which enables offline access to it."
+              },
+              {
+                "quote": "In case of games with multiplayer gameplay one could create a way for customers to create their own private servers, which would enable the game to function after the \\\"official\\\" servers have been shut down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32875,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. My main concern regarding video game industry is unfairness of customer rights, or lack of thereof. Mainly I'm talking about the basic customer right to owning a product one has bought. Many companies in the industry create live games which the customer essentially doesn't own when one buys it. As most of modern games require internet access and connection to company servers, when the game is being shut down the product essentials disappears from customers account. I'd like to prohibit the industry from blocking access to a product one has bought. Issue could be fixed by making video games developers to create some sort of end-game plan for the product, which enables offline access to it. In case of games with multiplayer gameplay one could create a way for customers to create their own private servers, which would enable the game to function after the \"official\" servers have been shut down. As some have speculated, a fix like this would disable companies from policing the customers. That is not a necessary feature as players would self regulate their private servers. None prefer players who abuse third party programs which ease the difficulty of the original game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.790768Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589448.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589448",
+    "chunks_doc_id": "F3589448",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

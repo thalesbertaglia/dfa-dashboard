@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584382",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:43Z",
+    "finished_at": "2026-04-14T11:57:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers right now have the right to take away product we consumers bought."
+              },
+              {
+                "quote": "They're promoting thopse products as \"buying\" games but hide in 100 pages long eula that you're only renting it for not even a specified time."
+              },
+              {
+                "quote": "Because of that there were cases of developers killing their games and deleting them from consumer account for their newer games to sell better."
+              },
+              {
+                "quote": "It mainly affects online games but new releases more and more often hide their games with online elements even if it doesn't need them so they can kill it the moment they want to."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19875,
+          "unit_kind": "feedback"
+        },
+        "text": "Please look into games as well. Publishers right now have the right to take away product we consumers bought. They're promoting thopse products as \"buying\" games but hide in 100 pages long eula that you're only renting it for not even a specified time. Because of that there were cases of developers killing their games and deleting them from consumer account for their newer games to sell better. It mainly affects online games but new releases more and more often hide their games with online elements even if it doesn't need them so they can kill it the moment they want to. The worst part is as the consumers we cannot do anything about it. This power unbalance from my observations is only active in gaming market and everywhere else it wouldnt be tolerated so please look into this. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.207134Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584382.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584382",
+    "chunks_doc_id": "F3584382",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

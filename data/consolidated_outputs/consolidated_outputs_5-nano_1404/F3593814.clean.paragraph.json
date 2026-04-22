@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3593814",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:41Z",
+    "finished_at": "2026-04-14T13:39:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games have become part of modern culture and our history as humanity."
+              },
+              {
+                "quote": "simply filling them with DLCs and loot boxes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11574,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games have become part of modern culture and our history as humanity. As we have invented technologies to improve them, letting them die for the benefit of a few is to kill part of our recent history. The feelings, the stories they tell and the memories they leave in our memory are part of us. Games have changed not only the gaming industry, but also the cinema, series and music industry. The fact is that we should not lose something of our cultural heritage simply because some do not want to provide alternatives to preserve it, and even less so when we talk about companies that already pay more than EUR 60 for unfinished games, broken since their launch and which do not plan to fix them, simply filling them with DLCs and loot boxes. Please regulate this, as you have the power to do so. Thank you very much.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.959585Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593814.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593814",
+    "chunks_doc_id": "F3593814",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585583",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:01Z",
+    "finished_at": "2026-04-14T12:31:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "make it illegal for a company to make a digital product worthless after purchase, by closing down access to the material and/or experience I have already paid for."
+              },
+              {
+                "quote": "A developer shall be able to offer tools to continue using the product if the company decides to stop performing maintenance for the digital product purchased by consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10233,
+          "unit_kind": "feedback"
+        },
+        "text": "As a Swedish citizen, I underline the importance of having a consumer-focused market in digital property. I want to see the EU come up with laws that make it illegal for a company to make a digital product worthless after purchase, by closing down access to the material and/or experience I have already paid for. A developer shall be able to offer tools to continue using the product if the company decides to stop performing maintenance for the digital product purchased by consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.814666Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585583.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585583",
+    "chunks_doc_id": "F3585583",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585583.clean.paragraph.json"
+}

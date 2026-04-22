@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588558",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:03Z",
+    "finished_at": "2026-04-14T13:24:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the gaming companies built the games to be connected to a central server in order to be able to play."
+              },
+              {
+                "quote": "So even though I bought the product, the gaming companies made it impossible to play the game after they had switched off their server."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16592,
+          "unit_kind": "feedback"
+        },
+        "text": "A nostalgic cause for me is to go back and play the video games I played as small. Even games I played in the past as older people, I like to go back to sometimes to revive those feelings. However, there are games I can no longer play, even though I bought them. This is not because the operating system does not support it, but the gaming companies built the games to be connected to a central server in order to be able to play. So even though I bought the product, the gaming companies made it impossible to play the game after they had switched off their server. This deprives me of my right as a consumer to use what I bought how I want and will also make it more difficult in the future to research into today’s cultural form, as in the 1920s in the United States when old films were burned because storage was expensive and that the silver contained therein was reused. Let us not make the same mistakes as they did and restore our rights as consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.654891Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588558.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588558",
+    "chunks_doc_id": "F3588558",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588558.clean.paragraph.json"
+}

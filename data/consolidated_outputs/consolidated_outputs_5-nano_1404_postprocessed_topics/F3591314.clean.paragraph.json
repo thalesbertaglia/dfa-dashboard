@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3591314",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:01Z",
+    "finished_at": "2026-04-14T13:35:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogame developers selling a game as a service, not disclaiming it as such, and then pulling the plug on the product, rendering it unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A small, barely visible line in a Terms and Conditions does not suffice."
+              },
+              {
+                "quote": "At the very least, a game which is a service, meaning you \"rent\" it rather than own it, should be stated as such."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31008,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act has a solid foundation which is worthy of a praise and I am very glad that the European Union is trying to make the internet a more just place. This is why I believe that videogames, one of the biggest media markets in the world, needs to be protected as well. I am specifically talking about the numerous examples of videogame developers selling a game as a service, not disclaiming it as such, and then pulling the plug on the product, rendering it unusable. This is basically a remote shutdown, violating the right of the consumer by taking away what they own or should own. I propose adding a requirement to developers of online videogames to provide a post mortem plan to keep the product usable. This could include making the code viable to the community, which can then take matters in their own hands and support the game. The developers would no longer be responsible for what happens to the game, they only need to leave it functional. At the very least, a game which is a service, meaning you \"rent\" it rather than own it, should be stated as such. A small, barely visible line in a Terms and Conditions does not suffice. It should be required to be visible just as the Energy Rating on appliances and phones is. I hope you find this feedback useful and take it into consideration!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.856527Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591314.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591314",
+    "chunks_doc_id": "F3591314",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591314.clean.paragraph.json"
+}

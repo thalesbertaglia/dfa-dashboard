@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589897",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:31Z",
+    "finished_at": "2026-04-14T13:32:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games or products that they paid for be destroyed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16438,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe every attempt to protect and bring fairness is noble , i would like to recommend that something extra would be worked into the law as well. That would be protection for consumers having the digital games or products that they paid for be destroyed or have no end of life plans after support is let go by the publisher.There are countless examples of this happening by companies and i believe if a product is purchased consumers should have a right to keep it to some extent. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.810064Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589897.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589897",
+    "chunks_doc_id": "F3589897",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589897.clean.paragraph.json"
+}

@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:52Z",
+    "finished_at": "2026-04-14T12:17:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, publishers or games are at will to shut down games, be it singleplayer or online, at will with nearly no notice."
+              },
+              {
+                "quote": "For example, The Crew from Ubisoft (released 2014) has been shutdown in 2024 due to the publisher requiring being always online."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This could also be said for companies hosting e-books and movies online, and then revoking them."
+              },
+              {
+                "quote": "Even if you paid for them, with no way to save a local copy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27136,
+          "unit_kind": "feedback"
+        },
+        "text": "The act seems amazing, but some fairness to certain let's say aspects could be added. Currently, publishers or games are at will to shut down games, be it singleplayer or online, at will with nearly no notice. For example, The Crew from Ubisoft (released 2014) has been shutdown in 2024 due to the publisher requiring being always online. Which means that they need to keep the servers alive in order for people to play the game. But why not shutdown the servers, and make the game still playable offline? A piece of media is now not accessable anymore (except if you sail the seven sea's) even though you paid for it. Which does not seem fair at all! I, as I think many other people. Would like to see publishers be held accountable to leave a game in a playable state if you paid money for a game. They don't need to keep the game servers alive, but stop the requirement for always being online after shutting down the game. So that games can be played just like the old days when you had physical media. For more info and a accurate count of people currently standing with me check https://www.stopkillinggames.com/ Also as a side note. This could also be said for companies hosting e-books and movies online, and then revoking them. Even if you paid for them, with no way to save a local copy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.534957Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584977",
+    "chunks_doc_id": "F3584977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584977.clean.paragraph.json"
+}

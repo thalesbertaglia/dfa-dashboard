@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3591489",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:47Z",
+    "finished_at": "2026-04-14T13:36:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Account Identity Verification And Recovery",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "tie our online accounts to our legal identities"
+              },
+              {
+                "quote": "reset and reclaim option"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24294,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to add a second feedback on another point if it is allowed: I think there should be legislation that requires tech companies to facilitate to allow users to tie our online accounts to our legal identities so they can't be stolen or hijacked as easily as seems the case today. For many people our GMail and AppleID etc have become critical to our life and identity and everything so we need more then the possession of one or two factors to secure them as they are fundamentally tied to us. Also I would expect a reset and reclaim option where we could keep or regain control using something that is fundamentally ourself, like what is good enough for legal identification (either digital or physical). In the most simplistic level I would go be able to go the city/post-office with my ID and they would be able to verify my identity and reset certain critical accounts. This would require preregistration, maybe a fee etc. This would make our digital life more fair to average people because we could trust our accounts and digital lives can't be stolen by some random scam. Regards, from NL",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.872414Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591489.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591489",
+    "chunks_doc_id": "F3591489",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

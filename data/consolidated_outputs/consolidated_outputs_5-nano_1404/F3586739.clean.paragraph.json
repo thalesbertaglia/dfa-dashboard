@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586739",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:42Z",
+    "finished_at": "2026-04-14T13:02:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-of-life-plan for games should be added."
+              },
+              {
+                "quote": "a game that can just be shut down at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16767,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi there! I too am requesting that a rule about end-of-life-plan for games should be added. Why? As we consumers have spend often up to 50-70 euro on a game that can just be shut down at any time. But I am not here to explain that again. I am here to say that an end-of-life-plan is very possible to make. I am a programmer myself and I have whitnissed some games doing this. Games where the company behind it is run by 10 people. So why can't the big company's do this? Again, thanks for hearing us out!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.331653Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586739.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586739",
+    "chunks_doc_id": "F3586739",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,108 @@
+{
+  "doc_id": "F3589095",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:10Z",
+    "finished_at": "2026-04-14T13:29:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns on online platforms."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "trials not automatically convert to subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are capable of much more in terms of dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "targeting and exploiting adults who are vulnerable to being manipulated into spending"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There shouldn't be a rollback or a revocation of a purchased contract."
+              },
+              {
+                "quote": "Lifetime licenses also need better definition and protection, as currently lifetime appears to mean an arbitrary amount of time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42241,
+          "unit_kind": "feedback"
+        },
+        "text": "While I originally came in to see how this act relates to video games, I have reviewed the call for evidence impact assessment summary and have found it and the questionnaire to be quite on point for what needs to be updated to cover the cases of consumer abuse and dark patterns on online platforms. My most important point is about the contracts signed online - these are undertaken online probably more often than offline, and with the potentially constantly changing services and products they are tied to, the consumer is under protected against changes and bad practices. Not only should cancelling be easy to complete, not only should trials not automatically convert to subscriptions, but if a product or a service has both a permanent buy option and a subscription option, those should be always offered and be considered equal if the product or service are equal. There shouldn't be a rollback or a revocation of a purchased contract, and the user should not be pushed to change payment options to a different one. If a service or a license is offered, it should present an End of Life plan and expected lifetime of the product before the consumer completes the purchase or starts the subscription. Lifetime licenses also need better definition and protection, as currently lifetime appears to mean an arbitrary amount of time. Second most important thing to me, is to highlight the need for addressing the addictive design in both websites and video games, to disable it by default if possible. If it is a choice and not a default design, the consumer at least gets a chance to be aware they are being fed something addictive. For in-app purchases, it might require highly complex definition of games, power, and what is considered core to a video game, but please attempt to do it - I have seen to many cases of mobile PVP MMOs targeting and exploiting adults who are vulnerable to being manipulated into spending in exchange for power, convenience of skipping wait time or progress, or due to social pressure. In-app purchases should not be required to play a product one purchased, or required to play at all. If the expectation is that the company needs in-app purchase income to survive, a subscription would be more preferable. Video games are capable of much more in terms of dark patterns.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.751397Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589095.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589095",
+    "chunks_doc_id": "F3589095",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589095.clean.paragraph.json"
+}

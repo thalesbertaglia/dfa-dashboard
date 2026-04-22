@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3586444",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:51Z",
+    "finished_at": "2026-04-14T12:58:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For the past decade or so the gaming industry has felt no remorse shoving more and more gambling, battle passes, microtransactions, cosmetics, and sometimes even gameplay-related assets such as unique weapons, maps, XP boosts, and the like down the throats of gamers"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "giant \"SHOP\" buttons, invasive pop-ups, and more, all the while they've seemingly mastered the art of selling these in a way that induces the maximum FOMO (fear of missing out) in their dedicated fanbase"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in-game cosmetics priced just a tiny bit higher than the bundles of currency being sold in their shops."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can just shut down said game at any time, with every single bit of money the consumer put into it now essentially gone forever."
+              },
+              {
+                "quote": "the consumer has to destroy all copies of the product that they purchased"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 107674,
+          "unit_kind": "feedback"
+        },
+        "text": "For the past decade or so the gaming industry has felt no remorse shoving more and more gambling, battle passes, microtransactions, cosmetics, and sometimes even gameplay-related assets such as unique weapons, maps, XP boosts, and the like down the throats of gamers, even in games that are priced at 60+. Not only that, but they've made these basically impossible to miss with giant \"SHOP\" buttons, invasive pop-ups, and more, all the while they've seemingly mastered the art of selling these in a way that induces the maximum FOMO (fear of missing out) in their dedicated fanbase. There have been countless people breaking down just how scummy some of these practices are, with in-game cosmetics priced just a tiny bit higher than the bundles of currency being sold in their shops. For example, many times a skin will cost 1100 \"coins.\" Meanwhile, these \"coins\" will be sold for real-life money in chunks of 1000, meaning that the consumer has to buy the more expensive bundle that contains 2000 \"coins,\" only for you to again be just out of reach for that next 1100 \"coin\" cosmetic. Not only is this a practice that I don't see in basically any other art form (imagine a movie or a book having paid pop-ups that enabled you to change the clothes of the main actor, see a different ending, have them speak in a different way, etc.), but these same developers then have the gall to tell us that if they feel like it, they can just shut down said game at any time, with every single bit of money the consumer put into it now essentially gone forever. As of the time of writing this, some companies even have it blatantly stated in their EULA that in any event they see fit, the consumer has to destroy all copies of the product that they purchased (check the Ubisoft EULA clauses 8 and 9 for an example of this). This is absurd, insulting to the consumer, goes against the basic principles of commerce (imagine a microwave company telling you to destroy your own microwave because they feel like it), and goes to show that these companies will do everything in their power to squeeze every bit of money out of their fanbase, while giving the players none of the respect that they deserve.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.248836Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586444.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586444",
+    "chunks_doc_id": "F3586444",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586444.clean.paragraph.json"
+}

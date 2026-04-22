@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33092921",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:37:18Z",
+    "finished_at": "2026-04-14T09:37:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "alexas are passing ads in their devices"
+              },
+              {
+                "quote": "Samsung is passing ads in their smart fridges"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21201,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it is important to protect consumers from advertisement is \"bought products\". For example, now alexas are passing ads in their devices, Samsung is passing ads in their smart fridges, and so goes on. This means the household of an european is starting to become part of the spaces these multinational corporations use to promote their ads. There should be even more firm boundaries on this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.614328Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092921.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092921",
+    "chunks_doc_id": "F33092921",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33092921.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585130",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:46Z",
+    "finished_at": "2026-04-14T12:21:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end of life plan, i.e. giving the community tools to run servers when official support ends or some sort offline play options."
+              },
+              {
+                "quote": "video game end-user license agreements allow publishers to revoke access to titles without breaking terms of service, and that leaves the products in a useless state."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13923,
+          "unit_kind": "feedback"
+        },
+        "text": "Firstly, many of us think it would be good for future game development to have an end of life plan, i.e. giving the community tools to run servers when official support ends or some sort offline play options. Also, many video game end-user license agreements allow publishers to revoke access to titles without breaking terms of service, and that leaves the products in a useless state. We think it is fair to request some regulation in this respect, and hence this petition comes in. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.607639Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585130.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585130",
+    "chunks_doc_id": "F3585130",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585130.clean.paragraph.json"
+}

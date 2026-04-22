@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584496",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:42Z",
+    "finished_at": "2026-04-14T12:00:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In 2024, Ubisoft shut down the server and made the game no longer playable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"you know this product that you bought by any reasonable definition? Well, you actually didn't buy it.\""
+              },
+              {
+                "quote": "I strongly believe that such terms in EULAs are abusive."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22370,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to request that you please tackle the topic of videogame destruction. As somebody who signed the Stop Destroying Videogames ECI, I am deeply concerned by the rapidly eroding consumer rights in the videogame space. The way it feels to me is that companies have taken advantage of the fact that politicians have typically ignored videogame for the longest time in order to test the waters on the practice of destroying products that consumers have already purchased after the fact and with no recourse. I understand that a lot of members of the European Parliament don't care about videogames per se. But if you care about consumer rights, you have to see how this is a massive problem. Let's talk about The Crew, a game that is often used as an example of this awful practice: This is a videogame that was sold as a single purchase in both digital and physical storefronts. It could be played in online multiplayer with other people or in singleplayer mode, but no matter which mode you chose the game had to connect to a central server hosted by the parent company, Ubisoft. In 2024, Ubisoft shut down the server and made the game no longer playable. This means people who purchased the game, both digitally and physically, could no longer play it. I believe that whether one purchases a game digitally or physically should have no bearing in the fact that this practice is awful, but it is probably easier for you to see how awful this is if you consider that people who own a *physical disc* of the game had their purchase intentionally made non-functional by the publisher after the fact. I think we can all agree that it is ridiculous. This was a completely optional conscious choice by Ubisoft. They could have patched the game to not rely on a central server, or distributed server binaries, or done literally anything to ensure they don't disable the consumers' purchase but they intentionally did the opposite of that. Of course, Ubisoft can say that the game was designed without such plans in mind and that they cannot distribute server binaries or that it would be too costly to patch the game, but that doesn't make it not a conscious decision. They intentionally made the game that way so that they could remotely take it away from consumers later. To take their excuse at face value would be like excusing a car manufacturer whose cars break down after 10 years because they decided to put a device in every cat that destroys it after 10 years, and they can't do anything about it because, well, it's already done, that's how the car works, nothing they can do. That's the logic they are using here. Perhaps it should not be legal to make a car that automatically breaks down on purpose, then? I do not think companies should be required to support their games forever. Companies are already trying to cause confusion by stating that they cannot do that, despite the fact that we are not asking for that. It's a distraction. Please do not fall for it when considering our cause. We advocate that they can stop support and stop being liable for anything related to the game anytime they want. But we also advocate that they need to be required to shut down support RESPONSIBLY. They need to leave the game in a reasonably playable state, so that players can host their own servers if it's a multiplayer game, or so that the game can work offline if it's a singleplayer game, or however else the publisher wants to implement their end of life plan. And then, sure, do not touch the game ever again. The company no longer supports it, that's completely fine. All we are asking is that they do not take away people's purchases. I also believe that a sentence in the EULA that states what basically amounts to \"you know this product that you bought by any reasonable definition? Well, you actually didn't buy it.\" should not be a valid excuse. I strongly believe that such terms in EULAs are abusive. Please make videogame purchases fair! Don't let them erode consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.261233Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584496.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584496",
+    "chunks_doc_id": "F3584496",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584496.clean.paragraph.json"
+}

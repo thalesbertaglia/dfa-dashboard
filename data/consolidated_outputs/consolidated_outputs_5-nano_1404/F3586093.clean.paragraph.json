@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586093",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:36Z",
+    "finished_at": "2026-04-14T12:47:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers cant take away a consumer's purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The distinction between a product you buy and own, compared to a license you pay with a set future date of expiry is blurred, and this is bad for the consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "have recently risen in price from 60 euros to 80 euros."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42696,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello and thank you for taking the time to read my feedback. I have a suggestion for the Digital Fairness Act. I am not an EU-citizen but I am Norwegian and we are in many ways part of the European market. I would love to see consumer protections for video game purchases so that video game publishers cant take away a consumer's purchase. It would be great if games can be played even after the publisher shuts down the online services for said game. Most game purchases are advertised as products you can purchase, but in reality many of the games rely on online services even if the game itself is a single player experience. This makes it so the publisher can shut down the online functionality when they feel the game has outlived its profitability. This means that even games where you play by yourself in every scenario can be shut down. When a publisher / developer no longer wants to pay for the upkeep of a game. They will shut the services down and make the game unplayable for consumers who purchased it. Often resulting in it being impossible to play ever again, and if somehow players are able to make the game work in the future they could be targeted by legal action from the publisher. This distinction between a product you buy and own, compared to a license you pay with a set future date of expiry is blurred, and this is bad for the consumer. It could also be a good protection to know that a game has an end of life plan. So that if the game stops being profitable, or does poorly on release. That the publisher and developer can stop supporting the game themselves and leave the necessary services for the community to run themselves. The videogames industry makes more money than music and movies combined. Larger games also referred to as AAA games from large companies like Sony (Playstation), Nintendo and Microsoft (Xbox) have recently risen in price from 60 euros to 80 euros. However the price increase does not reflect in a better service or experience for the consumer. If you are curious about what games have been stopped / are at risk you can refer to a community curated list: Dead game list on google. Leading to a wiki gg website with a comprehensive list.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.083646Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586093.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586093",
+    "chunks_doc_id": "F3586093",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

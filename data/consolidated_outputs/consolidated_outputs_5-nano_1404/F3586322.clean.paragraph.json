@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586322",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:59Z",
+    "finished_at": "2026-04-14T12:54:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are culture."
+              },
+              {
+                "quote": "Killing access after sale is digital fraud."
+              },
+              {
+                "quote": "If I buy a game, I should be able to play itforever."
+              },
+              {
+                "quote": "Shutting down servers or deleting them from stores after release is theft, plain and simple."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17040,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games are culture. Killing access after sale is digital fraud. The DFA has to stop this. Games deserve the same respect as movies or music. Let us keep what we paid for. If I buy a game, I should be able to play itforever. Shutting down servers or deleting them from stores after release is theft, plain and simple. It screws over players and erases gaming history.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.203686Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586322.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586322",
+    "chunks_doc_id": "F3586322",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

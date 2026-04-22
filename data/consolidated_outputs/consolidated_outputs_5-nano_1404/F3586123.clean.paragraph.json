@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586123",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:48Z",
+    "finished_at": "2026-04-14T12:48:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games have been baselessly treated as services, as opposed to goods."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you need to renew a subscription to continue playing"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Do not let them write EULAs saying they can just take away the program for any, or no reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27615,
+          "unit_kind": "feedback"
+        },
+        "text": "For a wile now computer, or video games have been baselessly treated as services, as opposed to goods. We used to buy a game on a disc, or cartridge, we owned it and were able to do anything we wanted with it. There was an online multiplayer functionality hosted by players themselves, either with the game client, allowing others to connect directly, or using specialised software solely for hosting a private game without the need to render graphics of the program. Currently game publishers take measures to stop consumers from obtaining their products without pay, in efforts to protect their copyright and intellectual property. 1 of the measures is requiring a continuous connection to a central server infrastructure ran by the company, to verify the legitimacy of the software example. This has been leveraged for profit - not for security, or mere convenience. Selling the product digitally, without a medium, reduced costs. That also results in the companies starting to treat a good they've sold us as service they can deny, or take away, since they now possess the ability to control who connects to their network to run the program. On top of that, it incurs costs of operations. Once the publisher deems it not profitable enough, they can shut down the infrastructure, rendering the game - a multimedia piece of art - inoperable. Now, the consumer, who bought the software through process no different than purchasing a chair through online auction house, is deprived of the good hes acquired. There's a difference between goods and services. Services have clear informations about costs, length of time in which they r provided and ending conditions. There are games, that are sold as service following these clear guidelines, telling the player they need to purchase an example of the client software and cover a fee that grants a limited, specified amount of time to join the experience. The service ends after the time runs out. One might rejoin if they pay a fee again. It's like ice-skating. You need to buy the goods of ice skates and then trade money for the privilege of entering the illuminated rink for a certain time, as opposed to trying to find a well-enough-frozen, dark lake with no supervision and dubious safety. Instead, now, the games are treated as if you bought a car, you're not allowed to resell it on the secondary market once you aren't content with it, lend it to a friend and if the company thinks you've badmouthed them, or insulted someone, while driving, they can come to your home, take your keys away and say \"we no longer can continue to produce parts for this car, so we will just take it away from you\". We want simple solutions - do not let software be treated as service only because it was bought online and needed to be downloaded. Once downloaded, the company cannot force us to delete it. We paid for an example of it to run under perpetual license. It being obtain over the internet is not a key difference compared to buying a disc. Next - require end-of-life solution, where the game is patched to allow functioning offline, or provide code for the users to create their own infrastructure to set up and maintain. It won't violate the publisher's rights - they already stopped selling it. They decided to not make any more money off of it. This is not the same as requiring companies, who clearly stated you need to renew a subscription to continue playing to give away their encoded server. Importantly - do not allow the companies to just retroactively reiterate that all they ever did was sell services. Do not let them write EULAs saying they can just take away the program for any, or no reason. If they gave the program away fro free, if they allowed access for free and never stated when will the shut-down take place - they gave away goods. If the only thing the server is doing is checking a license key, it's not necessary for the software operation, but will be destroyed on a whim without repercussions. It's ownership, not lease",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.103891Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586123.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586123",
+    "chunks_doc_id": "F3586123",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

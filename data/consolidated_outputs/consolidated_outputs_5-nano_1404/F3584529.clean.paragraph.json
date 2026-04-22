@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584529",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:51Z",
+    "finished_at": "2026-04-14T12:01:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The example of video games shows, for example, that buyers can relatively easily lose access to their digitally or physically acquired video games."
+              },
+              {
+                "quote": "If the publisher switches off the server, the video game can no longer be launched."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14959,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, thank you for the European Union’s commitment to improving the digital space with the Digital Fairness Act. What I would like to see digital goods, such as books, video games and other forms of digital purchases, are better protected. The example of video games shows, for example, that buyers can relatively easily lose access to their digitally or physically acquired video games. This happens, for example, in situations where a purchased video game has to communicate regularly with a server operated by the video game publisher in order to function. If the publisher switches off the server, the video game can no longer be launched. I ‘have’ some video games, which now only represent data that can no longer be played. Including Battleborn and Bless Online. The games listed as examples were purchased by me from Steam, but can no longer be played because the publishers of the games have switched off their servers. I would therefore welcome the obligation for publishers to allow players to repair these games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.277409Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584529.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584529",
+    "chunks_doc_id": "F3584529",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

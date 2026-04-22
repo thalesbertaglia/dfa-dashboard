@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587139",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:17Z",
+    "finished_at": "2026-04-14T13:11:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games costing money on online platforms should always have some kind of offline functionality."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9124,
+          "unit_kind": "feedback"
+        },
+        "text": "Good afternoon, I think that video games costing money on online platforms should always have some kind of offline functionality. There are many solo games that become inaccessible when you no longer have internet access, which I find extremely fraudulent at the level of the consumer. The same argument may be said to be multi-player games which are exclusively online. Until the late 2000s, multi-player games have always been provided with a LAN option. (I.e. being able to launch a multi-player part but on a local server). This allowed players without the internet to be able to play by themselves. This ensured that the games you paid for were always accessible without an internet connection.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.447040Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587139.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587139",
+    "chunks_doc_id": "F3587139",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587139.clean.paragraph.json"
+}

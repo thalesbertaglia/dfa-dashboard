@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586063",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:26Z",
+    "finished_at": "2026-04-14T12:46:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "this is due to the fact that companies currently have a tight grip on most, if not all videogames they sell, making a purchase able to be removed, without allowing the customer to continue using said item."
+              },
+              {
+                "quote": "storefronts like itch.io, Steam, or others, forcefully take down said games immediately."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they're essentially taking control over what a storefront can and cannot sell, and customers lose said purchases as well, without any notice."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35713,
+          "unit_kind": "feedback"
+        },
+        "text": "Good Evening from Spain. I've been following quite closely the \"Stop Killing Games\" Initiative, along with its European \"counterpart\", \"Stop Destroying Videogames\" European Citizens' Initiative. I believe that, along with other people, it would be great to implement in the Digital Fairness Act part, or most of the Stop Destroying Videogames ECI, or even completely. This is due to the fact that companies currently have a tight grip on most, if not all videogames they sell, making a purchase able to be removed, without allowing the customer to continue using said item. The current situation is like a car dealership being able to remotely disable your car permanently at any moment with next to no notice, and consumers, along with me, want this to stop ocurring. We wish for videogames, or, \"the car\", in this example, to be continued even without the dealership's support. They'll be able to disable the car, but, if implemented, would have to allow the car to continue to run if supported by external, unrelated dealerships. This example is not the best, but it is how I can put it into words. In other suggestions, I believe making payment processors, such as VISA, MasterCard, PayPal, or similar, to be unable to control any kind of purchase as long as it is lawful should be checked as well, as currently they've been forcefully making companies remove legal content just because they consider it \"wrong\", making storefronts like itch.io, Steam, or others, forcefully take down said games immediately. This is disguised by the companies, and should be something they should not be able to do, as they're essentially taking control over what a storefront can and cannot sell, and customers lose said purchases as well, without any notice. I really hope that this, and the multiple other suggestions, end up coming through and help shape this Act further. If it is implemented in the suggested way, and takes all of the points from the Stop Destroying Videogames ECI, along with restrictions on what payment processors should be able to do, and what not, it'll help everyone in the EU, and even people outside, in certain manners, quite effectively, allowing everyone to be in a more free environment, thanks once again to the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.064695Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586063.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586063",
+    "chunks_doc_id": "F3586063",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

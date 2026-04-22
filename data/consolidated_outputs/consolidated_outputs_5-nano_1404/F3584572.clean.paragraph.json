@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584572",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:08Z",
+    "finished_at": "2026-04-14T12:02:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video-game publishers rendering games unplayable after selling them to customers."
+              },
+              {
+                "quote": "Those publishers sell game with no end-of-life plan, meaning once support for the game ends, paying customers are deprived of the product they have payed for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17975,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing this feedback because there is an issue dear to me that isn't mentioned in the Digital Fairness Act which I believe really needs to be. It is the issue of video-game publishers rendering games unplayable after selling them to customers. Those publishers sell game with no end-of-life plan, meaning once support for the game ends, paying customers are deprived of the product they have payed for. In my opinion this practice is unacceptable and I believe the Digital Fairness Act could be a step forward in stopping this practice.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.299216Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584572.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584572",
+    "chunks_doc_id": "F3584572",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

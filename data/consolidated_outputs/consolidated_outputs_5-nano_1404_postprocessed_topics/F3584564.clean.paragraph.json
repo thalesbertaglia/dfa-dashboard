@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584564",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:50Z",
+    "finished_at": "2026-04-14T12:02:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "micro-transactions, gambling mechanisms, targeted in-game ads, ..."
+              },
+              {
+                "quote": "the sequel is often a worse edition: the same core game mechanics, just extra monetization at the cost of the player's wallet."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17777,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital fairness, in my opinion, includes fair access to the games I've purchased. Now, for myself, I usually play a lot of single-player games and I have been fortunate to never have lost access so far. But looking at the climate of how many large game studios are pushing for micro-transactions, gambling mechanisms, targeted in-game ads, ... all while keeping the right to withdraw your access to the games and digital goods you've purchased, seems very digitally unfair. This is why I'd like to highlight this moment in time for the EU to address a game industry that is no longer about the players, but about maximizing profits while destroying digital art and services of the regular citizen. It used to be that one would by a physical copy and it would last you as long as you took care of you copy. Now it seems like they purposefully unalive a version of a game to force you to purchase the next. While the publisher may disagree, the sequel is often a worse edition: the same core game mechanics, just extra monetization at the cost of the player's wallet. This is why the Stop Destroying Videogames ECI is important and where the Digital Fairness Act can come in clutch for the ordinary consumer. Help us gain back the rights we once had universally. There are many smaller, so-called \"indie\" studios that prove this aggressive abuse of the user is not necessary for a game to be a success, even after it has seen its EOL. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.294956Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584564.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584564",
+    "chunks_doc_id": "F3584564",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584564.clean.paragraph.json"
+}

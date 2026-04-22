@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586943",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:26Z",
+    "finished_at": "2026-04-14T13:06:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online games."
+              },
+              {
+                "quote": "the game servers were shut down on April 8 2015"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21694,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I have been a gamer for the past 15 years of my life and it is a fantastic hobby that I enjoy in my free time. Over those years I have played through many singleplayer and online games. Sadly some of the online games I and my friends used to play are no longer supported and the servers are shut down. For example we played a game called \"Lost Saga\" published at the time by \"Nexon Europe\". \"Lost Saga\" is a platformer fighting game, sadly the game servers were shut down on April 8 2015 and there have been no official servers since then, so we haven't played the game in years. I miss the game and would've liked to preserve the game in some form, to get back in and to brawl with other players. Regrettably I can't do anything about that game, but I want to have the option with games that are out now.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.392753Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586943.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586943",
+    "chunks_doc_id": "F3586943",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586943.clean.paragraph.json"
+}

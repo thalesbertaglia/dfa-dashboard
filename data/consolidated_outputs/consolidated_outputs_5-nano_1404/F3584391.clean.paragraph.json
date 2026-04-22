@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584391",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:03Z",
+    "finished_at": "2026-04-14T11:57:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the publisher shouldn't be in a position to unilaterally make said content unusable."
+              },
+              {
+                "quote": "The publisher should make sure that the content is still usable even if they pull support from it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15857,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I would like to add my voice to the previous comments and kindly suggest that something should be made about the concept of \"digital goods as a service\". If I purchase digital content (be it a videogame, an ebook, a movie, etc...) the publisher shouldn't be in a position to unilaterally make said content unusable. Imagine if one bought a board game or a book and then, all of a sudden, the publisher decides that it is no longer profitable and he pulls the game or book off the market. The copy one bought is still perfectly OK, and can still be used. Well, in my opinion, it should be the same with digital content. The publisher should make sure that the content is still usable even if they pull support from it. This shouldn't be too hard to implement in most cases, except where it maybe is so by design. For more info, you can look at the \"stop destroying videogames\" EU citizens initiative, though I think similar measures should be taken to encompass all digital media, and not just videogames.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.211573Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584391.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584391",
+    "chunks_doc_id": "F3584391",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

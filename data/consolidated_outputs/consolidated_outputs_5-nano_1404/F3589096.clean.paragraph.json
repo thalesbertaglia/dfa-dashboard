@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3589096",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:12Z",
+    "finished_at": "2026-04-14T13:29:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the case of video games, many companies are starting to turn what is a simple transaction into a subscription model."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "into a subscription model."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair terms for the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23954,
+          "unit_kind": "feedback"
+        },
+        "text": "When a customer buys a product from a company; be it a Blu-ray film or a T-shirt, the owner has the right to do what he thinks fit with the purchased product. However, in the case of video games, many companies are starting to turn what is a simple transaction into a subscription model. They argue that the customer is ‘renting a subscription’ and that access to the product can be withdrawn at any time under ‘licences of use’, which often contain unfair terms for the consumer. These practices run counter to consumer rights and should not exist in the first place.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.752122Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589096.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589096",
+    "chunks_doc_id": "F3589096",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588715",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:19Z",
+    "finished_at": "2026-04-14T13:25:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames are one of the biggest parts of the software industry."
+              },
+              {
+                "quote": "Every year games are shut down with no end of life plans, leaving every buyer with no trace of the software they had paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12433,
+          "unit_kind": "feedback"
+        },
+        "text": "Videogames are one of the biggest parts of the software industry. Despite this, cuswtomers lack basic protections when it comes to the ownership of the products they pay for. Every year games are shut down with no end of life plans, leaving every buyer with no trace of the software they had paid for. We are not talking about subscrition based or SaaS (Software as a Service) type of games, but fully downloadable, one time purchase digital items. We do not ask for publishers to be required to provide support forever, but simply to create adecuate end of life plans to ensure that their software will remain usable for those who have purchased it, whether by open-sourcing its code, allowing users to create private servers to run it or any other means.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.677960Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588715.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588715",
+    "chunks_doc_id": "F3588715",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

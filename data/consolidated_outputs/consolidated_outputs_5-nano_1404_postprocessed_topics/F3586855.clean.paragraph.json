@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586855",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:48Z",
+    "finished_at": "2026-04-14T13:05:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I also consider the lack of protection consumers have about their ownership of digitals products (like games) to be insufitient."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23572,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i grow concerned with examples of bank service providers (Visa, Mastercard mostly) using their practical monopoly on the market to force entertaiment services providers to adapt their services and force them to remove those service that (VISA,Mastercard) consider unsavory, yet are not unlawfull. I also consider the lack of protection consumers have about their ownership of digitals products (like games) to be insufitient. I belive an European citizen initiative \"Stop Destroying Videogames is adresing this matter very reliably and i would like seeing its proposition inplemented. I consider the EU the best place in term of protecting customer rights in digital space agains growing influence of internation corparations and i would like for it to continue in the everchanging digital enviroment. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.367007Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586855.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586855",
+    "chunks_doc_id": "F3586855",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586855.clean.paragraph.json"
+}

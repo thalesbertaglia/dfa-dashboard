@@ -1,0 +1,113 @@
+{
+  "doc_id": "F3584427",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:07Z",
+    "finished_at": "2026-04-14T11:58:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many times, ads have pop-ups with 'Close' buttons that are either too small or invisible to click."
+              },
+              {
+                "quote": "Another dark pattern I dislike is the automatic refreshing of website or app content upon opening."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some forms have pre-ticked boxes that sign you up for something extrae.g., an additional monthly subscriptionbeyond what you intended to purchase."
+              },
+              {
+                "quote": "Many subscription services have a very easy sign-up UX flow (i.e., a single click), but cancelling is difficult."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many influencers post content that I suspect is advertising."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many online sites now force users to either accept personalised ads or pay a subscription. This feels coercive and unfair."
+              },
+              {
+                "quote": "I want my search to be a **search**, not a recommendation algorithm."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In gaming, many titles dont provide proper End-of-Life (EOL) plans for the expensive games they sell."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38907,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, Thinking about bad experiences I've had online with websites or mobile apps, here are some of the practices I believe should be tackled, as they are harmful to consumers: 1. Many times, ads have pop-ups with 'Close' buttons that are either too small or invisible to click. Sometimes, there are multiple buttons, but only one actually closes the ad. 2. Some forms have pre-ticked boxes that sign you up for something extrae.g., an additional monthly subscriptionbeyond what you intended to purchase. 3. Many influencers post content that I suspect is advertising. Because this is so common, I believe users should always be provided with a specific button or UX flow to report this type of offence easilyjust like it's easy to report spam in an email client. 4. Many online sites now force users to either accept personalised ads or pay a subscription. This feels coercive and unfair. 5. Many subscription services have a very easy sign-up UX flow (i.e., a single click), but cancelling is difficult. The cancellation option is often buried in the T&Cs, and sometimes you have to phone the company instead of simply clicking a button on the same site where you signed up. 6. In gaming, many titles dont provide proper End-of-Life (EOL) plans for the expensive games they sell. I believe future games should include a clear EOL plan so that customers dont end up paying for a game that eventually becomes unplayable. These plans are rarely advertised and are usually buried in the T&Cs. I think they should be clearly included in any purchase form, so users know what to expect **before** spending what is often a large amount of money. 7. Another dark pattern I dislike is the automatic refreshing of website or app content upon opening. Instagram is particularly bad for this. I might see an interesting post, but before I can save or interact with it, it disappears due to an automated feed refresh. This seems designed to get users addicted by encouraging them to search for the lost postoften unsuccessfullyand then fall into a rabbit hole of unrelated content. 8. A poor trend Ive noticed is that search bars no longer return content relevant to the original queryor if they do, only 35 results are relevant. For example, on YouTube, a search might yield a few relevant videos, followed by a flood of recommended content based on my watch history. I want my search to be a **search**, not a recommendation algorithm. This makes it harder to discover content outside the echo chambers YouTube creates. Thanks for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.230557Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584427.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584427",
+    "chunks_doc_id": "F3584427",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "doc_id": "F3585810",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:19Z",
+    "finished_at": "2026-04-14T12:38:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that require an online connection, where the player has no way of playing the game after its lifetime has expired."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "what the customer is buying is only a license, which the seller can revoke at any time."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there should be an option to show offers specifically for me after entering my personal information."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ads should be clearly separated from the content of the website."
+              },
+              {
+                "quote": "Also, there should be no possibility that the user will mistake an ad for something that links to the continuation."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Platform Coercion",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment platforms such as Visa and Mastercard use their dominant position to force merchants to remove completely legal content from their sites simply because these Payment platforms do not like specific products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41858,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. As a citizen of the Czech Republic, I would like to express my opinion and concerns about the direction in which the digital world is heading. Just as electricity has recently become an integral part of our lives, the digital world is also becoming something that people cannot live without, and it is therefore all the more important to ensure that their rights are not infringed upon. - A large proportion of digital sellers operate on the basis that what the customer is buying is only a license, which the seller can revoke at any time. There are many examples, such as Steam, Netflix, or Spotify. We see the problem with license revocation mainly in video games that require an online connection, where the player has no way of playing the game after its lifetime has expired. We also see this with movie sellers (such as Netflix), where after the license expires, they remove the movie from the user's library even though they paid for it. Unfortunately, there are many such cases, and so far no one in the EU or the rest of the world has stood up for the rights of consumers, who have no way to defend themselves. - Payment platforms such as Visa and Mastercard use their dominant position to force merchants to remove completely legal content from their sites simply because these Payment platforms do not like specific products. Recent attacks on Steam and Itch.io are only part of what these platforms are doing. Previously, they also attacked small merchants in Japan, forcing them to delete part of their content without any legal reason. Digital money transfers are as important as electricity these days and should not be used as a tool of coercion in any way. Consumers must have the right to buy whatever they want with their money, provided that the laws of the country from which they are purchasing do not conflict with the laws of the country in which they are purchasing. Yes, it can be argued that there are other options (PayPal, etc.), but if a merchant loses the ability to use Mastercard/Visa, they will lose the vast majority of their normal customers. For this reason alone, payment platforms should not have any say in what merchants can and cannot sell. - People should have the right to find out whether they can use a service and, at the same time, the resulting price of the service without having to create an account, have their request entered into a register (e.g., a bank), or have their request denied if they decide to proceed with the proposal. I see this mainly with banks, where their websites have calculators that immediately tell customers that they can take out a loan, but after inquiring at the bank, they find out that they are not eligible for interest rate in proposal or that they are not eligible for a loan at all. All online offers should be available to all clients regardless of their personal information, or if there is a risk that personal information about the person is needed (again, banks), there should be an option to show offers specifically for me after entering my personal information. - The FBI has recommended using the internet only with an extension that automatically blocks ads. The vast majority of websites implement monetization through ads in some way, but these can be harmful or even dangerous to users. Ads should be more strictly controlled, and those who allow them to be uploaded to the system should be held responsible for their harmfulness. Ads should also not be displayed in places where users are expected to spend the most time. For example, ads should not pop up in front of users before or during video playback, but should be placed somewhere on the side of the screen. When reading an article, ads should not be in the middle of the text, but again somewhere on the sides. Ads should be clearly separated from the content of the website. Also, there should be no possibility that the user will mistake an ad for something that links to the continuation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.932612Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585810.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585810",
+    "chunks_doc_id": "F3585810",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

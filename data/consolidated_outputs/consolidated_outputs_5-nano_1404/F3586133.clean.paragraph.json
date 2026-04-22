@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586133",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:11Z",
+    "finished_at": "2026-04-14T12:48:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, games are being removed from online stores by Payment platforms, simply for being NSFW, not for any legal reasons."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Secondly, buying a game does not mean owning a game."
+              },
+              {
+                "quote": "There's nothing stopping companies from just pulling the plug on games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40959,
+          "unit_kind": "feedback"
+        },
+        "text": "Currently, games are being removed from online stores by Payment platforms, simply for being NSFW, not for any legal reasons. The implications they can just do this threatens the entire industry, not just the ones being removed. On certain sites, even horror games are starting to get targeted. If these companies are not stopped we will lose the entire industry and our hobby. Secondly, buying a game does not mean owning a game. Companies are making their consoles require internet connections to play the game, while also making sure they can use those connections to destroy your console or make it unable to connect to internet, even on mistakes. Furthermore, there's nothing stopping companies from just pulling the plug on games. The Stop Killing Game's initiative is trying to save future games by making it so developers need to plan their end of life of their games, so people who bought those games can still play them. I'd hope you can take a look at this initiative and incorporate it into this act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.109237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586133.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586133",
+    "chunks_doc_id": "F3586133",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

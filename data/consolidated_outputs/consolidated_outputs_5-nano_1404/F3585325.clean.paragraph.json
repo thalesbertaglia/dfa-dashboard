@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585325",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:14Z",
+    "finished_at": "2026-04-14T12:25:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumer protection against companies shutting down their online games we paid for as a product (not service)."
+              },
+              {
+                "quote": "a game which a lot of us purchased can no longer be played because Ubisoft shut down their servers and made a purchased product unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16163,
+          "unit_kind": "feedback"
+        },
+        "text": "Please note that my name - which I cannot edit when I log in via Google - is not Zathrus Writer but a Google nickname I chose when I created the account. My real name is Martin Ambrus. Thank you. Digital Fairness Act sounds like an amazing initiative to include one additional point - consumer protection against companies shutting down their online games we paid for as a product (not service). We recently saw this with The Crew as a great example - a game which a lot of us purchased can no longer be played because Ubisoft shut down their servers and made a purchased product unplayable. There is a growing number of people who start noticing this and reacting - a good example being the \"Stop Killing Games\" initiative EU petition, which by now has almost 1,5 million signatures. I would vouch for adding the point of companies to stop \"killing\" games (products) we purchased into this initiative, as a possible resolution could not only help citizens of EU (and potentially on the whole Earth) but also increase the popularity of European Union and its lawmaking process as a whole. That - in my eyes - is a win-win for everyone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.681409Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585325.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585325",
+    "chunks_doc_id": "F3585325",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

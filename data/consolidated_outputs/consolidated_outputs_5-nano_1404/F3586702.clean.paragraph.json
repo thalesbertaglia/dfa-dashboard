@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586702",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:08Z",
+    "finished_at": "2026-04-14T13:02:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would really think that this should include Videogames as well."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you just \"buy\" a \"license\" which can be revoked for any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24533,
+          "unit_kind": "feedback"
+        },
+        "text": "I enjoy living in the EU and i like how progressive we all have become, even with some minor setbacks here and there. That said, i would really think that this should include Videogames as well. Currently, mostly US based, cooperations try to limit Videogames as much as possible. Always need to be online, even if there is no logical reason for it, no physical medias and the ability to remove the game from your ownership at any point for basically any reason. Even just having your account banned is enough, to loose access to all your games you bought and having no possibility for a refund. This is all bein reasoned that you just \"buy\" a \"license\" which can be revoked for any reason. Actually really buying a videogame is basically impossible nowadays. I think therefore videogames should be considered as well in this Fairness Act, especially to make it more fair on the consumer side. Thanks for reading!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.324718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586702.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586702",
+    "chunks_doc_id": "F3586702",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

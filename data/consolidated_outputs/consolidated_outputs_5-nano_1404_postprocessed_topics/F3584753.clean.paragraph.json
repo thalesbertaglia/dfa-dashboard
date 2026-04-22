@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584753",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:50Z",
+    "finished_at": "2026-04-14T12:09:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digitally bought video games,"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pay monthly subscription"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we have no ownership over games we paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39367,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, I'm writing this with hopes this part gets more regulated. Us, customers of digitally bought video games, I feel are getting ripped off as we have no ownership over games we paid for. At any moment games (even games that dont require online connection) can be taken from us, without any good reason and without us being eligible for any refund. Regarding online games I feel it's ever worse, as in most cases we are required to buy those games, then either pay monthly subscription or indulge into microtransactions, having to pay multiple hundreds even thousands of euros over some amounts of time, and then overnight it can be all taken away, on a whim. I feel video games industry needs to be regulated by laws, as their self-regulation serves only their agendas. Thank you in advance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.389603Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584753.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584753",
+    "chunks_doc_id": "F3584753",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584753.clean.paragraph.json"
+}

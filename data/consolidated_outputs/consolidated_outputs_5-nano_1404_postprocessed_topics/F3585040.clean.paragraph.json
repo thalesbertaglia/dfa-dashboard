@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585040",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:41Z",
+    "finished_at": "2026-04-14T12:18:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying software and video games that were fully paid for."
+              },
+              {
+                "quote": "once the publisher closes those online servers, the video game becomes completely unusable in a lot of cases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12529,
+          "unit_kind": "feedback"
+        },
+        "text": "To whom it may concern, As part of the feedback campaign for the Digital Fairness Act, I would like to bring to your attention an issue that is gaining traction amongst consumers: being protected against publishers destroying software and video games that were fully paid for. Since there is no legislation about the end-of-life of purchased software, publishers are free to destroy or render unusable software or video games that were purchased legally. This can happen when software or video games depend on online servers: once the publisher closes those online servers, the video game becomes completely unusable in a lot of cases. This can happen both intentionally and unintentionally. This would be the same as: 1. Buying an expensive car that requires some online connectivity to work. 2. The car manufacturer fails, and they cannot maintain the online infrastructure anymore. 3. The car stops working since it cannot connect to the online servers of the manufacturer for a critical component of the system. This is an extreme and hypothetical example, as cars are better regulated, but this is exactly what is happening with software and video games. It would be unacceptable if this happened with a car, so the same should apply to software and video games.Software and video games are consider goods, so they should be better protected to increase our consumer rights. There is an Citizen European Initiative about this matter called Stop Destroying Videogames. The initiative has already reached 1M signatures, which means the demand to legislate on the matter is for sure there! I think the Digital Fairness Act is a great occasion to discuss and legislate on this issue, so I hope you will take this into consideration during the discussion. Thanks for reading my feedback! Best regards, Federico",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.566324Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585040.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585040",
+    "chunks_doc_id": "F3585040",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585040.clean.paragraph.json"
+}

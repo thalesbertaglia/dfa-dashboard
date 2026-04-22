@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586206",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:31Z",
+    "finished_at": "2026-04-14T12:51:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the blurred definitions of \"goods\" and \"licenses\" in the gaming industry"
+              },
+              {
+                "quote": "\"a video game\" is merely a license"
+              },
+              {
+                "quote": "They then abuse this position to restrict access to the product or even render it permanently unusable, only to resell it under another license when it becomes financially advantageous."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 55071,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for this long-overdue Digital Fairness Act. You are doing important work, and if I may add one suggestion, it would be to investigate how gaming companies exploit the blurred definitions of \"goods\" and \"licenses\" in the gaming industry. Too many publishers advertise video games as goods, only to later make consumers sign a CLUF that waives their ownership rights, claiming that the product they bought \"a video game\" is merely a license. They then abuse this position to restrict access to the product or even render it permanently unusable, only to resell it under another license when it becomes financially advantageous. Most of the time, however, the product is simply lost forever. These practices must end, and the Digital Fairness Act is already a step in the right direction against such digital unfairness. Video games need to be clearly recognized as what they are \"goods\" and must not be taken away from the buyer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.153721Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586206.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586206",
+    "chunks_doc_id": "F3586206",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

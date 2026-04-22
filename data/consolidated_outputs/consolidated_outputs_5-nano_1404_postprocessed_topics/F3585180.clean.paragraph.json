@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585180",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:03Z",
+    "finished_at": "2026-04-14T12:22:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Except as expressly stated otherwise herein or to the extent required by law, all payments and fees are non-refundable under all circumstances, regardless of whether or not this Agreement has been terminated."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12081,
+          "unit_kind": "feedback"
+        },
+        "text": "EU: *trying to regulate gaming* Publishers: Hold my ̶b̶e̶e̶r̶ EULA Epic Games as a example. Ubisoft, EA etc have similar legal text. 9. Termination Without limiting any other rights of Epic, this Agreement will terminate automatically without notice if you fail to comply with any of its terms and conditions. You may also terminate this Agreement by deleting all copies of the Software. Upon any termination, the License will automatically terminate, you may no longer exercise any of the rights granted to you by the License, and you must destroy all copies of the Software in your possession. Except as expressly stated otherwise herein or to the extent required by law, all payments and fees are non-refundable under all circumstances, regardless of whether or not this Agreement has been terminated. Sections 2, 4-13, 15-17 will survive any termination of this Agreement.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.626088Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585180.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585180",
+    "chunks_doc_id": "F3585180",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585180.clean.paragraph.json"
+}

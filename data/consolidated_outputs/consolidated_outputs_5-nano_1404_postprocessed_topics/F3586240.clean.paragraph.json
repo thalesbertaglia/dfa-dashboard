@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586240",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:27Z",
+    "finished_at": "2026-04-14T12:52:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game gambling"
+              },
+              {
+                "quote": "DLCs or microtransactions"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there needs to be more regulation around social media influencer advertising, as it seems like they have free reign to try to hide it and subconsciously get positive associations with some products to try to get you to buy it."
+              },
+              {
+                "quote": "the UK's need for a tag like #AD is pretty useful still in discerning what's a genuine recommendation and a product placement."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42517,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! This seems like a great initiative and I've been waiting a long time to see things like video game gambling as to finally be tackled as someone who grew up with it as a kid, however I think it could be even better if the protection of software like video games would be included into the digital fairness act. I personally have previous experience with games reliant on the developer/publisher keeping their servers up for like what happened to Transformers: War for Cybertron which I loved playing as a child, and would like for there to be forced alternatives like giving us tools to host our own servers which I've done previously for other games that do provide the tools necessary for this like ArmA or Minecraft, or for in cases like DiRT Rally 2.0 remove the unnecessary need for connecting to their servers in the single player modes which make the game unplayable whenever the developer's servers go offline which happens once a month usually, which also puts it at a big risk of being permanently shut down when EA pulls the plug on Codemasters' servers for anything other than the ongoing F1 series they're putting all their focus into, which is currently happening to other games from EA like NFS:Rivals, FIFA 23, Anthem and others this October. I would love to see something vaguely like this be implemented, because there's a lot of games that are at a big risk of becoming lost or unplayable permanently due to short sightedness and profit seeking from the developers and publishers, despite whatever large amounts of money people have already invested into those games not only in buying them but also purchasing extras like DLCs or microtransactions. I also think that there needs to be more regulation around social media influencer advertising, as it seems like they have free reign to try to hide it and subconsciously get positive associations with some products to try to get you to buy it. I get this one might be more tricky as a lot of influencers that EU citizens watch aren't in the EU and thus getting them to properly disclose it might be tricky, but I think something like the UK's need for a tag like #AD is pretty useful still in discerning what's a genuine recommendation and a product placement. Kind regards, Philip Jensen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.171141Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586240.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586240",
+    "chunks_doc_id": "F3586240",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586240.clean.paragraph.json"
+}

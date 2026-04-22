@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585510",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:23Z",
+    "finished_at": "2026-04-14T12:29:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games we already bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14227,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is quite good on it's own but it's missing something. For years Game Developers and Publishers have taken away the video games we already bought. I Myself owned the video game \"The Crew\" which has since been shutoff in a way which makes it impossible to play again. It's not okay for these People to take away our goods which we have already bought. I think i can speak for almost every Gamer worldwide when i say that adding Laws for this kind of topic in the Digital Fairness Act would benefit Gamers worldwide greatly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.780114Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585510.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585510",
+    "chunks_doc_id": "F3585510",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586287",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:53Z",
+    "finished_at": "2026-04-14T12:53:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames that are single-player"
+              },
+              {
+                "quote": "Some games need an online connection, even if you want to play by yourself offline."
+              },
+              {
+                "quote": "When servers on the companies get shutdown, these games become unusable."
+              },
+              {
+                "quote": "I paid for them, so it is a reasonable ask that I can play them offline by myself."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27629,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I'm from Spain and I would like to ask my European representatives to consider including some videogames related protection in the Digital Fairness Act. Specially related to videogames that are single-player, like car games, stealth, adventure, etc. and their end of support. Some games need an online connection, even if you want to play by yourself offline. When servers on the companies get shutdown, these games become unusable. I paid for them, so it is a reasonable ask that I can play them offline by myself. In most cases companies will just need to issue a small change to remove the online connection validation. Image being unable to play FIFA at home playing against the console, just because they lose the license. Such a small change is very important for us consumers, so please take into consideration this ask. Thanks!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.189195Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586287.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586287",
+    "chunks_doc_id": "F3586287",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

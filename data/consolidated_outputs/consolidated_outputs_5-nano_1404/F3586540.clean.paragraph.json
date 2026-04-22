@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586540",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:46Z",
+    "finished_at": "2026-04-14T12:59:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "owning the bought software."
+              },
+              {
+                "quote": "disable those games without clear reason or consequence."
+              },
+              {
+                "quote": "The publisher removed it from stores and also disabled the ability to play iteven offlinefor those who had already bought it."
+              },
+              {
+                "quote": "This is a clear violation of customer rights."
+              },
+              {
+                "quote": "Theres also a game called Concord that was shut down just a few weeks after launch, without any refunds to customers who had purchased it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46851,
+          "unit_kind": "feedback"
+        },
+        "text": "This act should also include the problematic question of \"owning the bought software.\" These days, a lot of companiesespecially game publishersare \"selling\" their games to customers but retain the ability to disable those games without clear reason or consequence. This violates the rights of customers in the EU. There is a European initiative fighting for this called \"Stop Killing Games,\" and it already has 1,440,825 signatures across the EU. This should absolutely be included in the act. As a gamer, I hope that we can create more convenient and fair conditions for the game market with the help of the Stop Killing Games initiative. Also, I want to include some examples of this problem. First, theres a game called The Crew, which had paying players. The publisher removed it from stores and also disabled the ability to play iteven offlinefor those who had already bought it. This is a clear violation of customer rights. Theres also a game called Concord that was shut down just a few weeks after launch, without any refunds to customers who had purchased it. Thats also a clear violation of customer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.277588Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586540.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586540",
+    "chunks_doc_id": "F3586540",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

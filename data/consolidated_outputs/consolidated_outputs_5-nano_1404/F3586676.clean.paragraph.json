@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586676",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:42Z",
+    "finished_at": "2026-04-14T13:02:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terminating games without providing players with the opportunity to experience the games offline."
+              },
+              {
+                "quote": "Having customers pay for a full priced game and completely removing access from the game just because they deemed it so."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18138,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness act is a much needed movement to make the gaming sphere, and generally online practices, a better place for everyone. I would like to bring to attention the Stop Killing Games movement that, as of the time of writing this, has accumulated 1,441,131 signatures. The movement would align perfectly with the The Digital Fairness act in giving consumers a safer and better place. Many companies have been terminating games without providing players with the opportunity to experience the games offline. Companies like Zynga (with their many games that are no longer available), Xbox (with games like Age of Empires: Castle Siege, Fable Legends, Forza series of games, Xbox fitness and more), Warner Bros. (with games like Westworld Mobile, Asheron's Call 2: Fallen Kings and possibly more), Ubisoft (with games like AirMech Arena, Assassin's Creed Identity, Hyper Scape, Might & Magic games, R.U.S.E, The Crew, Tom Clancys Ghost Recon Phantoms and more). With the Ubisoft's \"The Crew\" being the most egregious one. Having customers pay for a full priced game and completely removing access from the game just because they deemed it so. Games should have an end of life plan in one way or another. Either have the game completely playable in offline mode or give players the ability to preserve the game via hosting servers and such. Practices like these are extremely predatory and unfair towards the consumer and should be looked at. Another issue to look at is the recent MasterCard and Visa situation. Payment providers should not be able to remove thousands of games in one fell swoop just because a group of activists the \"Collective Shout\" think they know what's better for fully functioning adults.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.317375Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586676.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586676",
+    "chunks_doc_id": "F3586676",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

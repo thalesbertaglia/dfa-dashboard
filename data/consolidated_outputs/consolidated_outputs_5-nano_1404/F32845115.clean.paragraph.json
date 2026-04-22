@@ -1,0 +1,71 @@
+{
+  "doc_id": "F32845115",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:10Z",
+    "finished_at": "2026-04-14T09:27:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "directly preventing us from installing third-party applications would be to cross a very serious line."
+              },
+              {
+                "quote": "Giving Google the ability to block this option would not only limit that freedom, but also strengthen its dominance in the market, reducing competition and closing the door to innovation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16417,
+          "unit_kind": "feedback"
+        },
+        "text": "I have always used Android and preferred it because it offered users the freedom to manage their devices in their way. I understand digital security as a matter of priority and necessary, and I agree that measures to protect us should be strengthened. But directly preventing us from installing third-party applications would be to cross a very serious line. Users should retain the right to decide what to install on our own devices, just as we have freedom of choice in the physical world. Giving Google the ability to block this option would not only limit that freedom, but also strengthen its dominance in the market, reducing competition and closing the door to innovation. Security should not become an excuse to restrict rights or to give more power to a single company. What we need are solutions that protect users without depriving them of their ability to choose.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.452666Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32845115.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32845115",
+    "chunks_doc_id": "F32845115",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

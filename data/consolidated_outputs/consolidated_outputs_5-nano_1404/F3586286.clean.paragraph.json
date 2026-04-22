@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586286",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:48Z",
+    "finished_at": "2026-04-14T12:53:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Adobe forcing consumers to pay a fee for unsubscribing early from a year-long plan."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "regulations targeting video game publishers and developers suddenly shutting off game and authorization servers, blocking the access to the video game for consumers who paid for it and who will never be able to make a use of this purchase again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19211,
+          "unit_kind": "feedback"
+        },
+        "text": "Please take a look at Adobe forcing consumers to pay a fee for unsubscribing early from a year-long plan. I believe it is a very predatory practice. Also I'd love to see regulations targeting video game publishers and developers suddenly shutting off game and authorization servers, blocking the access to the video game for consumers who paid for it and who will never be able to make a use of this purchase again. See Stop Killing Games movement for more info.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.188780Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586286.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586286",
+    "chunks_doc_id": "F3586286",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

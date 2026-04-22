@@ -1,0 +1,96 @@
+{
+  "doc_id": "F33079855",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:00Z",
+    "finished_at": "2026-04-14T09:30:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Bootloader Unlocking",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, several manufacturers have begun locking down bootloaders in the EU, effectively making it impossible for us to install custom operating systems."
+              }
+            ]
+          },
+          {
+            "topic": "Right To Repair",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "- It restricts our right to repair and modify the devices we legally purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Support Lifecycle Duration",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "- It shortens device lifespan by eliminating options to update unsupported hardware with secure, up-to-date software."
+              }
+            ]
+          },
+          {
+            "topic": "Bootloader Unlocking",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I strongly urge the Commission to clarify that consumer ownership rights include the ability to unlock bootloaders and install non-commercial, privacy-enhancing software, so long as compliance with radio and safety requirements is maintained."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26900,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU consumer, I support robust digital rights and appreciate the EUs continued focus on protecting users from unfair, manipulative, and opaque digital practices. However, I have growing concerns about the unintended consequences of how recent and forthcoming regulations, especially when interpreted in relation to device firmware and bootloader policies, are impacting our user rights, privacy, and device longevity. Currently, several manufacturers have begun locking down bootloaders in the EU, effectively making it impossible for us to install custom operating systems. While this is not a direct requirement of the Digital Fairness Act or other consumer protection laws, it is being justified by industry as a response to the evolving regulatory environment. This move undermines our consumer freedom in several key ways: - It restricts our right to repair and modify the devices we legally purchase. - It prevents us from maintaining security and privacy through trusted custom operating systems. - It shortens device lifespan by eliminating options to update unsupported hardware with secure, up-to-date software. - It contradicts the spirit of digital fairness and empowerment which the Act seeks to promote. For example, many Windows PCs today allow users to install a Linux-based distribution alongside Windows using a dual boot setup that supports Secure Boot. This means users can securely run their preferred Linux OS without compromising the Windows security model or the devices firmware integrity. Such setups demonstrate that maintaining Secure Boot compatibility does not require locking the bootloader completely or barring user modifications. Users can still benefit from security assurances while retaining freedom to use alternative OSes. I strongly urge the Commission to clarify that consumer ownership rights include the ability to unlock bootloaders and install non-commercial, privacy-enhancing software, so long as compliance with radio and safety requirements is maintained. Clear guidance and safeguards should be established to ensure consumers are not forced to accept only manufacturer-controlled software. Ensuring digital fairness means not only shielding us from manipulation but also empowering us to control, repair, and enhance our digital lives.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.530094Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079855.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079855",
+    "chunks_doc_id": "F33079855",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33079855.clean.paragraph.json"
+}

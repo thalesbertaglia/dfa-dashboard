@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585469",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:18Z",
+    "finished_at": "2026-04-14T12:29:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "drm for the game destroyed my ability to play it on a modern PC."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the original TrackMania"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43798,
+          "unit_kind": "feedback"
+        },
+        "text": "I have a game that's very dear to my heart, the original TrackMania, because I used to play it with friends. Back then I had no PC where I would install it, and I bought it later just when the drm for the game destroyed my ability to play it on a modern PC. If I want to play it, I have to scour the dark sides of the Internet to find a cracked version of the game that's probably infested with malware. Is the DRM didn't exist, this game could easily be ported to modern PCs by talented programmers, but instead, it died a quiet death.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.758734Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585469.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585469",
+    "chunks_doc_id": "F3585469",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

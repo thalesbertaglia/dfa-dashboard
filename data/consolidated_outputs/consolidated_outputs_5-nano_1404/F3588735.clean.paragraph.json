@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588735",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:28Z",
+    "finished_at": "2026-04-14T13:25:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game developers not leaving their games in a playable state after ending their live support (see: Stop Killing Games EU Initiative)"
+              },
+              {
+                "quote": "I bought a game called \"The Crew\" from Ubisoft for 60 a few years back. It was not said anywhere that the game could not be played after 31.3.2024, when the servers were shutdown."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13684,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness Act is something I can really get behind. I got introduced to it recently and I am really happy that positive things are happening on a larger scale in the digital field. However I feel like the issue of game developers not leaving their games in a playable state after ending their live support (see: Stop Killing Games EU Initiative) could be included to the Digital Fairness Act. See, I bought a game called \"The Crew\" from Ubisoft for 60 a few years back. It was not said anywhere that the game could not be played after 31.3.2024, when the servers were shutdown. I even tried contacting Ubisoft for a refund, but they were not going to refund me anything. This is a personal experience from a widespread issue in the gaming industry and I think that Digital Fairness Act is could be a great tool to try to fix it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.680948Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588735.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588735",
+    "chunks_doc_id": "F3588735",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

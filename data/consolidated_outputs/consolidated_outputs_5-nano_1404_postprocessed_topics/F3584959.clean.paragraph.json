@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584959",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:02Z",
+    "finished_at": "2026-04-14T12:16:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games ownership"
+              },
+              {
+                "quote": "the servers were shut down after just 2 weeks of being live."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23867,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I believe this innitiative could also benefit from supporting video games ownership. There is already a European movement called Stop Killing Games that is trying to prevent nefarious companies from pulling the rug from under the consumers that bought their games by shutting off the servers completely defending this by gaslighting the consumers with \"you don't own a game, you own a licence to a game\". I see in many places examples like Ubisoft's the Crew and while it is the most well known, here is a more recent example: Concord - a live game that cost 40$ (I believe) at launch and the servers were shut down after just 2 weeks of being live. Also this is not at all a new practice. And where I find this as a big problem is with console games, most specifically Nintendo Games. This is a bit of a gray area, but still related to games preservation because most of the games on their older consoles can only be played on emulators, which Nintendo doesn't approve at all, going as far as to take legal action for streaming games on emulators, or taking down videos, thus affecting the creator's revenue",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.524807Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584959.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584959",
+    "chunks_doc_id": "F3584959",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584959.clean.paragraph.json"
+}

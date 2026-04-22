@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586012",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:28:36Z",
+    "finished_at": "2026-04-15T08:29:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "predatory monetization (e.g., loot boxes, battle passes)",
+              "intentional video game designs to incentivize players to purchase micro-transactions"
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "shutting down central servers upon which video games rely, thus rendering video games permanently inaccessible to consumers"
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Currently, there are no protections for consumers, allowing providers to unilaterally revoke access to purchased digital products.",
+              "Another protections should ensure that providers cannot revoke access to purchased software and must provide means for consumers to use older versions if they wish to use it."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36835,
+          "unit_kind": "feedback"
+        },
+        "text": "There's a dire need for robust consumer protections when it comes to software, video games, operating systems, and other digital products. Providers/sellers of such products should never have the right or means to revoke access to software or render it dysfunctional, especially if it was purchased or previously provided for free. Furthermore, nowadays, software and digital products are frequently updated, often in ways that may not align with consumer preferences. Features may be removed, designs can be altered, and system requirements increased, leaving consumers with a product they no longer prefer and no means to revert to previous versions. This practice is unfair and intentional. Many digital products, from open-source to proprietary, maintain versioning and allow access to older versions. There is no valid reason to deny consumers access to older versions of software, especially if the provider can be absolved of liability for issues arising from the use of outdated versions. A common example of such issues can be found in the video game industry among many others. It has become a significant part of our cultural and economic landscape, but it has also become a front-runner in deterioration of consumers rights when it comes to ownership of (digital) products and implementation of troubling practices over the years. Such as predatory monetization (e.g., loot boxes, battle passes), intentional video game designs to incentivize players to purchase micro-transactions and many others. Possibly the worst practices in the industry is the ongoing and ever-increasing trend of publishers shutting down central servers upon which video games rely, thus rendering video games permanently inaccessible to consumers. This practice effectively \"destroys\" games that consumers have paid for and also erodes the cultural significance and historical value of these digital works. This problem is not limited to video games; it can affect any industry and products, such as cars, prosthetics, and smartphones. Currently, there are no protections for consumers, allowing providers to unilaterally revoke access to purchased digital products. It is also important to note that the industry might attempt to circumvent regulations by pushing for more video games to be released as services rather than one-time purchase digital goods. This shift could allow publishers to \"destroy\" games by discontinuing such \"services\", thereby undermining the intent of any regulation attempting to tackle this practice. Therefore, any new rules should account for this potential shift to services. I also want to highlight the ongoing European Citizens' Initiative, \"Stop Destroying Videogames\" that has gathered over 1.4 million signatures and demonstrated strong public support for addressing this issue. Additionally, a UK parliament petition with nearly 190,000 signatures calls for a ban on this practice. To address this, the Digital Fairness Act should include provisions to protect consumers from such practices. One effective solution to solve the video game destruction issue is to require video game publishers/developers to have an end-of-life plan for their games, ensuring that consumers can continue to access and play their purchased games even if the publisher shuts down central servers. Another protections should ensure that providers cannot revoke access to purchased software and must provide means for consumers to use older versions if they wish to use it. This will safeguard consumers' rights and preserve our digital cultural heritage. One more topic is the payment processors (e.g., Visa, Mastercard) trying to policy what kind of purchase are or aren't allowed to be made and being able to blacklist (digital) marketplaces/platforms from using their services to facilitate payments for their customers. Regulating purchases should be the responsibility of governmental bodies, not private corporations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.035246Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586012.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586012",
+    "chunks_doc_id": "F3586012",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

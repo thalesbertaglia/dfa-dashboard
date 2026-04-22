@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585760",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:01Z",
+    "finished_at": "2026-04-14T12:36:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nintendo has started selling physical cartridges that contain only download codes for their eShop, rather than the actual games."
+              },
+              {
+                "quote": "Furthermore, an executive from Ubisoft has stated that gamers should get comfortable with not owning their games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11358,
+          "unit_kind": "feedback"
+        },
+        "text": "It is becoming clearer and clearer that the definitions of \"purchase\" and \"ownership\" have completely eroded when it comes to digital goods. Nintendo has started selling physical cartridges that contain only download codes for their eShop, rather than the actual games. Furthermore, an executive from Ubisoft has stated that gamers should get comfortable with not owning their games. These are just two examples of companies displaying anti-consumer practises and convictions. Both Nintendo and Ubisoft are members of the trade association, Video Games Europe. The European Citizens' Initiative, Stop Destroying Videogames, has amassed more than one million signatures. As a result the aforementioned Video Games Europe released a statement against the initiative. In by opinion, their statement relies on bad-faith arguments leading me to conclude that the association does not prioritize consumer interests. Therefore, I would like to see the Digital Fairness Act address the issues brought up in the Stop Destroying Videogames initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.906982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585760.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585760",
+    "chunks_doc_id": "F3585760",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

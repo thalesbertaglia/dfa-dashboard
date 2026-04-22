@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588978",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:07Z",
+    "finished_at": "2026-04-14T13:27:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers of video games from abandoning its older titles"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14155,
+          "unit_kind": "feedback"
+        },
+        "text": "There exists a movement called \"stop killing games\" It aims to prevent publishers of video games from abandoning its older titles to be unsupported on newer hard & software. Something that as time progresses, becomes an increasing issue for those passionate about it. The publishers either do not support or refuse to give the tools (think making the game open-source or a piece of software) to let people do it themselves. Another element of this is that the consumer gains increasingly less influence over the publisher and its abandonware titles. Which longterm will harm us, this being my concern I believe these values align with this specific element of EU law and is worth following trough on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.713486Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588978.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588978",
+    "chunks_doc_id": "F3588978",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

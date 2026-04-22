@@ -1,0 +1,122 @@
+{
+  "doc_id": "F3659568",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:23Z",
+    "finished_at": "2026-04-14T13:45:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Developer Verification Requirement",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "planning to roll put mandatory verification for ALL app developers that want to distribute apps on Android, not just the Play store where this was already required."
+              }
+            ]
+          },
+          {
+            "topic": "Linking Developer Identity To Apps",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "verify the ID of the developer and link them to their apps."
+              }
+            ]
+          },
+          {
+            "topic": "Monitoring Developer Activity",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This allows them to monitor developer activity and limit or censor apps they do not like."
+              }
+            ]
+          },
+          {
+            "topic": "App Censorship Power",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "limit or censor apps they do not like."
+              }
+            ]
+          },
+          {
+            "topic": "Forbidding Installation / Legal Action Against Developers",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This change would give Google the power to completely forbid their installation or pursue legal action against the devlopers."
+              }
+            ]
+          },
+          {
+            "topic": "Ad-blocking / Circumventing Payments On YouTube",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "these apps aren't on Google Play Store because they violate Youtube's ToS (blocking ads/circumvating payment)."
+              }
+            ]
+          },
+          {
+            "topic": "Abuse Of Dominance / Conflict Of Interest",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This creates a conflict of interest and will allow Google to exploit their dominant market position."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44055,
+          "unit_kind": "feedback"
+        },
+        "text": "Google is planning to roll put mandatory verification for ALL app developers that want to distribute apps on Android, not just the Play store where this was already required. This can severely limit the developers' and users' freedom of choosing what apps to install as Google has to verify the ID of the developer and link them to their apps. This allows them to monitor developer activity and limit or censor apps they do not like. For example there are apps (Newpipe, Revanced) that offer a better Youtube experience for free. These apps aren't on Google Play Store because they violate Youtube's ToS (blocking ads/circumvating payment). This change would give Google the power to completely forbid their installation or pursue legal action against the devlopers. This creates a conflict of interest and will allow Google to exploit their dominant market position.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.067358Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3659568.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3659568",
+    "chunks_doc_id": "F3659568",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

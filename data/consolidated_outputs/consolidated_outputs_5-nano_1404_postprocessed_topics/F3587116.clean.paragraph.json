@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587116",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:36Z",
+    "finished_at": "2026-04-14T13:10:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames are art and should be literally defended against their destruction or removal from the consumers who bought the game."
+              },
+              {
+                "quote": "The person buying the product should be able to use it, just as the players could have been able to use it a few decades ago during the time of CDs or cartridges that still exist and operate today."
+              },
+              {
+                "quote": "Hundreds of cultural games are in danger today, many of them even do not have a video footprint or in gaming newspapers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21787,
+          "unit_kind": "feedback"
+        },
+        "text": "Good morning. Over the past years, I have been passionate and still passionate with video games. With recent reports from developers and large studios creating video games, I am afraid of archiving and survival. In my view, videogames are art and should be literally defended against their destruction or removal from the consumers who bought the game. The person buying the product should be able to use it, just as the players could have been able to use it a few decades ago during the time of CDs or cartridges that still exist and operate today. Even if I wanted to do so, I no longer work and a code that may not exist/acts at any time is sold. Hundreds of cultural games are in danger today, many of them even do not have a video footprint or in gaming newspapers. I do not want a world where culture is destroyed in my eyes, just as it was destroyed in the 20th century by burning books. Thank you for the hearing",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.440525Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587116.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587116",
+    "chunks_doc_id": "F3587116",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587116.clean.paragraph.json"
+}

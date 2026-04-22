@@ -1,0 +1,116 @@
+{
+  "doc_id": "F3584667",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:53Z",
+    "finished_at": "2026-04-14T12:06:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              },
+              {
+                "quote": "addictive design of digital products"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair personalisation practices."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing by influencers"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory pricing with gambling mechanics"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "withdrawing licenses from customers without notice"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45062,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should also include video games. The act aims to adress the following: 1 unfair commercial practices related to dark patterns 2 misleading marketing by influencers 3 addictive design of digital products 4 unfair personalisation practices. All of these are currently present in the video game industry as we speak and as a digital, cultural works, they and us consumers deserve protection from companies seeking to erode our rights through unfair business practices such as: - withdrawing licenses from customers without notice or -predatory pricing with gambling mechanics that (referring to the addictive design stated in the summary of the Digital Fairness Act) Kind regards",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.345479Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584667.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584667",
+    "chunks_doc_id": "F3584667",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

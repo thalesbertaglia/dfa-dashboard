@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587076",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:29Z",
+    "finished_at": "2026-04-14T13:09:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "arbitrarily reach end of life"
+              },
+              {
+                "quote": "actively try to stop you from playing them by shutting down"
+              },
+              {
+                "quote": "not rented until the seller decides to pull the plug"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24637,
+          "unit_kind": "feedback"
+        },
+        "text": "My issue is with purchased software and especially games, that arbitrarily reach end of life and the companies that have SOLD these games actively try to stop you from playing them by shutting down even independent efforts to make them playable/runnable be it through emulation or whatnot. The Stop Killing Games citizens initiative lays a good ground work for a solution in this area for future games, but I'd like to see this for current software, including games, which have been SOLD, and not rented until the seller decides to pull the plug.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.426599Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587076.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587076",
+    "chunks_doc_id": "F3587076",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587076.clean.paragraph.json"
+}

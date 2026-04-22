@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584790",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:16Z",
+    "finished_at": "2026-04-14T12:10:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "they are no longer being made with a long-term plan in mind, for what happens after the video game loses support from the developers."
+              },
+              {
+                "quote": "Which results in situations like Ubisoft's \"The Crew\", where players were locked out of playing the game they had paid for."
+              },
+              {
+                "quote": "\"Stop killing games\" calls for end-of-life plans to be put in place for games like \"The Crew\", so consumers can keep the product they paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29899,
+          "unit_kind": "feedback"
+        },
+        "text": "I have played many video games in my life, and still do. However today, the world of video games has changed a lot. They are no longer being made with a long-term plan in mind, for what happens after the video game loses support from the developers. Which results in situations like Ubisoft's \"The Crew\", where players were locked out of playing the game they had paid for. A movement called \"Stop killing games\" calls for end-of-life plans to be put in place for games like \"The Crew\", so consumers can keep the product they paid for. I whole-heartedly support this movement, and think the Digital Fairness Act could cover such issues as these, and help protect customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.435958Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584790.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584790",
+    "chunks_doc_id": "F3584790",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585781",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:39Z",
+    "finished_at": "2026-04-14T12:36:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When Ubisoft shut down its servers, the game became completely unplayableeven for people who had paid full price for it."
+              },
+              {
+                "quote": "However, when I buy a game, I want to be sure that I can still enjoy it one year, five years, or even twenty years later."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20684,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello to anyone reading this, I recently discovered the Digital Fairness Act, and I want to express my strong support for it. This Act should have existed a long time ago, but Im glad we may finally see it implemented. I would also like to contribute some thoughts based on my personal experience. I have been playing video games since early childhood. Unfortunately, over the years, as many video game companies began prioritizing profit above all else, the quality of their products declined significantly. One particularly troubling trend is how companies have normalized the idea that consumers do not truly own the games they purchase. In my opinion, the Digital Fairness Act should include protections for consumers against such practicesespecially cases where developers or publishers can shut down access to games that people have paid for. I fully respect the intellectual property rights of developers, and I am not advocating for ownership of their creations. However, when I buy a game, I want to be sure that I can still enjoy it one year, five years, or even twenty years later. A well-known example is the game The Crew by Ubisoft. When Ubisoft shut down its servers, the game became completely unplayableeven for people who had paid full price for it. Essentially, they were left with nothing. In my own experience, Ive faced a similar issue with Ubisofts Splinter Cell series. The games included multiplayer modes, but Ubisoft disabled the servers, making online play officially impossible. If they had simply allowed players to host dedicated servers themselves, this problem could have been avoided entirely. Please consider including provisions in the Act to protect consumers from losing access to digital products they have legally purchased. Gamersand digital consumers in generaldeserve fair treatment and long-term access to the content they buy. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.917228Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585781.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585781",
+    "chunks_doc_id": "F3585781",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585781.clean.paragraph.json"
+}

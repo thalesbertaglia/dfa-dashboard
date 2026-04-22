@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587113",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:36Z",
+    "finished_at": "2026-04-14T13:11:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the need to always be online, making it impossible to play as an individual player without having an active connection to the internet"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Putting in place certain safeguards for consumers would make it possible to ensure that they bought a product (and not rented it), and to safeguard the product itself even when the publisher decides not to assume it anymore for any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37876,
+          "unit_kind": "feedback"
+        },
+        "text": "I consider that it is only correct that consumers may have the possibility to preserve a purchased good, in particular when it is an interactive work, which can be enjoyed more than once and at different times over time. Very often video companies (in particular large studios) apply apparent safeguards against piracy, but which harm consumers, such as the need to always be online, making it impossible to play as an individual player without having an active connection to the internet, or the possibility of withdrawing the product from one time to the next, making it impossible to interact (even not online). Putting in place certain safeguards for consumers would make it possible to ensure that they bought a product (and not rented it), and to safeguard the product itself even when the publisher decides not to assume it anymore for any reason.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.439984Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587113.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587113",
+    "chunks_doc_id": "F3587113",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587113.clean.paragraph.json"
+}

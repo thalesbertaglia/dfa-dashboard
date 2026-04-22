@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3584691",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:38Z",
+    "finished_at": "2026-04-14T12:07:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are documented cases where consumers have purchased games which were later rendered unplayable or entirely removed by publishers, without compensation or lasting access."
+              },
+              {
+                "quote": "Examples include Darkspore (EA) and Hyper Scape (Ubisoft), which were both delisted and shut down, despite being paid products or offering in-game purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Additionally, manipulative practices in multiplayer game matchmaking should be examined."
+              },
+              {
+                "quote": "Some companies have patented systems that match paying players (e.g., those who buy cosmetic skins or gambling-related items) with weaker opponents to increase perceived value or encourage further spending."
+              },
+              {
+                "quote": "These mechanisms exploit consumer psychology and are especially harmful to minors, who are particularly vulnerable to gambling-like systems and artificial performance boosts."
+              },
+              {
+                "quote": "Matchmaking systems are transparent and fair, without hidden monetisation manipulation."
+              },
+              {
+                "quote": "Gambling-like mechanisms and behavioral manipulation through matchmaking are restricted, especially when minors are involved."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 59022,
+          "unit_kind": "feedback"
+        },
+        "text": "One critical aspect that should be addressed in the Digital Fairness Act is the lack of long-term consumer protection for digital games and services. There are documented cases where consumers have purchased games which were later rendered unplayable or entirely removed by publishers, without compensation or lasting access. Examples include Darkspore (EA) and Hyper Scape (Ubisoft), which were both delisted and shut down, despite being paid products or offering in-game purchases. This practice severely undermines consumer rights and long-term trust in digital products. Additionally, manipulative practices in multiplayer game matchmaking should be examined. Some companies have patented systems that match paying players (e.g., those who buy cosmetic skins or gambling-related items) with weaker opponents to increase perceived value or encourage further spending. For instance, EA owns patents for this kind of engagement-based matchmaking. These mechanisms exploit consumer psychology and are especially harmful to minors, who are particularly vulnerable to gambling-like systems and artificial performance boosts. Clear regulation is needed to ensure that: Paid digital products remain accessible for a reasonable duration or offer refund options when withdrawn. Matchmaking systems are transparent and fair, without hidden monetisation manipulation. Gambling-like mechanisms and behavioral manipulation through matchmaking are restricted, especially when minors are involved. Thank you for considering these points in your impact assessment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.357019Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584691.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584691",
+    "chunks_doc_id": "F3584691",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584691.clean.paragraph.json"
+}

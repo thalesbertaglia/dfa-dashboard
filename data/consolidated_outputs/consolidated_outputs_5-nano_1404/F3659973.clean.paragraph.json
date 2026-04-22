@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3659973",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:27Z",
+    "finished_at": "2026-04-14T13:44:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android App Installation Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "which would allow Google to control what apps a normal user is able to install"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13053,
+          "unit_kind": "feedback"
+        },
+        "text": "I have great concerns with the upcoming policy for running custom software on Android devices. For years, Android has had the upper hand over iPhone by having the option to manually install any app the user wishes to install. Apple has recently been made to allow for app installation outside the app store, but has maliciously required any developer distributing apps be \"verified\" with arbitrary verification requirements, holding back the would-be open ecosystem. Unfortunately, Google is now attempting to add these same restrictions to Android under the guise of \"security\", which would allow Google to control what apps a normal user is able to install, destroying the existing open ecosystem. Vendors should not have a say in what is installed on consumer devices. It also shouldn't matter if the vendor trusts the developer of an app, this choice should be made only by the user. I hope this power grab over consumer phones is recognised and prevented, to ensure an open ecosystem for everyone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.069473Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3659973.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3659973",
+    "chunks_doc_id": "F3659973",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586746",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:58Z",
+    "finished_at": "2026-04-14T13:03:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it shouldn't be allowed for publisher/devs to shutdown/close/remove access to games without having an End Of Life plan"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "and those verification parties will know who visits what website."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It shouldn't be allowed for payment processors to pressure businesses or organisations or anyone else to remove/hide/deindex/etcetera any media content like games, movies, series, whatever else with the threat of not processing any more (or a subset of) payments from that business."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36220,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I have a few things that I think could and should be included: 1. it shouldn't be allowed for publisher/devs to shutdown/close/remove access to games without having an End Of Life plan, for example, in case of multiplayer/live service games, releasing server binaries, adding a peer-to-peer mode, adding community servers, or in case of singleplayer games it shouldn't be needed to connect online to play offline, and if there are features like leaderboard or similar those parts should be released or be made so that the community can still run them themselves (and so without support from the original developer). 2. It shouldn't be allowed for payment processors to pressure businesses or organisations or anyone else to remove/hide/deindex/etcetera any media content like games, movies, series, whatever else with the threat of not processing any more (or a subset of) payments from that business. Payment processors and any company/organisation like them that is just a middle man between a business and its customers shouldn't have any say in what is being bought/exchanged/etcetera and this can be a precedent for future censorship. 3. It shouldn't be allowed for governments or any other company/entity to introduce mass surveillance programs, laws or whatever that compromises the person's privacy (like Chat Control) or laws that demand age verification (like UK's \"Online Safety Act\"), which is also a privacy violation since someone has to verify the identity or age, be it with a photo or with a government login (like SPID for Italy), and those verification parties will know who visits what website. These practices, laws, etcetera introduce a very high risk of arbitrary and legalized censorship by government or by the services themselves, as can be seen by the current situation with the United Kingdom demanding even wikipedia to verify the age of visitors. While point 1 is mostly about protecting the consumer right to use the products they legally obtain/buy, point 2 and 3 are both about censorship, respectively censorship from companies and invasion of privacy and censorship from governments. Thank you for reading everything and I hope this (like many other similar feedbacks from other concerned people) will get taken into account and added to this Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.335493Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586746.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586746",
+    "chunks_doc_id": "F3586746",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

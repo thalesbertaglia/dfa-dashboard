@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33092026",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:19Z",
+    "finished_at": "2026-04-14T09:36:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "En mi opinión, el aspecto más peligroso de los patrones oscuros es que juegan con nuestra atención y confianza."
+              },
+              {
+                "quote": "A veces creemos que estamos tomando una decisión libre, cuando en realidad, el diseño ya nos ha guiado hacia una opción específica."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22592,
+          "unit_kind": "feedback"
+        },
+        "text": "Como estudiante que participó en el proyecto, creo que esta experiencia fue invaluable. A través del proyecto y la reflexión, comprendí que detrás de cada decisión de diseño hay una intención, y que esta puede tener un impacto significativo en los usuarios. Creo que el proyecto no solo nos ayudó a comprender conceptos clave, sino que también nos ayudó a pensar en soluciones: cómo lograr una mayor transparencia y cómo equilibrar la innovación y la ética en el entorno digital. En mi opinión, el aspecto más peligroso de los patrones oscuros es que juegan con nuestra atención y confianza. A veces creemos que estamos tomando una decisión libre, cuando en realidad, el diseño ya nos ha guiado hacia una opción específica. Esto demuestra que el diseño no es neutral: tiene un enorme poder para influir en el comportamiento y, por lo tanto, requiere límites éticos claros. En resumen, creo que este proyecto nos hizo más conscientes de la responsabilidad que conlleva crear o interactuar con productos digitales. No se trata solo de cumplir con las regulaciones, sino de construir una cultura digital más humana, transparente y respetuosa. Gracias al proyecto, he aprendido que identificar y analizar estos patrones no se trata solo de criticarlos, sino también de proponer alternativas más justas y transparentes.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.600564Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092026.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092026",
+    "chunks_doc_id": "F33092026",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33092026.clean.paragraph.json"
+}

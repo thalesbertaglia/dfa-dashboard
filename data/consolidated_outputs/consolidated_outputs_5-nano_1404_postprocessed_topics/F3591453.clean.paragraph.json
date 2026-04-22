@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3591453",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:30Z",
+    "finished_at": "2026-04-14T13:35:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They shouldn't decide what is good or bad for me amd their reputation."
+              },
+              {
+                "quote": "They can't just tell me that this item is ruining their reputation and just won't let me buy it."
+              },
+              {
+                "quote": "They should just process the payment and that's it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16375,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that the payment processors shouldn't decide what I want to buy with my earned money. They can't just tell me that this item is ruining their reputation and just won't let me buy it. Before all of this they had no problems with what you buy, but now you want to buy an item, but they say no, because it ruins their reputation. They should just process the payment and that's it. They shouldn't decide what is good or bad for me amd their reputation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.865167Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591453.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591453",
+    "chunks_doc_id": "F3591453",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591453.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584458",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:50Z",
+    "finished_at": "2026-04-14T11:59:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "do not risk paying for something that is then removed, unless it is clearly indicated that the good is a subscription service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9973,
+          "unit_kind": "feedback"
+        },
+        "text": "There is little to say. The legislature on digital goods rights has been lagging behind for too long while companies have been allowed to do what they want with both the services provided and customer data. It is time to give a tight life to this situation and regulate its structure so that consumers are protected and do not risk paying for something that is then removed, unless it is clearly indicated that the good is a subscription service.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.242496Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584458.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584458",
+    "chunks_doc_id": "F3584458",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584458.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3591390",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:12Z",
+    "finished_at": "2026-04-14T13:35:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Mastercard should not be able to force Steam to remove games from their store"
+              },
+              {
+                "quote": "or to force Riot Games to censor chats criticising Mastercard on the live chat of the international tournament on Twitch"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19609,
+          "unit_kind": "feedback"
+        },
+        "text": "External compagnies providing a service for another company, as bank cards shouldnt be allowed to have a say in a said companys rules. For instance, Mastercard should not be able to force Steam to remove games from their store, or to force Riot Games to censor chats criticising Mastercard on the live chat of the international tournament on Twitch. We can not allow our freedom to be taken away by such companies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.859811Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591390.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591390",
+    "chunks_doc_id": "F3591390",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

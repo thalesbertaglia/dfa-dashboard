@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586181",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:46Z",
+    "finished_at": "2026-04-14T12:50:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "intentionally confusing online services"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "developers removing support for software and video games after purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14427,
+          "unit_kind": "feedback"
+        },
+        "text": "First of all, I'd like to applaud the objectives laid out in this initiative. Working in IT, as I watch my aging family members being tricked by various intentionally confusing online services, I can't help but think how hostile and exploitative the online environment has become, ESPECIALLY ON MOBILE! Secondly, as someone who has had family struggle with gambling, I absolutely support regulations on it. I would, however, also want to bring to your attention another deeply anti-consumer practice, that has slowly become the norm over the decades, namely, developers removing support for software and video games after purchase. Essentially, when a company does this, they render a working piece of software either completely, or partially inoperable. This is not isolated to a few companies. You can find a relatively comprehensive list on the Stop Killing Games wiki, by searching for \"Dead Game list\". You may already be aware of the EU Citizens branch of the Stop Killing Games initiative. It has surpassed the set goal of 1 million signatures. I firmly believe that integrating the proposals from this initiative with the Digital Fairness Act would be a great advantage for every EU citizen. Let's keep the EU not just the best place to live and work in the world, but the best place for consumer rights as well! Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.136490Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586181.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586181",
+    "chunks_doc_id": "F3586181",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

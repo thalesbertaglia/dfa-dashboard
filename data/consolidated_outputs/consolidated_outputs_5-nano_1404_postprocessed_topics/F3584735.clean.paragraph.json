@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584735",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:08Z",
+    "finished_at": "2026-04-14T12:09:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"end of life.\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 97787,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Representatives, As you are likely aware, the video game industry is undergoing a major transformation, not unlike the broader societal shift brought about by the rise of the internet. However, this evolution has taken place with minimal legislative oversight, allowing gaming companies to operate in legally ambiguous territory - sometimes crossing ethical lines that could be seen as exploitative of their consumers. One particularly troubling trend is the unilateral removal of access to purchased video games when a title reaches its so-called \"end of life.\" This effectively strips consumers of a product they paid for, without compensation or alternatives. I write to express my deep concern about the lack of laws protecting consumers from such practices. The widespread support for initiatives like Stop Killing Games and the EUs own Stop Destroying Games campaign shows this issue resonates with many. I join my voice to theirs: I strongly believe that current industry practices are violating consumers rights to retain access to products they have lawfully purchased. I kindly urge you to consider including a provision in your forthcoming regulations on digital consumer rights that addresses this issue directly - something along the lines of: Publishers disabling video games: Some publishers are selling video games and later revoking access without compensation or any intent to restore access, which may constitute a breach of consumer trust and rights. Thank you very much for your time and attention. Sincerely, An EU citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.379656Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584735.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584735",
+    "chunks_doc_id": "F3584735",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584735.clean.paragraph.json"
+}

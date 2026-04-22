@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586699",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:02Z",
+    "finished_at": "2026-04-14T13:02:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Account Deletion",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, many users face challenges when trying to delete their accounts."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "An increasing number of video games are sold effectively as goods - with no stated expiration date - but designed to be completely unplayable as soon as support from the publisher ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27328,
+          "unit_kind": "feedback"
+        },
+        "text": "I truly believe this act is a significant step in the right direction for protecting consumer digital rights. However, I would like to suggest two important additions: Website Account Deletion: Currently, many users face challenges when trying to delete their accounts. Often, we have to email the provider repeatedly, only to be ignored or have our requests circumvented. Clear regulations should be implemented to ensure that account deletion requests are processed promptly and transparently. Stop Destroying Games: This initiative would be an excellent addition to the Act. An increasing number of video games are sold effectively as goods - with no stated expiration date - but designed to be completely unplayable as soon as support from the publisher ends. This practice is a form of planned obsolescence and is not only detrimental to customers, but makes preservation effectively impossible. Furthermore, the legality of this practice is largely untested in many countries.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.324187Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586699.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586699",
+    "chunks_doc_id": "F3586699",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

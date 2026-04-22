@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584122",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:04Z",
+    "finished_at": "2026-04-14T11:49:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "losing access to digital games theyve paid for."
+              },
+              {
+                "quote": "publishers simply pull the plug on games, leaving paying customers with nothing."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17046,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider taking action to protect consumers from the growing problem of losing access to digital games theyve paid for. It's deeply frustrating and disheartening to see publishers simply pull the plug on games, leaving paying customers with nothing. People invest not just money, but also time and emotional connection into these experiences. Its unfair and unacceptable that access can be taken away so easily. This issue urgently needs to be addressed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.082997Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584122.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584122",
+    "chunks_doc_id": "F3584122",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

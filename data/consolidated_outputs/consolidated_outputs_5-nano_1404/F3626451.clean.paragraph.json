@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3626451",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:32Z",
+    "finished_at": "2026-04-14T13:42:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "American payment processors (MasterCard, Visa, PayPal, etc.) can pressure vendors to block the sale of legal content"
+              },
+              {
+                "quote": "A banking system should not dictate whether a legal transaction between business or individual is conducted, even less an intermediary."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14410,
+          "unit_kind": "feedback"
+        },
+        "text": "Recently it has been shown how American payment processors (MasterCard, Visa, PayPal, etc.) can pressure vendors to block the sale of legal content (see Steam controversy). This goes directly against the core ideals of a free market Europe and limits to the practice should be implemented in law. A banking system should not dictate whether a legal transaction between business or individual is conducted, even less an intermediary.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.023213Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3626451.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3626451",
+    "chunks_doc_id": "F3626451",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

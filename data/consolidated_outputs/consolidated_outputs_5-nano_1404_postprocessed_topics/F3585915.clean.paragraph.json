@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585915",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:56Z",
+    "finished_at": "2026-04-14T12:41:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutdown of game servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17394,
+          "unit_kind": "feedback"
+        },
+        "text": "As many before me have already pointed out, Id like to raise the issue of video games a modern art form being destroyed by the very hands of their creators due to the lack of proper end-of-life support, especially the shutdown of game servers.To clarify a common misunderstanding: We are not asking game companies to keep their servers running forever. Instead, we are simply asking for the option to host the servers ourselves once official support ends. This would allow the community to preserve and continue enjoying these games, even after the developers have moved on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.983745Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585915.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585915",
+    "chunks_doc_id": "F3585915",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585915.clean.paragraph.json"
+}

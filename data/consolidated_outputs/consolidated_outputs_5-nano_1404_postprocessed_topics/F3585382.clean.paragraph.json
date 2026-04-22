@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585382",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:27Z",
+    "finished_at": "2026-04-14T12:26:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove access from my games that I have purchased"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Payment Processors Monopoly"
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Online Censorship & Mass Surveillance"
+              }
+            ]
+          },
+          {
+            "topic": "Online Tracking",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Online Censorship & Mass Surveillance"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26515,
+          "unit_kind": "feedback"
+        },
+        "text": "Please help protect video games as part of the Digital Fairness Act, I'm really concerned that access to games I have purchased or spent money on will not be possible if these greedy companies decide it is more profitable to remove access from my games that I have purchased with my hard earned money, so that they can sell me their new stuff. Please also consider: - Stop Payment Processors Monopoly - Stop Online Censorship & Mass Surveillance",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.710705Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585382.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585382",
+    "chunks_doc_id": "F3585382",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585382.clean.paragraph.json"
+}

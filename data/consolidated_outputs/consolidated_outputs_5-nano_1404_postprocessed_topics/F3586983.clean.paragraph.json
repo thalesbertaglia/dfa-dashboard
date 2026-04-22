@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586983",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:29Z",
+    "finished_at": "2026-04-14T13:08:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pull the plug on the servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35097,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to add that \"Stop killing games\" initiative is not about forcing the companies to maintain the games. Its about giving the players the ability to play the games even after the companies have stoped supporting them. This is even more important for online games where companies can just pull the plug on the servers and make the games we purchased useless. The Stop Killing Games initivate is so that companies have to give the players the option to set up their own servers and maintain the game themselves after the game no longer has support from the developers. Companies should give the players barebone code to do so, but ONLY after they decide to pull the plug on the game. More can be read at https://www.stopkillinggames.com/",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.403683Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586983.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586983",
+    "chunks_doc_id": "F3586983",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586983.clean.paragraph.json"
+}

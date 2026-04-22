@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3663274",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:46Z",
+    "finished_at": "2026-04-14T13:45:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "taking away access to games that people have paid for."
+              },
+              {
+                "quote": "Ubisoft shut down its servers in 2024 and removed the game entirely, leaving it completely unplayable and even revoking licenses from paying customers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "despite being sold the game as a permanent purchase."
+              },
+              {
+                "quote": "When someone buys a game, they should be able to keep playing it, or at the very least be given honest information upfront if access will only last for a limited time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34388,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned European citizen and gamer, I am deeply worried about the growing trend of game publishers taking away access to games that people have paid for. The recent case of Ubisofts The Crew is a clear example of this problem. Even though many players purchased the game, Ubisoft shut down its servers in 2024 and removed the game entirely, leaving it completely unplayable and even revoking licenses from paying customers. This meant that people were left with nothing for their money, despite being sold the game as a permanent purchase. This is unfair and misleading, and it undermines trust in the digital marketplace. The Stop Killing Games campaign has highlighted how widespread this issue is, gathering nearly 1.5 million signatures from across the EU in support of protecting consumers from this kind of practice. I urge the EU Parliament to use the Digital Fairness Act to create clear rules that prevent developers and publishers from taking away games people have bought. When someone buys a game, they should be able to keep playing it, or at the very least be given honest information upfront if access will only last for a limited time. Acting on this issue would protect consumers, ensure fairness, and strengthen trust between players and the companies they support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.075954Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3663274.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3663274",
+    "chunks_doc_id": "F3663274",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3663274.clean.paragraph.json"
+}

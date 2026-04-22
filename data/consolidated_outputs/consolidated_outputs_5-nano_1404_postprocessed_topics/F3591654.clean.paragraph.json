@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591654",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:25Z",
+    "finished_at": "2026-04-14T13:36:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The case and point is the role of MasterCard censoring the availability of digital games on Steam."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8807,
+          "unit_kind": "feedback"
+        },
+        "text": "In no way shape or form should third party payment processors dictate the offerings of retailers based on third country political pressure or beliefs, provided the goods or services in question are completely legal. The case and point is the role of MasterCard censoring the availability of digital games on Steam. It is of paramount importance that the EU protects its way of life and citizens to the nefarious trajectory of foreign corporations and governments, even if we have had long held views seeing both as politically aligned partners to the EU. An EU-owned and headquartered payment processor is a necessary step, but in the meantime legislation should halt perverse actions and influences from abroad that erode our liberties and freedom of expression. The combined EU market holds enough power to assert our stance. As much as we need them, they need us.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.884766Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591654.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591654",
+    "chunks_doc_id": "F3591654",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591654.clean.paragraph.json"
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585693",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:49Z",
+    "finished_at": "2026-04-14T12:34:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In my feedback I would like to focus on digital property, more specifically video games."
+              },
+              {
+                "quote": "We witnessed many cases where a video game was \"sold\" on a digital store, only to be deleted from the user's library because the pubblisher decided to do so."
+              },
+              {
+                "quote": "This case is only more frequent in games that are labed as \"Live service\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44219,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello and thank you to anyone from the EU's Commission that will dedicate time to read and consider this feedback. I have always looked up to and envied the EU's effort to ensure fair treatment towards citizens from predatory bussiness practices, especially being a naturalized EU citizen. In my feedback I would like to focus on digital property, more specifically video games. I think it's very important to start talks throughout the industry about the life of a videogame when being sold to the consumer. We witnessed many cases where a video game was \"sold\" on a digital store, only to be deleted from the user's library because the pubblisher decided to do so. This case is only more frequent in games that are labed as \"Live service\". Businesses accross the EU and the world should be able to afford development of games, but the consumer must have the ability of knowing the future of said game when the purchase is being made and be mislead in any way to believe that he made a \"purchase\", that by definition means \"to acquire\", therefore not of the company's property anymore. I surely am not an expert of market, but we must discuss the matter to a solution and/or regulation that is best for the consumer, but obviously does not crash the business. Thank you for the attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.874473Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585693.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585693",
+    "chunks_doc_id": "F3585693",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585693.clean.paragraph.json"
+}

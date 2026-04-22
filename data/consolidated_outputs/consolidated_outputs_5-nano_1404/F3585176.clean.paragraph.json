@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585176",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:58Z",
+    "finished_at": "2026-04-14T12:22:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "Hundreds of games are already gone, what if these are next.."
+              },
+              {
+                "quote": "end of life plan."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18799,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request that us customers who have bought video games from a publisher have protections in place so the product in question can't be destroyed. When i buy a product my expectation is that this is now something that i own and can play at my own leisure, this goes with any product that is not loaned or rented to me. However as things are now publishers can without notice pull something i have bought from them, this should not be the norm. I myself have experiences with this like Bulletstorm that was made by Sony and just recently a game called Battlefield: Bad Company 2 created by DICE. And i am even more concerned with other games i own like Call of Duty or where it is exclusively multiplayer like BitCraft Online with no end of life plan. Hundreds of games are already gone, what if these are next.. And i am far from the only one who thinks like this, since the European Citizens Initiative have over 1 million EU signatures from people who are against games being destroyed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.624692Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585176.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585176",
+    "chunks_doc_id": "F3585176",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

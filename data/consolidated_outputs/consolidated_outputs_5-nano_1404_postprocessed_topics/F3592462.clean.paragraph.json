@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3592462",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:43Z",
+    "finished_at": "2026-04-14T13:37:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutdown of video game servers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the end-user licensing agreements (EULAs), which routinely invoke the right to unilaterally withdraw or terminate access to products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13692,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer and player, I believe that the current digital market leaves us hostages to the decisions of big companies. We pay the full price for products that can later be taken away without warning, and this practice is fundamentally unfair. One of the most harmful examples is the shutdown of video game servers. Increasingly, single games are always linked to an online requirement. If the publisher decides to stop funding, the game is simply no longer used. What was a purchased product is suddenly worthless. This is not a question of life-cycle support that consumers expect that businesses do not always maintain their online services. However, we expect that a product we buy will remain reasonably usable after the end of the public support. When online servers are closed, there should be alternative options, such as offline play, local hosting or patches, that unleash community solutions. Without such measures, publishers actually destroy products for which people have paid for, often pushing them to newer titles. Such behaviour would not be conceivable in the physical world. Imagine buying a book to ask the publisher that you have burned it because he no longer supports it. Digital products should not be treated differently simply because they exist in the form of software. This imbalance of power is exacerbated by the end-user licensing agreements (EULAs), which routinely invoke the right to unilaterally withdraw or terminate access to products. No reasonable consumer would expect that the purchase of a game would also mean giving the seller the right to destroy it later. But this is the reality we are facing today. The Digital Fairness Act is an opportunity to restore balance and protect consumers. In particular, I call on the Commission to prohibit practices that make purchased digital products completely unusable once the server has been switched off. Requiring fall-back solutions that leave products in a functional state, even if they are reduced (e.g. off-line play instead of online matchmaking). Clarifying consumer rights so that businesses cannot hide behind unilateral EULA to evade property. We deserve digital products that follow the same principles of fairness and usability that we take for granted in the physical world.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.919872Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592462.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592462",
+    "chunks_doc_id": "F3592462",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592462.clean.paragraph.json"
+}

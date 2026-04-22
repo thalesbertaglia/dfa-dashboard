@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3584375",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:32Z",
+    "finished_at": "2026-04-14T11:57:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory/addictive design in games."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "‘The Crew’ game"
+              },
+              {
+                "quote": "its ‘always online’ status"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "from having their games destroyed (games already purchased and owned by the customer) at the same time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48916,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see an addendum to the Digital Fairness Act that supports customer rights when buying digital products. More specifically, I am talking about consumer protection against publishers that destroy TV games/Dator games. As is currently the case, gaming publishers can remotely remove your ability to use a product that has been purchased, and as a customer you cannot do anything about it – there is no law against this. One example is the ‘The Crew’ game, which, following Ubisoft’s official support, stopped working for customers because of its ‘always online’ status – even though it is a single player. I believe the Digital Fairness Act is an important step towards better consumer protection when people use online services. I really like the part of the law that aims to tackle predatory/addictive design in games. It would be a bonus for those who feel pressured to spend huge sums of money on gambling, and in my view it is an opportunity to also protect TV games/Dator-game customers from having their games destroyed (games already purchased and owned by the customer) at the same time. If not addressed now, consumers may find themselves in a situation where they do not own the games they buy in the future. There is already an EU initiative called “Stop Destroying Videogames” aimed at putting these issues on the EU agenda. But why not add this to the Digital Fairness Act also, to make sure that we actually get it up? Thank you for your time, Tim",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.203699Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584375.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584375",
+    "chunks_doc_id": "F3584375",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584375.clean.paragraph.json"
+}

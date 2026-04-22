@@ -1,0 +1,74 @@
+{
+  "doc_id": "F32845076",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:59Z",
+    "finished_at": "2026-04-14T09:27:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Any purported attempt to prevent a consumer dealing with a physical device they own breaches the First Sale doctrine. The software that runs the device is incidental to the operation of that device (in the case of Android you can install other Android like software for example and the device still performs its intended function). So anything that (a) prevents a consumer installing any application software they please or (b) locks any bootloader preventing a consumer installing the Operating system of their choice on hardware is anti competitive and if \"security\" is raised it should be, at most a default prevention with the option of a warning allowing the consumer to proceed at their own risk and not a software lock preventing them from doing so completely. I firmly recommend outlawing both Bootloader unlock prevention methods (save for a fixed period for subsidised hardware) and anything preventing installtion of any software outside a Play Store in the case of Google - or even Apple."
+              },
+              {
+                "quote": "(a) prevents a consumer installing any application software they please or (b) locks any bootloader preventing a consumer installing the Operating system of their choice on hardware is anti competitive"
+              },
+              {
+                "quote": "I firmly recommend outlawing both Bootloader unlock prevention methods (save for a fixed period for subsidised hardware) and anything preventing installtion of any software outside a Play Store in the case of Google - or even Apple."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28777,
+          "unit_kind": "feedback"
+        },
+        "text": "Any purported attempt to prevent a consumer dealing with a physical device they own breaches the First Sale doctrine. The software that runs the device is incidental to the operation of that device (in the case of Android you can install other Android like software for example and the device still performs its intended function). So anything that (a) prevents a consumer installing any application software they please or (b) locks any bootloader preventing a consumer installing the Operating system of their choice on hardware is anti competitive and if \"security\" is raised it should be, at most a default prevention with the option of a warning allowing the consumer to proceed at their own risk and not a software lock preventing them from doing so completely. I firmly recommend outlawing both Bootloader unlock prevention methods (save for a fixed period for subsidised hardware) and anything preventing installtion of any software outside a Play Store in the case of Google - or even Apple.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.450544Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32845076.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32845076",
+    "chunks_doc_id": "F32845076",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

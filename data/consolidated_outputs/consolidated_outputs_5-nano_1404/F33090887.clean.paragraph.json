@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33090887",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:32:40Z",
+    "finished_at": "2026-04-14T09:32:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "explaining precisely when and how to label advertisements on social media."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14123,
+          "unit_kind": "feedback"
+        },
+        "text": "In general, existing laws should be better and effectively enforced. There is a need to avoid over-bureaucracy which results in a much too high administrative burden for businesses. There are already too many overlaps and duplications between existing regulations and directives. Less is often more and non-regulatory measures can lead to progress. Some EU Member States such as bspl. Germany has already done so and has provided guidance for influencers. For example, the German Competition Centre has published a guide (https://www.wettbewerbszentrale.de/wp-content/uploads/2024/08/270824-Leitfaden-der-Wettbewerbszentrale Advertising Labelling-WBZ.pdf) explaining precisely when and how to label advertisements on social media. The guidance document of the regional media authorities also contains a detailed labelling matrix with tailor-made recommendations for various formats: videos, images/texts, blogs (https://www.die-medienanstalten.de/service/merkblaetter-und-leitfaeden/leitfadenwerbekennzeichnung-bei. This document is regularly updated and the first version was published almost 10 years ago. These practical examples and formulations that influencers can use directly to ensure transparency and legal compliance. It would be helpful if other Member States followed this example, helping influencers to understand and implement the rules.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.570470Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33090887.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33090887",
+    "chunks_doc_id": "F33090887",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

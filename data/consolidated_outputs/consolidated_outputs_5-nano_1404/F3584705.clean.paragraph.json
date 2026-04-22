@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584705",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:03Z",
+    "finished_at": "2026-04-14T12:07:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are games that are no longer accessible or sold."
+              },
+              {
+                "quote": "Like Deadpool that is no longer being sold."
+              },
+              {
+                "quote": "They sell us games but redefine what selling is."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15632,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I hope you'll read this and thank you for your time if you did. I've been gamer for decades. And I consider many a game something that can teach us about ourselves or how to be better. Strategy games often teach about logistics. Shooter games allow us for faster hand-eye pattern recognition. They're important. But most important is the stories they carry. They're like books, movies and other works of art. There is need to preserve them. One of my favorite games of old is Knights of the Old Republic. I can still access it today and play it. But there are games that are no longer accessible or sold. Like Deadpool that is no longer being sold. Like the original World of Warcraft. I'm not going to say that original World of Warcraft, MMO of old, was a great game. And it's hard to play alone. But there was a way how to preserve it. Fans made their own servers and had their own communities till Blizzard came and obliterated that. But what about the games where they sell it to us and we loose access altogether, not just loosing one functionality. That is not sale in my opinion. They sell us games but redefine what selling is. What will remain of our time if everything will be digital, deleted and pushed aside. There has to be option how to preserve these things. Such as board games were preserved.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.364427Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584705.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584705",
+    "chunks_doc_id": "F3584705",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

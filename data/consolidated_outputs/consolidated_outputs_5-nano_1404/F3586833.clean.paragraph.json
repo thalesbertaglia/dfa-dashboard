@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586833",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:25Z",
+    "finished_at": "2026-04-14T13:04:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Game companies have been abusing it's consumer base by making it impossible to play their titles that we bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23417,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I am Mark. Recently in the digital area, Game companies have been abusing it's consumer base by making it impossible to play their titles that we bought by disabling their \"Anti-piracy theft services\" What should prevent theft, But in reality it's causing legitimate purchases become illegitimate, No where on the box or during our digital purchase it states that our games would be a temporarily purchase, Even with that said the game company \"Ubisoft\" did publicly state on their social platform that we have to get USED not owning our own purchased digital goods, Even thou, Physical disk are also suffering the same fate because they disable the \"Online\" feature of the \"Anti-piracy services\" which makes the consumers unable to use their digital key that comes with the physical disk, We paid for said product, We own said product, But in their eyes we need to consume more content and not ask questions, this is damaging our trust in companies, and this damages the online communities and makes it a toxic environment, If they keeps up non digital goods will be owned by anyone anymore, Please make Digital fairness an actual thing, and protect the consumers that worked hard to enjoy our entertainment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.360234Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586833.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586833",
+    "chunks_doc_id": "F3586833",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

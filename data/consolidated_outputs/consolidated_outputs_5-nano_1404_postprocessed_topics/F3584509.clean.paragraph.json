@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584509",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:10Z",
+    "finished_at": "2026-04-14T12:00:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the publishers reserve the right to shut down these games without notice or reason"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28268,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, This initiative seems like a great start, especially the points about dark patterns and gambling-like features in video games. It could go further though, especially in the video game industry. Many practices that would sound laughable in other industries are sadly industry standard in the video game business. One such example is the desctuction of games from the publisher after the customer has already bought them. Many live-service video games require a constant online connection to the publisher to function at all, often without a gameplay requirement. As is stands now, the publishers reserve the right to shut down these games without notice or reason, and this possibilty is not cleary communicated to the customer at the point of purchase. Just imagine an automobile maker like VW coming to your house and rendering the VW car you bought undrivable because they no longer support the operating system of the car electronics with updates. So inclucding the topic of video game destruction in the initiative and getting publishers to clearly communicate how long a video game will be available at launch and providing end-of-life plans for the software (just allowing the community to run private service would be enough in several cases) would be a great service to EU citizens. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.267474Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584509.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584509",
+    "chunks_doc_id": "F3584509",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584509.clean.paragraph.json"
+}

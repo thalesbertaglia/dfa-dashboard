@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586027",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:16Z",
+    "finished_at": "2026-04-14T12:44:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as dark pattern."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Especially in recent years in the gaming industry, companies have used this practice to sell licences with unspecified expiration dates, shutting down their services within less than a year or force their customers to move to new releases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29744,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you very much for the chance to give feedback on possible problematic practices in the field of digital trade. Ever since the introduction of server sided services, traders and companies have used this off-premise solution in many different ways. While some are undoubtably a benefit to consumers and the economy alike, the practice has rendered the former increasingly dependent on the continued provision of these necessary online services by the provider. Software that was once an installation on a device is now mixed with necessary online components, which allows the provider to alter the software and its parameters, or even make it unavailable for the consumer all together. Especially in recent years in the gaming industry, companies have used this practice to sell licences with unspecified expiration dates, shutting down their services within less than a year or force their customers to move to new releases. The later often forgoing benefits the customer had enjoyed before or introducing a change of mode to engage with the software. This does not only render the customer without the bought product but also poses a threat to the conservation of culture. When more and more software is reliant on services, and these services cant be provided by anyone else than the original provider, the product will be eventually lost forever. I thus request, as an EU Citizen, to revise the digital fairness act to recognize the described practice as dark pattern. Companies should be allowed to shut down services, but they should also allow customers to keep their bought product, modify the software or provide the necessary service themselves if said product is no longer sold/supported by the original provider.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.043846Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586027.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586027",
+    "chunks_doc_id": "F3586027",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

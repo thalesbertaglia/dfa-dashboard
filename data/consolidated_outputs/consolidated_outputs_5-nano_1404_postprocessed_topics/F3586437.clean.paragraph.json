@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586437",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:39Z",
+    "finished_at": "2026-04-14T12:57:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling like features in video games as an example."
+              },
+              {
+                "quote": "online-only games, where the servers are shut down, essentially making the game unplayable."
+              },
+              {
+                "quote": "As such, I believe developers should have an end of life plan for their games, allowing for community hosted servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34413,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Under the \"addictive design\" part of the Digital Fairness Act, you bring up gambling like features in video games as an example. I believe there is another gaming related issue that should be included. Namely, games being permanently shut down when the developers no longer want to support them. This is most noticeable with online-only games, where the servers are shut down, essentially making the game unplayable. This is not only bad for consumers, who paid for the product, but for game preservation in general. This can be done for a number of reasons, ranging from low popularity to a desire to sell newer games by taking away the old ones. A recent, controversial and well known example of a game being taken away is Ubisoft's \"The Crew\", which was an online only racing game. I believe that games, like other media, deserve preservation. For example, movies have a finite release window, but still exist in other places afterwards. As such, I believe developers should have an end of life plan for their games, allowing for community hosted servers. There is an ongoing European citizen's initiative with a similar goal. It is called \"Stop destroying videogames\" and it has nearly 1.5 million signatures. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.246282Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586437.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586437",
+    "chunks_doc_id": "F3586437",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586437.clean.paragraph.json"
+}

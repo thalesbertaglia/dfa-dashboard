@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3587558",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:29:13Z",
+    "finished_at": "2026-04-15T08:31:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "a lot of dark patterns in the list from Cyber Risk GmbH."
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Forced continuity/Roach Motel (almost always in pair)"
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Hidden Costs"
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Unknowingly Granting Permissions (Google Play Store only provides very limited information on phone's contacts usage for instance)"
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Licences are often in English and not the player's tongue and contains pages of pages of legalese unsuitable for most people, especially children."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 163931,
+          "unit_kind": "feedback"
+        },
+        "text": "As both a game dev and someone who tried lots of video games, I did notice in mobile games (and to a lesser extent PC/Console games) a lot of dark patterns in the list from Cyber Risk GmbH. Being both a game dev who values their customers and a dedicated player who deeply care about this, I wish the Digital Fairness Act to take these into account. I noticed in peculiar those : Forced continuity/Roach Motel (almost always in pair), Hidden Costs, Unknowingly Granting Permissions (Google Play Store only provides very limited information on phone's contacts usage for instance), Disguised Ads, Obfuscation Through Legalese (Almost every game, both PC/Console and mobile). I believe there are also unmentionned psychological/marketing tricks that are also detrimental to consumer protection. One of those is to create fake, actually inexistant urgency to buy something. E.g. : A game starter pack that will \"disappear\" if you refuse it when it pops up, while there's actually no penury on packs (because they're digital). Another one is to provide virtual currencies packs that are just short to actually buy items. E.g. : You sell item A for 100 digi-diamonds and item B for 400 digi-diamonds in the game shop; You then offer a currency pack C for 385 digi-diamonds : It's enough to buy Item A, but just short by 15 digi-diamonds for item B. It entices new purchases because \"you're so close\", creating a sunk cost fallacy. Indeed, the goal is to always leave some left-over currency, so customers would want to \"round it out\" with more purchases. This technic is particularly effective against the most vulnerable people (compulsive disorders, addictions...). Following this, I would like to add the Stop Killing Games European Initiative seems to follow the direction of this Act. Indeed, games that are discontinued generally use the following dark patterns : - Obfuscation Through Legalese : Licences are often in English and not the player's tongue and contains pages and pages of legalese unsuitable for most people, especially children. - The inverse of Forced Continuity : A video game can currently be discontinued without any warning, even if you bought a 3 month pack the day before it was announced. While some studios offer workarounds (mainly refunds), they have no legal obligation to do so. - Misdirection : Most players will not read User Licence Agreements. It's not only because it's obfuscating legalese, it's also because people thought they bought a product : Game purchases are one-time unlike subscription services and certainly not marketed as a service. - Finally, just plain hiding of the Licence used, which joins all-at-once Hidden Costs, Roach Motel, Misdirection and Decision Fatigue. Most games will prompt the user to agree the licence when they boot up the game and not before, so 'after' they bought it. Reaching for the licence agreement before buying is very hard (and sometimes impossible), and getting a refund is also an harduous process, a process which is sometimes not possible at all (e.g. : Playstation games cannot be refunded after they've been booted up once). In this regard, I would like to recall that most players think that games are products, not services. When you purchase a game, it feels the same as buying a novel, a movie DVD or a toy, ie. something that you can keep. As such, the best action to protect consumers would be to enforce some end-of-life plan after game studios/publishers stopped their support. This may not include multiplayer (though it would be definitely better), but the game should be somewhat playable. In peculiar, solo games should always be available, since they normally don't require access to external servers to work normally. This is also essential to preserve our cultural history as a whole. To conclude, I'd like you to consider at least some of these elements in this act. There is a lot to discuss about game marketing prices, and a lot to work on in this regard.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.543451Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587558.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587558",
+    "chunks_doc_id": "F3587558",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

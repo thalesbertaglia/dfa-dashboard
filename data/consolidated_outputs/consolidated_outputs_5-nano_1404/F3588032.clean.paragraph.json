@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588032",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:55Z",
+    "finished_at": "2026-04-14T13:22:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End-of-life protections for digital games and services be included"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Intermediaries Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "unchecked financial censorship by payment intermediaries"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21835,
+          "unit_kind": "feedback"
+        },
+        "text": "End-of-life protections for digital games and services be included, and Provisions be considered to prevent unchecked financial censorship by payment intermediaries in the digital goods ecosystem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.605187Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588032.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588032",
+    "chunks_doc_id": "F3588032",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

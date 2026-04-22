@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3591220",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:33Z",
+    "finished_at": "2026-04-14T13:35:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are designed in such a way that they are necessarily dependent on a server connection controlled by the publisher to function at all."
+              },
+              {
+                "quote": "This server connection works like a lifeline: If it is shut down by the operator company, the game is immediately and permanently inoperable for all customers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "While licensing agreements usually contain clauses prohibiting continued operation or modification, such contractual terms cannot override national laws."
+              },
+              {
+                "quote": "consumers should be protected against the complete loss of usability when the provider switches off their servers."
+              },
+              {
+                "quote": "When a product is sold regardless of its physical or digital form, it must be available to buyers in a way that goes beyond the lifetime of a single server operation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26947,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen, an increasing number of modern video games are designed in such a way that they are necessarily dependent on a server connection controlled by the publisher to function at all. This server connection works like a lifeline: If it is shut down by the operator company, the game is immediately and permanently inoperable for all customers. Often this happens when a publisher decides to stop support, regardless of whether the game is still bought or actively played. Particularly problematic is that companies often deliberately prevent users from self-repairing or keeping the game functional. This is done, for example, by withholding necessary server software or authentication mechanisms. In practice, this destroys the game: It can never be re-operated by anyone, even if all the other technical conditions were met. In the European Union, video games are not always licensed but often actually sold in the form of digital copies. However, the legal situation is unclear: While licensing agreements usually contain clauses prohibiting continued operation or modification, such contractual terms cannot override national laws. Many Member States consider video games as goods within the meaning of consumer protection law, giving rise to numerous legal warranty rights. This means: Despite a licence agreement, in some countries, the purchase of a game can legally be considered as the acquisition of its own copy, not merely as a temporary licence to use it. It is clear that this acquisition does not involve any transfer of copyright in the work itself. The buyer usually acquires only the personal licence to use the copy purchased, but not the rights to reproduce or commercialise the work. Nevertheless, consumers should be protected against the complete loss of usability when the provider switches off their servers. The Digital Fairness Act should therefore explicitly include the protection of digital games. When a product is sold regardless of its physical or digital form, it must be available to buyers in a way that goes beyond the lifetime of a single server operation. Providers should be required to either ensure offline access to the product in case of discontinuation of online operations or to provide the necessary components to allow the continued use of the purchased copy. This is the only way to prevent consumers from paying for products that are completely devalued after a short period of time on the publisher’s mere button printing. Including clear, binding rules for video games in the Digital Fairness Act would be a crucial step to protect digital consumer rights in Europe in a timely and effective manner. For my part, I have already lost a large number of such purchased products as a result of actions by publishers; the most prominent example is the game ‘The Crew’, which now stands with me as a useless disc. This is also the game through which the Stop Lilling Games movement was created with the same EU petition, which I fully support. Yours sincerely, Christian Carstens",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.846266Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591220.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591220",
+    "chunks_doc_id": "F3591220",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591220.clean.paragraph.json"
+}

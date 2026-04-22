@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584460",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:52Z",
+    "finished_at": "2026-04-14T11:59:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loss of access to digital products paid (from mobile apps to video games) by unilateral decision of the creative company, without allowing the user to have a functional copy of it (however limited) after the end of the product support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9611,
+          "unit_kind": "feedback"
+        },
+        "text": "If possible, I would add to consider the regulation on loss of access to digital products paid (from mobile apps to video games) by unilateral decision of the creative company, without allowing the user to have a functional copy of it (however limited) after the end of the product support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.243539Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584460.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584460",
+    "chunks_doc_id": "F3584460",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

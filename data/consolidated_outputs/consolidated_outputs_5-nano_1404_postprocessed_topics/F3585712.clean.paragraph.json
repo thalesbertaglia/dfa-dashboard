@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585712",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:24Z",
+    "finished_at": "2026-04-14T12:34:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I fear loosing access to single player games, that is, games that does not require an online service to funtion,but gets bundled with one for example to support a multiplyer component."
+              },
+              {
+                "quote": "If the online service is shut down, I loose access to the cingle player part of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22164,
+          "unit_kind": "feedback"
+        },
+        "text": "I fear loosing access to single player games, that is, games that does not require an online service to funtion,but gets bundled with one for example to support a multiplyer component. If the online service is shut down, I loose access to the cingle player part of the game. I believe companies should be required to either remove the dependability of online services when they take down a service or should make it powwible to host your own part of the service to be able to play a game you have bought. This does not require the company to spend money to host a service for a unprofatible game. It could be releaseing the source code, even the compiled service could work in a pinch. They could also document ther API for the service making it possible for enthusiast to keep playing the games they bough. There should at least be SOME protection for customers buying a game and not having it forcefully taken away because the selling company is not beeing held accauntable for the services they build in to the products they offer. This is related to the Citizen Initiative \"stop destorying videogames\" with over one million signatures. Maybe unrelated, but I know most danish media is being archived at the Royal Library. Music, video, text, AND games are save for the future. I assume this is done all over EU, but this is impossible for games when online services are shut down and no way of running the games without them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.884106Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585712.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585712",
+    "chunks_doc_id": "F3585712",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585712.clean.paragraph.json"
+}

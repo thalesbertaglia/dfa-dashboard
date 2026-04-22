@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3655737",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:30Z",
+    "finished_at": "2026-04-14T13:43:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This includes installing software that sidesteps Google's environment/ecosystem."
+              },
+              {
+                "quote": "There are different app stores that exist such as FDroid."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14345,
+          "unit_kind": "feedback"
+        },
+        "text": "I am an android phone user. I would like to continue to be able to install applications on my device without Google's interference. Not every app is distributed through Google's Play Store. There are different app stores that exist such as FDroid. People like me who \"know what we're doing\" exist and I see this move by Google as a consumer rights violation. I bought my device, paid in full. I own my device and I should be able to do what I please with it. This includes installing software that sidesteps Google's environment/ecosystem. Android is an open source Operating System and can run without Google's software just fine. The fact that Google has a plethora of convenient apps used by a large portion of the public does not give them the right to violate the freedom of doing whatever we please with our devices without at least giving us the choice to decline even if that means forfeiting our right to use Google's licensed software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.051140Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3655737.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3655737",
+    "chunks_doc_id": "F3655737",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589880",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:26Z",
+    "finished_at": "2026-04-14T13:32:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "arbitrary \"-as-a-Service design\" back to actual products a consumer can buy once and own for a lifetime"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've experienced digital planned obsolescense in video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25943,
+          "unit_kind": "feedback"
+        },
+        "text": "I am glad the EU is pursuing the DFA and thereby actively looking into (amongst other things) the fairness of purchases with a digital relation to it. As many other people, I have previously lost access to goods I had paid for, due to an online-requirement that was imposed on the product no obvious reason. I understand that companies cannot continue to run an online service forever, but I think they should be required to take this into consideration when designing the product and offer some form of solution for it, be it opening up the service for self-hosting, or making the product less dependent on the existence of said service. I've experienced digital planned obsolescense in video games. And I find more and more cases where the requirement to register an account with an online service means I am probably going to lose access to a technically perfectly functional product at the whim of the selling company. I am therefore kindly asking the initiators, lawmakers and regulators to take a look at how the situation of product longevity by mandatory offline-fitness-for-purpose can be improved for the consumers, be it (if applicable for the DFA) tangible goods (cameras, TVs, washing machines, etc.) with digital interfaces, or if that is out of scope at least for digital goods like software, especially video games. I believe that a pivot away from arbitrary \"-as-a-Service design\" back to actual products a consumer can buy once and own for a lifetime is an important part of self-determination of EU citizens. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.808364Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589880.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589880",
+    "chunks_doc_id": "F3589880",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589880.clean.paragraph.json"
+}

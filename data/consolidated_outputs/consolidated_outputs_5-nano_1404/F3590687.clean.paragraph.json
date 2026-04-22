@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3590687",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:03Z",
+    "finished_at": "2026-04-14T13:34:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Clearly labeled that this product will not work from a given time period, this time period must be decided and immovable at the time of my purchase."
+              },
+              {
+                "quote": "and or the product's source code is released (at latest) at EOL."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22956,
+          "unit_kind": "feedback"
+        },
+        "text": "I respectfully request that the products I purchase digitally are treated the same as the products I purchase physically (as in a physical product with no digital dependencies). To elaborate further, what I'm asking for is that the digital products I purchase are either: (a) - Clearly labeled that this product will not work from a given time period, this time period must be decided and immovable at the time of my purchase. (b) The product works going forward on the platform it was designed for and is available to me to continue using after the platform is depreciated (I do not expect supprot for newer platforms) and or the product's source code is released (at latest) at EOL.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.836926Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590687.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590687",
+    "chunks_doc_id": "F3590687",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

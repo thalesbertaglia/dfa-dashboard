@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585484",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:46Z",
+    "finished_at": "2026-04-14T12:29:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video-games included in it."
+              },
+              {
+                "quote": "the online mode was a core component and/or a selling point of the game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16582,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello: I support this act, but I would like to see Video-games included in it. Thereby preventing them from being destroyed and rendered unplayable, plus any digital expansion or DLC may already enter under the protection of this act, because after destroying the game, the content related to that digital purchase is inaccessible forever. Demanding full support, servers, etc., paid by the publisher at infinitum is unreasonable and unfeasible, but having an \"End of life\" program so users can play their games and/or host those servers themselves can be an easy solution. I have myself some games that have been destroyed, like \"Metal Gear Online\", \"M.A.G.\" and many more games for which the online mode was a core component and/or a selling point of the game, but now are impossible to experience. Thanks for your attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.766603Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585484.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585484",
+    "chunks_doc_id": "F3585484",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585484.clean.paragraph.json"
+}

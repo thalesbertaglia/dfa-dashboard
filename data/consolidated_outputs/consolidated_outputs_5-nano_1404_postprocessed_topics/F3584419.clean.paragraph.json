@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584419",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:55Z",
+    "finished_at": "2026-04-14T11:58:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the fact that users only purchase licenses to a product, while the companies retain the right to, at any time and for any reason, revoke this license or shut down the product in question."
+              },
+              {
+                "quote": "Measures should be taken to ensure that users have access to the products they pay for, after a games lifecycle."
+              },
+              {
+                "quote": "older video games allow users to continue to play the game, using peer-to-peer connections and other forms of keeping their own private instances of the game running"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forces users conversations to be used to train their AI"
+              },
+              {
+                "quote": "and making the users' option to opt-out as difficult and tedious as possible."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45317,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital ownership - and lack thereof - has been a problem which has only been increasing over the past decade. Less and less power lies with the consumer, and is instead being put in the hands of foreign (especially American) corporations with de facto monopolitic power, particularly in regards to personal data, e.g. Meta's recent policy change, which basically forces users conversations to be used to train their AI, and making the users' option to opt-out as difficult and tedious as possible. The EU should take more steps to ensure that their citizens' data is easier and more managable for the average person to have overview and control over, with a particular and crucial need for more restriction over big tech's data usage for AI. Moreover, video games are a product of increasing cultural and historical significance, with even fewer laws protecting consumers than other forms of technology. Particularly the fact that users only purchase licenses to a product, while the companies retain the right to, at any time and for any reason, revoke this license or shut down the product in question. Measures should be taken to ensure that users have access to the products they pay for, after a games lifecycle. Large companies, especially ones who manifacture live-service games, vehemently argue that this is not feasible due to reasons like cloud-server costs and lack of safety for the consumer after the company is unable to enforce a safe environment. However, historically, many several older video games allow users to continue to play the game, using peer-to-peer connections and other forms of keeping their own private instances of the game running, forming communities, and being able to continue to enjoy the game, all without the original developers keeping an oversight over these privately run instances. This should be the industry-standard solution, as it is cheap (or free) for the developer, and keeps the freedom to consume a product, in the customers hands. Some of the big companies that oppose this idea, are companies who have shut down games in order to sell more copies of later installments in the same series (most famously \"The Crew\" by Ubisoft).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.226631Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584419.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584419",
+    "chunks_doc_id": "F3584419",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584419.clean.paragraph.json"
+}

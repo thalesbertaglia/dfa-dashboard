@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586441",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:45Z",
+    "finished_at": "2026-04-14T12:57:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it impossible to use the product after the decision to stop supporting the game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to be sure that a product or service I buy will not disappear one day without my prior knowledge."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35367,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for the Committee’s opportunity to share its views on the DFA. I kindly request and suggest that account be taken of the problem of large companies producing computer games making it impossible to use the product after the decision to stop supporting the game. As a consumer, I would like to be sure that a product or service I buy will not disappear one day without my prior knowledge. I would like to be able to use the game even after its servers are switched off, as many of them have a one-person game that does not require any contribution from the developer. In the same vein, the situation with the purchase of digital films does not currently exist for consumers to ensure that the film for which he has paid for will not disappear one day from his digital library. Thank you in advance for taking this feedback into account.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.247838Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586441.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586441",
+    "chunks_doc_id": "F3586441",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

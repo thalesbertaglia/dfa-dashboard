@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586312",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:39Z",
+    "finished_at": "2026-04-14T12:53:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For online-only games, sooner or later there is a point at which the publisher stops support of the servers for the game, thereby destroying the game."
+              },
+              {
+                "quote": "A very simple solution to this is to have mandatory publishing of source code for games that have been bought and paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19722,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider adding video content such as games to this act. Video games might seem silly or irrelevant, but we have direct, impactful violation of consumer rights going on. For online-only games, sooner or later there is a point at which the publisher stops support of the servers for the game, thereby destroying the game. A very simple solution to this is to have mandatory publishing of source code for games that have been bought and paid for. Another option is to provide users with options for personal hosting on personal servers. Please understand, nobody is expecting the publishers to host and support games indefinitely. What I am asking for is to stop destruction of games by making sure that the game content that I buy, is not killed forever if a company goes bankrupt or simply moves on with their other games. The games that are bought should still be available through some other means - and again, not by company supporting it forever, but by making the game code accessible for independent developers and volunteers to make it work offline, without game servers. It's much easier than it seems.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.200218Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586312.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586312",
+    "chunks_doc_id": "F3586312",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

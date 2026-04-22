@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584560",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:45Z",
+    "finished_at": "2026-04-14T12:02:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unilateral and irreversible decision to completely eliminate a video game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22450,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it would be favourable for the law to also include protection for consumers of video games against publishers by taking the unilateral and irreversible decision to completely eliminate a video game, more than anything because if something similar were to go in other industries that would be absurd, imagine reading a book and suddenly the editor who published it decides that she does not want it to continue to be edited and not only for the printing of more books, but also require the destruction of the copies already sold and forbid the author from writing the book again or re-publishing it otherwise. In the case of digital format, this is not only the case, but also publishers have the means to destroy what you have bought without practically anything that prevents it, this has passed many recent times and will go back again. It is for the above reasons that initiatives such as ‘Stop Killing Games’ have a massive support, not only protect consumers, but also creators themselves, who see their work (which can in many cases be considered art) erased from their eyes without anything to do. It is for this reason that I warmly call for the imposition of measures such as those suggested in the above-mentioned initiative to defend consumers in this way and form of art to be taken into account, since these measures are not just, if not only, logical. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.293016Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584560.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584560",
+    "chunks_doc_id": "F3584560",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585362",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:02Z",
+    "finished_at": "2026-04-14T12:26:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "license buried deep in the terms of service without clearly telling customers upfront if or when their purchase might be taken away."
+              },
+              {
+                "quote": "It just doesnt seem right to pay for something and then lose it without warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19773,
+          "unit_kind": "feedback"
+        },
+        "text": "Im really glad the Commission is working on digital fairness because theres something thats been worrying me as a consumer. Over the past few years, Ive noticed more and more digital stuff Ive paid for just disappearing. For example, The Crew was completely shut down which felt really unfair. Then theres Sony removing hundreds of movies and shows that people had purchased from the PlayStation Store in Germany and Austria, like John Wick and La La Land, because of licensing issues. And Microsofts ebook store shutting down and deleting peoples ebooks, even though they tried to give refunds. After seeing all this, Ive gotten cautious about buying live service games, ebooks, or digital movies unless theyre really cheap because Im not sure Ill still have them later on. It just doesnt seem right to pay for something and then lose it without warning. I hope the Commission can help ensure that consumers are better protected from losing access to digital goods theyve actually bought. Its not enough for companies to hide this behind a license buried deep in the terms of service without clearly telling customers upfront if or when their purchase might be taken away.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.699667Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585362.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585362",
+    "chunks_doc_id": "F3585362",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585362.clean.paragraph.json"
+}

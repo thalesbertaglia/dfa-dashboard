@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586182",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:51Z",
+    "finished_at": "2026-04-14T12:50:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online video games"
+              },
+              {
+                "quote": "preserve access to always-online games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15910,
+          "unit_kind": "feedback"
+        },
+        "text": "Bonjour from Strasbourg. As a European citizen having witnessed how effective European legislation has been in regards to forcing the rest of the world to protect consumer rights, I must strongly suggest that this Digital Fairness Act encompass the matter of online video games and the need for companies to preserve access to always-online games in order to prevent game publishers from selling access to games that consumers aren't guaranteed to always have access to in the future, no matter what they do. Including the matter of video games and their playability following the taking down of servers or restriction of access to them by publishers once maintaining online services becomes an active burden to the company, forcing them to implement measures to let consumers access the games in some capacity, in spit of continued support not being active anymore. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.137069Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586182.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586182",
+    "chunks_doc_id": "F3586182",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

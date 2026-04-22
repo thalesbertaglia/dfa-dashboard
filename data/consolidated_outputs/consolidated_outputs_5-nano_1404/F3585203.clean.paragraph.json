@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585203",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:33Z",
+    "finished_at": "2026-04-14T12:23:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This problematic has no better illustration than video games with an online component"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "more and more digital goods publishers seem to reserve themselves the right to terminate product access to consumers who paid for them."
+              },
+              {
+                "quote": "Once a product is paid for, it has to remain in a satisfactory usable state for the customer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30649,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see the Digital Fairness Act regulate the sale of digital goods, sold as products but otherwise treated as a service by their publishers, more and more digital goods publishers seem to reserve themselves the right to terminate product access to consumers who paid for them. Once a product is paid for, it has to remain in a satisfactory usable state for the customer. This problematic has no better illustration than video games with an online component, the issue is rather widely spread as is illustrated by the \"Stop Destroying Videogames\" European Citizen Initiative that has gathered more than 1.4 million signatures from European citizens thus far. I hope Europe will take this opportunity to remain the world leader regarding consumer rights and pave the way forward to a safer digital market for its citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.633861Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585203.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585203",
+    "chunks_doc_id": "F3585203",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

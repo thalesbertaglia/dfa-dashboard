@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3587999",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:45Z",
+    "finished_at": "2026-04-14T13:22:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games evolved from digital products on physical medium (disks, cartridges) to becoming fully digital services that are reliant on online services while still advertise and sell themselves as products that are owned."
+              },
+              {
+                "quote": "There are entire game genres premedicated on \"gocha\" lootbox mechanics, tied to paying with real money."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Such games are testing grounds for new dark patterns, addictive properties and similar efforts."
+              },
+              {
+                "quote": "Until regulations appeared, these were allowed to prey on everyone including children and of course publishers justified them as \"surprise mechanics\" or other nonsense."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hidden away in EULAs."
+              },
+              {
+                "quote": "There are no guarantees for how long a game has online service, nor are warnings given in anything but the last second."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45384,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games evolved from digital products on physical medium (disks, cartridges) to becoming fully digital services that are reliant on online services while still advertise and sell themselves as products that are owned. This disconnect has created a situation where customers are buying a product that have hidden finite lifespan, reliant on online components and services that they do not know about except hidden away in EULAs. Today, almost all major titles of video games come with live-service components even if the nature of the product itself does not require it, sometimes not even built into the main product itself but some secondary product (launchers, DRM, online stores etc.) that customers have no choice but to enable if they wish to use software they purchased. Should the publishers go bankrupt or simply decide that the game was not meeting sales expectations, they can and have removed online support for games thus rendering them unusable. There are no guarantees for how long a game has online service, nor are warnings given in anything but the last second. In older games, there were tools for customers to be able to keep using their product without publisher support or made tools to do so. Today, many games purpousefully In addition, other features have also have introduced advertising, in-game stores and more predatory content. I would like to draw attention to the history of lootboxes, which are just one predatory method of an increasing number and types employed and developed. Until regulations appeared, these were allowed to prey on everyone including children and of course publishers justified them as \"surprise mechanics\" or other nonsense. There are entire game genres premedicated on \"gocha\" lootbox mechanics, tied to paying with real money. Such games are testing grounds for new dark patterns, addictive properties and similar efforts. These include efforts to include addictive mechanics and other methods that are subject to digital fitness check but have not been subject to any regulation. I believe strongly that the EU should start looking at video games and their mechanics, particularly high-cost so-called \"AAA\" games that are the most prone to such practices, although some smaller independent \"indie\" studios have also created such products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.601780Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587999.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587999",
+    "chunks_doc_id": "F3587999",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "doc_id": "F3662060",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:38Z",
+    "finished_at": "2026-04-14T13:44:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8552,
+          "unit_kind": "feedback"
+        },
+        "text": "Installing whatever software one wants on their own hardware shouldn't be a controversial feature. Android already displays multiple warnings for any unverified app, so it's not like a person might install something like that \"accidentally\". It's a conscious decision to trust a particular piece of software, even if Google has chosen not to accept or verify the developer behind it (yet?) for any number of reasons (time, money, conflict of interest, etc). Because letting anyone but the laws around actually illegal activity control what software a device one bought is \"allowed\" to run is ridiculous. Google bricked the PlayStore version of Nextcloud by just revoking a critical permission and the only option to have a working client for 7 months was \"sideloading\" the official client from their open source repository directly. Since Nextcloud is a direct alternative to Google Drive (which did not have it's permission revoked) this clearly had aspects of a conflict of interest. If this plan goes through and they don't like some app it's as simple as them just not bothering to \"verify\" a developer by not allocating the resources to accept them and that's it, it just won't run. This proposal moves the Infrastructure in place for a complete lock down of third party app distribution channels. First they only let applications from \"verified\" developers run, effectively turning the free software market into a \"whitelist\". Then they raise the requirements to get verified, locking out individuals and small scale, low budget projects. And lastly they just neglect verifying new projects all together or raise the requirements to an unrealistic degree, effectively locking software distribution channels not controlled by Google down into a technically present, but practically unusable ghost of it's former self. Giving a for-profit corporation immediate control over what software 4 billion mobile devices are able to run is a massive conflict of interest. As long as the software a person is trying to run is not breaking any laws it's no one's right to control, especially not a corporation's with a suspected interest to lock out competition through \"guidelines\" skewing the market place in their favour.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.072436Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3662060.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3662060",
+    "chunks_doc_id": "F3662060",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3662060.clean.paragraph.json"
+}

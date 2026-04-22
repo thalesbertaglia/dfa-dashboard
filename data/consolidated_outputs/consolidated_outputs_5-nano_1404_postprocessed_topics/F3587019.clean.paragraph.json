@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587019",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:12Z",
+    "finished_at": "2026-04-14T13:08:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Killing Games initiative, which highlights how players are often left without any recourse when games theyve bought are shut down or removed."
+              },
+              {
+                "quote": "People should be able to access the products theyve paid for, especially when those products are entirely digital."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment provider wouldnt allow those types of games to be sold through their system."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37637,
+          "unit_kind": "feedback"
+        },
+        "text": "Id like to ask the Commission to consider including protections for consumers in the gaming space as part of the Digital Fairness Act. A good example is the Stop Killing Games initiative, which highlights how players are often left without any recourse when games theyve bought are shut down or removed. People should be able to access the products theyve paid for, especially when those products are entirely digital. Right now, it feels like companies can just pull the plug whenever they want, and thats not fair to consumers. I also think its important to look at how payment processors are influencing what kind of content can be sold online. There was a situation with itch.io, for instance, where they had to take down all their adult (NSFW) gamesnot because of any legal issue, but because their payment provider wouldnt allow those types of games to be sold through their system. That kind of pressure amounts to censorship, even if its not coming directly from governments or regulators. It puts too much control in the hands of companies that werent elected or held accountable to the public. It would be great to see the Digital Fairness Act address both of these issues. People deserve to keep access to what they buy, and creators shouldnt lose their platforms just because a payment processor decides their work isnt acceptable. These are real problems that affect real people. Thanks for taking the time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.412668Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587019.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587019",
+    "chunks_doc_id": "F3587019",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587019.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33067978",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:50Z",
+    "finished_at": "2026-04-14T09:28:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'd love for this act to protect video games from being destroyed by their publishers after they have been sold."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11389,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd love for this act to protect video games from being destroyed by their publishers after they have been sold. I find it strange that some publishers think it's okay to remove people's ability to use what they've paid for because those publishers don't find the game to be profitable enough anymore. If games rely on a central server and the publisher wants to stop that server, I think it should be mandated that they give the players of those games access to either the source code of the server, so players can compile their own server from scratch, or the publishers distribute executables for the server.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.472545Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067978.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067978",
+    "chunks_doc_id": "F33067978",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33067978.clean.paragraph.json"
+}

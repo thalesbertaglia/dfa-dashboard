@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585209",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:41Z",
+    "finished_at": "2026-04-14T12:23:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "arbitration clauses"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19127,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act would be elevated significantly if protections for consumers and users also included provisions to keep software useable indefinitely, e.g. by mandating that portions of the source code or server infrastructure, DRM measures etc. be removed and open-sourced after the product reaches its commercial end of life. In particular, this would be important for long-lived, socially engaging entertainment products such as video games, which often are shut down at the whim of platform operators or investors with no repireve for the users. In that same vein, I feel that shrink-wrap EULAs as they are worded nowadays, should never be allowed to include any arbitration clauses or waivers of consumer rights. The DFA should focus on TOS and EULAs for digital products and services to be as consumer and citizen-friendly as possible, with sustainability, openness, fairness as the primary goals. For reference, I have attached the German Apple MacOS X Sequoia (latest version) EULA. This is, in its entirety, not a legal document a layperson can be asked to reasonably accept and execute automatically with the click of a button.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.636109Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585209.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585209",
+    "chunks_doc_id": "F3585209",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585209.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33091941",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:28Z",
+    "finished_at": "2026-04-14T09:36:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Cyberbullying",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "cyberbullying"
+              }
+            ]
+          },
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "misleading advertising"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32451,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. In an increasingly ‘digitalised’ society, the Digital Fairness Act is promoted with the aim of improving the protection of users in digital media. In my view, this legislation is essential because at a time when consumers are exposed to as many risks it is essential that they are protected from online difficulties such as cyberbullying or misleading advertising.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.588231Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091941.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091941",
+    "chunks_doc_id": "F33091941",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

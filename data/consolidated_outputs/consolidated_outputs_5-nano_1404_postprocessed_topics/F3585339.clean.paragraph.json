@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585339",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:31Z",
+    "finished_at": "2026-04-14T12:25:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "licensing agreements that allow publishers to unilaterally terminate a product's functionality"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24856,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act must address the critical issue of digital products being rendered non-functional by their vendors after sale, a practice that amounts to digital planned obsolescence and should be unequivocally classified as an unfair commercial practice. There is a significant and growing consumer demand for action on this front, as evidenced by the \"Stop Destroying Videogames\" European Citizens' Initiative, which has successfully gathered over 1.4 million signatures. This initiative highlights a widespread concern among EU citizens regarding the erosion of their digital ownership rights. Consumers purchase digital goods with the reasonable expectation of enduring access, yet this is often undermined by licensing agreements that allow publishers to unilaterally terminate a product's functionality. This creates a significant power imbalance and contravenes the fundamental principles of consumer protection and property rights that are central to the Union's legal framework. To rectify this, the Act must enshrine a consumer's right to the continued use of their purchased digital products. When a vendor ceases support, they should be obligated to ensure the product remains in a functional state for the consumer. By incorporating such provisions, the Digital Fairness Act will not only align with the demonstrated will of European citizens but also foster a more equitable and trustworthy digital single market where consumer rights are robustly protected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.687488Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585339.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585339",
+    "chunks_doc_id": "F3585339",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585339.clean.paragraph.json"
+}

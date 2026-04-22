@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3586614",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:05Z",
+    "finished_at": "2026-04-14T13:01:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "an example of this is to force an unnecesary online connection to a server to authenticate as an user to then be able to play the game, even if the game doesn't need any online requirements."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, the videogames industry is selling user licenses to allow access to their products, but they are deceptively saying that we are \"buying a product\"."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Corporations control the use of their products simply cancelling the license, forcing people to buy the next game if they want to keep playing something similar, because the old one has been eliminated and can't be accessed anymore by any legal means."
+              },
+              {
+                "quote": "People should buy \"the next game\" because they want to, not because they are forced to."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 99759,
+          "unit_kind": "feedback"
+        },
+        "text": "Currently there is an european iniciative called \"Stop Destroying Videogames\" that focuses on preserving games after their owners stop providing support. Currently, there is an increasing number of games that are created with some kind of planned obsolescence, so users can no longer enjoy the products they paid for. I will mainly talk about videogames here, but this issue affects all digital products. An example of this is to force an unnecesary online connection to a server to authenticate as an user to then be able to play the game, even if the game doesn't need any online requirements. Developers excuse this behaviour with the excuse of piracy protection, among others, but the truth is this system doesn't stop piracy but allows developers to stop those authentication servers, effectively rendering the game unusable because it can no longer connect to allow users to play it. Right now, the videogames industry is selling user licenses to allow access to their products, but they are deceptively saying that we are \"buying a product\". Corporations control the use of their products simply cancelling the license, forcing people to buy the next game if they want to keep playing something similar, because the old one has been eliminated and can't be accessed anymore by any legal means. The \"Stop Destroying Videogames\" iniciative has gained a lot of support in europe and all around the globe. It doesn't ask for endless support from the developers, it just asks developers to ensure the games will have an \"afterlife\" plan to allow owners to keep using the products they bought. I have plenty of games and other digital products that still work today, but there are many other games that I can't use because the developer decided to disable access to it. Videogames or any digital product shouldn't be \"killed\" just because the developer stopped giving support to them. People paid money to buy a product and neglect access to it, when it can be perfectly functional without any of those imposed artificial system to create planned obsolescence, should be illegal in my opinion. I think people have the right to keep using the products they bought, even if the developer stops giving any support. This means the owners of the product are \"on their own\" as long as the developer provided a proper way to keep the game in a playable state. People should buy \"the next game\" because they want to, not because they are forced to. Thanks for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.294977Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586614.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586614",
+    "chunks_doc_id": "F3586614",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

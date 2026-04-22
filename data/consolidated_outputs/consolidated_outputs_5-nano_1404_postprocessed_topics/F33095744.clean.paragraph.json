@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33095744",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:20:52Z",
+    "finished_at": "2026-04-14T10:21:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The product should display a logo to indicate that a service or subscription is purchased with a finite duration rather than a stand-alone product"
+              },
+              {
+                "quote": "there should also be a description of the product in which the guaranteed lifespan can be found"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28647,
+          "unit_kind": "feedback"
+        },
+        "text": "Games are emotional from the time you spend and the memories you have. If it is reasonably possible to keep games available without increasing costs, it is unreasonable for a publisher to destroy the game only because it has designed the game in a way that requires maintenance in order to continue. If the publisher nevertheless chooses to do so, there should also be a description of the product in which the guaranteed lifespan can be found. The product should display a logo to indicate that a service or subscription is purchased with a finite duration rather than a stand-alone product",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.773820Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095744.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095744",
+    "chunks_doc_id": "F33095744",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095744.clean.paragraph.json"
+}

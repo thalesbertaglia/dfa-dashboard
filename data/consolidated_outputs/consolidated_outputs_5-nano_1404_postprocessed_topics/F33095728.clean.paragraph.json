@@ -1,0 +1,105 @@
+{
+  "doc_id": "F33095728",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:28:26Z",
+    "finished_at": "2026-04-15T08:30:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "the company was the one using dark practices."
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Cars now have heated seats as subscriptions.",
+              "Subscriptions and digital locks for those features is nothing but blackmail."
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Software should list all properties and data collected and ask for consent when doing any kind of telemetry or collection.",
+              "There should be one list of what is collected and sent, and option to turn it off with one click.",
+              "There should be a zero network traffic mode."
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "EULAs/TOSs should be highly limited or outlawed, companies should pay large fines for including illegal or anti-consumer clauses.",
+              "There should be GDPR style fines for including non-enforceable or anti-consumer clauses in EULAs.",
+              "EULAs can change at any point and consumers are forced into updated terms automatically or without course to deny new changes."
+            ]
+          },
+          {
+            "topic": "Interoperability",
+            "topic_source": "new",
+            "evidence_quotes": [
+              "Interoperability with Linux should be mandated."
+            ]
+          },
+          {
+            "topic": "Right To Repair",
+            "topic_source": "new",
+            "evidence_quotes": [
+              "Purchases are purchases and consumers should own what they bought, and have rights to fix, own, and validate products they buy."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 105986,
+          "unit_kind": "feedback"
+        },
+        "text": "Important issues: 1) Reverse engineering should be legally allowed in the EU. Currently companies can use the legal system to crush and intimidate anyone who attempts it. Citizens should be able to validate the software and make it compatible. There was a video how some trains would break if serviced at a different workshop by GPS. It sounded like the people who discovered it were sued and scared by legal system, but the company was the one using dark practices. You can take apart a car, there should be no exception for software. Because right now good actors that could validate software are in danger legally, but bad actors never have this limitation. 2) Practice to lock physical items behind digital paywalls should be forbidden. Cars now have heated seats as subscriptions. The manufacturing cost is already paid. Subscriptions and digital locks for those features is nothing but blackmail. Physical items should not break with a lack of subscription. 3) Devices that don't have explicit Internet purpose should have irrevocable offline mode. Box images should only focus on offline features. Online features turn devices into an e-waste when servers are no longer profitable, often in less than two years. Online features are broken unless the product includes an opensource software that allows maintenance without the original manufacturer. 4) EULAs/TOSs should be highly limited or outlawed, companies should pay large fines for including illegal or anti-consumer clauses. Currently companies can write in EULA/TOS what they want and intimidate users into accepting hostile and anti-consumer features and functions. It has no cost for the companies, but fighting these anti-consumer clauses means some citizen has to loose years to fight this in court. This should cease. There should be GDPR style fines for including non-enforceable or anti-consumer clauses in EULAs. It is also unacceptable that EULAs can change at any point and consumers are forced into updated terms automatically or without course to deny new changes. And EULAs are incomprehensible. This is used as a slippery slope to make software more anti-consumer each year by adding features that directly harm consumers. 5) Software should list all properties and data collected and ask for consent when doing any kind of telemetry or collection. There should be one list of what is collected and sent, and option to turn it off with one click. Currently software just assumes it can do whatever it wants. Looking at a major operating system, there are pages and pages of settings, and even turning them off still leaves the traffic running. There should be a zero network traffic mode. 6) Interoperability with Linux should be mandated. Since hostile EULAs are baked into products, there should be a mandated requirement for software to run on Linux. This is critically important as the EU wants to make more systems digital. At the same time often EULAs or data collection requirements by companies are simply unacceptable. So citizens are forced to agree to these unacceptable terms to use software to use the systems they are mandated to use. Linux should always be an option. 7) Digital purchases are purchases. Companies have abused EULAs to create this slippery slope where things you purchase are redefined as something else. Purchases are purchases and consumers should own what they bought, and have rights to fix, own, and validate products they buy. The final state at the time of purchase or support term of the product should be perpetually owned by the customer. 8) The rights to information should be balanced. Corporations can now train AIs on copyrighted material, collect user data without consent. Consumers would be in legal trouble if they tried to use an automated software to interact with those vendors websites. Disbalance is absurd. Companies act like they own your computer, say when it's obsolete, what you can do with software, but consumers have no right to even own their car.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.768628Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095728.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095728",
+    "chunks_doc_id": "F33095728",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095728.clean.paragraph.json"
+}

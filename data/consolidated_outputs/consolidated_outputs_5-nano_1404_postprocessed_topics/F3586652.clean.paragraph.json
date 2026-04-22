@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586652",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:04Z",
+    "finished_at": "2026-04-14T13:01:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "permanent online connection"
+              },
+              {
+                "quote": "private servers"
+              },
+              {
+                "quote": "legally halted"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27247,
+          "unit_kind": "feedback"
+        },
+        "text": "I find it good that the Digital Fairness Act is launching something to make the management of digital content fairer. I find it important, especially in the case of video games, as many titles simply disappear with time, although they would still be easily playable in reality/theoretical. One example is PGA Tour 2K21, which from the outset requires a permanent online connection, although, technically, the game would also work very well offline. To my knowledge, previous legs of the series even came out without any online constraint. Games such as Call of Duty 4 and 6 are also affected because even their individual players’ campaigns depend on online access. This, moreover, concerns many titles of the series. At the same time, supporter projects seeking to receive old games, such as private servers or community racing, are often legally halted, although they tend to make no profit and rely on donations. The petition Stop Destroying Games now has over 1.44 million signatures. I very much hope that the Digital Fairness Act will also rethink such concerns in order to better protect digital games and keep them playable in the long term. Thank you for taking the time to read my feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.308475Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586652.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586652",
+    "chunks_doc_id": "F3586652",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586652.clean.paragraph.json"
+}

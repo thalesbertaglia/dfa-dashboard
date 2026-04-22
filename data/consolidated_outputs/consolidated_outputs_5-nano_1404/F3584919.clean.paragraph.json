@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584919",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:31Z",
+    "finished_at": "2026-04-14T12:14:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection of old games from having their servers shut down (ie killed) disabling customers who have bought the game (including physical copies) from being played (with no refund being provided)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15856,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I am writing to add my feedback to the digital protection law, specifically as an EU citizen I would like the law to include the protection of old games from having their servers shut down (ie killed) disabling customers who have bought the game (including physical copies) from being played (with no refund being provided) for more information please refer to the stop killing games initiative and the EU petition which recently reached 1 million+ signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.502367Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584919.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584919",
+    "chunks_doc_id": "F3584919",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

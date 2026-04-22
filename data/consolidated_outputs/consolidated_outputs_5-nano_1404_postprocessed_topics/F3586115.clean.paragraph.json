@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586115",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:24Z",
+    "finished_at": "2026-04-14T12:47:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not actually buying, and thus owning, said copy but instead are paying for access to the game under a license that can be revoked at any time without reason."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unclear communication beforehand,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33303,
+          "unit_kind": "feedback"
+        },
+        "text": "An issue related to digital consumer rights that would be worth taking a look at, in my opinion, is the current state of how video games are being licensed to customers. Because of rather unclear communication beforehand, many people pay for a digital copy of a video game without knowing that they're not actually buying, and thus owning, said copy but instead are paying for access to the game under a license that can be revoked at any time without reason. I'm one of those people, that have paid for several video games before realizing that I wasn't actually buying them and have never had any type of ownership. What frustrates me the most is that if I'm paying for access via a license, I believe I should have some idea of how long said license will be valid. When I pay for a license on anything else online, for example an anti-virus software, it is communicated before any payments just how long my license will last and I can thus make an informed decision on whether or not the product is worth the price. With video games, and most likely digital copies of music albums and movies as well, I have no way of knowing if I'm paying for access for 10 years, one year, or one week. I feel like the video game industry is becoming more and more hostile towards us, the consumers and customers, and I hope that acts like this one can result in regulations that protects us better against rather predatory business strategies and tactics. Thank you for the opportunity to make my opinion known!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.099277Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586115.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586115",
+    "chunks_doc_id": "F3586115",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586115.clean.paragraph.json"
+}

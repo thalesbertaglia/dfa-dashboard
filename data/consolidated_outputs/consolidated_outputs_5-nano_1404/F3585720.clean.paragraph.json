@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585720",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:46Z",
+    "finished_at": "2026-04-14T12:35:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The second problem is the introduction into video lights of gameplay mechanics akin to silver games which are accessible to children, in particular in the football games published by Electronic Arts."
+              },
+              {
+                "quote": "these gambling machines can lead to addictive behaviour among players, especially younger players."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the aim of the campaign referred to above is to oblige publishers who wish to stop the support of their game to leave it in a usable (playable) state."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26832,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to draw your attention to a topic that may not be important for you but for billions of consumers/players around the world: Thursday video. In particular, I would like you to address two issues that affect this huge income industry. The first problem is the one raised by the citizens’ campaign ‘Stop killing games’. With the rise of the internet and the end of physical media, publishers (such as Ubisoft) are becoming more and more rightful to the detriment of those of consumers/players who have lost access to the games you bought with the aim (usually) of forcing you to buy the next episode. This is called a flight. When you buy a game, it is up to you. The aim of the campaign referred to above is to oblige publishers who wish to stop the support of their game to leave it in a usable (playable) state. We do not ask for an ad vitam aeternam support but just that it predicts the end of life of the game. For information, the campaign petition collected more than one million signatures. The second problem is the introduction into video lights of gameplay mechanics akin to silver games which are accessible to children, in particular in the football games published by Electronic Arts. So many studies have shown that videoconferencing does not render violent, so many other studies have shown that these gambling machines can lead to addictive behaviour among players, especially younger players. Thank you for reading to the end. Cordially, an old video love.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.888004Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585720.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585720",
+    "chunks_doc_id": "F3585720",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

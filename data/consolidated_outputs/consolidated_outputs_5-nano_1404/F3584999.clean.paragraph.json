@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3584999",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:35Z",
+    "finished_at": "2026-04-14T12:18:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "for years, there have been producers of computer games that make your games unplayable after an arbitrary period, with the aim of creating obsolescence for digital goods."
+              },
+              {
+                "quote": "A voluntary feature should not be misused as an ‘emergency switch’."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One example (but by no means an isolated case) is ‘The Crew’ from Ubisoft."
+              },
+              {
+                "quote": "The game was sold from 2014 and stopped in 2024."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "purchase allows only temporary access (e.g. MMO games with monthly subscriptions)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39329,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen, I would like to provide you with feedback on the Digital Fairness Act. Unfortunately, for years, there have been producers of computer games that make your games unplayable after an arbitrary period, with the aim of creating obsolescence for digital goods. One example (but by no means an isolated case) is ‘The Crew’ from Ubisoft. The game was sold from 2014 and stopped in 2024. As of then, only “The Crew 2” was available. However, the original sale never referred to making a day’s game unplayable. Nor would it have been necessary for the manufacturer to operate its own servers in order to keep the game alive. Removing the login for single players represents almost no effort to give players the opportunity to start a multi-player server themselves. This was already the standard decades ago. It is absolutely not necessary to make a login from the manufacturer indispensable when programming games. A voluntary feature should not be misused as an ‘emergency switch’. It is, in my view, misleading to sell an article at a one-off price without mentioning that it later: Maybe, perhaps not 2) be rendered inoperable after a period determined at will by the manufacturer. Apart from that, I consider it a tragedy to destroy unique creative creations (in a video game, multifaceted work by programming, musicians and graphics). This is not about selling bulbs 2, which looks like and works like incandescent bulbs 1. The games that will be rendered inaccessible will not be repeated in the same way. This is, of course, different in the case of games by manufacturers who make it clear from the outset that a purchase allows only temporary access (e.g. MMO games with monthly subscriptions). This is well informed. I hope that I have explained my position comprehensiblely and thank you for your commitment!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.545545Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584999.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584999",
+    "chunks_doc_id": "F3584999",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

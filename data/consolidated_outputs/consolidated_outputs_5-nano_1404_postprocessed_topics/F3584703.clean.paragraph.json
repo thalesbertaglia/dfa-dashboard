@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584703",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:58Z",
+    "finished_at": "2026-04-14T12:07:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the permanent removal of video games purchased by consumers."
+              },
+              {
+                "quote": "unilateral and irreversible deactivation of the video games they have acquired."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13385,
+          "unit_kind": "feedback"
+        },
+        "text": "As a French citizen, I would like to draw your attention to a worrying digital practice which, in my view, deserves to be regulated by law: the permanent removal of video games purchased by consumers. Many games are today made inaccessible even after they have been legally purchased, in particular when they are online games or services of limited duration. This practice deprives users of their right to use a product they have paid for, without the possibility of reimbursement or redress. I encourage you to consider provisions in the Digital Fairness Act to protect consumers against unilateral and irreversible deactivation of the video games they have acquired. This would ensure a minimum level of respect for buyers’ rights in the current digital environment. Please take this request into account.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.363426Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584703.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584703",
+    "chunks_doc_id": "F3584703",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584703.clean.paragraph.json"
+}

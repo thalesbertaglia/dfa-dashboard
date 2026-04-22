@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586050",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:59Z",
+    "finished_at": "2026-04-14T12:45:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One area I think really needs more attention, though, is the way video games are treated after companies stop supporting them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21509,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm writing as an individual who strongly supports the goals of the Digital Fairness Act. It's good to see action being taken to protect consumers in a digital world that often feels anything but fair. One area I think really needs more attention, though, is the way video games are treated after companies stop supporting them. Right now, when a publisher decides to shut down a games servers, apply DRM restrictions, or remove it from sale, players can lose access completely, even if they paid for it. Thats not just frustrating, its unfair. When we buy a game, we expect to be able to keep playing it. We dont expect it to disappear the moment the company moves on. Games are more than products. Theyre cultural works, theyre memories, theyre art. If a book publisher shuts down, your book still works. If a game publisher pulls support, your game might not even open. That shouldnt be allowed. I hope the Commission will consider requiring companies to make games still accessible after official support ends, whether that means providing an offline mode, removing DRM, or at least giving legal room for fans and preservation communities to keep games alive. Fairness in the digital world has to include the right to access what you paid for, even years later. Especially for games, where entire experiences and communities can disappear overnight. Thank you for listening, and for taking this issue seriously.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.057176Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586050.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586050",
+    "chunks_doc_id": "F3586050",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584541",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:06Z",
+    "finished_at": "2026-04-14T12:01:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "especially games that are no longer available due to server shutdowns."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8773,
+          "unit_kind": "feedback"
+        },
+        "text": "As a long-time supporter of digital consumer rights, I believe it's essential that legislation recognizes the importance of preserving access to digital products people have legally purchased, especially games that are no longer available due to server shutdowns. Consumers deserve transparency, longevity, and control over the digital goods they pay for. Protecting these rights helps foster trust in the digital marketplace and ensures cultural and personal digital heritage is not lost.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.283628Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584541.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584541",
+    "chunks_doc_id": "F3584541",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585786",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:48Z",
+    "finished_at": "2026-04-14T12:37:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gamers invest time and money(!) into games, they purchase(!) them; protecting them from being deleted safeguards their purchases(!)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15360,
+          "unit_kind": "feedback"
+        },
+        "text": "I will keep it short because time is valuable: 1. Video games are an important part of contemporary culture and art preserving them ensures future generations can experience and learn from them, as a cultural artifact, exactly likes books, movies, and music. 2. Gamers invest time and money(!) into games, they purchase(!) them; protecting them from being deleted safeguards their purchases(!). 3. Direct access to older games can support developers, historians, and enthusiasts in studying past designs & stories, learning from good implementations, inspiring new ideas and improvements. 4. The most personal reason is the ability to learn interactively. As I grew up sick I spent a lot of time in-doors learning history, strategy, math, science, psychology, languages, organizational skills, and so much more - all through videogames! Thank you for reading!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.919291Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585786.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585786",
+    "chunks_doc_id": "F3585786",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

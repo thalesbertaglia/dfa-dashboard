@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584229",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:44Z",
+    "finished_at": "2026-04-14T11:52:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the gaming industry."
+              },
+              {
+                "quote": "The Digital Fairness Act already touches on manipulative anti-consumer practices in the video game industry with proposed regulation of gambling-like features."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15387,
+          "unit_kind": "feedback"
+        },
+        "text": "As already mentioned in the vast majority of the feedback to this (very valuable and necessary) legal proposal, in order to ensure the rights of European consumers in the digital space, it is absolutely necessary to enforce one of the single largest digital industries European consumers interact with - the gaming industry. The Digital Fairness Act already touches on manipulative anti-consumer practices in the video game industry with proposed regulation of gambling-like features. With that in mind, it is perfectly clear that the scope of the Digital Fairness Act will remain incomplete unless it includes the guarantees of ownership for purchased products in the video game sector as well. Adding this additional provision to the Act will ensure that it will serve as an exemplary consumer rights mechanism that European citizens can be proud of.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.135390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584229.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584229",
+    "chunks_doc_id": "F3584229",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

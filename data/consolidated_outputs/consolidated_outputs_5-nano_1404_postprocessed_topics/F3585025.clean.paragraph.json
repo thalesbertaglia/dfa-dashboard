@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585025",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:16Z",
+    "finished_at": "2026-04-14T12:18:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video game end-user license agreements allow publishers to revoke access to purchases"
+              },
+              {
+                "quote": "publishers shutting down online games after an arbitrary amount of time"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video game end-user license agreements allow publishers to revoke access to purchases without any exploitation or without breaking terms of service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24902,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I am writing to you as a citizen of an EEA country, residing in the Czech Republic. I would like to raise an issue regarding current practices in the video game industry. It is concerning how digital products are sold as licenses without sufficient clarity for the average consumer. Many video game end-user license agreements allow publishers to revoke access to purchases without any exploitation or without breaking terms of service. Furthermore, there is a trend of publishers shutting down online games after an arbitrary amount of time, usually related to if the game was perceived as a success or not, leaving your purchased product in an unusable state. However, at the time of purchase you have no reasonable way of determining when it might \"shut down\". I think it would be good for future game development (especially with an online component) to have regulation for some sort of end of life plan both for consumers and viability of these products in the future due to the uncertainty the current practices bring. For example giving tools for community run servers when official support ends or offline play options.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.559121Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585025.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585025",
+    "chunks_doc_id": "F3585025",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585025.clean.paragraph.json"
+}

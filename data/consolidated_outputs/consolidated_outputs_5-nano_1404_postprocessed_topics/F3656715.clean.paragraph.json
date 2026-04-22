@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3656715",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:47Z",
+    "finished_at": "2026-04-14T13:44:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When I purchase a game, I should not be forced to rely on a company to upkeep its servers for me to continue playing."
+              },
+              {
+                "quote": "Once the company decides that the game's servers need to be closed for one reason for another, I should be able to have some sort of alternative to the official servers that were being run by the company."
+              },
+              {
+                "quote": "I can't be met with a screen that tells me that the game can't connect to its servers and never have access to it ever again."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Microsoft recently also forced OneDrive into their operating system, amongst other bloatware that is placed in folders where Microsoft warns you that if you edit anything, you might destroy the PC."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35506,
+          "unit_kind": "feedback"
+        },
+        "text": "The methods in which tech companies have been moving as of late are utterly unacceptable. A total disregard of the consumer is shown and this has to be addressed. Whenever I purchase a product, I expect that I can do whatever I'd like with this product. I can use it, burn it, throw it off my window, it is mine to use as I'd like and no one should have a say in it unless I use it in a harmful manner. When I purchase a printer, I should not have to download an app, create an account and be charged to use it, I should be able to plug it in and immediately print whatever document I desire. When I purchase a phone, I should be able to do whatever I'd like with it. I should be able to uninstall or install any app I want, I should be able to change the operating system that currently runs on said phone, I should be able to swap out its battery, cpu, memory, screen whenever I decide I'd like to do so and pay absolutely no heed to the company or what its wishes are. All of the above ring true for software as well, when I buy a game, I should not be forced to rely on a company to upkeep its servers for me to continue playing. Once the company decides that the game's servers need to be closed for one reason for another, I should be able to have some sort of alternative to the official servers that were being run by the company. I can't be met with a screen that tells me that the game can't connect to its servers and never have access to it ever again. Whenever I pay for software I should also not be forced to update it or be completely blocked from offline features on the company's whim. I remember having a rather slow PC that needed its time to do updates, which was completely fine, I could leave it to update whenever I was not using the computer, however whenever there was an update pending it always somehow happened that my PC slowed to a halt and I was forced to update it or it would not properly function. I am unsure how this is even legal, I can't believe that it kept happening and at some point thought that it may be a virus, but this was a reoccurring issue that persisted through formats, virus scans, it even happened to other friends of mine. Microsoft recently also forced OneDrive into their operating system, amongst other bloatware that is placed in folders where Microsoft warns you that if you edit anything, you might destroy the PC. There has to be a proper system for consumer protection on digital products before these companies get any more brazen, not that they are not already plenty shameless.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.057381Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3656715.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3656715",
+    "chunks_doc_id": "F3656715",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3656715.clean.paragraph.json"
+}

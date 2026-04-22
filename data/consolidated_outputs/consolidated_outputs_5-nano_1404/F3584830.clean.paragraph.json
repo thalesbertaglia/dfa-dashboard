@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584830",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:02Z",
+    "finished_at": "2026-04-14T12:12:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there is still a lot to do in the game industry."
+              },
+              {
+                "quote": "advocating that companies should not make games unplayable after they no longer want to support them."
+              },
+              {
+                "quote": "people have to destroy their physical copies of games after they have been removed."
+              },
+              {
+                "quote": "not make games permanently unplayable after they have already placed it on the market!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21705,
+          "unit_kind": "feedback"
+        },
+        "text": "In my view, the Digital Fairness Act has strengths to give consumers more control over their online purchases. Although the DFA focuses on online shopping, there is still a lot to do in the game industry. Currently, a European Citizens’ Initiative (with more than 1.4 million signatures) is in the process of advocating that companies should not make games unplayable after they no longer want to support them. This goes so far that a large game company, Ubisoft, has said that people have to destroy their physical copies of games after they have been removed. It would be fantastic to add an additional rule to the DFA emphasising that companies should not make games permanently unplayable after they have already placed it on the market!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.458471Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584830.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584830",
+    "chunks_doc_id": "F3584830",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

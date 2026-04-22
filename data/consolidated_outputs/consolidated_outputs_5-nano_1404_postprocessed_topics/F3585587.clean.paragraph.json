@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585587",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:01Z",
+    "finished_at": "2026-04-14T12:31:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "prevent payment processors from deciding which payments they process."
+              },
+              {
+                "quote": "Lately, a lot of games both on itch.io and on Steam have been removed due to pressure from the payment processors, thus limiting the things that you can legally buy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16965,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to ask if you could include a point to prevent payment processors from deciding which payments they process. Lately, a lot of games both on itch.io and on Steam have been removed due to pressure from the payment processors, thus limiting the things that you can legally buy. I believe that they shouldnt have this kind of power. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.816114Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585587.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585587",
+    "chunks_doc_id": "F3585587",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585587.clean.paragraph.json"
+}

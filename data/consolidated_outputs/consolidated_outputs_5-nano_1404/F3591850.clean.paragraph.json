@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3591850",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:54Z",
+    "finished_at": "2026-04-14T13:37:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns can occur."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "repeated double opt-ins and pre-renewal mandatory reminders,"
+              },
+              {
+                "quote": "auto-renewal and next-ship dates;"
+              },
+              {
+                "quote": "an easy, self-serve way to pause/skip/cancel at any time;"
+              },
+              {
+                "quote": "no minimum term/lock-in."
+              },
+              {
+                "quote": "For the cancellation button obligation, allow a short operational buffer for perishable goods already packed or dispatched,"
+              },
+              {
+                "quote": "clear upfront disclosure of the cut-off time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45918,
+          "unit_kind": "feedback"
+        },
+        "text": "Sector-specific approach for flexible soft subscriptions in perishable goods requested. Feedback We welcome the Commissions work on the Digital Fairness Act to strengthen consumer protection online. As a European SME supplying physical, perishable pet food via flexible soft subscriptions (pause/skip/cancel anytime; no minimum term), we respectfully request a proportionate, sector-specific approach so that consumer rights are upheld without unintended harm to consumers, SMEs, or the environment. Why differentiation is needed The DFAs objectives address problems most acute in long-term, digital service contracts where lock-in and dark patterns can occur. In contrast, soft subscriptions for physical, short-cycle replenishment (e.g., pet food) already provide high consumer control (pause/skip/cancel) and carry logistics and perishability constraints that digital services do not. Treating these categories identically risks: Higher prices (operational inefficiency passed to consumers), Food waste (late cancellations after dispatch), and Lower access to convenient, reliable replenishment for essential goods. Our proposal (targeted exemptions/adjustments) Exempt flexible soft subscriptions for physical/perishable goods from repeated double opt-ins and pre-renewal mandatory reminders, provided there is: clear, prominent disclosure of auto-renewal and next-ship dates; an easy, self-serve way to pause/skip/cancel at any time; and no minimum term/lock-in. For the cancellation button obligation, allow a short operational buffer for perishable goods already packed or dispatched, so that orders in that state may be delivered (with clear upfront disclosure of the cut-off time). This prevents waste and preserves price stability while keeping cancellations immediate for all future cycles. In the legal text, distinguish between digital long-term contracts and physical short-cycle replenishment subscriptions. Define soft subscription (no minimum term; consumer can pause/skip/cancel anytime) and tailor obligations accordingly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.900196Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591850.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591850",
+    "chunks_doc_id": "F3591850",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

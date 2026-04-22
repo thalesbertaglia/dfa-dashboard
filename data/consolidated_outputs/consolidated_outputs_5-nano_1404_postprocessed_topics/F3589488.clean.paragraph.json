@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3589488",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:26Z",
+    "finished_at": "2026-04-14T13:32:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please include the art form of video games in the digital fairness act."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers all too often take away the artworks that we have paid for and should legally own"
+              },
+              {
+                "quote": "\"we only sell you a license\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35839,
+          "unit_kind": "feedback"
+        },
+        "text": "To whom it may concern, I am writing this comment with a request. Please include the art form of video games in the digital fairness act. Publishers all too often take away the artworks that we have paid for and should legally own (I do not find the wording of \"we only sell you a license\" ethical in the slightest by the way). I have not experienced this myself, but this is purely due to my avoidance of any games where this may be a risk. This results in me being unable to enjoy various works of art for fear that it will be yanked from my hands. Games I have avoided for this very reason include: The Assassin's Creed series Far Cry series Grand Theft Auto series In summary, I would like for the medium of Video Games to be included in the Digital Fairness Act. Thank you for your consideration, Bugra",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.792678Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589488.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589488",
+    "chunks_doc_id": "F3589488",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589488.clean.paragraph.json"
+}

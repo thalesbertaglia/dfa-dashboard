@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585065",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:17Z",
+    "finished_at": "2026-04-14T12:19:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a video game development company can basically terminate a game we consumers have bought and payed for, should the developer no longer feel like, or find it profitable to run the hardware needed for us the consumer to keep playing this product we bought."
+              },
+              {
+                "quote": "who got neither a refund, or barely a warning."
+              },
+              {
+                "quote": "i don't really OWN any of the products that i enjoy anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25075,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU As a consumer of video games and an EU citizen i feel i must add my voice to help bring attention to an issue within the world wide gaming community. And that is the fact that a video game development company can basically terminate a game we consumers have bought and payed for, should the developer no longer feel like, or find it profitable to run the hardware needed for us the consumer to keep playing this product we bought. I feel like this act could be another good step towards stopping this unfair practice or at least enforce some form of protection for those of us who have spent our money on discontinued video game, who got neither a refund, or barely a warning. As of recently being a EU based consumer of digital media has become more frightening, and i feel like i don't really OWN any of the products that i enjoy anymore. After all what good is a purchase if the product can just be taken away? Digital capitalism is moving faster then the laws can keep up, so i am glad when something like this Digital Fairness Act comes along. It gets us a step closer to a more fair online market, when a purchase actually means something. Thank you for reading, and have a good day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.579300Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585065.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585065",
+    "chunks_doc_id": "F3585065",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585065.clean.paragraph.json"
+}

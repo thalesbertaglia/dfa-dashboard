@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3593545",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:24Z",
+    "finished_at": "2026-04-14T13:39:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Requiring a hardware device that is implicitly authorised by its mere existence to be \"re-authorised\" with a central server in order for it to remain functional would also seem, to me, to be a dark pattern that exerts undue control over consumers."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "annual \"re-authorisation\" of devices"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32622,
+          "unit_kind": "feedback"
+        },
+        "text": "I have given feedback on the DFA previously, talking about the Stop Killing Games initiative, but also about game publishers demanding the installation of their own store even when the game was purchased elsewhere. In the latter case, this is a clear example of friction that undermines customer choice. I have something to add, which expands upon the SKG initiative which I'm sure has generated a significant amount of extra feedback. Here I track an orthogonal path into service-supported hardware. The specific case I have in mind to illustrate the point is that of the Magic Leap 1 AR Headset, a 2,000 device capable of working offline. Magic Leap discontinued the device, and aggressively took measures to prevent the ongoing use of the device after December 2024. They discontinued all online services, including the service that supported annual \"re-authorisation\" of devices, so that consumers who bought the device would not be able to \"re-authorise\" it in the future. This turns the devices into e-waste and deprives customers of the use of hardware that they have bought. While I accept that Magic Leap should be free to terminate services for devices where it makes economic sense for them to do so, I do rather feel that they, and any other business acting in the same way, should be compelled to release updates not only to cease the \"re-authorisation\" requirement, but also make the devices more open. They should also be compelled to make the software update available online for some period. This would represent *fairness* to consumers who, again, would have paid 2,000 for the hardware only to have it become an ornament or trash. Requiring a hardware device that is implicitly authorised by its mere existence to be \"re-authorised\" with a central server in order for it to remain functional would also seem, to me, to be a dark pattern that exerts undue control over consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.953340Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593545.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593545",
+    "chunks_doc_id": "F3593545",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

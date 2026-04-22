@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586087",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:29Z",
+    "finished_at": "2026-04-14T12:47:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "live service game (a game that gets regular free/paid updates and needs an online connection to their servers) nowadays you are at the mercy of the company and the economic performance of the product."
+              },
+              {
+                "quote": "If the product fails to meet the companies quota in sales and engagement for the \"expected lifetime\", then there will be a big chance that this game will lose all support on the company's side and will soon be shut down with no way of access from the ones who bought the copy of the game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "denying the access to an already bought game and making it impossible to access even offline"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32107,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, first of all I am really greatful for this opportunity to comment on this matter. With my comment I would like to draw attention to the state of digitally sold games and the companies that participate in a \"shady\" way of taking the buyers ownership away. When buying a live service game (a game that gets regular free/paid updates and needs an online connection to their servers) nowadays you are at the mercy of the company and the economic performance of the product. If the product fails to meet the companies quota in sales and engagement for the \"expected lifetime\", then there will be a big chance that this game will lose all support on the company's side and will soon be shut down with no way of access from the ones who bought the copy of the game. While it is understandable to abandon a failed product and therefore stopping the support of said product (keeping it online), denying the access to an already bought game and making it impossible to access even offline, makes this practice to one of the most unfair ones against consumers of digital games and their rights. This also refers to games which come \"naturally\" (older games, with little to no engagement in players) to an end, but undergo the same practice to not let the consumer have any access to the game even if it was bought as a physical copy. Right now there is an European Citizens' Initiative with over 1.4 million signatures that is adressing this issue as a starting point for a more complex conversation and I hope that this issue will also be adressed by the Digital Fairness Act as an equivalent issue that needs to be adressed. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.078563Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586087.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586087",
+    "chunks_doc_id": "F3586087",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586087.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584587",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:35Z",
+    "finished_at": "2026-04-14T12:02:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Buying a videogame which later gets terminated"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14007,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, there are million of online users whom buy videogames to later be left with nothing. This is theft on a global scale and should be illegal. Buying a videogame which later gets terminated can be avoided and is as this initiative suggests, Digital fairness. We can all relate to putting in work and having it taken away from us, It's no different here. People working their 9-5, coming home only to be met with the devastating sight of their favourite game being terminated simply because the triple A company does not care. If this resonates with you as it does with me then help us revolutionize this initiative and take action please, it would be a blessing Help us stop this fraudulent behavior from massive companies",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.305332Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584587.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584587",
+    "chunks_doc_id": "F3584587",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584587.clean.paragraph.json"
+}

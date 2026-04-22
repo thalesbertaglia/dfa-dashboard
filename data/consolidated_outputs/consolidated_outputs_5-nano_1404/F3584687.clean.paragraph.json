@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584687",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:27Z",
+    "finished_at": "2026-04-14T12:06:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games have been removed from digital platforms or made unplayable, even for customers who had previously purchased them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16989,
+          "unit_kind": "feedback"
+        },
+        "text": "I respectfully ask the European Commission to consider extending the scope of the Digital Fairness Act to include protections for digitally purchased video games. At present, the legislation does not appear to provide safeguards against the withdrawal or disabling of video games that consumers have already lawfully bought. This is an increasingly common issue that deserves serious attention. In recent years, hundreds of video games have been removed from digital platforms or made unplayable, even for customers who had previously purchased them. These removals often result from server shutdowns, licensing decisions, or commercial restructuring. Regardless of the cause, the outcome is the same: consumers lose access to products they have paid for in good faith. This situation undermines trust in the digital marketplace and raises questions about the long-term security of digital purchases. The widespread concern is reflected in the Stop Killing Games initiative, which has gathered more than 1.4 million signatures from EU citizens, calling for legal measures to prevent the deletion or deactivation of video games after sale. I therefore kindly urge the Commission to explore legislative mechanisms within the Digital Fairness Act that would ensure continued access to purchased digital games, even if they are no longer sold or supported. Such a measure would align with the Acts broader goals of consumer protection, transparency, and fairness in the digital environment. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.354919Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584687.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584687",
+    "chunks_doc_id": "F3584687",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

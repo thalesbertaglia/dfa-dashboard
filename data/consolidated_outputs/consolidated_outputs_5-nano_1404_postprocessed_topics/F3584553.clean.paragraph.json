@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584553",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:30Z",
+    "finished_at": "2026-04-14T12:02:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when a video game is delisted, made inaccessible, or has its servers shut down, there are no guarantees that users will receive refunds, alternative access, or compensationdespite having paid for that product in good faith."
+              },
+              {
+                "quote": "Long-term preservation rights, especially for single-player or offline-use games that do not depend on active servers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital goods are increasingly treated as temporary licenses rather than owned property"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 55372,
+          "unit_kind": "feedback"
+        },
+        "text": "As a paying customer of digital productsparticularly video gamesI am concerned that the Digital Fairness Act, in its current form, does not do enough to protect consumers like me from the loss of access to content we've lawfully purchased. Digital goods are increasingly treated as temporary licenses rather than owned property, yet we often pay full retail prices for them. This creates a serious imbalance in consumer rights. Specifically, when a video game is delisted, made inaccessible, or has its servers shut down, there are no guarantees that users will receive refunds, alternative access, or compensationdespite having paid for that product in good faith. This undermines basic principles of fairness. If I purchase a physical product, the manufacturer cannot enter my home and take it away. But in the digital world, thats effectively what is happening, and its legal. The Act should address this imbalance by recognizing that digital purchases deserve the same level of protection as physical goods. I urge policymakers to include stronger consumer rights provisions in the final version of the Act, specifically: A right to access digital content after purchase, with clearly defined exceptions (e.g., legal violations or fraud). Refund or credit requirements when access is permanently removed through no fault of the consumer. Transparency obligations for digital platforms to notify users in advance of removals or shutdowns, with clear reasons and options for recourse. Long-term preservation rights, especially for single-player or offline-use games that do not depend on active servers. Consumers should not bear all the risks of a digital ecosystem that is increasingly controlled by large platforms. If we are expected to pay real money, we should receive real protections.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.289614Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584553.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584553",
+    "chunks_doc_id": "F3584553",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584553.clean.paragraph.json"
+}

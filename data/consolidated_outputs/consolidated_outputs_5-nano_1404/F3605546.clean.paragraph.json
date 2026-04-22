@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3605546",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:27Z",
+    "finished_at": "2026-04-14T13:41:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It should not be possible to use the General Terms and Conditions (EULAs) to change the type of contract."
+              },
+              {
+                "quote": "If I buy something, I expect that it will also be my property, be it just a licence to use it."
+              },
+              {
+                "quote": "It must be possible to transfer licences to another supplier."
+              },
+              {
+                "quote": "Should a provider move or simply no longer have the right offer, it is not possible at the moment to switch to an alternative provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16823,
+          "unit_kind": "feedback"
+        },
+        "text": "It should not be possible to use the General Terms and Conditions (EULAs) to change the type of contract. For example, the purchase of a film should not be reclassified as a lease or lease. If I buy something, I expect that it will also be my property, be it just a licence to use it. There should always be a summary of the most critical points of the general terms and conditions. Easy to understand, with links to the relevant section in the general terms and conditions. The length should be limited and allow fast overflight. This summary shall not be legally binding, but shall not contain any false or misleading information or omit critical points. Example, a clause allowing the supplier to deny access to a piece of music because the publisher now wants to use another supplier. It must be possible to transfer licences to another supplier. Should a provider move or simply no longer have the right offer, it is not possible at the moment to switch to an alternative provider. As a customer, it is often easy to catch with a supplier. In this context, it would be desirable if I could obtain from a supplier a list of all the licences acquired. Such technologies already exist, meaning that only one basic format needs to be defined.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.001222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605546.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605546",
+    "chunks_doc_id": "F3605546",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

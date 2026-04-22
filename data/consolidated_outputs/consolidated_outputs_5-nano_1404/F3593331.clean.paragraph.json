@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3593331",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:06Z",
+    "finished_at": "2026-04-14T13:39:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is done, for example, by switching off servers or licence withdrawals."
+              },
+              {
+                "quote": "Please ensure that consumers can continue to use games they have bought and that the use does not depend on the arbitrariness of businesses."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18083,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and gentlemen, I would like to ask you to add consumer protection mechanisms that protect consumers against making computer games paid by consumers unusable. This is done, for example, by switching off servers or licence withdrawals. Please ensure that consumers can continue to use games they have bought and that the use does not depend on the arbitrariness of businesses. This can be done, for example, by introducing offline modes that do not force companies to run servers. Yours sincerely, Jan Boyke Schönborn",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.950336Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593331.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593331",
+    "chunks_doc_id": "F3593331",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585714",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:33Z",
+    "finished_at": "2026-04-14T12:34:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "more and more games are made unplayable when the official servers go offline."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Even if the EULA may state that you are not buying a product but a license to use said product this does not make it fair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19064,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this act should also include the ability to retain any purchased digital product even after the publisher/developer/seller stops supporting it (i.e. video games, digital movies, digital books). There are numerous examples of digital goods being taken away from customers that have bought them - bought movies removed from digital platforms, more and more games are made unplayable when the official servers go offline. These are products that are bought and presumed to be owned by the customer. There should be no difference between owning a digital product vs a physical product just because the technology makes it easier to \"kill\" digital products. For example imagine if you buy a hardcover book, but when a licence expires, or the publisher or the writer wishes to no longer sell that book, or they wish to prop up the sequel, a person storms in your home and takes the book you have payed money for. Even if the EULA may state that you are not buying a product but a license to use said product this does not make it fair. Its like if murder was made legal - doesn't make it right and fair. And contrary to what the big companies will say, this will not require them to support these digital products in perpetuity, just give an option to the buyer to have an offline copy. And in the case of games, design them in a way that they can still be played without official server support (there are numerous examples of this being done, it's not new and impossible technology to implement) I hope this gets seen by someone who can do something about this. We have become too complacent with big tech dictating all the rules of how their product are used. If a single company provides a certain product and dictates the rules- it's called a monopoly. If all the big sellers of a product dictate the rules - it's called a cartel (i.e. Phobos cartel)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.885018Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585714.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585714",
+    "chunks_doc_id": "F3585714",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584936",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:59Z",
+    "finished_at": "2026-04-14T12:15:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sellers shutting down software that has been solid to customers"
+              },
+              {
+                "quote": "never mentioned that user access could be removed at any moment in the future."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24876,
+          "unit_kind": "feedback"
+        },
+        "text": "Good, whatever period you are reading this in. I would like to add the issue of sellers shutting down software that has been solid to customers to the list of the DFA. A specific example of what I am talking about is a game called the Crew, which was sold on disk, that never mentioned that user access could be removed at any moment in the future. Thank you kindly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.511879Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584936.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584936",
+    "chunks_doc_id": "F3584936",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584936.clean.paragraph.json"
+}

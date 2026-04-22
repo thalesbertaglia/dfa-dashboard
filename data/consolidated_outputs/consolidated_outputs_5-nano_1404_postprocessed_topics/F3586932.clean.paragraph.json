@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586932",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:16Z",
+    "finished_at": "2026-04-14T13:06:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the gaming industry has a legitimate issue of consumers buying the game as a full priced product, but then the product is somehow permanently disabled without any previous notice for the customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15842,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I wanted to ask for you to consider including the preservation of video games into the digital fairness act. The gaming industry has a legitimate issue of consumers buying the game as a full priced product, but then the product is somehow permanently disabled without any previous notice for the customers. An example I experienced myself would be the game \"Atlas Reactor\". I purchased and supported the game in early access, but shortly after release the developers closed all servers and the game was left unplayable. Of course the developer running servers forever is unreasoble. But more qualified people than me already proposed proper solutions for this, like publishing server software so the customers can continue to run smaller servers themselves and still play the product they paid full price for. As it stands, I paid for a product and that product was then taken back from me without any notice. I believe that in any normal market that sort of conduct would qualify as theft. Therefore I believe video games need to be held to the same standard as any other product on a free market, as it is a proper product that people pay money for. Thank you in advance for taking the time to read suggestions and I hope you will consider improving the situation of the video game industry with this act. Have a nice day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.391216Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586932.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586932",
+    "chunks_doc_id": "F3586932",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586932.clean.paragraph.json"
+}

@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3587391",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:59Z",
+    "finished_at": "2026-04-14T13:16:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If you read digital product agreements, you basically have no rights, own nothing and can lose access anytime forever."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The 2nd point is that payment processor should not act like the government."
+              },
+              {
+                "quote": "They can't deny payment services to companies, because they \"think\" something is illegal."
+              }
+            ]
+          },
+          {
+            "topic": "Platform Liability",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "For example banning digital horror games, because there is too much blood."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36351,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital marketplaces and digital software/art/films themselves (and their licenses) still feel like the wild west. If you read digital product agreements, you basically have no rights, own nothing and can lose access anytime forever. For live-service software, that any company ends for various reasons (e.g. financial), should have an end-of-life plan. Either allow clients to runs their own server, or deliver an update so the client works on it's own. In most cases, the \"live-service\" is just there for licensing purposes and does not provide benefits, nor would it be hard to put certain settings in the client to work on it's own. The 2nd point is that payment processor should not act like the government. They can't deny payment services to companies, because they \"think\" something is illegal. I agree with regulating certain sales, but enforcing these limits or bans should be the government and not them. If you look up recent news, about what payment processors denied service for, you and i would say \"yeah sure, that's okay\". But now they slowly creep into territory that just looks their personal preference. For example banning digital horror games, because there is too much blood. What is next? Banning your favorite movie, because they don't like it? The government decides if something is legal or not.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.513539Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587391.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587391",
+    "chunks_doc_id": "F3587391",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587391.clean.paragraph.json"
+}

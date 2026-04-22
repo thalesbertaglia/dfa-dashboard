@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586128",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:59Z",
+    "finished_at": "2026-04-14T12:48:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We buy games. We dont own them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can be taken away without giving any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28104,
+          "unit_kind": "feedback"
+        },
+        "text": "We buy games. We dont own them. We pay money for them, but they can be taken away without giving any reason. We build a gaming library we cant leave to our kids. I have 6000 games I dont own, they are worth around EUR 35.000,- and they will die with me or taken away long before because gaming companies do whatever they want and the laws have not been updated. bring back ownership of games force companies to give REAL ownership back to the products we pay for, digital or not let us keep our game! let us gift our games to our children when we are not anymore! thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.106558Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586128.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586128",
+    "chunks_doc_id": "F3586128",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

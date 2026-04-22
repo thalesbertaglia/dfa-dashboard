@@ -1,0 +1,108 @@
+{
+  "doc_id": "F3586201",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:22Z",
+    "finished_at": "2026-04-14T12:52:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preditory microtransactions have to be regulated as well."
+              },
+              {
+                "quote": "There cannot be, that companies intentionally make a game boring and only after spending tousands of euros is the game actually fun."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Computer games should be regulated in a similar way."
+              },
+              {
+                "quote": "It cannot be, that when you \"buy\" a game you actually just license it."
+              },
+              {
+                "quote": "in case of a licanse it has to be shown, how long this license is valid."
+              },
+              {
+                "quote": "Not just a given console the company restricts the game to (e.g. Nintendo)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It cannot be, that when you \"buy\" a game you actually just license it."
+              },
+              {
+                "quote": "in case of a licanse it has to be shown, how long this license is valid."
+              },
+              {
+                "quote": "if a user truly buys the game, then companies should not be able to discontinue and kill that game without giving the user an offline version of the game."
+              },
+              {
+                "quote": "Not just a given console the company restricts the game to (e.g. Nintendo)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 111550,
+          "unit_kind": "feedback"
+        },
+        "text": "The EU did a great job with USB-C. Computer games should be regulated in a similar way. It cannot be, that when you \"buy\" a game you actually just license it. It has to be regaulated, that in case a user only gets a license while making a purchase, it cannot say \"Buy game XY\". Also in case of a licanse it has to be shown, how long this license is valid. In case a company really sells a computer game and the user truly buys the game, then companies should not be able to discontinue and kill that game without giving the user an offline version of the game. Also user then should truely own the game and play wherever they want. Not just a given console the company restricts the game to (e.g. Nintendo). Also preditory microtransactions have to be regulated as well. There cannot be, that companies intentionally make a game boring and only after spending tousands of euros is the game actually fun. We in Eurpoe have to regulate what corporationare are and are not allowed to do with computer games, because currently it is the wild-wild west.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.150806Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586201.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586201",
+    "chunks_doc_id": "F3586201",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586201.clean.paragraph.json"
+}

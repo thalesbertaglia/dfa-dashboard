@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588995",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:32Z",
+    "finished_at": "2026-04-14T13:27:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "DRMs through which the companies can disable your games"
+              },
+              {
+                "quote": "none of us actually own."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18340,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Would it be possible to add a law that allows consumers to keep games that they bought forever like with other products? It's been bugging me for couple years that there are basically no regulations so companies selling video games are able to take games away from customers whenever they want to like if games were subscription services which a big majority of them are not. Just about 12 years ago it still used to be possible to buy most games physically. This meant that as long as you didn't damage the disc you would be able to play the game in the future whenever you wanted. Nowadays they only sell digital copies that contain DRMs through which the companies can disable your games whenever they feel like it without having a reason for it or even having to warn you about it. Obviously it's not possible for companies to support their products forever but that shouldn't give them the right to take your product away after they decide that it's not making them enough profit anymore. Lots of older physical games from before 2010s that aren't supported by their companies anymore are still being run on non profit community servers by fans up until now. That's however much harder to do with the trend of more recent fully digital games that as Ubisoft said none of us actually own. Without any consumer protection these compaines will be able to delete our games we already paid for without any warning or compensation even though it wouldn't hurt them to just keep them alone. Imagine a company coming to your house and taking their older products away from you (even though they're perfectly fine) to make you buy their newer products. That's how this feels to me. Lastly videogames are not a very cheap hobby. The industry makes hundreds of billions annually and keeps the money while we don't keep the games. Thank you for reading. I should've made this shorter but I'm quite passionate about this and this issue means a lot to me.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.719222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588995.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588995",
+    "chunks_doc_id": "F3588995",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588995.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585144",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:03Z",
+    "finished_at": "2026-04-14T12:21:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gambling through lootboxes/crates where certain in game cosmetics are only available through chance and need to purchase"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design that leads a person wishing to add extra money into a game to get the small amount of extra currencies just to have another chance at a new exclusive character (like Genshin Impact, Honkai Star Rail and other similar games)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31884,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would kindly like to add that video games very much go under this act since there has been many instances of shady business practises within that field of digital products. For example: Gambling through lootboxes/crates where certain in game cosmetics are only available through chance and need to purchase, addictive design that leads a person wishing to add extra money into a game to get the small amount of extra currencies just to have another chance at a new exclusive character (like Genshin Impact, Honkai Star Rail and other similar games). Other examples of bad practises is video games these days could get taken down either from the store or are unplayable whenever the company or the platform decides, making our purchases null without any alternative ways to use said products. This has caused uncertainty and paranoia with many of us that nothing lasts and makes us wary of even purchasing these products if at a random time period they might be unusable despite being a digital product. Video games are also a form of art form that I and many believe deserve to be preserved in one way or another. Unless game companies and platforms openly inform that these products are for rent for a certain period of time, then it would be a whole different story. But even that put in place as a new rule could very much be still abused. I hope this feedback will be taken into your considerations. Thank you for taking the time to read it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.613504Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585144.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585144",
+    "chunks_doc_id": "F3585144",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585144.clean.paragraph.json"
+}

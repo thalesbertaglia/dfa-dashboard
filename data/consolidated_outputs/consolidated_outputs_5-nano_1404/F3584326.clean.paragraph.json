@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584326",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:16Z",
+    "finished_at": "2026-04-14T11:55:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it is in most cases bound to a personal account and its almost never possible to sell a bought good"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many game studios shut off game servers and leave gamers with no possible way to continue playing the games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18041,
+          "unit_kind": "feedback"
+        },
+        "text": "I really enjoy playing video games, Ive been for many years now, from when I was a little child to now being an adult. When I was young owning video games was pretty simple, you bought them, played them and had them for ever (or sell them). Selling them is out of the question now, because even if you get a physical copy of a game, it is in most cases bound to a personal account and its almost never possible to sell a bought good, which is already anti consumer. But the even worse part today is, that you cant even expect to play a game for years after its release. As you might know (or not) many game studios shut off game servers and leave gamers with no possible way to continue playing the games, they paid for. I understand that game studios cant leave a game server running indefinatly, but they can make a game offline compatible, so you dont need any kind of server connection to play it. I really think this is unfair to consumers, because the only party to get any kind of advantage out of this, is the game studio. Thanks for listening to me, I hope together we will be able to get a fairer europe for everyone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.179462Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584326.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584326",
+    "chunks_doc_id": "F3584326",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

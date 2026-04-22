@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584628",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:23Z",
+    "finished_at": "2026-04-14T12:04:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It has become standard in industries such as the videogame industry to sell consumers software that may expire at an unknown date and be rendered useless."
+              },
+              {
+                "quote": "Essentially the product has been destroyed after purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment Processors such as Visa and Mastercard have recently taken action and asked digital storefronts to remove certain content from their platforms."
+              },
+              {
+                "quote": "A payment processor should do nothing except process the payment, and should not be allowed to dictate which content deserves to be available for purchase and which content should not."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28693,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sirs and Madams, I am writing to you to request that perhaps two further issues be also tackled by the Digital Fairness Act. These issues would be: 1)Stopping Destruction of Software after purchase. 2)Stopping Payment Processors from blocking content from digital storefronts. 1)It has become standard in industries such as the videogame industry to sell consumers software that may expire at an unknown date and be rendered useless. Essentially the product has been destroyed after purchase. Videogame publishers or other software distributors should not be able to remotely disable software without the buyers consent and should at the very least leave such software in a usable state once support ends. 2) Payment Processors such as Visa and Mastercard have recently taken action and asked digital storefronts to remove certain content from their platforms. I believe this is a simple overreach of their power. A payment processor should do nothing except process the payment, and should not be allowed to dictate which content deserves to be available for purchase and which content should not. I hope these issues can be also adressed and added to the Digital Fairness Act in some way. Thank you for your time. Kind Regards Samuel Ranigler",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.325591Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584628.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584628",
+    "chunks_doc_id": "F3584628",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584628.clean.paragraph.json"
+}

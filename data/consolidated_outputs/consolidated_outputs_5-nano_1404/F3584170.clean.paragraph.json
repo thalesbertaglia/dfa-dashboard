@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584170",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:56Z",
+    "finished_at": "2026-04-14T11:51:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers to just switch off games when they stop official support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8779,
+          "unit_kind": "feedback"
+        },
+        "text": "I would humbly request to extend any protections of this act to video games. There is a current trend with video game publishers to just switch off games when they stop official support. This is concerning since we as customers bought the product or the license and there is no other scenario I can imagine where it is okay to take a purchase away from a customer after official support for the product ends. A basic rule of commerce is \"buying is owning\", which is in jeopardy if this practice continues. I, as a customer, would like to be protected from companies choosing to nullify my purchase once they are done with their product. I thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.108652Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584170.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584170",
+    "chunks_doc_id": "F3584170",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

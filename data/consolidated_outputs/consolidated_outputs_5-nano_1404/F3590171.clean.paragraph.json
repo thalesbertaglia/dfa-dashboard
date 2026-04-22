@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3590171",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:00Z",
+    "finished_at": "2026-04-14T13:33:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Online storefronts dictate that they may terminate your use of purchased digital products at their whim, for no good reason, shutting down previously released products in order to effectively force purchase of new versions."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to require online services to be clear as to their duration and limits."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30306,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the digital fairness act's intentions, assuming they will be given adequate review from experts in digital services - in this instance, critically, NOT experts with strong corporate interests. I have made use of online and digital services for thirty years, and have seen immense corporate overreach in that time. Basic assumed consumer rights regarding privacy and ownership of purchased products have been eroded over time as the move from physical media has given corporations excuse to redefine terms to their convenience, and as time goes by they continue to grasp for more power that should remain the sole province of consumers or of government. Online storefronts dictate that they may terminate your use of purchased digital products at their whim, for no good reason, shutting down previously released products in order to effectively force purchase of new versions. Online payment processors use near-monopolistic control over digital transactions to dictate what it is permissible to buy or sell on their terms. I encourage the EU to allow consumers the power, under the laws of nations and not corporations, to decide what they can buy and sell and to have the right to preserve their purchased products in usable form. As corporations resort to rent-seeking in order to pursue greater profit, I would also ask the EU to require online services to be clear as to their duration and limits.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.816926Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590171.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590171",
+    "chunks_doc_id": "F3590171",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

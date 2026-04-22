@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587002",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:52Z",
+    "finished_at": "2026-04-14T13:08:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers requiring an online connection for games that might not even be played online."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end up being intertwined by design with many features and systems in the game that are required for it to run"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "with no prior knowledge of this happening."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36967,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games are an art form, and art should be preserved for people to appreciate for many years to come. That has become increasingly difficult in recent years due to publishers requiring an online connection for games that might not even be played online. A lot of those online requirements end up being intertwined by design with many features and systems in the game that are required for it to run, and once the company in charge shuts down those servers the game becomes unplayable. This is already bad if you agree that games are an art form, but this is also anti-consumer when a customer buys a game that gets shut down with no prior knowledge of this happening. I'd like to ask for this practice to be investigated and regulated in the future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.408727Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587002.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587002",
+    "chunks_doc_id": "F3587002",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587002.clean.paragraph.json"
+}

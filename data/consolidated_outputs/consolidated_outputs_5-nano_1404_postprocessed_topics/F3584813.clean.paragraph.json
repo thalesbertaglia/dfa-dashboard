@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584813",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:11:02Z",
+    "finished_at": "2026-04-14T12:11:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the game became inaccesible"
+              },
+              {
+                "quote": "even if official support is ended for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36431,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to add a comment about a spotted ommision: digital only products being taken away from paying customers. The videogaming industry has had several instances where people bought a game that was online only but when the support for it ended, the game became inaccesible and therefore your purchase becomes void without any fault of the consumer. Games like The Crew and Darkspore are prima examples and there is another high profile game set to become inaccessible soon: Anthem. Thousands of people will have their rightfull purchase taken away from them and therefore their money will practically be stolen from them. In the many years this has happened, nothing has been done to protect these people on a meaningfull manner. So I think it would be a good thing to add to this law that digital only products like video games still be made accesible to the customer in a playable state, even if official support is ended for it. an addendum to this would also include digital movie purchases where a service like say the Playstation store suddenly doesn't have the licences for a movie anymore, they can't take away what was already purchased by the customer. This has also happened already with the playstation store and the Xbox marketplace. Please take this under consideration when drafting the full text of this law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.449081Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584813.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584813",
+    "chunks_doc_id": "F3584813",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584813.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584160",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:33Z",
+    "finished_at": "2026-04-14T11:51:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "expiration date that isn't disclosed prior to the purchase after which the game is taken away from the customer without a refund or any \"end of life\" plan"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31429,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumers need to be protected from predatory marketing practices, right now, a lot of video games are being marketed as a one time purchase charging a full price for the product, but in reality, the game has an expiration date that isn't disclosed prior to the purchase after which the game is taken away from the customer without a refund or any \"end of life\" plan (eg. the game \"The Crew\" by ubisoft did that just recently). Video games are marketed to both children and adults and therefore marketing needs to be as transparent as possible not to allow anyone to take advantige of us consumers, that's why I think that it is of great importance to add video games to the list of protected digital goods.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.103809Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584160.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584160",
+    "chunks_doc_id": "F3584160",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584160.clean.paragraph.json"
+}

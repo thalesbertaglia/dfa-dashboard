@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585018",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:08Z",
+    "finished_at": "2026-04-14T12:18:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "exploitative use of dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling in videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers reserve the right to end service at any time for any reason."
+              },
+              {
+                "quote": "titles are now generally sold as licenses to customers who are usually under the impression they are purchasing and own the software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19968,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Before I start I want to express my gratitude for taking your time to read through my feedback. First of all I wish to express my support for the issues already covered in this act. I especially think that those regarding the exploitative use of dark patterns and gambling in videogames is important. However I wish for adding another point of forcing developers to allow gamers the option of running their own servers or otherwise still access the games they buy after official support is ended. For most of my life videogames has been my primary hobby and the ability to revisit older, nostalgic titles and experiences is something I find valuable. Unfortunately that is often impossible as many companies would rather take these games entirely offline in favour of players purchasing their newer titles. These titles are now generally sold as licenses to customers who are usually under the impression they are purchasing and own the software. They generally have no specified end of service date and the publishers reserve the right to end service at any time for any reason. I have personally been victim to games I have purchased ending service on multiple occations. The worst of which likely being LawBreakers which ended service only about a year after release. Adding a stipulation for developers to keep games playable after the official service ends would help preserve the history of this medium that so many of us adore and allow us to keep enjoying the experiences we payd for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.555507Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585018.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585018",
+    "chunks_doc_id": "F3585018",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585018.clean.paragraph.json"
+}

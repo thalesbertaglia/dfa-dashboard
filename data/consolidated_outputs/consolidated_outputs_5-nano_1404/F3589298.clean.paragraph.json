@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589298",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:53Z",
+    "finished_at": "2026-04-14T13:31:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one very prominent issue that's been getting worse in the past decade is how digital video game publishers treat customer ownership."
+              },
+              {
+                "quote": "In recent years many games, with big and small sales numbers, have been moving on to a more digital service approach."
+              },
+              {
+                "quote": "Companies have been shutting down servers for older games, which has been leaving customers with games that are unable to be experienced ever again."
+              },
+              {
+                "quote": "Customers are left with nothing, from a product they bought that was taken from them by force."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19682,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings! This initiative seems to be in the right direction to recognizing and tackling common digital issues present in the current day, and I'm sure there are many more. One very prominent issue that's been getting worse in the past decade is how digital video game publishers treat customer ownership. It used to be that customers would buy a game as a digital product, which they owned and could experience whenever they wanted. In recent years many games, with big and small sales numbers, have been moving on to a more digital service approach. This is not a problem by itself, but companies should handle how their approach customer ownership accordingly. The current issue is that many games rely on an internet connection to company servers to be played, whether they be completely single player experiences, multiplayer or both. Companies have been shutting down servers for older games, which has been leaving customers with games that are unable to be experienced ever again. Customers are left with nothing, from a product they bought that was taken from them by force. It wouldn't be wise to require companies to run server connections forever that's not feasable, but there are other ways. Companies should guarantee customers can continue to use the product they bought even after servers shut down. This can be accomplished in multiple ways which changes for each video game case. There is already a movement in progress called \"Stop Killing Games\" (there is an official website), which alludes to this problem and has gathered over 1.4 million EU signature. As a supporter myself of this movement, I would like politely to request the Digital Fairness Act incorporate this growing issue as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.781341Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589298.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589298",
+    "chunks_doc_id": "F3589298",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

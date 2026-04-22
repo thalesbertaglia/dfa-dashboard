@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585844",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:21Z",
+    "finished_at": "2026-04-14T12:38:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games disappearing over the past 15 years."
+              },
+              {
+                "quote": "Games where I played a lot and bought digital products (skins, virtual money, etc.) simply closed their servers and I no longer had access to the content."
+              },
+              {
+                "quote": "without allowing any means of obtaining reimbursement or access to the content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30107,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Thank you to have opened this public inquiry. I have been passionate about video games for a long time, and I have been able to see many video games disappearing over the past 15 years. Games where I played a lot and bought digital products (skins, virtual money, etc.) simply closed their servers and I no longer had access to the content purchased. There are many examples to mention, I would only make some references: — XDefier of Ubisoft: the sunset publisher (server closure procedure) 3 years after leaving the game, without allowing any means of obtaining reimbursement or access to the content. — Ubisoft Ghost Recon Online: older, but even history. — Ghost in the Shell: Alone Complex First Assault Online stand by Nexon: the song is the same... There is a website featuring all these games that have disappeared, and players have bought digital items. What I ask you, as an EU citizen and as a player, is to better protect us from these immoral practices of video game publishers. I have also signed the petition ‘Stop Killing Games’, the values of this movement are those I want to share here: allow us to continue to have access to the content, regardless of whether we have paid for services/content in games. Thank you very much for what you do.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.949995Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585844.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585844",
+    "chunks_doc_id": "F3585844",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585844.clean.paragraph.json"
+}

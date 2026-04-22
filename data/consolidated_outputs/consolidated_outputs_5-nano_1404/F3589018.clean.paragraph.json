@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589018",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:01Z",
+    "finished_at": "2026-04-14T13:28:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In my opinion, it is incredible that businesses can simply take off products (especially digital games) for which consumers have paid for."
+              },
+              {
+                "quote": "To include in the digital fairness act a clause ensuring continued access to purchased games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9954,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen and a consumer of digital games, I signed the Stop killing games. In my opinion, it is incredible that businesses can simply take off products (especially digital games) for which consumers have paid for. This is unfair when I pay for something, then I also expect that I have infinitely approached it, just like a physical product. To take away something that belongs to him violates everything that has to do with possession. For this reason, I urge the European Commission to include in the digital fairness act a clause ensuring continued access to purchased games. And to do so also in the case of games that are currently on the market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.727967Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589018.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589018",
+    "chunks_doc_id": "F3589018",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:06Z",
+    "finished_at": "2026-04-14T13:27:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "More games demanding online always connection, even for single player gamers"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "PlayStation's inability to change your registered country"
+              },
+              {
+                "quote": "Online services being taken down months after purchasing a game"
+              },
+              {
+                "quote": "Switch 2 cartridges not containing the game you pay for"
+              },
+              {
+                "quote": "Games being shipped incomplete, and amended with paid content to fix the launch issues."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36401,
+          "unit_kind": "feedback"
+        },
+        "text": "We, as gamers, are asking for a regulation on how service providers from the gaming industry operator inside the EU: * PlayStation's inability to change your registered country * Online services being taken down months after purchasing a game * Switch 2 cartridges not containing the game you pay for * More games demanding online always connection, even for single player gamers * Games being shipped incomplete, and amended with paid content to fix the launch issues. We demand stricter rules on these practises, to protect us as consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.712970Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588977",
+    "chunks_doc_id": "F3588977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588977.clean.paragraph.json"
+}

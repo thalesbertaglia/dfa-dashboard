@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33092083",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:41Z",
+    "finished_at": "2026-04-14T09:36:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "revoke games from people who bought them"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13910,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi i'm Emil Salahi, i'm a huge gamer and i think The Digital Fairness Act should also include game companies to not revoke games from people who bought them, as i've seen and heard several game companies have done so with several games people bought, plus for example after Windows XP stopped receiving updates and support you could always still use the operating system itself, even to this day, you just won't get any new features or big fixes or security patches. And due to what i just said about Windows XP of course game companies DON'T have to keep on supporting any game forever, of course not, just to be abundantly clear",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.605894Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092083.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092083",
+    "chunks_doc_id": "F33092083",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585614",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:35Z",
+    "finished_at": "2026-04-14T12:32:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The model of \"games as a service\", whereby customers don't own but rather \"license\" the products they pay for, has caused considerable damage to consumers, as well as to games-industry practices:"
+              },
+              {
+                "quote": "gambling-like purchases of game content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28674,
+          "unit_kind": "feedback"
+        },
+        "text": "As a game developer, I have observed some recent developments in my industry with concern. I applaud the efforts made by this proposed bill but would like to suggest including protections to guarantee that customers can always access digital games they have purchased. The model of \"games as a service\", whereby customers don't own but rather \"license\" the products they pay for, has caused considerable damage to consumers, as well as to games-industry practices: consumers have already had hundreds of titles they have purchased become inaccessible; and as for the games industry, we have seen massive layoffs and a significant reduction of funding going to developers who do not conform to this model. My understanding is that these layoffs are due in large part to the \"games as a service\" model, which incentivizes extremely short production periods and a low level of polish (thus requiring fewer employees to produce). Another unfortunate consequence is the tendency of games released under this model to become more shallow, less unique experiences. I have observed first-hand how disheartening this tendency has been for games-industry professionals, who became game developers to follow a passion and now see themselves creating what we view as \"slop\" while constantly anxious about our job security. Moreover, this \"games as a service\" model goes hand-in-hand with the item already included in the bill about gambling-like games. The way games are often monetized nowadays is that they will be free to play but contain micro-transactions. A large proportion of these transactions are precisely these gambling-like purchases of game content. Combined, the \"games as a service\" and the gambling-like monetization models have done a catastrophic amount of damage to the mental and material circumstances of both the people who play these games and the people who make them. By putting protections in place to ensure that games will continue to be playable even after publishers have decided to no longer support them, you would not only protect consumers from losing access to a product they have paid for, you would likewise reduce the incentives for the production of the \"slop\" mentioned above. It would mean either longer production periods or larger teams would be required to implement these protections, and games would need to actually compete with previous titles to attract players, rather than relying on previous titles being discontinued. These points in themselves are a positive, but this would, in addition, hopefully incentivize an increase in investment in games which do not conform to this model. My opinion as a professional game developer is that gambling-like monetization and the \"games as a service\" model are predatory in relation to the consumer and exploitative in relation to developers. I urge this bill to establish protections against both. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.829652Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585614.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585614",
+    "chunks_doc_id": "F3585614",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585614.clean.paragraph.json"
+}

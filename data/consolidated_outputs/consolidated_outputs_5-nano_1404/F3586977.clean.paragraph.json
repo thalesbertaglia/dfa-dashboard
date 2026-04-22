@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:05Z",
+    "finished_at": "2026-04-14T13:07:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are made in 'online-only' format, requiring a connection to the developers'/publishers' servers to function, with no end-of-life support plan."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, this is justified by putting a line somewhere in the EULA for the games about the customer having bought a \"license\" that can be terminated at any time, for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Regarding payment processors; Visa and Mastercard, who essentially constitute a duopoly in the payment processing business, have reportedly pressured online video game stores Valve and Itch into removing legal \"adult\" content - including content that isn't adult in nature but includes depictions of LGBT+ characters, essentially labelling our very existence as \"adult content\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44941,
+          "unit_kind": "feedback"
+        },
+        "text": "To begin with, I'd like to voice my support of the initiative. All of the issues this act seeks to tackle need to be dealt with, and it makes me very happy to see that something is being done about them. I would, however, like to suggest two additional problems to tackle; ownership of digital products, and censorship by payment processors. Today, many video games are made in 'online-only' format, requiring a connection to the developers'/publishers' servers to function, with no end-of-life support plan. In many cases, these games are left completely unplayable when the end-of-life is reached and the servers are shut down, with the players essentially having a product they bought and paid for taken away from them by the company they bought it from - see the recent example of french studio Ubisoft's 2014 title The Crew. Oftentimes, these games don't even have a good reason to *be* online-only - singleplayer games with no proper online features are seemingly being made online-only for the sole purpose of giving the company control over the product even after it's sold. Currently, this is justified by putting a line somewhere in the EULA for the games about the customer having bought a \"license\" that can be terminated at any time, for any reason. This should not be allowed to continue - buying software should be treated the same as buying physical products. Imagine buying a car, only to be told five years later that your license has been terminated and you're not allowed to use it anymore. Please consider including this in the act - I live in fear of losing access to the games I play, and I really don't think I should have to. Regarding payment processors; Visa and Mastercard, who essentially constitute a duopoly in the payment processing business, have reportedly pressured online video game stores Valve and Itch into removing legal \"adult\" content - including content that isn't adult in nature but includes depictions of LGBT+ characters, essentially labelling our very existence as \"adult content\". This act of queerphobic censorship is a deeply concerning development. Being a duopoly, these two companies could potentially make it virtually impossible to proudce and sell media depicting queerness (or actual adult content) if they continue down this path. Private corporations should not have the power to control freedom of expression like this, and payment processors absolutely should not be able to dictate what groups of people are acceptable to portray in media. If a transaction is legal, they should have to process it. The contents of it shouldn't concern them, whether it's a video game that features a lesbian couple, a porn film, or an ice cream from the local ice cream place. I hope you consider including these issues in the act - the situation right now is looking grim for online consumers. Thank you for taking the time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.401109Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586977",
+    "chunks_doc_id": "F3586977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584898",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:57Z",
+    "finished_at": "2026-04-14T12:14:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online-only video games they paid for after support ends."
+              },
+              {
+                "quote": "Some online-only multiplayer games allow people to host their own servers after support ends, so it isn't impossible, like some people might say,"
+              },
+              {
+                "quote": "single-player only games shouldn't need a constant online connection to be playable at all."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19709,
+          "unit_kind": "feedback"
+        },
+        "text": "Please expand the Digital Fairness Act to allow people continued access to online-only video games they paid for after support ends. Some online-only multiplayer games allow people to host their own servers after support ends, so it isn't impossible, like some people might say, and single-player only games shouldn't need a constant online connection to be playable at all. I hope you at least consider expanding consumer rights to allow people to keep playing the games they paid for, as it is important to many people (around 1.400.000 people signed the \"stop destroying games\" petition).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.490797Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584898.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584898",
+    "chunks_doc_id": "F3584898",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584898.clean.paragraph.json"
+}

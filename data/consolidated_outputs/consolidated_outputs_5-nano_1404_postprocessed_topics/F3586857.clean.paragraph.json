@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586857",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:58Z",
+    "finished_at": "2026-04-14T13:05:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "discontinuation* of servers required for the games to function."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16906,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that this act should encompass the destruction of videogames in the form of discontinuation* of servers required for the games to function. These servers are often not critical to the game's functionality, but rather as digital rights management (DRM). There is no reason a publisher could not remove said DRM as an update to the game as a final end of life update. As for the games that have more critical functionality on the servers associated with them, it's more complicated, and on a game-by game basis. The best option will always be to just keep it in mind from the start of development, and think about whether you actually need the online functionality before implementing it, and if it needs to be on a proprietary server, and if so, what the best solution is to make it possible for consumers to keep playing. For some games, the best option might be to just release the server software as a separate program. For some games, it might be best to just add local multiplayer. For some games, it might be best to release the full source code for the game. For some games, it might be best to peer to peer multiplayer. For some games, it might be best to use a completely different way to accomplish the same goal: to keep games we paid for playable after support ends. * Often referred to as: end of life, EOL, sunsetting, end of support, EOS, shutting down, etc.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.368026Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586857.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586857",
+    "chunks_doc_id": "F3586857",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586857.clean.paragraph.json"
+}

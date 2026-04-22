@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584330",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:19Z",
+    "finished_at": "2026-04-14T11:55:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"sunsetting\" games, where publishers shut down games, often online-only, rendering them completely unplayable."
+              },
+              {
+                "quote": "When these servers are taken offline, the game ceases to function entirely, despite having no inherent \"end of life\" from a gameplay or technological perspective."
+              },
+              {
+                "quote": "Require publishers to leave the game in a playable state"
+              },
+              {
+                "quote": "Mandate clear end-of-life policies at the point of sale."
+              },
+              {
+                "quote": "Support consumer rights to preserve and access purchased content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31833,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to raise a concern regarding the current lack of regulation around the practice of \"sunsetting\" games, where publishers shut down games, often online-only, rendering them completely unplayable. This practice leaves consumers with no viable way to access or preserve the products they paid for, especially in cases where no offline or single-player functionality is provided. Games, unlike many other digital products, are often designed with artificial dependencies on publisher servers, even when server interaction is minimal or unnecessary. When these servers are taken offline, the game ceases to function entirely, despite having no inherent \"end of life\" from a gameplay or technological perspective. I urge the initiative to consider regulatory measures that: - Require publishers to leave the game in a playable state - Mandate clear end-of-life policies at the point of sale. - Support consumer rights to preserve and access purchased content. This is increasingly important for cultural preservation, consumer rights, and ethical digital practices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.181375Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584330.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584330",
+    "chunks_doc_id": "F3584330",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584330.clean.paragraph.json"
+}

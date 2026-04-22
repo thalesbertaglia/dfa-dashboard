@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3589171",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:56Z",
+    "finished_at": "2026-04-14T13:30:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "planned obsolescence in media such as video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the product cannot be revoked by the seller for, as they say: \"any reason\"."
+              },
+              {
+                "quote": "they only bought the \"right to access\" instead"
+              },
+              {
+                "quote": "purchase made in the past was actually a license, which they are now revoking."
+              },
+              {
+                "quote": "a product I purchased has been revoked from me without my acknowledgement or approval."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39880,
+          "unit_kind": "feedback"
+        },
+        "text": "While I believe DFA will set a good ground for digital consumer rights, I think that it should also tackle to issue of planned obsolescence in media such as video games. As it stands now, the developer or publisher can at any point initiate a rug pull from the customer claiming \"end of life\" on a product that was purchased, citing they only bought the \"right to access\" instead, without giving any reasonable compromise to the customer. What is more, in some cases they demand the costumer to destroy all copies of the product that they have purchased, strictly because they do not want to support it anymore. This feels very predatory and only a matter of time before other types of media or software fully adopts this practice in order to pursue profits regardless of the consumer's right to own a product they bought. I myself own several games that have had end of life declared on them and are now no longer accessible, meaning that a product I purchased has been revoked from me without my acknowledgement or approval. I believe that in this digital age, digital products should be treated akin to physical products, where after a purchase the product cannot be revoked by the seller for, as they say: \"any reason\". If they wish to sell a product as a license, this should be clearly stated BEFORE the purchase and it should NOT be possible to simply claim a purchase made in the past was actually a license, which they are now revoking. As mentioned before, I believe this practice will be adopted by other types of digital goods, unless proper consumer protection is put in place before that happens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.764990Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589171.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589171",
+    "chunks_doc_id": "F3589171",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

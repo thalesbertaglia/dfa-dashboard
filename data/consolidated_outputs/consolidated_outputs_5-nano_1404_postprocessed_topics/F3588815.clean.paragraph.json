@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588815",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:50Z",
+    "finished_at": "2026-04-14T13:26:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "are becoming dependent on licenses, subscriptions, or proprietary software."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unilateral changes to a platform's Terms of Service (TOS) forces consumers to accept new conditions or lose access to products they have already purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24260,
+          "unit_kind": "feedback"
+        },
+        "text": "The increasing power of private payment processors to censor content is a significant concern for both consumers and businesses. These companies have effectively applied their own moral standards to a wide range of platforms, including Steam, Pixiv, OnlyFans, and DLsite, blocking transactions for content that is entirely legal. This practice undermines consumer autonomy, as individuals are unable to use their own money to purchase legal goods and services. This issue is exacerbated by the broader trend of consumers losing ownership of their purchases. From digital goods like games and music to physical products such as washing machines and fridges, a growing number of items are becoming dependent on licenses, subscriptions, or proprietary software. This dependency creates significant risks, including the loss of functionality if a company ceases support or a server is shut down. Furthermore, the practice of unilateral changes to a platform's Terms of Service (TOS) forces consumers to accept new conditions or lose access to products they have already purchased. This lack of a real choice erodes consumer trust and fairness. We urge policymakers to address these issues to ensure that consumers have the freedom to use their money for legal purchases and that the principle of ownership is protected in both the digital and physical realms.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.687984Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588815.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588815",
+    "chunks_doc_id": "F3588815",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588815.clean.paragraph.json"
+}

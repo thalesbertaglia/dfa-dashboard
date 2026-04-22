@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586164",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:18Z",
+    "finished_at": "2026-04-14T12:49:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You need an internet connection just to start your game."
+              },
+              {
+                "quote": "Once their services are shut down your single-purchase game becomes a paperweight."
+              },
+              {
+                "quote": "Make video game products playable even without an internet connection."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10961,
+          "unit_kind": "feedback"
+        },
+        "text": "For many years consumers could buy a video game, put it into their hardware, and play it as long as they kept their hardware in good condition. Multiplayer and single-player modes were possible, and you could play with friends in your home. Now, as we've moved into the digital age things have become more difficult. Storefronts all work the same: You see a price for a product, buy it, and own it. However, little by little they have added requirements for owning single-purchase products. Is it because our local hardware such as home computers can't run them? That's what these publishers say. You need an internet connection just to start your game. Once their services are shut down your single-purchase game becomes a paperweight. However, connectivity does not mean it's a requirement. Take the Dreamcast from 1998 for example. A game called \"Phantasy Star Online\" had online features. You could play offline with your account, and if you wanted to meet your friends you could pay for online features. As you might expect, those online features are no longer available due to the age of the hardware and its services. However, you can still progress and enjoy the product. The game had DNS settings. By changing those you can play online even in 2025 through community-kept servers. With my example, we already had the necessary hardware from 1998. Looking at our modern computers, they dominate in that sector. However, publishers enjoy removing these features and explaining that it's no longer possible. I say it's completely possible, and making online connectivity a requirement mocks the consumer. \"You had these features back then and you could even play without them. But now, we won't give you those features.\" Many games are made using a template and publishers purposefully disabling them just mocks the consumer. \"If you want a paperweight, you'll have one.\" That's not how you treat consumers of single-purchase products. Video games are not paperweight, they are worth our purchase. Make video game products playable even without an internet connection.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.126979Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586164.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586164",
+    "chunks_doc_id": "F3586164",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

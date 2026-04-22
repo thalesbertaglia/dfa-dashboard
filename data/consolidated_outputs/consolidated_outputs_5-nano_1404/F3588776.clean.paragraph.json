@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3588776",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:41Z",
+    "finished_at": "2026-04-14T13:26:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark software design patterns that trigger addiction in children and the vulnerable population"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Aggressive profiling is also a key component of this exploitation pattern and should be monitored."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "side-markets routinely turn game \"virtual\" property into real money gains (see: Counter Strike accessories gambling)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24803,
+          "unit_kind": "feedback"
+        },
+        "text": "We desperately need a set of rules like those proposed in the FDA (Digital Fairness Act), in particular dark software design patterns that trigger addiction in children and the vulnerable population and push them toward gambling-like behaviors and sometimes true gambling, because side-markets routinely turn game \"virtual\" property into real money gains (see: Counter Strike accessories gambling). Aggressive profiling is also a key component of this exploitation pattern and should be monitored. Another important fairness point is making sure online payments match the conditions of non-digital money transactions: payment processors MUST be required to be agnostic and not act as censorship arbiters in place of the lawful democratic process and a privacy-friendly and censorship-free currency like the proposed digital euro must be made available as soon as possible. Much like an electric company doesn't dictate what is connected to the electric plugs of their customer's homes, payment processors shouldn't be allowed to block any lawful transaction. The recent attack on the LGBT community and adult content creators by Mastercard shows that is urgent and of primary importance, there is no doubt in my mind that similar attacks are ready to be expanded to target political, educational, and economic adversaries.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.685860Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588776.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588776",
+    "chunks_doc_id": "F3588776",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

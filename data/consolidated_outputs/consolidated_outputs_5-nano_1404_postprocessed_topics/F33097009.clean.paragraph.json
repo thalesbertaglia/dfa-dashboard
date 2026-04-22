@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33097009",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:41:53Z",
+    "finished_at": "2026-04-14T11:42:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the publisher of video games switches off games that have been sold to the customer so that judgment can never be played again."
+              },
+              {
+                "quote": "These servers are of key functionality that determine how the game should work and are comparable to a game life-support treatment."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18232,
+          "unit_kind": "feedback"
+        },
+        "text": "As regards shortcomings in consumer protection online, I would like to draw attention to the activity where the publisher of video games switches off games that have been sold to the customer so that judgment can never be played again. I hope that this problem can be addressed in the Digital Justice Act, as this concerns the basic protection of consumers’ property rights. For context, an increasing number of games are currently evolving with the requirement to be connected to a central server on the publisher’s side. These servers are of key functionality that determine how the game should work and are comparable to a game life-support treatment. When these are shut down, the customer can no longer play the game bought, where no alternative is given by the publisher to the customer to be able to repair it. The outcome of this is effective if the customer has been exposed to his product when the publisher shut down the server. I am far from alone to be concerned by these developments. On the website of the European Citizens’ Initiative, there is an initiative entitled “Find destroy video games” with a strong attitude to this particular problem and it has received 1.4 million signatures. Regardless of the quality of a single game, or even its own attitude towards video games such as art, this represents a radical attack on consumer rights and even the underlying concept of owning a product purchased. Whereas gambling also deserves basic protection against complete and conscious destruction before this practice is passed on to other products of greater importance to society; It is my request that the problem of destruction of video games be addressed in the Digital Justice Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.039319Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33097009.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33097009",
+    "chunks_doc_id": "F33097009",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33097009.clean.paragraph.json"
+}

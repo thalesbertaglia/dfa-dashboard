@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584484",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:24Z",
+    "finished_at": "2026-04-14T11:59:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "remotely deactivating games from online Internet activity"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13721,
+          "unit_kind": "feedback"
+        },
+        "text": "My feedback is about video games which have *or* are actively at risk of being shutdown remotely from the developer/publisher. Currently there are many hundreds of examples of digital video games that have ceased to function due to the developer/publisher's decision of remotely deactivating games from online Internet activity. This is typically done because the developer or publisher can no longer offer maintenance support to their video game, but as a big consequence this causes consumers to lose access to the games that they have paid for, no matter whether it's a PC game or a console game (Xbox, PlayStation, Nintendo Switch, Android/iPhone etc.). This also means that no refunds are given out to the affected owners of said video games. So not only are video games at risk of being lost and left in an unplayable state, but consumers have no rights whatsoever to their digital purchases, at least not for video games as it currently stands. A European Citizens' Initiative by the name of \"Stop Destroying Videogames\" which focuses on bringing up these issues has gotten lots of attention recently, and it has just surpassed 1,4 million signatures across the EU. I hope you will take my feedback into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.255337Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584484.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584484",
+    "chunks_doc_id": "F3584484",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

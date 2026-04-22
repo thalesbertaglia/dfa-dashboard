@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3590366",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:18Z",
+    "finished_at": "2026-04-14T13:33:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This would be a good opportunity to concretely define the purchase of a video game as a good, as has historically been the case."
+              },
+              {
+                "quote": "And we have seen cases where games have been shut down without time and even without removing the game from the shop until the last day."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13061,
+          "unit_kind": "feedback"
+        },
+        "text": "This would be a good opportunity to concretely define the purchase of a video game as a good, as has historically been the case. This is necessary as some companies have taken advantage of this vesse. And we have seen cases where games have been shut down without time and even without removing the game from the shop until the last day. All this consumer abuse has led to initiatives that have raised millions of signatures in Europe.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.822967Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590366.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590366",
+    "chunks_doc_id": "F3590366",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

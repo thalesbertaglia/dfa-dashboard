@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586752",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:05Z",
+    "finished_at": "2026-04-14T13:03:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers taking away access to hundreds of video games consumers have already paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15325,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games have been a major part of my life for as long as I can remember and seeing video game publishers taking away access to hundreds of video games consumers have already paid for is not only saddening, it is also a consumer rights violation. These kinds of practices in any other industry would be completely unimaginable, such as if you couldn't watch a movie you had a physical copy of on a DVD because in order to watch it, you needed a constant internet connection to ping a server and the publisher decided to take that server offline, rendering your copy of the movie unusable. This issue needs to be addressed as soon as possible, as there are already many examples of video games that have been lost due to publishers ending support for them, unfairly taking away a purchase from a consumer. The solution for this problem is to require game developers to have an end-of-life plan from the very beginning of development for their product to ensure that if they cannot keep the game servers running anymore, the consumer is left with a usable product, unlike nowadays when this is rarely the case. I strongly support the Stop Destroying Videogames initiative as I believe video games are art and a form of culture and they should be preserved for future generations to experience, just like any other form of art.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.337203Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586752.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586752",
+    "chunks_doc_id": "F3586752",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586752.clean.paragraph.json"
+}

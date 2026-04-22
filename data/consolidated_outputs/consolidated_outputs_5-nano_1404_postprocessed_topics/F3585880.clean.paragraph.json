@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585880",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:51Z",
+    "finished_at": "2026-04-14T12:40:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protecting digital media such as videogames in this legislature."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We paid for a game, not for something that can just be pulled on a whim."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25799,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, Recently, it has come to my attention that the Digital Fairness Act was opened up for feedback. We've also recently passed the 1 million signatures for the \"Stop Destroying Videogames\" initiatives. I think it would be a great opportunity to include protecting digital media such as videogames in this legislature. Games are being destroyed around the clock, and to protect this important cultural heritage, I want it to be possible to be able to preserve these works of art. Currently, usually with online-only games, the game will get disabled when the company decides it wants to pull the plug. Even when I paid for said game. There needs to be a way for consumers to keep playing the games, even though it is just locally or via consumer servers instead of company servers. It would only be fair for consumers to be able to access their purchased games indefinitely. We paid for a game, not for something that can just be pulled on a whim. 100s of games have been taken so far. Let's do our best to keep this number as low as possible!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.968135Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585880.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585880",
+    "chunks_doc_id": "F3585880",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585880.clean.paragraph.json"
+}

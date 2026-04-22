@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586600",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:55Z",
+    "finished_at": "2026-04-14T13:00:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if I buy a CD with a video game and scratch it, I lose the right to using the media that was on the CD."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They try to sell consumers the same right multiple times."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24077,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU-represenratives, Companies are growing richer and stronger day-by-day, while consumers face increased prices, increased temperatures, increased risk of unemployment. Laws are slow to adapt, especially in regard to digital rights. Computer technology evolves at an incredible phase, with new trends emerging almost yearly - lawmakers can probably not keep up, even if they wanted to. Just like there is no fully clear border between music and sound art, there is no fully clear border between video games, other digital media like digital book and music, and other forms of software like office programs. While they are usually differently used and for a different goal, the rights associated with them are often of a similar nature. Companies have for decades tried to claw back those rights from the consumers. I believe consumers have a right to demand much more than they currently do. For example, if I buy a CD with a video game and scratch it, I lose the right to using the media that was on the CD. In an ideal world, I wouldn't. I already paid for the right to play the game on that CD. If I damage the CD, I don't expect the company to necessarily replace it, but the company could and should allow me digital access to that game. The cost of such a service would me marginally low. But then, the company could not sell me a new DVD with a \"remastered\", often inferior version of the same game. Companies don't simply want to protect what they earned or could earn fairly. Game companies try hard to earn more than what they deserve. They try to sell consumers the same right multiple times. Imagine a world where one would have to re-do a driver's licence test just because they lost their driver's licence. It makes no sense. I urge you to consider not just the minimum that consumers should get back - consider the maximum that consumers deserve. This issue affects not only video games, but digital media in general, and broadly, any product or service that can be consumed. Best regards Milos Milohanovic",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.292943Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586600.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586600",
+    "chunks_doc_id": "F3586600",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

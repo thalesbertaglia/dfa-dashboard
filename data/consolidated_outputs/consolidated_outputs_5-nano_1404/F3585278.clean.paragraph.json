@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585278",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:14Z",
+    "finished_at": "2026-04-14T12:24:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are growing instances of software sellers that provide licenses that are either presented as or directly stated as perpetual, that subsequently restrict or remove access when their own terms start affecting their financial bottom line."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are growing instances of software subscriptions including complex clauses and hidden fees as part of their terms, causing significant cost to customers seeking to terminate their subscriptions."
+              },
+              {
+                "quote": "prevent users from easily terminating their subscriptions by obfuscating the termination inside the customers account settings or via nested menus and other dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It has become the norm for many video games and similar entertainment products to include random-chance acquisition mechanics, often paid for by real money, for in-game content and goods (lootboxes, gatcha) while disguised as non-gambling entertainment."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33049,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I wanted to bring attention to some issues I believe the DFA should investigate: #1 - Unfair software sales and licensing terms. There are growing instances of software sellers that provide licenses that are either presented as or directly stated as perpetual, that subsequently restrict or remove access when their own terms start affecting their financial bottom line. Examples: - Adobe, Broadcom, Reason Studios, NitroPDF and more have restricted or removed access to perpetual software licenses in the past. - Ubisoft, EA, Microsoft, Nexon, Focus Entertainment and many more, have sold video games as goods with a server requirement that when shut down, terminates all access to the product including components that do not require said server to function. This includes any digital purchases (micro transactions) within the game which often constitute the largest piece of revenue for the seller. In effect any and all purchases the customer makes can be removed from existence and made inaccessible at the discretion of the seller with no refund, compensation or guaranteed period of service. #2 - Unfair software subscription terms and termination dark patterns. There are growing instances of software subscriptions including complex clauses and hidden fees as part of their terms, causing significant cost to customers seeking to terminate their subscriptions. These terms are often designed to scare customers away from cancelling under the guise of providing better overall value. The act should seek to protect the customer by allowing them to terminate any software service within the shortest available period of subscription the service offers (eg. 1 months) at no cost. Software based services do not incur additional cost for the seller in the same capacity that physical services or rentals do. Examples: - Adobe is infamous for its unfair subscription termination fees, additionally it is currently being investigated by the US government for those terms. The act should additionally seek to require all services to match the difficulty and location of subscribing and unsubscribing to a service. The service must be as easy to subscribe to, as unsubscribe. Examples: - Adobe, Microsoft, Amazon and more prevent users from easily terminating their subscriptions by obfuscating the termination inside the customers account settings or via nested menus and other dark patterns. Finally, if the subscription service is provided through a specific platforms (eg. game consoles, mobile apps, websites) all such platforms should be required to provide both the option to subscribe and unsubscribe, rather than requiring the customer to use an alternate platform to do so. Examples: - Microsoft has in the past provided the ability to subscribe to their Xbox Live Gold service on their Xbox game consoles, but the console would not offer the option to terminate the subscription directly, requiring the customer to login to their website instead. #3 - Gambling incorporated into entertainment products and video games It has become the norm for many video games and similar entertainment products to include random-chance acquisition mechanics, often paid for by real money, for in-game content and goods (lootboxes, gatcha) while disguised as non-gambling entertainment. These mechanics have enabled large businesses to exploit both children and at-risk adults (gambling addicts, etc...) to make billions of euros while causing severe harm to many. The act should seek to restrict such mechanics to match gambling laws and potentially increase them further, as this form of gambling may constitute a greater risk, being by design, more desirable, more addictive and with no financial value, ensuring that the customer cannot recover any cost incurred. This also connects to issue #1, where such purchases can be wiped out without recourse, by the seller. Examples: - EA, Microsoft (and subsidiaries), Valve, Ubisoft, HoYoverse, and many more. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.664929Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585278.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585278",
+    "chunks_doc_id": "F3585278",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

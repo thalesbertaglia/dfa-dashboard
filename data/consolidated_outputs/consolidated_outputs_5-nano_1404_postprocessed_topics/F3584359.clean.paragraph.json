@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584359",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:06Z",
+    "finished_at": "2026-04-14T11:56:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Especially the subscription part is hard to deal with when working with USA websites."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory practices, hidden inside their EULAs or terms of service."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Certain game publishers also really dislike the idea of players actually owning their games, which would be a worth addition to the overall initiative."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "additional software running in the background, that essentially does nothing more than monitor your activity."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28754,
+          "unit_kind": "feedback"
+        },
+        "text": "It looks like a good change overall. Certain sites and services (mostly USA-based ones) really like to conduct especially predatory practices, hidden inside their EULAs or terms of service. Especially the subscription part is hard to deal with when working with USA websites. Certain game publishers also really dislike the idea of players actually owning their games, which would be a worth addition to the overall initiative. It feels like a predatory practice to sell idea of owning a product but keeping the ability to steal the product back the moment its publisher decides it is time to do so. It is sort of related to Stop Killing Games initiative. Another important issue I would add to the list of predatory or unfair practices is the fact that certain products distributed through online means usually requires additional software running in the background, that essentially does nothing more than monitor your activity. While I do understand the need of having a main \"launcher\" sort of application running as it is the thing that has distributed our copy to us, it feels a bit unnecessary to have \"game publishers launcher\" running at the same time. We already bought the game through the main launcher, why do we need the publishers launcher as well? Giving an example: I buy game from Steam. It is Mass Effect, a game originally developed by BioWare, who is now working under EA. As such, in order to run the game I need to have additional software running that was not the one I used to buy the game, which is EA launcher. I would propose that only software that needs to be running in the background while I am playing a game is the software which I used to buy the game, no additional unnecessary bloatware that may or may not be actually spying on me.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.195662Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584359.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584359",
+    "chunks_doc_id": "F3584359",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584359.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584451",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:43Z",
+    "finished_at": "2026-04-14T11:59:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "an almost permanent connection to the internet to access servers."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Killing Games initiative was launched to force developers to plan an end of life plan for their games as soon as they cease to be profitable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22938,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Since more than a decade, access to many video lights requires an almost permanent connection to the internet to access servers. Many companies in the sector are therefore abusing to make * products * purchased by consumers inaccessible, treating them as * services * with an expiry date. This is unacceptable and therefore the Stop Killing Games initiative was launched to force developers to plan an end of life plan for their games as soon as they cease to be profitable. It seems clear to me, therefore, to make a stone of coups and to take advantage of the momentum of that initiative and of the discussions it has engendered to register her requests in the Digital Fairness Act, so that consumers can continue to benefit from the products they have purchased, without having to take care of the threat posed by a potential end of life arbitrarily decided upon.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.239856Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584451.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584451",
+    "chunks_doc_id": "F3584451",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

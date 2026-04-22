@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586973",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:00Z",
+    "finished_at": "2026-04-14T13:07:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "offuscate the transaction, making you think you own the porduct while you don't."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This can be clearly seen in spaces like the videogame industry, where games that are sold as a liscence can be taken away from the buyer, who then cannot use the product that they had bought with their own money."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "can be taken away from the buyer, who then cannot use the product that they had bought with their own money."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40930,
+          "unit_kind": "feedback"
+        },
+        "text": "Have read the call for evidence for impact assesement, I am very happy with all the topics that it's trying to adress in the context of consumer rights and protections. However, I'd like to include one aspect more to consider: the concept of companies sellin licenses as a product, especially when they offuscate the transaction, making you think you own the porduct while you don't. This can be clearly seen in spaces like the videogame industry, where games that are sold as a liscence can be taken away from the buyer, who then cannot use the product that they had bought with their own money.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.399638Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586973.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586973",
+    "chunks_doc_id": "F3586973",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

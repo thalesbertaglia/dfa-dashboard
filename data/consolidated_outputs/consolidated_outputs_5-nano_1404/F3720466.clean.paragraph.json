@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3720466",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:02Z",
+    "finished_at": "2026-04-14T13:47:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "completely unfair as soon as the publisher decides to terminate its support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12844,
+          "unit_kind": "feedback"
+        },
+        "text": "As the Digital Fair Act deals with issues related to video games, I would like to request that it also offers protection to consumers against the destruction of video games they have already purchased by their publishers. In essence, many video games sold as goods are designed to be completely unfair as soon as the publisher decides to terminate its support. This is a widespread and perfectly avoidable practice that violates consumers’ rights. Indeed, there is already a citizens’ movement with more than one million signatures to challenge it: ‘Stop Killing Games’.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.119107Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720466.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720466",
+    "chunks_doc_id": "F3720466",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

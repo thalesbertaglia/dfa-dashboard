@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585963",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:10Z",
+    "finished_at": "2026-04-14T12:42:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "keeping the licences of different softwares to be able to do your job will eventually become such a big monthly expense that it is very difficult to take on for a small SME."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "And in the world of video games, even worse."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31129,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be a good moment to stop the feet or stop the growing abuse of video game and similar companies (software developers and apps), which using the concept of ‘service’ rather than ‘product’, are taking advantage of and abusing the concept to loose citizens’ pockets. It cannot be that, in order to have access to a product that was just a decade ago, a single price could be paid with a certain guarantee of continuing to own the product and being able to use it beyond a certain period of time, now you have to pay a similar price, but each other. If you don’t have the luck of working for a company or for the government, keeping the licences of different softwares to be able to do your job will eventually become such a big monthly expense that it is very difficult to take on for a small SME. And in the world of video games, even worse. I encourage you to read the “Stop Killing Games” initiative, if you want to know that this could be done in order to be able to regulate the injustices that large video game companies are perpetrating.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.008810Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585963.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585963",
+    "chunks_doc_id": "F3585963",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585963.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584840",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:25Z",
+    "finished_at": "2026-04-14T12:12:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that relies on 2nd or 3rd party servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16489,
+          "unit_kind": "feedback"
+        },
+        "text": "Many thanks reading this. I learned of this initiative from the Stop Killing Games initiative and I also heard of this initiative which I read and support. I would like to add some feedback regarding the inclusion of games or interactive media. In particular games that rely on a 2nd or 3rd party. In most of the cases where of a game that relies on 2nd or 3rd party servers, the owner of a game or piece of media has the risk of losing that content whenever the content reaches end of life. Even if they bought a perpetual license with them. This is sad and destroys not only art and entertainent but more importantly, in my opinion, it loses the aspect of owning itself. I think that games should be included in the digital fairness act if at all possible to prevent future and current ownership of games/media/content being destoyed. Thank you again for your time and patience.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.463740Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584840.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584840",
+    "chunks_doc_id": "F3584840",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

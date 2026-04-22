@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584984",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:07Z",
+    "finished_at": "2026-04-14T12:17:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are thousands of hundreds of ways in which a video game can be maintained even after the official server has been closed"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I bought the game, the product SHALL be my own."
+              },
+              {
+                "quote": "a plan to offer the service they sold even after they decide to end it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22545,
+          "unit_kind": "feedback"
+        },
+        "text": "One thing that companies are afraid to do in the digital world is to sell a product, and then to decide, as it seems to him, to dictate it. And I remain in the mouth, renting games licenses is a practice that SHALL end. Far too often the companies took my money in the media, which they then decided to close. There are thousands of hundreds of ways in which a video game can be maintained even after the official server has been closed, companies must have a plan to offer the service they sold even after they decide to end it, otherwise it is in all respects a pyramid scheme, a rug pull, a theft. If I bought the game, the product SHALL be my own. Point.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.538404Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584984.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584984",
+    "chunks_doc_id": "F3584984",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584984.clean.paragraph.json"
+}

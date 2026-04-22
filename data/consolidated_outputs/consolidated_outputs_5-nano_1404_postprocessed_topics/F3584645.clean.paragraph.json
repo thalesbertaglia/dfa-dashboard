@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584645",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:06Z",
+    "finished_at": "2026-04-14T12:05:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'd argue that this is a very dark pattern. Calling both renting and buying \"buying\"."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game \"Deathgarden: BLOODHARVEST\" was released (after an early access period) around 2019 May 30 and was shot down around 2020 August 12 with no way play it after that even though the game only requires 6 player for a full server and could be enjoyed by only 2 people as well."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it's just an indefinite rent which's duration is entirely decided by the seller or publisher with no way for the customer to have any say in it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52897,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be nice to consider adding protection against software and games having requirements for connection to the servers of the sellers or publishers of them to be able to run and still calling it \"buying\" when in reality it's just an indefinite rent which's duration is entirely decided by the seller or publisher with no way for the customer to have any say in it. (I'd argue that this is a very dark pattern. Calling both renting and buying \"buying\". Especially not knowing how long the \"buying\" can last when it means renting.) For example: the video game \"Deathgarden: BLOODHARVEST\" was released (after an early access period) around 2019 May 30 and was shot down around 2020 August 12 with no way play it after that even though the game only requires 6 player for a full server and could be enjoyed by only 2 people as well. Many games (Insurgency, Assetto Corsa, etc.) had and still have and give the customers the ability to host their own server and continue playing even after the publisher or seller stops supporting it, but it's becoming less and less often an option and more and more games go the Deathgarden way of never releasing the server code or binaries for their games and / or require login to the publishers or sellers' server to function. Sadly it's becoming common to have this limitation for single player games and software that run locally on the customer's computer as well. It would be nice to be able to keep running software and games a customer buys as long the customer has the computer necessary to run it. I wouldn't want my books being taken away from me when their publishers decide that they aren't profitable to sell anymore or come out with a newer version, sequel for them. (The Crew video game was turned off / shut down by Ubisoft in 2024 (after 10 years) and can not be played anymore as it required connection to Ubisoft servers for single player as well.) As a customer there's no way of knowing when \"buying\" a video game how long it can be played, sometimes it's as long as the customer has a computer capable of running it which is equal to forever (Insurgency, Assetto Corsa, Playstation 1 games, etc.) in reality, sometimes it's 10 years (The Crew) and sometimes it's only around a year or two (Deathgarden). It would be great to have laws to force publishers and sellers to provide a way to keep running the software and games they sell to customers even after they stop supporting them, even if it would require extra steps to do so or in a limited way, so at least their core functions remain.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.334341Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584645.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584645",
+    "chunks_doc_id": "F3584645",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584645.clean.paragraph.json"
+}

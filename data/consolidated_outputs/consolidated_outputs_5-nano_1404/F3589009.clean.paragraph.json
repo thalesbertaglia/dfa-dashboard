@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589009",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:45Z",
+    "finished_at": "2026-04-14T13:27:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games remain playable in their current state"
+              },
+              {
+                "quote": "This game has been destroyed by Ubisoft."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14388,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen I have also signed the stop destroying games initiative. I believe the digital fairness act also leaves room to accommodate to enforce video games remain playable in their current state without the fear of them being destroyed in the future. I am one of many who purchased a game called The Crew by Ubisoft. This game has been destroyed by Ubisoft. This is game is now currently completely unplayable and likely never will be again. This is only one of many such cases in the past. Something I paid for with my hard working money has been taken away by Ubisoft because they did not provide the community to host their own servers or the ability to play the game alone. I believe this to be unfair to me and all of the EU citizens and thus truly hope that the digital fairness act has the ability to stop this widespread behavior from game developers and publishers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.724076Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589009.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589009",
+    "chunks_doc_id": "F3589009",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

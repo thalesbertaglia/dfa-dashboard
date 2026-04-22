@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587606",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:56Z",
+    "finished_at": "2026-04-14T13:19:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Privacy",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "to remain anonymous on the Internet without needing to provide government ID to random websites"
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The government should not be able to censor anything unless it is outright illegal"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25902,
+          "unit_kind": "feedback"
+        },
+        "text": "As a person that wishes to stay anonymous on the Internet I believe that it is a right for us citizens to remain anonymous on the Internet without needing to provide government ID to random websites that could end up leaking our sensitive info. The Internet is a place for adults and kids should be supervised by the parents and not the government. The government should not be able to censor anything unless it is outright illegal and should not stop anyone from freely accessing the Internet anonymously",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.552533Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587606.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587606",
+    "chunks_doc_id": "F3587606",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587606.clean.paragraph.json"
+}

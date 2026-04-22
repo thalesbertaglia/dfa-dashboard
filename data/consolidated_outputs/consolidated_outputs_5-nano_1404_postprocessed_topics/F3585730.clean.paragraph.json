@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585730",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:02Z",
+    "finished_at": "2026-04-14T12:35:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "live service (need to be connected to the internet just to play)"
+              },
+              {
+                "quote": "I can no longer play either at all or with my brothers."
+              },
+              {
+                "quote": "Would it be possible to make part of this Digital Fairness Act to request protections to consumers from Gaming companies destroying already bought video games?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27323,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I would like to provide some feedback. Playing video games has been a big part of my life ever since I was a small kid. Playing games to have fun by myself, with my brothers, online or in the couch with friends. Specially now that I'm older, I find myself going back more to play the old games I bought. The nostalgia is a great happy comforting feeling. But unfortunately, many times games that my parents bought and I grew up playing are no longer playable. Many times over christmas coming back to my moms house, me and my brothers look at the old video game shelf and try to play some of the old games, and many due to live service (need to be connected to the internet just to play) we can't. Would it be possible to make part of this Digital Fairness Act to request protections to consumers from Gaming companies destroying already bought video games? Games like Burnout Paradise, Dauntless, Tom Clancy's EndWar and Ghost Recon Phantoms are just examples of games that I can no longer play either at all or with my brothers. I wish this doesnt happen to current games that I play and spent money on like League of Legends, Call of Duty Warzone or in general the multiplayer part of the game, Diablo 4, The Elder Scrolls online, Final Fantasy 14/15, Genshin Impact, Smite... you get the point. My aim is not to force companies to keep supporting the game, but to have a plan on how to enable the game to live on without their support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.893330Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585730.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585730",
+    "chunks_doc_id": "F3585730",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585730.clean.paragraph.json"
+}

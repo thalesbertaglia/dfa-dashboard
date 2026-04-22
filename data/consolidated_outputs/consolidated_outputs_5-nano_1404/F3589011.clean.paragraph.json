@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3589011",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:51Z",
+    "finished_at": "2026-04-14T13:28:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sunset by their respective developers/providers"
+              },
+              {
+                "quote": "guarantee that the consumer retains the possibility of making continuous use of their respective services and products after active support concludes on the side of the developer/service provider;"
+              },
+              {
+                "quote": "the interval after which support will end is clearly advertised at the moment of purchase or transaction."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18522,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe it would be beneficial if, in addition to the already addressed points, the present act also dealt with the issue of previously purchased products and services being sunset by their respective developers/providers, which is a particularly jarring issue nowadays in the context of digital entertainment; given that consumers are provided with little to no assurances at all when it comes to the protection of their already purchased property or hired services - \"protection\" understood in this context as a guarantee that the consumer retains the possibility of making continuous use of their respective services and products after active support concludes on the side of the developer/service provider; or that, at the very least, the interval after which support will end is clearly advertised at the moment of purchase or transaction.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.725086Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589011.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589011",
+    "chunks_doc_id": "F3589011",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

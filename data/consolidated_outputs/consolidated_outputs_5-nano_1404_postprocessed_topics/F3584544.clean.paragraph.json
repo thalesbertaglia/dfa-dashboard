@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584544",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:13Z",
+    "finished_at": "2026-04-14T12:01:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pay to win"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "behind paywalls"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32147,
+          "unit_kind": "feedback"
+        },
+        "text": "As a EU citizen, it is time to stop predatory Game Companies (or at least the big ones). For far too long they have dominated this field with little to no legal laws to respect or enforce. They have abused the little customer to no end, and have no intention of stopping. They stop games, kill servers, and put awful payment forms/addons behind paywalls, non-stop, and often things that impact the game in an important matter, where it becomes almost a requirement to pay to win. Please, I implore you to take your time to study thoroughly and see how much damage they have done and will continue to do. It's very obvious big companies do what they please, as long as they go unchecked.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.285074Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584544.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584544",
+    "chunks_doc_id": "F3584544",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584544.clean.paragraph.json"
+}

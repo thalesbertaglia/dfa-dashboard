@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3587617",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:07Z",
+    "finished_at": "2026-04-14T13:19:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Killing Games initiative"
+              },
+              {
+                "quote": "making it illegal for publishers to rescind access to games by making them impossible to play"
+              },
+              {
+                "quote": "games have extremely poor consumer protection"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16377,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like for the EU to implement regulation related to the problems that are raised by the Stop Killing Games initiative, such as making it illegal for publishers to rescind access to games by making them impossible to play - this can take the form of having the game access the publishers servers for authentication, which is impossible if that service is shut down. This is a very brief explanation of the Stop Killing Games initiative, but the point I want to illustrate is that the EU does not have proper regulation on this part our digital world. As it stands right now, games have extremely poor consumer protection - this needs to be changed. There are many good suggestions in the Stop Killing Games initiative, that I would like for the EU to consider. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.554893Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587617.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587617",
+    "chunks_doc_id": "F3587617",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

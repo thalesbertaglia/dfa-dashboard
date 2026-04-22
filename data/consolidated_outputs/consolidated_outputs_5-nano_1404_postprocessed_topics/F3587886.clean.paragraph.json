@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587886",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:18Z",
+    "finished_at": "2026-04-14T13:21:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The act aims to prevent Dark Patterns, and I think making a game unplayable after a customer purchased it, is a dark pattern."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we see it apply especially to games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24225,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add a section in the spirit of \"Stop Killing Games\". The act aims to prevent Dark Patterns, and I think making a game unplayable after a customer purchased it, is a dark pattern. At the very least, a game publisher should disclose that the game will work at least until a specified date. Also, if a game is no longer sold officially, it should be legal to copy and modify it (especially in order to make it playable), as long as there are people willing to do so. Note that it is important for all kinds of software, but we see it apply especially to games, where the consumer is not a professional and is not represented by a lawyer, and therefore need a special protection, while other programs are usually easy to replace with newer versions or making a modern version. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.591474Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587886.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587886",
+    "chunks_doc_id": "F3587886",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587886.clean.paragraph.json"
+}

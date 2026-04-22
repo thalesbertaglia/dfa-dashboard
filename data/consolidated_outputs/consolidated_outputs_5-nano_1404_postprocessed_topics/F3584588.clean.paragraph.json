@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584588",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:39Z",
+    "finished_at": "2026-04-14T12:03:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This mechanism allows users to buy virtual packages with random content against money without knowing what they get."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative monetisation models."
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The DFA should ensure that consumers can continue to access their purchased content regardless of whether a producer stops support or publishes new versions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37133,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the EU’s initiative to create fair conditions for consumers in the digital sphere through the Digital Fairness Act (DFA) and thank you for the opportunity to express my views here. I am afraid that in the long term I will no longer have secured access to digital products for which I have already paid for, especially for video games. More and more content is rendered inaccessible through changes in licences or the shutdown of online services. The DFA should ensure that consumers can continue to access their purchased content regardless of whether a producer stops support or publishes new versions. Another important issue is the handling of so-called loot boxes. This mechanism allows users to buy virtual packages with random content against money without knowing what they get. This is particularly problematic for games that also target minors. One concrete example is FIFA Ultimate Team Mode: Players sometimes invest significant sums in order to obtain virtual player cards. However, with the publication of the next FIFA version, all progress, including all purchased content, loses value as it cannot be transferred. Everything that players have built and bought in a year is therefore meaningless in the new game. This practice leads to an artificial shortage and an annual forced new start, which is particularly critical in combination with real money purchases. A system is created that resembles gambling but operates without appropriate regulation or safeguards. I hope that, also in these areas, the DFA will create clear and consumer-friendly rules on both long-term access to digital content and protecting young people from manipulative monetisation models. Yours sincerely, Florian Dengg",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.305809Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584588.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584588",
+    "chunks_doc_id": "F3584588",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584588.clean.paragraph.json"
+}

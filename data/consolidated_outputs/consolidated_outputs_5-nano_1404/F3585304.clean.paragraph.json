@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585304",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:47Z",
+    "finished_at": "2026-04-14T12:25:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games have remained in this grey legal area where you have the ability to purchase them, but not own them officially."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some companies also have unfair clauses stating that they can revoke the access to the game for no reason at any point they like, without prior warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17568,
+          "unit_kind": "feedback"
+        },
+        "text": "I wholeheartedly support the policies shown currently in the paper, however I'd like to suggest to add another policy/policies about the ownership of digital media, in regards to video games mostly, but not only. Video games have remained in this grey legal area where you have the ability to purchase them, but not own them officially. Because of that, corporations can and have taken advantage of this by either revoking access to the game when the servers go offline or by making some games that rely on constant server connection, unplayable when the live servers shut down. For the latter, there is no compensation, no way to host dedicated servers or any community support that could keep the game in a usable state. This is a massive issue for consumers. You purchase a game in the present thinking that you will be able to play it indefinitely, even with the servers shut down, only to have your access suddenly revoked, with only a 3-day notice to warn you beforehand that the servers will be shut down and there's nothing that you can do to remedy the situation, nor can you get any compensation for your purchase. This is significantly worse when it's about games that require constant internet or servers to operate, because once the servers are shut down by the company, there's no feasible way to play that game again. Some companies also have unfair clauses stating that they can revoke the access to the game for no reason at any point they like, without prior warning. This goes against the law of the European Union and should be remedied as soon as possible, alongside the current limbo of ownership that some digital media, video games especially, find themselves in.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.674472Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585304.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585304",
+    "chunks_doc_id": "F3585304",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

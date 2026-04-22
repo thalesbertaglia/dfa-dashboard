@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586714",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:32Z",
+    "finished_at": "2026-04-14T13:02:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies destroying and revoking access to games we have already bought with a one time payment"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies should by no means revoke your licenses with no clear indication of the duration of it at the time of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18550,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am giving feedback about the issue we have with video game companies destroying and revoking access to games we have already bought with a one time payment, (even though some purchases are labeled as a license to use the product) having the power to revoke access to a product without an end of life notice at the time of purchase is ridiculous and should be looked into. A prime example of that happened with Ubisoft and their title \"The Crew\" , which required an internet connection so that you can even access the game even though you didn't want to participate in online activities. When they \"pulled the plug\" they also started removing the game from the libraries of people who purchased the product without any notice and removing the ability to even download the game even if its in an unplayable form. While the term license has become a very often used term. Companies should by no means revoke your licenses with no clear indication of the duration of it at the time of purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.328465Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586714.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586714",
+    "chunks_doc_id": "F3586714",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586714.clean.paragraph.json"
+}

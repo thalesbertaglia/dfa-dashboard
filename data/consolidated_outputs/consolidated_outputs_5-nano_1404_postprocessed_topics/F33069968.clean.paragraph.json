@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33069968",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:03Z",
+    "finished_at": "2026-04-14T09:28:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game publishers taking away access to games that customers have paid for"
+              }
+            ]
+          },
+          {
+            "topic": "Android App Installation Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "disallow (starting from 2026) installation of unverified apps on Android phones"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22611,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European citizen, I'm concerned by the recent trend of game publishers taking away access to games that customers have paid for: when a publisher or a developer decides to stop supporting and selling a game that requires a mandatory online component to be played, they should ensure that paying customers will still be able to access the game, by either removing the requirement for the mandatory online component or publicly releasing the code required for this component to work. The Stop Killing Games campaign, by collecting about 1.5 million signatures of other European citizens, has highlighted how widespread this issue is and how much paying customers are bothered by this situation, so I ask the EU Parliament to use the Digital Fairness Act to create clear rules that prevent developers and publishers from taking away games that people have bought, in order to protect both the digital marketplace and the customers' rights. I'm also worried about the recent decision by Google to disallow (starting from 2026) installation of unverified apps on Android phones: this will put Google in a monopoly position that will seriously limit the rights of the owners of Android devices (who will no longer be able to freely install apps on their owned devices) and at the same time would allow Google to gain an unfair advantage against competition (by reducing access to competing applications and digital app stores). Considering that Google is already trying to stifle competition on the OS side by using features like \"Play Integrity\" (a framework that requires OS validation in order to consider a device \"safe\", which as a consequence makes any kind of app using this framework incompatible with alternative OSes like GrapheneOS), Google should not be allowed to further reduce the customers' rights and the Digital Fairness Act should create clear rules to avoid this kind of monopolistic behaviour.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.479799Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33069968.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33069968",
+    "chunks_doc_id": "F33069968",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33069968.clean.paragraph.json"
+}

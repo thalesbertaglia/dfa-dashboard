@@ -1,0 +1,99 @@
+{
+  "doc_id": "F33092073",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:37Z",
+    "finished_at": "2026-04-14T09:38:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ads have become little more than a malware vector while the ad distributers hold economic power over popular websites such as Youtube."
+              },
+              {
+                "quote": "predating on user psychology with FOMO, gambling, and multiple in-app currencies that obfuscate the value of things."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "false discounts (LTE where things are \"on sale\" from the start, permanent \"on sale\" in-app purchases, etc.)"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EoL for software, wherein a seller cannot make it impossible for customers to access or use the digital product that they paid for."
+              },
+              {
+                "quote": "Be it via the product only functioning with an internet connection to distributor/seller-owned servers, and the distributor/seller shutting down the servers without giving the customers the option to personally maintain and run the software;"
+              },
+              {
+                "quote": "The product being an old version that the seller is no longer distributing for re-download and re-install should something break;"
+              },
+              {
+                "quote": "Forced migration to a new product version by not making the outdated and abandoned version available to the public for continued support via, for example, open source updates."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 111966,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be great if it also included some more things regarding digital goods and services, such as: Payment processing, wherein payment processors like Visa, Mastercard, Paypal, etc. cannot deny processing of legal transactions, preventing them from happening. EoL for software, wherein a seller cannot make it impossible for customers to access or use the digital product that they paid for. Be it via the product only functioning with an internet connection to distributor/seller-owned servers, and the distributor/seller shutting down the servers without giving the customers the option to personally maintain and run the software; The product being an old version that the seller is no longer distributing for re-download and re-install should something break; Forced migration to a new product version by not making the outdated and abandoned version available to the public for continued support via, for example, open source updates. This would cover things such as digital art software, operating systems, video games, etc. Stricter demands and control on advertizing agencies. Currently, ads have become little more than a malware vector while the ad distributers hold economic power over popular websites such as Youtube. Enforcing behaviour on the users, while personally being beholden to no one. Users of the platform Youtube have to censor themselves and not use wrongspeech (such as swearing, or some seemingly algorithmically determined \"bad thing\"), lest they be either economically sanctioned by the platform (youtubers getting their videos demonetized) or outright censored (comments being shadow deleted), meanwhile the advertizing agencies can distribute active malware, porn, gambling, full pirated movies, etc. that all break the Youtube ToS without repercussions. Though, I will admit that this could just be a fundamental issue with the platform itself. Still, something to ponder on. Also, distributors such as Google Play need stricter oversight. Many of the apps on the store do things such as false discounts (LTE where things are \"on sale\" from the start, permanent \"on sale\" in-app purchases, etc.) and predating on user psychology with FOMO, gambling, and multiple in-app currencies that obfuscate the value of things. Otherwise, the things listed in the act are sound and will be another good step in the right direction.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.605282Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092073.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092073",
+    "chunks_doc_id": "F33092073",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33092073.clean.paragraph.json"
+}

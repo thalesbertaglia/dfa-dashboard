@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585719",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:45Z",
+    "finished_at": "2026-04-14T12:35:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "paid for through the initial purchase or through microtransactions"
+              },
+              {
+                "quote": "not requiring an \"always online\" service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15254,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe one of the issues not covered in this act is the owning of video games. I am worried that after the game's I enjoy, and paid for through the initial purchase or through microtransactions, will be taken offline with no recourse for me, despite the fact that I have paid for the games I enjoy. In my opinion, when the video games are in their design phase, it is viable to make a change, not requiring an \"always online\" service, or to use an open source server architecture, where the community could host their own servers in exchange for paying a piece of their own micro transactions to the company that own's the intellectual property. If I, as a consumer, do not own the games I paid for, then that goes again what I believe to be the common consensus of \"you buy it, you own it\".",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.887475Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585719.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585719",
+    "chunks_doc_id": "F3585719",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

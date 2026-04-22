@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587357",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:24Z",
+    "finished_at": "2026-04-14T13:15:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manufacturers remotely destroying many consumers devices/videogames/software."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections against the destruction of their property would be explicitly included in this act"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34490,
+          "unit_kind": "feedback"
+        },
+        "text": "A worrying trend has developed where software and hardware are \"sold\" as a good, but rely on manufacturer digital infrastructure for most or even all of their functionality, this has already resulted in manufacturers remotely destroying many consumers devices/videogames/software. This causes harm to consumers and in practice deprives them of their property, if a manufacturer ends support then the purchased goods should remain functional, or it should at least be easy for layman owners to restore most or all functionality. End dates for product support should also be clearly communicated before purchase, so consumers can make informed decisions. The \"Stop destroying videogames\" citizens initiative takes on a part of this problem, and shows that many citizens are worried by this trend. Citizens would benefit greatly if protections against the destruction of their property would be explicitly included in this act, and it would create a fairer market for these products within the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.504982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587357.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587357",
+    "chunks_doc_id": "F3587357",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585107",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:16Z",
+    "finished_at": "2026-04-14T12:20:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prevent video studios from completely removing access to their multi-player games without offering an alternative"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17191,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think it would be interesting to add a paragraph that prevents video studios from completely removing access to their multi-player games without offering an alternative (be it in the form of private servers hosted by players, or singleplayer modes). This would be honest for all those who buy a copy of such a game, rather than having a product removed in its entirety, without consideration. Thanks in advance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.599235Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585107.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585107",
+    "chunks_doc_id": "F3585107",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585107.clean.paragraph.json"
+}

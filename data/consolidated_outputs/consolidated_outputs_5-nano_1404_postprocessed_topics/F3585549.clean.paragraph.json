@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585549",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:14Z",
+    "finished_at": "2026-04-14T12:30:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I've purchased a video game, be it physical or digital, I am of the belief that I own it and can keep it for myself."
+              },
+              {
+                "quote": "'switching off' access to games I've previously purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "to accurately and truthfully depict what the gameplay is like"
+              },
+              {
+                "quote": "Far too many ads are dishonest and shows inaccurate, or straight up deceitful portions of the game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26820,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen within the EU, I am proud and thrilled to have such strong consumer protection. Hearing about the DFA only enforces those feelings. I would however like to - along with a fair amount of other's in the EU - to suggest an addition to the list. If I've purchased a video game, be it physical or digital, I am of the belief that I own it and can keep it for myself. Companies and publishers would disagree unfortunately, and are adamant about 'switching off' access to games I've previously purchased. I'd like to refer to the 'Stop Destroying Videogames' Citizens Initiative on how to best approach this matter, so consumers can feel safe knowing their purchases won't be removed from them. Additionally - If we can require online advertising of games (mobile ones in particular are guilty of this) to accurately and truthfully depict what the gameplay is like, that'd be swell. Far too many ads are dishonest and shows inaccurate, or straight up deceitful portions of the game - that either take such an insignificant part of the overall gameplay that it doesn't matter, or simply isn't in the game at all. Love the overall act and only hope it'll get better.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.797864Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585549.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585549",
+    "chunks_doc_id": "F3585549",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585549.clean.paragraph.json"
+}

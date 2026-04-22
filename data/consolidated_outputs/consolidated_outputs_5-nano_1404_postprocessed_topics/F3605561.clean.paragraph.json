@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3605561",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:32Z",
+    "finished_at": "2026-04-14T13:41:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "robing consumers of their access to purchased goods at the publisher's whim, using the justification that you only acquired a license."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "requiring an online account to access a single player game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25236,
+          "unit_kind": "feedback"
+        },
+        "text": "The discussion points listed for the Digital Fairness Act already are excellent. That being said, they don't cover a common publisher practice regarding digital goods that has already been raised by other commenters: robbing consumers of their access to purchased goods at the publisher's whim, using the justification that you only acquired a license. I would like to add my voice to the people advocating for stronger consumer protection in that area. While there may not be a single approach that covers everything from books to movies to live-service video games, fair, workable solutions should be possible to achieve for most, if not all forms of digital media. While some contexts may be murky, there are more than enough egregious cases like requiring an online account to access a single player game that should be put under scrutiny.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.001829Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605561.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605561",
+    "chunks_doc_id": "F3605561",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3605561.clean.paragraph.json"
+}

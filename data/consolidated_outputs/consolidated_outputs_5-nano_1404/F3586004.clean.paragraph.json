@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586004",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:29Z",
+    "finished_at": "2026-04-14T12:43:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "EU-level Enforcement Of Digital Regulations",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Some kind of system should be set up at a European level where the EU itself has the power to impose penalties and ensure that existing digital regulations are properly followed and enforced by member states."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29379,
+          "unit_kind": "feedback"
+        },
+        "text": "Even if laws exist to protect consumer rights, if they are not enforced and there is no reasonable mean to pursue their enforcement; they may as well not exist. When every institution in your local jurisdiction fails to do their job, the only current solution is to escalate to the European Court of Human Rights which can take upwards of 7+ years to even begin which is not a reasonable time frame. Some kind of system should be set up at a European level where the EU itself has the power to impose penalties and ensure that existing digital regulations are properly followed and enforced by member states.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.031970Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586004.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586004",
+    "chunks_doc_id": "F3586004",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

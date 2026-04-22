@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3594338",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:12Z",
+    "finished_at": "2026-04-14T13:40:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it required a subscription to play"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some publishers permanently disable games after sale, even when they could still work offline."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games weve already bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21621,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the goals of the Digital Fairness Act, but I think it should also protect consumers from losing access to video games weve already bought. Some publishers permanently disable games after sale, even when they could still work offline. That feels unfair we paid for them and should still be able to use them. It would make sense to require publishers to leave games in a playable state (or offer refunds) if they stop online services. This would stop people from losing products they paid for. For example, I bought Anthem only to find out it required a subscription to play, and now it is planned to shut down next year. Since it cannot run without servers, I will completely lose access to something I purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.973055Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3594338.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3594338",
+    "chunks_doc_id": "F3594338",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

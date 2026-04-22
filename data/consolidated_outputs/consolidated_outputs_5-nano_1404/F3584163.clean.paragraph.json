@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584163",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:33Z",
+    "finished_at": "2026-04-14T11:50:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a consumer that has spent a considerable amount of money in games in general, I am concerned that products that I have spent my money on will be taken away from me whenever the company that made the game wants."
+              },
+              {
+                "quote": "what I buy should stay being mine, but right now many of these games are being considered rentals without letting the consumer know"
+              },
+              {
+                "quote": "Games as pieces of art should be preserved in one way or another."
+              },
+              {
+                "quote": "Use \"Word of Warcraft\" as an example of a massive multiplayer online game that gives the users to run their own servers, so the game will continue running forever even after the developers end their support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22616,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer that has spent a considerable amount of money in games in general, I am concerned that products that I have spent my money on will be taken away from me whenever the company that made the game wants. As many would agree, what I need as a consumer is protection. What I buy should stay being mine, but right now many of these games are being considered rentals without letting the consumer know, and for no real reason. In addition, games are massive pieces of art including music, paintings, 3d models, animations, writing and more. I don't think it is correct to let companies destroy that art to force you to buy more of it. Games as pieces of art should be preserved in one way or another. Many of these companies will use online services as an excuse, but don't be fooled. Use \"Word of Warcraft\" as an example of a massive multiplayer online game that gives the users the tools to run their own servers, so the game will continue running forever even after the developers end their support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.104897Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584163.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584163",
+    "chunks_doc_id": "F3584163",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

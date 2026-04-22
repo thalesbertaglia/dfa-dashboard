@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3590580",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:41Z",
+    "finished_at": "2026-04-14T13:34:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "insidious addictive design"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rendered inoperable after some arbitrary amount of time passes"
+              },
+              {
+                "quote": "not disclosed in any way to the consumer that the game will stop being supported at some point prior to the purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26914,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, Reading about the digital fairness act resonated with a lot of experiences I have had with games I have played in recent years, especially those with online components, and I was particularly interested that this act was tackling the addictive-monetary interplay that a lot of games employ. As an avid enjoyer of video games myself, I do not mind a game being addictive in terms of its gameplay, on the contrary that is usually what I often seek. However, many games employ this insidious addictive design that attaches gambling like behaviour, like loot-boxes, that are bought with real life money that usually operates in a grey zone. Never have I seen practises like this being appreciated by consumers, most I think would even agree that they seem to operate around laws, yet they still persist and if any thing seems to be more and more common in the industry until more recent years where we have seen some awareness around this. Would it be possible to also consider other insidious practises that are happening in the gaming industry? For example, there are games that consumers pay for, as a one-time purchase, that are rendered inoperable after some arbitrary amount of time passes, usually connected to the cost vs income of that game. It is understandable that a games company does not want to support something that is causing a monetary loss, however, it is not disclosed in any way to the consumer that the game will stop being supported at some point prior to the purchase. Nor are they explicit that it is a service that is being offered. Games like The Crew is a textbook example of this, where it was a one-time purchase and was rendered inoperable in March 31st, 2024. This seems to me akin to planned obsolescence of certain produced goods like laptops and printers that have all the tools to function, but the developers/manufacturers specifically make sure that they break down so that the consumers have to buy new ones. There are many consumers that are affected by this and have strong opinions on it, which can be seen by the Stop Killing Games EU initiative that tackles this issue as its sole purpose and has received more than 1.4 million signatures. I think it would be great if the destruction/planned obsolescence of video games would be included as a consumer rights issue in this act and I think fits in seamlessly. Best regards, A concerned consumer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.829531Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590580.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590580",
+    "chunks_doc_id": "F3590580",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

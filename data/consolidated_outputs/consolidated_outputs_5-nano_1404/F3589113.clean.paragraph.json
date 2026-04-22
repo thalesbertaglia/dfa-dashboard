@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3589113",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:34Z",
+    "finished_at": "2026-04-14T13:30:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Crew is a big example of people buying a game in the store, which then became COMPLETELY UNPLAYABLE as official support ended."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Buying a game doesn't have you own it anymore, you only buy a license to play it, which can simply be revoked."
+              },
+              {
+                "quote": "EULAs even straight up ask you to get rid of the game when official support ends, as in deinstalling the game when acquired digitally or DESTROYING the medium containing the game when bought physically."
+              },
+              {
+                "quote": "Proper end-of-life plans have to be implemented so people aren't just robbed of a game they already payed money for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29896,
+          "unit_kind": "feedback"
+        },
+        "text": "I most kindly ask to also consider what the \"Stop Killing Games\" movement is standing up for. They gained over 1.400.000 signatures. Buying a game doesn't have you own it anymore, you only buy a license to play it, which can simply be revoked. The Crew is a big example of people buying a game in the store, which then became COMPLETELY UNPLAYABLE as official support ended. Some EULAs even straight up ask you to get rid of the game when official support ends, as in deinstalling the game when acquired digitally or DESTROYING the medium containing the game when bought physically. Proper end-of-life plans have to be implemented so people aren't just robbed of a game they already payed money for. I also most kindly ask to have a look at payment processing companies dictating what can and can't be bought. To clarify, this is NOT about illegal purchases, but COMPLETELY LEGAL purchases being limited simply because of an opinion / a stance the companies have about it. What they \"think of my purchase\" should not have any relevancy or impact on my payment decisions, as long as it's legal. Recent example would be the gaming platforms \"Steam\" and \"itch.io\". They were forced by big payment processing companies (VISA and Mastercard in this case, I believe) to remove a considerable amount of games from a certain genre, because a movement called \"Collective Shout\" are against those. It is absolutely true, that the genre in question is incredibly questionable, and I am NOT defending whatever these games are depicting, but no real people are being hurt by those games and I speak for alot of people when I say that I do NOT trust those big corporate companies to not push that kind of power too far too further enforce whatever kind of censorship in the future and gain more and more control. Thank you so much.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.757989Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589113.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589113",
+    "chunks_doc_id": "F3589113",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

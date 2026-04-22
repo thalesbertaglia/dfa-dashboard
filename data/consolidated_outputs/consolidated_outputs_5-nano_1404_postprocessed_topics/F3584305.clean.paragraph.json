@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584305",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:38Z",
+    "finished_at": "2026-04-14T11:54:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital products, such as online video games, after the end of the support period, are left in a state that can still be played, avoiding that they can be removed or rendered unusable by providers without fair alternatives."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "with the exit of Overwatch 2, was removed from their accounts, making it unusable without offering any kind of compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20398,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the Commission, I would like to thank you for your comments on the proposal for the Digital Fairness Act. I would like to point out clearly that, in the context of this legislation, the protection of Stop Killing Games’ claims should also be taken into account. This initiative aims to ensure that digital products, such as online video games, after the end of the support period, are left in a state that can still be played, avoiding that they can be removed or rendered unusable by providers without fair alternatives. I am very keen on this topic as video games are a significant part of my life, not only as entertainment but also as a tool for socialisation and personal growth. An emblematic example of the problem Stop Killing Games aims to resolve is what happened with Overwatch 1: a security purchased against payment by millions of users who, with the exit of Overwatch 2, was removed from their accounts, making it unusable without offering any kind of compensation. Incorporating provisions inspired by this initiative into the Digital Fairness Act would be a crucial step to protect European consumers’ rights and strengthen trust in digital services. Thank you for your anxiety and pledge to ensure a fairer and more transparent digital market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.169129Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584305.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584305",
+    "chunks_doc_id": "F3584305",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584305.clean.paragraph.json"
+}

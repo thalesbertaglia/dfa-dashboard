@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585701",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:09Z",
+    "finished_at": "2026-04-14T12:34:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect digital games from shutting down"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 7675,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello and good day,I'm someone simple,when I have money and there are legal hobbies like games and books I buy them,I would love to get your support to protect digital games from shutting down,not getting eternal support,just for publishers to live players to host their own stuff and keep playing,I think that would be AWESOME!! Like a book if the writer wants to stop selling a particular book the one I bought I can still keep it,but sadly for games thats not the case anymore for modern games like the good old days,so it would be amazing to get any support on this matter thank you a lot.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.878521Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585701.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585701",
+    "chunks_doc_id": "F3585701",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

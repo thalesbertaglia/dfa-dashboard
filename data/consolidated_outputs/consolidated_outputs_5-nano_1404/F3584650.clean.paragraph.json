@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584650",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:15Z",
+    "finished_at": "2026-04-14T12:05:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "(video games)"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "connection to a server is mandatory to use the product."
+              },
+              {
+                "quote": "When the server is offline, for whatever reason, the product I paid for is no longer usable."
+              },
+              {
+                "quote": "the intervention of a company’s server is often necessary."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "content purchased digitally should not be rendered unusable without a valid reason (such as viruses or malware) by the manufacturer."
+              },
+              {
+                "quote": "You’ve paid for a product and if you offer it only digitally, you should have the possibility to keep access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38358,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir/Madam, Steeds more often see that the products (video games) we buy for entertainment, both digitally and physically, are no longer usable over time. This may be due, for example, to the fact that companies have set up their system in such a way that connection to a server is mandatory to use the product. When the server is offline, for whatever reason, the product I paid for is no longer usable. It would be great progress if companies voluntarily make sure that we can continue to enjoy their product, but until then, legislation could greatly help us. Also for sub-components of the product, such as online co-op or racing, the intervention of a company’s server is often necessary. It would also be great if enthusiastic users could take over the function of this server (local). Last but not least, I would like to argue that content purchased digitally should not be rendered unusable without a valid reason (such as viruses or malware) by the manufacturer. You’ve paid for a product and if you offer it only digitally, you should have the possibility to keep access. When you buy a chair, the shop will not remove it from your home after a number of years. Yours faithfully.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.337100Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584650.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584650",
+    "chunks_doc_id": "F3584650",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

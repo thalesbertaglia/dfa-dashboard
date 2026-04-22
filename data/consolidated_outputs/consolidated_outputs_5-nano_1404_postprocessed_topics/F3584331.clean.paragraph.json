@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584331",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:22Z",
+    "finished_at": "2026-04-14T11:55:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of video games that have already been sold to consumers."
+              },
+              {
+                "quote": "have been permanently disabled or removed"
+              },
+              {
+                "quote": "These games often require online services to function, and when publishers shut them down, they render the product unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18228,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, I am writing as a concerned EU citizen and digital consumer to respectfully ask that the Digital Fairness Act consider including protections against the destruction of video games that have already been sold to consumers. In recent years, hundreds of games; including major titles; have been permanently disabled or removed, even for paying customers. These games often require online services to function, and when publishers shut them down, they render the product unplayable. In some cases, even physical copies become useless. This practice feels deeply unfair. When someone pays for a game, they expect to be able to access and play it in the future. Unlike other consumer goods, video games are being \"taken back\" after purchase, often with no warning, refund, or alternative offered. I understand the Digital Fairness Act is primarily focused on issues like dark patterns, targeted ads, and harmful design, but I believe this issue is closely related. Deleting access to purchased digital content undermines consumer rights and trust in the digital marketplace. It also erases cultural artifacts and harms preservation efforts. I urge you to consider adding language to the Act that protects customers from having their legally purchased games disabled or deleted. Thank you for listening, and for considering protections for this overlooked but important issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.181834Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584331.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584331",
+    "chunks_doc_id": "F3584331",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584331.clean.paragraph.json"
+}

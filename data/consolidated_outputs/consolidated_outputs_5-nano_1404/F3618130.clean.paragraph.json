@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3618130",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:57Z",
+    "finished_at": "2026-04-14T13:42:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Developer Identity Disclosure For Third-party App Distribution",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "would force developers to reveal their identities"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14903,
+          "unit_kind": "feedback"
+        },
+        "text": "As EU citizens and users of devices running the Android operating system, we would like to inform you of changes being introduced by Google that would undermine choice and threaten digital sovereignty in the European Union. The proposal made by Google would force developers to reveal their identities if they wanted to distribute apps outside the Google Play Store on almost all electronic devices running Android. While Google claims this step will increase security, it will also force developers of apps deemed as \"problematic\" by Google, to reveal their identities and might lead to the refusal of certain apps to be installed on Android devices entirely. Intended or not, this proposal will endanger the future of free and open source developers. As users, we will have no choice to circumvent this measure. If Google were to implement these changes successfully, they would have complete control over the software we could run on our devices. In our opinion, this would further centralize control over the software landscape and be a direct violation of the DMA, since this change would not simply strengthen security, but seriously harm developers and end-users. Less-restrictive means should be implemented here that would allow end users who are well versed, to install the applications of their choosing. As stated in the DMA, Section 47, \"In order to ensure that third party software applications or software application stores do not endanger the integrity of the hardware or operating system provided by the gatekeeper the gatekeeper concerned may implement proportionate technical or contractual measures to achieve that goal if the gatekeeper demonstrates that such measures are necessary and justified and that there are no less restrictive means to safeguard the integrity of the hardware or operating system\". We believe Google needs to provide clear evidence, that there are no other less restrictive measures that would achieve the same goal. The installation of third party software is possible on most commercial operating systems without the requirement of identification. We believe Google should abide by the same rules. We believe it is necessary to bring this to your attention, so that proper measures can be taken before these changes go into effect. We thank you for your efforts. Sincerely, Eric",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.016708Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3618130.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3618130",
+    "chunks_doc_id": "F3618130",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

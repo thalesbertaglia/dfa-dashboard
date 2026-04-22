@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3587350",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:17Z",
+    "finished_at": "2026-04-14T13:16:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Unfair subscription practices by multiple platforms (e.g.: Amazon, Figma) makes it difficult to unsubscribe: cancellation options are hidden or scattered in multiple steps."
+              },
+              {
+                "quote": "It is often not possible to delete an account or a payment card on his own without prior contact with the service."
+              },
+              {
+                "quote": "It is difficult to give up the newsletters Pomimo expressed will, we continue to receive further news."
+              },
+              {
+                "quote": "Some newsletters do not make the link available at all or unintelligiblely."
+              },
+              {
+                "quote": "Involuntary registration and newsletter registration for multiple services requires mandatory newsletter registration or marketing consent, even if they are not needed to use the service (e.g. purchase of a product). This violates the voluntary principle."
+              },
+              {
+                "quote": "Compulsory subscription in the name of data protection Example Meta: users are forced to buy additional services allegedly to protect their privacy."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "No guarantee of access to the games purchased after servers are closed, users lose access to already acquired titles."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48518,
+          "unit_kind": "feedback"
+        },
+        "text": "In the context of the consultation on the draft Digital Justice Act, I would like to draw your attention to the following issues: 1. Unfair subscription practices by multiple platforms (e.g.: Amazon, Figma) makes it difficult to unsubscribe: cancellation options are hidden or scattered in multiple steps. It is often not possible to delete an account or a payment card on his own without prior contact with the service. 2. It is difficult to give up the newsletters Pomimo expressed will, we continue to receive further news. Some newsletters do not make the link available at all or unintelligiblely. 3. Involuntary registration and newsletter registration for multiple services requires mandatory newsletter registration or marketing consent, even if they are not needed to use the service (e.g. purchase of a product). This violates the voluntary principle. 4. Compulsory subscription in the name of data protection Example Meta: users are forced to buy additional services allegedly to protect their privacy. Such a practice runs counter to the spirit of responsible digital law. 5. No guarantee of access to the games purchased after servers are closed, users lose access to already acquired titles. Any consumer should be able to use the content purchased without risking its termination for technical or business reasons. Thank you for your comments.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.503237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587350.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587350",
+    "chunks_doc_id": "F3587350",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

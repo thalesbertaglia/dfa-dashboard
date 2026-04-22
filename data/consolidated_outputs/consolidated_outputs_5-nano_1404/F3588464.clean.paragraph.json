@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588464",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:42Z",
+    "finished_at": "2026-04-14T13:24:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The first one aims at our rights towards the digital products (mainly video games) and their preservation"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the censorship from the payment processing companies like Visa and Mastercard."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17956,
+          "unit_kind": "feedback"
+        },
+        "text": "I recommend taking a look at the two key things happening right now in the internet: Stop Killing Games initiative and the censorship from the payment processing companies like Visa and Mastercard. The first one aims at our rights towards the digital products (mainly video games) and their preservation, while the second focuses on non-friendly customer policies towards deciding what should or shouldn't be available for us in stores.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.649097Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588464.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588464",
+    "chunks_doc_id": "F3588464",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

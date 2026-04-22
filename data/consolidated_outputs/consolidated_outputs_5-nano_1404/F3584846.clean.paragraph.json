@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584846",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:35Z",
+    "finished_at": "2026-04-14T12:13:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gamming companies have far too much power over the products we bought, being able to remove them from our possession at any time."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unilaterally change Terms of Service, and should we not agree, they block access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34301,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I'm here to comment and leave my support of Digital Fairness Act. Gamming companies have far too much power over the products we bought, being able to remove them from our possession at any time. Even being able to unilaterally change Terms of Service, and should we not agree, they block access. Despite having spent money and being unable to refund should they execute this actions. If I pay for a product I don't expect it to have support undefinetly, but, I do expect to be able to play it however whenever I want, without needing to have internet access after the game stops being supported. Having spent my money I expect to have the necessary pieces of software needed to play the game locally, that is why I support the STOP KILLING GAMES initiative. An example could be, having just bought a new car in perfect conditions and because the company just put a new model out, so they block the car from working from a distance, despite the situation a person could be in and force that person to buy a new one. The previous example could be aplied to any item a person has in it's possession. This shows, that it's an area tha should be me more regularized. I hope this can help, and show my support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.466668Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584846.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584846",
+    "chunks_doc_id": "F3584846",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

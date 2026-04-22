@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3588035",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:05Z",
+    "finished_at": "2026-04-14T13:22:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a gamer, I understand the need for publishers to protect their platforms and remove bad actors by disabling licenses."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A contract between the service provider and the content owner requiring that a third-party service take over if one shuts down."
+              },
+              {
+                "quote": "A requirement that the content owner provides a way for users to access the content independently of a service provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20751,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act should include a rule ensuring that consumers maintain access to digital content theyve purchased. For example, if someone buys a movie or a game, they should not lose access to it just because the service provider (like apple) has a disagreement with the content owner. Any disputes between companies should remain between themcustomers should not be penalized or have their content revoked after paying for it. There should be clear rules stating that as long as a user hasn't violated terms of service or caused harm to the platform (such as engaging in activities that bring financial losses or breaking community rules), the service provider should not be allowed to disable access and claim the user only had a license, not ownership. As a gamer, I understand the need for publishers to protect their platforms and remove bad actors by disabling licenses. However, there needs to be stronger regulation regarding digital ownership. What rights does a consumer have over the digital content theyve bought? I firmly believe that ending a service or losing a license should not result in consumers losing access to something they paid forespecially when there was no prior mention of a time limit on access. Acceptable solutions could include: A contract between the service provider and the content owner requiring that a third-party service take over if one shuts down. A requirement that the content owner provides a way for users to access the content independently of a service provider. Theres a movement called Stop Killing Games, but this issue should extend to all digital content. When consumers lose access to content they paid for due to service shutdowns or licensing issuesthings beyond their controlits essentially a form of digital theft.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.606250Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588035.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588035",
+    "chunks_doc_id": "F3588035",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

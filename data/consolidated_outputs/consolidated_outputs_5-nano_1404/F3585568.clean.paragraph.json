@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585568",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:35Z",
+    "finished_at": "2026-04-14T12:31:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"The Crew\""
+              },
+              {
+                "quote": "no non-offline mode avaible."
+              },
+              {
+                "quote": "some modes of the game are online only which has no reason to be so, except leaderboards"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33685,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I wondered if the prevention of games being destroyed that have already been sold to customers, could be a part of this act. Personally the game that bothered me being Destroyed is the game \"The Crew\" since the game was really focused as single player but you still always needed a online connection. Eventually the company behind the game destroyed it by turning of the servers with no non-offline mode avaible. Secondly a game that currectly has their servers on is Hitman: The World of Assasionation. My worry here is that some modes of the game are online only which has no reason to be so, except leaderboards Along with this, there is currently hundred of games that also have the risk to be destroyed. I got interested in giving feedback on this act, since I got informed by it by the \"Stop Killing Games\" initivative communinty. The initiative has currently around 1.4 milion signatures Sincerly, Aideen Moberg",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.807293Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585568.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585568",
+    "chunks_doc_id": "F3585568",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

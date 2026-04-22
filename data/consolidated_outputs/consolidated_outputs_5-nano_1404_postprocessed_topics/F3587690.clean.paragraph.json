@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587690",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:00Z",
+    "finished_at": "2026-04-14T13:20:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "flagging original works of art such as video games, and requesting they are deleted."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "With the advent of internet, software started requiring online licensing checks and similar measures that, accidentally or intentionally, can render it inoperative after a period of time, despite the consumer already paid in full."
+              },
+              {
+                "quote": "Once the video game is sunset by the publisher and the servers are shut down, the license check might start failing and preventing legitimate owners from ever playing the game again."
+              },
+              {
+                "quote": "This could essentially be interpreted as a form of planned obsolescence, giving the consumer no guarantees the product they paid for will continue working."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28208,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned EU citizen, I would like to see more scrutiny put on large payment providers to make sure they are operating within the boundaries of the law and are not effectively acting as a censorship body for digital content. There have been several recent incidents where incumbent payment providers have allegedly unilaterally put pressure on digital marketplaces to take down digital content, even though the content itself is not illegal according to European law. As the two major payment providers control over 90% of the global market, they can directly harm any EU business or a consumer by disconnecting digital marketplaces from their payment systems, should they not respect their wishes. This might include flagging original works of art such as video games, and requesting they are deleted. This seems to go directly against the ideology of a free marketplace and opens the door for both EU businesses and consumers to be harmed by the virtue of non-governmental bodies limiting creativity and business opportunities. I would also like to express my concern regarding the longevity of digital software sold as licenses. Once a piece of software is sold to me as a consumer, I would like to be able to use that software indefinitely after the day of purchase (unless it is clearly stated there is a finite time limit). This used to be the case a couple of years ago when software was sold on physical media such as CDs. As long as the physical media remained functional, the software usually could have been used. With the advent of internet, software started requiring online licensing checks and similar measures that, accidentally or intentionally, can render it inoperative after a period of time, despite the consumer already paid in full. An example might be a single-player video game which includes a copyright check requiring an always-online connection to run. Once the video game is sunset by the publisher and the servers are shut down, the license check might start failing and preventing legitimate owners from ever playing the game again. This could essentially be interpreted as a form of planned obsolescence, giving the consumer no guarantees the product they paid for will continue working.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.569018Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587690.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587690",
+    "chunks_doc_id": "F3587690",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587690.clean.paragraph.json"
+}

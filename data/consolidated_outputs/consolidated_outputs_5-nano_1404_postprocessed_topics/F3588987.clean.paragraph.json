@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588987",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:15Z",
+    "finished_at": "2026-04-14T13:27:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "can become completely unplayable once support for that game ends."
+              },
+              {
+                "quote": "Often resulting from a need to have a online connection in order to play."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16954,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I would like to bring attention to another avenue regarding consumer rights. That being the video game industry. In its current form, many different games are sold to customers, but can become completely unplayable once support for that game ends. Often resulting from a need to have a online connection in order to play. A very anti-consumer decision connsidering the fact that the product was bought by the customer. This topic has recently become popular through the European Citizens' Initiative - Stop Destoying Videogames, which reached 1.4 million signatures. Please look more into this topic.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.715181Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588987.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588987",
+    "chunks_doc_id": "F3588987",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588987.clean.paragraph.json"
+}

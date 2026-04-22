@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585874",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:37Z",
+    "finished_at": "2026-04-14T12:39:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games and gaming products have historically been the most affected"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16053,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, Thanks a lot for running this initiative. I do believe that protecting digital space is integral to European values and firmly keeps EU on the forefront of consumer protection. Commercial organisations are by definition driven by commercial gain so will always (if given opportunity) prioritise interests of owners or shareholders as opposed to consumers. Among other digital goods and services games and gaming products have historically been the most affected so it would be fantastic to see additional provisions made in the act ot protect users in this category. In late 2010s I've invested a lot of time, effort and money into ArcheAge which has been sunset in 2024 taking away access to all digital goods I purchased with no plan to support it after shutdown and removing access to digital goods I have spent money on. I would hope that publishers would make more effort to respect ownership of digital goods in future. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.965329Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585874.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585874",
+    "chunks_doc_id": "F3585874",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585874.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586712",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:29Z",
+    "finished_at": "2026-04-14T13:02:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shouldnt be legal for companies to disable or limit those products using DRM, server shutdowns, or other artificial restrictions."
+              },
+              {
+                "quote": "In short, if something is sold as a complete digital product, it should remain usable, either offline or through community solutions, for as long as people want to use it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21504,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU consumer, I want to highlight a serious issue that the Digital Fairness Act should address. When someone buys a digital product, whether its a video game, software, or any kind of digital content, and pays for it once, they should truly own it. People deserve permanent, unrestricted access to what theyve paid for, even if the company stops supporting it later. It shouldnt be legal for companies to disable or limit those products using DRM, server shutdowns, or other artificial restrictions. If I buy something, it should continue to work. Thats the basic idea of ownership. Also, buyers should have the clear right to modify their products, run private servers, or keep abandoned digital content alive without worrying about legal threats. If a company chooses to stop supporting a product it sold, the community should be free to step in and keep it going. In short, if something is sold as a complete digital product, it should remain usable, either offline or through community solutions, for as long as people want to use it. Thats what real digital ownership means, and the law should protect it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.327447Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586712.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586712",
+    "chunks_doc_id": "F3586712",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584761",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:13Z",
+    "finished_at": "2026-04-14T12:09:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is common today that businesses require consumers to connect to provided servers for any interaction with the video game they have purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the consumer did not acquire a copy of the video game, but rather a ‘permanent licence’, which could be withdrawn"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28780,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen, in line with the ambition mentioned in the draft to enable consumers in the digital space to make purchases or subscriptions without pitfalls, I would like to encourage you to extend the measures here to interactive digital media, or video games. It is common today that businesses require consumers to connect to provided servers for any interaction with the video game they have purchased. This is a minimal barrier, while on-going farms are also a minimal barrier. However, it has already happened hundreds of times that support for a product is stopped and, as part of the server described above, switched off. The consumer now finds himself with a product which he can no longer use, which I see and feel as a major problem, if not criminal. One argument is often that these are ‘gaAs’ or ‘games as a service’ and that the consumer did not acquire a copy of the video game, but rather a ‘permanent licence’, which could be withdrawn (this also concerns more and more physical copies of such a game). However, it should be noted that the consumer clearly does not understand this as a licence and that, in addition, there is no expiry, expiry or end date for this ‘service’ at the time of purchase, which is often not known to the distributor at the time of purchase. Such decisions are taken spontaneously by the company’s senior management at a later stage. Accordingly, it is clear to me that it is only for the purposes of that draft that it can be a requirement for businesses in the interests of consumers to repair those processes and plans which, in the event of a cessation of the services necessary for the core functionality of the video game, enable consumers to circumvent or replace them, so that that functionality can be preserved or restored for consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.393718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584761.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584761",
+    "chunks_doc_id": "F3584761",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

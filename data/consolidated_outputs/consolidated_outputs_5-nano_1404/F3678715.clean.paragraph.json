@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3678715",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:42Z",
+    "finished_at": "2026-04-14T13:46:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Developers must pay Google fees"
+              },
+              {
+                "quote": "platform tax"
+              },
+              {
+                "quote": "app store commission rates"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "arbitrary approval processes"
+              },
+              {
+                "quote": "platform-specific payment systems"
+              },
+              {
+                "quote": "excessive personal information"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24949,
+          "unit_kind": "feedback"
+        },
+        "text": "Missing Critical Issue The proposed Digital Fairness Act addresses many digital consumer protection concerns but overlooks a fundamental anti-competitive practice: Google's monopolistic control over Android app distribution through mandatory Play Store gatekeeping. The Problem Google forces Android users into their ecosystem through several mechanisms. Android devices only seem to allow app installations from Google Play Store in the future by default, requiring complex procedures to install apps from other sources. Developers must pay Google fees, provide personal information, and undergo arbitrary approval processes to reach Android users. This creates artificial scarcity despite Android being marketed as an \"open\" platform. The impact on EU consumers is significant. Users have limited app choices and experience reduced innovation as smaller developers cannot compete without paying Google's platform tax. Recent U.S. court rulings have found these practices constitute an illegal monopoly. Why This Belongs in the Digital Fairness Act This issue aligns directly with the Act's stated objectives of addressing unfair commercial practices and protecting vulnerable consumers. Mobile users have no realistic alternatives to Google's system, creating exactly the type of consumer harm the Act aims to prevent. Recommended Solutions The Act should include provisions requiring mobile operating systems to allow easy installation of apps from any source without artificial warnings or barriers. It should ban requirements for developers to use platform-specific payment systems and prohibit platform owners from demanding excessive personal information for app distribution. Clear consumer information requirements should mandate disclosure of app store commission rates and notification when alternative app stores are available. Economic Impact Addressing this monopoly could save EU consumers an estimated 2-5 billion euros annually through reduced app store commissions while increasing innovation and competition in mobile software markets. It would also prevent fragmented national responses and create uniform rules for digital platform competition. Conclusion The Digital Fairness Act cannot achieve its mission of ensuring fairness for consumers in the digital single market without addressing Google's Android app distribution monopoly. This represents one of the clearest examples of anti-competitive behavior directly harming EU consumers daily. The Commission should include specific provisions addressing mobile app store gatekeeping practices in the final Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.093944Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3678715.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3678715",
+    "chunks_doc_id": "F3678715",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

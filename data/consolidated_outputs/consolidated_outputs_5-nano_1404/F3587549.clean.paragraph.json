@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3587549",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:17Z",
+    "finished_at": "2026-04-14T13:18:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "they can terminate our ability to play or use a game which we have bought."
+              },
+              {
+                "quote": "I should be able to own it"
+              },
+              {
+                "quote": "to REQUIRE these servers to function"
+              },
+              {
+                "quote": "ended their support."
+              },
+              {
+                "quote": "bricked (made it unusable) the game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39766,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would lie to voice my concerns with how there is very little the consumers has to say in regards with digital purchases, especially video games when they call it a licence or similar. For example the EULA Blizzard Entertainment provides effectively states they can terminate our ability to play or use a game which we have bought. Even if this is bought physically. Simply because their game requires online connection to be used if they choose to shut down the servers they can say I can no longer access any part of their game, not even the single player components (the parts of the video game you can play without anyone else). It should not in my opinion be the company that decides how or for how long I can play or use a game which I bought when I should be able to play it alone without any online need. It's fine for me if servers that they support and pay for are shut down once they move on, what is not okei is for the game to REQUIRE these servers to function, as I bought it, I should be able to own it, and then use it. Even if using it at that state wouldn't let me to use it with others through their servers. At this point it feels like the companies are getting greedy, and are abusing the fact they can shout down a game to make it so you'll effectively have to buy a new game they release to enjoy the same. I've experienced multiple games that has shit down and I've lost my ability to play it because the company effectively bricked (made it unusable) the game when they ended their support. One example is a game called \"Evolve: Stage 2\", while the game was free to play, it did have multiple in-game transactions you could make effectively paying for the game. When they ended support they also released a patch that removed all playable functionality, making it so even if users could make their own servers, players could not continue to play. I hope this feedback finds you well, and that these words can help give us video game consumers some much needed help on making a healthier relationship between consumers and producers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.541066Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587549.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587549",
+    "chunks_doc_id": "F3587549",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

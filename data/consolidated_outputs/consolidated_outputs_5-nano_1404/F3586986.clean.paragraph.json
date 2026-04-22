@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586986",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:30Z",
+    "finished_at": "2026-04-14T13:07:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This allows them to revoke access or shut down services at will, stripping consumers of goods they have paid for."
+              },
+              {
+                "quote": "This is not true ownership, it is a fragile rental disguised as a sale."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "including video games and software,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20060,
+          "unit_kind": "feedback"
+        },
+        "text": "We are facing a dangerous precedent in the digital economy: large payment processors like VISA and Mastercard have begun dictating what we can and cannot purchase online, even when the content in question is completely legal. By pressuring digital platforms and vendors to remove lawful products, including video games and software, these near-monopolistic corporations are exercising powers that rival or exceed those of governments or regulatory bodies, yet they operate without accountability or oversight. This behavior threatens fundamental consumer rights: A) The right to legally purchase and own digital goods without interference. B) The right to retain access to products we have paid for, without arbitrary revocation disguised as \"license termination.\" C) Protection against monopolistic entities deciding unilaterally what is \"acceptable,\" regardless of legality. Such unchecked influence sets a dangerous precedent that can easily seep into politics, social discourse, and other forms of expression. Payment processors, critical financial infrastructure, should not be allowed to act as moral or political arbiters. Their role is to facilitate transactions, not to enforce ideological positions or pressure digital vendors into removing lawful content. Furthermore, the issue extends to digital ownership itself. Many companies have already shifted from selling products outright to \"licensing\" them. This allows them to revoke access or shut down services at will, stripping consumers of goods they have paid for. This is not true ownership, it is a fragile rental disguised as a sale. What Must Be Done 1) Regulatory oversight: Payment processors must be barred from interfering with lawful commerce, except in cases of actual illegality as defined by the country of sale. 2) Consumer protection reform: Digital purchases should grant true ownership rights, preventing arbitrary revocation of licenses and ensuring full refunds if services are discontinued. Preferably an end of life plan that allows the product to be still used even after end of service. 3) Accountability for monopolistic platforms: Companies like VISA and Mastercard hold disproportionate control over global commerce and must be subject to stricter antitrust and consumer protection laws.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.404058Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586986.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586986",
+    "chunks_doc_id": "F3586986",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

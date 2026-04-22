@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584647",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:07Z",
+    "finished_at": "2026-04-14T12:05:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "by taking the game in question offline after the purchase is made."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22216,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to bring attention to the current on-going issue of protection of purchasing digital media, more notably video games. Video games as an artform, and the practices behind distributing them have rapidly evolved over the past 15 years, but the current laws surrounding said distribution have not evolved at the same rate. Currently, it is possible for video game distributors to effectively cancel purchases made by their consumers, by taking the game in question offline after the purchase is made. This is especially the case with video games which rely heavily on online servers to connect players, but we are currently seeing it happening with exclusively offline experiences as well. Hundred of video games have been taken off the market this way without refunds to the consumers, and if we continue to ignore this, hundreds more will follow. Video games are an artform and a part of culture, but we now live in an era where they could become censored/inaccessible at any moment. I hope that you will consider putting guidelines in place that will prevent allowing distributors to make these kinds of decisions so lightly. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.335406Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584647.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584647",
+    "chunks_doc_id": "F3584647",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

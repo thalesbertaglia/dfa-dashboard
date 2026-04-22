@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584171",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:56Z",
+    "finished_at": "2026-04-14T11:51:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Online only video games are effectively destroyed once official server support ends from the publisher, effectively destroying someone's property."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17523,
+          "unit_kind": "feedback"
+        },
+        "text": "Online only video games are effectively destroyed once official server support ends from the publisher, effectively destroying someone's property. If publishers simply added a way to continue playing the game offline or through fan-hosted servers, it would go a long way to video game preservation and consumer rights. The developers do not have to continue supporting the game indefinitely, only provide some ways so fans can continue playing.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.109097Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584171.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584171",
+    "chunks_doc_id": "F3584171",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

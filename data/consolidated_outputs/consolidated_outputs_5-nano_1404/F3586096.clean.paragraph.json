@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586096",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:43Z",
+    "finished_at": "2026-04-14T12:47:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games that require always available authentication servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18724,
+          "unit_kind": "feedback"
+        },
+        "text": "When buying physical media, be it a book, music CD or movie disc, you can rest assured that no matter what happens outside of your control, you can still read that book or listen to the CD or watch that movie. When you buy it, you own it forever. This used to be true for games as well. Games came on cartridges or CDs or DVDs and so long as you possessed hardware capable of reading that media, you could play the games. But in the past decade or so everything has moved over to digital streaming and downloads where users, regardless of whether they are renting or purchasing media products are at the whim of the content distributors whether something they actually own will remain available to them. This is especially true in video games lately where game studios have decided to create video games that require always available authentication servers, even for games that don't have any other online capability and have now started shuttering down those servers, leaving legitimate game owners without the product they have purchased. I feel like the Digital Fairness Act should expand its reach to encompass all digitally purchased media and protect the owners in such cases, guaranteeing their ability to use and enjoy the games they have bought.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.086168Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586096.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586096",
+    "chunks_doc_id": "F3586096",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

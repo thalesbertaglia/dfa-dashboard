@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584178",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:13Z",
+    "finished_at": "2026-04-14T11:51:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect video games from becoming inaccessible after support from their developers ceases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 7672,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully support this initiative. However, I believe it would be beneficial for the Digital Fairness Act to also protect video games from becoming inaccessible after support from their developers ceases. Video games are not just a huge market, but also a form of art that must be preserved for future generations. This is something many people have shown to be passionate about, as seen through the recent \"Stop Killing Games\" campaign, which has gathered more than 1.4 million signatures. I sincerely hope that this act may also tackle this practice and continue in its objective of protecting consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.112558Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584178.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584178",
+    "chunks_doc_id": "F3584178",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584178.clean.paragraph.json"
+}

@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3594280",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:12Z",
+    "finished_at": "2026-04-14T13:41:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you'll have to pay a monthly subscription to actually use them."
+              },
+              {
+                "quote": "This transforms a one-time purchase into a continuous expense."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the reliance on these large platforms forces users to share extensive personal data"
+              },
+              {
+                "quote": "data collected from one service can be used to build a profile that denies you access to another."
+              },
+              {
+                "quote": "leaving them vulnerable to data breaches, identity theft, and surveillance."
+              }
+            ]
+          },
+          {
+            "topic": "ID Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Mandatory digital ID verification shifts the user-company relationship from one of a consumer to a precarious form of surveillance."
+              },
+              {
+                "quote": "Forcing individuals to hand over sensitive personal data, often to third-party providers, this system creates a central point of failure that is vulnerable to data breaches and identity theft."
+              },
+              {
+                "quote": "This policy creates a system of digital exclusion and risks for foreign nationals, who may find themselves locked out of accounts despite their country's privacy laws being violated by the data collection."
+              },
+              {
+                "quote": "This is a direct conflict between corporate policies and national legal frameworks, often leaving individuals with no recourse."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52079,
+          "unit_kind": "feedback"
+        },
+        "text": "Today's digital world presents a challenge to the traditional concept of ownership. When we buy a digital product like a game or a movie, we're often just renting access to it. Companies can revoke that access at any time, rendering our \"purchases\" useless. This issue extends beyond digital products. Modern \"smart\" appliances, from cars to refrigerators, are increasingly being sold with features locked behind paywalls. You might pay for a car with heated seats, but you'll have to pay a monthly subscription to actually use them. This transforms a one-time purchase into a continuous expense. At the heart of these problems is the concentration of power in a few corporate hands. This power allows companies to act as gatekeepers, creating a form of financial censorship by blocking access to content or income streams for various platforms. Additionally, the reliance on these large platforms forces users to share extensive personal data, leaving them vulnerable to data breaches, identity theft, and surveillance. The result is a new form of digital discrimination, where data collected from one service can be used to build a profile that denies you access to another. This creates a chilling effect on online behavior and a need for stronger regulations to protect consumer rights, digital freedom, and privacy. Asking for personal data has become common, and several governments support this practice, despite it violating user privacy. Moreover, many foreign users have lost access to their accounts, even though such privacy violations are not legal in their countries. Mandatory digital ID verification shifts the user-company relationship from one of a consumer to a precarious form of surveillance. By forcing individuals to hand over sensitive personal data, often to third-party providers, this system creates a central point of failure that is vulnerable to data breaches and identity theft. This requirement also creates a barrier to access for many, including those who are not digitally literate, lack a smartphone, or are hesitant to share sensitive information. It is discriminatory and contributes to digital exclusion. I urge you to reconsider this policy and advocate for solutions that protect user privacy, promote an open internet, and do not make a digital ID a requirement for basic online participation. While some governments support this practice, it fundamentally violates user privacy and has a particularly detrimental impact on foreign users. This policy creates a system of digital exclusion and risks for foreign nationals, who may find themselves locked out of accounts despite their country's privacy laws being violated by the data collection. This is a direct conflict between corporate policies and national legal frameworks, often leaving individuals with no recourse. Internet is affected by many form of censorship and other unfair practices. Not only private companies can censor our work, they can deny our payments, but they own the power to cut us off from the online world, which is essential nowadays. Everyone rely on Internet in some ways: because of their job, for shopping, for bureaucracy, to find a doctor and pick an appointment and more. Censorship is applied by countries as well. After a tragic suicide linked to an AI chatbot, Italy's government imposed a sweeping censorship rule. The AI's responses about \"suicide\" were blocked entirely, not just for providing harmful advice, but across the board. This blanket ban now prevents users from accessing information on historical figures like Socrates or fictional characters who took their own lives. Instead of a nuanced approach that could provide mental health resources while still allowing for historical and literary inquiry, the system returns a generic error message. This overcorrection stifles legitimate discourse and demonstrates a significant failure to distinguish between dangerous content and factual information.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.971034Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3594280.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3594280",
+    "chunks_doc_id": "F3594280",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3594280.clean.paragraph.json"
+}

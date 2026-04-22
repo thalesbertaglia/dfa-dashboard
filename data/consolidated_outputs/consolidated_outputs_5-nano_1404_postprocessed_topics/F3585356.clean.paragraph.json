@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585356",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:56Z",
+    "finished_at": "2026-04-14T12:26:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors have been utilizing their monopoly to censor and filter what you can buy online based on moral or brand risk grounds."
+              },
+              {
+                "quote": "As long as the content follows the laws of their respective countries, the payment processors should not be allow to choose, filter or otherwise censor what can or cannot be bought online."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital tools, software and video games are slowing being destroyed or disabled after they have already been sold."
+              },
+              {
+                "quote": "A game i bought called The Crew is no-longer playable as the publisher Ubisoft no longer supports it."
+              },
+              {
+                "quote": "I should be able to still play/use a game, tool or software that i bought to some capacity even if the developer/publisher has stopped supporting it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22085,
+          "unit_kind": "feedback"
+        },
+        "text": "Firstly, recently payment processors have been utilizing their monopoly to censor and filter what you can buy online based on moral or brand risk grounds. As long as the content follows the laws of their respective countries, the payment processors should not be allow to choose, filter or otherwise censor what can or cannot be bought online. Secondly, digital tools, software and video games are slowing being destroyed or disabled after they have already been sold. A game i bought called The Crew is no-longer playable as the publisher Ubisoft no longer supports it. I should be able to still play/use a game, tool or software that i bought to some capacity even if the developer/publisher has stopped supporting it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.695837Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585356.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585356",
+    "chunks_doc_id": "F3585356",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585356.clean.paragraph.json"
+}

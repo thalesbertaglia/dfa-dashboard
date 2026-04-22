@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584132",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:25Z",
+    "finished_at": "2026-04-14T11:49:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Regarding videogames, I would like to suggest the addition of an initiative to protect consumers from the deletion of the product they have bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19346,
+          "unit_kind": "feedback"
+        },
+        "text": "Regarding videogames, I would like to suggest the addition of an initiative to protect consumers from the deletion of the product they have bought, such as has happened before by big videogame companies. One example that comes to mind is Ubisoft's \"The Crew\" being taken away from people who possessed it last year, or EA's imminent deletion of \"Anthem\". In both cases, even physical copies are affected, and there are many more instances of this. I think new regulation should be implemented to protect consumers from this type of behavior by big companies. Purchasing a product means owning that product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.087907Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584132.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584132",
+    "chunks_doc_id": "F3584132",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584132.clean.paragraph.json"
+}

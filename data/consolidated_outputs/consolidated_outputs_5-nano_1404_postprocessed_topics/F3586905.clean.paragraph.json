@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586905",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:45Z",
+    "finished_at": "2026-04-14T13:06:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect videogames as well."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28150,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Can you please look into Stop killing games initiative? I hope you can protect videogames as well. The initiative is trying to push the point of gamers keeping the ownership if the physical games that we actually paid money to own. This is done because hundred of games have been destroyed by the developers and the support to the games that we paid money to were stopped entirely. We need all the help that we need to protect the games from being destroyed that are already sold to the customers. The citizens initiative has already more than million EU citizens expressing support for protecting videogames for being destroyed. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.380154Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586905.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586905",
+    "chunks_doc_id": "F3586905",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586905.clean.paragraph.json"
+}

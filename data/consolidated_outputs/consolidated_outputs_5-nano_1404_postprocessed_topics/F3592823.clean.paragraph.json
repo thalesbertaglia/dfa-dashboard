@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3592823",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:23Z",
+    "finished_at": "2026-04-14T13:38:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can vanish at any time, we cant access them without paying again every months"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the purchase was not advertised as a rent and it clearly stated that we were buying, not renting."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20618,
+          "unit_kind": "feedback"
+        },
+        "text": "Nowadays owning isnt owning anymore. We buy apps, home appliances, books, movies, even cars, but they can vanish at any time, we cant access them without paying again every months, despite we bought them, despite the purchase was not advertised as a rent and it clearly stated that we were buying, not renting. In today's digital landscape, the principles of a free and open internet are threatened not by governments, but by private companies that act as gatekeepers to information and commerce. This concentration of power leads to both censorship and significant privacy concerns. Infrastructure providers like Cloudflare and financial services like Visa and PayPal have shown a willingness to block access to content and income streams. This includes platforms such as WikiLeaks, OnlyFans, and a long list of others (DLsite, Melonbooks, Niconico, etc.). This form of financial censorship can silence independent creators and alternative voices. Many online services force users to share personal data or even government IDs to access basic functions. This extensive data collection creates a central point of failure, making users vulnerable to data breaches, identity theft, and unauthorized surveillance. The risk of storing all this personal data is high, as even institutional databases (banks, hospitals, etc.) have proven to be vulnerable to hacking. A digital ID, in particular, raises serious concerns about security and authenticity. This issue is worsened by the reliance on cloud services. When companies control the servers for products, from software to appliances, they can revoke access at any time. This shifts the user-company relationship from ownership to a precarious form of renting. These problems stem from a core issue: the concentration of power in a few corporate hands. To protect digital freedom, stronger safeguards are needed. This includes regulations that prevent platforms from blocking users without clear legal justification, ensuring personal data is stored securely, and allowing users to access services without compromising their privacy. We must advocate for laws that prioritize user rights over corporate profits to preserve our online freedom.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.931223Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592823.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592823",
+    "chunks_doc_id": "F3592823",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592823.clean.paragraph.json"
+}

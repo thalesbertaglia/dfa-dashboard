@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584131",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:24Z",
+    "finished_at": "2026-04-14T11:49:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to get an id verification you need to subscribe to their prenium."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13854,
+          "unit_kind": "feedback"
+        },
+        "text": "please let it include games since companies are well destroying it also now that twitter has well following the id rules there's a bit of a problem. to get an id verification you need to subscribe to their prenium. wich is unfair. so i wish the digital fairness act covers this so you can just send a letter forcing them to have an id verification without the subscription.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.087452Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584131.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584131",
+    "chunks_doc_id": "F3584131",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584131.clean.paragraph.json"
+}

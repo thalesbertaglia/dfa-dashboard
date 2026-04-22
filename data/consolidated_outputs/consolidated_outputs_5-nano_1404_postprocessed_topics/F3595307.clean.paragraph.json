@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3595307",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:25Z",
+    "finished_at": "2026-04-14T13:41:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Systems based purely on addiction and gambling such as roulettes, in games catalogued for 3, 5 or 7 years old."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Small letters hiding payments, subscriptions or unfair terms for some services."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hiding payments"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Small letters hiding payments, subscriptions or unfair terms for some services."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the developer has decided to stop supporting the game, which eliminates the possibility of playing this title in any case."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34432,
+          "unit_kind": "feedback"
+        },
+        "text": "As a user playing and using various video game services, I have noticed an increasing and very rapid change in many of the strategies used to ‘sell’. I feel that we need to be more and more on track. Small letters hiding payments, subscriptions or unfair terms for some services. Systems based purely on addiction and gambling such as roulettes, in games catalogued for 3, 5 or 7 years old. And I have also felt that I am increasingly unprotected when I buy or play a game. There are no more few examples of games you buy, and at the age of 5, 10.15 years, you are no longer able to play because the developer has decided to stop supporting the game, which eliminates the possibility of playing this title in any case. My personal feeling is insecure and incredible that many of the practices that are done today are so widespread and have no control or legal impact behind them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.975877Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3595307.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3595307",
+    "chunks_doc_id": "F3595307",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3595307.clean.paragraph.json"
+}

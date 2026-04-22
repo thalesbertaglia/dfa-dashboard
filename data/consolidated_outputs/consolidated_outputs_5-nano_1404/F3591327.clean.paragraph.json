@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3591327",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:04Z",
+    "finished_at": "2026-04-14T13:35:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games publishers ability to, without notice or reason, stop consumers playing a game they have paid for."
+              },
+              {
+                "quote": "Gacha, loot boxes and other gambling-like mechanics in video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors ability to censor platforms (like, for instance, Steam) seemingly at will."
+              },
+              {
+                "quote": "However, they also get to choose their terms of service with little restriction."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22833,
+          "unit_kind": "feedback"
+        },
+        "text": "I already like the direction that the \"Call for Evidence\" document was going, with a focus on dark patterns that affect both adults and children (with particular focus on children, in fact). However, I do have several additional areas that I believe are worth considering when drafting this act. They are all quite video game-centric but that's where I feel the lack of legislature in my every day life. Here they are in no particular order: 1. Payment processors ability to censor platforms (like, for instance, Steam) seemingly at will. They can do this, because their terms of service allow them to discontinue their services. This will be relevant again in the next point. However, they also get to choose their terms of service with little restriction. If they feel (no evidence needed) that their brand may indirectly be harmed by the fact that a digital store front using them is selling something they find distateful, then they can just refuse to work with that store front at all after that. They have way too much power in this. Although I do believe there should be some way to regulate what can or can't be sold on digital store fronts, this should be based on a region's laws, not corporate sensitivities. 2. Video games publishers ability to, without notice or reason, stop consumers playing a game they have paid for. This extends to software in general, since the root cause is, again, down to how EULAs seemingly give software creators and service providers a blank check to do almost anything they want. At the moment, if a publisher decides they don't want a game to continue, they have every right to do so, provided they have put it in their terms of service. Worse still, with online components being crow-barred in to even single player parts of games, this means even the bits that don't really require an online connection get pulled entirely and the consumer just has to deal with it. There's no reason someone couldn't buy a game today and find that tomorrow they can't play it and all that money was wasted. This takes caveat emptor to a whole new level, making the video games industry an almost lawless anti-consumer wild west. I believe, if we've made a purchase, we should have some right to usage beyond whatever a publisher feels like giving us. This also has implications for the preservation of art and culture for future generations as nowadays, even if you preserve the hardware and software on the user end, you still can't make the experience available to future generations if the publisher decides they don't want it out there anymore. 3. Gacha, loot boxes and other gambling-like mechanics in video games. I say, gambling-like, but I believe them to be the same as gambling. The currency is sometimes digital, and the prizes always are, but the affects in users brain are just as real. However, with traditional gambling we have protections in place to encourage responsible gambling by adults and prevent minors from gambling at all. These are almost entirely missing (outside of a handful of member states) for the video game version. They are even playable by children as young as 12 (see, for example, the age rating for Genshin Impact). The EU has already taken steps to improve the situation with the recent \"Key principles on in-game virtual currencies\", making parts of this more clear to consumers and publishers alike. However, this may in fact make the gambling aspect worse: It makes the money involved more clear, and brings it even close to traditional gambling. Without legislation changes, the EU is essentially saying to businesses that it's okay to encourage children to gamble, as long as it's done in a video game. Note: I believe this was already hinted at as part of the \"Call for Evidence\" document, but it wasn't explicitly noted, which is why I've added it here. 4. The general misuse of End User Licence Agreements and Terms of Service to get away with what is normally seen as illegal or, at the very least, unethical.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.857077Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591327.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591327",
+    "chunks_doc_id": "F3591327",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

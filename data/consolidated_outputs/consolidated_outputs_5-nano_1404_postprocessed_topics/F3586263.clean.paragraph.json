@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3586263",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:14Z",
+    "finished_at": "2026-04-14T12:52:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital goods marketed as final product, while in reality they are a service. And seller does not disclose this information, until you buy it."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "most commonly games, that are accessible everywhere else in EU."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They keep the right to shutdown their service any time, leaving you without bought product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22991,
+          "unit_kind": "feedback"
+        },
+        "text": "One of few issues currently, is accessibility of digital goods in EU for all countries. It seems our country (together with some neighbors), tend to be excluded from accessing some goods, most commonly games, that are accessible everywhere else in EU. The other issue is labeling. Digital goods marketed as final product, while in reality they are a service. And seller does not disclose this information, until you buy it. They keep the right to shutdown their service any time, leaving you without bought product. I think at lease labeling should be enforced, when they are selling service that requires to be always online, or depends on some server working, for you to use it. So it would be nice to get some form of protection, if you get sold a product, it should work offline and do not depend on servers, and if it is the opposite, it should not be advertised as product, but as service.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.181547Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586263.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586263",
+    "chunks_doc_id": "F3586263",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586263.clean.paragraph.json"
+}

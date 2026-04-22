@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587873",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:17Z",
+    "finished_at": "2026-04-14T13:21:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Paying for a game nowdays sadly doesnt mean you own that product as it can be \\\"legaly\\\" taken away from you at any moment-without refund or any other kind of compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21690,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game industry is currently in a tough spot. Games as a medium is not recognized to be as important for preservation as other forms of phyisical media and laws around them arent super clear yet. Video game companies are taking full advantage of that fact and are very much abusing and testing what they can get away with. For the last 10-15 years when games have become less and less physical, video game \"licenses\" is a term thats been flowing around a lot lately regarding consumer rights. Paying for a game nowdays sadly doesnt mean you own that product as it can be \"legaly\" taken away from you at any moment-without refund or any other kind of compensation. Companies are activly rewriting their TOS to avoid any potential problems that could arise in this time when people had enough of being treated like numbers. I urge you to consider the SKG initiative as its extremly important if we want to preserve any kind of respect between a consumer and the seller.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.590931Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587873.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587873",
+    "chunks_doc_id": "F3587873",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

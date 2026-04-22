@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586135",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:15Z",
+    "finished_at": "2026-04-14T12:48:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some companies sell you a product that they can just take away whenever they feel like it."
+              },
+              {
+                "quote": "And this is boldly mentionned in the Terms of Service of many games, that the game can be taken down at any moment, without any reason needed from anyone."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12690,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i fully support any movement aiming at strengthening consumer rights. Especially nowadays, where more and more companies seem to try bring them down to have more control on what people can or can't buy, or on the conditions surrounding those purchases. The most unfair commercial practices online i've seen in the recent years would be related to video games. Some companies sell you a product that they can just take away whenever they feel like it. And this is boldly mentionned in the Terms of Service of many games, that the game can be taken down at any moment, without any reason needed from anyone. This has already lead to numerous cases of online consumers buying a product, only to have it removed from them at a later date against their will. I believe that if we buy something, we should own it, and be able to keep it. And i firmly believe that any attempt at going against this is violating the most basic of consumer rights. We have to be better than this. We have to do better, both for the present, and for the future. Because if we don't set things straight now, when we can, things will only degrade and get worse with time. We need to work against this, to prevent bad habits and unfair comercial practices from settling down comfortably right under our nose.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.110231Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586135.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586135",
+    "chunks_doc_id": "F3586135",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586135.clean.paragraph.json"
+}

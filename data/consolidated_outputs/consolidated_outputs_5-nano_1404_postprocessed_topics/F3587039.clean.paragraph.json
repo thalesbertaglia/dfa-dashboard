@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587039",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:38Z",
+    "finished_at": "2026-04-14T13:08:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please consider including video games in the scope of the Digital Fairness Act."
+              },
+              {
+                "quote": "online-only games can be shut down at any moment by their publishers, often without offering any compensation or alternative to the users who invested their time, emotions, and in many cases, money."
+              },
+              {
+                "quote": "we spent money on cosmetics, pets, and even held a virtual wedding in the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21102,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider including video games in the scope of the Digital Fairness Act. Video games are a form of art and culture. As such, they deserve the same respect, preservation, and user protections as other digital products. However, many online-only games can be shut down at any moment by their publishers, often without offering any compensation or alternative to the users who invested their time, emotions, and in many cases, money. My girlfriend and I experienced this firsthand with MapleStory Europe. We live in Spain, and the European version of the game was ideal for us: it was translated into several European languages, including Spanish and German, and had low latency. My girlfriend does not speak English, so the European version was essential for her. Although the game was free to play, we spent money on cosmetics, pets, and even held a virtual wedding in the game. We had friends, memories, and a life built in that world. But one day, the company (Nexon) decided to shut down the European servers. We lost everything our characters, our purchases, our friends, our wedding rings with no possibility to transfer our progress or access our data. The American servers remained active, but were not a viable alternative: the latency was too high for a good experience, and the game was only available in English, making it unplayable for my girlfriend. My girlfriend has a 75% disability, and for her, socializing offline is extremely difficult. Online spaces like MapleStory were not just entertainment they were vital for connection, expression, and friendship. The shutdown of MapleStory Europe was devastating for both of us, but especially for her, as it meant the loss of a safe and meaningful social environment. This situation could have been avoided if companies were required to offer data portability, server emulation options, or alternative access to preserve users investment in online games. At the very least, companies should provide compensation or ways to continue using the products we paid for. Including video games in the Digital Fairness Act would be a strong step toward ensuring fair treatment for millions of European players, including those for whom online games are an essential space of inclusion. It would also support the cultural preservation of a medium that is now one of the most relevant forms of artistic expression. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.417614Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587039.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587039",
+    "chunks_doc_id": "F3587039",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587039.clean.paragraph.json"
+}

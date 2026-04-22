@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585775",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:25Z",
+    "finished_at": "2026-04-14T12:36:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There has recently been varying attention to the “stop Destroying video games” initiative."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Should Volvo be able to shut down your car when you think it is time for you to buy a new one?"
+              },
+              {
+                "quote": "Should VW be able to prevent you from selling your Polo to someone else?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24586,
+          "unit_kind": "feedback"
+        },
+        "text": "I think that something that is important to address in the DFA is ownership of software. There has recently been varying attention to the “stop Destroying video games” initiative. Which I am behind. But I also think you should check other software. This has large parallels with the “planned obsolescence”. Should Volvo be able to shut down your car when you think it is time for you to buy a new one? Should VW be able to prevent you from selling your Polo to someone else? The answers to these questions are thankful and still quite obvious. So why is it no longer so for software?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.914129Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585775.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585775",
+    "chunks_doc_id": "F3585775",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585775.clean.paragraph.json"
+}

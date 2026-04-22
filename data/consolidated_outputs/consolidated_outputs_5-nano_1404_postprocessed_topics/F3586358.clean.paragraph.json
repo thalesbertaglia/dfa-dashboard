@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586358",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:03Z",
+    "finished_at": "2026-04-14T12:55:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include video games as well."
+              },
+              {
+                "quote": "There is a growing concern regarding customers rights in the market of video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rights to use the product are revoked by the license owner at their will after the product has been purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22450,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to propose for Digital Fairness Act to consider points of Stop Killing Games movement and include video games as well. There is a growing concern regarding customers rights in the market of video games. Large companies as Blizzard or Ubisoft have expressed their intention to prevent usage of digital products, that they wish to stop developing. It's acceptable to allow stop of development. However this leads to possible situation, when rights to use the product are revoked by the license owner at their will after the product has been purchased. Customer is in vulnerable position, where one buys a video game and has no certainty, that they can use it in the future. It is a predatory tactic to increase profit with no regards to customers well being.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.217453Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586358.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586358",
+    "chunks_doc_id": "F3586358",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586358.clean.paragraph.json"
+}

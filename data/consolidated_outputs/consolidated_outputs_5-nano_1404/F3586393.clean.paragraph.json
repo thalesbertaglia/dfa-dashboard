@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586393",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:40Z",
+    "finished_at": "2026-04-14T12:56:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gap in the protection of consumers against certain types of video games, in particular those with online functionality only."
+              },
+              {
+                "quote": "Some modern video games require a constant internet connection even if they are designed to be played alone (in single player mode)."
+              },
+              {
+                "quote": "The problem arises when these games are closed by manufacturers without any notice or possibility to continue playing them offline or via alternative servers."
+              },
+              {
+                "quote": "If it closed, the game would become unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20848,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to provide input on the Digital Lequity Act, pointing to a gap in the protection of consumers against certain types of video games, in particular those with online functionality only. Some modern video games require a constant internet connection even if they are designed to be played alone (in single player mode). The problem arises when these games are closed by manufacturers without any notice or possibility to continue playing them offline or via alternative servers. Those who bought them therefore find themselves without more access to the product purchased, without refunds and without alternatives. This behaviour on the part of producers could infringe EU legislation on consumer rights (such as the Directive on unfair terms in contracts, the Consumer Rights Directive and possibly also the Unfair Commercial Practices Directive). However, these cases do not seem to be clearly covered by the current legislation. I propose that the Digital Lequity Act expands its scope by also including consumer protection in the video game sector, obliging companies to ensure at least one offline alternative or one way to continue using the product after the server shutdown, especially when the game could work very well without a connection. Concrete examples: The Crew (Ubisoft): single player game but requires continuous connection; it is no longer accessible today. Driver: San Francisco (Ubisoft): the same risk, with single player mechanics but linked to the online environment. Suicide Squad: Kill the Justice League (Rocksteady): single player campaign but forced online game. If it closed, the game would become unusable. This practice harms consumers and should be regulated. I therefore call for the legislator to explicitly include video games in the protection of European consumers. Thank you for your attention and work",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.227905Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586393.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586393",
+    "chunks_doc_id": "F3586393",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

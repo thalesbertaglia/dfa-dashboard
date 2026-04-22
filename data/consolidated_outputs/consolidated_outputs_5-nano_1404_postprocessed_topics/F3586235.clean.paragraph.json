@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586235",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:21Z",
+    "finished_at": "2026-04-14T12:51:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the topic of video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9935,
+          "unit_kind": "feedback"
+        },
+        "text": "In my opinion the Digital Fairness Act should include the topic of video games. Consumers should not lose access to digital products theyve paid for simply because a company decides its no longer profitable or convenient to keep them running. While the most of us understand that supporting a game forever is not possible and that is not what we ask. If publishers would come up with an end-of-life plan, so that they can leave the game in a playable state, that would be beautiful. This is not just about preserving entertainment. Its about fairness, ownership, and trust. Imagine buying a book, only for the publisher to sneak into your house and light it on fire six months later. Thats whats happening when games are killed via server shutdowns. Preserving access to digital games is about cultural preservation as much as it is about digital rights. We dont let publishers burn films or albums after release; the same should apply to games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.168136Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586235.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586235",
+    "chunks_doc_id": "F3586235",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586235.clean.paragraph.json"
+}

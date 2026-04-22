@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3664677",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:12Z",
+    "finished_at": "2026-04-14T13:45:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It will make everything more difficult and also it will makes developing for your own devices costly as you need to get yourself verified and this will not be free."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13142,
+          "unit_kind": "feedback"
+        },
+        "text": "Im scared that people like me won't be able to develop apps and other software for special use cases for ourselves, friends or open source. It will make everything more difficult and also it will makes developing for your own devices costly as you need to get yourself verified and this will not be free. Please prevent this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.083422Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664677.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664677",
+    "chunks_doc_id": "F3664677",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3664677.clean.paragraph.json"
+}

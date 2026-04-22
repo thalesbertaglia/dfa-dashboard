@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586399",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:49Z",
+    "finished_at": "2026-04-14T12:56:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This video game looks nothing like it was 7 years ago today."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Bungie just erases them and \"makes you\" buy another."
+              },
+              {
+                "quote": "This content and DLCs that people brought in the past should be available to them even today."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35230,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission. I am writing this feedback to share my personal experience as a long-time PC game enthusiast with over 10 years of experience. The state of video games today is, with no exaggeration. Being misused by people that doesn't understand the core values of creating video games at all. By that, I mean people who lack a core value that is called Imagination and creativity. More and more big corporations would rather invest in quantity over quality on any given day and sacrifice thousands of workplaces of good and solid game developers for quicker profit by using artificial intelligence, and I am afraid this is only the beginning. Video games are places that make us enjoy the entertainment of people who care about these experiences as much as those who play them on the same level. And with this introduction, I want to give a good example of a video game called Destiny 2 by Bungie, Inc. This video game looks nothing like it was 7 years ago today. And all the content people have paid for is not even available in this game anymore as well. Bungie just erases them and \"makes you\" buy another. Bungie calls this tactic vaulting, and they say they are sending this content to the vault for future use. But so far, there were no mentions or even a hint of doing that, and that is what I am afraid of. My personal opinion on this matter is as follows. This content and DLCs that people brought in the past should be available to them even today. That is my honest opinion as someone who doesn't understand why it's locked and vaulted away to this day. I thank you in advance if you consider reading my feedback. With regards. Bachleda Maroš.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.230534Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586399.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586399",
+    "chunks_doc_id": "F3586399",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586399.clean.paragraph.json"
+}

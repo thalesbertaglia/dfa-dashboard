@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3591593",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:11Z",
+    "finished_at": "2026-04-14T13:36:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "indie videogames on the platforms known as Steam and Itch.io"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13621,
+          "unit_kind": "feedback"
+        },
+        "text": "We MUST IMMEDIATLY take actions to prevent censorship and restrictions of freedom of speech by large corporations, in particular payment processors such as Visa and Mastercard, who have pushed censorship that restricts or prevents access to many indie videogames on the platforms known as Steam and Itch.io, and are trying to protect their image by preventing complaints on livestreams for events they sponsor. This is a gross violation of freedom of speech and an attack on an important artistic field that is even more fallacious that said companies have assured that they weren't morally judging any payment as long as it was legal, which is clearly wrong... Moreover, those acts are (as shown by a plethora of signs) the beginning of more thorough censorship and moral lockdown of artistic and enjoyment fields.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.879192Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591593.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591593",
+    "chunks_doc_id": "F3591593",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

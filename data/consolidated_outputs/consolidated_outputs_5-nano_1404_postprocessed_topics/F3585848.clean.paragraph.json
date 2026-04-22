@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585848",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:43Z",
+    "finished_at": "2026-04-14T12:39:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we do not own said Game, we own a License to play the Game."
+              },
+              {
+                "quote": "Publishers or Developers can just take those Licenses from us without any consequences."
+              },
+              {
+                "quote": "If we as a consumer spend our own Money on a digital product then we should properly own that product without having to worry about Publishers or Developers just taking away our License"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22095,
+          "unit_kind": "feedback"
+        },
+        "text": "As of right now, if we as a consumer purchase a digital product, say a Game on Steam, we do not own said Game, we own a License to play the Game. The Problem with this is that the Publishers or Developers can just take those Licenses from us without any consequences. A good example for this is what the game developer Ubisoft did with \"The Crew\" when they had to shut down the game, they also revoked the Licenses from everyone that has bought the game. This is simply just not fair. If we as a consumer spend our own Money on a digital product then we should properly own that product without having to worry about Publishers or Developers just taking away our License",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.952206Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585848.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585848",
+    "chunks_doc_id": "F3585848",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585848.clean.paragraph.json"
+}

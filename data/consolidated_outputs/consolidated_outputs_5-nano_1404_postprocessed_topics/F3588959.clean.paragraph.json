@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588959",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:48Z",
+    "finished_at": "2026-04-14T13:27:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Because if a publisher does not feel like supporting a game you have bought, they can take it away."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15577,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I have always believed that human and consumer rights were - or at least should be - a big part of the EU. But for too long, publishers have had no obligation to provide consumers with the things they have paid for. There is a reason why \"You will own nothing and be happy\" has become so widespread on the internet. Because if a publisher does not feel like supporting a game you have bought, they can take it away. Them being able to simply destroy games, to delete them from the world forever, is not only a blow to historical preservation - but a blow to consumers everywhere. It is as if an electronics company snuck into your house and stole your television because they stopped giving it updates. I urge you, as do hundreds of thousands other people, to protect the consumer rights as they relate to video games. Publishers and developers do not have to support their games forever; but they should not be allowed to take them away from the consumer either. There is nothing that would stop them from simply providing the unsupported games as-is, while making it clear that they are not responsible any longer. Consumers face many obstacles in the current digital world, from censorship over payment processors wanting to play police. Please, do not let this be another one.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.706321Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588959.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588959",
+    "chunks_doc_id": "F3588959",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588959.clean.paragraph.json"
+}

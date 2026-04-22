@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584480",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:19Z",
+    "finished_at": "2026-04-14T12:00:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Owners of videogames should, after all, own the product they have purchased, and be able to use it at their will."
+              },
+              {
+                "quote": "delete the product from user libraries and request them to destroy any physical copy they own"
+              },
+              {
+                "quote": "those unfortunate enough to have owned a digital copy lost it totally."
+              },
+              {
+                "quote": "the game needing to check in with online servers as to constantly verify the purchase."
+              },
+              {
+                "quote": "your only option is to buy the new one."
+              },
+              {
+                "quote": "If you buy something, you should own the products you pay for."
+              },
+              {
+                "quote": "purchases I had made on the game, which unlocked new characters and cosmetics, were removed due to the game needing to check in with online servers as to constantly verify the purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 51166,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I just wanted to suggest the possibility to include some policies related to the ownership of videogames, in this Digital Fairness Act. Owners of videogames should, after all, own the product they have purchased, and be able to use it at their will. Some companies are trying to change it, and are willing to delete the product from user libraries and request them to destroy any physical copy they own, all without giving any explaination, compensation, and without a care if the game can be played without having to be connected to company servers, accounts, or similar. An example of this was the game Evolve, a multiplayer game with a single player offline mode that even to this day I can still play, but only because I have a physical copy of it, but those unfortunate enough to have owned a digital copy lost it totally. Additionally, some purchases I had made on the game, which unlocked new characters and cosmetics, were removed due to the game needing to check in with online servers as to constantly verify the purchase. Imagine if you will, that monopoly released a new version, it's the same game you already have at your house, but now it has a thematic of the newest Jurassic World movie, well, a video game company would metaphorically come to your house, take the old one you had away, tell you to destroy any realted products, and your only option is to buy the new one. That is what many companies are trying to enforce. Overall I think this would benefit, not only videogame purchases, but similar digital products that are owned or used in the digital space. If you buy something, you should own the products you pay for, specially if the main excuse to take them away, it greed or malice from the ones responsible.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.253335Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584480.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584480",
+    "chunks_doc_id": "F3584480",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584480.clean.paragraph.json"
+}

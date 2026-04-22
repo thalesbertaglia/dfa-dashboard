@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33090909",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:32:41Z",
+    "finished_at": "2026-04-14T09:33:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "designed in a way that makes them addictive."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pay-to-win or pay to progress mechanisms are switched off."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Minors are better protected from personalised advertising"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19927,
+          "unit_kind": "feedback"
+        },
+        "text": "In general, there should be less bureaucracy and regulation on the part of the EU. It would be particularly important for advertising and Ensure better protection of minors in the form of gaming games, e.g. through certain certifications, so that games are no longer organised in such a way that they are addictive and that pay-to-win or pay to progress mechanisms are switched off. Minors are better protected from personalised advertising and any advertising of addictive products, whether they are alcohol, drugs, tobacco, video games/game games, addictive foods, plastic surgery or similar, whether they are advertised in public spaces, on the internet or on social networks. The approach in Germany to protect children from cannabis advertising only 500 m from schools is unusable. Children and adolescents do not understand and are powerless that computer games are designed in a way that makes them addictive. For example, every year, a jury could make fun games in the EU with a prize that are great, but not playful. The existing protection of minors should be better implemented and explicitly cover the internet and social media. Instead of a digital fairness act, it would be more appropriate to strengthen existing legislation where necessary.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.571008Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33090909.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33090909",
+    "chunks_doc_id": "F33090909",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33090909.clean.paragraph.json"
+}

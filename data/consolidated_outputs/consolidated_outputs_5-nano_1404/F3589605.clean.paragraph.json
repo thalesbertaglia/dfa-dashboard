@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3589605",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:54Z",
+    "finished_at": "2026-04-14T13:32:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames."
+              },
+              {
+                "quote": "live-service games,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "abussive clauses in their Terms & Conditions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26824,
+          "unit_kind": "feedback"
+        },
+        "text": "I must admit I find myself dumbfounded at the prospect that a legislative measure at the EU level which strives for \"Digital Fairness\" does not include any provisions in terms of one of the biggest and most complicated problems in the digital industry nowadays: videogames. While being sold as complete goods, in recent times we have seen a shift from the industry towards live-service games, i.e. they turn these finished products into a service, and thus these games end up in a limbo between finished product and service. It is in these legal loophole that massive companies have found a way to increase revenue, but at the cost of consumer's rights, who have actually found themselves without their games at a certain point, as demonstrated by the delisting of Ubisoft`s \"The Crew\". This shows the big issue with video games nowadays. While they have traditionally been sold as a license, with the digitalization of the distribution of games, which are now mostly bought through online platforms like Steam or Epic, consumers are at risk from these companies excercising abussive clauses in their Terms & Conditions in order to maximize profits. The case above is only the most extreme of cases, but it is now more common to see games that, as they were meant to be played only through an online mode, are no longer viable economically and their online services, which were in fact the core of that finished product, is no longer available and thus the consumer who paid for that product can no longer enjoy, as it is the case with EA's Anthem that will soon reach its end of support and will become, as many other games, lost media. What I would like to see in this Act is progress towards solving this conundrum. Games should not and cannot continue to be sold as finished products if the experience they provide is tied to a hosting service that sustains the online aspect of it. This does not mean that a game needs to provide this service forever, but rather that developers in this sector should take this into account when creating an online-only game, so that, when its end of support arrives, players have other options available to continue enjoying their product, such as allowing private servers of LAN connections. Other measures would be to prohibit online platforms to refer to the online purchase of games as a finished product and start referring to them as adquiring a license, since that's what the customer is really adquiring. I truly hope the European Commission can take into account this feedback and include provisions aimed at improving customer's rights in the digital videogame space.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.800070Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589605.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589605",
+    "chunks_doc_id": "F3589605",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

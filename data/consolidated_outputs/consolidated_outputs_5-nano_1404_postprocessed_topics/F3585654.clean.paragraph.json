@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585654",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:33Z",
+    "finished_at": "2026-04-14T12:32:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Today, many games are sold in a way that makes them seem like permanent purchases."
+              },
+              {
+                "quote": "But in reality, access can be taken away at any time, often without warning."
+              },
+              {
+                "quote": "No unnecessary online requirements for single-player games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I was never clearly told that I was only buying a temporary license."
+              },
+              {
+                "quote": "are we buying the game or just renting?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22721,
+          "unit_kind": "feedback"
+        },
+        "text": "Im writing as a concerned gamer and consumer who would like to see stronger protections for people who buy digital productsespecially video games.Today, many games are sold in a way that makes them seem like permanent purchases. But in reality, access can be taken away at any time, often without warning. This happened to me with The Crew by Ubisoft: I bought and enjoyed the game, and then one day it was simply gone. I was never clearly told that I was only buying a temporary license.This feels deeply unfairnot just financially, but emotionally too. Games are more than just entertainment. For many of us, theyre part of our memories, our identity, and our culture. I believe consumers deserve: Clear information up frontare we buying the game or just renting it? A fair end-of-life policyoffline versions or continued access where possible. No unnecessary online requirements for single-player games. I support the Stop Killing Games initiative and kindly ask you to make sure the Digital Fairness Act includes real protection for digital game ownership and access. We deserve to keep what we pay for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.853318Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585654.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585654",
+    "chunks_doc_id": "F3585654",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585654.clean.paragraph.json"
+}

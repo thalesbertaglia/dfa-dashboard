@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587764",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:50Z",
+    "finished_at": "2026-04-14T13:21:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games is just one small example of this."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "selling products under the umbrella of licenses, that can be revoked at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15411,
+          "unit_kind": "feedback"
+        },
+        "text": "A big bad practice is selling products under the umbrella of licenses, that can be revoked at any time. In some cases there are valid reasons for that but most of the times, it is just to circumvent consumer rights, since selling a product has way more rights attached, than selling a revokable license. Video games is just one small example of this. Products, the average consumer bought, can be disabled at any time without any notice or compensation or what so ever and nobody can do anything against this. How is this legal? This needs to change! I would highly encourage the EU to think about how they can address this issue in the digital fairness act, to give EU citizens their consumer rights back and make companies understand, that they have responsibilities for their products and can't just throw them away and disable their consumers from using them ever again. It is not reasonable to expect companies to keep servers running, but it IS reasonable to expect them to at least give the consumer the tools (or a version of the product) to still run it themselves. Thanks for reading, Jan",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.583583Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587764.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587764",
+    "chunks_doc_id": "F3587764",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587764.clean.paragraph.json"
+}

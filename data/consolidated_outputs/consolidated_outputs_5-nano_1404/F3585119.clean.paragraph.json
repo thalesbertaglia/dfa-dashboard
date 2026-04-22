@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585119",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:33Z",
+    "finished_at": "2026-04-14T12:20:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games disappearing off of our digital libraries"
+              },
+              {
+                "quote": "shutting down the servers for it for any arbitrary reason"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12803,
+          "unit_kind": "feedback"
+        },
+        "text": "While there is a fear of digital games disappearing off of our digital libraries because a publisher or developer decided to take them down from the digital storefronts and/or shutting down the servers for it for any arbitrary reason, I am also afraid that the same can happen for movies or any digital piece of art. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.603335Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585119.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585119",
+    "chunks_doc_id": "F3585119",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

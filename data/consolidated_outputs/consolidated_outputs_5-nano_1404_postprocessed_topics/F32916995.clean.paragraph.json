@@ -1,0 +1,69 @@
+{
+  "doc_id": "F32916995",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:26Z",
+    "finished_at": "2026-04-14T09:27:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a video game is expensive"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20478,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, a video game is expensive and it is a sector that makes a lot of profit. It is unusual for a customer of these publishers to be subject to decisions based solely on commercial considerations: many games still have an active community that is forced to go back to the till regularly in the new edition of a video game. The end of video games on CD media has significantly increased this phenomenon, where the player is feet and poings linked to the publisher’s decisions. And it is not to mention games abandoned by the publisher (without maintenance) or intellectual properties that sleep in drawers for 10 years. That seems to me to be completely disproportionate in the light of the means and body of legislation used to defend a publisher’s intellectual property. CDT.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.459938Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32916995.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32916995",
+    "chunks_doc_id": "F32916995",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F32916995.clean.paragraph.json"
+}

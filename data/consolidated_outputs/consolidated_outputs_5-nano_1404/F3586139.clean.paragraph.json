@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586139",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:24Z",
+    "finished_at": "2026-04-14T12:49:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "guaranteed offline access (game, video, music)"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Guaranteed access after purchase for at least 20 years (duration of the patent)"
+              }
+            ]
+          },
+          {
+            "topic": "Personal Data Security",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Personal data security certain pages requiring personal data such as facial image, voice recording or any serious identity document should be strictly regulated by the State"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53965,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is progressing well, but it does not cover many important things: **By purchase proposal**, such as purchased graphics, music, games and other digital products. In the form of Guaranteed access after purchase for at least 20 years (duration of the patent) The guaranteed offline access (game, video, music) at a cut-off time from the internet in many cases of games or videos is not possible in many cases of games or videos, even though it is a property/Temporary Property (in case of loan) and is fully usable in any other situation **Cenzura/Freedom Slovak** Bank, Service transferring payments, or any institution outside the Church and the State should not have the right to deny services to anyone (excluding serious criminals) or to request a change of opinion. —**Personal data security** certain pages requiring personal data such as facial image, voice recording or any serious identity document should be strictly regulated by the State, and should respect maximum security, as the leak of these documents can lead to serious crimes, complications, severe harm or even death under extreme conditions. #Dokumenty these should only be requested as a last resort in my opinion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.112779Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586139.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586139",
+    "chunks_doc_id": "F3586139",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

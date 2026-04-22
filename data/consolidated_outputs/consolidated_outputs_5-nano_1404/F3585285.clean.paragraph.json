@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585285",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:23Z",
+    "finished_at": "2026-04-14T12:24:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There has been widespread fear about videogames being destroyed by publishers, leaving the consumer without the ability to enjoy the product their bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10442,
+          "unit_kind": "feedback"
+        },
+        "text": "There has been widespread fear about videogames being destroyed by publishers, leaving the consumer without the ability to enjoy the product their bought. These products are bought under the consumer assumption that they can be used at any time, for any given time. However, due to current industry practices requiring constant online connection (even for games that have no need for such in their normal functioning (eg: singleplayer games)) when the servers are eventually shut down, the product is rendered useless. Many companies claim to have the right to shut down these servers whenever and however they choose, with little to no warning to the costumer. As a concerned EU Citizen, residing in Portugal, I would like for the Digital Fairness Act to take a look and encompass this media as well. There is currently a Citizens Initiative as well (Stop Killing Games), with over one million signatures, calling for the EU to step in and protect consumers from this practice. Kind regards, Pedro Capela",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.667390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585285.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585285",
+    "chunks_doc_id": "F3585285",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

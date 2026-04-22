@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3588468",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:47Z",
+    "finished_at": "2026-04-14T13:24:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end game's lifespan on a whim without giving customer any abilty to have a say in the matter."
+              },
+              {
+                "quote": "Currently if publisher no longer desires to continue a game for any reason they can just shut down the servers without giving any compensation."
+              },
+              {
+                "quote": "Recently Blizzard shutdown servers of Overwatch(1) and released overwatch 2."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they don't provide end date for this service and reserve the right to end it whenever they want to."
+              },
+              {
+                "quote": "what stops a publisher from keep shutting servers each year to sell the same game again?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27374,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider taking a look at publishers abilty to end game's lifespan on a whim without giving customer any abilty to have a say in the matter. Currently if publisher no longer desires to continue a game for any reason they can just shut down the servers without giving any compensation. Games are no longer being sold as \"owned items\" but as \"service\" trouble is they don't provide end date for this service and reserve the right to end it whenever they want to. As example after its launch within almost a week Concord failed so miracilusly they shut down the server and made the game unplayable. now credit where credis is due: They did provide refunds since it was almost at release date but point is this: If they didn't are there any tools for customers to use against publishers? Publishers should either inform us when this service reach to its end date or prepare the means for customer either play the games single player or with private servers, preferably both at the same time. Recently Blizzard shutdown servers of Overwatch(1) and released overwatch 2. People that bought previus game can no longer play it. If a game studio can do this then what stops a publisher from keep shutting servers each year to sell the same game again?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.649615Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588468.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588468",
+    "chunks_doc_id": "F3588468",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

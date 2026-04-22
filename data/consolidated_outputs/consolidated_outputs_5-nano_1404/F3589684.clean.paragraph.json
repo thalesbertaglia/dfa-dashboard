@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589684",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:59Z",
+    "finished_at": "2026-04-14T13:32:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We see games, that are mostly single player experiences being tied to online servers, that serve their function while the game is being supported, but can be detrimental once support ends and the games as simply culled from existence."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EULAs like Blizzard Interactive, and their termination clause (included in attachment), where our right to play a game, can be terminated at any time without being given a reason, should be practices we can agree are unfair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19433,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with plenty that's already here. What I think it's tangencial and certainly as we head towards a mostly digital future in terms of goods and services, it would be great to see games getting a special attention. As of right now we see many games no longer providing with physical copies, especially on open platforms such as PC. Not only in most cases we are hopping the digital store front that sells this games does not studently collapse and we lose access to the good we purchased, but also, the video game companies not removing access from the buyers, be it end of support or other unfair term in the EULA. We see games, that are mostly single player experiences being tied to online servers, that serve their function while the game is being supported, but can be detrimental once support ends and the games as simply culled from existence. I really think a digital fairness act would be of great help here. EULAs like Blizzard Interactive, and their termination clause (included in attachment), where our right to play a game, can be terminated at any time without being given a reason, should be practices we can agree are unfair. As a game is shutdown, without being given any recurse to self-host, play offline, among other alternatives, is simply stripping the consumer of their right to use the goods they purchased. This landscape of game ownership as really taken a left turn in this digital future we find ourselves in, and the word that really springs to mind is \"unfair\". This is why I believe your initiative is heading the right direction, because along we games we see many products tied to online services, and if their server/app is shutdown we might find ourselves with non functioning goods (i.e. vacuum robots). I wish you all the best with what you already have ongoing and I hope you can take this little piece of feedback as something to think about, food for thought. All the best.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.801910Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589684.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589684",
+    "chunks_doc_id": "F3589684",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

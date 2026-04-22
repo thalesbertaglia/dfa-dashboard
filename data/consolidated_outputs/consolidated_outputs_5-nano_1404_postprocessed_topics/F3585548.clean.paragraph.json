@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585548",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:09Z",
+    "finished_at": "2026-04-14T12:30:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when game developers/publishers shut down servers, people no longer have the possibility of playing those games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14130,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! Please consider ensuring video games are included in this act as a lot of game developers/publishers create games which people buy to play, but than later when game developers/publishers shut down servers, people no longer have the possibility of playing those games even though they paid money. Imagine if you bought a movie on Blu-ray or DVD to watch whenever you wanted to, but the company that made the movie tells you to delete/destroy the movie or to give back the movie you bought. I want to own the entertainment I buy! Movies, games, books, music! I bought it, I should own it!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.797389Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585548.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585548",
+    "chunks_doc_id": "F3585548",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585548.clean.paragraph.json"
+}

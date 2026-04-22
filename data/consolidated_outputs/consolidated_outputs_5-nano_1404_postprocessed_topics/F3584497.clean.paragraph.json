@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584497",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:43Z",
+    "finished_at": "2026-04-14T12:00:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the long-term preservation and accessibility of video games once official support ends."
+              },
+              {
+                "quote": "Consumers who legally purchased games should retain the ability to play them even after developers discontinue updates, support, or server operations."
+              },
+              {
+                "quote": "Overly restrictive digital rights management should be balanced with provisions allowing offline play and archival of games that are no longer commercially active."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21869,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission team, I appreciate the opportunity to provide feedback on the proposed Digital Fairness Act. I would like to propose the inclusion of regulations that ensure the long-term preservation and accessibility of video games once official support ends. Key considerations: 1) Right to play purchased games: Consumers who legally purchased games should retain the ability to play them even after developers discontinue updates, support, or server operations. 2) DRM limitations and archival access: Overly restrictive digital rights management should be balanced with provisions allowing offline play and archival of games that are no longer commercially active. 3) Preservation and cultural value: Video games are an important part of digital culture and history. Ensuring their preservation benefits not only consumers but future generations, researchers, and cultural institutions. By including these provisions in the Digital Fairness Act, the EU would set a valuable precedent in protecting consumer rights and supporting digital heritage. Thank you for considering this feedback. Kind regards, Rumyan Aksimov",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.261796Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584497.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584497",
+    "chunks_doc_id": "F3584497",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584497.clean.paragraph.json"
+}

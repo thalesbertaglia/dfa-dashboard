@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584743",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:33Z",
+    "finished_at": "2026-04-14T12:09:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital game preservation within the scope of the Digital Fairness Act (DFA)"
+              },
+              {
+                "quote": "\"Need for Speed World\""
+              },
+              {
+                "quote": "until it abruptly got shut down, never to be usable again."
+              },
+              {
+                "quote": "This permanent shutdown of a purchased digital service highlights a significant consumer vulnerability, an unfair commercial practice where digital goods are revoked, and a complete loss of control over prior investments."
+              },
+              {
+                "quote": "to ensure long-term access to digital purchases"
+              },
+              {
+                "quote": "provide fair compensation when access is impossible"
+              },
+              {
+                "quote": "promote transparency from publishers regarding service longevity"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 50593,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to advocate for the inclusion of digital game preservation within the scope of the Digital Fairness Act (DFA), drawing from my personal experience of losing access to \"Need for Speed World\" after having spent over 300 in it and countless hours enjoying it until it abruptly got shut down, never to be usable again. This permanent shutdown of a purchased digital service highlights a significant consumer vulnerability, an unfair commercial practice where digital goods are revoked, and a complete loss of control over prior investments. I urge you to consider mechanisms within the DFA, or related legislation, to ensure long-term access to digital purchases, provide fair compensation when access is impossible, and promote transparency from publishers regarding service longevity, thereby building essential consumer trust in the digital economy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.383858Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584743.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584743",
+    "chunks_doc_id": "F3584743",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584743.clean.paragraph.json"
+}

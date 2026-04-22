@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584949",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:26Z",
+    "finished_at": "2026-04-14T12:15:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "play my gams"
+              },
+              {
+                "quote": "in the code of the game"
+              },
+              {
+                "quote": "Stop Killing Games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24388,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello wants to play my gams if I am 80 or 90 years old, and I would like to continue playing for playing for EUR 80 and up to EUR 10, and if possible, Packis could change the double pale by what you like to get EUR 80 and EUR 20 even though this is in the code of the game, even though this is in the code of the game, and thank you to Stop Killing Games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.518482Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584949.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584949",
+    "chunks_doc_id": "F3584949",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

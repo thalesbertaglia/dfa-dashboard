@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588943",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:27Z",
+    "finished_at": "2026-04-14T13:26:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games or games in general among many other subjects we still need."
+              },
+              {
+                "quote": "Games are a form of art and most just disappear when the publisher or developer feels like stopping support without any protection or backup plan."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16361,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello my name is Daan, I would like to thank the people for bringing up the Digital Fairness Act. But i hope it can also include video games or games in general among many other subjects we still need. We have seen from the Stop Killing Games EU Initiative getting 1.4+ million signatures that many feel as I do. That games and its consumers need more protections, especially because its retracting things you own, or destroying it. Games are a form of art and most just disappear when the publisher or developer feels like stopping support without any protection or backup plan.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.699308Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588943.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588943",
+    "chunks_doc_id": "F3588943",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

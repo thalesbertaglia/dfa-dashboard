@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587376",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:43Z",
+    "finished_at": "2026-04-14T13:16:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not only aggressively monetising them, through micro-payments or surprise boxes, which even hide about gambling."
+              },
+              {
+                "quote": "But above all in such a way that the title cannot be activated several years after its release."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "here you have the second part at an even higher price"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38363,
+          "unit_kind": "feedback"
+        },
+        "text": "Computer games are part of culture, it is difficult to imagine that other cultural works such as films, music, literature or art could be lost irreversibly so that people in the future cannot have the opportunity to become acquainted with them. But many companies are planning their games today, not only aggressively monetising them, through micro-payments or surprise boxes, which even hide about gambling. But above all in such a way that the title cannot be activated several years after its release. It is difficult to imagine a situation in which someone buys a book and cannot read it after 5 years, because the publisher has not only deprived him of the possibility of making a copy for his own use (digital version) or even arrived at the user’s home and buried the book in his eyes, saying that he has stopped supporting the title and here you have the second part at an even higher price, and this is what happens today with many games. This not only violates our consumers’ right to have a copy that has been legally purchased, but also future generations to familiarise themselves with cultural works like games. That’s why, as a proud member of the European Union, who has repeatedly shown that it stands on the side of ordinary citizens, not large corporations, to save and stand on the side of cultural heritage, not the profits of private corporations that will do their utmost to draw the last breath from the pockets of working and honest citizens",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.509902Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587376.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587376",
+    "chunks_doc_id": "F3587376",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

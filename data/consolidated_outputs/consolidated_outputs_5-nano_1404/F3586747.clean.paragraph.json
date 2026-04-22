@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586747",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:59Z",
+    "finished_at": "2026-04-14T13:03:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove games involving horror and inappropriate but legal content."
+              },
+              {
+                "quote": "safeguard for legal videogames so that they can't easily be removed by third party groups because they don't agree with its content or meaning."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies shouldn't be allowed to destroy videogames that is purchased by a consumer."
+              },
+              {
+                "quote": "if I buy a videogame for 80 euros(the new standard price of AAA games) it can be taken from me with just a six months notice unable to get a refund"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44492,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, These issues are very important to me an Australian activist group called Collective shout has pressurd Visa and Mastercard to force the companies Steam and itch.io to remove games involving horror and inappropriate but legal content. This troubles me because it feels like it is only a question of time before games I personally like will start to get removed because others may disagree with its content. I would really like if there was a safeguard for legal videogames so that they can't easily be removed by third party groups because they don't agree with its content or meaning. I would also like to trouble you with another request regarding videogames that a consumer has already bought. Companies shouldn't be allowed to destroy videogames that is purchased by a consumer. Around the world there have been hundreds of videogames that has been destroyed or will be and I personally feel nervous that if I buy a videogame for 80 euros(the new standard price of AAA games) it can be taken from me with just a six months notice unable to get a refund and it feels like it just burns my money for no reason so I along with the other million European citizens that signed the SDG initiative would appreciate if consumer protection likes this would be add. Thank you for taking time and reading this",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.336081Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586747.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586747",
+    "chunks_doc_id": "F3586747",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

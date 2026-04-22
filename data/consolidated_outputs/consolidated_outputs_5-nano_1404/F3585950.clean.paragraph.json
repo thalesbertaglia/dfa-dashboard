@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585950",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:48Z",
+    "finished_at": "2026-04-14T12:42:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers being able to revoke the ability to play games a consumer paid for is unacceptable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21263,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I appreciate the initiative of Digital Farinress Act but as someone who enjoys modern art in form of video games for many years I would like to request to broaden the core points to also include the initiative of Stop Killing Games. Publishers being able to revoke the ability to play games a consumer paid for is unacceptable. Stopping them would help preserve this form of art since video games are part of our culture.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.002182Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585950.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585950",
+    "chunks_doc_id": "F3585950",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

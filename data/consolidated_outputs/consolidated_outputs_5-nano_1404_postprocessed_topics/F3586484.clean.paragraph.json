@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586484",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:57:24Z",
+    "finished_at": "2026-04-14T12:58:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games that I consider a piece of art are made unplayable (effectively burning books) because of anti-consumer practices."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when you purchase something it belongs to you and should not be taken from you retroactively, or it should be stated that you are only purchasing a license for a set amount of time and that time needs to be stated at the time of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35896,
+          "unit_kind": "feedback"
+        },
+        "text": "As a fellow Eu citizen, I like what this Act is trying to achieve as I also aalign with is values. However I also like to bring the Stop Kiling Games movement and the Stop Destroying Videogames EU citizens initiative (what has more than 1.4 million signatures) into light, and consideration to be included in this Act. I belevie the goals of the initiative are the same in principle as the Acts so it would fit in there. I am believer that when you purchase something it belongs to you and should not be taken from you retroactively, or it should be stated that you are only purchasing a license for a set amount of time and that time needs to be stated at the time of purchase. These kind of things are not happening as of now. Games that I consider a piece of art are made unplayable (effectively burning books) because of anti-consumer practices. I hope that you can include the protections that Stop Destroying Videogames initiative aims to have in this Act so the aforementioned infringements can be mitigated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.257208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586484.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586484",
+    "chunks_doc_id": "F3586484",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586484.clean.paragraph.json"
+}

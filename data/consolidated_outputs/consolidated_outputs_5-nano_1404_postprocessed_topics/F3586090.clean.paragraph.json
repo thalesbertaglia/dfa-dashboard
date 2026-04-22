@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586090",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:34Z",
+    "finished_at": "2026-04-14T12:46:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital purchases of video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17024,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I am often frustrated by digital purchases of video games. The thesis are usually games that I have paid for. However, after a short time, these games are no longer considered profitable by the respective publisher and are no longer made available to me. A specific example of this is the game Resident Evil Re:Verse, which I received with my $60 purchase of the main game. This game was just shut down, so there is no longer way for me to access the content I paid for. Because of this and other examples, such as The Crew or LawBreakers, I want to demand that video game customers be protected from having their legally acquired products taken away.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.081408Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586090.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586090",
+    "chunks_doc_id": "F3586090",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586090.clean.paragraph.json"
+}

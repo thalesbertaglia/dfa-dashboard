@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584888",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:40Z",
+    "finished_at": "2026-04-14T12:14:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The sale of a video game, in particular a title requiring an online server connection to function, such as a product for which a perpetual licence is obtained, and then unilaterally revokes access, constitutes a form of digital programmed obsolescence."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This lack of transparency at the time of purchase can be considered as a form of dark pattern, as it obstructs key information which, if clearly presented, could influence the consumer’s purchasing decision."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The conditions for a publisher to end support for a game are often hidden in long and complex licensing agreements (EULA), which most consumers do not read or fully understand."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22070,
+          "unit_kind": "feedback"
+        },
+        "text": "The sale of a video game, in particular a title requiring an online server connection to function, such as a product for which a perpetual licence is obtained, and then unilaterally revokes access, constitutes a form of digital programmed obsolescence. The consumer purchases goods on the premise that they are able to use them, but this possibility is removed not because of a defect in the goods but because of a commercial decision of the publisher. This practice is misleading and unfair, as the value of the product is arbitrarily zero after purchase. The conditions for a publisher to end support for a game are often hidden in long and complex licensing agreements (EULA), which most consumers do not read or fully understand. This lack of transparency at the time of purchase can be considered as a form of dark pattern, as it obstructs key information which, if clearly presented, could influence the consumer’s purchasing decision.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.485374Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584888.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584888",
+    "chunks_doc_id": "F3584888",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584888.clean.paragraph.json"
+}

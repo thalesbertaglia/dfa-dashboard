@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584518",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:27Z",
+    "finished_at": "2026-04-14T12:00:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there are video game publishers that regularly stop supporting their games, shut down the servers and effectively end the possibility to ever play their game again without any end of life plan."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are seminars specifically created to teach video game developers and publishers ways to manipulate people into spending more and more money."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26813,
+          "unit_kind": "feedback"
+        },
+        "text": "Topic 1: Video Game Conservation: I have been playing video games my whole life, it is definitely a passion of mine. I view video games as a form of art. I also would like to continue to be able to use the video games that I purchased. However there are video game publishers that regularly stop supporting their games, shut down the servers and effectively end the possibility to ever play their game again without any end of life plan. The \"Stop Killing Games\"-Initiative (see also https://www.stopkillinggames.com/, and the corresponding EU-petition at https://eci.ec.europa.eu/045/public/#/screen/home) aims to prevent this by trying to introduce discussions regarding a possible legislation to ensure that video game publishers have a feasible end of life-plan in place should they decide to stop supporting their game. My hope the digital fairness act will also cover some form of support for this goal. Topic 2: Video Game Monetization The fact that video game publishers employ unethical practices in their game design is disgusting, and their should be a clearer way of restricting and or communication this fact to the public. There are seminars specifically created to teach video game developers and publishers ways to manipulate people into spending more and more money on a lot of modern mobile, but also home computer games. These practices are the same or similar to the once used by casinos and similar companies to entice players into continued spending, keep their interest and entice them to spend more through strategies like fear of missing out (fomo) or by artificially limiting availability. I hope the fairness act will also cover this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.271770Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584518.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584518",
+    "chunks_doc_id": "F3584518",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

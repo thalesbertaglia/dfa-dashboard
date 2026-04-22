@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587409",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:33Z",
+    "finished_at": "2026-04-14T13:16:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the end of life of video games in European legislation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20117,
+          "unit_kind": "feedback"
+        },
+        "text": "Hundreds of very popular video games, such as dote 2, Fate/Grand Order, Path of Exile or League of Legends, are at risk as soon as distributors decide that it will no longer be profitable to keep them online. This creates a cultural problem of preserving video games. Already a lot of video games, some of a recent famous past in the case of The Crew, others from a more remote past, have disappeared and can no longer be played. The issue of data preservation has also recently been addressed by the Internet Archive, which has promoted a game jam on the topic. The popular Stop Destroying Videogames initiative has reached almost a half million signatures. In the light of the above, I believe that the time is more than mature to address the issue of the end of life of video games in European legislation. The right thing to do is to oblige video game publishers to offer the fan-base (always full of resources) at least the possibility of playing a game on their own, at the end of its official support. This could include, for example, an application for playing the game on home servers, to be released at the same time as the deactivation of official servers. We could not save the video games of our childhood and adolescence. Let us at least save the children’s children’s childhood and adolescence. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.519736Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587409.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587409",
+    "chunks_doc_id": "F3587409",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587409.clean.paragraph.json"
+}

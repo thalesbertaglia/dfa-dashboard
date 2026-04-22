@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586261",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:06Z",
+    "finished_at": "2026-04-14T12:52:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark Patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "seasonal passes"
+              },
+              {
+                "quote": "microtransaction store"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31511,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to expand on both the Dark Patterns and Addictive Design. If we take a look at Triple A game developers, they employ predatory tactics and egregious monetisation. I'll take Diablo 4 as an example. The base game was availble in 3 propositions. Starting at 60euro and going to 100euro for the full package. The game also charges for seasonal passes, going for around 10euro, also has a microtransaction store and charges full price for yearly story expansion going from 40euros upwards. The microtransaction stores works with digital coins and it's created in such a way that you always have coins to spare but just never enough for a new purschase, enticing you to keep spending more and more. In a time where the cost of living is extremely high and more people are struggling, our policy makers should absolutely step in. We have seen the biggest shift of wealth during the pandemic for poor to rich and have seen corperation after corperation book monster profits and pay insane dividends to C-level, upping all their prices and blaming inflation for it. This level of corperate greed should be limited by policy makers. Consumers are constantly being squeesed for money. It's always the same demographic that has to cough up all the money: the general middle class. This has to stop! Protect your citizens, protect your consumers! Fight monster profits, fight egregious monetisation, fight the elite from getting richer and richer while the general population struggles more and more. Fight squeezing the middle class for everything! We've had enough!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.180666Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586261.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586261",
+    "chunks_doc_id": "F3586261",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586261.clean.paragraph.json"
+}

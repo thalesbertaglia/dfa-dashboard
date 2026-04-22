@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584670",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:53Z",
+    "finished_at": "2026-04-14T12:06:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There should be protections against misrepresenting a license as a purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Game Publishers and similar companies creating other types of software."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another example is Adobe removing their \"Lifetime purchase\" by revoking access to the software from all who purchased it and telling them they need to pay a monthly fee."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection of digital goods and proper ownership of them should be included in the Digital Fairness Act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47130,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see this act include consumer protections against the unethical behavior by Video Game Publishers and similar companies creating other types of software. There should be protections against misrepresenting a license as a purchase. If I purchase a Video Game, I would like to own it. Some Publishers have taken action to remove games from people's computers without their consent in the past, like the company Ubisoft has done with the game \"The Crew\". This is just an example but it can be applied to anything in today's digital world. Another example is Adobe removing their \"Lifetime purchase\" by revoking access to the software from all who purchased it and telling them they need to pay a monthly fee. In my eyes this is plain extortion. I find that protection of digital goods and proper ownership of them should be included in the Digital Fairness Act. Thank you for taking the time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.346944Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584670.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584670",
+    "chunks_doc_id": "F3584670",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584670.clean.paragraph.json"
+}

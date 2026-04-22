@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585825",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:43Z",
+    "finished_at": "2026-04-14T12:38:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns in use in the sale of software and hardware products where the manufacturer/seller advertises and sells their product for a one time payment (as a good), but then treats it like a service."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is a very common practice in the games industry"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the manufacturer changing, degrading, or outright disabling the purchase remotely at their whim, with no recourse for the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21707,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request that this act also considers dark patterns in use in the sale of software and hardware products where the manufacturer/seller advertises and sells their product for a one time payment (as a good), but then treats it like a service. Often we are sold such devices or software for a one time fee, but are forced to agree to continual changes to the contract post-purchase, (in the form of End User License Agreements full of jargon) and in many cases, the manufacturer changing, degrading, or outright disabling the purchase remotely at their whim, with no recourse for the consumer. Often this is done as a way to force consumers to buy a newer version of a product. This is a very common practice in the games industry, but is a problem for many other products, such as smart phones, smart devices, consumer electronics, and paid software. It is unreasonable and unfeasible to force companies/manufacturers to provide support for these products forever, however, they should be required to have end of life plans and procedures that allow consumers to continue to reasonably use their purchases after support has ended, with no further support from the company/manufacturer. This is very feasible and reasonable, and there are many examples of games, software, and electronic devices that have successfully ended support while retaining key features and usability for those who purchased them. At the very least, companies should support and allow consumers to \"digitally repair\" their purchase at end of life in order to keep their product working in a reasonable fashion, comparable to as it was sold and advertised to them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.940092Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585825.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585825",
+    "chunks_doc_id": "F3585825",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585825.clean.paragraph.json"
+}

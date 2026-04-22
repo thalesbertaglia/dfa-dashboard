@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589010",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:51Z",
+    "finished_at": "2026-04-14T13:28:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ownership rights of individuals who purchase video games."
+              },
+              {
+                "quote": "Shutting down servers, disabling access, or removing key features from purchased games without the users consent violates the basic principle of ownership."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15158,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen and digital consumer, I strongly believe that the Digital Fairness Act must explicitly protect the ownership rights of individuals who purchase video games. Once a game is boughtdigitally or physicallyit should belong to the user, not remain under the arbitrary control of publishers who may later decide to shut it down or remove access entirely. There is a growing concern that consumers are being misled into thinking they own digital products when, in fact, they only receive limited, revocable licences. This practice is unfair. If I pay for a product, I expect to retain access to it indefinitely, just as I would with a physical good. Games are no exception. Shutting down servers, disabling access, or removing key features from purchased games without the users consent violates the basic principle of ownership and undermines consumer trust in the digital market. This is particularly serious in the case of single-player games, or games that function perfectly well offline. I urge the Commission to include in the Digital Fairness Act strong and specific clauses that: Guarantee continued access to purchased games, even after commercial support ends. Prevent unilateral removal of content or functionality from products already sold. Recognise the consumers right to digital permanence, similar to physical ownership. Require clear disclosure if a game is dependent on online services that may be discontinued. Digital fairness must include digital property rights. A game bought is a game owned. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.724588Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589010.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589010",
+    "chunks_doc_id": "F3589010",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

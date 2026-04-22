@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3589065",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:50Z",
+    "finished_at": "2026-04-14T13:29:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the widespread practice of many sellers, after some time, to deprive customers of access to purchased digital content constitutes a massive gap in consumer protection."
+              },
+              {
+                "quote": "In some cases, it is even done to the extent that lawfully acquired content is erased from the buyer or rendered the right unusable by software updates."
+              },
+              {
+                "quote": "(a) make legally purchased products unusable by means of updates or similar, or limit the scope of use;"
+              },
+              {
+                "quote": "(b) prohibit artificial dependence on a securator connection or at least require that it be removed by means of an update before the server stops;"
+              },
+              {
+                "quote": "(c) require that the technical means and legal means be made available so that customers can store or operate the content themselves or jointly (adaptation of licences, provision of server software and similar);"
+              },
+              {
+                "quote": "(d) inform consumers in good time so that they have reasonable time to secure their data, set up servers or take other necessary measures."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35417,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, the widespread practice of many sellers, after some time, to deprive customers of access to purchased digital content constitutes a massive gap in consumer protection. The use of digital content such as films, series, music, games, audiobooks, software, IoT equipment, etc. is permanently controlled by the seller through technical measures, so that the seller can make the purchased product unusable at any time. This is often achieved by the need to have a digital connection to a server of the seller, manufacturer or the like during or prior to use, and the operation of that server is simply discontinued after some time. In some cases, it is even done to the extent that lawfully acquired content is erased from the buyer or rendered the right unusable by software updates. That practice also poses a threat to privacy, since this ‘online’ obligation gives the most accurate insight into the behaviour of use and causes significant damage to the environment by additional e-waste from hardware that functions technically correctly but whose software has been rendered inoperable. In order to prevent these unfair commercial practices, misleading marketing and consumer detriment, rules would need to be put in place. This could, for example, (a) make legally purchased products unusable by means of updates or similar, or limit the scope of use; (b) prohibit artificial dependence on a securator connection or at least require that it be removed by means of an update before the server stops; (c) require that the technical means and legal means be made available so that customers can store or operate the content themselves or jointly (adaptation of licences, provision of server software and similar); and (d) inform consumers in good time so that they have reasonable time to secure their data, set up servers or take other necessary measures. As an EU citizen, I would like to thank you for closing these gaps in consumer protection.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.743488Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589065.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589065",
+    "chunks_doc_id": "F3589065",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589065.clean.paragraph.json"
+}

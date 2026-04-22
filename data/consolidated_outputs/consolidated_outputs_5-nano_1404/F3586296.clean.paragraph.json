@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3586296",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:08Z",
+    "finished_at": "2026-04-14T12:54:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is a growing trend of companies retroactively imposing subscriptions on products that consumers already purchased with the expectation of full functionality."
+              },
+              {
+                "quote": "existing customers were told they must now pay 1,188 NOK (~$117 USD) annually to use the smart-home hubs they had previously bought outright."
+              },
+              {
+                "quote": "This change was implemented through a software update that disabled access to app and cloud services unless users subscribed, effectively bricking devices already in consumers homes."
+              },
+              {
+                "quote": "Consumers must be protected from being forced into ongoing payments for products they already paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Stop Killing Games Movement Another related issue is the growing public concern over the discontinuation of access to purchased digital games, known through movements like Stop Killing Games."
+              },
+              {
+                "quote": "Games are increasingly tied to online services, and when companies shut down servers or revoke accesseven for single-player titlesconsumers lose access to products they paid for."
+              },
+              {
+                "quote": "In many titles, players are coerced into purchasing randomized lootboxes in order to progress, either due to design limitations or psychological manipulation through scarcity, fear-of-missing-out mechanics, or aggressive monetization."
+              },
+              {
+                "quote": "Such mechanics should either be explicitly banned or subjected to strict regulation, including mandatory transparency, age restrictions, and the right to progress without payment."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 57701,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the Commissions initiative to improve fairness for consumers in the digital environment. I would like to highlight three particularly urgent areas where digital consumer rights are currently being undermined and where regulatory intervention is needed: Forced Subscriptions After Purchase (Post-Sale Lock-In) There is a growing trend of companies retroactively imposing subscriptions on products that consumers already purchased with the expectation of full functionality. A striking recent case is that of Futurehome in 2025. After the company was relaunched post-bankruptcy, existing customers were told they must now pay 1,188 NOK (~$117 USD) annually to use the smart-home hubs they had previously bought outright. This change was implemented through a software update that disabled access to app and cloud services unless users subscribed, effectively bricking devices already in consumers homes. Such post-sale coercive tactics not only betray consumer trust but also resemble retroactive contract manipulation and amount to unfair commercial practices. Consumers must be protected from being forced into ongoing payments for products they already paid for. The Stop Killing Games Movement Another related issue is the growing public concern over the discontinuation of access to purchased digital games, known through movements like Stop Killing Games. Games are increasingly tied to online services, and when companies shut down servers or revoke accesseven for single-player titlesconsumers lose access to products they paid for. This undermines the concept of digital ownership and raises serious concerns about fairness and the right to access purchased content. The EU should introduce rules to ensure that digital goods remain accessible post-purchase, especially in cases where offline functionality can and should be maintained. Predatory Lootboxes and Gambling-Like Progression Systems Lastly, there is an urgent need to regulate lootboxes and progression systems in videogames that resemble or enable gambling. In many titles, players are coerced into purchasing randomized lootboxes in order to progress, either due to design limitations or psychological manipulation through scarcity, fear-of-missing-out mechanics, or aggressive monetization. This is especially harmful to minors and vulnerable consumers and should be treated as a form of predatory gambling, not entertainment. Such mechanics should either be explicitly banned or subjected to strict regulation, including mandatory transparency, age restrictions, and the right to progress without payment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.192834Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586296.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586296",
+    "chunks_doc_id": "F3586296",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

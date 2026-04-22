@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585193",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:19Z",
+    "finished_at": "2026-04-14T12:22:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Welcome to the current state of Video Games in 2025!"
+              },
+              {
+                "quote": "The game is gone and dusted."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You bought the license. Therefore it's yours until the company says otherwise."
+              },
+              {
+                "quote": "you are only renting this game and the expiration date is already set in stone on day XX.XX.XXXX."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25896,
+          "unit_kind": "feedback"
+        },
+        "text": "Imagine the following scenario: You bought a car. Any car. You bought it. For many . You didn't lease it. You didn't rent it. You bought it. At least that's what the seller told you. One day the car company says: \"Sorry. We do not support this model of car anymore. It will not be able to be repaired in our shops, nor will we produce spare parts. We will take your car away, because we can no longer assure your safety in the future. But hey! You can always buy the follow up model, which is supported! (for now)\" Then, one day after, a car company guy comes to you house and takes your car away. Just like that. Gets in, drives off. Car is gone. No further statement. No money back. Car just gone. Even though you just bought it a few years ago. Welcome to the current state of Video Games in 2025! With different context, this is 1:1 what happened to \"The Crew\", by the french publisher \"Ubisoft\". The game is gone and dusted. Goodbye. You paid money for it? Aww, just buy the new one! It's way better anyway, right?! My personal experience would be Overwatch. I paid money for it. A lot of money for a video game. I loved it. I spent many hours playing it. Furthermore, I made a lot of real friends playing it. Real life implications. Yippie! One day, the publisher Blizzard, released Overwatch 2. For free. I didn't like it. It was not as good as the first one. Especially with them trying to change the financial model of it. They changed gameplay, gamemodes and everything there is to care for. And Overwatch 1, the game I supposedly bought? Gone. Just like that. Access removed. Unlaunchable. Nowhere to be found / downloaded / played. I would love to play it with my friends, maybe on a Party, maybe at a Tournament, maybe not now but in 10 years for Nostalgia sake? But no. It's gone. Without turning criminal, unlaunchable. Literally part of modern History lost. Forever. Game was legendary worldwide. Never was I asked if I am okay with this. Nor was I told that the game will be literally gone. Poof! Magic! I still have the packaging in my drawer. Haha! All just memories now. Un-relivable. Here we are. This happens to games across the globe. People get told they bought a license to the game. Maybe deep deep inside the EULA you can find out that your access might be revoked. But when will this happen? Nobody knows. You bought the license. Therefore it's yours until the company says otherwise. We need rules against this behavior, just like most other industries have. But for some reason, the biggest entertainment sector of them all, video games, went under the radar. I like to believe that this is because Video games are always \"at the vein of time\" and can be produced and manged in a very short time frame. Way shorter than society is able to adapt it's rules and laws. But now the time has come to adjust a little bit, for the customers sake. Protect us from these practices. Force them to release an end of life plan. Nobody asks that the publisher has to keep the game running indefinitely. Just allow us, the customer, to run local servers with friends and family. On our own risk. The Company isn't liable at this point. Or force them to put CLEAR AND BIG label on all games, front and center, that tell you that you are only renting this game and the expiration date is already set in stone on day XX.XX.XXXX. See how fast they will change their ways, since it doesn't look good to \"sell\" games with an expiration date on it. What a shock! Cheers",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.630347Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585193.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585193",
+    "chunks_doc_id": "F3585193",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

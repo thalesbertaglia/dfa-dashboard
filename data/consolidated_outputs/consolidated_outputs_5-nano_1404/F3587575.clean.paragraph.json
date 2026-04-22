@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3587575",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:41Z",
+    "finished_at": "2026-04-14T13:19:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "intentionally addictive design as to hook vulnerable people in"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "cancelling subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video-games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As things stand, companies are allowed to 'kill' digital media they have already sold without providing any resources to allow consumers to continue using it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56292,
+          "unit_kind": "feedback"
+        },
+        "text": "I, along with many people, feel that the balance of power (on the Internet at the very least) has skewed too heavily on the side of the private sector. It has lead to the propagation of many anti-consumer practices such as the ones listed in the Digital Fairness Fitness Check. Some of these are bothersome at best (e.g. cancelling subscriptions) and downright abusive at worst (e.g. intentionally addictive design as to hook vulnerable people in). I'm in support of the Digital Fairness Act as it could help put regulations to prevent these sorts of unethical tactics being used. As others have said, it would also be good if the Act addressed the problems of ownership and preservation of digital media. As things stand, companies are allowed to 'kill' digital media they have already sold without providing any resources to allow consumers to continue using it. As a consequence, consumers can never really own or maintain what they buy. Companies hold too much power in this regard as they can then force consumers to buy newer versions of products they already bought in the first place. The Stop Killing Games movement seeks to address this problem for video-games, but it's an issue that concerns digital media as a whole. Those are some of my thoughts. If anyone's read this, well... Thanks for reading!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.546526Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587575.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587575",
+    "chunks_doc_id": "F3587575",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

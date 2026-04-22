@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585985",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:48Z",
+    "finished_at": "2026-04-14T12:43:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "surveillance of personal data and browsing habits."
+              },
+              {
+                "quote": "what kind of guilty pleasures you seek out in your free time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20140,
+          "unit_kind": "feedback"
+        },
+        "text": "My main concern right now is the constantly returning attempts in regards to online censorship by activist groups and specific national governments, but also surveillance of personal data and browsing habits. As long as something is legal, it should be freely available for everyone to view, discuss and purchase, optimally without everyone else knowing you're doing so as well. As for the second matter, I will confidently say that practically no one likes the idea of companies, governments and consequently hackers having access to all the information about what kind of guilty pleasures you seek out in your free time. This means that attempts to force digital identification for any kind of adult content creates extreme vulnerabilities in regards to leaks and breaches of personal information to the open web. So instead of forcing people to risk their data for the sake of protecting children, as the usually explained justification for this privacy violation entails, it would instead be preferable to put the process of age verification at either the hardware level, or alternatively, it would be better to only require a one time age verification when installing the device software, before any risky data can be created or transferred but no verification thereafter. If the device is then still used by children to access adult media, the blame should fall on the guardians instead of the media provider. The right to privacy should not end in the digital space, just because the personal information is electronic.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.021588Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585985.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585985",
+    "chunks_doc_id": "F3585985",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585985.clean.paragraph.json"
+}

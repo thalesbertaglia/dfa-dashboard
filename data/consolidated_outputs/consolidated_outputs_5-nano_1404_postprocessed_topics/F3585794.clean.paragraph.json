@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585794",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:58Z",
+    "finished_at": "2026-04-14T12:37:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I remember spending a lot of money on a videogame, then later was \"cancelled\" by the publisher, all the money sunk into it was lost."
+              },
+              {
+                "quote": "Moreover, there were a few games that i have bought, a few games that i have paid for my hard earned money for, that are at risk of being just erased from stores, erased from existance, not to be accessible anymore."
+              },
+              {
+                "quote": "I find this kind of behaviour even more appaling than overabundance of lootboxes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20802,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey. I'm a concerned gamer. I remember spending a lot of money on a videogame, then later was \"cancelled\" by the publisher, all the money sunk into it was lost. Moreover, there were a few games that i have bought, a few games that i have paid for my hard earned money for, that are at risk of being just erased from stores, erased from existance, not to be accessible anymore. I find this kind of behaviour even more appaling than overabundance of lootboxes. Of course, i understand that everyone who's making software doesn't do it for the fun of it - especially when it comes to things as expensive as modern videogames - but unlike physical product that you buy once and can use for all eternity, or untill you utterly and irrevocably break it - this kind of product is at the mercy of publishers and execs, who care for nothing but the profit. It is my firm belief that video games are a form of art, and art should be preserved, regardless of the whims of CEOs. Thank you for coming to my TED talk",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.923718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585794.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585794",
+    "chunks_doc_id": "F3585794",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585794.clean.paragraph.json"
+}

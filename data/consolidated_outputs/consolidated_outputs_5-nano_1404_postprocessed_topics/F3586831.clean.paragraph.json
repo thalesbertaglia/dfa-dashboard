@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586831",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:23Z",
+    "finished_at": "2026-04-14T13:05:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Game industry."
+              },
+              {
+                "quote": "live-service and always-online requirements"
+              },
+              {
+                "quote": "the provisioning of end-of-life plans for every new game being launched."
+              },
+              {
+                "quote": "Games that are 'sent out to die'"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42507,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital fairness act makes a positive first framework for the protection of consumers vis-a-vis larger on-line entities and actors. One noticeable field that appears wholly absent in the act at present, however, is the Video Game industry. Despite being a major economic driver in many EU countries, and a growing consumer base engaging with this field, I personally feel that practices of live-service and always-online requirements, where a studio has exclusive control over a fully-priced product, even after purchase, leaving the consumer at the mercy of the studio, regardless of the nature of the game in question, are contrary to the spirit of consumer rights within the EU. While fringe cases exist (what with dedicated multiplayer experiences?), the general thrust of the law here should be that a consumer canbe confident that when they have paid for a product, they receive the value thereof in return. Games that are 'sent out to die', are shuttered within a short time-frame (less than five years, for example), or are otherwise rendered unplayable after a studio pulls on-line support (such as the case with EA's \"the Crew\") fly straight in the face of this adagio. As a result, popular movements like the Stop Killing Games movement, show a growing demand for regulatory action against these practices - at the very least the provisioning of end-of-life plans for every new game being launched. The broad popular support, combined with a true market need, and the fact that several of the key issues are due to on-line possibilities, make that I personally feel that a beginning of an outline for a solution on the issues raised by the Stop Killing Games movement and similar initiatives can be formulated within the confines of the digital fairness act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.359041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586831.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586831",
+    "chunks_doc_id": "F3586831",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586831.clean.paragraph.json"
+}

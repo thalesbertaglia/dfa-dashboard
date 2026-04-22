@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588800",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:41Z",
+    "finished_at": "2026-04-14T13:25:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I wish for the Digital Fairness Act to also include support for the preservation of Games and the protection of purchased goods even after a Company shuts down its own support."
+              },
+              {
+                "quote": "We pay for Video Games and wether they are physical copies or digital ones should not give the publisher the ability to just destroy any kind of access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14177,
+          "unit_kind": "feedback"
+        },
+        "text": "I wish for the Digital Fairness Act to also include support for the preservation of Games and the protection of purchased goods even after a Company shuts down its own support. We pay for Video Games and wether they are physical copies or digital ones should not give the publisher the ability to just destroy any kind of access. Consumers need to be protected from company overreach.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.686887Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588800.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588800",
+    "chunks_doc_id": "F3588800",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588800.clean.paragraph.json"
+}

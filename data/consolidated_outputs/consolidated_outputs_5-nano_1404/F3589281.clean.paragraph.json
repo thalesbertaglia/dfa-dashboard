@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589281",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:31Z",
+    "finished_at": "2026-04-14T13:31:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, publishers can (and will) revoke our games and delete them whenever they choose to, essentially deleting our game and making our purchase completely wasted."
+              },
+              {
+                "quote": "even going as far as removing the game from my library."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34099,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello EU Parliament! I agree with the digital fairness act points you have brought up but I have to voice my concerns over the licensing and ownership of our videogames. Right now, publishers can (and will) revoke our games and delete them whenever they choose to, essentially deleting our game and making our purchase completely wasted. I myself have been the victim of this with a game published by ubisoft named \"The Crew\". If you are not familiar with the game, it is a racing game set in the USA where you could drive throughout the entire country in one open map. I, and many others, bought the game and enjoyed it for many many years until one day ubisoft pulled the plug and made us unable to play it, even going as far as removing the game from my library. I loved playing it to relax and drive from the east to the west coast in one large \"roadtrip\" of sorts. Now I cannot do so anymore and it is extremely frustrating that all of those moments are now just mere memories of the past. I wish that the digital fairness act could potentially help with this issue and prevent it in the future. This call for action can already be seen by another online initative called \"Stop Destroying Videogames\" which has garnered about 1.45 million signatures and I and many others would appreciate it if you could look into this issue and potentially find a good solution to this problem. Thank you for starting the digital fairness act and for reading this message. I hope you all have a wonderful day and let's hope we can get customer's protected from predatory and greedy practises.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.776023Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589281.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589281",
+    "chunks_doc_id": "F3589281",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

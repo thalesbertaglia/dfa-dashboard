@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585946",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:43Z",
+    "finished_at": "2026-04-14T12:42:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not work unless you pay for a subscription."
+              },
+              {
+                "quote": "Used to work without being connected to the internet, now requires internett access AND a subscription."
+              },
+              {
+                "quote": "Not only do we have to pay subscriptions to access basic functionality, it is also making it more difficult to repair the stuff you own."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We should be entitled to access games that we have paid for, even if the publisher deems it inprofitable."
+              },
+              {
+                "quote": "Mandate them to offer an option for community ran servers, in exchange for not being liable for the quality of said servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52627,
+          "unit_kind": "feedback"
+        },
+        "text": "I am going to add to the pile here, I am also Norwegian, so this will influence me as well, through EØS. I think it is about time that consumers are given fair protection regarding the products we buy. While I understand the need for businesses to protect their IPs, as consumers we are more and more limited in regards to how we use the products we buy. Smart home devices are often locked in to proprietary ecosystems, meaning we can't use them if the servers go down, the company goes bankrupt or they change their policy. Two examples: Future Home just pushed an update that made most of the functionality of their smart devices not work unless you pay for a subscription. Functionality that did work locally before the update. Same story with Echelon exercise bikes. Used to work without being connected to the internet, now requires internett access AND a subscription. More and more car companies are also locking functionality behind subscription services, it is obvious how this is not to the benefit of end consumers. Not only do we have to pay subscriptions to access basic functionality, it is also making it more difficult to repair the stuff you own. And lastly, video games. So many have commented on it, so I will be brief: We should be entitled to access games that we have paid for, even if the publisher deems it inprofitable. Mandate them to offer an option for community ran servers, in exchange for not being liable for the quality of said servers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.000294Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585946.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585946",
+    "chunks_doc_id": "F3585946",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

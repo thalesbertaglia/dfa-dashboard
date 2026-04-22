@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33095996",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:30:13Z",
+    "finished_at": "2026-04-14T10:30:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Drop-shipping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "drop-shipping"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18138,
+          "unit_kind": "feedback"
+        },
+        "text": "SMEunited supports the overall objectives of the Digital Fairness Act (DFA) to protect vulnerable people online and ensure a level playing field for all. The European Union must play its protective role, particularly with regard to SMEs, which are suffering from fierce unfair competition linked to the development of e-commerce platforms. European consumers benefit some of the strongest protections in the world. Therefore, any further regulatory measures must be proportionate, targeted, and mindful of their impact on SMEs. The guiding principle of the DFA should align with the simplification agenda. Rules must be clear and consistent, and ensure smooth compliance. The DFA should focus on loopholes that create genuine risks. Any new provisions should be strictly necessary and must not duplicate existing legislation. SMEunited calls for the DFA to focus on: - Shielding EU SMEs against unfair competition from e-commerce, by tackling unfair practices, supporting ustoms and market surveillance and assigning clear rules to adress drop-shipping; - streamlining consumer law, to ensure compliance is feasible for the smallest companies. Instead of introducing new legislation, the DFA should ensure that guidelines are updated to tackle emerging digital threats like fraud, counterfeiting, AI manipulation, as well as dark patterns and hidden advertising. This is vital for maintaining fairness and competitiveness of European SMEs; - strengthening enforcement and implementation of existing digital policy in a proportionate way.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.812788Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095996.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095996",
+    "chunks_doc_id": "F33095996",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095996.clean.paragraph.json"
+}

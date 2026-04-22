@@ -1,0 +1,96 @@
+{
+  "doc_id": "F32844812",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:27:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the mobile phone sector, carriers use misleading push notifications to scare customers into buying additional services."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The media focuses on issues with video games but it is a general software as a service (SaaS) problem."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "SaaS is sold as a product but in reality it is a rental with an arbitrary end date."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In SaaS, companies can at any point remove features, change terms or block users based on internal company policies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31381,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act must re-evaluate priorities based on all the feedback. I am an electrical engineering student at TU Vienna focusing on embedded systems and IoT. My fathers eleven-year-old Mercedes-Benz navigation system is now useless because Mercedes ceased updates after nine years. Mercedes has the means to provide new navigation data in the old format, as they had done for nine years from 2014 to 2023. There are no paid updates from Mercedes, and no third-party solutions available - paid or free. This is simply a way to make cars obsolescent early, reduce resale value, and push people to buy new cars. I propose that manufacturers of durable goods must provide well-documented open access for third parties to continue support after official support has ended. The media focuses on issues with video games but it is a general software as a service (SaaS) problem. Many single- and multi-player games stop working once the company shuts down the servers with no option for the community to keep them working. Dedicated server software is no longer provided as it was in the past. SaaS is sold as a product but in reality it is a rental with an arbitrary end date. Even if laws were changed to force clear labeling of SaaS as rentals, that would still be insufficient. Ownership is an important concept and must be preserved. In SaaS, companies can at any point remove features, change terms or block users based on internal company policies. Autodesk and Adobe have moved much of their software functionality to the cloud, requiring constant internet access and server-side processing. A server outage causes lost time and money - never mind the privacy concerns of having sensitive data processed and stored on third-party servers possibly in other countries. In the smart home sector, many devices require mobile phone apps or servers hosted by manufacturers for essential functionality. The same privacy and single point of failure concerns apply here. IoT devices must feature user-updatable firmware and open protocols with local control. Look at efforts such as TASMOTA, ESPHome, and Home Assistant to see how it is done right. IoT devices must not end up in landfills, require device lock-in via Android/Apple apps, or feature spyware. Turning to the payment processing sector, PayPal, Visa and Mastercard have a monopoly on payment processing and act as gatekeepers. They can block payments to companies or individuals regardless of the legality of the actual purchase, based solely on internal policies. Recently PayPal blocked payments to some companies in the adult industry. Mastercard and Visa forced the online store itch.io to unlist or remove adult games from their catalog. Even Valve's dominant Steam store has been forced to act against adult games due to pressure from payment processors. In the mobile phone sector, carriers use misleading push notifications to scare customers into buying additional services. For example, my provider A1 recently sent a notification stating \"Warning, Someone is reading your messages!\" (translated from \"Vorsicht, hier liest jemand mit!\" A1 28.08.2025). This was just an advertisement for their paid security package. Such practices are dishonest, manipulative, and unacceptable. Google is locking down Android, reducing user freedom and choice. They are closing down the sources and are now introducing mandatory developer verification. This would allow Google to decide what apps consumers are allowed to install on their own devices, not based on legality but purely on internal policies. Device owners should have the right to install any software they choose on their own devices regardless of any government or company policies. Protecting minors is vital but should be achieved through parental controls and education, not by eroding the fundamental rights of all citizens. My attached whitepaper further illustrates my positions on digital freedom.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.444251Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844812.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844812",
+    "chunks_doc_id": "F32844812",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F32844812.clean.paragraph.json"
+}

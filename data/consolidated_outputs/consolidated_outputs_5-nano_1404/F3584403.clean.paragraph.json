@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584403",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:21Z",
+    "finished_at": "2026-04-14T11:57:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark pattern should absolutely be outlawed or at least limited"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another issue that needs to be addressed is the issue of game ownership, a lot of companies are shutting down servers that are needed to play the game, even if there is single player content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14406,
+          "unit_kind": "feedback"
+        },
+        "text": "I think that dark pattern should absolutely be outlawed or at least limited, personally, I was charged more that 100 when I thought I was starting a free trial for a month for a VPN, I was able to get a refund only after asking the company directly, there were no way to do it on the website even thought it was very easy to sign up. Another issue that needs to be addressed is the issue of game ownership, a lot of companies are shutting down servers that are needed to play the game, even if there is single player content. When I buy a game, I'd like to be sure that I will be able to keep playing it forever, not until the developers decide to stop supporting it",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.218131Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584403.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584403",
+    "chunks_doc_id": "F3584403",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

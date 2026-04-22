@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584922",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:37Z",
+    "finished_at": "2026-04-14T12:14:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gamble-like monetization that plagues the video game industry"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Also, game ownership for products we've bought should be an obvious common right."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21959,
+          "unit_kind": "feedback"
+        },
+        "text": "Just look into the gamble-like monetization that plagues the video game industry and please make sure this can't happen. It's not only about children safety but to protect people vulnerable to addictive personalities too. Adults that easily spend 100s if not 1000s a month in games specifically designed to have predatory monetization that function similarly to casinos yet are not regulated as such. Also, game ownership for products we've bought should be an obvious common right.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.505019Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584922.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584922",
+    "chunks_doc_id": "F3584922",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584922.clean.paragraph.json"
+}

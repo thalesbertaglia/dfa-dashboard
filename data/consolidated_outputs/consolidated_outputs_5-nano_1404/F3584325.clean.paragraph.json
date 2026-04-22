@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584325",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:16Z",
+    "finished_at": "2026-04-14T11:55:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some games, like the famous example of \"The Crew\" by Ubisoft, were sold to people but later shut down, leaving players with nothing."
+              },
+              {
+                "quote": "It can feel misleading when games are marketed and advertised as something you own, but in reality are treated more like temporary services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19725,
+          "unit_kind": "feedback"
+        },
+        "text": "As an avid gamer, I ask to consider including video games in this initiative. Some games, like the famous example of \"The Crew\" by Ubisoft, were sold to people but later shut down, leaving players with nothing. It can feel misleading when games are marketed and advertised as something you own, but in reality are treated more like temporary services. I believe this is an area where more fairness and protection for consumers could really help. So please, just consider.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.178982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584325.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584325",
+    "chunks_doc_id": "F3584325",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587525",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:59Z",
+    "finished_at": "2026-04-14T13:18:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include video games preservation in the Digital Fairness Act."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "egregious prices (with the market aiming for around 80 to 100 dollars in recent months for a digital license, not even a physical product)"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "modified their terms and services in order to take away ownership and control for their customers,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42098,
+          "unit_kind": "feedback"
+        },
+        "text": "Good evening, I am writing to you to politely ask if you could perhaps include video games preservation in the Digital Fairness Act. Currently, more and more publishers sell us a license or \"permission slip\" to access the video games they publish under the guise of a product, all the while reserving the right to sunset them for any and all reasons, with or without informing the player base. Currently, it is the case for Blizzard Entertainment and EA, who have even modified their terms and services in order to take away ownership and control for their customers, after the people have paid for their so-called products. As a result, hundreds of thousands of people end up paying egregious prices (with the market aiming for around 80 to 100 dollars in recent months for a digital license, not even a physical product) for the privilege of accessing an online service, whether the \"product\" they \"buy\" is supposed to depend on an online service or not, in the first place, only to lose access to said product when the company refuses to provide the necessary online support for it. We have singleplayer games nowadays that depend on DRMs in order to verify the integrity of the files, that become inaccessible without it, when in reality it should still be able to run perfectly fine without said DRM. We have games only accessible through a company's proprietary launchers, that require authentication to online services to play, even if the game is, in theory, perfectly usable offline (ie. EA, Ubisoft, Rockstar Games, Creative Assembly). We have offline games with online functionalities, that cease functioning once the online servers are shut down (The Crew). And we have companies that tell us to get used to not owning our games anymore, when even just 20 years ago, they used to sell CDs and DVDs with online functionalities that I still possess and can play on my old consoles offline, even with the servers long dead. This is an increasingly disingenuous and toxic environment for game owners all around the globe, and I plead with the act to include video games in their consideration. Thank you kindly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.537841Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587525.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587525",
+    "chunks_doc_id": "F3587525",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587525.clean.paragraph.json"
+}

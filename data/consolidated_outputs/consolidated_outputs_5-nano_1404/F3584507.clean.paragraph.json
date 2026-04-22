@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584507",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:05Z",
+    "finished_at": "2026-04-14T12:00:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game Overwatch"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "strong focus on manipulation monetisation: purchase time limit, sale per pack of currencies that do not correspond to the purchase value, etc."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "purchase time limit, sale per pack of currencies that do not correspond to the purchase value, etc."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The seller must not be able to continue to remove access to one product and force another on the buyer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39848,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to suggest adding protection to access to software, utility or hobby, purchased by the consumer after the end of the medium by the supplier. It is clear that software will not be updated and corrected forever, but it should remain usable by the buyer and online functionalities should be capable of being performed by the customer or hosted on private servers. The seller must not be able to continue to remove access to one product and force another on the buyer. I give as an example the case of the premium paid premium game video game Overwatch, which was killed by Blizzard to be forcefully replaced by Overwatch 2 with a strong focus on manipulation monetisation: purchase time limit, sale per pack of currencies that do not correspond to the purchase value, etc.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.266522Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584507.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584507",
+    "chunks_doc_id": "F3584507",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

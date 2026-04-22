@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585503",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:16Z",
+    "finished_at": "2026-04-14T12:29:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not fair for bought video games (being a digital good) to be taken away from us on short notice because it is not being supported anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10358,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to bring your attention to the stop killing/destroying games movement and ask you to think about including it in your digital fairness act since I feel that it should be covered in it aswell. I and many others believe that it is not fair for bought video games (being a digital good) to be taken away from us on short notice because it is not being supported anymore. From what people in the industry that support this movement say it would not be that expensive or difficult to do. Please consider taking it under your mantle and helping millions of people to get the consumer protection they deserve.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.776635Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585503.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585503",
+    "chunks_doc_id": "F3585503",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

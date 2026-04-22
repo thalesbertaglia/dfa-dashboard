@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584972",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:36Z",
+    "finished_at": "2026-04-14T12:17:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutdown of multiplayer servers and digital services in video games, which often leads to rendering products unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative personalization"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29077,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen and consumer, i welcome the initiative to strengthen digital fairness and tackle problematic practices online. However, i would like to raise awareness of an increasingly harmful yet overlooked practice: the shutdown of multiplayer servers and digital services in video games, which often leads to rendering products unusable. In recent years, i have noticed a trend where games (even recently released ones) become unplayable when publishers take down online servers. These are not isolated cases. In many instances, the games core functionality relies on online components, meaning consumers are effectively losing access to what they paid for. This practice particularly affects titles with DRM or always-online requirements, even when a single-player mode exists. As seen by recent online discussion surrounding this topic, it seems like this problem is only growing and calls for policy change. If a product is sold as a service, then its longevity should be transparently communicated. At the very least, publishers should be required to: disclose server shutdown timelines at the point of sale, allow for community-hosted servers and stop using DRM or always-online requirements for primarily single-player games. These practices are not only unfair to consumers, they also reflect addictive design and manipulative personalization, where games are live-operated to maximize spending but discarded quickly once profitability drops. Such actions result in planned obsolescence, data loss, and broken consumer trust. All of which fall squarely within the scope of the digital fairness principles laid out in the initiative. I hope this issue can be taken into consideration in the further development of the legislation. The EU has a unique chance to set global standards for consumer protection in the gaming sector.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.532445Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584972.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584972",
+    "chunks_doc_id": "F3584972",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

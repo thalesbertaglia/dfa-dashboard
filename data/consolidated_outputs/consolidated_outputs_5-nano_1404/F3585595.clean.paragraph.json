@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585595",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:11Z",
+    "finished_at": "2026-04-14T12:31:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EULA's containing rules that are basically against the law and could take away the product you paid for because they say you did something that wasn't allowed according to their eula.."
+              },
+              {
+                "quote": "and when the company decides to pull the plug on the servers you can't play your paid for game anymore!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23758,
+          "unit_kind": "feedback"
+        },
+        "text": "Would love it if you could take a look at the malicious(maybe even illegal?) practices that videogame studios/publishers pull nowadays EULA's containing rules that are basically against the law and could take away the product you paid for because they say you did something that wasn't allowed according to their eula.. Also more and more games are made to need internet even when they're single player games and when the company decides to pull the plug on the servers you can't play your paid for game anymore! All of this can't be legal or shouldn't be in my eyes and I'm hoping this can change for all the people playing games and/or using any digital products/programs.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.819702Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585595.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585595",
+    "chunks_doc_id": "F3585595",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

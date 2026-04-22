@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33096461",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:51:49Z",
+    "finished_at": "2026-04-14T10:51:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9469,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a contribution from eight academic experts in dark patterns: Dr. Nataliia Bielova, Inria, France; Prof. Cristiana Santos, Utrecht University, The Netherlands; Prof. Colin M. Gray , Indiana University Bloomington, USA; Dr. Arianna Rossi, SantAnna School of Advanced Studies, Pisa, Italy; Dr. Brennan Schaffner, Georgetown University, USA; Dr. Alina Stöver, Technische Universität Darmstadt, Germany; Hannah Krahl, Technische Universität Darmstadt, Germany; Dr. Johanna Gunawan, Maastricht University, The Netherlands. We present our inputs organized by topics aligned with the Commissions objectives and policy options, drawing from academic knowledge from the fields of Law, Design, and Human-Computer Interaction within Computer Science.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.907103Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33096461.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33096461",
+    "chunks_doc_id": "F33096461",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33096461.clean.paragraph.json"
+}

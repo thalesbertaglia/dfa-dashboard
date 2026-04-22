@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587980",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:38Z",
+    "finished_at": "2026-04-14T13:22:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games in particular"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the licence agreement for the use of the video games sold, which the customer is forced to sign, contains a clause specifying, in summary, that at any time, even the day after purchase, any access to the product may cease."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27327,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, if you would like to add to the legislation on digital fairness a component offering greater protection for European consumers who buy video games in particular, against the sometimes abusive commercial practices of publishers selling these video games? As co-organiser of the ECI (2024) 000007 European Citizens’ Initiative, dealing with this subject, I have been suffering from the proliferation in recent years, in the video industry, of a practice that is hostile to consumers, close to planned obsolescence (whether it is the sale of a physical or dematerialised product). In the past, when a consumer bought a product like a video game, or his or her licence for personal use, he could continue to use the product for as long as his (computer) equipment allowed it, but more and more publishers disable the possibility of using the product remotely, for example for reasons of profitability or to increase the number of customers potentially interested in purchasing their new products. This happens after an arbitrary period that could range from one day after the purchase to a few years, never specified at the time of purchase by the consumer, without the purchase price of the video game (sometimes 100) ever being reimbursed. As suggested in the European Citizens’ Initiative, many technical solutions exist for (at a lower cost for the publisher) to return to the previous situation where, when the publisher wished to stop paying the servers necessary for the operation of old games sold, it was still possible for customers to benefit from at least some of the functionalities. Even with a physical copy, the consumer becomes blurred of the full value of the initial purchase, whereas the product, which is ultimately unusable, is not sold as a kind of fixed-term subscription but as a product. It is totally abnormal that the publisher can arbitrarily decide that allowing the customer to enjoy the product 1, 3, 10, or 40 years would be “sufficient”; and from the point of view of the European customer lambda, this would amount to buying a car from a garage worker, who would decide, for example one year later, that you would ‘have served it for a long time in his opinion’ and move away from your car home, without any possible recourse or reimbursement, to have your new, generally more expensive vehicles purchased. At present, publishers claim to have the right to do so because the licence agreement for the use of the video games sold, which the customer is forced to sign, contains a clause specifying, in summary, that at any time, even the day after purchase, any access to the product may cease. It is legally highly questionable to consider this argument sufficient because such a term could be seen as largely unfair; simplifying: “we grant us all the rights to what you bought and you have to accept to use it without knowing if/when your use of the product will become impossible”. What hampers me most in this practice is the loss of cultural heritage: For the young European generation, video games are, as would be films, often ways to live stories, emotions, such as works of art, and many artists contribute to creating inspiring virtual worlds, hence their success, and this cultural heritage disappears as a result of this commercial practice that could be banned by the digital fairness legislation, at least framed. If the digital adventure that ebahi 10 years earlier is to live for his child, it is now prevented. It is as if you bought a book from a publisher, and when, for example, 5 years later, the publisher discovers it to your child, the publisher would have made the ink invisible on all the books sold remotely, without reimbursing anything. Could you help EU citizens?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.599031Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587980.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587980",
+    "chunks_doc_id": "F3587980",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

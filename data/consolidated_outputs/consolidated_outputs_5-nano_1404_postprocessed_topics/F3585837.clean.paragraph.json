@@ -1,0 +1,100 @@
+{
+  "doc_id": "F3585837",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:28:26Z",
+    "finished_at": "2026-04-15T08:29:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Dark patterns and manipulation (+addictive designs that are subsection of manipulation for interactive content):"
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "mainly video games and social networks"
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "Deception through influencers"
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "those where only license or a subscription is sold."
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "hiding purchases inside the game instead of upfront"
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "contract details are hidden in EULA or End of use agreement, since these are intentionally written extremely long to discourage reading"
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 50862,
+          "unit_kind": "feedback"
+        },
+        "text": "As someone who has used internet basically their entire life, I would like to start by bringing out the root cause of anti-consumer practices: control over the consumer by the seller in hope to create a market subsection as close to monopoly as possible. To keep this readable i will try to list as many bad practices as i can remember divided in relation to policy goals. 1 & 2. Dark patterns and manipulation (+addictive designs that are subsection of manipulation for interactive content): - For non-interactive content like operating software for machines, content streaming and art, the problem is usually either ownership, bundling or misrepresentation of long term support. In regard to this issue I would like discussion on: production of e-waste or unusable products by revocation of consumers access to otherwise functional machine's software, bundling/linking together software to make consumers pay for something they dont want in order to get the part of it they do want, making a clear separation between digital products consumers buy and have the complete products at their disposal even offline and those where only license or a subscription is sold. - When it comes to interactive products, mainly video games and social networks, the situation is far worse due to consumer's engagement with the products or other users, in which situation consumers often feel an attachment to what they have earned or made inside the product's ecosystem (projected image, achievements, status symbols/rare rewards, etc.), making them far less likely to leave that ecosystem, even when unhappy with it, due to sunk costs and feeling of being left out. Main problem here is intentional design of these apps in a way that does not solve a user's need or want but instead give them an illusion they are doing, having or sacrificing time and money for something important. Here I would like discussed: legality of creating a product that parasites/holds user as hostage instead of trying to improve user's life, direct present and future consequences of using such apps or denied access after prolonged usage and their resemblance to gambling when it comes to paying for a chance to get something desirable. 3. Impact on minors - Formerly stated is just amplified when it comes to minors in my opinion. Since they have yet to find what they like and value, apps simply try to tell them that is something inside the app that feels important. This creates a dependency on said app, inflicting mental pain to minors when they are away from it. 5. Deception through influencers - In my opinion, only solutions to this are either holding both influencers and advertisers legally accountable for every misrepresentation, lie and redaction, or directly mandating forms/places of online advertising. 6. Pricing and digital contracts This is the easiest one to explain through examples: - contract details are hidden in EULA or End of use agreement, since these are intentionally written extremely long to discourage reading, consumers can easily miss important parts like ownership, termination conditions (possibly aren't any specifics, just what seller deems wrong), product support, dangers and similar - please mandate these to be separated into concise warning at 1st attempt of usage of the product - DRM - often extremely complicated and root-access systems that besides trying to prevent piracy, also encourage it by giving consumers worse experience through spying data, slowing down computer processing or outright not working after some time or offline, therefore denying app access - Online only apps - besides never stating product end-of-life time, many of these apps also falsely market as \"free\", hiding purchases inside the game instead of upfront. Those that do have upfront cost are starting to add extra in-app purchases later on, making initial purchase a sunk cost instead of complete product cost. Can't write more due to char limit so thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.946243Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585837.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585837",
+    "chunks_doc_id": "F3585837",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585837.clean.paragraph.json"
+}

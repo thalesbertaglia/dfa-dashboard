@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584531",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:53Z",
+    "finished_at": "2026-04-14T12:01:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I think you should consider adding on something like what the \"Stop Killing Games Initiatiative\" is doing."
+              },
+              {
+                "quote": "Stop Killing Games aims to preserve digital products and software inorder to save consumers purchased digital products and software from being \"turned off\" by companies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21650,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey! My names is Joel, and i´ve just seen the Digital Faireness Act. I love seeing the initiative to protect consumers from these predatory practices. I think you should consider adding on something like what the \"Stop Killing Games Initiatiative\" is doing. Stop Killing Games aims to preserve digital products and software inorder to save consumers purchased digital products and software from being \"turned off\" by companies. If a piece of software has been purchased it should keep working as long as long as the hardware supports it. I kindly ask you to consider adding on such a law into the act as a preventative measure. Thanks for taking the time reading. // Joel",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.278420Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584531.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584531",
+    "chunks_doc_id": "F3584531",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

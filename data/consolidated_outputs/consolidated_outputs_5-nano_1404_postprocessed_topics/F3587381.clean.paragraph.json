@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587381",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:47Z",
+    "finished_at": "2026-04-14T13:16:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "NFS 2015, this is single player racing video game, with additional online player functionalities."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair practice, that i can buy something now that has \"to be defined\" expiration date, that is not even mentioned at point of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32244,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i think this one need to take look at what is happening in gaming industry. We currently are able to \"purchase\" games that do not need to connect to internet but are made in such manner that it requeres it, and because of that if that server goes down, people are not able to play their offline games. From my personal example: NFS 2015, this is single player racing video game, with additional online player functionalities. It even has go offline option after person log into game and start to play online. But for some reason this game in offline mode needs connection to internet. Now when publisher will find that it is no longer viable to pay for their server to work they would just disable access to basically single player video game i had payed for to be played. At current point of time there are many more of such games, i had just given personal example, as i see that functionalities of this game can be changed on my copy, so i see it is basically singleplayer game that does not need internet connection, it just has one. Even tho, i personally have knowledge about such practice, and i have only less and less will to buy such games. I dont see myself as affected rn as other people are, but i see it as unfair practice, that i can buy something now that has \"to be defined\" expiration date, that is not even mentioned at point of purchase. Thank You for reading it, and i hope You would take a look about such issue that touches consumer rights in digital media, which we though we would not need to take look at. Have a nice day, peace",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.510538Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587381.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587381",
+    "chunks_doc_id": "F3587381",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587381.clean.paragraph.json"
+}

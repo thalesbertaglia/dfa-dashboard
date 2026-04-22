@@ -1,0 +1,58 @@
+{
+  "doc_id": "F3585620",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:41Z",
+    "finished_at": "2026-04-14T12:31:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 7447,
+          "unit_kind": "feedback"
+        },
+        "text": "It has been shown many times over the years, that monetary fines alone do not always give enough of an incentive for companies to adhere to laws, rules or regulations. So in this feedback I would like to ask, that the penalty for non-compliance will be set at either an amount that can not be disregarded, even by major companies. Or that aditional penalties get implemented, which might give more of an incentive to behave fairly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.836804Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585620.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585620",
+    "chunks_doc_id": "F3585620",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

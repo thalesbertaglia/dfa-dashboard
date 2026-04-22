@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33093963",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:39:59Z",
+    "finished_at": "2026-04-14T09:40:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "charging developers or distributors to verify their apps"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18309,
+          "unit_kind": "feedback"
+        },
+        "text": "I call on the EC to use the DFA as an opportunity to deal with extremely anti consumer and anti competitive practices of big companies that are gatekeepers of the industry. For example: Google announced that they will be introducing developer verification for installation of all apps on verified android devices. Not only those in their own app store. This policy is problematic for several reasons: My device, my ownership: Users should have full control over their own devices without external gatekeeping. Imposing developer verification restricts this fundamental ownership right. Reduced user choice and freedom: Users lose the ability to freely install apps from alternative sources, limiting diversity and customization of their devices. Monetization of access: Google will be charging developers or distributors to verify their apps, which creates a financial barrier and monetizes what should be open access. Gatekeeping free and open-source software (FOSS): This verification process can be used to block or hinder the free distribution of FOSS apps, undermining the principles of open software and user freedom. Google has hinted at possible blocking of apps that are alternatives to their own. Undermining European digital sovereignty: By centralizing control over app distribution, Google weakens efforts by European entities and citizens to maintain digital sovereignty and control over their own digital ecosystems, conflicting with regulatory goals and user rights. Security risks from centralization: Relying on a single entity for developer verification creates a single point of failure and potential abuse, increasing risks of censorship, surveillance, or arbitrary blocking of apps. Stifling innovation: Restricting app installation through verification can slow down or prevent innovative apps from reaching users, especially small developers or independent creators who may not afford or pass the verification process. Incompatibility with open ecosystems: Such verification policies conflict with the ethos of open platforms and ecosystems that encourage experimentation and user empowerment. Effectively blocking the use of alternative appstores. Big payment processors like Mastercard, Visa, and PayPal use their dominant market position to censor lawful content that does not align with their preferred narratives. This practice is harmful for consumers and smaller, European, businesses: Threat to free expression: Censorship by payment processors restricts the ability of individuals and organizations to share lawful viewpoints, undermining fundamental rights to free speech. Market control abuse: These companies leverage their near-monopoly status to impose ideological control, effectively deciding which lawful content can be monetized or accessed. Chilling effect on innovation and diversity: Developers, creators, and businesses may self-censor or avoid controversial but lawful topics to maintain payment access, reducing diversity of ideas and innovation. Lack of transparency and accountability: Payment processors often operate without clear, consistent policies or meaningful oversight, leading to arbitrary or opaque censorship decisions. Undermining democratic values: When financial gatekeepers control access to lawful content, it weakens democratic discourse and citizen participation. Economic harm: Blocking payment services for lawful content creators can cause significant financial damage, threatening livelihoods and economic freedom. No alternative recourse: Due to the dominance of these payment processors, affected parties often have limited or no alternatives to receive payments, amplifying the impact of censorship.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.633693Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33093963.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33093963",
+    "chunks_doc_id": "F33093963",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

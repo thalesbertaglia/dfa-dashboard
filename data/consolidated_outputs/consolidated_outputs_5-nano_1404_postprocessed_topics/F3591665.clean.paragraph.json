@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591665",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:27Z",
+    "finished_at": "2026-04-14T13:36:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deny the consumer access to it once they stop supporting the product"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12920,
+          "unit_kind": "feedback"
+        },
+        "text": "As an additional point there should be some measure of protection for consumers against the current ongoing practice whereby publishers, mostly those of video games, market and sell their products as goods only to then deny the consumer access to it once they stop supporting the product, most often through a form of online DRM. Easily implemented alternatives to this practice, such as having a thought out 'end-of-life' plan, or releasing server binaries to give the consumers an option to repair their purchased product and keep it in a playable and accessible state after support from the publishers ends, already exist and have been proven to work, or are even considered a best practice in fields outside of game development. Many such alternatives are detailed in the Stop Killing Games initiative, ECI(2024)000007, which currently has over 1.4 million signatures. Implementing these in the Digital Fairness Act would go a long way to protect consumers against this consumer hostile and predatory practice by game publishers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.885226Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591665.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591665",
+    "chunks_doc_id": "F3591665",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591665.clean.paragraph.json"
+}

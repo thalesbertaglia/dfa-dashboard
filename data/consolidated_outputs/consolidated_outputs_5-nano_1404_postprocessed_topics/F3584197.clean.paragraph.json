@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584197",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:56Z",
+    "finished_at": "2026-04-14T11:52:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "for publishers to sell EU citizens a license to video games rather than the actual product its self."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16782,
+          "unit_kind": "feedback"
+        },
+        "text": "You should include Video games in this Act. It has become all to common in the games industry these day for publishers to sell EU citizens a license to video games rather than the actual product its self. This enables the producers of said game to destroy the product without ensure the customer keep the product they were lead to believer they had purchased. An EU citizens imitative known as Stop Killing Games has recently hit a massive 1.4 million signatures to have it discussed at the European Commission. this alone shows how strongly the people of Europe feel about having something they paid for taken from them with no End of Life support plan for the product or compensation for having it destroyed and taken away. Please help the gamers of the EU our rights are being stomped on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.120714Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584197.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584197",
+    "chunks_doc_id": "F3584197",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584197.clean.paragraph.json"
+}

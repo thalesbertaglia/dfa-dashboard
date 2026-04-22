@@ -1,0 +1,101 @@
+{
+  "doc_id": "F3586468",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:58Z",
+    "finished_at": "2026-04-14T12:58:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I 100% agree with the dark pattern provision"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games like Fortnite that don't make you confirm your purchases"
+              },
+              {
+                "quote": "randomized items that can be bought in-game with real world money"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription services that make it hard to opt out are also a problem."
+              },
+              {
+                "quote": "I find the Amazon page design that tries to make you subscribe to their premium service particularly egregious."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The commission should emphasize consumer choice and personalization and business freedom in making this law"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 103482,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to start by saying that, as an internet native and EU citizen I whoileheartedly agree with your initiative. However, I also have concerns and critiques. I 100% agree with the dark pattern provision, something like what Adobe did to artists is abhominable and the commission should look into it. Video games like Fortnite that don't make you confirm your purchases, and subscription services that make it hard to opt out are also a problem. I find the Amazon page design that tries to make you subscribe to their premium service particularly egregious. Public rate disclosure (in the game itslelf or on the developer's website) of randomized items that can be bought in-game with real world money are also something that could be introduced, and maybe expanded to TCGs and blind bags. On the addictive digital product design as a whole, however, I have concers: that point, written like that, is way too vague and could possibly require services to be forced to or pressured into removing a lot of features or retiring from the EU market altogether, which would ultimately harm consumers Addicting design and digital addiction are themselves very controversial topics that are too loosely defined and cotroversial within the scientific community itself. What would count as \"addictive\" design and how do you differentiate it from normal product design? After all, every app is designed so that the user finds it useful and wants to use more of it. Removing features such as autoplay would just be inconveniences to most users rather than curbing addiction, and those features can be turned off willingly by users anyway: the commission shouldn't try to take away consumer and business freedom and try to make decisions in their place Furthermore, removing the most obvious \"addictive\" features would leave companies just implementing less obvious ones. The commission should emphasize consumer choice and personalization and business freedom in making this law",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.251624Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586468.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586468",
+    "chunks_doc_id": "F3586468",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587491",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:42Z",
+    "finished_at": "2026-04-14T13:17:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames from being permanently taken offline and consumers being unable to access a product that they have already paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13210,
+          "unit_kind": "feedback"
+        },
+        "text": "This would be good to include videogames from being permanently taken offline and consumers being unable to access a product that they have already paid for. There are hunderds of examples of developers completely taking a product, that millions of consumers have already paid to access and play, and taking any and all connectivity and/or support for even complete offline accessibility for those titles. Developers and studios should therefore be encouraged and preferably enforced to have a so called \"end of life plan\" where these games could still be accessed in a playable state for the consumers who have, in many cases already paid for the product, after the studio/developer cannot or will not resume active support (i.e content updates, network connectivity, etc.). Furthermore there has already been a European citizens' initiative called \"stop destroying videogames\" with over 1.4 million votes across the EU nations with a same goal, to stop studios/companies/developers from completely destroying videogames with no plan to let consumers to enjoy their works after they themselves decide to not continue actively supporting them. Thank you very much for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.531013Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587491.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587491",
+    "chunks_doc_id": "F3587491",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

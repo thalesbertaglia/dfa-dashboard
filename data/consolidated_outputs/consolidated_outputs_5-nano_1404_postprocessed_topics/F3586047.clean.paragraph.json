@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586047",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:57Z",
+    "finished_at": "2026-04-14T12:45:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games still lack some of the most basic regulations and related consumer rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13315,
+          "unit_kind": "feedback"
+        },
+        "text": "For the billion Euro industry it has become over the last decades, digital goods and video games still lack some of the most basic regulations and related consumer rights. A lot of practices currently commonplace on the digital market would be highly illegal if they were applied to physical goods. Therefore I support the Digital Fairness Act and hope that it gains support simmilar to the SKG (Stop Killing Games) European citizen initiative that was signed by 1.4 million people to date. This topic is important to a lot of people, it's high time something happens!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.055630Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586047.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586047",
+    "chunks_doc_id": "F3586047",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586047.clean.paragraph.json"
+}

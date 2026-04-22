@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585839",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:04Z",
+    "finished_at": "2026-04-14T12:38:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are being removed or shutdown by developers."
+              },
+              {
+                "quote": "an always online requirement just so they can shut it down and force us to buy their new products"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38702,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, As a someone who plays video games, i have been standing on the sidelines watching as more and more video games are being removed or shutdown by developers. They don't want people to keep playing their older games so they can keep selling new games. This includes single player games. More and more they launch them with an always online requirement just so they can shut it down and force us to buy their new products, even though it is very easy to let the gamers host their own servers or play their single player games offline. I believe we need to protect all games because they are a form of art. The developers should not be allowed to remove games, or make them unplayable just on a whim.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.947407Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585839.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585839",
+    "chunks_doc_id": "F3585839",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585839.clean.paragraph.json"
+}

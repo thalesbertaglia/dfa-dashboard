@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587972",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:36Z",
+    "finished_at": "2026-04-14T13:22:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games publishers present the purchase of video games as a product"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to try to use the EULA rules to take any right to own a product or to take it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29348,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am not very happy to see how games publishers present the purchase of video games as a product, and also to try to use the EULA rules to take any right to own a product or to take it, which has been bought or the game is explicitly killed in order to be intorious and in no way maintain it. For such games, they should report when they end their support at least for how long they will be operational and, at the end of the support, maintain the play game in offline mode or community server (these options to address it more). Developers and publishers should expect that the operation of such online services will not be perpetual and that they should have a plan to preserve the game, both culturally and from the buyer’s point of view. Kind regards, Dominik Horák",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.598488Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587972.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587972",
+    "chunks_doc_id": "F3587972",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

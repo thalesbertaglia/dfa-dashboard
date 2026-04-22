@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585612",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:32Z",
+    "finished_at": "2026-04-14T12:32:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital Rights Management (DRM) requirements that require daily/weekly connections and are linked to a third-party service without which they cease to operate."
+              },
+              {
+                "quote": "then a consumer should be allowed to continue using the “product” it has purchased by its own means, or a different version should be presented to him, so that he can continue to use the product without access to the “service” part (e.g. a server)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35782,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital media, such as films, books and games, which are ‘purchased’ (through a licence or otherwise) and not ‘rented’ (subscriptions with a fixed time indicated on the sale), should be available for life. Currently, people are forced to live with the risk of losing access to their purchased items, due to the ‘always online’ requirements and the Digital Rights Management (DRM) requirements that require daily/weekly connections and are linked to a third-party service without which they cease to operate. It is like buying a car, except that the car manufacturer can simply lock you out of your vehicle – on a head, because they no longer want to produce spare parts for that. Instead of allowing the consumer to repair his car himself or to source spare parts from another supplier. If an undertaking no longer intends to provide a service (whether because of maintenance costs, profitability or any other reason) and has no reasonable claim that a third-party service would harm its future profits with “that” service (quod non, it does not intend to continue providing that service), then a consumer should be allowed to continue using the “product” it has purchased by its own means, or a different version should be presented to him, so that he can continue to use the product without access to the “service” part (e.g. a server).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.828662Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585612.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585612",
+    "chunks_doc_id": "F3585612",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585612.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3589535",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:39Z",
+    "finished_at": "2026-04-14T13:32:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For videogames specifically, recent European Citizens' Initiative (\"Stop Destroying Videogames\") has garnered 1.4+ million signatures seeking to bring attention to this problem of destruction of sold products."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "draconian terms such as giving the seller the right to revoke the licenses at any given time, for \"any or no reason\"."
+              },
+              {
+                "quote": "This contradicts established consumer laws such as directive 93/13/EEC against unfair terms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32519,
+          "unit_kind": "feedback"
+        },
+        "text": "I kindly recommend the commission to look into the possibility of adding provisions regarding artificial destruction of paid digital content (e.g. software) when they're not sold as a service. There's been an increase for digital content to be sold with no clear expiry or recurring payments, seemingly as if it's a perpetual license (what's traditionally expected), only for the license agreement to have draconian terms such as giving the seller the right to revoke the licenses at any given time, for \"any or no reason\". This contradicts established consumer laws such as directive 93/13/EEC against unfair terms. Most consumers are unaware of these terms, and those who are aware cannot make informed decisions as customers due to their ambiguity. In practice, such terms allow for IP holders to artificially deprive customers of their possessions. This is done under the guise of \"ending support\", wherein the digital content is designed in such a way that once support ends, the product ceases all functionality immediately as a form of programmed obsolescence (not \"wear and tear\" or any digital equivalent). This ensures all customers have to move on to other, newer products. One consumer effort looked at 738 videogames. 313 were still supported, and 425 of them had ended support. Of the 425 titles, 110 were made functional again by technically skilled communities of customers, and 16 of them were left functional by the developers. The remaining 299 were rendered completely unusable. It's very likely the 313 titles currently supported will also be rendered unusable in the future. This data was collected at the behest of & has been submitted to the BEUC. For videogames specifically, recent European Citizens' Initiative (\"Stop Destroying Videogames\") has garnered 1.4+ million signatures seeking to bring attention to this problem of destruction of sold products. Given that the Digital Fairness Act seeks to prevent consumer-hostile practices and ensure adequate consumer protections online, I would implore the commission to tackle this matter so that digital products sold to consumers cannot be arbitrarily taken away. Thank you for your work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.796544Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589535.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589535",
+    "chunks_doc_id": "F3589535",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

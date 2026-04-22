@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585670",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:01Z",
+    "finished_at": "2026-04-14T12:33:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unregulated EULA's where if they simply deemed a video game unviable to keep running, they can simply take it down completely and destroy it even after a full price payment"
+              },
+              {
+                "quote": "This also means i lose complete access to the video game i have paid money to."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11269,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I'd like to leave this feedback for the sake of consumer rights concerning video games. As you might already know, big corporations have very unregulated EULA's where if they simply deemed a video game unviable to keep running, they can simply take it down completely and destroy it even after a full price payment which can range from 1 to upwards of 120+'s. This also means i lose complete access to the video game i have paid money to. Which is against consumer rights where i live currently which is finland.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.861483Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585670.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585670",
+    "chunks_doc_id": "F3585670",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585670.clean.paragraph.json"
+}

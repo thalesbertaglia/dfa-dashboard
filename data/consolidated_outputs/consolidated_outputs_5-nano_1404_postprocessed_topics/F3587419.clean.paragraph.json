@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587419",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:36Z",
+    "finished_at": "2026-04-14T13:17:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative design"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "within the gaming industry itself,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Terms of Service for many video game holding companies, like Activision-Blizzard."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39943,
+          "unit_kind": "feedback"
+        },
+        "text": "This legislation addresses many of the frustrations I encountered online, often resulting in wasted time and unnecessary expenses due to exploitative and anti-consumer practices. A clear example is within the gaming industry itself, where a publisher or a developer may decide to end support for a previously purchased product without notice or explanation. Its unreasonable to expect the average consumer to navigate pages of complex legal languagematerial theyre often unequipped to understandjust to protect their privacy or make informed decisions. Agreements between consumers and service providers lose their legitimacy when one party is pressured into acceptance without full understanding. An example would be the Terms of Service for many video game holding companies, like Activision-Blizzard. Many of these issues are covered in the citizens' initiative \"Stop Destroying Videogames\", which has managed to gain a lot of support and traction, for it is indeed in the interests of the consumer to have its rights protected under the legislature. Protecting consumers from manipulative design and preserving ownership rightsespecially in digital contextsare vital. This should also extend to physical devices with internet connectivity. Consumers shouldnt be forced to accept Terms of Service or End User License Agreements just to use products theyve legally purchased. While this concern may fall slightly outside the primary scope of the current act, I believe it deserves serious attention in future discussions. Any steps taken toward addressing these issues would be greatly appreciated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.520877Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587419.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587419",
+    "chunks_doc_id": "F3587419",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587419.clean.paragraph.json"
+}

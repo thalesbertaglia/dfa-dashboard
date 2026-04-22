@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591426",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:20Z",
+    "finished_at": "2026-04-14T13:35:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "demanding censorship on legal topics in event chat"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16720,
+          "unit_kind": "feedback"
+        },
+        "text": "Payments processors like MasterCard and Visa must be regulated. These foreign influencers that hold a duopoly on the card payments are demanding censorship on legal topics in event chat or are demanding removal of legal goods from digital marketplaces like Steam with threats of cutting business ties. Payments processors should never hold power other companies to threaten them like that and I find it incomprehensible that EU currently let's them get away it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.862365Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591426.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591426",
+    "chunks_doc_id": "F3591426",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591426.clean.paragraph.json"
+}

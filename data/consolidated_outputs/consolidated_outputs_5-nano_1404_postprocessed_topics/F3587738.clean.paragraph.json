@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3587738",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:32Z",
+    "finished_at": "2026-04-14T13:21:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rendering lawfully purchased games unplayable when publishers withdraw online services or DRM."
+              },
+              {
+                "quote": "The Crew became unplayable after a server shutdown."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative interfaces"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Any ToS term defeating (1)(5) is void; designate violations as black-listed unfair practices with penalties and a private right of action."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43085,
+          "unit_kind": "feedback"
+        },
+        "text": "Submission: Prohibit killing purchased video games; mandate end-of-life preservation I urge the Commission to ensure the Digital Fairness Act (DFA) stops the practice of rendering lawfully purchased games unplayable when publishers withdraw online services or DRM. This is a widespread harm that current instruments only partly address (e.g., DSA Article 25 on manipulative design; the Digital Content Directive on conformity) and it has now produced concrete consumer disputes (e.g., The Crew became unplayable after a server shutdown). Principle (no-kill): If a game is marketed as a purchase (or licence without a clear end date), continued playability of core gameplay must be guaranteed, even after commercial support ends. Minimum obligations on traders (no opt-out via disclosure): Offline/Server-less fallback. Before withdrawing an essential service or DRM, provideat no extra costan update enabling local play without publisher-controlled servers or keys. Community continuity. If (1) is technically infeasible, provide interoperability information and permission for compatible community-run servers, or release the necessary binaries/keys under a non-commercial licence limited to operability of legitimately acquired copies. (This builds on the EU software interoperability framework.) Escrow & notice. Publish an EOL plan at launch; give 6 months notice before shutdown; escrow decryption keys/documentation with a trusted EU body, automatically released at EOL. Save-data portability. Provide tools to export/import saves and configuration. Currency redemption. Let consumers cash-out unspent in-game currency at face value upon EOL. Contract-override & enforcement. Any ToS term defeating (1)(5) is void; designate violations as black-listed unfair practices with penalties and a private right of action. Why this fits EU law: DSA Art. 25 tackles manipulative interfaces but not post-sale disabling of products; the DFA can close that gap. The Digital Content Directive ensures conformity/updates but does not ensure playability after service withdrawal; DFA can clarify that durability of digital purchases includes operability absent ongoing servers. EU copyright already recognises preservation and interoperability (CDSM Directive Art. 6; Software Directive Art. 6). DFA consumer rules can require traders to make those outcomes feasible in practice (keys, documentation, permissions) and bar contract override. Evidence of harm & public interest: High-profile shutdowns have left paying consumers with nothing; the SKG movement documents consumer detriment and preservation failure. The DFA should codify that publishers may leave the market, but must not destroy access to what consumers already bought.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.578717Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587738.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587738",
+    "chunks_doc_id": "F3587738",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587738.clean.paragraph.json"
+}

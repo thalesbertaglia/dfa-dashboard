@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3585822",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:37Z",
+    "finished_at": "2026-04-14T12:38:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the user thought they purchased a product, but in reality it was a license."
+              },
+              {
+                "quote": "to force shops to make it 100% clear that what the user is buying is a license or a product"
+              },
+              {
+                "quote": "to notify the user on purchase about the date when the service will end"
+              },
+              {
+                "quote": "and finally to give the user a way to keep the purchased product in an usable state after end of service."
+              },
+              {
+                "quote": "With games/software it means to keep it in a playable/usable state, and with movies/music to give a method to download the purchased movies/albums"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processor companies have way too much power in censoring digital content they don't like fit."
+              },
+              {
+                "quote": "These contents are legal, but often the webshops have no other choice than to remove them, because otherwise these paymentprocessors stop working with the company, and make it imposible to make ANY purchase on the website."
+              },
+              {
+                "quote": "Today they have this power."
+              },
+              {
+                "quote": "They should not have this kind of power and webshops should be protected from them."
+              },
+              {
+                "quote": "Most recently Steam and Itch.io had to delete and/or hide many adult themed games because of this issue."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43715,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings! I would like you to add two more points to the act that I find important in terms of Digital Fairness. 1) A lot of feedback asks for user protection on game purchases. While this topic is important, I think it just a smaller slice of a bigger problem: Removing access to purchased media affects other type of media as well, not just videogames. Not so long ago Sony removed the feature to watch purchased movies on their console and with that all the movies were also deleted from the user acounts. Similarty to what the #stopkillinggames movement focus of concern is: the user thought they purchased a product, but in reality it was a license. Sony had the power to revoke it with a short notice and removing the content from the useraccount. What I ask, is to force shops to make it 100% clear that what the user is buying is a license or a product; to notify the user on purchase about the date when the service will end, or the company notice the user at least 2 years beforehand; and finally to give the user a way to keep the purchased product in an usable state after end of service. With games/software it means to keep it in a playable/usable state, and with movies/music to give a method to download the purchased movies/albums 2) My other concern is that payment processor companies have way too much power in censoring digital content they don't like fit. There are many examples where companies like Visa, MasterCard and PayPal bullied other companies into removing or censoring specific content, just because they didn't find that content \"family friendly\". These contents are legal, but often the webshops have no other choice than to remove them, because otherwise these paymentprocessors stop working with the company, and make it imposible to make ANY purchase on the website. This is bullying and needs to be regurated. Again, it affects other type of media as well, but most recently Steam and Itch.io had to delete and/or hide many adult themed games because of this issue. You may not see the problem deleting some of these games, but the bigger picture is that these paymentprocessor companies have the power to remove or censor ANY content. Now they come after adult content, but they can easily decide to attack religious or political topics as well. Today they have this power. They should not have this kind of power and webshops should be protected from them. Thank you for your work! With Kind Regards Márton Molnár",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.938450Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585822.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585822",
+    "chunks_doc_id": "F3585822",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585822.clean.paragraph.json"
+}

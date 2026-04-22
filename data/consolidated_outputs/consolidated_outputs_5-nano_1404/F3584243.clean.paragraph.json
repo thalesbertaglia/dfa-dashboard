@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584243",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:04Z",
+    "finished_at": "2026-04-14T11:53:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shop in the game with almost unlimited spending that also is insanely predatory with gambling-like mechanics"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online requirements in single player games that you pay full price for(60-80 EUR) AND have a shop in the game with almost unlimited spending"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Terms of Service that tell you that they can revoke everything you have at any time for any reason"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23751,
+          "unit_kind": "feedback"
+        },
+        "text": "Companies have been ruining online experience in games for years, for the past few especially, they started to even implement online requirements in single player games that you pay full price for(60-80 EUR) AND have a shop in the game with almost unlimited spending that also is insanely predatory with gambling-like mechanics( but even worse, because you can never get any money back as it's just digital good) then after few months they decide to take our things away and actively works against people trying to uphold the game in some ways- be it private servers or offline mode for those games so people can use the product they paid for. It is insanely exploitative to sell goods online as a product, but actually lease a license without it being plastered allover it- when buying a game it just says that you buy the game and they worked the solutions with lawyers to just hide the fact that it's a lease behind 49th page of 50 page documents that customer is obligated to read. If the product is rental then it shouldn't have additional ways to pay up in it as well in my opinion, but that's probably up to debate. Companies shouldn't be able to exploit obvious workarounds for providing minimum while asking for maximum. Many games have unlimited amount of spending possible in them with 0 regulation and are hiding behind the Terms of Service that tell you that they can revoke everything you have at any time for any reason, which is hilarious overstep of boundaries and doesn't exist in any other medium. Back in the day we used to be able to buy disks for games and as long as we have it, we did own the product, nowadays that's also not possible as companies implement online features to effectively drain as much money as possible from players and be able to shut down the product at any time, also DRM protections need network connection- if the server dies you don't own anything. And this is just in single player games that are not even running on an expectation of being supported after the launch of the product, situation is way worse for multiplayer games and is getting worse every year with no end in sight. Gaming companies did enjoy the privileges that exploit the consumers without any side effects for way too long and it needs a regulation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.141484Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584243.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584243",
+    "chunks_doc_id": "F3584243",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

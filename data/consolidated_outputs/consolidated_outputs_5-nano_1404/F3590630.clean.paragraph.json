@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3590630",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:52Z",
+    "finished_at": "2026-04-14T13:34:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibit arbitrary shutdowns or discontinuation of core server-side services upon which the software depends before the end of the disclosed support period."
+              },
+              {
+                "quote": "Mandate notification requirements, ensuring users are informed well in advance (e.g., at least 12 months) if support or services will be discontinued after the commitment period."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16481,
+          "unit_kind": "feedback"
+        },
+        "text": "To ensure consumer protection and digital fairness, it is crucial that the Digital Fairness Act explicitly mandates developers and vendors to provide a clear, binding time-frame during which support for purchased software and related server-side services will be maintained. This provision should: Require upfront disclosure of the support duration (e.g., the number of years/months after purchase or release) during the purchase process. This can be extended as the developer wants. Prohibit arbitrary shutdowns or discontinuation of core server-side services upon which the software depends before the end of the disclosed support period. Mandate notification requirements, ensuring users are informed well in advance (e.g., at least 12 months) if support or services will be discontinued after the commitment period. Allow continued development and maintenance of discontinued or unsupported features of purchased software either by the original vendor, independent developers, or the user themselves to ensure the product remains functional and valuable, even after official support has ended. By enforcing clear time-frames for software and server-side service support, the regulation can prevent developers from unilaterally rendering purchased software unusable, thus safeguarding consumers' investments and trust in digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.834589Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590630.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590630",
+    "chunks_doc_id": "F3590630",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

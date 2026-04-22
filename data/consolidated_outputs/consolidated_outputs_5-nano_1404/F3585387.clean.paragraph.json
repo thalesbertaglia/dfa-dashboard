@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585387",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:34Z",
+    "finished_at": "2026-04-14T12:26:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many purchased games become unusable due to mandatory online connectivity, lack of offline modes, or server shutdowns, raising significant consumer rights and cultural preservation concerns."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Unlike physical media, buyers cannot archive or continue using digital products once providers discontinue support, effectively granting only a temporary usage license."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16041,
+          "unit_kind": "feedback"
+        },
+        "text": "respectfully call for enhanced consumer protections for paid digital products, particularly video games. Many purchased games become unusable due to mandatory online connectivity, lack of offline modes, or server shutdowns, raising significant consumer rights and cultural preservation concerns. Unlike physical media, buyers cannot archive or continue using digital products once providers discontinue support, effectively granting only a temporary usage license. I kindly request: - Providers ensure discontinued games remain playable offline through patches, emulators, or open-source server components. - Clear pre-purchase information regarding online requirements and planned server shutdowns(end of life plan) . - A legal right to permanently use purchased digital products, consistent with physical media standards. I believe aligning digital consumer rights with those for physical products is essential.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.714312Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585387.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585387",
+    "chunks_doc_id": "F3585387",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

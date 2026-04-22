@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3585109",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:18Z",
+    "finished_at": "2026-04-14T12:20:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these EULAs that basically say they can take away what you paid for whenever they want to, without you being able to do anything about it."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Sometimes I subscribe to a service, say a streaming service, and then it will automatically enable the lengthening of the subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another nefarious practice is gambling in videogames (disguised and/or worded as something else, of course), which is quite destructive for some people's lives."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these EULAs that basically say they can take away what you paid for whenever they want to, without you being able to do anything about it."
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the recent spread of censoring everything for no reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34280,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing this as a concerned citizen. I have noticed that there are a lot of practices in the digital world that are very predatory and, in my opinion, don't adhere to any consumer protection laws. For example, many games have these EULAs that basically say they can take away what you paid for whenever they want to, without you being able to do anything about it. They can also retroactively change the terms. I believe this is not fair, as I am paying for something in order to not have to worry about it being claimed as someone else's. If it's a rental, then sure, but this is not what I pay for. Another nefarious practice is gambling in videogames (disguised and/or worded as something else, of course), which is quite destructive for some people's lives. Then, something that is outside video games but that I see a lot on many digital subscription services. Sometimes I subscribe to a service, say a streaming service, and then it will automatically enable the lengthening of the subscription. Even worse than that, some websites make it very hard to find the unsubscribe option, hiding it behind multiple misleading links, certainly to make impatient people give up and waste their money. I am also concerned about the recent spread of censoring everything for no reason. I believe the internet should not be overly regulated, as it might lead to some severe real-life incidents. This is an observation from my part of, well, history in general. Any time people cannot speak freely and are instead put into jail (though of course if they are calling for direct violence that is another matter entirely) will lead to radicalization and ultimately riots. I hope you could take this into consideration when implementing new laws about the digital world.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.599694Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585109.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585109",
+    "chunks_doc_id": "F3585109",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585109.clean.paragraph.json"
+}

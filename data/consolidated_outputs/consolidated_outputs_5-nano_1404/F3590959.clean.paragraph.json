@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3590959",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:20Z",
+    "finished_at": "2026-04-14T13:34:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not allowing publishers and developers to kill (end support and not allow players to play) video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25328,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to add one more thing: not allowing publishers and developers to kill (end support and not allow players to play) video games without a full refund for the game itself and the other fees they have been charging for the in-game content that the player has paid for. The AAA industry has been doing this for years, make a live service game, leave it up while its popular, and when it stops bringing in money, they end support and kill it, while keeping all the money from it. This is extremely anti-consumer and unfair. For example, \"The Crew\" had an offline mode too, however, it was killed, and players couldn't play it anymore, not even the offline mode. All the money the consumers have spent on the game, all gone, and the massive AAA company behind all that pocketed huge amounts of money. This practice is extremely rewarding for the company, however, it is massively unfair for the consumer. The entire gaming industry is utilizing this unfair and morally wrong, anti-consumer tactic, Nintendo, Activision, Ubisoft, all of the big companies. Stop killing games. Thanks for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.841849Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590959.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590959",
+    "chunks_doc_id": "F3590959",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

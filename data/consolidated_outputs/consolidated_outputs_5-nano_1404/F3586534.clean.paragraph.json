@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586534",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:41Z",
+    "finished_at": "2026-04-14T12:58:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games are purchased as enduring products, yet publishers retain the power to unilaterally make them unplayable, for example, by shutting down crucial online functionalities."
+              },
+              {
+                "quote": "This practice allows publishers to essentially revoke a purchased good once it ceases to be profitable for them, which is inherently unfair to the consumer."
+              },
+              {
+                "quote": "EA's game \"Anthem\": It's planned to shut down on January 12, 2026 and won't be playable anymore after that date when the servers get shut down, yet players won't get a refund nor any other way of continue playing the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17951,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act should address a critical issue concerning consumer rights in the video game industry. Games are purchased as enduring products, yet publishers retain the power to unilaterally make them unplayable, for example, by shutting down crucial online functionalities. This practice allows publishers to essentially revoke a purchased good once it ceases to be profitable for them, which is inherently unfair to the consumer. To uphold consumer fairness, games should remain playable for the end user even after a publisher decides to withdraw support. This measure would also be a significant step forward for video game preservation. For example EA's game \"Anthem\": It's planned to shut down on January 12, 2026 and won't be playable anymore after that date when the servers get shut down, yet players won't get a refund nor any other way of continue playing the game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.275517Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586534.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586534",
+    "chunks_doc_id": "F3586534",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

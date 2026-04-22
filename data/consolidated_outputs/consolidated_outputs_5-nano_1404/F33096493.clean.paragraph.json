@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33096493",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:56:26Z",
+    "finished_at": "2026-04-14T10:56:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Mislabeling practices and the provision of false or misleading information are prevalent in online markets and social media, potentially confusing consumers into thinking that synthetic diamonds are the same as natural diamonds."
+              },
+              {
+                "quote": "This can lead to consumers paying highly inflated prices for a product (synthetic diamonds) relative to the inherent value."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18524,
+          "unit_kind": "feedback"
+        },
+        "text": "EFJ (European Federation of Jewellery) submission to the EU Digital Fairness Act Consultation: The focus for EFJ is on unambiguous disclosure of synthetic diamonds as this will better protect EU consumers online by reducing the scope for unfair and misleading business practices and disinformation. Mislabeling practices and the provision of false or misleading information are prevalent in online markets and social media, potentially confusing consumers into thinking that synthetic diamonds are the same as natural diamonds. This can lead to consumers paying highly inflated prices for a product (synthetic diamonds) relative to the inherent value.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.915398Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33096493.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33096493",
+    "chunks_doc_id": "F33096493",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

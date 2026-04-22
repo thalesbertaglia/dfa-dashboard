@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584448",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:39Z",
+    "finished_at": "2026-04-14T11:58:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being destroyed that have already been sold to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11231,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, I believe the Digital Fairness Act could benefit from protections against video games being destroyed that have already been sold to customers. I buy a lot of video games and many of these games are no longer accessible to me because of servers being offline despite them being single-player games. There are no patches or protections to keep playing a product you purchased. This is a form of planned digital obsolesce. They remove the ability to play older products and games you bought full price so that you are forced to buy their new products. I suggest that the EU implement a ruling that forces developers to offer an end-of-life plan through something like a patch after they are planning to stop selling the game and stop making the game accessible, so that we can keep playing it many years down the line. If developers are allowed to keep destroying games, we will pay the price as customers and I would call that unfair. Thank you, Daniel",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.238546Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584448.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584448",
+    "chunks_doc_id": "F3584448",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

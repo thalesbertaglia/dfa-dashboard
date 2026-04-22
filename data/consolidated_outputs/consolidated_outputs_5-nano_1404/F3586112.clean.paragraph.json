@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586112",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:17Z",
+    "finished_at": "2026-04-14T12:47:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection from a company removing, destroying, or otherwise make video games unusable after they have been purchased."
+              },
+              {
+                "quote": "taking a game away from you, such as Ubisoft removing \\\"The Crew\\\" from players libraries."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19025,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I think the issues that this covers is something that definitely needs to be touched on, considering how much it happens nowdays. I also think that while it's at it, it could include protection from a company removing, destroying, or otherwise make video games unusable after they have been purchased. I also think it might be a good idea to cover ownership of digital goods in general, movies or games. There's not much at the moment for instance that stops a company from just taking a game away from you, such as Ubisoft removing \"The Crew\" from players libraries.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.097511Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586112.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586112",
+    "chunks_doc_id": "F3586112",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

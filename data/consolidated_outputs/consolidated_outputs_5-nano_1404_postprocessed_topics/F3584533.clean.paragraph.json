@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584533",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:56Z",
+    "finished_at": "2026-04-14T12:01:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It's unacceptable that games we've paid for can be rendered unplayable when publishers decide to shut down servers, as seen with The Crew."
+              },
+              {
+                "quote": "Mandate offline playability for single-player focused games."
+              },
+              {
+                "quote": "Require publishers to release server files or tools for private servers when online support ends for multiplayer games."
+              },
+              {
+                "quote": "Clarify and strengthen digital ownership rights, ensuring purchased games remain accessible and usable."
+              },
+              {
+                "quote": "Prevent the delisting of games without providing continued access for existing owners."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20248,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commision, I'm writing to provide feedback on the Digital Fairness Act, specifically regarding the urgent need to protect consumer rights in digital gaming. It's unacceptable that games we've paid for can be rendered unplayable when publishers decide to shut down servers, as seen with The Crew. This undermines the very concept of ownership in the digital realm. I urge the Digital Fairness Act to include clear provisions that: Mandate offline playability for single-player focused games. Require publishers to release server files or tools for private servers when online support ends for multiplayer games. Clarify and strengthen digital ownership rights, ensuring purchased games remain accessible and usable. Prevent the delisting of games without providing continued access for existing owners. Please ensure the Digital Fairness Act truly guarantees fairness and protects consumers' lasting access to the games they own. Kind Regards!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.279665Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584533.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584533",
+    "chunks_doc_id": "F3584533",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584533.clean.paragraph.json"
+}

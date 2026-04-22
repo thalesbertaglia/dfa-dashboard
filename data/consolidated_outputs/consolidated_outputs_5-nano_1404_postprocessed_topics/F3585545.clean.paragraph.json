@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585545",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:06Z",
+    "finished_at": "2026-04-14T12:30:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"perpetual\" licenses for software and media, only for them to be revoked/disabled a few years later."
+              },
+              {
+                "quote": "If a publisher can freely take away our digital goods, then there's no such thing as digital fairness."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some licenses costing 3,000+ per seat."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18744,
+          "unit_kind": "feedback"
+        },
+        "text": "Europeans are being sold \"perpetual\" licenses for software and media, only for them to be revoked/disabled a few years later. There's countless cases of this happening with productivity tools, video games, films, TV shows, and so on. Even hardware is being disabled at a firmware level, turning functional electronics into e-waste once the manufacturer ends their support. It's causing financial harm to consumers and businesses alike, with some licenses costing 3,000+ per seat. And for creative works that are no longer published, it's comparable to book burning. I urge the Commission to address this. If a publisher can freely take away our digital goods, then there's no such thing as digital fairness.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.795909Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585545.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585545",
+    "chunks_doc_id": "F3585545",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585545.clean.paragraph.json"
+}

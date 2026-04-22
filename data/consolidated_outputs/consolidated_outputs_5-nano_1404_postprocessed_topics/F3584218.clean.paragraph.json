@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584218",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:34Z",
+    "finished_at": "2026-04-14T11:52:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games be explicitly recognized as a legitimate form of media and artistic expression within the Digital Fairness Act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9486,
+          "unit_kind": "feedback"
+        },
+        "text": "First and foremost, I'd like to thank the people involved in this Act for the work that's been done. I'm writing to request that video games be explicitly recognized as a legitimate form of media and artistic expression within the Digital Fairness Act. Games are not disposable software, they are cultural works, often with communities and stories that deserve preservation. Right now, when publishers shut down servers, entire games vanish. I've personally lost access to titles I loved over the years, like Darkspore, a unique experience thats now gone forever because it was shut down in 2016. Consumers shouldn't lose purchased content simply because support ends, and creators shouldn't watch their work erased from history. All we ask for is a reasonable safeguard: when a game reaches endoflife, publishers should provide an offline mode or enable communityrun servers so these works remain accessible. This is fair, achievable, and reflects the principles of digital ownership and cultural preservation. Please consider ensuring the Digital Fairness Act includes strong protections for video games as media and art. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.130149Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584218.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584218",
+    "chunks_doc_id": "F3584218",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584218.clean.paragraph.json"
+}

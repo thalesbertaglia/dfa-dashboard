@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586079",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:05Z",
+    "finished_at": "2026-04-14T12:46:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are examples of games that do what the initiative is pushing for, simply by allowing owners of the games to create their own servers regardless of the state of official servers"
+              },
+              {
+                "quote": "or allowing access to single-player campaigns after the closure of multi-player servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31494,
+          "unit_kind": "feedback"
+        },
+        "text": "If a book is legally purchased, and a second party were to take said book and burn it, as far as the law is concerned that would be considered destruction of property. Even if the author of the book was the one to destroy it. The same is true of a painting, or a music recording. This initiative, which has nearly 1.5 million signatures as of me writing this, aims to protect consumers from the digital destruction of their property. There are examples of games that do what the initiative is pushing for, simply by allowing owners of the games to create their own servers regardless of the state of official servers (these include Team Fortress 2, and Minecraft, popular games whose finances have NOT been affected by this decision) or allowing access to single-player campaigns after the closure of multi-player servers. There is no moral excuse for game publishers to destroy our legally owned property. There should be no legal excuse for them to do so either.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.073674Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586079.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586079",
+    "chunks_doc_id": "F3586079",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586079.clean.paragraph.json"
+}

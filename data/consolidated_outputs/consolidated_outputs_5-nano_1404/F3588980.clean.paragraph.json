@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3588980",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:11Z",
+    "finished_at": "2026-04-14T13:27:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the first loot boxes in multiple games during the 2010s"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory practices"
+              },
+              {
+                "quote": "these patterns aim to normalize excessive spending."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you are not entitled to keeping the game the moment the severs cost outpace the income of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28557,
+          "unit_kind": "feedback"
+        },
+        "text": "my feedback is uniformly positive. i have time and time again seen children and vulnerable people being the target of these predatory practices, in recent time i have come to the conclusion that these patterns aim to normalize excessive spending. i myself remember being the target of such practices with the first loot boxes in multiple games during the 2010s, and now i have seen such spendings being supplemented by purely cosmetic DLCs and boxes. there is also the issue that modern game sales feels very fraudulent in that you pay for the full product and then in the EULA get told that you are not entitled to keeping the game the moment the severs cost outpace the income of the game. i am not saying servers needs to be active perpetually, but that a third party solution should become available through consumer based servers. then there is the issue with abandonware. multiple games lie forgotten and neglected due to age and incompatibility, fortunately GOG is keeping their preservation initiative strong. i hope that the preservation of games will fall under the DFA when the proposal is discussed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.714666Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588980.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588980",
+    "chunks_doc_id": "F3588980",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

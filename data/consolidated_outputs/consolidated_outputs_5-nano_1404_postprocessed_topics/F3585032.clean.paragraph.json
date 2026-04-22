@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585032",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:30Z",
+    "finished_at": "2026-04-14T12:19:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games, which, for example, operate on a licence that can be revoked at any time by the publisher, even after the purchase of the product;"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "indicate the end date of this licence,"
+              },
+              {
+                "quote": "an abusive practice that runs counter to the interests of consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29697,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with this initiative, but at the same time do not meet it sufficiently ambitious. I consider that the measures of this initiative should consider the issue of possession of digital items such as video games, which, for example, operate on a licence that can be revoked at any time by the publisher, even after the purchase of the product; an abusive practice that runs counter to the interests of consumers. I am of the opinion that, as a minimum, publishers should be obliged to indicate the end date of this licence, but it would even go further: at least in the case of video games, as a cultural product, they should be treated with the same respect as the rest of the arts, and when selling them, the use of this type of licence should be prohibited by giving the consumer full possession of the article.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.562418Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585032.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585032",
+    "chunks_doc_id": "F3585032",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585032.clean.paragraph.json"
+}

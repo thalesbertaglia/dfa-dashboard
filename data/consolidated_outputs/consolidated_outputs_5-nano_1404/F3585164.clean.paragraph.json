@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585164",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:36Z",
+    "finished_at": "2026-04-14T12:21:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "prevent game publishers from making their games unplayable at the end of their life cycles"
+              },
+              {
+                "quote": "the right to continue playing the games they purchased in perpetuity"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11793,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission members, A vital consumer right is the right to perpetual ownership of the purchased product. The Stop Killing Games movement, which has recently raised ~1.5 million signatures in its EU citizens' initiative, is fighting for this right to be extended to digitally purchased video games. Specifically, it aims to prevent game publishers from making their games unplayable at the end of their life cycles and grants consumers the right to continue playing the games they purchased in perpetuity. The industry practice has so far led to several hundred games being shut down and made unplayable despite being maintained by the playerbase at no ongoing cost to the publishers and developers. The Digital Fairness Act addresses several unethical and anti-consumer practices in the digital industry, and I believe this issue could sensibly be included in the proposed legislation. Consumer right to ownership should be protected, and it should extend to digitally purchased media, including video games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.620352Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585164.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585164",
+    "chunks_doc_id": "F3585164",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

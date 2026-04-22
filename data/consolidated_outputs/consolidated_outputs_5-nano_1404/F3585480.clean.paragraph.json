@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585480",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:42Z",
+    "finished_at": "2026-04-14T12:29:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I all mean that companies should not take access to products that have already been sold to the user, or if a service is sold to the user, it must be clearly displayed at the time of purchase for exactly how long the user will have access."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the state of the video game market, where firms do not play their older games in order to buy 90 % of the new game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38947,
+          "unit_kind": "feedback"
+        },
+        "text": "I am in favour of the Digital Fairness Act and I think it is a positive direction. I would like to ask for one thing to be added. This is a higher level of purchase protection for products sold digitally. I all mean that companies should not take access to products that have already been sold to the user, or if a service is sold to the user, it must be clearly displayed at the time of purchase for exactly how long the user will have access. Why this is quite apparent from the state of the video game market, where firms do not play their older games in order to buy 90 % of the new game. The stop destoring games initiative has already reached more than one million signatures. I would appreciate if, regardless of all, this Act would not be in a similar direction to the Online safety act in England. I am very opposed to the creation of a similar act and I hope the EU will not follow the example of England. Thank you very much for your work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.764331Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585480.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585480",
+    "chunks_doc_id": "F3585480",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

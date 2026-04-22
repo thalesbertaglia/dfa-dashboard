@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3588994",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:32Z",
+    "finished_at": "2026-04-14T13:28:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The fact that a company I have bought from can choose to destroy a product afterwards is not correct."
+              },
+              {
+                "quote": "and if not to have an end of life plan in all cases."
+              },
+              {
+                "quote": "Then, before buying a digital product, I know how it will be managed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29451,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir, The fact that a company I have bought from can choose to destroy a product afterwards is not correct. After all, that is something I have paid for. It goes without saying that the company should not be forced to spend money indefinitely to keep a product functional, but there are alternatives such as open source, and if not to have an end of life plan in all cases. Then, before buying a digital product, I know how it will be managed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.718717Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588994.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588994",
+    "chunks_doc_id": "F3588994",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588994.clean.paragraph.json"
+}

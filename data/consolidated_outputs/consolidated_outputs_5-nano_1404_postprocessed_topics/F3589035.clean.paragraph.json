@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589035",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:17Z",
+    "finished_at": "2026-04-14T13:28:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The online servers were shut down by the developer Ubisoft, thus preventing those that had paid for the game to ever play it - including the singleplayer portion - ever again without being accused of piracy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15460,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel that one more point that should be considered is that of videogames. Specifically, how the consumer in some cases are unable to fully experience the game they paid for. The two most prominent examples that come to mind are The Crew, and Destiny 2. The Crew was an always online racing game with a singleplayer component. The online servers were shut down by the developer Ubisoft, thus preventing those that had paid for the game to ever play it - including the singleplayer portion - ever again without being accused of piracy. Destiny 2 have had several expansions since the game first launched, and many of the older expansions, including the original experience of the game, have since been \"vaulted\" by the developer Bungie. It is now impossible to play the game as it was first launched, as much of the story content is no longer available, and Bungie claim that it is impossible to restore the lost content. There are most likely several more instances of similar things that have happened to videogames, where the developer shut down the servers and are refusing to allow the game to be freely accessed, essentially holding a piece of art \"hostage\". But these two were the first things that came to mind for me.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.733469Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589035.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589035",
+    "chunks_doc_id": "F3589035",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589035.clean.paragraph.json"
+}

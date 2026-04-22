@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586277",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:35Z",
+    "finished_at": "2026-04-14T12:53:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the area of video games"
+              },
+              {
+                "quote": "prevent the remote disabling of videogames by the publishers"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unilaterally withdrawn by the issuer at any time"
+              },
+              {
+                "quote": "implicit or explicit promise of permanent access"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39015,
+          "unit_kind": "feedback"
+        },
+        "text": "In my view, the Digital Fairness Act should also include a new category relating to the preservation of digital products, such as video games, which have been sold to customers with an implicit or explicit promise of permanent access, but can be unilaterally withdrawn by the issuer at any time. These products are often offered in a way that resembles the sale of ordinary goods without any end-of-life plan and ensuring the functionality of the product beyond the end date of the aid. I consider it important for the DFA to regulate this practice, which is in direct contradiction with the principles of consumer protection and the proposed provisions of this regulation. A concrete example is the area of video games, where the European Citizen’s Initiative Stop Destroying Videogames has been created as of 30. 7. 2025 a total of 1440241 signatures were collected. Specifically, the initiative seeks to prevent the remote disabling of videogames by the publishers, before providing reasonable means to continue functioning of said videogames without the involvement from the side of the publisher. I believe that this objective is very closely linked to the aim of DFA, namely to prevent unethical practices by companies providing digital products and services. Among other things, its community documents cases of games that have been completely removed after their publication and are no longer available to customers. As of 30 7. 2025 This initiative registers 992 video games, of which 34.49 % have been removed by publishers or developers without compensation, and a further 37.48 % currently have no future preservation plan. I enclose a PDF copy of this database as additional documentation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.186124Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586277.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586277",
+    "chunks_doc_id": "F3586277",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586277.clean.paragraph.json"
+}

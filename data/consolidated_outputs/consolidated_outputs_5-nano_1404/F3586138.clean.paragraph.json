@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586138",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:24Z",
+    "finished_at": "2026-04-14T12:48:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "¨we don't own our games¨"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19004,
+          "unit_kind": "feedback"
+        },
+        "text": "In the last 10-20 years, probably going more back, we've had problems with games that have been lost to time because the company that owns the rights to these games has become greedier and greedier. Lately, a good handful of these companies are trying to tell/threat us by saying at ¨we don't own our games¨ that we bought with our own money and that they can do whatever they want even remove the game from our gaming machines, I feel like it's theft and really dirty., it's more or less the same if you buy a new car and the car dealer all of a sudden one day comes over to your house and takes the car from you without any warning or paying you back, What I'm trying to say is, would it be possible for you to put in something a little extra like digital games can be protected a little bit so that even if the company doesn't want to work on games anymore, it's possible that we can still enjoy our games without the game have to be live-service? It's clear that these companies that are at the top of game development only want to make as much money as possible and don't care about us consumers. Thank you so much for listening to my prayer to make ownership of game more possible",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.112208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586138.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586138",
+    "chunks_doc_id": "F3586138",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

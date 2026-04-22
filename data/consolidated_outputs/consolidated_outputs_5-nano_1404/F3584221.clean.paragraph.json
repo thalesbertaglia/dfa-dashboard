@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584221",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:37Z",
+    "finished_at": "2026-04-14T11:53:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video games industry."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to stop licensing the game to its users at any point in time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35000,
+          "unit_kind": "feedback"
+        },
+        "text": "This act is a great start to protect citizens but I kindly ask you to consider the state of the video games industry. I think that this act is a great opportunity to end digital business practices in the gaming industry, which affect many residents of the EU and allow the publishers of video games to effectively destroy products that consumers have bought. This includes destroying video games that were bought as physical copies. Publishers should not be allowed to sell licences for video games as this only benefits the profit margins of the company that can choose to stop licensing the game to its users at any point in time only because it feels it will benefit them finantially. As an example, imagine buying a tabletop game (which is not the same, I know) and then the company one day decides that it wants to start selling something more profitable and demands you to send the board game back to them (it is a very crude comparison but for gamers I promise you that this is exactly how it feels). I kindly ask you to also commit some resources into researching the Stop Killing Games movements as they not only have a more detailed review of the violations by publishers, but also give many solutions for developers that prove that this business practise is not necessary for games to work in the way they do now.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.131775Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584221.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584221",
+    "chunks_doc_id": "F3584221",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

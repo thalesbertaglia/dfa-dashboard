@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3585011",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:55Z",
+    "finished_at": "2026-04-14T12:18:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling elements in digital production."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "why is the lottery coupon to have a higher tax and no more digital coupon?"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would also like you to create rules to protect your digital products from being switched off by producers."
+              },
+              {
+                "quote": "I do not expect licensing rights to be surrendered, servers to be maintained or licences renewed with other entities."
+              },
+              {
+                "quote": "Please only request access to the purchased product with the possibility to use it on the system for which it has been issued (i.e. I do not expect the manufacturer to update the programme, e.g. to adapt the programme to the new operating system)."
+              },
+              {
+                "quote": "If the production requires servers to operate, please make any way available to others – many produits to do so."
+              }
+            ]
+          },
+          {
+            "topic": "Archiving Online Productions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Books and films are archived and I would like online productions to be able to do so."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53651,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for your feedback. I would like to comment on gambling elements in digital production. I believe they are harmful, especially for children – a primary school pupil – I know that many children are dependent on such production. I think it would be good to include games that are able to use micropayments to draw prizes – simply gambling – in national gambling regulations. Not only about the protection of children, why is the lottery coupon to have a higher tax and no more digital coupon? I would also like you to create rules to protect your digital products from being switched off by producers. I do not expect licensing rights to be surrendered, servers to be maintained or licences renewed with other entities. Please only request access to the purchased product with the possibility to use it on the system for which it has been issued (i.e. I do not expect the manufacturer to update the programme, e.g. to adapt the programme to the new operating system). If the production requires servers to operate, please make any way available to others – many produits to do so – it is possible to do so. Books and films are archived and I would like online productions to be able to do so. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.551811Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585011.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585011",
+    "chunks_doc_id": "F3585011",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

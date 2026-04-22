@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586906",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:46Z",
+    "finished_at": "2026-04-14T13:06:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online-only games which often contain multiple possible additional purchases in them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they claim the right to withhold the license at any moment."
+              },
+              {
+                "quote": "Losing access to one's game/account means losing out on all of your spendings without refunds."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29479,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider looking into digital fairness as it pertains to ownership of video games. In the current market environment many big developers and store fronts started selling licenses to games instead of selling them as products. As such they claim the right to withhold the license at any moment. This is especially egregious when it comes to online-only games which often contain multiple possible additional purchases in them. Losing access to one's game/account means losing out on all of your spendings without refunds.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.380669Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586906.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586906",
+    "chunks_doc_id": "F3586906",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586906.clean.paragraph.json"
+}

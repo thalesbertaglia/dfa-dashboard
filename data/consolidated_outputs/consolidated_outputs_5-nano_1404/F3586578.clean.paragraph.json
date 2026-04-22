@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586578",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:19Z",
+    "finished_at": "2026-04-14T12:59:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online video games"
+              },
+              {
+                "quote": "servers are shut down"
+              },
+              {
+                "quote": "guaranteed continued access to games they've purchased,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33670,
+          "unit_kind": "feedback"
+        },
+        "text": "I used to play online video games that offered unique experiences and strong communities, only I would see some of them shut down with little warning, leaving myself and others unable to access the games that we once enjoyed. This highlights a major issue regarding consumer protection: consumers more often that not will have no legal recourse when digital services like games are discontinued, and were left without the basic rights to preserve, access, or even receive compensation for the content weve paid for. The Digital Fairness Act could provide crucial protections for video game players, ensuring that developers are held accountable for preserving digital content and that players are guaranteed continued access to games they've purchased, even if servers are shut down. By extending the act's provisions to video games, we could see a future where consumers are treated fairly, with legal rights to maintain their digital purchases and safeguard against the sudden loss of online services or even the video games themselves.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.283280Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586578.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586578",
+    "chunks_doc_id": "F3586578",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

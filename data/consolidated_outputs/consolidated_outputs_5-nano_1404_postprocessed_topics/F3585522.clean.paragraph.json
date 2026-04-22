@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585522",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:40Z",
+    "finished_at": "2026-04-14T12:30:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "labeling their games as a service these days."
+              },
+              {
+                "quote": "The biggest reason why more developers make games online only is for them to manipulate you to buy the next game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23299,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I'm a person who loves video games. And something I've been tired of is how something that used to be a product (and arguably still is) has been going under the radar of consumer's rights by labeling their games as a service these days. What I don't like is that I spend money for a service of a product that can still feasibly run offline or by the community, only to have it shut down and have the copyright owner hold it hostage for as long as they like. So I want to have some form of preservation for video games that can't be played anymore when the developer decides to shut down the servers. Therefor I suggest adding the principle of Stop Destroying/Killing Games petition to the act, to hopefully have developers retrofit their games retroactively so we can either take over the online games in the shape of private servers or add an offline mode. I can to this day play older games like Super Mario and such whenever I want, but when games like Diablo 3, Path of Exile or similar games goes offline, that option is gone. The biggest reason why more developers make games online only is for them to manipulate you to buy the next game, since you can't play the old one despite having paid for it. Here are two links to the Stop Destroying/Killing Games initiative: https://www.stopkillinggames.com/eci https://eci.ec.europa.eu/045/public/#/screen/home",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.786077Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585522.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585522",
+    "chunks_doc_id": "F3585522",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585522.clean.paragraph.json"
+}

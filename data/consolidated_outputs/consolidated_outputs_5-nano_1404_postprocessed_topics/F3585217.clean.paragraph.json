@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585217",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:49Z",
+    "finished_at": "2026-04-14T12:23:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark Patterns"
+              },
+              {
+                "quote": "addictive designs of digital products"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "access can be revoked because production authentication from the makers aren't possible anymore"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20059,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act has a great chance for the protection of consumers who are left unprotected by vague definition, undefined rulesets or just plain no consideration about the developing digital market. Too many people are victims of \"Dark Patterns\", misleading marketing that has no consequences for the people bringing it forward, addictive designs of digital products and, my personal consideration, things being sold which access can be revoked because production authentication from the makers aren't possible anymore, like video games for example.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.640221Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585217.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585217",
+    "chunks_doc_id": "F3585217",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585217.clean.paragraph.json"
+}

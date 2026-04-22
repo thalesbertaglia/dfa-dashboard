@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589008",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:42Z",
+    "finished_at": "2026-04-14T13:28:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogame publishers regularly stop their customers from accessing the products that they paid for by shutting down authentication servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20466,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to point out that videogame publishers regularly stop their customers from accessing the products that they paid for by shutting down authentication servers, pulling products from their storefronts, locking consumers out of their software etc.. Cosumers have also been threatened with legal repercussions if they tried to adapt the software to regain access to it. Both points are unacceptable since the consumer has already paid for their products and should be able to use and enjoy said products in perpetuity. A videogame publisher/developer should not be forced to mantain servers and other infrastructure beyond their own willingness an capability to do so, but they should either update their software to always be available OR allow a third party to do so. This seems only logical since such protections are in place for physical products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.723542Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589008.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589008",
+    "chunks_doc_id": "F3589008",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589008.clean.paragraph.json"
+}

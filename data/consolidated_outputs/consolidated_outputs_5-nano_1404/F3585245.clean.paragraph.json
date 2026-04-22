@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585245",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:25Z",
+    "finished_at": "2026-04-14T12:23:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've seen too many games that I've paid for and spent hundreds of hours on shut down with no ability to play it further."
+              },
+              {
+                "quote": "I paid for them and should own the right to play these games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19618,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi. I've been a gamer all my life and I've seen too many games that I've paid for and spent hundreds of hours on shut down with no ability to play it further. Ace of Spades, Loadout, Overwatch (the original) and Evolve Stage 2 are some of the games I miss. I fear for the future of the online games I love and I don't want to see them go, let alone the fact that I paid for them and should own the right to play these games. Thank you so much for reading this. This means a lot to us.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.652459Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585245.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585245",
+    "chunks_doc_id": "F3585245",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

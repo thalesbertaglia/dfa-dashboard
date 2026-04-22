@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3587909",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:22Z",
+    "finished_at": "2026-04-14T13:21:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they shut down servers that the game needs to function."
+              },
+              {
+                "quote": "but the exclusive games MUST be able to work for a product you bought even if servers are closed down."
+              },
+              {
+                "quote": "games sold as single player force the player to have an internet connection and an underlying server."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they shut down servers that the game needs to function."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28706,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear, I am Christian Victims and writes to ask you to include digital games in the initiative. Unfortunately, a growing trend is that some games have been bought down when the developer/publisher considers that the player base has become too small. In practice, this means that they shut down servers that the game needs to function. For some games that are fully online and are for more than one player, it can be considered reasonable when there is no sufficiently large player base, but unfortunately we have seen a trend that games sold as single player force the player to have an internet connection and an underlying server. I and many feel strongly that such functionality might be possible, but the exclusive games MUST be able to work for a product you bought even if servers are closed down. Think of buying a refrigerator with some extra functionality over the internet, 5 years later, years later, the manufacturer of the servers and the refrigerator stops operating completely and not just the extra functionality, absurd or how? I am a developer and I know that this is perfectly possible, especially in future games if this is a fundamental design requirement. A thousand thank you in advance! MVH Christian victims",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.594846Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587909.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587909",
+    "chunks_doc_id": "F3587909",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

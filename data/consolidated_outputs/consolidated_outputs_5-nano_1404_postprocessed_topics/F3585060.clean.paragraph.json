@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585060",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:08Z",
+    "finished_at": "2026-04-14T12:19:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Would greatly appreciate some fairness around preventing game publishers from pulling the plug on video games, making all who bought said video games unable to play the game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors deeming the platforms a \"risk\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26212,
+          "unit_kind": "feedback"
+        },
+        "text": "Would greatly appreciate some fairness around preventing game publishers from pulling the plug on video games, making all who bought said video games unable to play the game. Essentially taking the money with no way for people to keep the game they bought. An extra tidbit would be to prevent payment processors from deciding what can be bought online/offline as many games have been removed already, example being a game called \"Mouthwashing\", a psychological horror game beloved by many, but it is currently not available to be purchased as a result of payment processors deeming the platforms a \"risk\". Widely vague term and no proper explanation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.576739Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585060.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585060",
+    "chunks_doc_id": "F3585060",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585060.clean.paragraph.json"
+}

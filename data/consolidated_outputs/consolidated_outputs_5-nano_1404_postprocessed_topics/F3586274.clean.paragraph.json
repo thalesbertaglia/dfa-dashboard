@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3586274",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:31Z",
+    "finished_at": "2026-04-14T12:53:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Addictive Design has been a scourge on gaming"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "taking away (or Bait and Switching) content that was already sold to consumers."
+              },
+              {
+                "quote": "rotate content that users already paid for in-and-out of the game, effectively removing it from the game."
+              },
+              {
+                "quote": "If I buy a game, and in-game cosmetics, I should have access to both once publisher support ends."
+              },
+              {
+                "quote": "3rd party servers shouldn't be required to validate my DLC."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43880,
+          "unit_kind": "feedback"
+        },
+        "text": "First off, I would like to express my support for this initiative. Addictive Design has been a scourge on gaming, and application design a whole, because design both often makes the product worse and I engage wastes my time. I would also like you to consider tackling the issues of taking away (or Bait and Switching) content that was already sold to consumers. It's the same principle, but I'll give very different 3 examples for it: 1. Destiny 2 sold many expansions and some years later decided they would rotate content that users already paid for in-and-out of the game, effectively removing it from the game. 2. Games like Helldivers 2 is \"live service\" game, that will die together with the publisher's support. It doesn't have to. 3. Last Epoch is an \"live service\" game with offline mode. Cosmetic DLCs that are purchased through steam, but only work in online mode because presumable cosmetic purchases are validated through developer's servers. This a \"technical limitation\" that doesn't have to exist. The game works offline, and the DLC purchase is on steam. 3rd party servers shouldn't be required to validate my DLC. Finally (combining 2 and 3) If I buy a game, and in-game cosmetics, I should have access to both once publisher support ends. Stop Destroying Videogames (ECI) attempts to tackle this problem, but you initiative already seems adjacent in goals.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.185239Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586274.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586274",
+    "chunks_doc_id": "F3586274",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586274.clean.paragraph.json"
+}

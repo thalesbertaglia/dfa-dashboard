@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584317",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:58Z",
+    "finished_at": "2026-04-14T11:55:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not considered to belong to the person who paid for it, but only as a licence to use which publishers can revoke at their own will."
+              },
+              {
+                "quote": "Consumers should have the right to own what they are buying and sellers should not have the right to take them back when they want."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14360,
+          "unit_kind": "feedback"
+        },
+        "text": "It is shameful that a game bought in dematerialised, at the same price as a physically purchased game, is not considered to belong to the person who paid for it, but only as a licence to use which publishers can revoke at their own will. Several games have already made the cost of this, such as ‘The Crew’, which had to be widely cited, where still ‘Anthem’, which I had bought in 80 and which will soon no longer be accessible. Consumers should have the right to own what they are buying and sellers should not have the right to take them back when they want. Imagine whether your car dealer would change your mind after selling the car, and pick up it without reimbursing a single cent?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.174807Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584317.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584317",
+    "chunks_doc_id": "F3584317",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584317.clean.paragraph.json"
+}

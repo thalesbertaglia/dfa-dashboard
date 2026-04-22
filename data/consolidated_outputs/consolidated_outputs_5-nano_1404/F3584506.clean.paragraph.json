@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584506",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:05Z",
+    "finished_at": "2026-04-14T12:00:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A perfect example is The Crew game was shut down by Ubisoft on March 31, 2024, meaning it is no longer playable even for those who own physical or digital copies."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I don't think it's fair to pay 60-80+ Euro for a game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33731,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi can we get the Stop Destroying Videogames initiative implemented in the Digital Fairness Act I don't think it's fair to pay 60-80+ Euro for a game and after 5-10-15 years when the developers stop supporting the game they make it impossible to play it A perfect example is The Crew game was shut down by Ubisoft on March 31, 2024, meaning it is no longer playable even for those who own physical or digital copies. This shutdown, included the removal of the game from digital storefronts",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.266050Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584506.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584506",
+    "chunks_doc_id": "F3584506",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

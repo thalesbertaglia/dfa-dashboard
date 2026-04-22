@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585546",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:06Z",
+    "finished_at": "2026-04-14T12:30:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Gatekeeping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "shutting down transactions or restricting access to online content."
+              },
+              {
+                "quote": "Allowing private financial entities to act as de facto censors is a dangerous precedent."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loss of true ownership when it comes to digital games."
+              },
+              {
+                "quote": "digital licenses are revoked with no compensation and no way for players to preserve what they paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17422,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Payment Processors Should Not Be Gatekeepers of Speech or Commerce There needs to be a clear limitation on the power of payment processors when it comes to shutting down transactions or restricting access to online content. Right now, these companies can and do act unilaterally, with no transparency or recourse, deciding whats acceptable and what isntoften based on vague policies or outside pressure. This power has already been abused multiple times, not to serve public interest or safety, but simply to benefit a specific group or agenda. Thats not how a free and fair digital environment should work. Allowing private financial entities to act as de facto censors is a dangerous precedent. If someone isnt breaking the law, their access to essential services like payments should not be arbitrarily cut off. We need clear legal protections to prevent abuse and ensure that these systems are fair, consistent, and not used as tools of control. 2. Stop killing games Another huge issue that needs to be addressed is the loss of true ownership when it comes to digital games. There was a time when buying a game meant it was yoursphysically or digitallyto play whenever you wanted. Thats no longer the case. Today, people are paying full price for games that can be removed, shut down, or made unplayable without warning. This isnt just inconvenientits unethical. Its especially frustrating when online servers are shut down or digital licenses are revoked with no compensation and no way for players to preserve what they paid for. In some cases, players lose access entirely, even if the game had significant single-player components. Theres no accountability, and players have no voice in the matter. If someone buys a game, they should be able to access and play iteven if its offline-onlywithout being at the mercy of publishers deciding to pull the plug. Consumers deserve stronger protections so that digital ownership actually means something.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.796383Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585546.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585546",
+    "chunks_doc_id": "F3585546",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3606528",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:50Z",
+    "finished_at": "2026-04-14T13:42:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is rarely possible to buy cosmetics in a game without knowing their real value."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16621,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I find monetisation misleading when virtual currency is used. It is rarely possible to buy cosmetics in a game without knowing their real value. In general, we need to credit our account using virtual currency packs to be able to buy cosmetics with virtual credits. Virtual credits are often sold in bundles. For example, the first pack costs EUR 4,99 for 100 credits, the pack costs EUR 9,99 for 250 credits (200 + 50 bonus), and the pack costs EUR 19,99 for 650 credits (500 + 150 bonus). As a result, the value of a loan varies depending on the bundle purchased. For a cosmetic with a value of 90 credits: EUR 4,99 for 100 appropriations = > EUR 0,0499/credit, cosmetics will actually cost EUR EUR 4.49 9,99 for 250 appropriations = > EUR 0,0399/credit, cosmetics will actually cost EUR EUR 3.51 19,99 for 650 appropriations = > EUR 0,0307/credit, cosmetics will actually cost EUR 2,76. In addition, the remaining credits in your account lead you to buy new ones. If you miss 20 credits to buy another cosmetic, you are obliged to buy back a loan pack and, depending on the bundle you buy, you still change the value of a loan. It is also impossible to get the credits reimbursed, so if the game no longer works or there is no content, we “lose” the remaining credits. I want to know the value in euros of the items sold and I am against virtual currency and pack sales.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.011737Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3606528.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3606528",
+    "chunks_doc_id": "F3606528",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3606528.clean.paragraph.json"
+}

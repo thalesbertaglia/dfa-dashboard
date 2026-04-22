@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589548",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:39Z",
+    "finished_at": "2026-04-14T13:32:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A good friend told me about a computer game he loved to play, called Darkspore."
+              },
+              {
+                "quote": "He paid for it and it was shut down."
+              },
+              {
+                "quote": "The local, offline single player mode stopped working because they shut down their server!"
+              },
+              {
+                "quote": "We can have a game and have paid for it, and there is no way to use our product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22723,
+          "unit_kind": "feedback"
+        },
+        "text": "A good friend told me about a computer game he loved to play, called Darkspore. He was sad that he couldn't play it any more. He paid for it and it was shut down. I wanted to check it out but it was gone. I tried to repair it, but I could find nothing. The developers shut it down without leaving any kind of source code or documentation of the servers they used to run. We can have a game and have paid for it, and there is no way to use our product. The local, offline single player mode stopped working because they shut down their server! A lot of people like me would invest time to restore art and tools we love. This happens with commercial tool software as well. We just need the vendors to be forced to provide some help before they shut down a service. Source Code and/or Documentation, either would be great.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.797181Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589548.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589548",
+    "chunks_doc_id": "F3589548",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589548.clean.paragraph.json"
+}

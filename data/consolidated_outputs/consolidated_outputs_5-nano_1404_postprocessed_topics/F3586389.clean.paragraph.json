@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586389",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:32Z",
+    "finished_at": "2026-04-14T12:56:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory software licences."
+              },
+              {
+                "quote": "licences that allow them to take away products consumers have previously purchased."
+              },
+              {
+                "quote": "This practice has sadly affected many software products including but not limited to professional software, consumer software and hardware, video games and medical devices."
+              },
+              {
+                "quote": "removing licence checks at servers that no longer exist"
+              },
+              {
+                "quote": "releasing source code or binaries to allow consumers to host servers required by software themselves"
+              },
+              {
+                "quote": "not releasing an \"update\" that disables features."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29894,
+          "unit_kind": "feedback"
+        },
+        "text": "One big issue I'd like to see addressed in this initiative is predatory software licences. It is already no longer possible to actually own software one buys and I have come to terms with this, however some companies have adapted licences that allow them to take away products consumers have previously purchased. This even goes as far as to include hardware, which becomes unusable as soon as the seller decides they are done with it. Examples for this practice can be found in various fields by various comanies, e.g. spotify's \"car thing\", which could have continued to function with minimal maintendence, or even with the company simply allowing consumers to do this maintendence themselves. Instead spotify decided it was time and released an update that disabled all functionality. This practice has sadly affected many software products including but not limited to professional software, consumer software and hardware, video games and medical devices. These kinds of licences need to be addressed and the companies need to be required to provide some way to keep using the product after their support has ended, such as: removing licence checks at servers that no longer exist, releasing source code or binaries to allow consumers to host servers required by software themselves, or simply not releasing an \"update\" that disables features.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.225430Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586389.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586389",
+    "chunks_doc_id": "F3586389",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586389.clean.paragraph.json"
+}

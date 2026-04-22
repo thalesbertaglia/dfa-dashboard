@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584765",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:19Z",
+    "finished_at": "2026-04-14T12:09:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The games industry has long held consumers in an iron grip through convoluted, jargon-heavy, and internationally obfuscated terms of service."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Under current legal frameworks, they can remotely disable your consoles functionality and demand you destroy the hardware outright."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36140,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumer rights in the games industry have long been lacking on a variety of fronts: property rights over digital assets, ownership of physical goods, the right to repair, terms of service agreements, and rampant unfair business practices targeting consumers. Most, if not all, major game publishers and the studios they represent only offer what is legally a license agreement. In some cases, their terms of service allow them to terminate this license at any time, for any reason, with no requirement to disclose why. This effectively means that even if youve paid for a game, digital or physical - you dont actually own it. Youre just renting it under the illusion of ownership. This should be subject to serious scrutiny. Its like paying full price for a car, only to later be told it was a lease, and then having the manufacturer reclaim it without explanation. This isnt just about digital goods. Physical ownership is under fire as well. Nintendo, for example, has gained infamy for its aggressive practices, especially regarding consoles that run custom software. Under current legal frameworks, they can remotely disable your consoles functionality and demand you destroy the hardware outright. Thats not just hostile, its dystopian. Despite some movement toward a stronger right to repair, theres still a long way to go. Consumers deserve full, legal ownership of what they buy, whether its a game, console, peripheral, or other hardware. Alongside the push for ownership rights, the right to repair must be expanded. Third-party repair shops and consumers alike should be empowered to repair their own devices without fear of voiding warranties over basic modifications or maintenance. All of this is ultimately enforced through terms of service, where the industry's real power lies. The games industry has long held consumers in an iron grip through convoluted, jargon-heavy, and internationally obfuscated terms of service. These agreements are often impossible for the average consumer to read or understand, which is inherently unethical. If a person cannot reasonably understand what they are agreeing to, then theres a strong case to be made that no meaningful consent was ever given. That could render the entire agreement void. A contract that cant be understood by a rational consumer shouldnt be enforceable in the first place. Digital ownership issues / license-only purchases: John Deere vs. Right to Repair, Apples repair policies (for comparisons) https://www.eff.org/issues/intellectual-property EULA license explanations: https://www.howtogeek.com/457750/you-dont-own-your-games-youre-renting-them/ Nintendo's legal stance on modded consoles: https://www.theverge.com/2023/4/19/23689177/nintendo-switch-mods-lawsuits-console-ban https://en.as.com/meristation/news/nintendo-can-disable-your-switch-2-for-piracy-in-the-us-but-not-in-europe-as-confirmed-by-its-eula-n-2/ https://www.pressfire.no/artikkel/nintendo-legger-opp-til-a-bricke-konsollen-din-om-du-modder-den Terms of Service & legal consent issues: Terms of Service; Didnt Read project: https://tosdr.org/ Academic paper: The Unreadable Terms of Service available on SSRN or Google Scholar Right to Repair movement: https://www.ifixit.com/Right-to-Repair https://www.repair.org/",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.399243Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584765.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584765",
+    "chunks_doc_id": "F3584765",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

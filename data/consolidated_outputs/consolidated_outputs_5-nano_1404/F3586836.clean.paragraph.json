@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586836",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:26Z",
+    "finished_at": "2026-04-14T13:05:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Confusing website designs, sneaky ads, and dark patterns are all things that should be addressed,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "But right now, companies can remove access to it whenever they want, as long as they can disguise this purchase, as a license."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Provider Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Another issue is how payment services can pressure platforms like Steam or GOG to take down games, even if those games are legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42899,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act covers important problems we consumers face in this digital day and age. Confusing website designs, sneaky ads, and dark patterns are all things that should be addressed, but it leaves out some really serious issues that affect a lot of everyday people who buy digital products. 1. Losing Access to Software You Paid For One big problem is that companies can just take away digital products people already paid for, especially games. The Stop Destroying Videogames citizens initiative shows how upset people are about this. If you buy software, you should be able to keep using it. But right now, companies can remove access to it whenever they want, as long as they can disguise this purchase, as a license. Thats not fair, imagine an amusement park selling you a lifetime pass, and they can just revoke it at any point in time. This initiative should make sure that if you buy something digital, you actually get to keep it or at least have a way to keep using it offline. It should also say how long a digital product is expected to work after you buy it. 2. Payment Companies Controlling What You Can Buy Another issue is how payment services can pressure platforms like Steam or GOG to take down games, even if those games are legal. This recently happened with some adult games. Even though they were legal for adults, they were removed just because a payment company didnt like them. This kind of censorship isnt okay, especially when it affects peoples freedom to choose what they buy. This initiative should also include such overbearing censorship.Currently, this is only affecting games, but this logic can easily be extended to other platforms. How come a Payment provider like Visa, can make decision on how I get to spend my money?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.361944Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586836.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586836",
+    "chunks_doc_id": "F3586836",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

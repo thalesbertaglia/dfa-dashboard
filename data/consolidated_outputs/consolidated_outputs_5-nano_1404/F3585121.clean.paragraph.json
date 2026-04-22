@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3585121",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:34Z",
+    "finished_at": "2026-04-14T12:20:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              },
+              {
+                "quote": "addictive design"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "personalisation practices"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers being able to disable videogames (primarily live service ones) that were already sold to customers when company decides to End support for the game"
+              },
+              {
+                "quote": "The practice of making games rely on external server to run is unnecessary and may violate eu directive 93/13/EEC"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24822,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for tackling the issue of dark patterns, addictive design, personalisation practices and other important consumer protections. I'd also like to ask to additionally include a possibly adjacent issue of publishers being able to disable videogames (primarily live service ones) that were already sold to customers when company decides to End support for the game. The practice of making games rely on external server to run is unnecessary and may violate eu directive 93/13/EEC",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.604347Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585121.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585121",
+    "chunks_doc_id": "F3585121",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

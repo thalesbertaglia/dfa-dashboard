@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586401",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:54Z",
+    "finished_at": "2026-04-14T12:56:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games for instance;"
+              },
+              {
+                "quote": "companies being able to take away your access to your product that you purchased is a gross assault on consumer rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23640,
+          "unit_kind": "feedback"
+        },
+        "text": "It is only right, ethical and FAIR that digital purchases be protected under this law, as it pertains to video games for instance; companies being able to take away your access to your product that you purchased is a gross assault on consumer rights. I therefore strongly suggest including this protection in the digital fairness act",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.231607Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586401.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586401",
+    "chunks_doc_id": "F3586401",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

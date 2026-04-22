@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586505",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:57:59Z",
+    "finished_at": "2026-04-14T12:58:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gaming companies have increasingly shut down access to games that consumers legally purchased,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18918,
+          "unit_kind": "feedback"
+        },
+        "text": "First of all, thank you for creating this platform and getting feedback. Gaming companies have increasingly shut down access to games that consumers legally purchased, often citing lack of support or profitability, effectively rendering those titles unplayable. This practice is not only frustrating to loyal players but also raises serious ethical and legal concerns. The Stop Killing Games movement highlights this growing problem, calling for digital consumer rights and long-term access to purchased content. Supporters argue that when a consumer buys a game, they are entitled to access it even years later, regardless of a companys decision to cease updates or online services. The proposed Digital Fairness Act aims to address this imbalance by requiring companies to maintain basic functionality or provide refunds when access is revoked. Killing games after purchase without alternatives isnt just bad business. It undermines digital ownership and could be considered a violation of consumer protection laws. I hope a legal action could be taken accordingly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.264134Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586505.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586505",
+    "chunks_doc_id": "F3586505",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

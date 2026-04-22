@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586892",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:27Z",
+    "finished_at": "2026-04-14T13:05:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games in a functional state after purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23063,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as a consumer and passionate of video games, I would like video games to be preserved and secure for the future instead of becoming unusable and destroyed. I would like to share the objectives of the European Citizens’ Initiative “Stop Killing Games” and add them to the Digital Fairness Act. The initiative requires publishers to leave video games in a functional state after purchase and this initiative aims to prevent the blocking of video games remotely and even more. The objectives of this initiative are not to acquire ownership of these video games, nor intellectual and monetisation rights. Thank you for taking my suggestion into consideration and for having read my message. I wish you a good day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.376656Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586892.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586892",
+    "chunks_doc_id": "F3586892",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

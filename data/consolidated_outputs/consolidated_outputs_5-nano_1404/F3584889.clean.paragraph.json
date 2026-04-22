@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584889",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:41Z",
+    "finished_at": "2026-04-14T12:13:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not being able to use a product, in this case, a videogame, after I paid a full price for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15584,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I'd like to say Thank You for having this space that we have been given to express our concerns. Well I'd like express my concern as a consumer about not being able to use a product, in this case, a videogame, after I paid a full price for it. I don't think that limiting a videogame's life is something that consumers support specially since in the past we had not such issues, however I feel very mistreated as a consumer when a product of this kind has a limited lifetime, I understand that not everything last forever but I really feel like the industry of media should have a certain compromise to offer a product that will not disappear in a matter of years or even months as we saw happening lately in videogames like Concord, Babylon's Fall or The Crew, just to name a few. I was affected when The Crew ended it's lifetime and I felt that was not only unfair but also as a consumer felt mistreated since I had no choice but to lose access to something I paid for, that lead to not trust companies, now being careful or even investigate that the product I was buying had secured it's future. I honestly don't think that, as a consumer, I have to go thorough a research in order to make sure that the videogame I'm acquiring is not going to disappear, because I feel that I no longer have rights, that are, as simple as keeping something I paid money for, and is not a consumable, as in this case is digital media. Thank You",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.485909Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584889.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584889",
+    "chunks_doc_id": "F3584889",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

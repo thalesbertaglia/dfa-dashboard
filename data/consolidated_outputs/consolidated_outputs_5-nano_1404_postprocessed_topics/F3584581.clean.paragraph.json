@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3584581",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:24Z",
+    "finished_at": "2026-04-14T12:03:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              },
+              {
+                "quote": "They are just pixels on the screen."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing by influencers"
+              },
+              {
+                "quote": "Many influencers are paid to read a very positive script, designed by the marketing specialists."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47418,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with the Digital Fairness Act. I would like to suggest the addition of Video Games to this project. Why? Regarding to unfair commercial practices related to dark patterns: Many Video Games, including Gatcha Games, include commercial practices related to dark patterns, such as \"Fear Of Missing Out\", where something is sold in a limited edition fashion, even though there is no \"limited\" resource at stake. They are just pixels on the screen. They are usually sold for a limited time, usually 1 week. This forces players to make impulse purchases of sometimes hundreds of euros using the gatcha mechanic (draw 1, draw 10, with a 0.5% chance to obtain what you want, the chance increasing with each draw). People with gambling tendencies may spend more than they afford in order to get this. There are many stories online regarding this. I remember one time someone from the US had her joint savings account wiped out by her boyfriend to draw multiple times for a character in Genshin Impact. Regarding to misleading marketing by influencers: Many influencers are paid to read a very positive script, designed by the marketing specialists. This includes RAID: Shadow Legends, a gatcha game that advertises itself in a friendly manner, especially to children. The problem arises when the influencers take money to say something, just to make more money, without actually trying out the product. Regarding addictive design of digital products: Many video games rely on daily logins, small purchases that give a ton of rewards, but most of the content is given only if you play X amount of time every day, timers to recharge energy (required for you to play etc). These mainly apply to mobile games and Free to Play Console/PC games. Sometimes this also applies to premium games on PC and Console.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.302215Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584581.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584581",
+    "chunks_doc_id": "F3584581",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584581.clean.paragraph.json"
+}

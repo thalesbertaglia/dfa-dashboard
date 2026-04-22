@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586107",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:06Z",
+    "finished_at": "2026-04-14T12:47:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              },
+              {
+                "quote": "addictive design"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of videogames, specifically ones that need internet to be played, and without it don't work."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27120,
+          "unit_kind": "feedback"
+        },
+        "text": "Regulating practices like dark patterns and addictive design is very good, thank you. Just wanted to request the addition to some kind of protection against the destruction of videogames, specifically ones that need internet to be played, and without it don't work. I think it would only be fair to be able to keep and use something that you've bought, and i'd be grateful if the Digital Fairness Act initiative would also take a look at this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.094305Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586107.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586107",
+    "chunks_doc_id": "F3586107",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

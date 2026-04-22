@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584993",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:25Z",
+    "finished_at": "2026-04-14T12:17:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Shutting down a game after purchase undermines trust and treats it more like a rental without clearly stating so."
+              },
+              {
+                "quote": "This practice erodes consumer rights and devalues digital ownership."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16017,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to add my 2 cents on this matter. Owning what you paid for is a logical outcome because a purchase implies a transaction of value for lasting access or ownership. When consumers buy a game, they expect the ability to use it indefinitely, not just for as long as the publisher permits. Shutting down a game after purchase undermines trust and treats it more like a rental without clearly stating so. This practice erodes consumer rights and devalues digital ownership. Ultimately, if you pay for a product, you should have the right to access and enjoy it as promised.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.542397Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584993.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584993",
+    "chunks_doc_id": "F3584993",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

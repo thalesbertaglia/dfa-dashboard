@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586941",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:21Z",
+    "finished_at": "2026-04-14T13:06:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns in software that make simple stuff difficult for the user."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that consumers have paid for ,that are rendered unuseable when no end of life support is provided by the developpers or publishers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19979,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am very interested in the Digital Fairness act. As a former developper, i always disliked the dark patterns in software that make simple stuff difficult for the user. On another topic, I would like to get your attention about video games that consumers have paid for ,that are rendered unuseable when no end of life support is provided by the developpers or publishers. I feel like this matter could fit well amongst the points it defends. The recent movement called \"Stop killing games\" is something that made me realise we finally could have our say in this as consumers. Thank you for reading my feedback and my suggestion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.392428Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586941.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586941",
+    "chunks_doc_id": "F3586941",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586941.clean.paragraph.json"
+}

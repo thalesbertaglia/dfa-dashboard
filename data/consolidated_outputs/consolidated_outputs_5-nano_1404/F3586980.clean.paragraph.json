@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3586980",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:19Z",
+    "finished_at": "2026-04-14T13:09:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end subscription fees."
+              },
+              {
+                "quote": "I consider this a way to create barriers to cancellation,"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I consider this a way to create barriers to cancellation,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays publishing companies reserve their rights to terminate the services of certain video games"
+              },
+              {
+                "quote": "violation of the Directive 93/13/EEC."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 110306,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Comission, I'm an EU Citizen that fully supports your points made in Digital Fairness Act and I believe that EU needs to establish more regulation laws against firms, companies and big international corporate entities in order to protect EU citizens from regular or digital online abuses. As such, one thing that is not fully covered by the points made in the Digital Fairness Act is how the DFA would deal with end subscription fees. There are americans companies that require for their software suite subscription, after a certain time (and depending on their subscription plan) to pay a certain percentage of the subscription cost to end their subscription plans. I consider this a way to create barriers to cancellation, or to make consumers to go through different subscription's plans just in order to reduce or eliminate the fee (if is the case). A company/corporation shouldn't demand any cancellation fees and offer a normal subscription plan where a user can any time choose to leave the services they have paid for, with no additional costs. Now, moreover, if it hasn't been brought forward by other multiple feedbacks, I think the Digital Fairness Act should also cover the issues related to purchasing digital (or physical) video games these days. Nowadays publishing companies reserve their rights to terminate the services of certain video games, essentially rendering them obsolete to the consumers which should reserve the rights to continue use them as long as they want, since video games are initial investments, not a service. This problem may also cause an imbalance of power between the consumer and the businesses, favoring the latter, since they retain all the rights of the product which would lead (if not already) to a violation of the Directive 93/13/EEC. Thank you so much for taking the time to read my feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.402214Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586980.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586980",
+    "chunks_doc_id": "F3586980",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

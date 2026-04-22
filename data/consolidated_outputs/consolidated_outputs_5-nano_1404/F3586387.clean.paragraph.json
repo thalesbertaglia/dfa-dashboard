@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586387",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:30Z",
+    "finished_at": "2026-04-14T12:57:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remotely disable all copies of a product"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 92124,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I appreciate the hard work you put into making this. Please consider extending and/or precising the scope to include companies revoking digital licenses for products they sold, including but not limited to video games, and also in-app purchases. As it stands, such companies abuse the current laws around the world by doing so, many of such laws being made decades ago (before internet became a commodity) and so are unprepared for a possibility of publisher being able to remotely disable all copies of a product. Even if one does not consider digital software art, a lot of digital software contains art inside, that art often lost forever because of the companies' actions. I believe a particular copy video game one bought should belong to that person and be irrevocable by the seller. Another matter that is worth bringing up regarding the dark patterns, are the increasingly implemented gambling and/or gambling like elements, so called \"loot boxes\" where instead of buying an item inside a video game (for real money) you get a chance of getting the product you wanted. That system is utmost predatory and has a tendency to unhealthily addict people to itself. It has been legally banned in at least one EU country (Belgium), heavily regulated (Netherlands), or scrutinized (Germany). It would provide a great benefit to all EU citizens if such a practice was looked into and there were made steps against it in EU law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.224145Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586387.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586387",
+    "chunks_doc_id": "F3586387",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

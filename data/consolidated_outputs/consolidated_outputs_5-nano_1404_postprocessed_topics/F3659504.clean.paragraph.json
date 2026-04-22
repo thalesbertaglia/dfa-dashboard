@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3659504",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:20Z",
+    "finished_at": "2026-04-14T13:44:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "higher costs due to app store fees."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14107,
+          "unit_kind": "feedback"
+        },
+        "text": "Google excessive control over what users can and cant access, which goes against the spirit of open-source software and can lead to censorship and higher costs due to app store fees. Ultimately, it harms both developers and users who want more choice and freedom in how they use their devices. As a consumer, I should not be limited to what I can / cannot do on a device that I have purchased and have ownership over.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.066808Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3659504.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3659504",
+    "chunks_doc_id": "F3659504",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3659504.clean.paragraph.json"
+}

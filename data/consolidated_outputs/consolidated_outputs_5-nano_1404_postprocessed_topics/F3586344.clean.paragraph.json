@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3586344",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:33Z",
+    "finished_at": "2026-04-14T12:56:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Today, most video games are sold purely as access to a service (Games as a Service, or GaaS)."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in typical SaaS models, users subscribe via recurring payments (often monthly), and payments cease if the service is discontinued."
+              },
+              {
+                "quote": "- OR require that all GaaS titles be sold as recurring subscriptions, granting access for a defined duration, rather than as a high one-time payment subject to unilateral service termination;"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Finally, a related issue worth addressing is the unilateral removal of paid content from games."
+              },
+              {
+                "quote": "A textbook example is Destiny 2, where previously purchased downloadable content (DLC) has been removed from the game by the publisher."
+              },
+              {
+                "quote": "This content was sold without any indication that it was temporary, nor was any expiration date disclosed."
+              },
+              {
+                "quote": "It was later removed through a game update with only a few weeks' notice to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 113409,
+          "unit_kind": "feedback"
+        },
+        "text": "As many have already pointed out, the digital goods marketparticularly the video game sectorrequires better consumer protection and regulation. Today, most video games are sold purely as access to a service (Games as a Service, or GaaS). This is similar to the broader software trend of Software as a Service (SaaS). However, there is a key difference: in typical SaaS models, users subscribe via recurring payments (often monthly), and payments cease if the service is discontinued. By contrast, video games are often sold for a high one-time upfront fee, with continued access depending solely on the publisher's discretion. This issue is even more problematic because access to a game publishers servers is often required even for single-player features. As a result, games may be completely unplayable without an internet connection or when the publisher takes the servers offline. A second concern is that publishers can revoke a player's access at any time, often through opaque or non-existent appeal procedures. A player may lose access to their gameand any additional content purchased via microtransactionswithout a fair or transparent process. This is especially troubling when bans are issued based on automated heuristics, which frequently produce false positives (see: https://x.com/Destiny2Team/status/1859404999425655209). In this example, the false positive was eventually overturned by the support team, but in many cases no such investigation takes place, and bans are enforced indiscriminately. Several regulatory approaches could help address this situation: - Require that all GaaS titles be sold as recurring subscriptions, granting access for a defined duration, rather than as a high one-time payment subject to unilateral service termination; - OR require a minimum service duration (e.g., 5 years), with pro-rated refunds issued if the service is discontinued earlier; - OR mandate that server code be made available in the event of a service shutdown, allowing community-run servers to continue operation. Additional recommendations: - Establish an independent appeal process, with a neutral third party or mediator, to review bans and limit publishers unilateral power; - Require publishers to provide evidence of the alleged infraction when banning a player, and prohibit bans based solely on AI or heuristic detection without human review; - Ensure that content advertised as \"single-player\" can be played offline, without the need for server access. Finally, a related issue worth addressing is the unilateral removal of paid content from games. A textbook example is Destiny 2, where previously purchased downloadable content (DLC) has been removed from the game by the publisher. This content was sold without any indication that it was temporary, nor was any expiration date disclosed. It was later removed through a game update with only a few weeks' notice to customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.211150Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586344.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586344",
+    "chunks_doc_id": "F3586344",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586344.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3701380",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:18Z",
+    "finished_at": "2026-04-14T13:46:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google trying to block sideloading is against the idea of android itself."
+              },
+              {
+                "quote": "We were advertised a open platform that they are trying to lockdown."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10543,
+          "unit_kind": "feedback"
+        },
+        "text": "Google trying to block sideloading is against the idea of android itself. We were advertised a open platform that they are trying to lockdown. We paid a ton of money for the hardware, we should be able to do what we want with it. It's not something they should be able to control and lockdown. If I wanted a phone like that, I would've bought an iPhone, but I bought a phone that would let me have freedom to do what I wanted and google is trying to take that away so they can make more money.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.102476Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3701380.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3701380",
+    "chunks_doc_id": "F3701380",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3701380.clean.paragraph.json"
+}

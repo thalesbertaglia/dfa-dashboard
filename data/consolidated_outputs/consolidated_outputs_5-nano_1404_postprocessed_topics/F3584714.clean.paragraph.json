@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584714",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:23Z",
+    "finished_at": "2026-04-14T12:07:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they only own a license to a game."
+              },
+              {
+                "quote": "publishers of video games may make the game inaccessible to its buyer;"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15234,
+          "unit_kind": "feedback"
+        },
+        "text": "One major thing somewhat related to this act is that publishers of video games may make the game inaccessible to its buyer; right now, there is no regulation regarding this problem. I believe it is on a very thin line with consumer rights, since they are often not correctly informed regarding that they only own a license to a game. This has been an issue for years now, and it only keeps getting worse. I wish this act to include something related to the problem of video game publishers making a game inaccessible for those who have paid for one. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.368712Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584714.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584714",
+    "chunks_doc_id": "F3584714",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584714.clean.paragraph.json"
+}

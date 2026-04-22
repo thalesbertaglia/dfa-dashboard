@@ -1,0 +1,93 @@
+{
+  "doc_id": "F33095740",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:20:28Z",
+    "finished_at": "2026-04-14T10:21:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "'dark patterns' and other manipulative designs on various online platforms, such as marketplaces."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games preservation through the right to play offline, access to sideloading on smartphones and other devices."
+              }
+            ]
+          },
+          {
+            "topic": "Age Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the EU's proposal to implement age verification across all online platforms to enforce DSA Article 28."
+              },
+              {
+                "quote": "Such externalities could include loss of access to information and content, lowered user traffic, and possibly harm to internet users' privacy and data safety."
+              },
+              {
+                "quote": "data breaches or fake age verification checks in an age where data and identity theft are on the rise."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43696,
+          "unit_kind": "feedback"
+        },
+        "text": "As a French/EU citizen and father of two with a keen interest in consumer protection and privacy, I am in a challenging position when evaluating the Digital Fairness Act's impact on my experience and that of my children as European internet users. I welcome the proposed guidelines to address 'dark patterns' and other manipulative designs on various online platforms, such as marketplaces. I believe these guidelines will enhance consumers' decision-making processes by removing unnecessary nudges. I also support the suggestions put forward by the other feedback providers, such as video games preservation through the right to play offline, access to sideloading on smartphones and other devices. However, I am concerned about the EU's proposal to implement age verification across all online platforms to enforce DSA Article 28. I believe that this could have a negative impact on minors, adults, and small community-driven online platforms alike, by restricting access to information that could be flagged as \"harmful\" by AI automatized content systems, despite being appropriate for intellectually mature internauts,minors and adults alike (e.g: NSFW content, content discussing mental and societal disorders, historical events, artistic depictions of nudity in historical artworks) I am also concerned that the implementation of age verification could put adults at risk of having their critical data and official documents (e.g., national ID, passport, and facescan) stolen by malicious actors through data breaches or fake age verification checks in an age where data and identity theft are on the rise. Smaller, community-oriented online platforms hosted outside the European Union may be forced to restrict access to incoming European IP addresses due to their inability to implement an RGPD-compliant age verification solution. These platforms may also lack the legal resources to fulfill the risk assessment requirements, potentially affecting both minors and adults in Europe who have accounts on these platforms, including long-standing accounts. A similar scenario unfolded when the Online Safety Act was passed in the United Kingdom, prompting several small online platforms to restrict access to their services for UK users. This was due to the age verification and risk assessment requirements of the act, which these platforms found financially unfeasible and logistically challenging to implement due to the necessary legal and human resources. The current age declaration paradigm, while not without its flaws, is the only one that can meet the needs of all stakeholders. This includes maintaining online users' anonymity and ensuring the platform's ease of implementation. Overall, while I commend the EU's efforts to safeguard minors online. I have strong reservations about the implementation of a uniform age verification solution across a wide range of online platforms, regardless of their size. The current EU age verification solution relies heavily on a smartphone application for providing critical information, such as national ID, passport, and facial recognition, with no means to store the proof-of-age on the online platform's account. This could have negative externalities on all stakeholders. Such externalities could include loss of access to information and content, lowered user traffic, and possibly harm to internet users' privacy and data safety. A limited implementation on VLOPs as a transitional phase should be considered, along with an impact assessment on such an implementation. Ultimately, I think minors should be encouraged to talk to their parents about sensitive content online and share their thoughts on it. Being able to deal with such content is an important step toward adulthood. While the Internet is not a completely safe space, it should remain a wellspring of content and knowledge for minors and adults alike, meant to connect people across the world.It is a precious gift to pass on to our children.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.772362Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095740.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095740",
+    "chunks_doc_id": "F33095740",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095740.clean.paragraph.json"
+}

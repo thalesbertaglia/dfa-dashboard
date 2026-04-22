@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584896",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:52Z",
+    "finished_at": "2026-04-14T12:14:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game publishers removing access to games that have already been purchased by customers"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors putting pressure on online platforms to remove certain content they do not agree with."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28569,
+          "unit_kind": "feedback"
+        },
+        "text": "There are currently 2 developments in the online space that I find concerning and worth looking into as part of the Digital Fairness Act. 1. Payment processors putting pressure on online platforms to remove certain content they do not agree with. 2. Video game publishers removing access to games that have already been purchased by customers Payment processors forcing platforms to remove/disallow content by threatening to stop processing their payments feels to as them making moral choices for the wider public. While they may currently target adult content and content with darker topics, I can only worry about what they may sensor next. What would stop them from basing future decisions on topics like politics or their own commercial gain at the cost of EU citizens? I believe payments should be processed on the basis of legality, not morality. With regards to game publishers taking away access to already sold products, it feels as if I'm being stolen from. Games that should be fully playable offline or have servers hosted by the players themselves, are currently being \"destroyed\" be these publishers by revoking access through their always online development model. As soon the numbers drop below their desired profit targets, the game is abandoned. All while leaving those who purchased them, including myself, with just some wasted hard disk space or circular disk. It is not as if I and many other like minded gamers think that companies need to support their games in perpetuity, only that they have an end of line plan during development. Whether that is allowing the game to be played offline, or giving players the option to host their own server to play with their friends. The issue we're facing I feel is akin to the Right to Repair which the EU has already made legislation for. I strongly believe similar measures are required to preserve the ability for EU customers to retain access to their purchased products that should be rightfully theirs to access and use. For more information of the issue of payment processors, I encourage you to look into Mastercard and Visa forcing the platforms of Steam and Itch.io to remove many games containing adult content. For the issue of game publishers, I would like to direct you towards the Stop Killing Games initiative for more information.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.489649Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584896.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584896",
+    "chunks_doc_id": "F3584896",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584896.clean.paragraph.json"
+}

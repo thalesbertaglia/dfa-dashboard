@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588087",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:15Z",
+    "finished_at": "2026-04-14T13:23:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The issues of gambling and loot boxes of the past"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hook a person in and squeeze the money out of them while delivering the bare minimum."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 51617,
+          "unit_kind": "feedback"
+        },
+        "text": "Speaking as a game dev and videogame modder, wanna air the same thoughts of other people who already mentioned issues here regarding VISA/Mastercard and Stop Killing Games. No duopoly should have this much power and I think this would easily fall under anti-trust law the USA has and they should have been on top of it already. Otherwise, videogame companies have been effectively delivering unfinished products, then proceed to squeeze what's left of it and kill it, pretending like it never happened. The issues of gambling and loot boxes of the past only stopping after lawmakers took a look at it and figured this is highly predatory and hostile towards customers, treated as if they are consumers. It's the same kind of ordeal where a live service game is created to hook a person in and squeeze the money out of them while delivering the bare minimum. I remember the times when the games were done as fully self-contained product and firmly believe that if we could've done this with much stricter technical limitations of the heyday, we could do it again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.612338Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588087.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588087",
+    "chunks_doc_id": "F3588087",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588087.clean.paragraph.json"
+}

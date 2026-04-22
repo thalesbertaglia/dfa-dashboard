@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586247",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:40Z",
+    "finished_at": "2026-04-14T12:51:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm worried about game developers and publishers being able to just shut down games without notice."
+              },
+              {
+                "quote": "It's completely unfair that companies can just announce server closures and be done with it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16003,
+          "unit_kind": "feedback"
+        },
+        "text": "This looks like a great initiative and I'm happy to see that the EU is taking steps to protect consumers from companies once more! That said, I'm worried about game developers and publishers being able to just shut down games without notice. I think companies should be held liable for games that people purchase. We spend good money on games, downloadable content and sometimes even microtransactions to enjoy video games as a hobby or in the case of some people even as a full-time job. It's completely unfair that companies can just announce server closures and be done with it. It happened to The Crew, Ark: Survival Evolved, and now EA has announced the closure of the Anthem servers days after the citizen's initiative reached the 1 million signatures goal. It's completely unfair to consumers and it puts all the power in the hands of the companies. I believe that this should change.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.174869Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586247.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586247",
+    "chunks_doc_id": "F3586247",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

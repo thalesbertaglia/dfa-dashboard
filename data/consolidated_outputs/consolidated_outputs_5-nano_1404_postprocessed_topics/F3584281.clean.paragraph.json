@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584281",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:09Z",
+    "finished_at": "2026-04-14T11:54:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"live-service\" games in the video game industry"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "platforms like Amazon and Netflix can remove or alter media content at their discretion, even if you've paid for it, as seen with Kindle books or Amazon Prime Video."
+              },
+              {
+                "quote": "creators should regain access to the licensing of their work if their distribution platform refuses to make it available again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19740,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Europe, I came of age in the early 2000s, a time when digital media was heralded as the superior alternative to physical formats like DVDs and CDs. However, as I matured, I realized that this shift meant I no longer truly owned anything. Instead, my purchases were reduced to mere sequences of 1s and 0s stored on distant servers around the world. The rise of streaming platforms for movies and series, as well as the prevalence of \"live-service\" games in the video game industry, epitomizes the concept that \"buying isn't owning.\" This is evident in various ways: platforms like Amazon and Netflix can remove or alter media content at their discretion, even if you've paid for it, as seen with Kindle books or Amazon Prime Video. Similarly, companies like Spotify can render physical products obsolete by discontinuing support, as they did with \"The Car Thing.\" In the gaming world, industry leaders like Nintendo can remotely disable devices you've legally purchased due to perceived violations, such as an unacceptable username or console modifications, without providing physical copies of the games you buy. Beyond fair practices within the digital industry, it's crucial to consider the preservation of these contents. Numerous series and games are being removed from online services, leaving piracy as the only means of access. This has led many to argue that \"if buying isn't owning, piracy isn't stealing.\" To address this, it should be put into in law that if a platform, producer, or rights owner no longer provides reasonable access to content for which consumers have paid, that content should enter the public domain with restrictions to prevent others from profiting from it for example. Additionally, creators should regain access to the licensing of their work if their distribution platform refuses to make it available again. We all desire true ownership of our purchases and the ability to preserve what we own. However, the current state of the streaming and video game industries prevents us from fully exercising these rights. I am grateful that the EU is taking steps to protect consumers and foster a healthy relationship between the online industry and its users. It is reassuring to have a platform where our voices can be heard. Thank you for your attention!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.159172Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584281.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584281",
+    "chunks_doc_id": "F3584281",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584281.clean.paragraph.json"
+}

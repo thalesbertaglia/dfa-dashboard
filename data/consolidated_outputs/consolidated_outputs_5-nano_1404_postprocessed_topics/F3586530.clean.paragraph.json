@@ -1,0 +1,132 @@
+{
+  "doc_id": "F3586530",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:39Z",
+    "finished_at": "2026-04-14T13:00:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "patterns I spot that are quite predatory to consumers."
+              },
+              {
+                "quote": "predatory schemes, such as fear of missing out (FOMO)"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "programs you have to subscribe to"
+              },
+              {
+                "quote": "paying to cancel a subscription."
+              },
+              {
+                "quote": "cancelling early requires a cancellation fee"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Other forms of FOMO are paid daily bonuses you can miss out on if you skip a day."
+              },
+              {
+                "quote": "Luck based micro-transactions (Gacha, loot boxes) are the biggest offenders."
+              },
+              {
+                "quote": "Overwatch 1 had a loot box system where you had a 1 in 12 chance to get a legendary item."
+              },
+              {
+                "quote": "This loophole allows publishers to exploit the user-base, including minors, through gambling methods."
+              },
+              {
+                "quote": "Live service games are notorious for it as once the company shuts down the live service game, it'll be inaccessible for everyone."
+              },
+              {
+                "quote": "If you buy a battle pass, you only buy access to the mechanic but not the content itself."
+              },
+              {
+                "quote": "If you don't stick by, then you may end up gaining little to no item you paid the battle pass for."
+              },
+              {
+                "quote": "Even if it's unavailable to purchase, if you bought a past battle pass, you can still acquire the products/items in said paid battle pass."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When someone buys a software or game, it's assume you own said software or game. However, you buy a license to use it instead, which can be revoked at any point."
+              },
+              {
+                "quote": "licensing causes a massive issue in many fields."
+              },
+              {
+                "quote": "If a software stops being supported by the company, then the public should have the right to continue using it as public domain."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 107521,
+          "unit_kind": "feedback"
+        },
+        "text": "There are a lot of patterns I spot that are quite predatory to consumers. For example, programs you have to subscribe to, like adobe, coerces you into new terms you don't want to agree with because refusing results in loss of access to a vital program for work. For adobes case, it's the new policy change to permit them moderation of your projects. Another pattern Adobe is known is paying to cancel a subscription. On a yearly subscription, payment is still monthly and cancelling early requires a cancellation fee, which hasn't been disclosed clearly when subscribing to the service. Another issue is most prevalent in the entertainment and games industry. Games, such as Fortnite use predatory schemes, such as fear of missing out (FOMO) to continue playing in order for purchases to pay out. By buying a battle pass, you only buy access to the mechanic but not the content itself. If you don't stick by, then you may end up gaining little to no item you paid the battle pass for. Other forms of FOMO are paid daily bonuses you can miss out on if you skip a day. In this case, you pay for a daily bonus in the next 30 days, not 30 days of daily bonuses in total. Missing a day means losing money so it forces you to play daily. Other games, such as Marvel Rivals, solve the issue by making battle pass purchases permanent. Even if it's unavailable to purchase, if you bought a past battle pass, you can still acquire the products/items in said paid battle pass.\" Luck based micro-transactions (Gacha, loot boxes) are the biggest offenders. Even if they have a pity system (example: Guaranteed luxury item at the 70th pull), due to our natural misjudgement of probability, the deal seems better than it actually is. For example, Overwatch 1 had a loot box system where you had a 1 in 12 chance to get a legendary item. That phrasing makes players assume they will likely get a legendary item every 12 pulls. In reality (binomial distribution), they have to pull roughly at least 50 times to have a 95% minimum chance to pull at least 1 legendary item. A lack of understanding in probability makes luck based micro-transactions enticing in a predatory way. The only reason it doesn't count as gambling legally is because you always win at least something, even if it isn't the item you desire. This loophole allows publishers to exploit the user-base, including minors, through gambling methods. Additionally, there are clear discrepancies of what a user buys and what a company provides. When someone buys a software or game, it's assume you own said software or game. However, you buy a license to use it instead, which can be revoked at any point. Live service games are notorious for it as once the company shuts down the live service game, it'll be inaccessible for everyone. The Crew is a prime example, as it could have been accessible offline but the shutdown of the service lead to the game being inaccessible. Companies should ensure that their games and software are still accessible once they stop supporting it. It can be achieved by simply calling the version you purchased your property or enabling server hosting by third parties once they stop doing that. Lastly, licensing causes a massive issue in many fields. Companies may stop producing a software (turning them into abandonware) yet refuse to make them accessible to the public. While they make no monetary gain from abandoned software, they still make them inaccessible to the public. It's especially bad for software companies depend on because they suddenly can't use it anymore as they don't \"own\" it. If a software stops being supported by the company, then the public should have the right to continue using it as public domain.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.273249Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586530.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586530",
+    "chunks_doc_id": "F3586530",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586530.clean.paragraph.json"
+}

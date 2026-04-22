@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3587402",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:22Z",
+    "finished_at": "2026-04-14T13:17:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "annoying dark patterns like repeatedly asking me to subscribe for \\\"premium experience\\\", and lootboxes."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "repeatedly asking me to subscribe for \\\"premium experience\\\""
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lootboxes."
+              }
+            ]
+          },
+          {
+            "topic": "Shadowbanning",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "shadowbanning."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "disallowing removal of access to products - games and in-game bonuses - people have already paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40120,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm very glad that EU is finally banning the annoying dark patterns like repeatedly asking me to subscribe for \"premium experience\", and lootboxes. On the site https://www.digital-fairness-act.com/ (accessed at 12:15 31 VII 2025) I've seen that one of the addressed issues is shadowbanning. From my experience, it is generally done this way to prevent an inconvenient person from creating a new account right after receiving a ban message. Also, since this act is already addressing various forms of gambling in video games, it would be nice if it was extended with disallowing removal of access to products - games and in-game bonuses - people have already paid for by various publishers, such as: - Bandai Namco - Blue Protocol, Gundam Evolution - Electronic Arts - DawnGate, Darkspore - Epic Games - Paragon - Ubisoft - Assassin's Creed Identity, The Crew, xDefiant - Zynga - Bubble Safari, Cafe World, CastleVille, ChefVille, CityVille, CityVille 2, CityVille Gometown, FishVille, Indiana Jones Adventure World, Mafia Wars, Treasure Isle Games chosen from the list available at https://stopkillinggames.wiki.gg/wiki/Dead_game_list accessed at 12:33 31 VII 2025 There are also many \"gacha games\" that have greatly profited from selling in-game goods, for example Genshin Impact that has earned over 700 million dollars in 2024 ( https://www.businessofapps.com/data/genshin-impact-statistics/ ), and the developers can deny access to them at any moment, like it has already happened to many others. https://www.reddit.com/r/gachagaming/comments/18uf1p8/list_of_gacha_games_that_ended_service_in_2023/ https://www.reddit.com/r/gachagaming/comments/1huouci/list_of_gacha_games_that_ended_service_in_2024/ (accessed at 13:08 31 VII 2025)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.517917Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587402.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587402",
+    "chunks_doc_id": "F3587402",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587402.clean.paragraph.json"
+}

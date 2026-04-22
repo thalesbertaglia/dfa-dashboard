@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585464",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:15Z",
+    "finished_at": "2026-04-14T12:28:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When Ubisoft shut down \\\"The Crew\\\" in 2024, 12 million consumers lost their purchased game with no refund or offline mode."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "2) Unfair contract terms allowing unilateral termination"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30919,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to recommend that the Digital Fairness Act include regulations preventing companies from disabling purchased digital products without providing functional alternatives or compensation. Companies routinely sell digital products using ownership language (\"buy,\" \"purchase\") while maintaining rights to disable them unilaterally. When Ubisoft shut down \"The Crew\" in 2024, 12 million consumers lost their purchased game with no refund or offline mode. This practice affects all digital products: software, e-books, mobile apps, and any product with artificial server dependencies. This constitutes unfair commercial practices the Act addresses: 1) Misleading marketing 2) Unfair contract terms allowing unilateral termination 3) Planned obsolescence through intentional dependencies The Stop Killing Games initiative has 1.4+ million signatures via European Citizens' Initiative, demonstrating significant public concern extending beyond gaming to all digital products. Recommended Solutions: 1) Transparency: Clear distinction between permanent goods and time-limited services 2) Preservation: Companies must provide offline modes, server software, or refunds when ending support 3) Consumer Protection: Refund rights for premature terminations To achieve this, I believe companies should be mandated to include Include in DFA: mandatory longevity disclosure, proportionate preservation requirements, consumer remedies, and enforcement mechanisms. Current EU consumer law has gaps the Fitness Check identified. This complements existing legislation (DSA, DMA) without conflict while addressing a significant consumer harm affecting millions. European consumers deserve the same protection for digital purchases as physical goods. The DFA provides the perfect opportunity to end practices that mislead consumers and destroy purchased products. Thank you for considering this critical consumer protection issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.756522Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585464.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585464",
+    "chunks_doc_id": "F3585464",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

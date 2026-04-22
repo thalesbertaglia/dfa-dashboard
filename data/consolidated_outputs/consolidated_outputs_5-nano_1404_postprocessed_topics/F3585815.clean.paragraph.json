@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585815",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:26Z",
+    "finished_at": "2026-04-14T12:39:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "start out being offered free of charge, but may at any time become paid, or cease to exist altogether, thus rendering the sold product non-functional."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "strong-arm consumers into giving up rights"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "refusing to work unless the user gives it access to contacts, location and camera."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ubisoft shut down \"The Crew\", thus rendering the game unplayable for absolutely everyone."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 110123,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd appreciate some protection of ownership of goods that have digital components. It has become increasingly common for all kinds of goods that are sold under one-time perpetual licenses to contain online components that make them only functional in conjunction with digital services offered by vendors. This is problematic because it blurs the lines between goods and services, and existing laws are not equipped to handle this. Various vendors have started exploiting this legal grey area in ways that hurt consumers. In a lot of cases, the aforementioned services start out being offered free of charge, but may at any time become paid, or cease to exist altogether, thus rendering the sold product non-functional. In other cases, they may change their terms of service to strong-arm consumers into giving up rights, or they may have abusive terms of service to begin with, which are not made sufficiently clear at the time of purchase and go against consumers' expectations. Affected products range from purely digital ones like software suites and video games to physical devices like printers, personal electronics, or even cars. Some examples: - Customers of HP Inkjet Printers who had at some point signed up for the \"HP Instant Ink\" subscription service and later cancelled their subscription found themselves completely locked out of their printers. - Startup PetNet, who sold automated pet feeders, first locked customers out of their devices and demanded a $30/year subscription, before shutting down entirely and rendering all their devices non-functional. - Customers of Samsung washing machines that work with the \"Samsung Smart Washer\" app find the app refusing to work unless the user gives it access to contacts, location and camera. - Microsoft offered a time-limited window for all customers who had purchased the video game \"Minecraft\" from Mojang to migrate their accounts to Microsoft (which required agreeing to new terms of service), and everyone who missed this window or did not agree to the new terms of service is now no longer able to (legally) download or play the game that they paid for. - Ubisoft shut down \"The Crew\", thus rendering the game unplayable for absolutely everyone. Some near misses: - BMW planned to lock seat heating in new car models behind a monthly subscription (now scrapped due to public backlash). - Philips Hue lights depend on server functionality even for crucial features like turning on or off. Outages of those servers in the past years have left customers unable to turn their lights on or off - the same fate would await them if Philips ever decided to shut down the servers in question. As the integration of digital services into products both physical and digital is still on the rise, I think it will only become more important to regulate such practices. In order to adequately protect consumer rights, I think we need: 1. A definition that captures this \"marriage\" of good and service, and strictly regulates what the service component may and may not do. 2. An end-of-life requirement that leaves the good in a functional state if the service component is ever shut down (either shipping a software update, or empowering users to run their own replacement to the service component).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.934481Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585815.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585815",
+    "chunks_doc_id": "F3585815",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585815.clean.paragraph.json"
+}

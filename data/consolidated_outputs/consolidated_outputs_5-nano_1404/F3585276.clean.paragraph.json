@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585276",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:10Z",
+    "finished_at": "2026-04-14T12:24:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game companies are dealing seriously unfairly with customers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you hereby acknowledge that no title or ownership with respect to the Platform or the Games is being transferred or assigned"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22723,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game companies are dealing seriously unfairly with customers. Here is just a short selection of dark patterns and other legal shenanigans I have found. Companies are making service-based games that often require an online connection and will say so, but what they fail to mention is that it also requires their server to be up. They then shut down the server, and despite selling a perpetual license thereby turn it unplayable. Examples of this is the much talked about The Crew, but it also happened to several Heroes of Might and Magic games where I personally lost access. Companies such as Blizzard, Microsoft, Ubisoft, Sony, and Valve use the word \"buy\" and \"cart\" on their store pages, implying a purchase of a good like in a store, but in actuality they write in their gigantic, dense, and hard to read EULA's things akin to these: \"... you hereby acknowledge that no title or ownership with respect to the Platform or the Games is being transferred or assigned ...\" So basically you bought nothing, but they pretend you did. They're just gracefully allowing you to play the thing you \"bought\" for an indeterminate amount of time. Maybe. I often fear the banning of my video game accounts due to a misunderstanding (I don't cheat, but who knows what they might cook up?) and losing tens of thousands of euros in video game purchases. They are updating these EULA's as well and using Digital Rights Management as a way to force you to destroy your property, ignoring the \"cleverness\" of the above. In the case of Ubisoft, they demand that you destroy the physical media onto which they were printed in addition to revoking the license, which is absurd. They will arbitrarily and sometimes without notice update their license terms to something where they grant themselves the right to revoke your licenses for no reason whatsoever at any time they choose to, and if you disagree your licenses are immediately revoked. Because the Digital Rights Management is keeping the software firmly tied to their platform and therefore firmly in their control rather than the buyer's, you have no recourse, so you might as well accept because not accepting means you lose all your rights to your perpetual licenses regardless. That feels a bit like blackmail. Some companies appear to be sunsetting their games because they only paid for a license to certain third party software for a limited time despite knowing full well that they were selling a perpetual license to consumers, which means they sold a license they actually cannot uphold, and they knew at the point of sale that they couldn't, but lied about it. If this isn't planned obsolesence, I don't know what is. Imagine a company sold you a TV with an antenna they already know will only work for 6 years because after that the \"antenna license\" expires and the TV is rendered inoperable, and this is mentioned only as an \"indeterminable\" amount of time in a 100 page booklet that comes inside the box after you've already opened it. On top of this, they will also forcibly update the games. In most cases this is okay because they contain good corrections and fixes, but in other cases they may completely alter the game to the point where you can't even recognise it, and now the old version is unplayable - even parts of it which require no interaction from the seller. In some cases, a Digital Rights Management solution stops working on the only platform the game works on, such as in the case of the Mac version of Homeworld Remastered, rendering the game unplayable. You can then correct this by buying the game off of GOG. Why isn't the DRM simply removed instead? This is just a tiny selection of the insanity happening in this industry. We, and they, wanted not to regulate anything because free markets are to be preferred, but they have decisively shown that they must be regulated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.664141Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585276.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585276",
+    "chunks_doc_id": "F3585276",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

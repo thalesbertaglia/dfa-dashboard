@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584147",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:02Z",
+    "finished_at": "2026-04-14T11:50:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the destruction of digital content such as video games."
+              },
+              {
+                "quote": "once you buy a video game, that its atleast playable to some extent when the services go offline."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9867,
+          "unit_kind": "feedback"
+        },
+        "text": "Im all for this act, but I do have a suggestion if that would be possible, in the last 30 years, more than 100 games have been lost or destroyed. In the Digital Fairness Act, please also take into account the destruction of digital content such as video games. I think its only fair that once you buy a video game, that its atleast playable to some extent when the services go offline. I thank you for your time and willingness to read.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.095190Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584147.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584147",
+    "chunks_doc_id": "F3584147",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

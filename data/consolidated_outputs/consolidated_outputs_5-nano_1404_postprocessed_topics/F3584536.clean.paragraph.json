@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584536",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:59Z",
+    "finished_at": "2026-04-14T12:01:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing by videogame publishers when it comes to always online DRM and what is being sold to consumers(The Crew by Ubisoft)"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive slot machine designs in videogames aimed at children, grooming them into gambling addicts(lootbox mechanics)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20882,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i would like to suggest that the DFA takes a closer look at the videogames industry: -misleading marketing by videogame publishers when it comes to always online DRM and what is being sold to consumers(The Crew by Ubisoft) -addictive slot machine designs in videogames aimed at children, grooming them into gambling addicts(lootbox mechanics) Videogame publishers and market places that should be closely looked at are: Valve(Steam), Ubisoft, EA, Microsoft, SONY and Nintendo. Highly intrusive always online DRM like Denuvo that infringes upon the rights of consumers and other similar always online DRM structures that are never fully explained or can be added after the purchase of the product(Conan Exiles added Denuvo after the official release of the game) should also be looked at.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.281166Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584536.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584536",
+    "chunks_doc_id": "F3584536",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584536.clean.paragraph.json"
+}

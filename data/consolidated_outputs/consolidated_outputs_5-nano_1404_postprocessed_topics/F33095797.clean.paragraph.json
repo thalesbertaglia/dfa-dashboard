@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33095797",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:22:01Z",
+    "finished_at": "2026-04-14T10:22:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "an acquired video game that is retroactively destroyed by the producer"
+              },
+              {
+                "quote": "destruction of IP acquired by publishers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20329,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumer and consumer protection in the EU is unique and forward-looking. This protection is under pressure from perpetual on-line services, end-of-service and yes, including the deliberate destruction of property (in this case, an acquired video game that is retroactively destroyed by the producer). Protecting EU citizens from such bleak practices is not only fair and necessary, but also fosters trust in the EU’s ability to act and necessity. I wish protection against destruction of IP acquired by publishers to be added to the statutes of the DFA. It cannot be that the property of a customer in the EU can be arbitrarily destroyed. This practice is prima facie unfair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.784984Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095797.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095797",
+    "chunks_doc_id": "F33095797",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095797.clean.paragraph.json"
+}

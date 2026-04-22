@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584273",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:54Z",
+    "finished_at": "2026-04-14T11:54:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a developer can take away your access to a game that you have paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14741,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like video games that I have paid for to be protected from being destroyed once the developers stop their support for them. There are multiple options for so called \"end of life\" plans for video games that do not involve the developers needing to support the game indefinitely. As it stands right now, a developer can take away your access to a game that you have paid for (sometimes up to 70 euros or more) and you can never access that game again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.155262Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584273.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584273",
+    "chunks_doc_id": "F3584273",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584273.clean.paragraph.json"
+}

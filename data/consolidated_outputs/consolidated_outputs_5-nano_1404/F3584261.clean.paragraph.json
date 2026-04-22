@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584261",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:33Z",
+    "finished_at": "2026-04-14T11:53:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Computer games are an example where it can be seen: I bought Overwatch and two DLCs for Destiny 2 in person; Overwatch ended and is effectively destroyed for me, and in Destina, the content associated with DLC was almost completely removed a few years ago."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a consumer, we do not have the possibility to negotiate the terms and conditions of sales/licensing contracts, and if a practice is to the benefit of sellers, it will become the norm in a few years and we will lose the possibility to ‘go to buy’."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13924,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider strengthening consumer rights in relation to software, in particular with regard to software behaviour after the end of its support. Computer games are an example where it can be seen: I bought Overwatch and two DLCs for Destiny 2 in person; Overwatch ended and is effectively destroyed for me, and in Destina, the content associated with DLC was almost completely removed a few years ago. My experience is not exceptional, more examples can be found at https://stopkillinggames.wiki.gg/wiki/Dead_game_list (Communityly maintained web). Similar conduct would be a crime in a world of physical goods and services. Furthermore, please be dissatisfied with regulating harmful practices by obliging sellers (publishers, operators...) to publish information: ban equal practice. As a consumer, we do not have the possibility to negotiate the terms and conditions of sales/licensing contracts, and if a practice is to the benefit of sellers, it will become the norm in a few years and we will lose the possibility to ‘go to buy’.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.149447Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584261.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584261",
+    "chunks_doc_id": "F3584261",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

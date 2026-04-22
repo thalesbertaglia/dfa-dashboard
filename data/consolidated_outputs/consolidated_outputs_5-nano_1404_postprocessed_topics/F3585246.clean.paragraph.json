@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585246",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:28Z",
+    "finished_at": "2026-04-14T12:23:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "'dark patterns'"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game territory"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21795,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I believe this act has great points and brings up multiple 'dark patterns' I've personally witnessed and experienced that would be great to have rectified, both for mine and others online safety. If possible, it would be great to have this act expand a little further into the video game territory and adress concerns me and a lot of other people are having, namely having the games you've paid for being rendered mostly, if not completely, unplayable years down the line. One popular example for this is, of course, Ubisoft's The Crew 2014, where support was pulled and licenses were revoked on March 31st, 2024, rendering the game entirely unplayable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.652800Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585246.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585246",
+    "chunks_doc_id": "F3585246",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585246.clean.paragraph.json"
+}

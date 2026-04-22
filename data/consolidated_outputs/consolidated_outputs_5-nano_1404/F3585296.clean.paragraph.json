@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585296",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:35Z",
+    "finished_at": "2026-04-14T12:25:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "trend of modern videogame publishers removing customer's ability to make use of the software they have purchased by remotely shutting down servers"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription-based productivity and creativity software"
+              },
+              {
+                "quote": "post-hoc revoking of lifetime subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "generally predatory pricing"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28995,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the digital fairness act could be extended to cover the trend of modern videogame publishers removing customer's ability to make use of the software they have purchased by remotely shutting down servers upon which they rely without giving the users any way to pick up and manage the service themselves using servers they privately own. I also believe it is worthwhile to better look into subscription-based productivity and creativity software and the near ubiquitous malpractices regarding subscription termination fees, as well as generally predatory pricing and the post-hoc revoking of lifetime subscriptions.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.671937Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585296.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585296",
+    "chunks_doc_id": "F3585296",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

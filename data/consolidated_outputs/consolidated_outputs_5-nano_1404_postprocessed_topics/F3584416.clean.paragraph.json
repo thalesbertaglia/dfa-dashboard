@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584416",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:49Z",
+    "finished_at": "2026-04-14T11:58:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the case of video games often one buys a game requiring a permanent connection, but the publisher can at any time cut off access to the game without providing a solution to give offline access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16092,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should also include the problem of users losing access to digital goods they have paid for. For example, in the case of video games often one buys a game requiring a permanent connection, but the publisher can at any time cut off access to the game without providing a solution to give offline access. This practice is all the more appalling for games which have no multi-player component and where internet access is used only for additional purchases (bonuses usable at stake, alternative models for players, etc.). I think that obliging developers and editors to plan an end of life plan from the creation of games would really make it possible to have what you buy, in addition to helping to preserve artistic objects that are sometimes very important in popular culture.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.225170Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584416.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584416",
+    "chunks_doc_id": "F3584416",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584416.clean.paragraph.json"
+}

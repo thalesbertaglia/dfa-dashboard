@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589560",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:50Z",
+    "finished_at": "2026-04-14T13:32:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Like PC games."
+              },
+              {
+                "quote": "Your product can be taken away from you."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13127,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness Act looks like very good legislation. But it is missing in my opinion a crucial part. That is consumer protection for purchases of digital products. Currently when you buy a physical item. That item is yours. And you own it. It can not be taken away again by the store. Because they somehow feel like it. With digital products. Like PC games. Your product can be taken away from you. So if i pay 80 euros for a game. 2 years later i can lose that product. And not get my money back. Ive lost that 80 euros. While i bought that product under the assumption that i would have access to it indefinitly. In my mind taking a product away people have paid money for. Is akin to stealing. Especially if they do it so they can sell you a new product. Obviously this should not be allowed. And i think an item to adress this. Would fit perfectly into the digital fairness act. So it is fair to consumers that buy a product. While i understand that constantly supporting a digital product costs money. This is not what i am asking. Im asking that somehow i can still access is. Especially products that are used alone. Like singleplayer games. There is no reason that these become inaccessible. Especially because there are online platforms that doesnt cost companies anything. That they can secure the data on the product on. Without extra costs. Platforms like: Steam. GoG. Itch.io. And probably more that i dont even know about. So the game or digital product should not be lost. Currently out of all the games ever made. 87% are lost to time and unplayable/inaccessible in this current day and age. Imagine if this was the case with movies or books. It would be a huge los of knowlege and data. I think there should be protections in place for products that you buy digitally. Without forcing costs to companies selling those products. But those costs isnt needed as there are many options to prevent any costs. Something that many companies also do.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.798898Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589560.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589560",
+    "chunks_doc_id": "F3589560",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

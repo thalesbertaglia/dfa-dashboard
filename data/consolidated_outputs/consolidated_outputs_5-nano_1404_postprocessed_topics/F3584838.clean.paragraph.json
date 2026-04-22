@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584838",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:19Z",
+    "finished_at": "2026-04-14T12:12:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13720,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Committee, I would like to kindly suggest the inclusion of two additional points that I believe would further strengthen the Actparticularly concerning video games and digital entertainment: Safeguards Against Deletion of Purchased Games Many consumers invest in digital games with the expectation of long-term access. Unfortunately, publishers sometimes choose to revoke access or render previously purchased titles unusable, which undermines consumer rights. I kindly request that the Act include provisions to prevent publishers from unilaterally destroying or disabling access to legally purchased games. Consumers should retain the right to use what they have paid for, even if the game is no longer supported or sold. Mandatory End-of-Life (EOL) Plans for Games In cases where a game is no longer commercially viable or the developer intends to sunset the title, I propose that developers be required to publish an end-of-life plan. This could include options for transferring maintenance to the community or open-sourcing server software where feasible. Importantly, once responsibility has been transferred and personal data properly handled, the original studio would no longer bear legal or support obligations. This would ensure both consumer continuity and developer protection, while also preserving digital culture. Thank you for considering these points.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.462683Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584838.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584838",
+    "chunks_doc_id": "F3584838",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584838.clean.paragraph.json"
+}

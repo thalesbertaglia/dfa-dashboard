@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584796",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:32Z",
+    "finished_at": "2026-04-14T12:10:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "People shouldn't lose the access to the products, video games in this case, they have bought just because the company that owns it decides to end support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14498,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should include protections from the Stop Destroying Videogames EU Citizen's initiative. People shouldn't lose the access to the products, video games in this case, they have bought just because the company that owns it decides to end support. Please consider adding a rule that forces companies to offer an alternative when a game is shut down, for exampe, by offering an offline mode, or by allowing players to run their own servers, or some other solution, to ensure their game remains in a playable state. It has always been a reasonable expectation that we're able to keep using any service or product we have purchased indefinitely, I'd expect this to hold true for digital media, like videogames/software/etc. as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.439900Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584796.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584796",
+    "chunks_doc_id": "F3584796",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584796.clean.paragraph.json"
+}

@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3587682",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:46Z",
+    "finished_at": "2026-04-14T13:21:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game developers have a habit of discontinuing video games and taking your purchase away without any compensation."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A \"sponsorship\" is technically not an advertisement and therefore the internet is riddled with either casino or OnlyFans / Fansly advertisements."
+              }
+            ]
+          },
+          {
+            "topic": "Age Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Restrictions exist for porn providers such as requirements for age verification and also regular risk assessments and content moderation audits."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Online services and social media do not implement robust enough appeals for Terms of Service punishments."
+              },
+              {
+                "quote": "Refunds not permitted on types of digital content that is easily taken away - the simplest example of this is \"skins\" in video games."
+              },
+              {
+                "quote": "Similar to above - you can wave the right to refunds on digital goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 110729,
+          "unit_kind": "feedback"
+        },
+        "text": "1) Video game developers have a habit of discontinuing video games and taking your purchase away without any compensation. This may be because of how they have chosen to design them, for example, they may require an always ONLINE connection even when the game is fully single player and does not inherently require internet connectivity. A perfectly good game may become unplayable in weeks, months or years after purchase for no reason other than the developer didn't bother offering self-hosting capabilities for multi-player games or made a single player game to require a connection to their servers on purpose. To learn more, see the European Citizens' Initiative titled \"Stop Destroying Videogames\" 2) Online services and social media do not implement robust enough appeals for Terms of Service punishments. Often times the appeals are reviewed by the same person who issued the punishment. Of course this person didn't change their mind in the 5 minutes between dishing it out and your appeal. So your appeal naturally gets rejected. As a matter of fact, I don't believe I've ever witnessed ONE SINGULAR instance of a successful appeal on any platform. Often times, these punishments may take away access to purchased content. 3) Gambling advertisement and porn advertisement restrictions exist. However, these are not flexible enough to apply to influencers. A \"sponsorship\" is technically not an advertisement and therefore the internet is riddled with either casino or OnlyFans / Fansly advertisements. I'm not saying these should be outright illegal, but it doesn't feel like they are subject to the same restrictions as, for example, Facebook would be when creating and showing ads. 4) Restrictions exist for porn providers such as requirements for age verification and also regular risk assessments and content moderation audits. There is a trend, however, that allows non-porn websites to effectively host porn without being subject to the same restriction as dedicated porn websites. The largest one is likely X (Twitter) and possibly also YouTube where nudity and mature content is not being removed if you frame it differently. For example, clothes and undergarment reviews where the changing process is not cut out and people are fully nude. Also, \"nude cleaning\". \"Oh no, it's not sexual, it's just cleaning... but nude\". Yeah... This type of content does not even have a warning like porn websites do where you have to state if you're above 18 or not. Not that those warnings to anything, but at least porn websites are subject to them. X and YouTube are riddled with softcore or even hardcore porn and are not subject to the same restrictions as porn websites. 5) Refunds not permitted on types of digital content that is easily taken away - the simplest example of this is \"skins\" in video games. You can pay to purchase a new paintjob or look for a gun, vehicle, character, etc. However, these purchases are not eligible for refunds. This would make sense if they were perishable or consumable and were gone once used. But they are not. The developer can choose to take them away at any point in time. It's just pixels that they authorize your account to use. Nothing more. If they are this easy to take away, there is no reason they can't be subject to refund policies. I understand why most forms of digital content might not be subject to these, if the publisher doesn't have the ability to take them back. But something only available on the servers of the publisher which can easily be taken back should be possible to refund within some time period. 6) Similar to above - you can wave the right to refunds on digital goods. But do you really have such a right at all if every single seller includes that in their terms? Is there anyone who doesn't ask you to waive it? Not to my knowledge. If so, then you have effectively a useless right that does nothing.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.566444Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587682.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587682",
+    "chunks_doc_id": "F3587682",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587682.clean.paragraph.json"
+}

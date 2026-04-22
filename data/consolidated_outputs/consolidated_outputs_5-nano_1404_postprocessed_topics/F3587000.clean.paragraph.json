@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587000",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:50Z",
+    "finished_at": "2026-04-14T13:08:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12693,
+          "unit_kind": "feedback"
+        },
+        "text": "I've come here from the Stop Killing Games initiative and strongly advocate for its inclusion in the Digital Fairness Act. The games industry is riddled with bad practices that need to be obliterated or, at the very least, reined in. The industry has been on a steadily declining trajectory for a long time with features that don't improve the experience for the customer. Clearing the medium of these issues, I believe, would significantly improve current state of video games which often feel more like a money-sucking vampire than an experience crafted by passionate creatives.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.407917Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587000.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587000",
+    "chunks_doc_id": "F3587000",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587000.clean.paragraph.json"
+}

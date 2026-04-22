@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585702",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:09Z",
+    "finished_at": "2026-04-14T12:34:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dangerously growing towards a vacuum where consumers no longer have physical copies or rights to the games and software we buy."
+              },
+              {
+                "quote": "At any time a service platform can close and make it impossible to download and use what we have paid for."
+              },
+              {
+                "quote": "licences are now simply an excuse to limit consumers’ access to an app/game when it is no longer profitable for the company and decide to close it forever."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "To date, everything is subscriptions to services and we are no longer in control of anything other than by means of internet access or validation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27104,
+          "unit_kind": "feedback"
+        },
+        "text": "Very good. I am a Spanish and European citizen who leaves his granite of sand on this topic. As a love of video games and software in general, I am very concerned about how industry is dangerously growing towards a vacuum where consumers no longer have physical copies or rights to the games and software we buy. At any time a service platform can close and make it impossible to download and use what we have paid for. It does not seem to me fair that licences are now simply an excuse to limit consumers’ access to an app/game when it is no longer profitable for the company and decide to close it forever. To date, everything is subscriptions to services and we are no longer in control of anything other than by means of internet access or validation. I would like this to be taken into account and it may be possible to review how we access the digital content we buy online and what rights we deserve once we have paid for them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.879061Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585702.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585702",
+    "chunks_doc_id": "F3585702",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585702.clean.paragraph.json"
+}

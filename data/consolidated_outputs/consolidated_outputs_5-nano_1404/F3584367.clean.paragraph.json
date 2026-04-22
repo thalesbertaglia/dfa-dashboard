@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584367",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:20Z",
+    "finished_at": "2026-04-14T11:56:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Or in the case of games, remove the online compulsion and offer players the opportunity to set up their own multiplay servers so that you can continue playing the game."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove the online compulsion"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22989,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as a European citizen, I think this initiative is very important. I think it is particularly important that video games and films you buy online or digitally are always available. Currently, Amazon could, for example, simply take films that are bought from its server and would no longer have the opportunity to look at it. The situation is similar when you buy a computer game for which you always need to be online (especially if it does not have an online multiplayer function). If servers are switched off from the publisher or are offline for maintenance, we do not have access to a good we bought. Therefore, if developers or sellers no longer wish to provide servers for games or films, they should be obliged to offer a possibility to use the medium offline. As an example of games, remove the online compulsion and offer players the opportunity to set up their own multiplay servers so that you can continue playing the game. Or in the case of films, give customers the possibility to download the film so that it can be viewed later. If video games and films are considered to be art, then they must be protected, otherwise the descendants never have the opportunity to experience what drives us happiness. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.199629Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584367.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584367",
+    "chunks_doc_id": "F3584367",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

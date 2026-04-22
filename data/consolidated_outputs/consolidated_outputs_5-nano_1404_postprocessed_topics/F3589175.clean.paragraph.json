@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589175",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:02Z",
+    "finished_at": "2026-04-14T13:30:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I pay a set price for a video game, I expect to own it."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In a fair world you own what you pay for and \"live service\" is the opposite of that."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26199,
+          "unit_kind": "feedback"
+        },
+        "text": "If I pay a set price for a video game, I expect to own it. It's the way the video game market has worked ever since the very first video game was invented, up until the moronic invention of \"live service\", which is a system that video game consoles have operated on for the past 20 years. Contrary to computer games, video game consoles are stuck in a closed ecosystem so the \"live service\" principle is more understandable, even if consoles used to operate without said system at one point in time as well. Best case scenario, the game I paid a one-time price for works for the next 20 years. Worst case scenario, the game I paid a one-time price for gets taken away from me on day one due to poor sales and zero profit for the developer/publisher. The latter is sadly much more common than the former. So, I ask you, what would the world look like if everything else functioned on the same \"live service\" principle? Shut down your \"live service\" car if sales are too low? Cancel your \"live service\" vacation because not enough airplane seats were sold? What about food? Water? Or electricity? If we give them an inch they'll eventually take a mile. Gamers have fought hard for what's fair and we've succeeded many times, yet they try their damnedest to screw us over time and time again. In a fair world you own what you pay for and \"live service\" is the opposite of that.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.766509Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589175.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589175",
+    "chunks_doc_id": "F3589175",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589175.clean.paragraph.json"
+}

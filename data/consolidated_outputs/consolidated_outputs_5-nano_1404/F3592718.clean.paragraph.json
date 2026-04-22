@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3592718",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:00Z",
+    "finished_at": "2026-04-14T13:38:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you do not own a game after purchasing it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12999,
+          "unit_kind": "feedback"
+        },
+        "text": "I myself dream about a future where I can be a game developer and possibly a publisher. But I find quite absurd the fact that, as a customer, you do not own a game after purchasing it. Games are meant to be other realities that reflect the inner self of the player; Games are meant to be a place where you search comfort after a stressful day at work; Games are meant to be games. Imagine spending 3000 hours of your free time into a digital world and seeing it be taken away... In an historical moment as the one we are living right now, where peaople talk about \"technofeudalism\", an act as barbarian as this, seems to me not too far away from taking a land from people that have live there from millennia (in the scope of the metaphore, of course). This kind of behaviour is disgustingly immoral and should not be allowed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.925989Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592718.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592718",
+    "chunks_doc_id": "F3592718",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

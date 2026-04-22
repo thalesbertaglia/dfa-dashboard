@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585019",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:08Z",
+    "finished_at": "2026-04-14T12:18:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Monopoly Pressure By Payment Processors",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Recent events have shown that payment processors can put pressure on other sites and services because of the monopoly they hold."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10532,
+          "unit_kind": "feedback"
+        },
+        "text": "Recent events have shown that payment processors can put pressure on other sites and services because of the monopoly they hold. Said pressure is either the result of perceived moral problems, pressure from third parties or political disagreement. I believe that at no point should a payment processor have any say in what i can or can not buy, or on what someone can or can not offer me as long as the product in question is legal. I firmly believe this should be added to the digital fairness act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.555998Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585019.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585019",
+    "chunks_doc_id": "F3585019",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584517",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:24Z",
+    "finished_at": "2026-04-14T12:00:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "bullying companies to restrict access to LEGAL digital content which they find distasteful."
+              },
+              {
+                "quote": "Payment providers should NOT be the ones who dictate what can someone sell and what they can't, especially if the sold content is legal."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are a lot of games, which are released as live-service, but don't have an end-of-life plan, and people, who have purchased the game, or items inside that game, lose access to it when the company stops support for the game, despite having paid for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27494,
+          "unit_kind": "feedback"
+        },
+        "text": "1) In the recent days, there have been a huge issue with payment providers bullying companies to restrict access to LEGAL digital content which they find distasteful. Payment providers should NOT be the ones who dictate what can someone sell and what they can't, especially if the sold content is legal. While personally I don't get affected by the specific content that has been targeted now, it sets a dangerous precedent, which leads to a Dystopian future. And who knows what they will decide to censor next. We need some way to ensure access to legal content, even if said payment providers find it distasteful, and make sure that they are not the ones who decide what people should and should not purchase. 2) I believe that the digital fairness act should also include the ownership of purchased software, such as (but not limited to) video games. There are a lot of games, which are released as live-service, but don't have an end-of-life plan, and people, who have purchased the game, or items inside that game, lose access to it when the company stops support for the game, despite having paid for it. Requiring publishers to have an end-of-life plan for their live-service games sounds fair, so they wouldn't just take away access to their product from the people, who have purchased it. There are multiple venues that they can take in order to provide that access, with minimum added cost for them, outside the potential profits they would've made from the planned obsolescence, where they discontinue an old version of the game, so they can sell you the new one and do this over and over again, which is an immoral business practice, that should be banned regardless.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.271171Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584517.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584517",
+    "chunks_doc_id": "F3584517",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584517.clean.paragraph.json"
+}

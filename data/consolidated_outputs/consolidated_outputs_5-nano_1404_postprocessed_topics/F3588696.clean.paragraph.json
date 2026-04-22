@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588696",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:06Z",
+    "finished_at": "2026-04-14T13:25:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "battlepasses, lootboxes, booster packs"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These system use the same \\\"tricks\\\" as casinos to get people to spend more money than they actually want."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publisher can currently revoke access to preciously purchased games, without any consequences."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22402,
+          "unit_kind": "feedback"
+        },
+        "text": "I am a game developer myself and I would urge the EU to take a strong stance against most micro-transactions, like battlepasses, lootboxes, booster packs etc. These system use the same \"tricks\" as casinos to get people to spend more money than they actually want. That people spend hundreds or even thousands of Euros on a game is by design. They are getting manipulated to do so, and Publishers try to \"improve\" these systems constantly. As a developer I can say, we don't want that, and we don't need it. Games were better without those systems and game studios can thrive without them. The act should also consider the European Citizens' Initiative ECI(2024)000007. Publisher can currently revoke access to preciously purchased games, without any consequences. This can happen only months after purchase and you can't get your money back. This is an extremely consumer unfriendly practice and needs to stop. Thank you for you time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.673289Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588696.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588696",
+    "chunks_doc_id": "F3588696",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588696.clean.paragraph.json"
+}

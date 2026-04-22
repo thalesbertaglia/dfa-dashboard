@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587662",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:40Z",
+    "finished_at": "2026-04-14T13:20:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The sale of digital content that works only as long as the seller makes his service available online but loses any functionality given to the consumer by the sales contract when the service is discontinued."
+              },
+              {
+                "quote": "It has more the character of rents or subscriptions, but it is misleading."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "content for which you have paid for will at some time be present without the consumer – the actual owner of that content – having an opportunity to preserve his or her acquired possession."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20796,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear, I have drawn attention to the Digital Fairness Act through the ‘Stop Destroying Videogames’ initiative, and I consider this to be entirely correct and important. I see a worrying practice in the free economy, which currently appears deutlically in the case of computer games, but which does not have to be limited to this area: The sale of digital content that works only as long as the seller makes his service available online but loses any functionality given to the consumer by the sales contract when the service is discontinued. That seems to me to be problematic, since it promises to the consumer autonomously to possess something which will ultimately not be honoured. It has more the character of rents or subscriptions, but it is misleading. As a result, content for which you have paid for will at some time be present without the consumer – the actual owner of that content – having an opportunity to preserve his or her acquired possession. This practice needs to be legally tested and ideally stopped, because, as I said, why should it stop with computer games and not include other software that is more critical for civil society, and thus unduly skewed consumers, which ultimately benefit large companies (especially non-European ones)? Thank you all for the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.563470Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587662.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587662",
+    "chunks_doc_id": "F3587662",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587662.clean.paragraph.json"
+}

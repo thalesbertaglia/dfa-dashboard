@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584397",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:17Z",
+    "finished_at": "2026-04-14T11:57:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "nefarious tools and methods to extract money from consumers,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "no guarantee of delivering on their promises"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "no set timeframe of a video game's operation/support, for example."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40649,
+          "unit_kind": "feedback"
+        },
+        "text": "The EU has long been a frontrunner in all things relating to individuals' personal rights and freedoms. This role on the world stage is one to be prized, taken seriously, and continously strived for. A product is a product and a purchase is a purchase, if digital just as if physical and tangible. Though it pains me, as it does countless others, the truth is that many companies dealing in digital services and products are employing increasingly nefarious tools and methods to extract money from consumers, with no guarantee of delivering on their promises, or with no set timeframe of a video game's operation/support, for example. This is why we, as citizens of the EU, ask you to seek to provide equivilant protections and rights to the consumer in the digital commercial sphere as in the traditional commercial sphere.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.214893Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584397.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584397",
+    "chunks_doc_id": "F3584397",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584397.clean.paragraph.json"
+}

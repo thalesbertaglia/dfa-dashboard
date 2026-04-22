@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585385",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:30Z",
+    "finished_at": "2026-04-14T12:26:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they shut down servers and disable the game entirely"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13628,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing as a concerned long-time consumer of the gaming industry to express my support for the Digital Fairness Act. Increasingly, we are seeing big game publisherssuch as Ubisoft with the game \"The Crew\", which they shut down servers and disable the game entirely, even for players who have legally purchased them. And this practice is being made by other games companies as well. These actions not only undermine consumer rights, but also raise concerns about digital ownership and preservation. Many of these games lack End-of-Life (EOL) plans, leaving players with no recourse when a product they paid for becomes completely unplayable. I respectfully ask you to advocate for stronger digital ownership protections, including preservation rights, to ensure fairness and accountability in the digital marketplace. Thank you for your attention to this important matter.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.713030Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585385.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585385",
+    "chunks_doc_id": "F3585385",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585385.clean.paragraph.json"
+}

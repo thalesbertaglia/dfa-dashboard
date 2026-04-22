@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584139",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:43Z",
+    "finished_at": "2026-04-14T11:49:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a lot of digital goods are being removed with no notice from the possession of the consumers without any regards for consumer rights."
+              },
+              {
+                "quote": "Digital goods no matter if the support has stopped should remain in the ownership of the buyer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12747,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games should be added to the digital fairness act as well. At the moment a lot of digital goods are being removed with no notice from the possession of the consumers without any regards for consumer rights.Companies should only sell digital goods with consumer rights in mind and actions. There is also a movement at the moment touching this subject which also gathered 1.4 million signature around Europe called \"Stop Killing Games\" which pretty much resonates with what I would like to be included in the Digital Fairness act. Digital goods no matter if the support has stopped should remain in the ownership of the buyer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.091204Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584139.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584139",
+    "chunks_doc_id": "F3584139",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

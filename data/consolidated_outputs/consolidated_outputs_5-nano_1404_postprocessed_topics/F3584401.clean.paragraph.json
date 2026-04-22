@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584401",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:18Z",
+    "finished_at": "2026-04-14T11:58:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dependend on subscriptions and services are being masked as goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 76121,
+          "unit_kind": "feedback"
+        },
+        "text": "This should include basic consumer rights for digital goods. With an ever expanding offer when it comes to digital goods (and services) there probably is a need for new or updated comsumer proctection. Right now big companies can take the consumer money for a good and at an unknown time in the future decide that whatever infrastucture they provides for said good is no longer profitable and discontinue it rendering the customers purchase null and void and those customers have no real way of protesting that action. What does it mean to buy a digital good? Should big companies be allowed to essentially implement a form of planned obsolecens? What are customer rights when it comes to their use of digital goods? There has been a push towards an dystopian future where \"You will own nothing and be happy\" seems to be the goal being dependend on subscriptions and services are being masked as goods. How much control over a digital good should lie with the customer versus the company? A customer should not be dependend on the goodwill of a company when it comes to digital goods of all kinds.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.217104Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584401.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584401",
+    "chunks_doc_id": "F3584401",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584401.clean.paragraph.json"
+}

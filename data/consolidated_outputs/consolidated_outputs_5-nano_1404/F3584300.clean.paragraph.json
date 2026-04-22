@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584300",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:32Z",
+    "finished_at": "2026-04-14T11:54:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "take a deep look into videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20893,
+          "unit_kind": "feedback"
+        },
+        "text": "About the point of unfair commercial practices related to dark patterns i think we ought to take a deep look into videogames and specifically the issues stated in the \"stop killing games\" initiative. Let me give you a little background on me: I am a software engineer and I wouldn't probably be one if it wasn't for videogames so this issue is near and dear to my heart, although i chose a different software engineering path and never worked on games professionally I can understand more than the layman the issue at hand. My main gripe with today's gaming world is the mandatory server connection even for singleplayer games: if servers are shut down even if I never intended to play online or use any of the social features I am not given access to any of the game's experience. I personally got stung by \"The Crew\" as I bought the game thinking I was buyng a game and not some milk that rots with time. Had the proposition been more clear on when access to the core game (which is mostly a singleplayer experience) would expire for me I wouldn't even have bought it as I never had the time to play it before it was shut down. Please look into what is becoming of the videogame market and try to listen to the companies that put the consumer first like Valve. These practices will be more and more widespread as time goes on, because old games could be seen as taking market share (as in user's time) from newer releases and killing the server connection is a pretty easy way for the publisher to deny access to a perfectly good experiece ten or twenty years from now. I still play games from my childhood on 20-25 years old hardware, why can't I play a game from less than 10 years ago. Let user host their servers if going singleplayer only is too hard. In software engineering if a constraint is known from the beginning it's not that difficult to account for it when developing the product, I am sure that a pro consumer law would not be of much harm to game development and would give a lot more trust to users and in turn making more sales.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.166853Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584300.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584300",
+    "chunks_doc_id": "F3584300",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

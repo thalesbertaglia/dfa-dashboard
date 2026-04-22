@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3593111",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:59Z",
+    "finished_at": "2026-04-14T13:39:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Because nowadays if a game goes offline and the company owning the game stop the servers, you can't play anymore."
+              },
+              {
+                "quote": "Every game should be playable forever."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14069,
+          "unit_kind": "feedback"
+        },
+        "text": "As a 34 year old gamer, I have enjoyed many games in my life. In my childhood I have played so many games on the couch with my friend and family. Those are memories I can always fall back into, because I can always turn on my old console and play those games again! I want the kids of today have that privilege as well. Because nowadays if a game goes offline and the company owning the game stop the servers, you can't play anymore. Every game should be playable forever. Games should be enjoyed forever, single or multiplayer. People bought the game, so they should own the game! With the new initiatives, every game should be accesable for people if they want to. With end of server plans on games, people can get that option. Love this initiative!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.946762Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593111.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593111",
+    "chunks_doc_id": "F3593111",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593111.clean.paragraph.json"
+}

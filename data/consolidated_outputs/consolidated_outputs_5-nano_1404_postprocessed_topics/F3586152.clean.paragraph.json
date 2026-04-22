@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586152",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:50Z",
+    "finished_at": "2026-04-14T12:49:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "More than 80 products have recently been removed from video game platforms such as Steam or Itch.io, which did not contravene the rules of these platforms or European laws, by decision of companies such as Visa and Mastercard."
+              },
+              {
+                "quote": "Video games for which their sale price has been paid are being removed from users’ digital libraries."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many of these cessations of service are heard under a completely unfair EULA for the consumer, which often indicates that the company reserves the right to revoke the service unilaterally and for any or no reason."
+              },
+              {
+                "quote": "The Digital fairness Act should include a clause that prevents payment providers from choosing, pressuring or in any way influencing which products can be sold on digital platforms, provided that these products comply with European and local laws."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34267,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I am concerned about the control of payment gateways over the digital products we buy. More than 80 products have recently been removed from video game platforms such as Steam or Itch.io, which did not contravene the rules of these platforms or European laws, by decision of companies such as Visa and Mastercard. Such companies should not be able to make decisions on which products can or may not be bought through them, as they effectively maintain a duopoly on purchases of digital products. Moreover, it is very difficult, if not impossible, for creators to know which are the evaluation criteria, which have been altered without prior notice and with no possibility of appeal. This act is, in my view, an unfair commercial practice against the companies that have produced the video games that have been removed (and those that will be removed in the future), and undermines the rights of consumers trying to purchase these video games. I believe that the Digital Fairness Act should include a clause that prevents payment providers from choosing, pressuring or in any way influencing which products can be sold on digital platforms, provided that these products comply with European and local laws. On the other hand, in the same area, many consumers are seeing some video games no longer accessible after the developer has ceased their service. Video games for which their sale price has been paid are being removed from users’ digital libraries. While it is not reasonable to call for the servers to be kept permanently, it is not reasonable to ask for the necessary files to be released in order to be able to keep these servers privately and independently, or even to keep the content you do not need from servers. Many of these cessations of service are heard under a completely unfair EULA for the consumer, which often indicates that the company reserves the right to revoke the service unilaterally and for any or no reason. The Digital fairness Act should in some way protect consumers’ rights and allow video games that have been permanently acquired to be preserved in some way.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.119975Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586152.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586152",
+    "chunks_doc_id": "F3586152",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586152.clean.paragraph.json"
+}

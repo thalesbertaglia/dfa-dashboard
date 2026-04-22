@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585872",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:34Z",
+    "finished_at": "2026-04-14T12:39:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames should also be included as part of the Digital Fairness act, as they are a part of our culture and another form of art that shouldn't be lost to time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13115,
+          "unit_kind": "feedback"
+        },
+        "text": "Videogames should also be included as part of the Digital Fairness act, as they are a part of our culture and another form of art that shouldn't be lost to time. There has already been too much lost media in this form, and game preservation is key. Support the inititive \"Stop Killing Games\"!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.964413Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585872.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585872",
+    "chunks_doc_id": "F3585872",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

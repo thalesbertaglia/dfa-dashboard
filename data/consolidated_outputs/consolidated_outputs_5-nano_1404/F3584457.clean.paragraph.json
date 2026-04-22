@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584457",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:49Z",
+    "finished_at": "2026-04-14T11:59:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17915,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should also incorporate video games in it. The video game industry is still a relatively new industry, at least in comparison to other forms of entertainment such as books and movies. Therefore better security and rights for video games and their preservation and continued use by citizens must be implemented. Also compared to the other forms of entertainment mentioned above, it is the only one where the consumer can have their legally owned goods taken away from them. No one is out there rounding up specific books and movies and having them destroyed, never to again be seen and enjoyed by anyone. Why should video games be the only such industry where it is legal and allowed for the consumer to lose their goods that they rightfully purchased? I therefore implore you to take further consideration in including video games in the Digital Fairness Act so that better protection can be offered for video games so that they can continue to be enjoyed and appreciated, both as entertainment but also as parts of our culture",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.242017Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584457.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584457",
+    "chunks_doc_id": "F3584457",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

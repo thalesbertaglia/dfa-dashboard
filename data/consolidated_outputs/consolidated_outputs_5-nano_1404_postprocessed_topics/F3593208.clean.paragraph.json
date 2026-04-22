@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3593208",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:05Z",
+    "finished_at": "2026-04-14T13:39:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers are permanently disabling video games they have already sold to customers and failing to preserve video game assets including code."
+              },
+              {
+                "quote": "When a publisher decides to end support for a video game consumers should be able to create backup images of games they already bought and, in the case of online games, communities should be able to set up their own servers."
+              },
+              {
+                "quote": "There should also be a time limit on video game intellectual property, after which publishers should be mandated to release source code and assets for preservation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19143,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add consumer protection for video games. Publishers are permanently disabling video games they have already sold to customers and failing to preserve video game assets including code. When a publisher decides to end support for a video game consumers should be able to create backup images of games they already bought and, in the case of online games, communities should be able to set up their own servers. There should also be a time limit on video game intellectual property, after which publishers should be mandated to release source code and assets for preservation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.949298Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593208.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593208",
+    "chunks_doc_id": "F3593208",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593208.clean.paragraph.json"
+}

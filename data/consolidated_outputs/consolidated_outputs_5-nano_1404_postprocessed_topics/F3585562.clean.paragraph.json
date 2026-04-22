@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585562",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:27Z",
+    "finished_at": "2026-04-14T12:30:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "whether the product is temporary (some products are switched off 3-5 years after purchase)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19865,
+          "unit_kind": "feedback"
+        },
+        "text": "Good, this initiative addresses many important issues to protect consumers in the online world. Another issue that should perhaps be taken into account is the end-of-life plan of software. What this means is as follows: Distributors and producers should indicate clearly from the outset, when paying or even before, whether the product is temporary (some products are switched off 3-5 years after purchase). In the best case, producers should offer the consumer the possibility to continue to use the purchased product after end-of-support (albeit with less functionality). This would protect consumers from the arbitrary withdrawal of their purchased goods. It would also serve the historical preservation of software to learn how previously functions and experiences were and have worked. I would be delighted to see that the arbitrary withdrawal of purchased software products (such as games) would harm the consumer rather than benefit. I wish them a beautiful day and a great success with this initiative. Yours faithfully, your EU citizen from Germany.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.804147Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585562.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585562",
+    "chunks_doc_id": "F3585562",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585562.clean.paragraph.json"
+}

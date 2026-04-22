@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586820",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:59Z",
+    "finished_at": "2026-04-14T13:04:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove access to digital purchases that were sold as lifetime licenses"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25719,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I was led here by the Stop Killing Games initiative. SKG has already garnered a lot of attention and support from the community of gamers. Itd be really great if the Digital Fairness Act leaned a little bit to the left in order to protect video games purchases as well. Its in fact becoming increasingly common place in the video game industry to just remove access to digital purchases that were sold as lifetime licenses. Thats not only anti consumer but also reason to be concerned about games preservation. I believe the EU can lead by example, showing the world we care about the common folks. Cheers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.354190Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586820.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586820",
+    "chunks_doc_id": "F3586820",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

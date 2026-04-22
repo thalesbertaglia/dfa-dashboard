@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585476",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:32Z",
+    "finished_at": "2026-04-14T12:28:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the world of video games, more and more titles are being published as software that cannot work standalone and/or in offline environments."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13103,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to add that manipulation of online experiences goes further than just online video games and Web applications. In today's age they affect regular desktop and mobile applications in very negative ways. To provide an example, in 2023 Adobe decided to shut down the activation servers for Creative Suites 3 and 4 (CS3 and CS4 shorthand), which cover products such as Adobe Premiere and Adobe Photoshop. People who have bought these products legitimately almost 20 years ago are no longer able to use them through regular means and have to resort to illegal means like software piracy to be able to use that same software again. In contrast, older versions prior to CS1 only require local activation and can still be used legitimately today. Software from other vendors like Autodesk is also affected in the same way, namely 3DS Max 2012 and several versions prior to it. The gambit from these vendors is that the end user upgrades to the latest releases that contain even more intrusive DRM schemes. In the world of video games, more and more titles are being published as software that cannot work standalone and/or in offline environments. They are generally made specifically to not be usable without a closed-doors vendor-owned server backend, either by making the game not contain many of the major functions needed to operate on the client side (ex. most MMOs and MiHoYo's entire catalogue) or by introducing completely arbitrary lockout mechanisms that will fail once the vendor disables the activation servers (ex. Ubisoft's \"The Crew\"). In either case the end result is the same: the customer is no longer able to use the software they bought and paid for. A huge list of dead, at risk, and fan-preserved video game releases of this kind is available here: https://stopkillinggames.wiki.gg/wiki/Dead_game_list Ideally this list will stop growing in size in the future. I and many others consider these practices downright fraudulent and would like to see some legislation that will prevent vendor-programmed software death without providing customers and end-of-life plan and actions that will allow them to continue use of their desired software (and in some cases even hardware) without requiring vendor support. Best regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.762326Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585476.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585476",
+    "chunks_doc_id": "F3585476",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

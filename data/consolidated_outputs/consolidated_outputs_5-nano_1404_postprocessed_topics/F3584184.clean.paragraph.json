@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584184",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:34Z",
+    "finished_at": "2026-04-14T11:51:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is whats happening with video games."
+              },
+              {
+                "quote": "They do not need to offer support, but they should release methods so people can play their games or other software once support has ended."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23952,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear sir, madam, As a citizen of the EU, I would like this act to include digital media like Video Games. Let me paint a scenario: You buy a car, that you now OWN. After 10 years the manufacturer decides to no longer offer repairs on it. That is fair, you can get repairs elsewhere. But What if the manufacturer remotely disables your car leaving you with a useless piece of metal in your garage. This is whats happening with video games. I am a programmer myself. I can tell you the arguments Game Publishers use that they cannot offer support is a non issue. They do not need to offer support, but they should release methods so people can play their games or other software once support has ended. There are multiple ways to accomplish this. Developers have done this in the past for online multplayer games. For instance The Game Quake3 is still playable 25years later, because the publisher released server files. This is all I ask for, Publishers to have an End Of Life plan that allows consumers to continue to use a product they PAID for. I'm not talking about subscription models. I'm talking about one time purchases of software. Either on physical media, or digital download. Thanks for your consideration",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.115362Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584184.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584184",
+    "chunks_doc_id": "F3584184",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584184.clean.paragraph.json"
+}

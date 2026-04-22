@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584274",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:57Z",
+    "finished_at": "2026-04-14T11:54:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games should be included."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11467,
+          "unit_kind": "feedback"
+        },
+        "text": "The DFA should include as many digital products as possible. And as such, I think video games should be included. Especially since the recent trends in the industry consists of products which can be made unusable by the publishers. There have been far too many examples in recent history of digital products being purchased by thousands of people and rendered completely inaccessible within a few years, sometimes even just weeks. Stop Killing Games is a great example of how games can be handled in the future",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.155718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584274.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584274",
+    "chunks_doc_id": "F3584274",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

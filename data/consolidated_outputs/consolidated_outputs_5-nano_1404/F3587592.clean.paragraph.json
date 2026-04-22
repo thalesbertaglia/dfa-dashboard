@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587592",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:50Z",
+    "finished_at": "2026-04-14T13:19:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers who have purchased video games but later lose access when publishers discontinue support for the title."
+              },
+              {
+                "quote": "This end-of-life plan would ensure the game remains playable by consumers even after official support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17508,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like the Digital Fairness Act to include protections for consumers who have purchased video games but later lose access when publishers discontinue support for the title. An example of this is Ubisoft's 2014 title The Crew, where access to the game was cut off by the developer, preventing consumers from playing the game they had previously purchased. In the future, I would like video game developers and publishers to be required to have an end-of-life plan in place before a game's release. This end-of-life plan would ensure the game remains playable by consumers even after official support ends.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.550189Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587592.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587592",
+    "chunks_doc_id": "F3587592",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

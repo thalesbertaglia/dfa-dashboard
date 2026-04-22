@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588402",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:31Z",
+    "finished_at": "2026-04-14T13:23:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to take down servers of games players had been playing for its lifecycle"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections against (unchecked) financial censorship by payment processors be considered as possible additions to this legislation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21935,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent weeks, payment processors (specifically VISA and Mastercard) have pressured multiple online marketplaces to take down legal NSFW content, not permitting their sale on these marketplaces at all lest the payment processor remove their services from the marketplace and make the marketplace fully unusable for all consumers. This even threatened to take down content users may have purchased in the past, losing online content they had paid for. On top of this, many developers have also opted in recent weeks, months and even years to take down servers of games players had been playing for its lifecycle, killing off many of the older games many remember fondly. As a result, european consumers are being robbed of both experiences unto themselves as the games they may have enjoyed have come to the end of their lifecycle, or the games are removed as they are contrary to the beliefs of the payment processors. I'd like to request that both end-of-life protections need to be put in place for both digital games and services, and that protections against (unchecked) financial censorship by payment processors be considered as possible additions to this legislation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.645384Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588402.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588402",
+    "chunks_doc_id": "F3588402",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

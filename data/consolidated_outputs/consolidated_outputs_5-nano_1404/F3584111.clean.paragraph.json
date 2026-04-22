@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584111",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:33Z",
+    "finished_at": "2026-04-14T11:48:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers deleting lawfully bought copies of their games without recourse or refund, or otherwise rendering existing copies of games unplayable once the support for said game stops."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11766,
+          "unit_kind": "feedback"
+        },
+        "text": "I would urge the commission to add onto this act to also cover the current problem of video game publishers deleting lawfully bought copies of their games without recourse or refund, or otherwise rendering existing copies of games unplayable once the support for said game stops. This is NOT about requiring endless support, which would be detrimental for the video game publisher, but patching the game prior to support ending to leave it in as playable a state as possible, or otherwise making end-of-life plans for such products mandatory for publishers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.077399Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584111.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584111",
+    "chunks_doc_id": "F3584111",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

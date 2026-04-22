@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3590817",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:09Z",
+    "finished_at": "2026-04-14T13:34:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital products should be treated equally to physical products, with the most important being ability to resell digital products on the second hand market."
+              },
+              {
+                "quote": "If the product is not sold, but license, the license should be treated as a product, and be able to be sold on second hand market."
+              },
+              {
+                "quote": "If the product is sold as digital data, or as a license that only functions with digital data (e.g. computer program), it has to be legal for the consumer to transfer the license together with such data to another party."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14649,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital products should be treated equally to physical products, with the most important being ability to resell digital products on the second hand market. If the product is not sold, but license, the license should be treated as a product, and be able to be sold on second hand market. This should be mandatory and unvoidable right for products sold to individual consumers. If the product is sold as digital data, or as a license that only functions with digital data (e.g. computer program), it has to be legal for the consumer to transfer the license together with such data to another party. This does not relate to nor infringe on copyright. Just like it's possible to sell music disc with digital data (music) right now and does not infringe on copyright laws. Enforcement of copyright should not be a concern for the EU, the technical measures and protection of such transfers should be left to the affected copyright holders, but they should be obliged to facilitate such transfers, in cases where they tie licenses and/or data to digital accounts. Right now digital content locks up enormous amounts of wealth in Europe, which could be better allocated into stimulating European economy. Digital products and licenses (treated as products), sold at product prices, but treated as consumables, and - de facto - being worthless without second hand market, only siphon money and wealth out of European union. [Which makes them Value Removed products, not Value Added - as they have no resale value - and begs the question why is Value Added Tax charged on them.]",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.839208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590817.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590817",
+    "chunks_doc_id": "F3590817",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

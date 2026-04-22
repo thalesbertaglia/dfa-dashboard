@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585495",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:01Z",
+    "finished_at": "2026-04-14T12:29:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "pressure on content providers to remove content that these processors feel could damage their brands."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "block access to purchased software/games whenever they feel like it, essentially robbing consumers of the purchased product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18790,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen I welcome this consumer protection initiative and the possibility to provide feedback and get my voice heard. Please consider to include two additional aspects that from my point of view are very important. Just recently major payment processors like credit card providers and banks have put pressure on content providers to remove content that these processors feel could damage their brands. This means these processors are essentially censoring what consumers can buy as content even if this content is fully legal and there should not be any restrictions for an adult consumer to access this content. The second aspect is that a majority of software providers, especially video game publishers, since a few years block access to purchased software/games whenever they feel like it, essentially robbing consumers of the purchased product. Please include these two topics in your initiative, too to protect consumers and their rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.772177Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585495.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585495",
+    "chunks_doc_id": "F3585495",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

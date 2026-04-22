@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584315",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:55Z",
+    "finished_at": "2026-04-14T11:55:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Outro ponto importante são os sistemas de jogos gacha, que considero extremamente predatórios."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "quando compro um jogo digital, na prática não passo a ser dona dele apenas obtenho uma licença limitada, sujeita a termos e condições que podem ser alterados unilateralmente pela plataforma."
+              },
+              {
+                "quote": "O conteúdo adquirido seja acessível independentemente do futuro da plataforma."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28262,
+          "unit_kind": "feedback"
+        },
+        "text": "Gostaria de expressar a minha preocupação relativamente à forma como a propriedade de produtos digitais, especialmente jogos, é tratada. Atualmente, quando compro um jogo digital, na prática não passo a ser dona dele apenas obtenho uma licença limitada, sujeita a termos e condições que podem ser alterados unilateralmente pela plataforma. Considero injusto que, após efetuar uma compra, eu possa perder o acesso ao jogo por motivos como encerramento de servidores, perda de suporte ou restrições impostas pela própria plataforma. Além disso, em muitos casos, não é possível jogar offline, o que limita ainda mais o acesso a um produto que foi pago integralmente. Outro ponto importante são os sistemas de jogos gacha, que considero extremamente predatórios. Estes modelos exploram mecânicas semelhantes a jogos de azar, incentivando gastos recorrentes e excessivos através de recompensas aleatórias, muitas vezes sem transparência suficiente sobre probabilidades ou limites. Acredito que o Digital Fairness Act deveria reforçar os direitos dos consumidores para que: Uma compra digital seja tratada de forma semelhante à compra física, garantindo acesso offline (quando tecnicamente possível). O conteúdo adquirido seja acessível independentemente do futuro da plataforma. Haja regulação mais clara sobre mecânicas gacha, com transparência e medidas que evitem práticas abusivas. Proteger o consumidor neste sentido é essencial para garantir que a transição para o digital não signifique a perda de direitos, e que modelos de monetização não se tornem práticas prejudiciais.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.173800Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584315.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584315",
+    "chunks_doc_id": "F3584315",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

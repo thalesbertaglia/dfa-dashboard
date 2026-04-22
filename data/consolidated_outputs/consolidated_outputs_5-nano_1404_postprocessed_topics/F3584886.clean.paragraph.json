@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584886",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:34Z",
+    "finished_at": "2026-04-14T12:13:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11018,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear sir or madam, I would like to request that the destruction of video games, that have already been purchased by the consumer will be outlawed via addition to this act. There has already been very positively received citizens initiative with 1.4 million signatures by the name of Stop destroying video games that outlines how this can be achieved in a reasonable manner. Thank you for your attention to this request of mine. Yannick Miehle",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.484203Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584886.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584886",
+    "chunks_doc_id": "F3584886",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584886.clean.paragraph.json"
+}

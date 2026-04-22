@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587096",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:03Z",
+    "finished_at": "2026-04-14T13:10:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For example, a company sells a videogame you can play alone for the most part, but it's somehow a necessity to be always online to play it just because they made it like that, and then after some time they decide to take down the servers and thus make the game unplayable forever."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Or an app that was previously a one-time payment suddenly gets an update that forces you to pay to be able to do the same stuff, or even pay a suscription to be able to even use it."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unregulated license that could be revoked at any time for any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32694,
+          "unit_kind": "feedback"
+        },
+        "text": "Buying digital software should be that, buying, and not some kind of unregulated license that could be revoked at any time for any reason. Consumers should have protection that ensures they can keep using what they pay for for as long as they want. Just writting some Terms of Service that says the company can do whatever they want doesn't mean that's legal, and it shouldn't even if it were. For example, a company sells a videogame you can play alone for the most part, but it's somehow a necessity to be always online to play it just because they made it like that, and then after some time they decide to take down the servers and thus make the game unplayable forever. Or an app that was previously a one-time payment suddenly gets an update that forces you to pay to be able to do the same stuff, or even pay a suscription to be able to even use it. Checking out the \"Stop Killing Games\" initiative will grant better explanations, but I'm guessing you probably read about that already from many other people giving feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.433892Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587096.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587096",
+    "chunks_doc_id": "F3587096",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587096.clean.paragraph.json"
+}

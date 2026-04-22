@@ -1,0 +1,86 @@
+{
+  "doc_id": "F32844291",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:27:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google's upcoming restrictions on installing apps, limiting installations to registered developers, undermine the freedom that has long defined Android's appeal."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"Stop Killing Games\" initiative, which calls for video game publishers to ensure games remain in a reasonably playable state after server shutdowns, particularly for single-player content."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These cases demonstrate a pattern of companies prioritizing short-term profits over consumer rights, especially the right to repair/own, and environmental sustainability."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41448,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned about three critical issues currently affecting consumer rights in the digital space. First, Google's upcoming restrictions on installing apps, limiting installations to registered developers, undermine the freedom that has long defined Android's appeal. As an early Android adopter, I chose this platform for its open ecosystem and freedom of choice. I believe this move contradicts the EUs values of a free market and consumer choice, forcing users into restrictive ecosystems without alternatives. Second, I strongly support the \"Stop Killing Games\" initiative, which calls for video game publishers to ensure games remain in a reasonably playable state after server shutdowns, particularly for single-player content. I own The Crew, a game with an extensive offline campaign that was rendered unplayable after Ubisoft shut down its servers and removed it from my library. This is akin to a car manufacturer disabling a vehicle via software update and repossessing it without consent - an act I believe should be illegal and violates consumer rights. I believe Publishers should be required to leave games in a reasonably functional state, preserving access to legally purchased products without ongoing publisher involvement. Finally, companies have been releasing fully cloud-dependent hardware, often with promises of long-term support, but then abrutply retiring them, and intentionally disabling or crippling these devices. Prominent examples include the Amazon Cloud Cam, a $120 indoor security camera, the Amazon Halo, a $100 wearable fitness band, and the Spotify Car Thing, a $90 in-car music controller, which was discontinued just months after release and despite enthusiasts demonstrating offline modes, Spotify chose to remotely deactivate all units. All these devices could have retained some measure of core functionality after their end-of-life, for instance, open standards like ONVIF for cameras or universal fitness protocols for wearables could have been implemented via software updates, allowing continued use or repurposing. The Spotify Car Things community hacks further prove that local functionality was achievable, making the decision to brick devices a choice, not a necessity. These cases demonstrate a pattern of companies prioritizing short-term profits over consumer rights, especially the right to repair/own, and environmental sustainability. When consumers purchase physical hardware, they expect a reasonable degree of ownership of the core functionality and utility, depending on the hardware, even after cloud support ends. I urge the European Commission to address these issues through the Digital Fairness Act, ensuring protections for consumer control over devices and access to owned digital content.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.431912Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844291.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844291",
+    "chunks_doc_id": "F32844291",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585187",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:14Z",
+    "finished_at": "2026-04-14T12:22:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a licence that has a limited life and can be revoked at any time."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Digital Fair Act provides for manipulation and deception by influencers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25322,
+          "unit_kind": "feedback"
+        },
+        "text": "There are two points that are tangential to the proposal for digital fairness that I believe are of utmost importance for digital equity. On the one hand, there is a massive proliferation of products sold as licences with no user information. A clear example is video games, which are sold in physical format, as 20 years ago, but which they contain are a trigger key for a licence, a licence that has a limited life and can be revoked at any time. The consumer assumes that he buys something for life and what he purchases is a temporary licence. This is a clear deception. Any company that sells a product as a licence must make it clear that it is a licence, must be obliged to provide the service for which it is paid for a period laid down by law (and I propose a minimum of 5 years according to Article 43 (1) of the Spanish Intellectual Property Law), OR must convert it into a product and give the consumer tools to use it even if the company disconnects the servers. The other tangential point that I consider important is the limitation of the power of payment networks, see Visa or MasterCard. The Digital Fair Act provides for manipulation and deception by influencers, but it does not say anything that a payment network can unilaterally and ignore European (or any other country) legislation force companies or consumers to buy or not to some extent. While in Europe we should not be struggling to ignore payment networks because SEPA SCT exists, international companies accept pressure from payment networks to block purchase or access to products. If manipulation and deception by influencers is regulated by this law, extortion by international carriers should also be in the law, especially because the latter may go worse if no limits and control are placed on these companies. While it is true that this latter point could well go in its own law, requiring these payment networks to be neutral in their role as means of payment systems in the digital ecosystem. After all, they are not a government and should not have the power to decide what can process payments and what does not.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.628685Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585187.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585187",
+    "chunks_doc_id": "F3585187",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

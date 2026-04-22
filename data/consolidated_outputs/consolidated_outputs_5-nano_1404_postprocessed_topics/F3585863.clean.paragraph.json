@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585863",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:16Z",
+    "finished_at": "2026-04-14T12:39:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns and manipulative design online"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15530,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I just wanted to say I really appreciate the direction the Digital Fairness Act is taking. Tackling things like dark patterns and manipulative design online is long overdue, and its great to see the EU stepping up for digital consumer rights. Id also like to ask you to consider adding protections for digital games and other software, especially in cases where people lose access to what theyve bought because a company shuts down its servers. It seems like a natural fit with the DFAs goals, making sure people arent misled or unfairly locked out of what theyve paid for. I hope youll consider it as part of the final proposal. Thanks for your time, and for all the work being done on this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.959968Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585863.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585863",
+    "chunks_doc_id": "F3585863",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585863.clean.paragraph.json"
+}

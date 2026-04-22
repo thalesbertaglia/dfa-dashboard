@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584192",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:43Z",
+    "finished_at": "2026-04-14T11:52:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I propose that video games also be included in the list of measures under the Digital Fairness Act."
+              },
+              {
+                "quote": "rendering my purchased games completely unusable by shutting down the servers without providing any form of compensation."
+              },
+              {
+                "quote": "Games like \"The Crew\", which I can no longer play because its servers were taken offline (again without any compensation)"
+              },
+              {
+                "quote": "Currently, 358 games are known to be unplayable for this reason, with another 388 at risk."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21954,
+          "unit_kind": "feedback"
+        },
+        "text": "I propose that video games also be included in the list of measures under the Digital Fairness Act. This demand is also part of the \"Stop destroying videogames\" initiative, which ends on July 31st of this year. According to current interpretations of the legal situation, statements from members of the EU Commission and various European countries suggest that there is no way to prevent companies from rendering my purchased games completely unusable by shutting down the servers without providing any form of compensation. This is entirely avoidable. The goal should not be to impose a requirement for eternal support from developers, but rather to establish a binding plan for what happens to server-dependent games once the servers are shut down for any reason. Games like \"The Crew\", which I can no longer play because its servers were taken offline (again without any compensation), demonstrate that this is not a hypothetical scenario but a present reality. Currently, 358 games are known to be unplayable for this reason, with another 388 at risk.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.118377Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584192.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584192",
+    "chunks_doc_id": "F3584192",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584192.clean.paragraph.json"
+}

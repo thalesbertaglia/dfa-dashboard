@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585493",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:59Z",
+    "finished_at": "2026-04-14T12:29:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "typical manipulative dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video games industry"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "very loose guarantees as to the availability of the service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23549,
+          "unit_kind": "feedback"
+        },
+        "text": "I've been following European progress in terms of consumer rights with great interest these last few years. Honestly, as a French citizen there's no one doing more for my consumer rights than the EU at this moment. As a video game enjoyer, one area that I'm anxiously looking at is the increasingly blatant anti-consumer practices in the video games industry. Some of these, including gambling-type mechanics, are already (as I understand it) covered by the Digital Fairness Act, being typical manipulative dark patterns; I hope they will be reined in. Adjacent to this but not yet covered by the Act is the practice of selling video games as services with very loose guarantees as to the availability of the service (as publishers tend to shut down game servers whenever they're no longer profitable), basically leading to instant deletion of a purchased product with no warning. We've seen this in other areas, e.g. when Microsoft closed its e-book store and proceeded to delete every client's e-books. This practice is extremely anti-consumer and the Digital Fairness Act is a good opportunity to address it in my opinion. A resolution doesn't have to be infinite support; for video games, third-party servers, single-player builds, or community support are all options. E-books can be downloaded locally on devices. These options are usually overlooked to save cost, which the consumer ends up unfairly paying. I'm looking forward to the next steps with this Act, which I'm very optimistic about.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.771662Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585493.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585493",
+    "chunks_doc_id": "F3585493",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585493.clean.paragraph.json"
+}

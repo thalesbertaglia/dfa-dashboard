@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587752",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:43Z",
+    "finished_at": "2026-04-14T13:21:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When I buy digital games, I have the same mentality."
+              },
+              {
+                "quote": "If the game will have an 'end of life' clause then tell me it'll be so.... BEFORE I decide to buy it."
+              },
+              {
+                "quote": "If I bought the game and it needs to be online to play what happens when the game's servers stop working for whatever reason?"
+              },
+              {
+                "quote": "At least give me the ability to play it offline or let me enjoy it on my own private server with my friends."
+              },
+              {
+                "quote": "In. short, let me have access to the games I bought even after their end of life."
+              },
+              {
+                "quote": "If the companies decide to take that right away from me whenever they feel like it, then why should I even pay them a single penny?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26240,
+          "unit_kind": "feedback"
+        },
+        "text": "When we spend our hard earned money on anything, we expect the purchased item to work as intended for the longevity it was intended for. When I buy digital games, I have the same mentality. I want them to play as expected whenever I choose to play them and for as long as I want to have access to them. If the companies decide to take that right away from me whenever they feel like it, then why should I even pay them a single penny? Isn't it illegal to steal or take away something I own? I think piracy, theft and copying falls along the same line correct? Let me own what I bought and let me play it whenever I want. If the game will have an 'end of life' clause then tell me it'll be so.... BEFORE I decide to buy it. If I bought the game and it needs to be online to play what happens when the game's servers stop working for whatever reason? At least give me the ability to play it offline or let me enjoy it on my own private server with my friends. In. short, let me have access to the games I bought even after their end of life.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.581390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587752.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587752",
+    "chunks_doc_id": "F3587752",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587752.clean.paragraph.json"
+}

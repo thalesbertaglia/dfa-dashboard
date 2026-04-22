@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588164",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:34Z",
+    "finished_at": "2026-04-14T13:22:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when games are put out of service the game companies would neet to provide us with a means to play them offline or a means to host our own servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14662,
+          "unit_kind": "feedback"
+        },
+        "text": "There are two things I want to suggest. The first is that you should make payment processors have to allways have to process legal payments even if they are being pressured not to do so. What are the ones that pressure them going to do? Move to cash only transactions? The second thing I'd like to suggest is please make it so that when games are put out of service the game companies would neet to provide us with a means to play them offline or a means to host our own servers. Thanks for reading and I hope you implement these two in some capacity.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.619151Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588164.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588164",
+    "chunks_doc_id": "F3588164",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

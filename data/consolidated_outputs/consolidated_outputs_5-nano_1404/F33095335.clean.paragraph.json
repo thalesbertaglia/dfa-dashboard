@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33095335",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:53:50Z",
+    "finished_at": "2026-04-14T09:54:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "better scrutiny of data harvesting practices."
+              },
+              {
+                "quote": "extraneous data that would only serve a commercial/tracking purpose for that particular service provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23150,
+          "unit_kind": "feedback"
+        },
+        "text": "My main concern that I believe the law could adress more clearly -- besides what's already in the proposal -- is: * Standardization of the more basic/ubiquitous digital services, and a clear separation between the network and the operator. More specifically, what I'm referring to has to do with digital services that we've grown accustomed to in the past 10-15 years, like messaging, or social networks. The following text argues towards leveling the playing field by standardizing the way certain services are provided by operators;The main objective is to discourage monopolistic and anti-competitive behavior by lowering the entry barrier for new operators. One example is standardizing the way messages are exchanged, and going from the current status quo where you have messages on Facebook, on Signal, on Telegram etc. to a model that more closely resembles the modern European rail networks. There would be the infrastructure side, that would make sure that all messages are end-to-end encrypted, backed up and stored as safely as modern standards dictate. Then there would be different messaging operators within that particular network, using the same protocols and being perfectly capable of accessing the same messages assuming the same account is authenticated, and being perfectly capable of getting a message across to any other platform operating in that network, while paying the operator for providing and servicing the underlaying infrastructure. I believe this would stimulate competition, forcing large players like Whatsapp or Instagram to not lag behind in features, since now the \"networking effect\" wouldn't be a deciding factor when someone in a group of friends decides to change their preferred messaging app. Apple's (I believe forced [1]) adoption of the RCS messaging standard was a move in the right direction, allowing iPhone users to not have to switch to Whatsapp or Signal and still have a way of communicating without being downgraded to SMS, which is basically obsolete by today's standards. Same would go for social media. New social media sites could rise up since there would no longer be an insane barrier of entry due to the networking effect. One could use the twentieth social media company's app, and if there's say, a \"killer feature\", or even a \"moral hazard\", they could migrate over to the twenty-first social media app and not lose their data and network they've worked hard to build. Not to mention that both in these instances (and many more, these are only the first two examples I could come up with!) having a standard for exchanging data between services would allow for better scrutiny of data harvesting practices. There would be a clear separation between the data that's absolutely necessary for the service to be provided, since that would be part of the agreed upon standard protocol, and extraneous data that would only serve a commercial/tracking purpose for that particular service provider. There has been ongoing work on open source protocols for the two examples given above, such as Matrix[2] for messaging, and ActivityPub[3] for more general social networking. The basic idea is that anyone can provide their own implementation of the protocol, and connect with anyone else providing an implementation of the same protocol. While they may not be ideal solutions, they are the most mature alternatives to today's locked in networks, and could serve as the foundation for a future where consumers have more choice in how they interact online. [1] - https://appleinsider.com/articles/24/02/19/apples-new-rcs-stance-may-have-been-forced-by-china [2] - https://matrix.org [3] - https://activitypub.rocks",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.707315Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095335.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095335",
+    "chunks_doc_id": "F33095335",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

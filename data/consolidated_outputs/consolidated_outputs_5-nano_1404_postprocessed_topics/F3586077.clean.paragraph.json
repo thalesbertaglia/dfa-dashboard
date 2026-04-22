@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586077",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:05Z",
+    "finished_at": "2026-04-14T12:46:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can stop the support for any game at any time"
+              },
+              {
+                "quote": "consumers must also destroy the physical copy of the game they have already purchased"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29661,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I would like to request inclusion of the customer protection from game publishers into the Digital Fairness Act. Please protect customers from having games that they have already purchased taken away and destroyed forever by game publishers when they decide to stop support for the games. In my opinion Ubisoft, once a legendary company that has produced many legendary titles such as Prince of Persia, Assassin's Creed, Far Cry, Rainbow Six, The Division, and many more has in their EULA that they can stop the support for any game at any time (which many other companies have in their EULA also), and when that happens, consumers must also destroy the physical copy of the game they have already purchased (you can find it under the section 8. Termination in the Ubisoft EULA or find that specific section in the .pdf attached), which in my opinion is unacceptable. Please help us keep the games we have already purchased and prevent game publishers from taking away the product they have already sold to consumers. Best regards!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.072518Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586077.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586077",
+    "chunks_doc_id": "F3586077",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586077.clean.paragraph.json"
+}

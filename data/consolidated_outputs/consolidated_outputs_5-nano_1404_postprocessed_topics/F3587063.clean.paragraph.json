@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587063",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:14Z",
+    "finished_at": "2026-04-14T13:09:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "First of all, digital goods are quite frequently taken away from consumers, for example, when a videogame is released to the public, and requires a connection to the developer's servers, the developer can (and often does) take down the game's servers, rendering the game unplayable, therefore, in a way, remotely disabling a purchased product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33062,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! Thank you very much for taking action in relation to the evergrowing issues regarding digital markets and services. I agree with all of the law propositions mentioned in the act, however, I also believe that they are insufficient. First of all, digital goods are quite frequently taken away from consumers, for example, when a videogame is released to the public, and requires a connection to the developer's servers, the developer can (and often does) take down the game's servers, rendering the game unplayable, therefore, in a way, remotely disabling a purchased product. This can oftentimes happen as soon as within a year (or even less!) of a game's release. Secondly, censorship of certain kinds of media has started causing issues, oftentimes for smaller, independent game developers. Case in point, payment processors have started pushing videogame platforms (such as itch.io and Steam) to take down games that include 18+ rated content, which is inherently harmful to the industry, as none of those games contain any illegal or obscene content, but are being unfairly taken down, resulting in (often company-ending) losses due to the innate dificulty of publishing a videogame outside of a distributor like Steam or itch.io. Thank you for reading my response and for considering the points mentioned within, as well as for your continued support of european citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.424962Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587063.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587063",
+    "chunks_doc_id": "F3587063",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587063.clean.paragraph.json"
+}

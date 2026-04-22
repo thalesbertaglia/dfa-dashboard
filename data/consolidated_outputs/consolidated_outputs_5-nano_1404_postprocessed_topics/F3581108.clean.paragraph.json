@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3581108",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:44:50Z",
+    "finished_at": "2026-04-14T11:45:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ban practices designed to lure children into repeated spending, including: use of psychological manipulation (e.g., loot boxes, time pressure mechanics); misleading representations of rewards or advantages tied to purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gaps remain regarding effective enforcement of parental control and prevention of child-targeted spending traps."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right to Automatic Refund for Unauthorised Minor Transactions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39019,
+          "unit_kind": "feedback"
+        },
+        "text": "To introduce a harmonised EU-level obligation for digital service providers and platforms to implement robust safeguards that prevent unauthorised or unintended online spending by minors, ensuring parental control and informed consent in all digital transactions initiated by children. 1. Background and Justification Recent years have witnessed a significant rise in cases where minors, often using a parents mobile device linked to payment methods, make unintended or manipulated digital purchases, particularly in mobile games and applications. While EU law prohibits unfair commercial practices and requires clear information before purchase, gaps remain regarding effective enforcement of parental control and prevention of child-targeted spending traps. 2. Proposed Measures a) Mandatory Explicit Consent for Child-Initiated Purchases Digital platforms and apps must ensure that any in-app or in-game purchase initiated from a device by a minor is subject to separate parental confirmation, such as password re-entry or biometric verification, irrespective of previously linked payment methods. b) Prohibition of Manipulative Game Design Towards Minors Ban practices designed to lure children into repeated spending, including: use of psychological manipulation (e.g., loot boxes, time pressure mechanics); misleading representations of rewards or advantages tied to purchases. c) Right to Automatic Refund for Unauthorised Minor Transactions Parents shall have the right to a simplified refund process for any transaction proven to be initiated by a minor without explicit parental confirmation. d) Transparency Obligations Platforms must clearly disclose: when and how parental consent is collected, options for parental controls and spending limits, reports of aggregate spending by minors. e) Strengthened Enforcement Mechanisms National consumer authorities shall be empowered to: investigate child-targeted commercial practices, impose fines for systematic breaches, order corrective measures such as reimbursement schemes. 3. Expected Benefits Enhanced parental control over online spending, Reduction in exploitative commercial practices targeting minors, Increased consumer confidence in the fairness of digital marketplaces.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.054786Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3581108.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3581108",
+    "chunks_doc_id": "F3581108",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3581108.clean.paragraph.json"
+}

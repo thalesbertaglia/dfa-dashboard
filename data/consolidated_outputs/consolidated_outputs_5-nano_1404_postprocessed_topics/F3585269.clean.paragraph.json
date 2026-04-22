@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585269",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:00Z",
+    "finished_at": "2026-04-14T12:24:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Now they can remove games from your library that you paid for and there's nothing you can do about it"
+              },
+              {
+                "quote": "or they just downright shut down games and you will lose what you paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19812,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to suggest that you look into digital game industry that no longer provide fair ownership of games to consumers. Now they can remove games from your library that you paid for and there's nothing you can do about it or they just downright shut down games and you will lose what you paid for. This has to stop because games are also art and deserve to be enjoyed even after studio decide to stop supporting it. We need comprehensive law that companies will have to follow to provide end of life support for games that they no longer wish to or can't afford to support so players can continue to use it on their own.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.661463Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585269.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585269",
+    "chunks_doc_id": "F3585269",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585269.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584774",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:42Z",
+    "finished_at": "2026-04-14T12:10:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"end of life\" plans for online reliant videogames, so once they shut the official servers off, the playerbase has at least one option to keep the game alive themselvws, waiving all reliability from the developers hands."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23746,
+          "unit_kind": "feedback"
+        },
+        "text": "I am worried about the future of videogames as a product. More and more games are made, and then shut down, despite singleplayer aspects, that then become unplayable aswell. This is unacceptable. I am in full support, that game developers should be mandated, to put in place \"end of life\" plans for online reliant videogames, so once they shut the official servers off, the playerbase has at least one option to keep the game alive themselvws, waiving all reliability from the developers hands. Noone asks them to keep games online forever. That onviously can not happen. Let the communitues do it, when you reach the end lf your ability, and let us take over the reigns. We'll take good care of the games we enjoy. You would lose nothing, but gain more goodwill.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.423699Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584774.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584774",
+    "chunks_doc_id": "F3584774",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

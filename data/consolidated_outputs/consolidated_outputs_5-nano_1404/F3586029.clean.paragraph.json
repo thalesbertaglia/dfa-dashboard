@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586029",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:17Z",
+    "finished_at": "2026-04-14T12:44:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "sunset plan when they decide to end support for a game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22000,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to suggest an improvement for digital product policies, particularly concerning video games. My proposal aligns with the \"Stop Killing Games\" initiative, which advocates for stronger consumer protections. The core idea is simple: game developers should be required to provide a clear sunset plan when they decide to end support for a game. This prevents scenarios where customers are left with unplayable digital products they've purchased, effectively protecting their investment and ensuring their rights as consumers. You can find more detailed information and the full proposal on the \"Stop Killing Games\" initiative's website. Your attention to this matter is greatly appreciated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.044934Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586029.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586029",
+    "chunks_doc_id": "F3586029",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

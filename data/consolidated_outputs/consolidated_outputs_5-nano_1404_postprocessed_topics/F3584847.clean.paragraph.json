@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584847",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:35Z",
+    "finished_at": "2026-04-14T12:12:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preserving games already sold (and yet to be sold)"
+              },
+              {
+                "quote": "it is not fair that a game you paid for can be shut down"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21168,
+          "unit_kind": "feedback"
+        },
+        "text": "I come here to propose to add preserving games already sold (and yet to be sold). it is not fair that a game you paid for can be shut down even when it could be turned into a fully offline game like the crew. down below is a list of games that are at risk or already dead https://stopkillinggames.wiki.gg/wiki/Dead_game_list",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.467145Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584847.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584847",
+    "chunks_doc_id": "F3584847",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584847.clean.paragraph.json"
+}

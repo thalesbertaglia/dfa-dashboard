@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585824",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:40Z",
+    "finished_at": "2026-04-14T12:37:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Namely the existing practice of killing off videogames, that have already been sold as products to the customers."
+              },
+              {
+                "quote": "end their support in a way that allows players themselves to continue playing / hosting the game, or otherwise having an end-of-life plan for their game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16368,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! The act seems good, and has my support. However, something that I would like to be highlighted as an additional point: The anti-consumer practices of the videogame industry. Namely the existing practice of killing off videogames, that have already been sold as products to the customers. Such practice of utterly destroying a product that has been legally sold would probably be against every known customer protection law within the EU, and would be unheard of in nearly every market, including the markets for videogames prior to the rise of large online distributors such as Steam in early to mid 2000s. I would like to propose an additional point to the act, and that is to add protections for customers, against the hostile actions of publishers destroying videogames, that have already been sold to the customers. The most customer-friendly way to do this, and also the most easy way for the publishers to accomplish this, would be to end their support in a way that allows players themselves to continue playing / hosting the game, or otherwise having an end-of-life plan for their game. An example of a game which is a specific concern to me, and which is currently at risk, is Hell Let Loose, an online-only game, pubilished by Team17. It currently has no end-of-life plan, which means that should Team17 decide to end their support, the game would be completely unplayable, due to onlinse services - which the game requires - not being available, despite the fact that it has been sold to me as a product, and that I have paid the full required price for said product. It likewise bears mentioning, that nearly 1,5 million EU citizens have already signed a citizens initiative on this issue (the Stop Killing games campaign). There is broad support from consumers, to regain the rights to their products that they should have by law and stop publishers walking over our consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.939592Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585824.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585824",
+    "chunks_doc_id": "F3585824",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

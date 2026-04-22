@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3593117",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:01Z",
+    "finished_at": "2026-04-14T13:39:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers permanently disabling video games consumers have paid for."
+              },
+              {
+                "quote": "these video games simply become inaccessible or non-functional."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "After an abritary date, decided on by the publisher after the point of sale, these video games simply become inaccessible or non-functional."
+              },
+              {
+                "quote": "the consumer is robbed of a product they have purchased without reinbursement."
+              },
+              {
+                "quote": "It would be unreasonable to expect the publisher to support the games indefinitely."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28072,
+          "unit_kind": "feedback"
+        },
+        "text": "As most other comments here have already said, I believe an addition to this initiative could be worthwhile. I am of course referring to the practice of destroying video games. Specifically, publishers permanently disabling video games consumers have paid for. After an abritary date, decided on by the publisher after the point of sale, these video games simply become inaccessible or non-functional. In this sense, the consumer is robbed of a product they have purchased without reinbursement. This is in my view an excellent example of Digital Unfairness. One of the main reasons for this practice is the absence of an end-of-life plan for these video games. These games are not designed to keep working without support from the publisher. It would be unreasonable to expect the publisher to support the games indefinitely. However, if a proper end-of-life plan can be implemented, these games can continue to be played after support ends, preventing situations where the consumer is essentially robbed of their purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.947261Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593117.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593117",
+    "chunks_doc_id": "F3593117",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

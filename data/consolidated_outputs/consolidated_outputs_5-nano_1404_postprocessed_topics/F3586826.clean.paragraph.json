@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586826",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:14Z",
+    "finished_at": "2026-04-14T13:04:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games are often in essence being destroyed without clear communication (without prior notice or any provided reason)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19264,
+          "unit_kind": "feedback"
+        },
+        "text": "One additional avenue of digital fairness that should be considered is how online video games hosted by video game companies do not pursue end of life plans to keep games with ended developer support playable. Games are often in essence being destroyed without clear communication (without prior notice or any provided reason). This leaves customers of these products without any means of using them, effectively destroying media, artistic expression from developers, cultivated gaming cultures and communities. I am personally a player of the game Genshin Impact, a game that requires an online connection for which there appears to not be any plans to create an offline version or other such solutions when the game inevitably is being discontinued. I would not want to see the time and dedication spent on this game become nothing but a distant memory that I can't share with other people. The Stop Killing Games initiative as of now registered 1.44 million signatures under the ECI website, showing that there is alot of interest in this issue by EU-citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.356841Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586826.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586826",
+    "chunks_doc_id": "F3586826",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586826.clean.paragraph.json"
+}

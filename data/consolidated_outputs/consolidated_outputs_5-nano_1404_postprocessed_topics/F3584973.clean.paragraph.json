@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584973",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:39Z",
+    "finished_at": "2026-04-14T12:16:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "psychological strategies to extort money from more vulnerable people"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "mobile gache games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19853,
+          "unit_kind": "feedback"
+        },
+        "text": "Good morning. I am writing as a Polish citizen who spends most of his online time online in mobile gache games. My suggestion is partly linked to Stop Killing Games/Stop Destroying Video Games and is to draw attention to the rights associated with the strategies used by computer and mobile games, including gacha games. I am talking mainly about the fact that some companies have found a strategy to create games that use psychological strategies to extort money from more vulnerable people, which ends after a few months with the closure of the game, the closure of servers and the permanent removal of content on which some people have spent large sums of money. Moreover, individual companies perpetuate this cycle by creating new games, destroying them, only in order to create a similar game shortly after closure. My suggestion would be to impose an obligation to keep such games in play. This does not take into account the infinite support of the game by developers, but the simple permission of players to ‘refresh’ the game after the end of the service without fear of legal conflicts with the owners of the game, without encountering obstacles in the form of indiscriminate means of closing servers as it happened to The Crew and the like. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.532911Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584973.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584973",
+    "chunks_doc_id": "F3584973",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584973.clean.paragraph.json"
+}

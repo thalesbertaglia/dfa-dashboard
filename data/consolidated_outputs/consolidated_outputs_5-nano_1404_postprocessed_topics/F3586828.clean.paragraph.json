@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586828",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:16Z",
+    "finished_at": "2026-04-14T13:04:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections for the purchase of videogames"
+              },
+              {
+                "quote": "games that were purchased are no longer available"
+              },
+              {
+                "quote": "games being rendered unplayable due to no end of life plans for when server support is shutdown"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23331,
+          "unit_kind": "feedback"
+        },
+        "text": "Please Consider adding protections for the purchase of videogames, as there are many cases where games that were purchased are no longer available ex: what happened recently with itch.io and its payment processors or games being rendered unplayable due to no end of life plans for when server support is shutdown ex: Blur, Little Big Planet and Evolve. The EU Citizens initiative Stop Destroying Videogames exists to tackle this issues and it has 1.441.710 signs at the time of writing this feedback. Me and so many other people consider this issue incredibly important.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.357498Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586828.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586828",
+    "chunks_doc_id": "F3586828",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586828.clean.paragraph.json"
+}

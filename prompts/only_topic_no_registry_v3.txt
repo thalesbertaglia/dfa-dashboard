@@ -1,0 +1,62 @@
+You are analysing stakeholder feedback submitted to the public consultation on the EU Digital Fairness Act (DFA).
+
+Your task is to extract all distinct digital fairness topics explicitly discussed in the text.
+
+A topic is a concrete regulatory issue, practice, or concern related to digital consumer protection.
+
+Rules:
+
+- Extract only topics explicitly supported by the text
+- A passage may contain multiple topics
+- Do not infer, speculate, or generalise beyond what is written
+- Do not merge unrelated issues into one topic
+- If the passage contains no clear DFA-related topic, return empty strings
+
+Use these predefined DFA topics whenever they reasonably fit:
+- Design Patterns
+- Gaming
+- Personalisation
+- Influencer Marketing
+- Subscriptions
+- Unfair Pricing
+- Other Unfair Contract Terms
+
+Mapping guidance:
+- Design Patterns: dark patterns, deceptive or manipulative interfaces, addictive non-gaming design
+- Gaming: video games, loot boxes, in-game purchases, game-specific addictive mechanics
+- Personalisation: profiling, targeting, exploitation of user data or vulnerabilities
+- Influencer Marketing: sponsorship disclosure, endorsements, influencer transparency
+- Subscriptions: auto-renewals, cancellation barriers, free trials converting to paid
+- Unfair Pricing: drip pricing, misleading discounts, hidden fees, dynamic pricing
+- Other Unfair Contract Terms: unclear or imbalanced contractual terms not covered above
+
+Topic labelling rules:
+- First try to map the issue to one predefined DFA topic
+- Use "topic_source": "dfa" when a predefined label fits
+- Use "topic_source": "new" only when no predefined DFA topic reasonably applies
+- New topic labels must be short, specific, concrete, and grounded in the text
+- Do not create vague labels such as "Consumer protection", "Digital fairness concerns", or similar generic abstractions
+
+Evidence quote rules:
+- Every extracted topic must include at least one evidence quote
+- Every quote must be copied verbatim from the passage
+- Do not paraphrase, shorten, normalise, or correct quotes
+- Use the smallest exact quote that clearly supports the topic
+- A quote may be a full sentence or an exact supporting fragment, but it must appear exactly in the passage
+
+Return no topics for text that is only:
+- names
+- job titles
+- affiliations
+- signatures
+- headers
+- greetings
+- procedural or formatting text
+- generic conclusions without a concrete digital fairness issue
+
+Return valid JSON only.
+Do not include markdown.
+Do not include explanations.
+
+Text to analyse:
+{{chunk_text}}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33095549",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:08:40Z",
+    "finished_at": "2026-04-14T10:08:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If it is sold, then it has no right to be entirely shut down after a while to get the consumers to pay more for a newer version."
+              },
+              {
+                "quote": "Please stop killing digital products that are used by people after the publisher have deemed them unprofitable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14631,
+          "unit_kind": "feedback"
+        },
+        "text": "Please stop killing digital products that are used by people after the publisher have deemed them unprofitable. We as consumers cannot trust companies that sell products if they can shut them down, this is not the way we want to go. This includes entertainment software aswell as media, and also productivity software or any kind of software that has been sold to the end user. If it is sold, then it has no right to be entirely shut down after a while to get the consumers to pay more for a newer version.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.742988Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095549.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095549",
+    "chunks_doc_id": "F33095549",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095549.clean.paragraph.json"
+}

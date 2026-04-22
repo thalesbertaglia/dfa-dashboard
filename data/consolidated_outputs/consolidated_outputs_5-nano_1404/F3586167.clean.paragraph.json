@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586167",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:21Z",
+    "finished_at": "2026-04-14T12:49:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark peterns"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "usage-blocking EULA-s that require them to agree to loosing their access to thier own property."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24072,
+          "unit_kind": "feedback"
+        },
+        "text": "Dark peterns, missleading marketing, unfair or addictive practices are obsolite if the already lawfully sold standalone sofware can change overnight into an alwasy-online service by an automatic patch, and the servers can be shut down anytime, by chose, or bankrupcy. Today the producers of digital goods have the option to sell a standalone software with an optional free live-service feature that links the product to the producer even after the purchase. A \"live-service\" is sold as a way for the producer to keep the product up to date, but also opens up the way to modify the product in ANY way that it looses features or accessability. One of the features a live-service software can loose if the producers decides: the ability to work offline, without connection to the producer. Consumers are tricked by automatic updates and usage-blocking EULA-s that require them to agree to loosing their access to thier own property. Digital fairness should include adressing the fact that digital puchases today are not permanent, the terms of the puchase and the content of the product can be changed later by the producer, so digital consumer protection is not done after a consumer friendly prchase, it needs to look at the whole interaction between the seller and the buyer until the sofware is being supported.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.128864Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586167.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586167",
+    "chunks_doc_id": "F3586167",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

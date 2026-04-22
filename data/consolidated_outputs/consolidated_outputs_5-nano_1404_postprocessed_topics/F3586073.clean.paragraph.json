@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586073",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:57Z",
+    "finished_at": "2026-04-14T12:46:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to gather valuable user behavioral data"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "so called \"lifetime subscriptions\" stop receiving support and even old versions become wholly unavailable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 51439,
+          "unit_kind": "feedback"
+        },
+        "text": "Right to own is a big issue for digital products right now. For example, so called \"lifetime subscriptions\" stop receiving support and even old versions become wholly unavailable. Or software/videogames require you to be always online, connected to their cloud servers, just to verify if users have a legitimate copy and to gather valuable user behavioral data of course. Problem here is that the software can become unavailable to the user if at any time the company decides to do so or the company stops existing. Consumers should feel safe that \"to buy\" a digital good means \"to own\" it. Stop Killing Games is a initiative that advocates for The Right to Own in the sphere of video games. However, this should extend to a whole range of digital goods; software, hardware, movies, music, etc. You buy it, you own it. Unfortunately, currently that is not the case. Furthermore, even for the cases of subscription only models there should be a end-of-life solution that allows users to have some working version of the software when the company decides to no longer support it themselves. There are many different solutions for this, such as releasing versions that users can host on personal servers for example. This should be done not just for the right to own (which obviously does not apply to subscription models), but also for the preservation of the digital history. This is not just a curiosity for those who have an interest in such history, but far more important it preserves the knowledge to aid the programmers and engineers of today to learn and develop better software for us all. Without such preservation programmers and engineers would have to reinvent many technical solutions over and over again, thus stifeling digital innovation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.070547Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586073.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586073",
+    "chunks_doc_id": "F3586073",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586073.clean.paragraph.json"
+}

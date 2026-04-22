@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585613",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:35Z",
+    "finished_at": "2026-04-14T12:31:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stopping companies from shutting down and revoking ownership of some software or video games would fit very well in it."
+              },
+              {
+                "quote": "People are buying video games/softwares and companies does not even give a choice for them to at least maintain it by themself."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22011,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative make sense. Stopping companies from shutting down and revoking ownership of some software or video games would fit very well in it. People are buying video games/softwares and companies does not even give a choice for them to at least maintain it by themself. They (companies) are literally giving up and it is not the owner's choice, the product is no more to sale, there is no more profit to talk about, so there no harm and argument to not allow (or rather keep) people the right to own it and maintain it by themself. This could be resolved by automatically transforming the license into open source or something similar, if the company decide to shut down their product, they should leave the possibility for anyone to be able to run or maintain the product by themself. When you buy a drill driver, and the company stop to produce and service this drill driver, you can of course buy a new model if the company produce one, but you can also still use the one you own and repair it yourself if you want. It is as simple as that.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.829176Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585613.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585613",
+    "chunks_doc_id": "F3585613",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585613.clean.paragraph.json"
+}

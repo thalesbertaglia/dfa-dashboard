@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3588747",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:32Z",
+    "finished_at": "2026-04-14T13:25:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These companies have, in some instances, used their position to pressure online platforms into removing lawful content by threatening to withdraw payment services."
+              },
+              {
+                "quote": "This amounts to a refusal of service, despite no legal wrongdoing."
+              },
+              {
+                "quote": "They should not be allowed to deny service unless they can demonstrate a legitimate concern that the transaction in question would be unlawful."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10968,
+          "unit_kind": "feedback"
+        },
+        "text": "In the digital ecosystem, payment processors such as Mastercard and Visa have effectively become critical infrastructure. These companies have, in some instances, used their position to pressure online platforms into removing lawful content by threatening to withdraw payment services. This amounts to a refusal of service, despite no legal wrongdoing. Most other forms of critical infrastructure are not permitted to discriminate in this way, and I believe the same standard should apply to payment processors. They should not be allowed to deny service unless they can demonstrate a legitimate concern that the transaction in question would be unlawful. Extending consumer protection to cover this issue is an essential step toward a fair and accountable digital marketplace.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.682065Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588747.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588747",
+    "chunks_doc_id": "F3588747",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588747.clean.paragraph.json"
+}

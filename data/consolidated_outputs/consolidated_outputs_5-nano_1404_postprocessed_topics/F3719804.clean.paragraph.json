@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3719804",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:41Z",
+    "finished_at": "2026-04-14T13:46:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "relying on a company in a foreign country,"
+              },
+              {
+                "quote": "no alternative if your account gets randomly banned."
+              },
+              {
+                "quote": "Those are unacceptable to developers outside of the USA."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14228,
+          "unit_kind": "feedback"
+        },
+        "text": "It is prohibiting in a few ways: relying on a company in a foreign country, and no alternative if your account gets randomly banned. Also what would happen to developers in embargoed countries? Those are unacceptable to developers outside of the USA. They claim to be doing it to combat malware, they should be focusing on the malware on the Google Play Store. An extremely small percentage of users are sideloading .apks, and those that do generally understand and accept the risks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.111156Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3719804.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3719804",
+    "chunks_doc_id": "F3719804",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3719804.clean.paragraph.json"
+}

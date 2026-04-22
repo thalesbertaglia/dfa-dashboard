@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586228",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:07Z",
+    "finished_at": "2026-04-14T12:51:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of video games by publishers"
+              },
+              {
+                "quote": "the right to access the product we have paid for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19156,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should address our consumer rights in the domain of video games. Specifically, it should force legislation against the destruction of video games by publishers in the way of making games we paid for unavailable to play once the publisher deems it so. We as consumers should have the right to access the product we have paid for regardless of if the game has a live service model or not and no longer receives official support. The video game industry has been shifting against consumer rights for the past 15 or so years and it is only getting worse and worse. The EU is perhaps the last bastion of hope to turn the tide in the favor of consumer rights in this specific domain so I urge you to please take a thorough look at the citizen initiative called \"Stop Killing Games\" and what they're about and protect our rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.165319Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586228.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586228",
+    "chunks_doc_id": "F3586228",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

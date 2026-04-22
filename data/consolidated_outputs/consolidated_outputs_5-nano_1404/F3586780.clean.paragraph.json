@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586780",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:27Z",
+    "finished_at": "2026-04-14T13:03:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I want to vouch for including video games and other digital media under the Digital Fairness Act."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For instance, having clear wording and mutual understanding of what is meant by a \"purchase\" should be a standard, leaving no ambiguity for either the user or the seller."
+              },
+              {
+                "quote": "part of the purchased content has been lost unless it was already downloaded."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30239,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Digital Fairness Team, I want to vouch for including video games and other digital media under the Digital Fairness Act. I believe that the digital content one purchases, such as video games, implies a level of ownership and the ability to use the content itself. This is crucial to preventing abuses by corporations against consumers. For instance, having clear wording and mutual understanding of what is meant by a \"purchase\" should be a standard, leaving no ambiguity for either the user or the seller. Another important aspect is that, due to the integration of digital content with e-commerce, clear protections not only ensure the rights related to a single purchase but also protect users' long histories of content purchases in digital media. For example, Ive bought several pieces of additional content inside video games, one of them being FIFA World (a special edition for the 2014 World Cup), but Im now unable to use it as I used to with friends, and part of the purchased content has been lost unless it was already downloaded. Thank you for your time",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.344076Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586780.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586780",
+    "chunks_doc_id": "F3586780",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

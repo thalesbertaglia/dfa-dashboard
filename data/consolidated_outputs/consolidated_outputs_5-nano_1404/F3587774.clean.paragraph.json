@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587774",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:51Z",
+    "finished_at": "2026-04-14T13:21:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online-dependent video games when publishers decide to shut down these services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26048,
+          "unit_kind": "feedback"
+        },
+        "text": "As part of ensuring fair treatment for consumers in the digital marketplace, I urge the European Commission to include specific protections for purchasers of online-dependent video games when publishers decide to shut down these services. In 2014, I purchased the MMORPG game \"Wildstar\", a premium product requiring both upfront payment, montly subscribtion cost and significant time investment. However, only a few years later, the publisher determined it was no longer viable to keep the servers running and discontinued the game entirely. As a paying customer, I was left with no recourse and no way to continue enjoying a product I had purchased in good faith. I would like to respectfully urge this commission to consider adding a sixth unfair practice under the Digital Fairness Act: the permanent disabling or removal of access to video games that consumers have legally purchased. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.584126Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587774.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587774",
+    "chunks_doc_id": "F3587774",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

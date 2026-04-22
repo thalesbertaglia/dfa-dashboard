@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585291",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:29Z",
+    "finished_at": "2026-04-14T12:24:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ownership must mean permanent access, not temporary rental disguised as acquisition."
+              },
+              {
+                "quote": "When you buy digital products like games or movies, you should have at least some level of assured access to them in the future."
+              },
+              {
+                "quote": "It should not be allowed for a company to simply remove or cut off access to something a customer has paid for without offering a solution."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12892,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I want to make a few remarks regarding the Digital Fairness Act, two of which I feel need particular attention. One is keeping digital ownership intact. When you buy digital products like games or movies, you should have at least some level of assured access to them in the future. It should not be allowed for a company to simply remove or cut off access to something a customer has paid for without offering a solution. For example, if a game developer decides not to support a game anymore, that is reasonable, but there needs to be some provision to allow people to keep playing in some way, such as by adding an option to play single-player or releasing server software. Similarly, when someone buys a movie on a platform, they should have access to it where and when they please. If the platform cancels that movie, they should either refund them, provide another way to still see it, or just not be able to cancel it in the first place. Ownership must mean permanent access, not temporary rental disguised as acquisition. The other aspect that I think the Act must address is the growing dominance of payment processors like Visa, Mastercard, or PayPal over what people can buy. There have been some recent instances of these companies pressuring platforms like Steam or Itch.io to remove games that are perfectly LEGAL, by threatening to stop processing payments for them. I don't find it fitting that payment processors get to have those kinds of calls to make. If something is legal to buy under EU law, then it should be legal to pay for, and payment processing businesses shouldn't get to have a say about that. Their role should be non-judgmental and simply to facilitate legal transactions to take place, and not to police content.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.669796Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585291.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585291",
+    "chunks_doc_id": "F3585291",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

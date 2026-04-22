@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585287",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:25Z",
+    "finished_at": "2026-04-14T12:24:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "don't treat videogames as products to be sold anymore but as licenses,"
+              },
+              {
+                "quote": "you own nothing but come pay for it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30152,
+          "unit_kind": "feedback"
+        },
+        "text": "I have always been supportive of consumer protections put in place to mitigate predatory practices used by big corporations and enterprises. I would surely support this act if it also extended some protections towards videogames, the business model of big videogame studios and great part of the videogame industry don't treat videogames as products to be sold anymore but as licenses, you pay for them with the clear implication of ownership but then they cut access to games you own hiding behind the licensing tactic. I'm angry and so tired of their arguments to keep up this model, the whole \"you own nothing but come pay for it\". I hope this kind of initiative can give the consumers some rights to fight against these tactics I personally consider absolute scam, so that we can again purchase games without the fear of them being taken away after having paid for them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.668094Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585287.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585287",
+    "chunks_doc_id": "F3585287",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585287.clean.paragraph.json"
+}

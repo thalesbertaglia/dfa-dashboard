@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585008",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:52Z",
+    "finished_at": "2026-04-14T12:18:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As of now, many video games are sold as 'live services' or under restrictive online only access conditions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11776,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to respectfully submit the recommendation to include video games as commonly used digital media into the fairness act. As of now, many video games are sold as 'live services' or under restrictive online only access conditions. This puts consumers into disadvantages, even if they pay full price to own the goods. When game publishers shut down servers or discontinue online services, consumers lose access to legally purchased content entirely and don't even get their money returned. The 'Stop Killing Games' initiative tries to regulate rights concerning these issues, advocating for the right of consumers to continue accessing their purchased games, even after official End of Service and allows the preservation of video games as an art form for later generations to witness. Therefore I ask that video games are explicitly considered within the EUs broader efforts to safeguard consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.550168Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585008.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585008",
+    "chunks_doc_id": "F3585008",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

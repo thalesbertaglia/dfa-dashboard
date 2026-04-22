@@ -1,0 +1,24 @@
+[project]
+name = "dfa-dashboard"
+version = "0.1.0"
+description = "End-to-end pipeline and dashboard for analysing EU Digital Fairness Act public consultation responses"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mistralai<2.0.0",
+    "litellm>=1.0.0",
+    "pydantic>=2.0.0",
+    "markdown-it-py>=4.0.0",
+    "pandas>=2.0.0",
+    "streamlit>=1.52.2",
+    "watchdog>=6.0.0",
+    "matplotlib>=3.10.0",
+    # Shared utilities
+    "load-dotenv>=0.1.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.2.0",
+    "openpyxl>=3.1.5",
+]

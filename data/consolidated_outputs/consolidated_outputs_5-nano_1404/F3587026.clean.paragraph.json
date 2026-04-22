@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587026",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:29Z",
+    "finished_at": "2026-04-14T13:08:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unauthorised EULAs in video games."
+              },
+              {
+                "quote": "On-line only games, which can cost consumers between 70 and over 100 depending on the type of operation, are increasingly no longer supported after a few months."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21315,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear reader, I am very pleased in principle about the digital fairness act and the impact on consumer rights. However, I would be delighted to include one or other passage dealing with – in my view – unauthorised EULAs in video games. On-line only games, which can cost consumers between 70 and over 100 depending on the type of operation, are increasingly no longer supported after a few months. Examples are: Battleborn, Concord, Nosgoth or Anthem. Some of these titles have been published by hugely large companies, which have received large sums of money from consumers and which then no longer offer the opportunity to view or even play the content. If users want to access through ‘private servers’ the games in which they may have invested hundreds of euros, this is contrary to the EULA and consumers. I would like to see a wording in the distributed video games, which is still available to consumers even after publishers’ interest has ceased. If we take the ‘Concord’ example, the period between the publication and the discontinuation of distribution was, moreover, in a little 2 weeks. Conceivable solutions for me would be like \"Users can only set up private servers once they are no longer offered by the official side. In return, appropriate SDK tools are made available to consumers. Liability for any damage in such cases shall be borne by the providers of private servers’. Finally, I would like to make a comparison. If you bought teatris for the Gameboy in 1989, they can still play it today (with a certain probability). If you choose to buy an online game, it may be that, on the basis of the provider’s decision, they can no longer and never again access the game in one month. It is a virtual and arbitrary expiry date on these titles and this cannot and must not be in the interest of consumer protection. Thank you very much for having read it up to this date, and should you have any further questions, I remain at your disposal.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.415744Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587026.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587026",
+    "chunks_doc_id": "F3587026",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

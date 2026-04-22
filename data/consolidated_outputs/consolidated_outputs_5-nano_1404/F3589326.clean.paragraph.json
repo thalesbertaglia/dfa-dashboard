@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3589326",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:01Z",
+    "finished_at": "2026-04-14T13:31:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Its frustrating when we buy digital products, like video games, only to have our access revoked without warning."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "theres a big need for more transparency around how digital services handle our data."
+              },
+              {
+                "quote": "Lastly, its crucial for consumers to easily access, modify, and delete their personal data."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27336,
+          "unit_kind": "feedback"
+        },
+        "text": "Hallo, Im really supportive of the Digital Fairness Act and wanted to share a couple of thoughts. First, theres a big need for more transparency around how digital services handle our data. Many of us dont know what data is collected or how its used, which can shake our trust in these companies. The Stop Killing Games movement highlights another important issue: digital ownership. Its frustrating when we buy digital products, like video games, only to have our access revoked without warning. Consumers should have permanent access to what theyve paid for, not just a revocable license. Lastly, its crucial for consumers to easily access, modify, and delete their personal data. This control is essential for a fair digital space. In short, digital fairness should focus on transparency, consumer control over data, and real ownership of digital products. Thanks for considering these points in the Digital Fairness Act!!! MfG",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.783809Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589326.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589326",
+    "chunks_doc_id": "F3589326",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

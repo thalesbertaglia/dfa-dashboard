@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584633",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:32Z",
+    "finished_at": "2026-04-14T12:05:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling-style Mechanics in games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28022,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi there, This initiative is a really good step in the right direction – especially the parts about dark patterns and gambling-style Mechanics in games. But honestly, it could go even further, particularly when it comes to the video game industry. Right now, there are some practices in gaming that would be considered absurd in any other business. One major example is the way publishers can just shut down games – even ones people have already paid for. Many live-service games need a constant online connection, even when there’s no technical reason for it, and publishers usually don't make it clear that the game may just stop working day without warning. Imagine if Volkswagen shows up at your house and bricked your car because they stopped updating the software. That’s Basically what’s happening with games. It would be a big win for consumers if the initiative therefore covers this issue. Publishers should be upfront from day one about how long their games will stay online, and ideally, they should share some sort of plan for what happens when support ends. In many cases, just letting the community keep the game alive with private servers would be enough. The Stop Killing Games campaign shows how much people care about this – over 1.4 million signatures and counting. It’s clear things EU citizens want action on. Thanks for listing!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.328291Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584633.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584633",
+    "chunks_doc_id": "F3584633",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

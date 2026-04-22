@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587245",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:02Z",
+    "finished_at": "2026-04-14T13:14:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to request video games to be added to the list of protected media."
+              },
+              {
+                "quote": "It's truly disheartening and upsetting that whenever i buy something I enjoy there's always the voice in the back of my head saying \"This could die any second if someone wants to flip the killswitch.\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22818,
+          "unit_kind": "feedback"
+        },
+        "text": "It is my opinion that video games are an artform. And I'm incredibly tired of companies disrespecting their own creations and consumers in the name of making an extra penny. It's truly disheartening and upsetting that whenever i buy something I enjoy there's always the voice in the back of my head saying \"This could die any second if someone wants to flip the killswitch.\" I would like to request video games to be added to the list of protected media. Over 1.4 million citizens have already signed the stop killing games initiative. So we are not alone, a ton of people just want to own the things they buy. And video games should not be an exception to that rule.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.483936Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587245.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587245",
+    "chunks_doc_id": "F3587245",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

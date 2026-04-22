@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586930",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:14Z",
+    "finished_at": "2026-04-14T13:06:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "platforms like Steam, Itch.io and others."
+              },
+              {
+                "quote": "digital content - mostly games, and other digital products."
+              },
+              {
+                "quote": "Game and other content creators are having their means of livelihood taken away by being unable to sell the products they are making."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20423,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Comission, We are currently facing a terrible precedent situation, with payment processors refusing to provide service to platforms like Steam, Itch.io and others. Said platforms are hosting and selling digital content - mostly games, and other digital products. This is due to an Australian group called 'Collective Shout' scaremongering them into refusing to process payments for any 18+/NSFW content even if it's fully legal in any country that it's being sold in. Game and other content creators are having their means of livelihood taken away by being unable to sell the products they are making. Product buyers and consumers have products removed from their libraries and even customer accounts closed. Considering how said platforms have thousands of products fitting this classification, they are doing excellent work in enforcing the rules and removing any product with potentially illegal content - yet this group has caused payment processors to effectively blanket-ban service for all 18+ digital items. They are giving in to a small group in one country, with weak arguments and shady purposes, to ban and censor media worldwide. If they are arguing against a minor percentage of products, they ended up shutting down service and processing for 100% of products falling under the 18+ category. Adult content is legal. People have the right to buy such content if they are of age and no rules are being broken. Creators have rights to sell said content and make a living off it. We cannot allow such massive overreach and censorship to happen, or it will lead to even worse situations in the future. Payment processors should not hold sway in deciding what a customer can buy with their money as long as what they're buying is legal. I am writing this from the point of view of a creator who will have no option or platform where I'd be able to distribute my products if this persists. Please look into this situation and do everything you can to signal payment processors that they should reverse their actions. Thank you for your time. Nikolay Valkanov",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.390430Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586930.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586930",
+    "chunks_doc_id": "F3586930",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586930.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584249",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:16Z",
+    "finished_at": "2026-04-14T11:53:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game industry is highly predatory."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Recently they introduced lootboxes and these are banned in Belgium and the Netherlands, thus removing access to every single player from those countries."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17680,
+          "unit_kind": "feedback"
+        },
+        "text": "The game industry is highly predatory. Not only do they implement every strategy in the manipulation book to make gamers pay more and more, they outright remove access to players from multiple countries that have lootboxes regulations. The example that i am speaking of is Pokemon Unite. For years everyone in europe could play this game, invest in skins for their favourite pokemon, buy pokemon to play with and do other content ingame. Recently they introduced lootboxes and these are banned in Belgium and the Netherlands, thus removing access to every single player from those countries. This just shows that even massive industry giants like Pokemon and Tencent care more about maximizing profits than to tend to a broader audience. It's completely shameful and backwards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.144038Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584249.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584249",
+    "chunks_doc_id": "F3584249",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584249.clean.paragraph.json"
+}

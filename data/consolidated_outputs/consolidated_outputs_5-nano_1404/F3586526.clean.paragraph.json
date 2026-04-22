@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586526",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:34Z",
+    "finished_at": "2026-04-14T12:58:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When buying a digital good, we often have no choice or influence on whether the seller will take it for any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14830,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I speak as a citizen of the European Union. I would like to express my opinion on the growing problem of take-off, and I would even call it theft of a digital product which I have purchased entirely legally, without being reimbursed. This is an alarming situation where corporations/companies ‘sell’ digital products to consumers under unfavourable conditions. When buying a digital good, we often have no choice or influence on whether the seller will take it for any reason.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.271019Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586526.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586526",
+    "chunks_doc_id": "F3586526",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

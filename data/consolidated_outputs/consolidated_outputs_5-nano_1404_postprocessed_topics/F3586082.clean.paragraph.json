@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586082",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:08Z",
+    "finished_at": "2026-04-14T12:46:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game got changed into Warcraft 3: Reforged and with it a EULA update to claim any and all mods/maps made for the game to be property of Blizzard Entertainment."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game got changed into Warcraft 3: Reforged and with it a EULA update to claim any and all mods/maps made for the game to be property of Blizzard Entertainment."
+              },
+              {
+                "quote": "Digital games being a \\\"license\\\" instead of a product feels wrong and is being heavily exploited."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25880,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm commenting on this initiative to share my thoughts on games preservation as a game developer. I've worked on developing a live service game in a past job and the game will very likely have its plug pulled in the future and with it goes years of time my colleagues and I worked on the game. After the game is no longer supported, no one will be able to experience it in the future. The same goes for many games that have already sufferred such a fate, quite recently the title Concord which lived less than a month. Granted everyone got a refund, but the game itself can no longer be experienced by anyone. The work thousands of developers across the world put into games that are no longer accessible is being ignored. Another issue I have with the current video game landscape is older games being updated and restricted, such as Warcraft 3. The game got changed into Warcraft 3: Reforged and with it a EULA update to claim any and all mods/maps made for the game to be property of Blizzard Entertainment. Overwatch 1 shared a similar fate, being sunset in favor of Overwatch 2. Same goes for Counter-Strike: Global Offensive being transformed into Counter-Strike 2. Digital games being a \"license\" instead of a product feels wrong and is being heavily exploited. Games being \"free-to-play\" doesn't change the fact that thousands of hours of work was put into these games by the developers. I can't help but feel that preservation of games is under attack and I have hope that the various discussions going on will change that for the better. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.075429Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586082.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586082",
+    "chunks_doc_id": "F3586082",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586082.clean.paragraph.json"
+}

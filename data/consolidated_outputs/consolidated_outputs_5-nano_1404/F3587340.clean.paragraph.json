@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587340",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:07Z",
+    "finished_at": "2026-04-14T13:15:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The prospect of losing access to games I already paid for when a publisher decides to shut a game down."
+              }
+            ]
+          },
+          {
+            "topic": "Account Deletion",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I would like websites to be required to have an easy to access button for requesting the deletion of my account along any personal data associated with it."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like subscription based services online to be required to have an easily accessible button for cancelling a subscription."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18324,
+          "unit_kind": "feedback"
+        },
+        "text": "I am very glad the EU wants to introduce legislation to protect consumers in the digital space. I would like to express some things that personally concern me: 1. The prospect of losing access to games I already paid for when a publisher decides to shut a game down.The issue is described in more detail in the \"Stop Destroying Videogames\" which I have signed and has over 1.4 million signatures. 2. I would like websites to be required to have an easy to access button for requesting the deletion of my account along any personal data associated with it. 3. I would like subscription based services online to be required to have an easily accessible button for cancelling a subscription. As a note, when I say easily accessible, I think this should be established by something along the lines of \"How many clicks does it take for me to do this action starting from the home page of the website\" or something similar and it should be a low number, for example 3 clicks. These are the things I wanted to bring attention to and once again I am very glad the EU is taking these matters seriously.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.499728Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587340.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587340",
+    "chunks_doc_id": "F3587340",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

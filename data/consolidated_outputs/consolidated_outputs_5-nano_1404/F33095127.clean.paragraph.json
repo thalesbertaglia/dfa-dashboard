@@ -1,0 +1,86 @@
+{
+  "doc_id": "F33095127",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:51:21Z",
+    "finished_at": "2026-04-14T09:51:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The prices of a game other than physical, involving production, shipping, etc. have been increased, even on digital games, although the costs are unjustified."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video gaming companies do not do so in order to save money and development time,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "withdraw the game from the market, and to leave a new game, a continuation of the first game, which everyone will have to buy, as consumers will not be able to stay on the old game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35873,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumers need to be protected quickly. The prices of a game other than physical, involving production, shipping, etc. have been increased, even on digital games, although the costs are unjustified. Moreover, the same digital games are not actually sold to consumers but rented for an indefinite period, if the servers of the purchasing platforms close, more access to the games purchased. Similarly, for some games, if servers close, the consumer loses access to a game that he sometimes paid for up to 80. Video gaming companies do not do so in order to save money and development time, as making a part of the game without a mandatory connection does not require much work, they do this because it makes it possible to withdraw the game from the market, and to leave a new game, a continuation of the first game, which everyone will have to buy, as consumers will not be able to stay on the old game. Consumers will soon no longer have their games if nothing is done.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.688057Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095127.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095127",
+    "chunks_doc_id": "F33095127",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

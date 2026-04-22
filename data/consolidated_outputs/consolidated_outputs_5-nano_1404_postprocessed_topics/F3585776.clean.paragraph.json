@@ -1,0 +1,114 @@
+{
+  "doc_id": "F3585776",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:27Z",
+    "finished_at": "2026-04-14T12:37:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "More and more titles require some kind of online connection just to start, even when the game itself doesnt need the internet to work."
+              },
+              {
+                "quote": "Cant connect to server dialog"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One example is the title \"Gran Turismo Sport\" for PlayStation 4/5, where the single-player part of the game is still usable after online services have been shut down."
+              },
+              {
+                "quote": "If someone owns a title, it shouldnt suddenly stop functioning just because it cant reach a backend server anymore."
+              },
+              {
+                "quote": "If you buy something, especially a single-player game or software that doesnt depend on a live service, you should be able to use it for as long as your hardware holds up."
+              },
+              {
+                "quote": "In the case of online-only games, such as MMOs like \"World of Warcraft\", it's understandable that ongoing server hosting is not feasible indefinitely."
+              },
+              {
+                "quote": "Another area of concern is platform-centric digital storefronts such as Steam, the PlayStation Network, or Xbox Live."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This could, or should, be done using a platform like Linux, which is a free, widely available, and sustainable option. Once such a \"handover\" occurs, publishers would no longer be responsible for maintaining or updating the game, while their intellectual property rights would remain fully protected."
+              },
+              {
+                "quote": "This ensures that people who bought the game arent completely locked out."
+              },
+              {
+                "quote": "If you buy something, especially a single-player game or software that doesnt depend on a live service, you should be able to use it for as long as your hardware holds up."
+              },
+              {
+                "quote": "If someone owns a title, it shouldnt suddenly stop functioning just because it cant reach a backend server anymore."
+              },
+              {
+                "quote": "If these services are discontinued or their backends cease functioning (for example, Sony ending support for PlayStation 3), previously purchased and downloaded games must remain playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52637,
+          "unit_kind": "feedback"
+        },
+        "text": "Id like to raise a concern about how consumers today are losing the ability to actually own the games and software they think that they buy, for example on consoles and computers. More and more titles require some kind of online connection just to start, even when the game itself doesnt need the internet to work. When a publisher decides that it is time to shut down its servers or if the company goes out of business entirely consumers are often left with nothing but a Cant connect to server dialog, even though they paid for a game. Thats not right. This is especially true for games or programs that can work perfectly fine offline, or mostly offline. If a user buys a game where only a portion of the features are online, it shouldnt stop working entirely simply because a server goes down. One example is the title \"Gran Turismo Sport\" for PlayStation 4/5, where the single-player part of the game is still usable after online services have been shut down. That is at least showing an effort on how it should work. If a specific feature needs a connection, then fine it stops working. But everything else should still be available, and users shouldnt be constantly nagged about the lack of connection. Just grey out the unavailable features and let people use what still works. If this is implemented from the ground up, it shouldnt add any significant extra costs to neither the publisher/developer or the consumer. In the case of online-only games, such as MMOs like \"World of Warcraft\", it's understandable that ongoing server hosting is not feasible indefinitely. However, developers and publishers should be *required* or at the very least *strongly encouraged* to provide a minimal form of continued access such as small-scale, self-hosted servers once official support ends. This *should* also apply for games that have offline alongside online functionality (such as \"Gran Turismo Sport\" mentioned above). Even if such a server allows maybe only 32 players, it ensures that communities can continue enjoying a game. This could, or should, be done using a platform like Linux, which is a free, widely available, and sustainable option. Once such a \"handover\" occurs, publishers would no longer be responsible for maintaining or updating the game, while their intellectual property rights would remain fully protected. This ensures that people who bought the game arent completely locked out. Another area of concern is platform-centric digital storefronts such as Steam, the PlayStation Network, or Xbox Live. If these services are discontinued or their backends cease functioning (for example, Sony ending support for PlayStation 3), previously purchased and downloaded games must remain playable. If someone owns a title, it shouldnt suddenly stop functioning just because it cant reach a backend server anymore. In the good old days, ownership was straightforward. I can still power up my Amiga 500 from 1988 and play \"Defender of the Crown\", or insert \"WipeOut\" into my original PlayStation and enjoy it. This experience is comparable to owning a physical book, album, or DVD durable, predictable, and not dependent on third-party servers or continued corporate viability. Thats real ownership no login needed, no network checks, no server. Its the same as buying a book or a record: once youve got it, its yours. We need to get back to that idea. If you buy something, especially a single-player game or software that doesnt depend on a live service, you should be able to use it for as long as your hardware holds up. People shouldnt have to worry about their purchases breaking just because a company flipped a switch somewhere. That basic sense of ownership needs to be restored in the digital world.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.914617Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585776.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585776",
+    "chunks_doc_id": "F3585776",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585776.clean.paragraph.json"
+}

@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3587643",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:27Z",
+    "finished_at": "2026-04-14T13:20:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "wrapped the games they sell in layers of proprietary software, calling them \"services\"."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Their adverts say \"Buy\" but the fine print says that they are delivering a service that may be terminated."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "more well-defined differentiation between the \"Buy\" and \"Subscribe\" labels, which are allowed for online vendors of games."
+              },
+              {
+                "quote": "\"Rent out\" a service with a pre-defined time scope."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they must be obligated to provide a working copy of both front-end and back-end application to any parties to whom they sold this product, or otherwise provide an equally adequate access to the service as advertised at the point of sale."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43075,
+          "unit_kind": "feedback"
+        },
+        "text": "Over the last decade or so many publishers have wrapped the games they sell in layers of proprietary software, calling them \"services\". Their adverts say \"Buy\" but the fine print says that they are delivering a service that may be terminated. They needlessly integrate games with their servers for the purposes of their control over their IP, not allowing ad-hoc capabilities. Single player games have server-based achievements, \"save game\" functionality and other minor functionalities, that were previously on mass included in offline copies of games. In addition, small multiplayer servers and even large MMORPG servers are a part of the game that is sold. While the company keeps the game alive, then by all means, they are the operators of this licensing process. However, once they decide to terminate the product via any portal that they operate, they must be obligated to provide a working copy of both front-end and back-end application to any parties to whom they sold this product, or otherwise provide an equally adequate access to the service as advertised at the point of sale. In the end, I believe that the main resolution might revolve around a more well-defined differentiation between the \"Buy\" and \"Subscribe\" labels, which are allowed for online vendors of games. If companies have a lot of complex webs of infrastructure, including intertwined types of software that they may not hold rights over that may prevent them from providing a service etc., they should be more than welcome to \"Rent out\" a service with a pre-defined time scope. Those who should be allowed to show \"Buy\" to their users should be the ones that can uphold the previously mentioned standard for purchased product accessibility.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.559729Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587643.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587643",
+    "chunks_doc_id": "F3587643",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587643.clean.paragraph.json"
+}

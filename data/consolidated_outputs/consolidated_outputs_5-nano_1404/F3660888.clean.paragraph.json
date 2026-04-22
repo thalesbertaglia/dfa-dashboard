@@ -1,0 +1,58 @@
+{
+  "doc_id": "F3660888",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:36Z",
+    "finished_at": "2026-04-14T13:44:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10708,
+          "unit_kind": "feedback"
+        },
+        "text": "Google is trying to make Android like Apple's iOS while hiding behind its open source license. Instead of forcing Apple to open more their OS, the opposite is happening. It's frustrating. They want to block side-loading, they want to block custom roms. Nothing of Android will be left at the end. And Google's lobbying is so strong that even if this Act gets traction, they can still get the end result that they want. My proposal is to ditch Google completely and develop a new fair and open mobile OS that's not controlled by any big corporation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.071882Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3660888.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3660888",
+    "chunks_doc_id": "F3660888",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

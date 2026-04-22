@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587282",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:40Z",
+    "finished_at": "2026-04-14T13:15:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "With regard to the legal interpretation of digital game purchases, I take the view that the acquisition of a digital game by the end-user should entail a permanent, non-retrospective right of use, in particular where the provider no longer distributes or provides technical support for the product."
+              },
+              {
+                "quote": "A purchase must give rise to a right of ownership, including in the digital space."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Such an approach undermines the principle of contractual freedom and runs counter to the consumer’s legitimate expectation that, by purchasing a game, it will also acquire its use for an indefinite period, as long as there is no abusive or commercial use."
+              },
+              {
+                "quote": "It seems questionable under the rule of law if, on the one hand, providers create the appearance of acquisition of property (purchase of a game) but, on the other hand, reserve the right to unilaterally withdraw the use or to prosecute third parties seeking to re-use a game that is no longer available by means of technical measures."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47285,
+          "unit_kind": "feedback"
+        },
+        "text": "With regard to the legal interpretation of digital game purchases, I take the view that the acquisition of a digital game by the end-user should entail a permanent, non-retrospective right of use, in particular where the provider no longer distributes or provides technical support for the product. It seems questionable under the rule of law if, on the one hand, providers create the appearance of acquisition of property (purchase of a game) but, on the other hand, reserve the right to unilaterally withdraw the use or to prosecute third parties seeking to re-use a game that is no longer available by means of technical measures. A purchase must give rise to a right of ownership, including in the digital space. If the original provider does not provide or support the game, it shall not be prohibited or legally impossible for users to keep the product in circulation or technically restore it. The criminalisation of such efforts is not intended to protect intellectual property, but only to steer the market in favour of new products. Such an approach undermines the principle of contractual freedom and runs counter to the consumer’s legitimate expectation that, by purchasing a game, it will also acquire its use for an indefinite period, as long as there is no abusive or commercial use.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.491311Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587282.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587282",
+    "chunks_doc_id": "F3587282",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587282.clean.paragraph.json"
+}

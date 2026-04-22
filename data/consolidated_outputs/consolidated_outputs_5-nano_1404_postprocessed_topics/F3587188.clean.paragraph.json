@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587188",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:55Z",
+    "finished_at": "2026-04-14T13:13:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games we own get destroyed"
+              },
+              {
+                "quote": "end of life plan"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20727,
+          "unit_kind": "feedback"
+        },
+        "text": "Love the initiative Would like to take this opportunity to ask to take a look on the game protection side as well, since we have seen several occasions of games we own get destroyed; even though we had no mention of the game having a \"lifespan\", and those games are advertised as \"products\" while being treated as \"services\" (for example, the game \"the crew\"). I believe most people are not asking for those games to be supported indefinitely, but rather for them to have an end of life plan, which could be handled a number of ways (a way to host the game locally, or on a server, or have an offline mode able to be ran) thank you very much for reading this feedback",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.467715Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587188.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587188",
+    "chunks_doc_id": "F3587188",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587188.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585348",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:45Z",
+    "finished_at": "2026-04-14T12:26:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect digital products like video games and other software from being freely destroyed in perpetuity at the behest of the company or entity that sells them."
+              },
+              {
+                "quote": "remove every person's ability to access a given video game or other piece of software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20994,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm writing to request that the DFA be expanded to protect digital products like video games and other software from being freely destroyed in perpetuity at the behest of the company or entity that sells them. What I mean by destruction is the process by which corporate entities can on a whim remove every person's ability to access a given video game or other piece of software. Thus making illegal means like piracy the only way one can access them. There are two reasons I can think of why that should be unconscionable, or at the very least illegal. 1. The creative effort that goes into any single video game qualifies games as an art form, just as films and TV series are art forms. Thus, allowing corporate entities to remove people's access to any video game is the destruction of art, not to mention it's also the destruction of people's labor without those people's consent. A corporate entity might argue that they gave their consent when they signed on to create this game or software but that would ignore the undemocratic relations between business owners and workers. 2. From a purely consumer standpoint, the destruction of video games and other software is us being denied access to a product we paid money for. To present games and other software as services falsely makes the comparison between a piece of digital media which can exist in perpetuity so long as the information is not deleted, and something like car insurance. For one thing, with the insurance, you know the full scope of the service, its conditions and, crucially, you know when the service ends before you even sign or pay anything. Secondly, the insurance is not a thing you can own physically. You can't store it on a computer or a disc or USB drive, whereas with a game or other software, you can. This would effectively mean that games and software publishers are scamming their customers out of 100+ euros per person every time they remove access to a given game or software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.691676Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585348.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585348",
+    "chunks_doc_id": "F3585348",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

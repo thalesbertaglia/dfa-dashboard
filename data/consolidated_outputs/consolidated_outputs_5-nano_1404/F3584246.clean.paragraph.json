@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584246",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:10Z",
+    "finished_at": "2026-04-14T11:53:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair and/or vague terms of service, which allow them to destroy existing functionality of software once it stops being convenient to maintain it, despite a consumer purchasing it in the past."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it particularly affects videogames"
+              },
+              {
+                "quote": "Stop Destroying Videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23854,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully support this proposal. I find the issues it deals with to be of significant importance in the modern world, and I am very happy that steps are being taken by The Commission to increase consumer and child safety and choice among the rising power of digital corporations. I would additionally also like to suggest the addition of safeguarding measures for respecting consumers' purchases of digital software, especially when companies are able to create unfair and/or vague terms of service, which allow them to destroy existing functionality of software once it stops being convenient to maintain it, despite a consumer purchasing it in the past. These destructions are often justified as a necessity by the companies, but with a very reasonable investment in an end of life plan, this can easily be solved. This issue pertains to all kinds of software purchased as a good as a license with an unspecified end time-frame, but it particularly affects videogames, as can be seen in the European Initiative with over 1.4 million signatures \"Stop Destroying Videogames\" and the related camaping Stop Killing Games. On the Stop Killing Videogames campaign's website, much information toward the practicalities of implementation of safeguarding consumers in the area of videogame destruction can be found. I sincerely thank you for all of the work you do, and hope you consider adding this issue to this act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.143034Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584246.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584246",
+    "chunks_doc_id": "F3584246",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33080475",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:18Z",
+    "finished_at": "2026-04-14T09:30:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preventing the sale of ‘ licences’ in an attempt to exclude the possibility of protecting ownership"
+              },
+              {
+                "quote": "automatically transferring works to a public domain at the moment when they cease to be supported."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14240,
+          "unit_kind": "feedback"
+        },
+        "text": "This act should be extended to include an obligation for digital content publishers (in particular video games) to ensure access for users even after they cease to support them. For example, by preventing the sale of ‘licences’ in an attempt to exclude the possibility of protecting ownership, or by automatically transferring works to a public domain at the moment when they cease to be supported. These practices, used by many companies, are very anti-consumer in nature and should not be allowed with reference to the principle of protecting the weaker party in consumer relations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.540003Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33080475.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33080475",
+    "chunks_doc_id": "F33080475",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

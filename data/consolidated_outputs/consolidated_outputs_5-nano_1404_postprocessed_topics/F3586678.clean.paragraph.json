@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586678",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:43Z",
+    "finished_at": "2026-04-14T13:02:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors should have no authority over platform content."
+              },
+              {
+                "quote": "Their sole responsibility should be to securely and efficiently process transactions not to dictate what consumers are allowed to purchase."
+              },
+              {
+                "quote": "Allowing financial intermediaries to become de facto censors is a dangerous act that threatens free expression, artistic freedom, and consumer choice."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24796,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to mention and bring into light a concerning thing that happened recently.The Australian payment processing company Collective Shout has forced platforms like Steam and Itch.io to remove so-called adult games a label they apply broadly to include horror titles, psychological narratives, LGBTQ+ content, and other forms of creative expression they personally disapprove of like for example a game Detroit Become Human. Not to say that they are hypocrites. This kind of overreach represents a clear abuse of power. Payment processors should have no authority over platform content. Their sole responsibility should be to securely and efficiently process transactions not to dictate what consumers are allowed to purchase. Allowing financial intermediaries to become de facto censors is a dangerous act that threatens free expression, artistic freedom, and consumer choice.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.318559Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586678.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586678",
+    "chunks_doc_id": "F3586678",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586678.clean.paragraph.json"
+}

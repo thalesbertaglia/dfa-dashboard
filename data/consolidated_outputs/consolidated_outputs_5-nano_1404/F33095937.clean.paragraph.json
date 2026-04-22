@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33095937",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:25:17Z",
+    "finished_at": "2026-04-14T10:25:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the games I've already pyrchased."
+              },
+              {
+                "quote": "An \"end of life plan\" should be mandatory for all products that require an internet connection"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39622,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like companies to stop destroying the games I've already pyrchased. An \"end of life plan\" should be mandatory for all products that require an internet connection or just drop the mandatory internet connection when it's not necessary (there are too many products like this nowadays anyway).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.801110Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095937.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095937",
+    "chunks_doc_id": "F33095937",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

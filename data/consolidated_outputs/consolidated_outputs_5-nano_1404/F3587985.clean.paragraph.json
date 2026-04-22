@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587985",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:39Z",
+    "finished_at": "2026-04-14T13:22:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "influence what we consume for media"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to force Steam and itch.io to remove certain games/books from their market despite being legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28414,
+          "unit_kind": "feedback"
+        },
+        "text": "Good evening. Companies, Visa/Mastercard, should not influence what we consume for media, especially when they put financial pressure on traders (rejection of payment transactions). In my view, this is a cultural censorship/repression and practice is similar to a cartel/monopoly. Collective SHOUT, an Australian activist group, has influenced Visa and Mastercard to force Steam and itch.io to remove certain games/books from their market despite being legal. The reason for this is the themes in the games/books that do not match their opinion. In a dystopian future, social issues such as history or family values are brought under censorship, which would be possible with this action. As long as it is legal, payment liquidators (here: Visa and Mastercard) do not prevent our purchases.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.599617Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587985.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587985",
+    "chunks_doc_id": "F3587985",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

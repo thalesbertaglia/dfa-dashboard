@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3588001",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:46Z",
+    "finished_at": "2026-04-14T13:22:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading influencer marketing"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair personalisation"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive, gambling-like features in video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loss of access to digital products they have paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22548,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome Digital Fairness Act and its focus on addressing unfair digital practices such as dark patterns, misleading influencer marketing, addictive design, and unfair personalisation. It is especially important to see the issue of addictive, gambling-like features in video games finally being addressed. However, I would like to draw attention to another growing concern for consumers: the loss of access to digital products they have paid for. For example, I purchased Ubisoft's The Crew, a game I enjoyed, but it has now been shut down permanently. I can no longer play it, and I am not alone in feeling this is unfairnearly 1.5 million people have supported the Stop Killing Games European Citizens' Initiative. I encourage policymakers to consider stronger consumer protection against such practices, ensuring that digital products remain accessible or that consumers are adequately compensated when access is revoked.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.602466Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588001.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588001",
+    "chunks_doc_id": "F3588001",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588001.clean.paragraph.json"
+}

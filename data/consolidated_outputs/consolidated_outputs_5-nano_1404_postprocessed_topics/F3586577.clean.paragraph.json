@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586577",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:18Z",
+    "finished_at": "2026-04-14T12:59:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Purchasable content with real world currency (such as EURO) in-game should not be allowed to be obtained in any other way."
+              },
+              {
+                "quote": "Not via lootboxes (purchasing an item that contains a random % chance of giving you other purchasable items);"
+              },
+              {
+                "quote": "and not via exchange through some in-game currency (this makes it harder for players to understand how much they are spending their real world currency in game, obfuscates the real price of an item, and allows companies to sell in-game currencies in overpriced amounts compared to the product player wants to buy);"
+              },
+              {
+                "quote": "and not via in-game non-purchasable currencies, grinding, in-game events, quests, daily/weekly/monthly/yearly missions and other in-game mechanics (this practice encourages companies to make the items extremely difficult to obtain in-game and easily obtainable with real world currency purchase, it's preying on Fear Of Missing Out, self-perceived worth and status, and the amount of time willing to spend on a game of players leading to addiction and irresponsible spending of money)."
+              },
+              {
+                "quote": "Those practices to undermine the meaning of real world currency purchases in games are widespread in the gaming landscape, examples would be almost any live service game, for instance: League of Legends, Marvel Rivals, Diablo 4, Marvel Snap."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23327,
+          "unit_kind": "feedback"
+        },
+        "text": "Purchasable content with real world currency (such as EURO) in-game should not be allowed to be obtained in any other way. Not via lootboxes (purchasing an item that contains a random % chance of giving you other purchasable items); not via exchange through some in-game currency (this makes it harder for players to understand how much they are spending their real world currency in game, obfuscates the real price of an item, and allows companies to sell in-game currencies in overpriced amounts compared to the product player wants to buy); and not via in-game non-purchasable currencies, grinding, in-game events, quests, daily/weekly/monthly/yearly missions and other in-game mechanics (this practice encourages companies to make the items extremely difficult to obtain in-game and easily obtainable with real world currency purchase, it's preying on Fear Of Missing Out, self-perceived worth and status, and the amount of time willing to spend on a game of players leading to addiction and irresponsible spending of money). Those practices to undermine the meaning of real world currency purchases in games are widespread in the gaming landscape, examples would be almost any live service game, for instance: League of Legends, Marvel Rivals, Diablo 4, Marvel Snap.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.282708Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586577.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586577",
+    "chunks_doc_id": "F3586577",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586577.clean.paragraph.json"
+}

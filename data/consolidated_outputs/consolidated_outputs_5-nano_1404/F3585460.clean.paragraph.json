@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585460",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:05Z",
+    "finished_at": "2026-04-14T12:28:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Notable examples include Ubisofts The Crew 2, which was rendered unplayable following server shutdown including its single-player mode."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This may be seen as an unfair practice towards the consumer, where products become unusable or significantly degraded after purchase due to vendor or rights-holder decisions."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "have begun to act as de facto censors"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41976,
+          "unit_kind": "feedback"
+        },
+        "text": "We're already seeing people are losing their rights to things they've paid for - especially when it comes to video games. This may be seen as an unfair practice towards the consumer, where products become unusable or significantly degraded after purchase due to vendor or rights-holder decisions. Notable examples include Ubisofts The Crew 2, which was rendered unplayable following server shutdown including its single-player mode. In the modern digital world, more and more goods are being sold in their digital format and this issue may be a slippery slope and a potential problem for all future consumers if they are no longer entitled to their purchases and instead may lose access to them by factors outside their control. If this act aims to improve consumer protection online, systems or regulation should be in place to limit vendors or rights-holder from degrade their product post-purchase. Another major issue is how payment processors have begun to act as de facto censors regardless of whether a given content is politically sensitive, violent, or adult in nature, especially when they base these acts on internal policies and external lobbying. This is an unfair practice that have the potential to be misused.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.754638Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585460.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585460",
+    "chunks_doc_id": "F3585460",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

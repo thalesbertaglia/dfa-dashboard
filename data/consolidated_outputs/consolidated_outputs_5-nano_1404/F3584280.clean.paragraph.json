@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584280",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:08Z",
+    "finished_at": "2026-04-14T11:54:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital market, especially the incremental rise of video gaming industry created a new market that is being exploited and using bad practices to make people spend more and/or minimize consumer experience for unfair/unearned profits."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One of the newer problems is brands acting as \"purchases\" does not regard as they should, but count as a \"limited subscription\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23133,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital market, especially the incremental rise of video gaming industry created a new market that is being exploited and using bad practices to make people spend more and/or minimize consumer experience for unfair/unearned profits. This has become such an issue that we are seeing close to scam alike actions from big companies. Said problem is simultaneously hurting the advancement of the industry. One of the newer problems is brands acting as \"purchases\" does not regard as they should, but count as a \"limited subscription\". We need renewed laws and attention for legislation of digital marketplace.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.158671Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584280.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584280",
+    "chunks_doc_id": "F3584280",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

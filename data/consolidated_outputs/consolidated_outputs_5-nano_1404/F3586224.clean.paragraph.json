@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586224",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:01Z",
+    "finished_at": "2026-04-14T12:51:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns and gambling in games"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "regulate against publishers taking down their servers causing games to be rendered unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23257,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm happy to see the digital fairness act becoming reality. Though, before this happens I'd ask to consider adding to this, the ability to regulate against publishers taking down their servers causing games to be rendered unplayable. Game servers do not need to be online and updated forever, but having an end-of-life plan for games which require an internet connection is a crucial piece of legislation that is currently missing. Games like \"The Crew\" were taking offline due to its age, but with that, the single player, which is supposed to be offline play, was also taken down as the game required an internet connection for single player. As you might know, the \"Stop Killing Games\" initiative has received well over a million signatures and will hopefully cover this as well. But just like how this act covers dark patterns and gambling in games, it could cover games which consumers paid for being destroyed without any plans by he publishers/developers. Thank you in advance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.162988Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586224.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586224",
+    "chunks_doc_id": "F3586224",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

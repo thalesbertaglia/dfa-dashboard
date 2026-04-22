@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585953",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:55Z",
+    "finished_at": "2026-04-14T12:42:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "microtransactions"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stop supporting the said game"
+              },
+              {
+                "quote": "I believe that buying something should mean that you own it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21809,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I would like to have a comment regarding the current situation with the game industry and the market as a whole. Personally I have spent over 500 euros in a single game due to different kinds of microtransactions and other products regarding the said game. It has come to my understanding that in today's world there is no law legislation which would protect me in a case where the current developer decides to stop supporting the said game. The though of having spend all that money in a single video game kinda makes me sick already, but the idea that there might be a day that I'am not even able to access to play said game feels exceedingly unfair. My wish is that the EU would take this issue seriously in the future since gaming is only becoming more popular and the current videogame landscape predispose EU consumers to a unfair situation. I believe that buying something should mean that you own it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.003830Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585953.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585953",
+    "chunks_doc_id": "F3585953",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

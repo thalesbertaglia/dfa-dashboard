@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585028",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:24Z",
+    "finished_at": "2026-04-14T12:18:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game \"The Crew\" made by Ubisoft was rendered unplayable by Ubisoft upon the release of the sequel \"The Crew 2\"."
+              },
+              {
+                "quote": "Which means that everyone who paid money for it can no longer play it, and are forced to now buy the sequel."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13421,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I think this act should include protections from video game publishers destroying games they've made when they're no longer profitable. The video game \"The Crew\" made by Ubisoft was rendered unplayable by Ubisoft upon the release of the sequel \"The Crew 2\". Which means that everyone who paid money for it can no longer play it, and are forced to now buy the sequel. It's comparative to if a movie studio made a remake of one of your favorite movies, and now the DvD that you own won't play and instead just shows you a screen telling you to buy the new version. This isn't ok in any other industry, and video games shouldn't be any different.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.560562Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585028.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585028",
+    "chunks_doc_id": "F3585028",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

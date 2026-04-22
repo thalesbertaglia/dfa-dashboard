@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584204",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:13Z",
+    "finished_at": "2026-04-14T11:52:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability of Video Game Publishers to stop supporting games, and especially live service games."
+              },
+              {
+                "quote": "keep games running on their servers eternally"
+              },
+              {
+                "quote": "an End of Life plan."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16682,
+          "unit_kind": "feedback"
+        },
+        "text": "As a male in my mid 20's, I have grown up seeing a lot of people both younger and older than me succumbing to a lot of the tactics this Act aims to combat, and so it almost has my whole-hearted support. The one thing this act is missing to me, and something that would absolutely fall under the act, is a way of limiting the ability of Video Game Publishers to stop supporting games, and especially live service games. Of course, requiring them to keep games running on their servers eternally would be unreasonable, but we live in a world where more and more publishers are publishing games that require an online connection, and when they no longer see fit to keep game servers running, they will simply shut them down, rendering people unable to play the games they purchased, and use the items and the expansion packs they purchased, with no recompense. Therefore, I think the Digital Fairness Act is missing a way to make these Video Game Publishers, and perhaps developers and publishers of software in general, required to at least allow the communities a way of keeping the games running once official support has come to an end, an End of Life plan.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.124041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584204.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584204",
+    "chunks_doc_id": "F3584204",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584204.clean.paragraph.json"
+}

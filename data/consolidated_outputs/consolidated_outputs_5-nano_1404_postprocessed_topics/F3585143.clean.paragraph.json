@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585143",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:01Z",
+    "finished_at": "2026-04-14T12:21:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games shouldn't need a constant internet connection for singleplayer modes."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If you buy something, you should own it and not a \"license\"."
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Online Censorship & Mass Surveillance stands for itself."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31029,
+          "unit_kind": "feedback"
+        },
+        "text": "1 - Stop Killing Games Games shouldn't need a constant internet connection for singleplayer modes. Companies shouldnt have the power to delete games consumers purchased. If you buy something, you should own it and not a \"license\". Game producers also need to include an end of service plan and therefore ways users can still play the game online by hosting themselves. Refer to the initiative. 2 - Stop Payment Processor Monopoly MasterCard & Visa give too many stipulations and have too much control on what people use their money for. (i. e. taking games off Steam or pressuring various other companies by declining them the possibility to use the most common online payment method) 3 - Stop Online Censorship & Mass Surveillance stands for itself",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.613209Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585143.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585143",
+    "chunks_doc_id": "F3585143",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585143.clean.paragraph.json"
+}

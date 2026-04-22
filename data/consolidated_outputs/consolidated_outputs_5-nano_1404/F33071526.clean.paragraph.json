@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33071526",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:44Z",
+    "finished_at": "2026-04-14T09:29:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android Openness",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the openness of Android"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16311,
+          "unit_kind": "feedback"
+        },
+        "text": "As both a user and a dev, I'm concerned about the recent announcements from Google. While the security aspects of this are understandable, in practice the way they are planning to handle this would go against the openness of Android, it would create unnecessary barriers, and it would erode trust, and in the end it wouldn't even guarantee a safer platform, given that even apps approved on the store have been found to contain malware as the automated system that scans apps can be by-passed. Arguably, open source apps which can be side loaded can be safer, since users can personally check the source code for issues. Additionally, it's a huge issue if the most used mobile platform would be allowed to make such drastic changes which go against the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.501369Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071526.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071526",
+    "chunks_doc_id": "F33071526",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

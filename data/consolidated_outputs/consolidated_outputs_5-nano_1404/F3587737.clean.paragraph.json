@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587737",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:31Z",
+    "finished_at": "2026-04-14T13:20:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I want to have a guarantee that, although I buy, I have a right of use even if it is no longer sold, or a company does not exist."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12937,
+          "unit_kind": "feedback"
+        },
+        "text": "As a student who learns the development of computer games, and who is Gamer in leisure time, she would like this to be able to protect games in the same way as he plans to protect other aspects of digital existence. I want to have a guarantee that, although I buy, I have a right of use even if it is no longer sold, or a company does not exist. The same thing happened with Spotify Car Thing, not only around games, but about the integrity of possession of digital products. This is why I backala’s Stop Destroying Video Games initiative, because I stand behind my ideals.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.578225Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587737.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587737",
+    "chunks_doc_id": "F3587737",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

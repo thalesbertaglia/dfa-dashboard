@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3590273",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:13Z",
+    "finished_at": "2026-04-14T13:33:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game industry is bigger than movies and music combined, yet their business practices are moving more and more towards anti-consumer if left unchecked."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies also try to avoid liability by intending to sell video games in form of a license, that can expire after a certain period."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29872,
+          "unit_kind": "feedback"
+        },
+        "text": "The video game industry is bigger than movies and music combined, yet their business practices are moving more and more towards anti-consumer if left unchecked. Modern games, regardless of being intended for online play or solo play, have the inherent risk of being shut down with support ending. In any other industry, this would be unacceptable (imagine your DVDs/BluRays no longer working after a couple of years). Publishers claim it is not feasible to maintain service forever, which is true especially for online only experiences. However publishers deliberatley outfit video games that do not have an inherent need for this with the same \"always-online\" requirement. It would be fair, if companies had to guarantee that the video games we purchase remain in a playable state even after support ends. Especially for single player games, there should be no need to have an online requirement in the first place. Companies do this to artificially force consumers to purchase a follow up product and to eliminate aftermarket sales, as some games become unplayable even today. Companies also try to avoid liability by intending to sell video games in form of a license, that can expire after a certain period of time. That practice is predatory and misleading, as video games are not preceived like that by the consumer and never will be despite the companies best efforts. Imagine buying a car only to find out that you in fact only purchased a license to drive it and the company can turn it off at any time. So I'd like to humbly request the EU to consider discussing this as part of the Digital Fairness Act: Video game companies should be required to have an end of life plan for all games they release, retaining playability indefinitely as long as you own the hardware. Also, video game companies should not be allowed to sell games disguised as a license to play. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.820249Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590273.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590273",
+    "chunks_doc_id": "F3590273",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590273.clean.paragraph.json"
+}

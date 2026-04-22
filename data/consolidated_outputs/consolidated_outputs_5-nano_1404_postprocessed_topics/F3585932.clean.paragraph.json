@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585932",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:26Z",
+    "finished_at": "2026-04-14T12:41:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When the games became unprofitable, they shut the servers down rendering these games unplayable."
+              },
+              {
+                "quote": "end-of-life plan for games relying on a central server"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14001,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'd like to suggest adding restrictions on anti-consumer practices in the world of video games. I purchased several games that relied on a central server hosted by the developers of these games. When the games became unprofitable, they shut the servers down rendering these games unplayable. This is despite the fact that many of these games were perfectly playable as single-player games making the required connection to the central server needless and arbitrary. After shutting down those servers, I can no longer play these games (e.g. The Division and BattleForge, among many others). Laws around video games are not well defined and some gaming companies take advantage of it (e.g. Ubisoft and Electronic Arts). Please consider adding more consumer protection rights in this area by requiring an end-of-life plan for games relying on a central server, and clearing up uncertainty around currently applicable consumer protection laws. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.991561Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585932.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585932",
+    "chunks_doc_id": "F3585932",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585932.clean.paragraph.json"
+}

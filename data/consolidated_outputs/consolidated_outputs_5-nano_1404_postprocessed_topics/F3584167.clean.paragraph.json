@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584167",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:54Z",
+    "finished_at": "2026-04-14T11:51:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games industry"
+              },
+              {
+                "quote": "they are selling us games and take them down whenever they want"
+              },
+              {
+                "quote": "there has been thousands of games intentionally killed just so they can release a new version and sell it again"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10424,
+          "unit_kind": "feedback"
+        },
+        "text": "Please have a look at the video games industry, they are selling us games and take them down whenever they want, there has been thousands of games intentionally killed just so they can release a new version and sell it again. Over 1.400.000 people are supporting and asking for a change in the Stop Killing Games initiative. Please consider looking into this problem. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.107222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584167.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584167",
+    "chunks_doc_id": "F3584167",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584167.clean.paragraph.json"
+}

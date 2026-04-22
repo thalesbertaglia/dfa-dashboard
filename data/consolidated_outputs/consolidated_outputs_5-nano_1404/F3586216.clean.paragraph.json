@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586216",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:46Z",
+    "finished_at": "2026-04-14T12:51:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The key example here is video games, where this tactic has been used to make video games obsolete in order to sell the sequel."
+              },
+              {
+                "quote": "On September 14, 2023, The Crew Motorfest was released to the world as a sequel to the 2018 game The Crew 2."
+              },
+              {
+                "quote": "Once the servers were shut down, The Crew 2 was left in a totally unplayable state and players were expected to move on to The Crew Motorfest."
+              },
+              {
+                "quote": "Currently there is no protection anywhere for consumers against these practices in software sold as a service."
+              },
+              {
+                "quote": "I suggest at a minimum to mandate an \"end of life plan\" for software or video games specifically, where the company must detail when their active support of the software ends, how this changes the user's experience of the software, what features may not function correctly and what the user needs to do to still get the most out of the software after its end of life."
+              },
+              {
+                "quote": "If such an end of life is not planned, it should be required to be announced either 6 or 12 months before support of the software ceases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 50430,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to first voice my supports for this initiative. It has been shown time and time again that companies can not be trusted to protect consumers on their own initiative. The EU has done a lot already to protect consumers in the EU and beyond with our initiatives, and this is another great step in the right direction. This new Digital Fairness Act is however not comprehensive enough in one key area related to recent development in digital media. It is very common that nowadays, companies offer their product as a service, where the consumer first purchases their product, and the company provides an actively running service to keep that product alive. While there are applications where such SAAS (software as a service) solutions specifically requires that upkeep, more and more this model in products where such a service model is entirely arbitrary, and used to force customers in purchasing a new product down the line. The key example here is video games, where this tactic has been used to make video games obsolete in order to sell the sequel. In particular, developer and publisher Ubisoft has used this tactic for the racing series \"The Crew\" in a way to move people to the next installment. On September 14, 2023, The Crew Motorfest was released to the world as a sequel to the 2018 game The Crew 2. 3 months later in December 2023, Ubisoft delisted The Crew 2 and announced it would shut down its servers in March 2024. Once the servers were shut down, The Crew 2 was left in a totally unplayable state and players were expected to move on to The Crew Motorfest. Even if players paid full price for The Crew 2 in November 2023 because they preferred that game over The Crew Motorfest, they were left with no choice, and lost the game they bought a small 5 months prior to its shutdown. A key feature that makes this practice needless in video games is that the vast majority of video games sold as a service are perfectly playable offline, and those that are not can easily be kept alive by way of server hosting. The Crew 2 in particular was primarily a single player experience for most players, and the multiplayer aspects could easily be replicated if players were provided the software to host a server for themselves. Currently there is no protection anywhere for consumers against these practices in software sold as a service. Software can be shut down without consequence to the developer besides limited reputational damage. I suggest at a minimum to mandate an \"end of life plan\" for software or video games specifically, where the company must detail when their active support of the software ends, how this changes the user's experience of the software, what features may not function correctly and what the user needs to do to still get the most out of the software after its end of life. If such an end of life is not planned, it should be required to be announced either 6 or 12 months before support of the software ceases. This end of life plan should be easy to find for the customer, and be easily understandable. That way the customer can make an informed decision on whether or not the software is worth their purchase. Thank you for taking customer protection seriously.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.159065Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586216.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586216",
+    "chunks_doc_id": "F3586216",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584953",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:36Z",
+    "finished_at": "2026-04-14T12:16:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "An important hobby for me is playing video games and this industry really could use some oversight to protect consumers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the fact that a game purchased these days usually doesnt make you the owner of a copy of the game, but merely gives you permission at the discretion of the game company to interact with the game under their terms creates a very unfavorable balance of power."
+              },
+              {
+                "quote": "Essentially the company can decide whenever they want that this game that I bought, maybe as recently as a month or so ago, no longer gets to be played because they want to push people to buy a more recent edition or just cut some costs, and because of their terms I dont have any recourse."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24861,
+          "unit_kind": "feedback"
+        },
+        "text": "Im proud that the EU is such a leading force in helping and protecting citizens both here and around the world. An important hobby for me is playing video games and this industry really could use some oversight to protect consumers. There are some really sketchy practices being used in many recent releases, especially considering how they are monetized. And the fact that a game purchased these days usually doesnt make you the owner of a copy of the game, but merely gives you permission at the discretion of the game company to interact with the game under their terms creates a very unfavorable balance of power. Essentially the company can decide whenever they want that this game that I bought, maybe as recently as a month or so ago, no longer gets to be played because they want to push people to buy a more recent edition or just cut some costs, and because of their terms I dont have any recourse. I would like this legislation to include protection of games and similar interactive media, so that they can be accessed in perpetuity after the company decides to move on to develop new products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.520621Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584953.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584953",
+    "chunks_doc_id": "F3584953",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584953.clean.paragraph.json"
+}

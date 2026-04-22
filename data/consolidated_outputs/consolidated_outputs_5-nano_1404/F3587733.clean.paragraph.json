@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587733",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:29Z",
+    "finished_at": "2026-04-14T13:20:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video games require an internet connection to play."
+              },
+              {
+                "quote": "If the publisher/developer shuts down the servers, the game becomes unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14921,
+          "unit_kind": "feedback"
+        },
+        "text": "I am here to support consumer rights regarding video games. Many video games require an internet connection to play. This includes not only games that you can play with friends online, but also single-player games where the online connection is used as a form of DRM. I have already lost access to one game, \"Age of Empires Online\", which is no longer officially playable. If the publisher/developer shuts down the servers, the game becomes unplayable. Therefore, I am asking for the following rules to be included in this legislation: If a video game has been purchased, it must be guaranteed that the game can be played for life. This can be achieved by either: 1) Allowing the game to be played in single-player mode without requiring an internet connection or server. 2) Alternatively, players should be allowed to host their own servers for the game. I would like to stress that this legislation targets video games that have been purchased in the sense of 'owning' a video game. Games where virtual goods can be purchased should also be included in this legislation to avoid loopholes. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.577197Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587733.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587733",
+    "chunks_doc_id": "F3587733",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

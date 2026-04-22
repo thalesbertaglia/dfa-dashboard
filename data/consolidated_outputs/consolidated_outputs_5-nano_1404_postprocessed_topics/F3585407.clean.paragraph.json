@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585407",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:03Z",
+    "finished_at": "2026-04-14T12:27:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This has been especially problematic in the case of video games."
+              },
+              {
+                "quote": "As a result, they shut down the servers and end support, rendering the game unplayable and essentially useless, despite the consumer having paid for it."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unreasonable demands, excessive length in an attempt to confuse the consumer, or even attempts to redefine common terms."
+              },
+              {
+                "quote": "Upon termination for any reason, You must immediately uninstall the Product and destroy all copies of the Product in Your possession."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "A more recent issue involves payment processors pressuring video game storefronts to remove titles they deem problematic."
+              },
+              {
+                "quote": "Stores are left with little choice but to comply, as these processors can simply stop servicing them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37496,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to express a few concerns that may fall under the scope of the Digital Fairness Act. The first issue is digital ownership of software that reliesfully or partiallyon servers hosted by the developers. This has been especially problematic in the case of video games. A common situation is when a customer buys a game, only for the company to later decide that maintaining the servers is no longer profitable. As a result, they shut down the servers and end support, rendering the game unplayable and essentially useless, despite the consumer having paid for it. Another concern involves the nature of End User License Agreements (EULAs), which often contain unreasonable demands, excessive length in an attempt to confuse the consumer, or even attempts to redefine common terms. A striking example is found in Ubisofts EULA, which states: Upon termination for any reason, You must immediately uninstall the Product and destroy all copies of the Product in Your possession. To my understanding, this sentence essentially says that if they decide a game is no longer supported, you are required to destroy your own propertysomething that feels deeply unfair to consumers. A more recent issue involves payment processors pressuring video game storefronts to remove titles they deem problematic. Stores are left with little choice but to comply, as these processors can simply stop servicing them. This feels like a major infringement on consumer rights. If a game is legal, why should it be removed from a store simply because a third-party serviceone that is not directly involved in the sale or contentclaims it finds the game problematic?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.726325Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585407.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585407",
+    "chunks_doc_id": "F3585407",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585407.clean.paragraph.json"
+}

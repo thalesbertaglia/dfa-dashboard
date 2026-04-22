@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3586237",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:25Z",
+    "finished_at": "2026-04-14T12:52:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One really big unfair commercial practice is that some digital goods like for example games, ambiguously shifted into being seen as services too, which they aren't always in a clear cut way."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Customers are in many cases doubly charged for purchasing the digital product and for the \"ingame purchases\"."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the nature of the product/service was completely ambiguous at the time of the purchase."
+              },
+              {
+                "quote": "should have an \"end of service\" plan, so that you still can access the gameplay you initially cared about with your first purchase in some way."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37806,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the ideas of the Digital Fairness Act, but I also think one important part is missing in the declaration. One really big unfair commercial practice is that some digital goods like for example games, ambiguously shifted into being seen as services too, which they aren't always in a clear cut way. Customers are in many cases doubly charged for purchasing the digital product and for the \"ingame purchases\". I bought in the past a few \"products\" which then became \"services\", despite already having paid the initial fee for the product and then this product got declared as a service and late because of that service nature taken away by the company. So in short, right now any company totally legally can take right now away products you purchased, because the nature of the product/service was completely ambiguous at the time of the purchase. I think in terms of digital fairness, it also should not be allowed to any publishers to simply to take away your game, even if they end all their services. All the money you invested over years and the initial fee is immediately lost. At least the product you bought and were mainly interested in \"the game\" should have an \"end of service\" plan, so that you still can access the gameplay you initially cared about with your first purchase in some way. Even if the companies later decide to shut down their \"service\" I doubt this has been my personal experience, as there are hundreds of games to which this happened in the past.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.169177Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586237.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586237",
+    "chunks_doc_id": "F3586237",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586237.clean.paragraph.json"
+}

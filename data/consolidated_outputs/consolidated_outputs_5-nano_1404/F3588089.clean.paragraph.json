@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3588089",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:16Z",
+    "finished_at": "2026-04-14T13:22:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "support for currently active videogames appended."
+              },
+              {
+                "quote": "All 3 aforementioned games always-online but have a singleplayer mode"
+              },
+              {
+                "quote": "When the servers for The Division games are taken down, the games will cease to function"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32397,
+          "unit_kind": "feedback"
+        },
+        "text": "I am in support of this act, and would like to have support for currently active videogames appended. Recently Ubisoft removed The Crew from uplay (even my physical disc copy is useless now that they took down the servers) and I'm worried that games like The Division and The Division 2 (both published by Ubisoft) will be taken down and removed from my and other people's libraries. All 3 aforementioned games always-online but have a singleplayer mode that a user can experience essentially solo, even though a connection to Ubisoft servers must be maintained throughout that time. When the servers for The Division games are taken down, the games will cease to function, rendering the purchases pointless again. As a note: All 3 games are stuck in the main menu without an internet connection. Please consider adding support for video games to the act, companies have gotten way too greedy and essentially stealing our purchased items. I don't want the games to be online forever, I only want a simple offline patch when the games end their support, or a way for me to host my own local servers on my home. Thank you for listening.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.612803Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588089.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588089",
+    "chunks_doc_id": "F3588089",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

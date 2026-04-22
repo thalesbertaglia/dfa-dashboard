@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585104",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:11Z",
+    "finished_at": "2026-04-14T12:20:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "my legal digital ownership of these products continue to survive,"
+              },
+              {
+                "quote": "And suddenly that service shut down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26505,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I would like to advocate that digital goods like games, music, movies etc. should be left in a state that is still playable and enjoyable. After all you wouldnt be very happy if after the purchase of your new dvd player, you couldnt play your movies on it due to issues that would have easily been negated had there been laws. Similarly if lets say you had 100s of songs bought legally on a store like ITunes. And suddenly that service shut down. We need a way to ensure that my legal digital ownership of these products continue to survive, despite the fact the store I bought it at years ago no longer has the lights on. Again going back to an analogy it would suck if you just bought a new computer 2 years ago from uhh Saturn the German electronic store.. and then as that store closed your product suddenly wont work anymore. That would suck :( Thank you for reading and I hope you will consider this suggestion PS: the formular here is broken. Choosing your country of origin gives you the programmatic list rather than the intended formatted list. Making it a lot harder to select correctly (I hope I did choosing app.county.dnk for Denmark)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.598017Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585104.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585104",
+    "chunks_doc_id": "F3585104",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585104.clean.paragraph.json"
+}

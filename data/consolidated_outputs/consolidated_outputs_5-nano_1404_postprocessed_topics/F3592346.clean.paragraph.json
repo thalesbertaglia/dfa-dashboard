@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3592346",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:27Z",
+    "finished_at": "2026-04-14T13:37:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Destruction of purchased video games after server shutdowns"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Coercive collection of unnecessary personal data"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13742,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the European Commissions work on the Digital Fairness Act. As a consumer, I have experienced situations where existing rules do not adequately protect us in the digital environment. I would like to highlight two specific problems that I believe the Act should address. 1. Destruction of purchased video games after server shutdowns Many modern video games are tied to company-controlled servers or DRM systems, even for single-player modes. When publishers shut these down, the games consumers have paid for become permanently unplayable. This practice amounts to destroying legally purchased products and deprives consumers of their rights. Too often, shutting down a game is used as a predatory strategy to push players onto newer titles from the same studio, despite the fact that keeping a game alive through community support is cheap and technically feasible. Consumers should never lose access to purchased digital products simply because a company chooses to discontinue support. The Digital Fairness Act should ensure that purchased digital goods remain usable, even after official support ends. 2. Coercive collection of unnecessary personal data I have also experienced manipulative practices with platforms such as Patreon, which threatened to delete my account unless I provided highly sensitive personal information (full name, residential address, ISP, and partial credit card details). This amounts to coercion: consumers are pressured to give up personal data unnecessarily in order to maintain access. It combines elements of dark patterns, unfair contract terms, and an abuse of imbalance between the consumer and the platform. While GDPR already limits data collection to what is necessary, there is a gap in consumer protection: we need clear prohibitions against tying access to services to the provision of disproportionate or irrelevant personal data.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.914696Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592346.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592346",
+    "chunks_doc_id": "F3592346",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592346.clean.paragraph.json"
+}

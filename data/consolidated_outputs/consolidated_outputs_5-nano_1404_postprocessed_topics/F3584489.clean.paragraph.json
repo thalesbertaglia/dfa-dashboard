@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584489",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:32Z",
+    "finished_at": "2026-04-14T12:00:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "An increasing number of video games are sold with some form of ties to the publisher, usually for purposes of access rights management, but where the publisher arbitrarily decides when the maintenance of the access rights management is too burdensome."
+              },
+              {
+                "quote": "When this happens, the video game is unable to reach the publisher and the video game stops working, sometimes entirely."
+              },
+              {
+                "quote": "to force video games publishers to leave video games which are no longer supported in a playable state, without any dependencies to the publisher."
+              },
+              {
+                "quote": "Without it, customers are entirely dependent on the publishers to decide when and how their video games will stop working, with no recourse."
+              },
+              {
+                "quote": "This has already happened to me, where a video game has been removed and I can no longer access it, despite having purchased that video game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38975,
+          "unit_kind": "feedback"
+        },
+        "text": "I have played video games since I was a child, growing up with them and fond memories with friends and family. However, I am concerned with the trends in reduced ownership rights as a customer of video games. An increasing number of video games are sold with some form of ties to the publisher, usually for purposes of access rights management, but where the publisher arbitrarily decides when the maintenance of the access rights management is too burdensome. When this happens, the video game is unable to reach the publisher and the video game stops working, sometimes entirely. I would like to propose that the Digital Fairness Act includes provision to prevent this practice, to force video games publishers to leave video games which are no longer supported in a playable state, without any dependencies to the publisher. Without it, customers are entirely dependent on the publishers to decide when and how their video games will stop working, with no recourse. This has already happened to me, where a video game has been removed and I can no longer access it, despite having purchased that video game. I want to stop this practice entirely. I thank you for your attention and hope you can include provisions to address my concerns, and that of over a million more EU citizen, as determined by the EU citizen initiative on \"Stop Destroying Videogames\", in the Digital Fairness Act. Kind regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.257771Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584489.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584489",
+    "chunks_doc_id": "F3584489",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584489.clean.paragraph.json"
+}

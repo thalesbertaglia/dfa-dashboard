@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3720360",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:58Z",
+    "finished_at": "2026-04-14T13:47:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Googles App Approval Gatekeeping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Restricting the installation of apps by forcing Googles approval is the complete opposite of fairness."
+              },
+              {
+                "quote": "If the Digital Fairness Act ends up enforcing Googles authorization on every third-party app submission and installation, it would be a massive step backwards."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16219,
+          "unit_kind": "feedback"
+        },
+        "text": "Restricting the installation of apps by forcing Googles approval is the complete opposite of fairness. How can this even be legal? When it introduced GDPR to protect consumers privacy and online rights, Europe showed it was concerned about its citizerns. While theres still a lot to improve, it proved that the EU understood the dangers of monopolies like Google, which collect and exploit peoples data. Third-party apps play a huge role in protecting consumers. Many independent developers create tools that respect privacy and dont harvest our data the way Googles apps do. If the Digital Fairness Act ends up enforcing Googles authorization on every third-party app submission and installation, it would be a massive step backwards. It would harm user privacy, limit choice, and undermine the very protections Europeans are supposed to have.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.117532Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720360.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720360",
+    "chunks_doc_id": "F3720360",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3720360.clean.paragraph.json"
+}

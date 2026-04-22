@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3584947",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:24Z",
+    "finished_at": "2026-04-14T12:16:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lifetime licenses instead of a subscription"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you need to pay more in order to get \"upgrades\""
+              },
+              {
+                "quote": "you have to pay again to use."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "And of course they don't offer refunds if you migrate."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46705,
+          "unit_kind": "feedback"
+        },
+        "text": "I want to bring the topic of \"perpetual\" or \"lifetime\" licenses. A lot of products like Filmora, used to offer lifetime licenses instead of a subscription that after a few years stop getting \"updates\" and you need to pay more in order to get \"upgrades\". A lot of product stop support of various products or services and and force you to migrate to another version or product that you have to pay again to use. And of course they don't offer refunds if you migrate.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.517526Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584947.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584947",
+    "chunks_doc_id": "F3584947",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584947.clean.paragraph.json"
+}

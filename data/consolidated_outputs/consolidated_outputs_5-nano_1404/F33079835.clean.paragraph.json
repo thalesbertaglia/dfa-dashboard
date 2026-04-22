@@ -1,0 +1,80 @@
+{
+  "doc_id": "F33079835",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:56Z",
+    "finished_at": "2026-04-14T09:30:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "An increasing number of services across multiple industries are being turned into subscription services when unneeded."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "developers to submit themselves to paid vetting."
+              },
+              {
+                "quote": "remote deactivation and forced changes to terms of service or sale that existed at time of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30517,
+          "unit_kind": "feedback"
+        },
+        "text": "- Both major mobile app stores, having been required to allow users to install legal applications on their devices, are requiring (or have announced intentions to require) developers to submit themselves to paid vetting. This violates user freedoms to use their property, and perpetuated the duopoly intended to be disrupted by the Digital Markets Act. - An increasing number of services across multiple industries are being turned into subscription services when unneeded. This is happening because incumbents are not facing sufficient competition, and harms users. Relatedly, one-time purchases of many goods (software and hardware both) that should thereafter permanently be the property of the purchaser are now requiring constant contact with a company server, allowing for remote deactivation and forced changes to terms of service or sale that existed at time of purchase. This should simply not be allowed if there is not a feature operationally requiring contact with a server, and in such a case the customer should be able to disable only that feature, and continue using their property.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.528985Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079835.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079835",
+    "chunks_doc_id": "F33079835",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

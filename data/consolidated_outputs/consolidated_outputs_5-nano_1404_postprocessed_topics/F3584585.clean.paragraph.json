@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584585",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:34Z",
+    "finished_at": "2026-04-14T12:02:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17099,
+          "unit_kind": "feedback"
+        },
+        "text": "This will bring good protection for consumers in the digital market, I would hope this could also include videogames, since as of recent years, companies have been making games to artificially expire with a \"kill switch\" once they decide the game is no longer woth, and I understand them wanting to stop the support on servers they have to maintain, but some of this games are essentially offline games, with added online features that are not essential to the core of the game, and so, could perfectly work offline without the company servers, if they so wanted to, that's why, I would like to see this add videogames to the protections, if there was a need to look at a game that has been turned off even when it could've worked offline, the game The Crew, made by Ubisoft, is a clear example.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.304357Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584585.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584585",
+    "chunks_doc_id": "F3584585",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584585.clean.paragraph.json"
+}

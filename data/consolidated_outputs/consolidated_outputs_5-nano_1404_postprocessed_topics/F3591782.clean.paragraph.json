@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591782",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:51Z",
+    "finished_at": "2026-04-14T13:37:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15340,
+          "unit_kind": "feedback"
+        },
+        "text": "Attached is documentation on one particular's company systemic wrongdoing. Additionally, I'd like to point out enforcement gaps of current rules: Many of the practices mentioned are already illegal, but its hard to figure out who to even report it to. As online services typically operate internationally (globally, really), figuring out the country of origin can be tricky. Additionally, as weve seen with GDPR, national offices tend to drag their feet when big tax revenue streams in their country are under threat. Dispute resolutions as they exist currently also are a step too late: To utilize them, one must already be wronged. As-is, an observant citizen cannot protect their fellow citizens from unfair practices by reporting it as they encounter it. To fix this, I propose an EU-wide consumer complaint office, which is able to: 1. Take in complaints from anyone 2. Investigate the complaints 3. Issue fines to any entity doing business in the EU Funds collected through these fines should be directed into a program similar to Germanys sovereign tech fund, to support development of independent open source software. In addition to supporting software which wouldnt use dark patterns, itd also be a strategic investment to help lessen dependence on US-provided software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.899063Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591782.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591782",
+    "chunks_doc_id": "F3591782",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591782.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585017",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:04Z",
+    "finished_at": "2026-04-14T12:18:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13979,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Parliament, Please pass the stop killing games campaign as law.We want to OWN our video games, payed with our hard earned money.The customer deserves to be able to enjoy his property after paying for it.Many video games have been already destroyed.Games are not just an entertainment medium, they are a form of art. Thank you for reading my letter. Hope we can make a difference and protect customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.555027Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585017.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585017",
+    "chunks_doc_id": "F3585017",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585017.clean.paragraph.json"
+}

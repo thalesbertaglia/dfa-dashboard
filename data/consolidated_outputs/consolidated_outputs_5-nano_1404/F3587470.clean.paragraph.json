@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587470",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:16Z",
+    "finished_at": "2026-04-14T13:17:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors censoring legal content is a significant problem."
+              }
+            ]
+          },
+          {
+            "topic": "ID Verification Mandates",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "require ID verification on platforms like YouTube and Spotify."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of \"killing games\" without refunds is a serious consumer protection issue."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35052,
+          "unit_kind": "feedback"
+        },
+        "text": "To the European Commission, I am writing to express my concerns regarding the Digital Fairness Act and to highlight three critical issues I believe are not adequately addressed. My name is Ondřej Kurz and I am a citizen from the Czech Republic. 1. payment processors censoring legal content is a significant problem. Companies should not act as de facto regulators by blocking transactions for legal products, such as video games or adult websites, that they personally deem \"risky.\" This practice undermines consumer choice and stifles a free digital market. 2. there is a dangerous global trend of internet censorship and overreach, exemplified by measures like the UK Online Safety Act and moves in the US to require ID verification on platforms like YouTube and Spotify. These policies are a disproportionate response that infringes on fundamental rights to privacy and freedom of expression. The responsibility for guiding children's online experience should fall to parents, not broad, invasive state or corporate policing. 3. the practice of \"killing games\" without refunds is a serious consumer protection issue. When a company shuts down a digital game's online services, they are effectively destroying a product that was purchased. The EU should require these companies to provide a viable alternative, such as an offline version or community server support, to protect the consumer's right to their digital property. Thank you for your time and consideration of these important matters.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.528030Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587470.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587470",
+    "chunks_doc_id": "F3587470",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

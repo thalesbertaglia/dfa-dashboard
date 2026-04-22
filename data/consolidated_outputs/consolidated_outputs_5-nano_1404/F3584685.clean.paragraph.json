@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584685",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:23Z",
+    "finished_at": "2026-04-14T12:07:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "single player games (e.g. Ubisoft’s Crew) forcing players to be permament connected to the internet"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "without warning of purchase, shutting off or destroying them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49096,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen, in the current era, there is a practice of single player games (e.g. Ubisoft’s Crew) forcing players to be permament connected to the internet, even though a SIngleplayer Game has absolutely no need to do so (outside the DRM). However, this practice is now being misused to ensure that these games are no longer playable. This means that customers can pay for a video game and the company can arbitrarily ensure that these games are no longer playable. The product paid for will be arbitrarily destroyed or destroyed by profiters. Remember how absurd it would be if your TV, refrigerator or car could simply be deactivated/certified by the manufacturer without having to give a valid reason. I also think it fits with the points of the summary ‘misleading marketing’, because in such games it is never clear how long the games are available. At the beginning, I also mentioned ‘The Crew’ as a concrete example, but there are many more. A list is easy to find by searching for ‘dead game list stopkillinggames’. Stopping killing games (SKG) is an action to solve this problem and protect consumers’ rights. A last important point is that we do not require companies to support games for an infinite period. Instead, the main focus is that companies no longer have the power to buy games in the same way, without warning of purchase, shutting off or destroying them. Ideally, the solution would be that my purchased games work as long as I have the necessary hardware. This does not require infinite long support and there is no need for a major technical change in the game (many developers of games have already commented on it). Please also note that the demands of publishers and their lobbyists are misrepresented and are based on things that nobody is asking for. Yours sincerely, Lucas Vienna",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.353968Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584685.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584685",
+    "chunks_doc_id": "F3584685",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

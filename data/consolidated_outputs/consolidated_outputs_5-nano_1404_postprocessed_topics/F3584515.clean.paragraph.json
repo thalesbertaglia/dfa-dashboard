@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584515",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:22Z",
+    "finished_at": "2026-04-14T12:00:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a lot of mine favorite games are going to be at risk or even destroyd."
+              },
+              {
+                "quote": "will later be unplayable."
+              },
+              {
+                "quote": "protecting video games for being destroyd."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16286,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I have been growing up with videogames with a PC and Playstation. I have seen a lot of mine favorite games are going to be at risk or even destroyd. It makes me sad to see more games that consumers bought that will later be unplayable. The European Citizens' Initiative has already over 1 million EU citizens (including myself) that expressing support for protecting video games for being destroyd. So there is some movement here, but it would be great to get some more support. Thank you for reading and hopefully there is a possability to make a difference here.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.270241Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584515.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584515",
+    "chunks_doc_id": "F3584515",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584515.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3664168",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:59Z",
+    "finished_at": "2026-04-14T13:45:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I think sideloading of apps should be allowed."
+              },
+              {
+                "quote": "If its blocked, users lose the freedom to chose the apps they want and are forced to depend only on one app store."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15240,
+          "unit_kind": "feedback"
+        },
+        "text": "I think sideloading of apps should be allowed. If its blocked, users lose the freedom to chose the apps they want and are forced to depend only on one app store. For example, a small developer might make a very usefull app, but if it doesnt get accepted in the main store, people can never use it. This limits competition and is unfair for both users and developers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.080504Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664168.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664168",
+    "chunks_doc_id": "F3664168",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3664168.clean.paragraph.json"
+}

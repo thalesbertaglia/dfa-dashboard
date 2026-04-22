@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586208",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:38Z",
+    "finished_at": "2026-04-14T12:50:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It's very misleading that game companies (and software as a service companies) can change the terms of a sale after consumers already bought and paid for their products."
+              },
+              {
+                "quote": "It is unacceptable that consumers pay to own a game, only for the game company to then remove the possibility for the player to play it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15366,
+          "unit_kind": "feedback"
+        },
+        "text": "It's very misleading that game companies (and software as a service companies) can change the terms of a sale after consumers already bought and paid for their products. It is unacceptable that consumers pay to own a game, only for the game company to then remove the possibility for the player to play it. If you buy a Phone, and then the manufacturer willfully causes it to stop working after two years, taking away your Phone and forcing you to buy the new successor PhonePlusMega, that would be an extremely unfair commercial practice. That's what's happening here, but with video games. There are ways to solve this, where game developers can grant players the ability to keep playing their games even after the game company shuts down their servers, cuts down maintenance costs, and moves on to their next project. This would be fair to consumers and fully within the means of the developers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.154891Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586208.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586208",
+    "chunks_doc_id": "F3586208",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

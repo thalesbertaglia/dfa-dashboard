@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3588695",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:04Z",
+    "finished_at": "2026-04-14T13:25:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the sale of video games and other digital products that rely on remote servers run by the publishing companies themselves to function properly is becoming more and more common."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Consumers are informed, in a clear and pre-purchase manner, about the guaranteed minimum duration of the functioning of digital products relying on online services."
+              },
+              {
+                "quote": "The right of users to maintain or restore access to content acquired by their own means such as modification or use of alternative servers when the publisher no longer actively supports it is recognised."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35630,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I would like to thank you for the opportunity to contribute with comments in the context of the drafting of the Digital Equity Act. I would like to draw attention to an aspect that I consider important to ensure a fairer and more transparent relationship between consumers and suppliers of digital products. Nowadays, the sale of video games and other digital products that rely on remote servers run by the publishing companies themselves to function properly is becoming more and more common. In many cases, these products are no longer operational once the official medium ends or when the servers are disconnected, without the consumer having been given clear information at the time of purchase about this possibility and the expected operating times. This situation may create a feeling of lack of defence among those purchasing these products in good faith, expecting their functionality to be maintained for at least a reasonable period of time. Compared to what is required for physical products or subscription services, there seems to be a lack of balance in terms of transparency and durability obligations. Therefore, I would like to propose that future legislation should include some key principles: Consumers are informed, in a clear and pre-purchase manner, about the guaranteed minimum duration of the functioning of digital products relying on online services. To encourage mechanisms to preserve, as far as possible, the functionality of the product after completion of the official medium. The right of users to maintain or restore access to content acquired by their own means such as modification or use of alternative servers when the publisher no longer actively supports it is recognised. I believe that measures such as these would contribute to greater trust in the digital environment and help consolidate a more sustainable and respectful economy for consumers in Europe. Thank you very much for your work and your attention to these concerns.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.672690Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588695.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588695",
+    "chunks_doc_id": "F3588695",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588695.clean.paragraph.json"
+}

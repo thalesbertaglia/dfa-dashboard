@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3588457",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:40Z",
+    "finished_at": "2026-04-14T13:23:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being rendered unplayable after purchase."
+              },
+              {
+                "quote": "delisting or disabling purchased games"
+              },
+              {
+                "quote": "long-term accessibility or offline functionality where possible."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17650,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer, Im deeply concerned about the increasing number of video games being rendered unplayable after purchase. The fact that hundreds of games have already been shut down and that this trend is accelerating makes it clear that its only a matter of time before it affects me and many others. I believe this is unfair. When I buy a video game, I expect to be able to play it not just temporarily, but as something I own. Its frustrating and disheartening to lose access to something I legally purchased, with no recourse or refund. I know many others feel the same way, which is why movements like Stop Killing Games have gained so much support. More importantly, I object to this practice on principle. Its anti-consumer, driven by short-term profit motives, and sets a harmful precedent for digital ownership. When people buy a game, they expect to retain access to it. Taking that away often without warning or meaningful compensation erodes trust, undermines the idea of ownership in the digital age, and damages our cultural heritage. I urge you to include this issue in the EUs digital consumer rights initiative. Consumers need protection from the growing practice of delisting or disabling purchased games, and there should be legal requirements for long-term accessibility or offline functionality where possible. If we are serious about digital rights, this kind of exploitation cannot be allowed to continue unchecked. Thank you for considering this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.648555Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588457.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588457",
+    "chunks_doc_id": "F3588457",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588457.clean.paragraph.json"
+}

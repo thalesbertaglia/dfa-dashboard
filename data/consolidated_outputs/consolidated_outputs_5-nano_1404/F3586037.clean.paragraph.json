@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586037",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:31Z",
+    "finished_at": "2026-04-14T12:44:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Single player elements of video games being unplayable after the owner of said video-game brand choosing to shut down server support."
+              },
+              {
+                "quote": "Video-games requiring access to an online website/store after purchase in order to download, and revoking access to said website/store if they desire, making the purchase worthless."
+              },
+              {
+                "quote": "Remotely shutting down a users access to the gaming-console said user have purchased, making the console fundamently worthless."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25700,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I have observed that in, among other places, the video-game industry there have been a downward trend in the treatment of existing consumers among bigger brands and I wish to give my opinions on subjects that I believe should be touched uppon in this act. In my experience companies are finding more and more ways to make it difficult, or impossible to enjoy already purchased product, in what I believe to be an attempt to encourage users to purchase newer released products. Examples of practices I have noticed, and that in my opinion should be prohibited are: - Single player elements of video games being unplayable after the owner of said video-game brand choosing to shut down server support. - Video-games requiring access to an online website/store after purchase in order to download, and revoking access to said website/store if they desire, making the purchase worthless. - Remotely shutting down a users access to the gaming-console said user have purchased, making the console fundamently worthless. There are probably more examples out there by people with a lot more in depth knowledge than me. However I believe that without proper consumer-protection laws and guidelines in place, the video-game industry will take advantage off their consumers love for their games, stories, characters etc. and \"force\" them to buy new products by unessecarly rendering their older products useless, or revoking access to these products that have been purchased. Hopefully this is something that can be adressed in the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.051829Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586037.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586037",
+    "chunks_doc_id": "F3586037",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

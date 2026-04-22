@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585156",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:29Z",
+    "finished_at": "2026-04-14T12:22:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "gone dark in an alpha or beta stage."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "like its a license for a bought good and thus can destroy things you purchases forever"
+              },
+              {
+                "quote": "a coffee maker that once every cycle checks a server if the server comes up blank the coffee maker destroys itself."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33483,
+          "unit_kind": "feedback"
+        },
+        "text": "i would like to ask for an extension on digital entertainment, specifically video games, as currently with how certain comapnies have acted like its a license for a bought good and thus can destroy things you purchases forever, as well as promises in an early-acces game that although you technically payed for an end product never recieve that product as it has gone dark in an alpha or beta stage. we used to have physical copies that even if the publisher no longer existed would still work to some extend in perpetuity, but now even some of these physical copies no longer work as the game inside require some kind of connection to a server that any developer at any time can close rendering such a copy useless. i think the current state of affairs allow publishers of such digital media to come up with legal gray zones and loopholes that at the very least already goes against the spirit of the law but sadly not the letter of the law, if you can buy a physical item yet at any moment they can send someone into your house and destroy it you would be outraged to wouldnt you? the current situation does feel like that, besides them entering my house. so maybe more like a coffee maker that once every cycle checks a server if the server comes up blank the coffee maker destroys itself. i really hope for better guiding as well as more fair practices arround digital goods, as many types of digital goods are no longer that different from physical goods in terms of owning an item in my opinion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.617498Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585156.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585156",
+    "chunks_doc_id": "F3585156",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585156.clean.paragraph.json"
+}

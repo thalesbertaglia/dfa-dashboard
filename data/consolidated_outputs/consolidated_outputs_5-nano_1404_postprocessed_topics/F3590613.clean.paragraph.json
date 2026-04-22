@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3590613",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:51Z",
+    "finished_at": "2026-04-14T13:34:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Apex Legends in 2024 stopped supporting Linux operating systems, by turning off a built-in feature of Easy Anti-Cheat for Linux, leaving many customers no way to play their game anymore unless they purchase a Windows license."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some companies have provisions in their terms of service, which allow them to restrict access to accounts of paying customers who use Linux."
+              },
+              {
+                "quote": "This change was accompanied by a no-refund policy, meaning that Linux users essentially had their game stolen from them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27532,
+          "unit_kind": "feedback"
+        },
+        "text": "Many consumers, in an attempt to reduce their technological dependence on a foreign power and move to a free and independent operating system, have started switching from Windows to Linux. This is in line with EU's policy to increase digital sovereignty, and indeed even some government organisations in the EU have started doing this too. It lightens EU citizens' wallets and breaks them away from a company known for its privacy infringement. It also reduces electric waste, as computer hardware (many of it still powerful and fully capable of running modern software) incompatible with Windows 11 requirements such as TPM, could still be used by consumers by switching from the no-longer-maintained Windows 10 to Linux. This is inhibited by corporations, whose software developers often go out of their way to reduce interoperability of their software on non-Windows operating systems. Forcing them by law to create native apps for MacOS and Linux would be prohibitively expensive (although could be considered for large enough corporations), but unless specifically forbidden by software developers, many programs work on Linux through open source software like Wine (acronym for \"Wine is not an emulator\") and Proton (developed by Valve corporation). Anti-consumer steps taken by software developers to reduce their software operations on non-Windows operating systems are anti-consumer, anti-competitive and should be regulated under the Digital Fairness Act to bolster EU citizens' freedom of choice, privacy, and increase EU's digital independence. Below is presented a non-exhaustive list of unfair practices implemented by software developers: 1. Kernel-level anti-cheat software. Many software developers write code designed to run in Ring 0 execution mode, which is a massive problem in its own right even on Windows machines. It is a security vulnerability waiting to happen, as proven by CrowdStrike Holdings, Inc. 2024 IT outage which affected millions of machines around the world. It can also infringe on customers' privacy, as kernel-level anti-cheats scan consumers' processes and private files. 2. Directly prohibiting Linux OS users from playing games by flipping the Linux compatibility flag supported by anti-cheat software. Apex Legends in 2024 stopped supporting Linux operating systems, by turning off a built-in feature of Easy Anti-Cheat for Linux operating system, leaving many customers no way to play their game anymore unless they purchase a Windows license. This change was accompanied by a no-refund policy, meaning that Linux users essentially had their game stolen from them. 3. Banning people who play on Linux. Some companies have provisions in their terms of service, which allow them to restrict access to accounts of paying customers who use Linux. One such example is miHoYo Co., Ltd., whose terms of service allow them to restrict accounts of players for circumventing their Anti-Cheat software, which is necessary if they want to play on Linux. To my knowledge this was never used in practice, but the fact that Linux users have to skirt on the verge of breaking the ToS just to play games they may have paid for is concerning. I propose that the Digital Fairness Act should ensure that Linux users are not unfairly discriminated against. Consumers should have the option to attempt to run software on whichever operating system they want without being stopped by unfair terms of service and companies deliberately targeting Linux users. And Kernel-level anti-cheat software should be abolished altogether due to inordinate risk involved in installing such software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.832938Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590613.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590613",
+    "chunks_doc_id": "F3590613",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590613.clean.paragraph.json"
+}

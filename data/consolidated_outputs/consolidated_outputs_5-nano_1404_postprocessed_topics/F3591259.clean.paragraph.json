@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3591259",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:46Z",
+    "finished_at": "2026-04-14T13:35:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "advertised a monthly discount as an annual fee."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I subscribed online to a service"
+              },
+              {
+                "quote": "In such cases, a right of withdrawal should be granted within 2 working days of the purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "two-year loyalty period."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31554,
+          "unit_kind": "feedback"
+        },
+        "text": "Satisfactory. I support the initiative. In my view, the most important would be to combat misleading consumers. My personal experience was that I subscribed online to a service where you advertised a monthly discount as an annual fee. However, following the order, the costs were significantly higher and there was also a two-year loyalty period. In such cases, a right of withdrawal should be granted within 2 working days of the purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.850258Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591259.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591259",
+    "chunks_doc_id": "F3591259",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591259.clean.paragraph.json"
+}

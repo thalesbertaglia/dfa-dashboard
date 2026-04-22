@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586236",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:24Z",
+    "finished_at": "2026-04-14T12:51:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This issue is especially pervasive in the video games industry as highlighted by the recent European Citizien Initative \"Stop Destroying Videogames\", which has already amassed over 1.4 million signatures."
+              },
+              {
+                "quote": "end-of-life strategy which retains access to digital products even if they decide to turn off their servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34507,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Initative leaders, one important aspect of digital fairness is to retain access to software products that customers have already purchased. At the moment, many software publishers can decide to remove customer's access to their previously purchased software (e.g. by turning off their servers) because of their financial interests, disregarding the customer. This issue is especially pervasive in the video games industry as highlighted by the recent European Citizien Initative \"Stop Destroying Videogames\", which has already amassed over 1.4 million signatures. One personal example for this is HEX: Shards of Fate, developed by Cryptozoic Entertainment, which I have paid over hundred Euros for to have access to play. However, the developer shut down the game and closed it permanently in December 2020, stopping me from accessing my already purchased digital products completely. This example shows why I sincerely request you to add to the digital fairness act a clause that protects European customers from publishers removing access to purchased digital products. Instead, force software developers and publishers to have an end-of-life strategy which retains access to digital products even if they decide to turn off their servers. This can be either by making the software usable without online/server access, or by publicly releasing the server source code, allowing fans to host their own servers to retain access to the digital product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.168656Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586236.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586236",
+    "chunks_doc_id": "F3586236",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586236.clean.paragraph.json"
+}

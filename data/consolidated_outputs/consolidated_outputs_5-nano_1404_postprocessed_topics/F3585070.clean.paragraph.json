@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585070",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:22Z",
+    "finished_at": "2026-04-14T12:19:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design of loot boxes and colloquially referred Gacha games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unclear terms of purchase and licensing"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13563,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, I find the motions of the Digital Fairness Act to be commendable and overall enriching the digital space in which many companies operate within the European area. I would like to bring up the principal of Video Game Companies and both their practices that already would fall within the purview of this Act, like the addictive design of loot boxes and colloquially referred Gacha games that see a great deal of revenue and abuse over otherwise lax addictive and gambling regulations; as well as the practice of unclear terms of purchase and licensing when it comes to the purchase of their products, often times games will be delisted and unavailable to be accessed without proper refund, ability to still run the software or notification upon purchase of the duration of the license given (see: The Crew by Ubisoft, Overwatch by Blizzard Entertainment, Battleborn by 2K Games, Godfall by Gearbox Publishing, among others). I feel like this issue would fit in well within the Digital Fairness Act, and would benefit European consumers in a positive and fair manner.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.581799Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585070.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585070",
+    "chunks_doc_id": "F3585070",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585070.clean.paragraph.json"
+}

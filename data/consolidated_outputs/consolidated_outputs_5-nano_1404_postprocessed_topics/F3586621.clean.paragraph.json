@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586621",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:18Z",
+    "finished_at": "2026-04-14T13:00:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The licence is typically not transferable either, if I want to pass on the game to a second."
+              },
+              {
+                "quote": "even the physical video games sold today are typically locked into the digital account they start with."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37778,
+          "unit_kind": "feedback"
+        },
+        "text": "I think that the purpose of this legislation is respectable and much of our modern society needs. I am playing various video games and, in particular, the points of dark patterns, I am particularly feeling in my everyday life, where I need to be constantly vigilant about them. my view would be if the legislation could in any way be extended to curb the usage practices of these dark patterns and other exploitative systems in video games and the sale of video games’ products, and possibly also clarify buyers’ rights over paid video games products. At present, industry is the practice of buying a licence to use the product/gaming. This licence is typically not transferable either, if I want to pass on the game to a second. This disrupts me as a child to exchange physical video games with pedestrians when we finished with the dem. even the physical video games sold today are typically locked into the digital account they start with.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.298273Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586621.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586621",
+    "chunks_doc_id": "F3586621",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586621.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586524",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:31Z",
+    "finished_at": "2026-04-14T12:59:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital purchases must not be reduced to temporary rentals."
+              },
+              {
+                "quote": "If a product is sold, its core functionality must remain accessible for the foreseeable future."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29397,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to express my strong support for the European Digital Fairness Act, and to share a deeply personal frustration that highlights a critical issue it must address: video game publishers shutting down the online servers for games I have already paid for and own. I speak from two perspectives: as a consumer and as a game design professional. Firstly, as a consumer, I have personally spent money on games that publishers later rendered completely unplayable by terminating server support. This isn't just losing access to a minor feature; it means the core product I paid for is taken away. It fundamentally undermines the concept of ownership. When a company decides server costs are \"too high\" after sales have been made, they retroactively strip value from a purchase. This feels like a betrayal of trust and contradicts basic principles of fairness in commerce. Secondly, as a professional game designer, part of my essential work involves studying and analyzing older games to understand design evolution and industry history. Server shutdowns actively hinder this vital research. They erase significant pieces of our cultural and technical heritage, locking away multiplayer experiences and sometimes entire games reliant on online connectivity. This loss impedes learning, innovation, and the preservation of our medium's history. This practice exploits the inherent vulnerability of digital goods. Unlike physical products, which remain usable for as long as the owner maintains them, these digital purchases become worthless solely at the publisher's discretion. The justification of operational costs rings hollow when companies sell products knowing this eventual outcome is likely, without providing sustainable solutions for long-term access. There is an ethical obligation to either sustain essential services for a reasonable period commensurate with the product's lifespan or provide alternatives before selling the game. These alternatives could include enabling private community servers, releasing tools for self-hosting, or ensuring robust offline functionality. Therefore, I implore the Act to include strong provisions mandating: - Transparency: Clear disclosure at the point of purchase regarding the minimum expected lifespan of essential online services. - Consumer Remedies: Meaningful recourse for consumers when servers are shut down, such as pro-rated refunds, access to functional offline versions, or the release of necessary tools/source code to enable community preservation. - Preservation Pathways: Legal frameworks that facilitate community-led preservation efforts, like player-run servers, when publishers officially abandon support. Digital purchases must not be reduced to temporary rentals. If a product is sold, its core functionality must remain accessible for the foreseeable future. The European Digital Fairness Act has a powerful opportunity to set a global precedent by ensuring that what consumers buy remains truly theirs, not just until a corporation decides otherwise.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.270468Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586524.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586524",
+    "chunks_doc_id": "F3586524",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

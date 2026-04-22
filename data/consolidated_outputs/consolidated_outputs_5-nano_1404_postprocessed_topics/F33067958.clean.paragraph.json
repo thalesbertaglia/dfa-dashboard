@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33067958",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:46Z",
+    "finished_at": "2026-04-14T09:28:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another point are software licences, which in my view should start to be treated like any other product, and not prevent consumers from exercising rights in non-digital products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19027,
+          "unit_kind": "feedback"
+        },
+        "text": "In addition to the points mentioned above, I believe that they could take a look at payment processors (MasterCard, Visa, etc.) why they are allowed to decide whether or not to buy a person online, whether adult content or not. Another point are software licences, which in my view should start to be treated like any other product, and not prevent consumers from exercising rights in non-digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.471227Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067958.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067958",
+    "chunks_doc_id": "F33067958",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33067958.clean.paragraph.json"
+}

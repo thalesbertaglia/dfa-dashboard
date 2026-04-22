@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3590813",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:09Z",
+    "finished_at": "2026-04-14T13:35:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many service providers (of non-digital services, e.g. gym membership) use digital subscriptions."
+              },
+              {
+                "quote": "language imitating sale of product is used (e.g. \"auto-renewable\" \"entry ticket\")."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "language imitating sale of product is used (e.g. \"auto-renewable\" \"entry ticket\")."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Service providers abuse contract law by forcing customers into subscription contracts, while not affording them any protection that comes with a contract (e.g. service should still be provided even in case of late or non-payment)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52416,
+          "unit_kind": "feedback"
+        },
+        "text": "Many service providers (of non-digital services, e.g. gym membership) use digital subscriptions. If the service is withdrawn (or limited) in case of non-payment, it should be possible to cancel it with no withdrawal notice. Service providers abuse contract law by forcing customers into subscription contracts, while not affording them any protection that comes with a contract (e.g. service should still be provided even in case of late or non-payment) - what happens is that service provider does not provide contracted service (withdraws it), but still demands multiple months of payment, under the promise of resuming service after payment (which makes no sense for time-sensitive services, like gym access). At the same time, often language imitating sale of product is used (e.g. \"auto-renewable\" \"entry ticket\"). Many customers lack knowledge on how to fight for their rights, don't know how to pursue judicial resolution, or fear being put on debt collection lists, and are pressured into paying for service that was not provided to them. Contract is an agreement between two parties, what I demand is: - the contract terms need to be fulfilled by both parties - neither of the parties are allowed to cease their contract obligations, because the other party did, and if they do, the contract is considered void and broken with immediate effect In case the customer does not pay for the contracted service, the service needs to be provided or customer freed from payment obligation. Only in case where service is provided, the service provider can seek agreed payment. These provisions should be statutory and concern contracts involving individuals (b2b contracts being exempt, employment contracts being exempt/afforded existing withdrawal period rules and associated protections).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.838639Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590813.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590813",
+    "chunks_doc_id": "F3590813",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3605883",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:38Z",
+    "finished_at": "2026-04-14T13:42:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the total amount of real money spent by the user in the video game every time the user is offered to spend more."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25395,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital games, especially mobile free to play games, should be required to have a clear indication of the total amount of real money spent by the user in the video game every time the user is offered to spend more. Digital games should also be required to define for themselves a maximum spending limit, so that they can be categorized in marketplaces according to that limit. A maximum upper limit for such categorization should be introduced, so that users themselves can hide games where the limit is above a threshold the user defines. For example, there is no way it would be reasonable for a user of a digital game to pay more than 10,000 in total, and the limit for games accessible to vulnerable groups should likely be significantly lower. Many predatory game companies depend on luring in so called \"whales\" that spend very high amounts every month through addiction and dark patterns, and introducing a hard maximum total amount that can be spent per game would be very hard to circumvent.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.007223Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605883.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605883",
+    "chunks_doc_id": "F3605883",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

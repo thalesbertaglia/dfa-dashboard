@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3719680",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:38Z",
+    "finished_at": "2026-04-14T13:47:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Current business practice of 'leasing' bought digital products needs to be altered."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30261,
+          "unit_kind": "feedback"
+        },
+        "text": "Current business practice of 'leasing' bought digital products needs to be altered. It fundamentally disempowers consumers, is strictly a brainchild of the 'neverending growing profit'-thoughtschool, which (as we have hopefully fully learned by now) is a dead-end street. It will destroy everything when extrapolated to full maturity. Yes, profits are allowed, but to a healthy degree. Let's stop facilitating and bowing to the unreasonable greed, people!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.110107Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3719680.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3719680",
+    "chunks_doc_id": "F3719680",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

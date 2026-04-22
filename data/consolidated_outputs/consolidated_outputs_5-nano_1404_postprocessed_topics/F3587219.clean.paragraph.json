@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587219",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:38Z",
+    "finished_at": "2026-04-14T13:14:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "discontinued the next day"
+              },
+              {
+                "quote": "life span of the game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22049,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, due to the direction that the games industry is going in and the prevalence of the concept that buying is not owning when it comes to video games, Im hoping some measures will be taken to protect consumers and their purchases. As a consumer, I currently have the risk of purchasing a product that will be discontinued the next day, with no notice, without any legal repercussions upon the company. I believe the digital fairness act to be the perfect way to address these concerns, by laying certain ground rules in place, such as announcing at purchase what the life span of the game is (if it is planned to be shut down at all) and to provide a way for community members to host community servers on any games that may require this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.477559Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587219.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587219",
+    "chunks_doc_id": "F3587219",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587219.clean.paragraph.json"
+}

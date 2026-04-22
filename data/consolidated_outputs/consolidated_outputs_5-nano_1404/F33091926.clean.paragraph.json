@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33091926",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:34:55Z",
+    "finished_at": "2026-04-14T09:35:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading designs."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9589,
+          "unit_kind": "feedback"
+        },
+        "text": "This European Commission initiative is a crucial and very important step in adapting consumer protection to today’s digital reality. For years, consumers have faced opaque practices, i.e. misleading designs. Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.581390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091926.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091926",
+    "chunks_doc_id": "F33091926",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

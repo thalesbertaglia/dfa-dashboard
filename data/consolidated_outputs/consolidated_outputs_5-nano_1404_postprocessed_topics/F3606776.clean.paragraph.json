@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3606776",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:50Z",
+    "finished_at": "2026-04-14T13:42:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Entertainment and media: games, films, or music services that are withdrawn or made inaccessible despite consumers paying for access."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Smart devices and IoT: connected products that later require new subscriptions, lose features through updates, or become non-functional when cloud services are discontinued."
+              },
+              {
+                "quote": "Software and online services: subscriptions that silently change terms, downgrade service levels, or lock users into ecosystems by blocking interoperability."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Existing law does not fully address these scenarios, as companies often exploit contractual fine print, technical control, or even restructuring procedures to escape their responsibilities."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22132,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly support the Digital Fairness Act and its goal of tackling manipulative and unfair digital practices. One fundamental issue deserves special emphasis: consumers often do not get what they paid for, and companies retain the unilateral power to alter or remove core functions after purchase. This problem appears across many sectors of the digital economy: Entertainment and media: games, films, or music services that are withdrawn or made inaccessible despite consumers paying for access. Smart devices and IoT: connected products that later require new subscriptions, lose features through updates, or become non-functional when cloud services are discontinued. Consumer electronics: hardware sold with defects or limitations that are never properly fixed, while replacement parts or accessories are restricted to proprietary options. Software and online services: subscriptions that silently change terms, downgrade service levels, or lock users into ecosystems by blocking interoperability. Other digital goods: cases of artificial scarcity, forced obsolescence, or sudden removal of features critical to a purchase decision. Although the details differ, the pattern is the same: value is removed post-sale, and consumers are left powerless. Existing law does not fully address these scenarios, as companies often exploit contractual fine print, technical control, or even restructuring procedures to escape their responsibilities. I urge the Commission to ensure the Digital Fairness Act explicitly covers these practices. Consumers should have the guarantee that what they buy will remain usable on the terms originally offered, and that companies cannot later take back or ransom essential features. Such a principle would restore trust, foster competition, and ensure true fairness in the digital single market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.013815Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3606776.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3606776",
+    "chunks_doc_id": "F3606776",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3606776.clean.paragraph.json"
+}

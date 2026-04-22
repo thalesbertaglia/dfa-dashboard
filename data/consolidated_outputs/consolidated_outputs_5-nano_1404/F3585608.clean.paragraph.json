@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585608",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:22Z",
+    "finished_at": "2026-04-14T12:31:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games becoming unplayable because of the developers shutting down the host servers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it is unfair to claim that one would be purchasing a game if what you are actually paying for is a key that may be revoked at any time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21219,
+          "unit_kind": "feedback"
+        },
+        "text": "Include support of consumer rights for video games and similar media in the case of servers sitting down. This would be to ensure that digital products out of production and support would still be owned by the one who purchased them such as video games becoming unplayable because of the developers shutting down the host servers. At the same time it is unfair to claim that one would be purchasing a game if what you are actually paying for is a key that may be revoked at any time, this should be considered a marketwide case of false advertising.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.826495Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585608.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585608",
+    "chunks_doc_id": "F3585608",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

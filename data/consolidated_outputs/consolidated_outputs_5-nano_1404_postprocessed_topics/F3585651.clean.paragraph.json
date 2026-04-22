@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585651",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:27Z",
+    "finished_at": "2026-04-14T12:32:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers of videogames, as they have been known to make their products unusable after a few years of service, despite selling it as a product without stating outright that the product will be destroyed on a certain date."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "by explaining that the EULA said that they could shut down service at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29679,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I wish to give the following feedback in regards to the update of the digital fairness act. As a citizen of the EU I would like for the protection of this act to also involve protection from publishers of videogames, as they have been known to make their products unusable after a few years of service, despite selling it as a product without stating outright that the product will be destroyed on a certain date. This is common even in games that are intended to play alone, without an internet connection or with minimal features related to an internet connection. This does give opportunity for these coorporations to sell newer games by destroying the older ones, and this does in effect become something that the European Union has been good about fighting in the past: planned obsolescence. This is a business practice where you usually design a product to have a limited lifespan, but in a digital setting you can essentially destroy any product and defend if by explaining that the EULA said that they could shut down service at any time. I would argue that it should be illegal to sell a painting with the caveat that you may come to their house and take it away at any time without their consent, in the same way I argue that we as consumers should be protected from the practice of destroying games after the fact. I would also argue that even for a game with major online components there should be a requirement to have access to the game you bought, even if it means being done in a reduced manner. In essence I would love for there to be a requirement for publishers/developers to keep your game in some way, even if it's only to a standard where you or a community could reasonably repair the game and share that solution.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.851874Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585651.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585651",
+    "chunks_doc_id": "F3585651",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585651.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588269",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:55Z",
+    "finished_at": "2026-04-14T13:23:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The ability for a game to be shut down by its developer and permanently removed from the customer is not consumer friendly and robs the consumer of their right of ownership."
+              },
+              {
+                "quote": "Many games have been killed due to having online functionality or no end of life plan which ended up with thousands if not millions of customers losing their product for very little reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22789,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly support the spirit and aims of this initiative. Consumer protection law is necessary and the areas this act seeks to extend those protections to are in need of such protections. As such, along with the hundreds of other people recommending this, it is worth considering adding the policies from Stop Killing Games into this Act. Simply put, it is the right of the consumer to own the product they have bought, even if the product is digital and not physical. The ability for a game to be shut down by its developer and permanently removed from the customer is not consumer friendly and robs the consumer of their right of ownership. Many games have been killed due to having online functionality or no end of life plan which ended up with thousands if not millions of customers losing their product for very little reason. It is also irrational to expect or demand a developer work on software forever so it always works or always keep a server online, which is why a mandatory end of life plan should exist so people can keep enjoying these experiences or at least have the right to modify the products to work on modern hardware and software so that these pieces of art aren't lost to history. This is as much an issue of consumer rights as it is of archiving interactive art, and additional protections in this field would be a great boon to all parties.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.635513Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588269.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588269",
+    "chunks_doc_id": "F3588269",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588269.clean.paragraph.json"
+}

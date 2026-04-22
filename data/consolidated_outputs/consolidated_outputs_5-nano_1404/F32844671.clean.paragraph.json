@@ -1,0 +1,71 @@
+{
+  "doc_id": "F32844671",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:27:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Advertising-driven Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The excuse being that youtube makes this is the demand of advertising companies who do not want to be associated with shocking things."
+              },
+              {
+                "quote": "it removes or concealed real and historical facts, or reduces its gravity by forcing it to use uncensured terms: an example in English can no longer use the terms as killed, dead, creators using a less busy word but distorting the message, such as Un-lived in the place of killed/dead."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33281,
+          "unit_kind": "feedback"
+        },
+        "text": "I am worried about the increase in censorship on a good party of playful video media (including youtube) to the detriment of creators, but also on serious or historical topics. Video or chaine striker if they showed an archive image of the Second War, or the use of certain words as holocauste.The excuse being that youtube makes this is the demand of advertising companies who do not want to be associated with shocking things. In doing so, however, it removes or concealed real and historical facts, or reduces its gravity by forcing it to use uncensured terms: an example in English can no longer use the terms as killed, dead, creators using a less busy word but distorting the message, such as Un-lived in the place of killed/dead. In addition, platforms always leave the terms of censorship as vague as possible, and coupled with AI that scans and erases old content, with or without a solution for authors to protect or challenge themselves, this is detrimental to creativity but to important information-sharing. Unable to talk about sexual assault or trauma, including on other platforms as reconfirmed, further isolating victims",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.439803Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844671.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844671",
+    "chunks_doc_id": "F32844671",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

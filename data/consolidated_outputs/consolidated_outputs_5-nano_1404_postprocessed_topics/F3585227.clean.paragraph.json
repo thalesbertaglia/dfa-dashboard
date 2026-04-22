@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585227",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:04Z",
+    "finished_at": "2026-04-14T12:23:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames' end-of-life policies"
+              },
+              {
+                "quote": "publishers/developers can shut down a videogame service, effectively rending said product or service unusable for the consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12585,
+          "unit_kind": "feedback"
+        },
+        "text": "This kinds of policies and laws are much needed, although late, to regulate unfair practices that consumers and digital users have to fight on a daily basis just to use online services and products. I think that is only logical to include videogames' end-of-life policies that ensure the ownership of said products for the consumers that buy them. Currently there are no policies that protect such purchases, which means that publishers/developers can shut down a videogame service, effectively rending said product or service unusable for the consumers. I'd like for this argument to be considered as an addendum to this act, which already covers (partially) videogames and similar digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.644997Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585227.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585227",
+    "chunks_doc_id": "F3585227",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585227.clean.paragraph.json"
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587262",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:18Z",
+    "finished_at": "2026-04-14T13:14:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark patterns: Deliberately manipulative design using dark patterns should be illegal."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Lootboxes/Gatcha elements"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This allows companies to shut down those servers and thus take away access to these games from the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24268,
+          "unit_kind": "feedback"
+        },
+        "text": "Dark patterns: Deliberately manipulative design using dark patterns should be illegal. It targets less savy users (children/older people with less digital experience) and tries to take money from them. Addictive design of digital products: Addictive patterns (Lootboxes/Gatcha elements) prey on the people in the games audience prone to things like gambling addiction to maximise profits. This is not a way that in my opinion artistic media should be used. Gatcha games in particular also prey on the loneliness of modern people by marketing characters you can obtain via lottery with advertising which creates a parasocial relationship with the characters. For these reasons I think these types of content should be more strongly controlled. Video game access and ownership: A lot of modern video games and digital media require a connection to the internet. Sometimes for valid, but also often for spurious reasons. This allows companies to shut down those servers and thus take away access to these games from the consumer. Not only is this practice unfair to individual consumers, but it also undermines the very concept of digital ownership. If a game is sold to me as a consumer, I expect to have some control and yet the control over the game is fully in the publishers (not the creators) hand. A lot of work by talented people will never be seen by future generations and from a preservation (history) perspective these games may as well never have existed. This goes against the idea that games or in general creations made by human beings are an expression of self and thus have intrinsic value. Even for games and services that require online connections, there are methods to ensure preservation, like releasing server binaries for example, which allow users to host their own smaller scale servers for these games. These solutions are relatively inexpensive and the only reason companies do not want them is (in my opinion) because they fear competition from their own previous products. Companies having complete control over the lifetime and way games are playable is unnecessary for a free market and harms consumers in an unwarranted way. The current relation is entirely to the detriment of the consumer and the artistic expression of human beings. It is never made fully and obviously clear to the consumer that the ability to play the game they bought can be taken away at a moments notice and that the thing they are buying will have absolutely no value in the future. This did not use to be the case as older games, that still came as physical media, have in fact increased in value over time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.486821Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587262.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587262",
+    "chunks_doc_id": "F3587262",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587262.clean.paragraph.json"
+}

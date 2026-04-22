@@ -1,0 +1,74 @@
+{
+  "doc_id": "F33095902",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:22:44Z",
+    "finished_at": "2026-04-14T10:23:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to request that the EU give protections for video games from being destroyed."
+              },
+              {
+                "quote": "Ubisoft shut down the video game \"The Crew\", leaving it unplayable until a recent fan effort brought it back."
+              },
+              {
+                "quote": "they recently added an offline mode to \"The Crew 2\","
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22146,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request that the EU give protections for video games from being destroyed. As many already have been and many more are at risk. From personal experience, I haven't had a game I owned destroyed, but that's because I avoid games that rely on being always online, which is a shame since there have been titles that I've wanted to support but didn't since I knew one day me and many others would lose access to it. And despite what game companies say, it can be done. Ubisoft shut down the video game \"The Crew\", leaving it unplayable until a recent fan effort brought it back. But with \"The Crew 2\", in response to the growing Stop Killing Games initiative, they recently added an offline mode to \"The Crew 2\", showing that they could have also done the same for \"The Crew\", but chose to revoke peoples access to a game that they had already sold to them. This is all a shame since video games are an art form, an art form that should be preserved, and people should have the peace of mind that the art they buy won't eventually be rendered inaccessible to them because companies didn't think it would be worth it to preserve their own creations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.796559Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095902.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095902",
+    "chunks_doc_id": "F33095902",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

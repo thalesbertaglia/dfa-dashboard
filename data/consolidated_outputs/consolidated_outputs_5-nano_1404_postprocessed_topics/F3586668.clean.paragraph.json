@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3586668",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:25Z",
+    "finished_at": "2026-04-14T13:02:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hiding the fact that they are selling licenses only in the fine print"
+              },
+              {
+                "quote": "Publishers justify this with forcing us to agree to EULA terms that do often do not hold up to the scrutiny of the law."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are games whose publishers and developers have long gone bankrupt, that are still played to this day."
+              },
+              {
+                "quote": "The answer is private servers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers justify this with forcing us to agree to EULA terms that do often do not hold up to the scrutiny of the law."
+              },
+              {
+                "quote": "hiding the fact that they are selling licenses only in the fine print"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37417,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome this proposal whole heartedly and would like to add, as others have suggested a consumer protection measure for ownership of digital goods. Buying means owning a product, but with digital goods we are in the situation that we usually purchase licenses to get access to the product, which can revoked at point. Publishers justify this with forcing us to agree to EULA terms that do often do not hold up to the scrutiny of the law. Still publishers are allowed to call this act \"buying\", hiding the fact that they are selling licenses only in the fine print and now Ubisoft even tells people that they should get used to no longer owning games. This treatment is beyond unfair. You pay 40 - 80 for a game that can be manually disabled by the publisher at any point, without warning and without any chance to get a refund. Now, I want to address the claim by a certain lobby group that we consumers want the impossible, that somehow keeping games accessible would cost them too much. This claim is completely false. There are games whose publishers and developers have long gone bankrupt, that are still played to this day. The answer is private servers. These have been a thing since before public servers even. All developers have to do is give consumers a way to host private servers and then not manually destroy the game like they currently do. This gives them absolutely zero additional running costs. Thank you for your consideration. With kind regards, a concerned citizen.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.313998Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586668.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586668",
+    "chunks_doc_id": "F3586668",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586668.clean.paragraph.json"
+}

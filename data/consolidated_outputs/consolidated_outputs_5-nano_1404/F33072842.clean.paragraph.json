@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33072842",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:06Z",
+    "finished_at": "2026-04-14T09:29:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutting online-only games down while providing no option to access legally owned copy of the code/game (this is a separate issue, see below)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Secondly, the videogames are no longer definable by standard use of product (buying) or license (rental of the code, developers are not following the rules to define the \"videogame\" as license like the rental period)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24914,
+          "unit_kind": "feedback"
+        },
+        "text": "The Game Studios and Developers are actively trying to twist and subvert the Copyright laws to suit them in the originally unintended ways. One of the forms is shutting online-only games down while providing no option to access legally owned copy of the code/game (this is a separate issue, see below). Thus, the product becomes defunct despite being paid for (planned obsolescence), which at the very least circumvents the Directive 2024/825 \"Right to repair\". Secondly, the videogames are no longer definable by standard use of product (buying) or license (rental of the code, developers are not following the rules to define the \"videogame\" as license like the rental period). This issue needs to be addressed as well, as currently it creates law limbo, where anyone can claim whatever is the most benefitial for that party.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.506304Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33072842.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33072842",
+    "chunks_doc_id": "F33072842",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

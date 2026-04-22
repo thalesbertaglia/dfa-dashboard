@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586982",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:23Z",
+    "finished_at": "2026-04-14T13:07:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "internal policies or vague risk assessments."
+              },
+              {
+                "quote": "block digital storefronts from processing transactions"
+              },
+              {
+                "quote": "an unfair barrier to the digital single market."
+              },
+              {
+                "quote": "There should also be a requirement for transparency and a path to appeal decisions that seem arbitrary or unjustified."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29346,
+          "unit_kind": "feedback"
+        },
+        "text": "Subject: Concern about Payment Providers Blocking Legal Digital Content Dear policymakers, As a concerned EU citizen and consumer, Id like to raise an issue I hope youll consider in the upcoming Digital Fairness Act. Right now, payment providers can block digital storefronts from processing transactions simply because they carry content that the provider personally considers risky or controversialeven if that content is fully legal under EU law. This kind of financial gatekeeping has serious consequences. It allows private companies to decide what kind of lawful content can or cant exist online, not based on legal standards, but on internal policies or vague risk assessments. This especially hurts smaller platforms and independent creators who depend on fair access to payment services. Its a form of indirect censorship and an unfair barrier to the digital single market. I believe the EU should introduce rules that stop payment processors from cutting off services to legal digital storefronts unless theres a clear, lawful reason. There should also be a requirement for transparency and a path to appeal decisions that seem arbitrary or unjustified. Thanks for considering this",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.403258Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586982.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586982",
+    "chunks_doc_id": "F3586982",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586982.clean.paragraph.json"
+}

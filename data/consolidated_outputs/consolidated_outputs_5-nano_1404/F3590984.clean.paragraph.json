@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3590984",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:20Z",
+    "finished_at": "2026-04-14T13:34:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Transparent Limitations",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The product clearly states in advance if it will stop functioning after a specific date or time frame."
+              }
+            ]
+          },
+          {
+            "topic": "Ongoing Usability",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The product continues to operate on the original platform for which it was made, even if that platform is later retired (with no expectation of updates for newer platforms)."
+              }
+            ]
+          },
+          {
+            "topic": "End-of-life Openness",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The products source code is released when it reaches the end of its supported life."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21808,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that digital products I buy should be treated in the same way as physical products. In practice, this means they should meet at least one of these criteria: Transparent limitations The product clearly states in advance if it will stop functioning after a specific date or time frame. Ongoing usability The product continues to operate on the original platform for which it was made, even if that platform is later retired (with no expectation of updates for newer platforms). End-of-life openness The products source code is released when it reaches the end of its supported life.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.842940Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590984.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590984",
+    "chunks_doc_id": "F3590984",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

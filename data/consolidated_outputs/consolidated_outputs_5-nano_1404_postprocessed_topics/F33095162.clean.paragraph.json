@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33095162",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:51:46Z",
+    "finished_at": "2026-04-14T09:52:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Developer Verification Requirement",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google plans to break the spirit of the Digital Markets Act by forcing app developers to verify themselves, same as in the Google Play Store."
+              }
+            ]
+          },
+          {
+            "topic": "Privacy",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This also threatens privacy by making data leaks more devastating, because all data used to verify developers is stored on Google servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16159,
+          "unit_kind": "feedback"
+        },
+        "text": "Google plans to break the spirit of the Digital Markets Act by forcing app developers to verify themselves, same as in the Google Play Store. This circumvents the Digital Markets Act's purpose of allowing apps outside Google's control, since this verification requirement effectively turns the whole internet into the Google Play Store. This also threatens privacy by making data leaks more devastating, because all data used to verify developers is stored on Google servers. Details: https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html; https://www.change.org/p/stop-companies-and-carriers-from-blocking-bootloader-of-android-devices-and-improve-the-os ==Deutsche Version / German version== Google plant, den Sinn des Gesetz über Digitale Märkte zu zerstören, indem sie App-Entwickler dazu zwingen, sich genau wie im Google Play Store zu verifizieren. Das umgeht den Sinn des Gesetz über Digitale Märkte, Apps außerhalb Google's Kontrolle zu ermöglichen, indem es praktisch das ganze Internet in den Google Play Store verwandelt. Das gefährdet auch die Privstsphäre, indem es Datenlecks katastrophaler macht, weil alle Daten zur Verifikation der Entwickler auf Google-Servern gespeichert sind. Details: https://f-droid.org/de/2025/09/29/google-developer-registration-decree.html; (Auf Englisch:) https://www.change.org/p/stop-companies-and-carriers-from-blocking-bootloader-of-android-devices-and-improve-the-os",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.690009Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095162.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095162",
+    "chunks_doc_id": "F33095162",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095162.clean.paragraph.json"
+}

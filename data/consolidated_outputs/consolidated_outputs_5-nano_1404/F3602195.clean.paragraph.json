@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3602195",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:55Z",
+    "finished_at": "2026-04-14T13:41:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've been playing video games since I was very young, and no matter the game, I always found comfort in knowing that when I bought a game, I could play it whenever and however I wanted."
+              },
+              {
+                "quote": "with some even saying that 'gamers should get comfortable with not owning their games.'"
+              },
+              {
+                "quote": "No one should have to fear losing the games they've already paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23265,
+          "unit_kind": "feedback"
+        },
+        "text": "I've been playing video games since I was very young, and no matter the game, I always found comfort in knowing that when I bought a game, I could play it whenever and however I wanted. Unfortunately, that sense of security has become a mirage.Many game publishers now neglect consumer rights in pursuit of profit, with some even saying that 'gamers should get comfortable with not owning their games.' I find that deeply alarming. It means no game is truly safe, any title we own could vanish overnight. Sadly, this isn't just a hypothesis. Millions of people, including myself, have already experienced or are on the verge of experiencing the pain of permanently losing games we've purchased. I have bought countless games that have either completely shut down or lack any end-of-life plan, which is incredibly frustrating. We need stronger protections for gamers and our digital rights. No one should have to fear losing the games they've already paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.990372Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3602195.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3602195",
+    "chunks_doc_id": "F3602195",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

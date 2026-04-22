@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586255",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:59Z",
+    "finished_at": "2026-04-14T12:52:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "4. Digital games should be included in the protection, mentioned in previous points."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Software which stops working after a period of time should be clearly labelled as subscription-based."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "1. Warranty, digital purchases should benefit warranty period the same as physical purchases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31729,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, The digital market has increased over the years and it has become as important in our lifes as much as physical products, as such I believe it's important to treat them as physical products purchases. I think this is a step forward in protecting people's rights to their digital purchases since we are paying with physical money and salute the initiative. I also think that more can be done to protect our rights as consumers of software: 1. Warranty, digital purchases should benefit warranty period the same as physical purchases. 2. The software should work on the platforms where they were released, even after the product is no longer developed. What I mean by this is that if a product was released for let's say Windows 11/Android 15/IOS 24/etc, the owner of the purchase should be able to run the software on those respective platforms even after the product is no longer in active development and past warranty. 3. Software which stops working after a period of time should be clearly labelled as subscription-based. This is most prelevant in digital games, where publishers/developers sold their games as a standalone products, yet they never marketed the purchases as subscriptions. This means that people who bought the games, lose their purchases after the support ends. There are easy, low-cost, solutions to allow software to operate post-development/warranty period without developer's support. 4. Digital games should be included in the protection, mentioned in previous points. 5. Payment processors should not dictate (discriminate) what we can and cannot purchase online, as long as the products contain legal content. Thank you for taking the necessary steps to protect EU citisens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.178316Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586255.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586255",
+    "chunks_doc_id": "F3586255",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

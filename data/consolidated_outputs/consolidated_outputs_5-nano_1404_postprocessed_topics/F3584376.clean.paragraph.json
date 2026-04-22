@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584376",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:33Z",
+    "finished_at": "2026-04-14T11:57:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "These licenses can be revoked, games can be pulled offline"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We often don't buy a product, but merely a license to use it."
+              },
+              {
+                "quote": "There needs to be a clear legal framework ensuring that when we buy digital content, we have a lasting guarantee of use, similar to owning physical goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45042,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Commission, I'm writing to voice my strong concerns about digital product ownership, especially concerning video games, as part of the Digital Fairness Act initiative. In the past, when we bought games on physical media like CDs or DVDs, we truly owned them. This gave us the security of knowing we could keep and play our games indefinitely, regardless of the publisher's fate. Today, this has drastically changed. We often don't buy a product, but merely a license to use it. This means that despite paying full price, we aren't the actual owners. These licenses can be revoked, games can be pulled offline, and platforms might suddenly end support, making our \"purchased\" games inaccessible. This creates immense uncertainty for consumers and leads to the loss of significant time and money invested. It's crucial that the Digital Fairness Act addresses this vulnerability. Consumers must be protected from losing digital content after purchase. There needs to be a clear legal framework ensuring that when we buy digital content, we have a lasting guarantee of use, similar to owning physical goods. Please consider mechanisms to prevent consumers from unknowingly losing rights or being coerced into actions that harm their digital ownership. Transparency and clear, irreversible ownership rights are essential for a fair digital market. Thank you for your attention to this critical issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.204197Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584376.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584376",
+    "chunks_doc_id": "F3584376",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584376.clean.paragraph.json"
+}

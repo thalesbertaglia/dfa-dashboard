@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587366",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:31Z",
+    "finished_at": "2026-04-14T13:15:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers are even known to revoke the digital licenses of users, without even providing any refunds, essentially committing theft."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27138,
+          "unit_kind": "feedback"
+        },
+        "text": "The Act covers several important issues that have had severe negative effects across the internet which is a very good think to regulate, however, i think that there should also be regulations implemented for another major issue, particularly in the video game industry. There is a major issue where publisher release games that rely on their servers or have Digital Rights Management systems that don't always run forever, eventually these games often are shut down without the publisher or developer having an end of life plan, like for example: releasing the tools and software to host community servers for the game, and they often just shut it down outright, taking it away from users who paid for the game and should have the right to own it. Publishers are even known to revoke the digital licenses of users, without even providing any refunds, essentially committing theft. This issue needs to stop as it normalises the concept that buying isnt owning. This issue has been brought forward by the \"Stop Destroying Videogames\" European Citizens Initiative that has successfully collected 1.4 million signatures from within the EU, showing that the people of the European Union demand change for these business malpractices. In Short: I recommend the bill be revised to also cover the issue of Publishers destroying copies of Video Games that customers have bought and should have the right to own.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.507466Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587366.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587366",
+    "chunks_doc_id": "F3587366",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

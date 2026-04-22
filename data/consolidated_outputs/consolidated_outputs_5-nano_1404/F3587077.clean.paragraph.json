@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3587077",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:31Z",
+    "finished_at": "2026-04-14T13:09:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are hundreds of games that are no longer playable despite customers having bought and own a copy of said game."
+              },
+              {
+                "quote": "Even if you are not someone who plays video games yourself, I hope you realize how absurd it is that companies can render a product you bought inoperable for any reason what so ever."
+              },
+              {
+                "quote": "If you buy a product, you should own that product. The company that owns the IP should have no right to break or take away that product from you."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17109,
+          "unit_kind": "feedback"
+        },
+        "text": "You may have already received many similar feedback comments to this initiative as mine. I also would like to add my voice to the pile: Please do consider protecting video games. There are hundreds of games that are no longer playable despite customers having bought and own a copy of said game. Imagine not being able to watch a movie you bought simply because the studio who owns the rights said \"no\". This is what has been happening to many games. Even if you are not someone who plays video games yourself, I hope you realize how absurd it is that companies can render a product you bought inoperable for any reason what so ever. If you buy a product, you should own that product. The company that owns the IP should have no right to break or take away that product from you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.427047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587077.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587077",
+    "chunks_doc_id": "F3587077",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

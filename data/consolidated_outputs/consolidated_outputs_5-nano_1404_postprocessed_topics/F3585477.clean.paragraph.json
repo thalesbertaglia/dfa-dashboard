@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585477",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:36Z",
+    "finished_at": "2026-04-14T12:28:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gaming industry is increasingly using non-consumer-friendly and sometimes exploitative practices."
+              },
+              {
+                "quote": "Examples are the withdrawal of access to games that have already been purchased by switching off servers or the compulsory system of different virtual currencies, which deliberately avoids a 1:1 conversion into real money, for example for the purchase of digital items such as clothes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16978,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to kindly ask for video games to be explicitly taken into account in the legal act. The gaming industry is increasingly using non-consumer-friendly and sometimes exploitative practices. Examples are the withdrawal of access to games that have already been purchased by switching off servers or the compulsory system of different virtual currencies, which deliberately avoids a 1:1 conversion into real money, for example for the purchase of digital items such as clothes. Such practices put consumers at a disadvantage and should be regulated by law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.762843Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585477.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585477",
+    "chunks_doc_id": "F3585477",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585477.clean.paragraph.json"
+}

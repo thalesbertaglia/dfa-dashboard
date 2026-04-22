@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3591614",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:18Z",
+    "finished_at": "2026-04-14T13:36:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays, many companies buy video games from consumers with the false impression of obtaining a copy of the purchased game if, in reality, only one licence is often acquired which can be withdrawn again."
+              },
+              {
+                "quote": "Essential foundations about the nature of the purchase are hidden in usage agreements to influence purchasing behaviour."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9907,
+          "unit_kind": "feedback"
+        },
+        "text": "In the cream of this legislative proposal, I would like to draw attention to another method of (in my view) manipulative actions in the digital sphere and ask whether additional consumer protection measures are included in the legislative proposal. Nowadays, many companies buy video games from consumers with the false impression of obtaining a copy of the purchased game if, in reality, only one licence is often acquired which can be withdrawn again. This manipulative behaviour can make it possible for buyers to feel that their private property is wrongly deprived of them by the seller, as the buyer is often not made aware of what exactly is bought at all at the time of purchase. Essential foundations about the nature of the purchase are hidden in usage agreements to influence purchasing behaviour. Possible proposals to prevent this deceptive approach can be found, inter alia, in the EU citizens’ initiative entitled ‘Stop destroying videogames’ ECI(2024)000007, which has collected over 1.4 million signatures of EU citizens at the present time. I would kindly ask for some of the proposals of the initiative to be included in the legislative proposal. Thank you and best wishes.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.883099Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591614.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591614",
+    "chunks_doc_id": "F3591614",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

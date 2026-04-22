@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586113",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:18Z",
+    "finished_at": "2026-04-14T12:47:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being destroyed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19955,
+          "unit_kind": "feedback"
+        },
+        "text": "We need protections against video games being destroyed (servers shutting down, anti-piracy software (DRM) issues, etc.) which have already been sold to customers. Hundreds of games have been rendered unplayable already, and there are hundreds of more games that are going to meet the same fate. Some sooner than later. There's a list of such games and those which are at risk at stopkillinggames dot wiki dot gg under the article titled \"Dead game list\". As you will notice, many of the \"Dead\" and \"At risk\" games are published by billion dollar publishers such as Ubisoft, Bandai Namco, etc. There is a clear tendency for these bigger companies to favor profit over respecting and honoring customer rights. The citizen initiative \"Stop Destroying Videogames\" already has over a million EU citizens expressing support for protecting video games from being destroyed. This is no different from, say, rights for maternal leave and human rights. People are paying full price only to have their games taken away from them. This is an issue that has been going on for a decade or more, and the law must catch up quickly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.098075Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586113.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586113",
+    "chunks_doc_id": "F3586113",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

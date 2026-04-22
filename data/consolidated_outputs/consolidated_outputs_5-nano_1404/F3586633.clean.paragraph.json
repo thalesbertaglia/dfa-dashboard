@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586633",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:45Z",
+    "finished_at": "2026-04-14T13:01:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prevent common payment processors, such as Paypal, Visa or Mastercard, from refusing to provide transaction services to online entities (such as service providers, online vendors, or other such entities)."
+              },
+              {
+                "quote": "Payment processors should not have a unilateral ability to refuse services to online entities, as this gives them the unique power to destroy the livelihood of individuals or businesses that are reliant on online transactions to survive and function."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Second would be preventing video game publishers from preventing or destroying access to a game that has been payed for."
+              },
+              {
+                "quote": "Customers that have bought a product, video game, before the publisher decided to stop supporting and/or selling the game, should still be able to access the product they have paid for, even after end of support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28011,
+          "unit_kind": "feedback"
+        },
+        "text": "There are two issues I would like the Digital Fairness Act to include. First would be to prevent common payment processors, such as Paypal, Visa or Mastercard, from refusing to provide transaction services to online entities (such as service providers, online vendors, or other such entities). These payment processors should only be allowed to censor and/or refuse to provide service to entities online if said entities are either breaking the law, or if requested to do so by a government. Payment processors should not have a unilateral ability to refuse services to online entities, as this gives them the unique power to destroy the livelihood of individuals or businesses that are reliant on online transactions to survive and function. This power should exist solely within the purview of a government. Second would be preventing video game publishers from preventing or destroying access to a game that has been payed for. Customers that have bought a product, video game, before the publisher decided to stop supporting and/or selling the game, should still be able to access the product they have paid for, even after end of support. These publishers should not be required to support these products indefinitely, as it is their right to stop support at any time, but they should be required to make sure that once they decided to step away from the product that they have sold to customers, that the product is in a functional state that can be accessed and used by said customers without its functionality being reliant on the publisher or developer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.303756Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586633.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586633",
+    "chunks_doc_id": "F3586633",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

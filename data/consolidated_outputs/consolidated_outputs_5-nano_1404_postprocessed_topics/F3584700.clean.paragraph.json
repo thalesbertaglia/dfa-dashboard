@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584700",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:53Z",
+    "finished_at": "2026-04-14T12:08:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Under addictive design in video games, the following are common practices that deserve to be addressed:"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Finally, I believe the initiative should expand to also prevent the unfair practice where games are advertised as goods when sold, but then claimed to be licenses when the company wishes to stop support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 107195,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a great initiative. Under addictive design in video games, the following are common practices that deserve to be addressed: 1) \"Gacha games\": These games are literally built entirely around a gambling mechanic, where players must make repeated attempts to earn a desired character by \"pulling\" or \"wishing\" on a \"banner\", which then randomly grants one of a set of potential characters or other items, with more desirable characters having a lower chance. Real currency can be spent to gain digital currency that can be used to get more \"pulls\" or \"wishes, and this is the primary earning model for these games, which are thus entirely designed around baiting players into making as many of these pulls as possible, as recurrently as possible. Currency to \"pull\" can be earned through gameplay, but at a slow pace, and most \"banners\" are temporary. Together, users face the real possibility that a banner will expire before they can play enough to gain the desired character(s), using Fear Of Missing Out (FOMO) to instill urgency in the consumer, intentionally putting the more desirable characters out of reach of all but the most dedicated players... or the ones seduced in spending more to roll the banner slot machine more. This practice is already classified as illegal gambling in some EU countries, such as Belgium. Belgian law could serve as a model for wider EU adoption. 2) \"Lootboxes\": Similar to gacha, in that players earn lootboxes that contain a random digital item, with the more desirable ones being more rare. Many of the problems with gacha apply to this model as well. Just like with gacha, players usually can gain a small amount of lootboxes to get a \"taste\" for it, but must spend real money to get enough boxes to get reasonable odds at gaining the most desirable items. This practice is already classified as illegal gambling in some EU countries, such as Belgium. Belgian law could serve as a model for wider EU adoption. 3) \"Battle pass\": This is a system where a player must spend real-world currency to unlock a \"battle pass\", which contains a reward track for digital items. Usually, the battle pass lasts only up until a specific date, acting as a sort of timed event. Often, the battle pass can be progressed at a slower rate by those who do not buy it, but only some of the rewards at each \"level\" of the progression track can be earned without buying the pass. By playing the game, the player progresses along the reward track, unlocking the deterministic rewards along the track. Because the battle pass is limited in time, and one must generally purchase it at the onset to progress fast enough, the player is pushed to play as much as possible in order not to \"waste\" the investment, driving addictive behavior. Allowing players to progress the battle pass slowly without buying it, while perhaps initially appearing altruistic, is another psychological trap for the player: the player builds up \"potential\" rewards, causing a psychological effect where the players feels they must buy the battle pass in order not to \"lose\" the items they have progressed the battle pass far enough to obtain, but which they cannot receive until they pay. When they do pay, they are caught in the same addictive loop, urging them to keep playing to \"finish\" the pass. In addition, most battle passes give partial credit towards buying the next battle pass, psychologically influencing the player to buy the next battle pass, and continue the addictive loop. Finally, I believe the initiative should expand to also prevent the unfair practice where games are advertised as goods when sold, but then claimed to be licenses when the company wishes to stop support. The EU citizen initiative \"Stop Destroying Videogames\" gathered over 1 million signatures to stop this practice, amongst others. This uneven balance of rights and obligations between consumer and company should be addressed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.361745Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584700.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584700",
+    "chunks_doc_id": "F3584700",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584700.clean.paragraph.json"
+}

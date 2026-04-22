@@ -1,0 +1,132 @@
+{
+  "doc_id": "F33090945",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:32:42Z",
+    "finished_at": "2026-04-14T09:33:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deception and companies taking away user choice."
+              },
+              {
+                "quote": "Forcing people to use a boring chronological feed is a bad idea."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Custom amount options for buying in game currency."
+              },
+              {
+                "quote": "Random items (not just for games, also stores like Temu) you need to spend real money on should be treated as gambling even if you can't sell them to another person."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ban cancellation fees like what Adobe is doing with their \"paid monthly but it's actually for a year\" scam and enforce one click cancel for all subscriptions."
+              },
+              {
+                "quote": "No auto renew at a higher price or after a free trial without asking the user."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Bring back ownership for software, a one time purchase should mean you actually own a copy and the publisher can't just take away your license."
+              },
+              {
+                "quote": "If you buy something that depends on online services the publisher has to release server software before they shut down the official service."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Zero personalized pricing unless its a discount from a clear base price."
+              },
+              {
+                "quote": "About addictive and personalized features, there should always be an option to disable them but NOT an outright ban even if it's just for minors."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Enforce sponsorship disclosure for everybody."
+              },
+              {
+                "quote": "Anybody who runs hidden ads should be forced to edit their content to disclose them properly instead of just removing it like nothing happened."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56999,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the act should focus as hard as possible on deception and companies taking away user choice. Here's some areas you might want to look at first: - Put strict limits on dynamic pricing. There should always be a clear minimum and maximum with results based only on total demand, absolutely no discrimination like making women or iPhone users pay more. Zero personalized pricing unless its a discount from a clear base price. - Ban cancellation fees like what Adobe is doing with their \"paid monthly but it's actually for a year\" scam and enforce one click cancel for all subscriptions. No auto renew at a higher price or after a free trial without asking the user. - Bring back ownership for software, a one time purchase should mean you actually own a copy and the publisher can't just take away your license. If you buy something that depends on online services the publisher has to release server software before they shut down the official service. - Custom amount options for buying in game currency. A lot of publishers only let you get amounts like 400 or 900 when all the prices are multiples of 500, so you always end up paying more than the actual price. - Random items (not just for games, also stores like Temu) you need to spend real money on should be treated as gambling even if you can't sell them to another person. If there's a reasonable unlimited way to earn spins and money is just a shortcut that's not gambling. - Enforce sponsorship disclosure for everybody. It's not just influencers, legacy media is also guilty of this. I don't support a total ban on selling harmful products just some kind of warning label. Anybody who runs hidden ads should be forced to edit their content to disclose them properly instead of just removing it like nothing happened. Both the sponsor and creator pay a big fine. About addictive and personalized features, there should always be an option to disable them but NOT an outright ban even if it's just for minors. Forcing people to use a boring chronological feed is a bad idea. The whole idea of DFA is giving back control to users not \"we protect you from yourself\", that's more like the exact opposite.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.571553Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33090945.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33090945",
+    "chunks_doc_id": "F33090945",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33090945.clean.paragraph.json"
+}

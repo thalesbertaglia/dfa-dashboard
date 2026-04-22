@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587802",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:56Z",
+    "finished_at": "2026-04-14T13:21:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when gambling is involved in a videogame"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the developer must provide a clear estimate for how long will the license be available"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22662,
+          "unit_kind": "feedback"
+        },
+        "text": "For all types of digital media, a marking system should be set to make a clear understanding of what the media offers, e.g. when gambling is involved in a videogame, that may not be clear by PEGI or similiar ratings only, so that the parents can make a decision if the media is appropriate to their children. Furthermore, as a part of that flagging system, it should be noted when the product sold is a type of license, for example a game license, and not a copy of the game, that is not dependent of the developer, who therefore no say about the functioning state of the game. The game works as it did when the product was bought and there is no need for the developer to maintain the game for it to function, if he does not want to continue to support the game. If the game is not a copy but a license to play the game, the developer must provide a clear estimate for how long will the license be available and make it playable as a standalone copy for end-of-life state. Many games have fallen victim to non-consumer practices of developers in the recent years, where developers ceased support for the games which left them in an unplayable state because of dependency on online servers provided by the developer. Most notable cases are games: Overwatch, The Crew, Splitgate.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.585789Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587802.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587802",
+    "chunks_doc_id": "F3587802",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587802.clean.paragraph.json"
+}

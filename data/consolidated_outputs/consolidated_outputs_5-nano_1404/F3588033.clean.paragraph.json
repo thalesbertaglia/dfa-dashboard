@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588033",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:58Z",
+    "finished_at": "2026-04-14T13:22:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "platforms like Steam and Itch.io to restrict access to legal, age-gated content"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unregulated financial intermediaries are gatekeeping entire categories of lawful digital expression without oversight or due process"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27840,
+          "unit_kind": "feedback"
+        },
+        "text": "Recently, payment processors have been accused of quietly pressuring platforms like Steam and Itch.io to restrict access to legal, age-gated content often without public accountability, clear standards, or user transparency. This has disproportionately affected: Japanese developers, especially those working in niche or adult-themed genres, LGBTQ+ creators, whose content is frequently misclassified as NSFW, Indie developers, including creators of award-winning or artistically daring games, And potentially even major titles that contain mature themes (e.g., Cyberpunk 2077, Baldurs Gate 3). This is not just a content moderation issue its a market access issue, where unregulated financial intermediaries are gatekeeping entire categories of lawful digital expression without oversight or due process. We request the following: End-of-life protections for digital games and services be included, and provisions be considered to prevent unchecked financial censorship by payment intermediaries in the digital goods ecosystem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.605713Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588033.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588033",
+    "chunks_doc_id": "F3588033",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

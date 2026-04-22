@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585159",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:32Z",
+    "finished_at": "2026-04-14T12:21:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Practices such as withholding access to a product - not a broad subscription but one named product based on online server based authentication systems even in products that do not use internet features."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "especially those selling video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers had nowhere to turn to when Ubisoft (a French based video game maker) added to their user agreement a point commanding people to destroy any copy of their product when they decide to no longer sell or support it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25841,
+          "unit_kind": "feedback"
+        },
+        "text": "While it is unfortunate we need to enforce concept of basic fairness with laws, digital space has shown companies will push their advantage until someone stops them. This issue became very clear to me when dealing with digital entertainment providers, especially those selling video games. Practices such as withholding access to a product - not a broad subscription but one named product based on online server based authentication systems even in products that do not use internet features. Worse yet these products will be made forever unusable once publisher decided to stop supporting the product to sell another one. You do not have to return a car you paid for to a factory to make you buy a new one. This issue is already being brought up by the Stop Killing Games citizens initiative. Consumers had nowhere to turn to when Ubisoft (a French based video game maker) added to their user agreement a point commanding people to destroy any copy of their product when they decide to no longer sell or support it. No one is asking people to burn their books or smash music records because that title is no longer being sold. It is hard to believe but these things are happening right now. There are entire websites dedicated just to keeping track of all digital titles being removed from one or all digital marketplaces, not always providing users with means of accessing content they paid for. I hope these practices can also fall under scope of digital fairness so we might enjoy digital works as esily as we can physical ones. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.618592Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585159.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585159",
+    "chunks_doc_id": "F3585159",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

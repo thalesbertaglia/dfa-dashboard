@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585102",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:06Z",
+    "finished_at": "2026-04-14T12:20:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as services without clear terms for any subscription or length of service."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a game called the Crew that was sold like a non-service product (though the ULA stated it was a service) was shut down with no ability for consumers to continue using the software that they payed for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Guaranteeing the right for the customer to run a viable product of any single purchase software sold without a time limit by, for example allowing the customer to host necessary server software, is a vital right in the current digital market."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19862,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am a citizen of Finland and I am in favour of the Digital Fairness Act, though in my opinion the act could do more for consumer rights of digital products. As it is currently many digital products are sold as services without clear terms for any subscription or length of service. In practise many digital goods are sold in a way that they can be disabled after purchase for the benefit of cutting end of life costs and selling potential new software. Though sellers of digital goods should have the right to end support for software, it must be done in a way that respects consumer rights. Guaranteeing the right for the customer to run a viable product of any single purchase software sold without a time limit by, for example allowing the customer to host necessary server software, is a vital right in the current digital market. For example a game called the Crew that was sold like a non-service product (though the ULA stated it was a service) was shut down with no ability for consumers to continue using the software that they payed for. Software companies are abusing the ability to shut down software consumers have bought and it is getting actively worse. I hope future software that needs an active online connection is required by law to either state clearly that it is a limited term rental or have an end of support plan to offer a viable product to consumers that have bought the software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.597029Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585102.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585102",
+    "chunks_doc_id": "F3585102",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585102.clean.paragraph.json"
+}

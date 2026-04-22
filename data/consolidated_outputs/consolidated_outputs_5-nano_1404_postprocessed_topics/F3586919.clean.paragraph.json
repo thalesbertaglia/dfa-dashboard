@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586919",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:55Z",
+    "finished_at": "2026-04-14T13:06:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games and destroying or rendering inoperative the video games already purchased by the game publisher, so that the EU citizen who bought the video game will no longer be able to play or use the game they buy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30809,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi. The Digital Fairness Act contains really important elements of the digital environment, which requires rules that everyone must comply with. However, one element is missing. Video games and destroying or rendering inoperative the video games already purchased by the game publisher, so that the EU citizen who bought the video game will no longer be able to play or use the game they buy. A good example is the Ubisoft game The Crew. The video game publishers have already destroyed hundreds of sold and purchased video games and will continue to do so in the future if this is not addressed and requires a so-called end of life plan for the game sold to the consumer to be played/usable by the publisher when it ceases to support his game. This is the European Citizens’ Initiative, which has already gathered more than 1.4 million signatures, called Stop Destroying Videogames, which, in my view, provides a good basis for implementing an end of life plan for video games. In this context, I would like to ask to add and take into account the efforts made by the publisher of the Video games to destroy a game that has already been sold to the consumer as unusable. Thank you for giving feedback on this presentation!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.382828Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586919.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586919",
+    "chunks_doc_id": "F3586919",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586919.clean.paragraph.json"
+}

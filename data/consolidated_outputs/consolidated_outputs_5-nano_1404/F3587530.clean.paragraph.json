@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587530",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:09Z",
+    "finished_at": "2026-04-14T13:18:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include video games as a full bought product after legal purchase by the consumer, and not a licence to be discarded."
+              },
+              {
+                "quote": "leave the game in a playable state forever and not kill it off by shutting it down after a certain amount time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14892,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Committee of the European Commission, I am reaching out to you with a request to include video games as a full bought product after legal purchase by the consumer, and not a licence to be discarded. or even as art to preserve it for researchers, devs and future generations to see and learn about our technological and cultural innovation , After a user paid the full money to own a video game by any company, said company should be required to leave the game in a playable state forever and not kill it off by shutting it down after a certain amount time, leaving the user with nothing. This request does not wish for companies to always keep their online servers running, if the game does include a multiplayer feature. I and many others merely request players to be given the ability to keep playing the game they legally purchased on their own compatible machine . Or, if the game requires a server connection, the ability for users to create their own server to keep playing after the company has moved on to other projects. This ever more common practice of taking away a piece of media owned by the consumer after the producer considers it unprofitable is a harsh violation against European consumer rights, as I hope you can see too! Thank you for the time and effort you put into democracy! I wish you best!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.538972Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587530.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587530",
+    "chunks_doc_id": "F3587530",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

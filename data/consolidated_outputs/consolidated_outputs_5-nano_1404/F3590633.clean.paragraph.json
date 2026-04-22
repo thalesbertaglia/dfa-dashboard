@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3590633",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:55Z",
+    "finished_at": "2026-04-14T13:34:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as multiple Terms of Service presently only grant a license to access said media"
+              },
+              {
+                "quote": "The act must protect the customer's right of media ownership."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processors' Influence On Game Platforms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "recent news of Mastercard/Visa's involvement in the management of video games on platforms such as Steam and itch.io represents a movement over their designated boundaries as transactional companies, further risking damages for the customers and their libraries."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25078,
+          "unit_kind": "feedback"
+        },
+        "text": "The act must protect the customer's right of media ownership. Based on Directive 93/13/EEC, video game publishers may have violated this legislation already as multiple Terms of Service presently only grant a license to access said media, thus preventing customers from retaining/repairing the product that can be pulled from storefronts/destroyed at any moment, the capacity for archival purposes being at risk. This is one of the clauses supported by the Stop Destroying Video Games Initiative that seeks to address this and represents a proper point of view. Not only this, but recent news of Mastercard/Visa's involvement in the management of video games on platforms such as Steam and itch.io represents a movement over their designated boundaries as transactional companies, further risking damages for the customers and their libraries. We require a concise, precise and loophole preventable system that should focus on the client's rights firstmostly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.835107Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590633.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590633",
+    "chunks_doc_id": "F3590633",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

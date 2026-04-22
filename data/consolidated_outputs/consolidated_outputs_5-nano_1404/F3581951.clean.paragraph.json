@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3581951",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:46:13Z",
+    "finished_at": "2026-04-14T11:46:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is by design by WhatsApp (a Meta company) to keep the user locked into the platform."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10554,
+          "unit_kind": "feedback"
+        },
+        "text": "There is a gap between the clear intention of the EU GDPR and the practical effect of the text, which is not adequately filled by the DMA and the DSA, specifically, that of \"controllerless processing\". A perfect example is the WhatsApp communication service. WhatsApp argue that it is the end-user citizen who is the data controller, and that WhatsApp are merely a processor; yet, by the design of the WhatsApp software, it is impossible for the user/citizen to fully extract from the WhatsApp software, despite the software and data residing on the user/citizen's own device (e.g. an Android mobile phone), the entirely of the user's data input into WhatsApp (chat text messages and attached photos and videos). This is by design by WhatsApp (a Meta company) to keep the user locked into the platform. (The DSA/DMA in theory require portability, but only when a competing messaging app is the conduit through which the user/citizen requests the portability). A Digital Fairness Act must explicitly fill this gap: All online services and their related software must facilitate, in a commonly used format, and easily for the user/citizen, the 100% complete exportation onto the user's chosen device, of all data/ chat/ text/ photos/ videos/ meda/ etc that the user has ever input into the software-and-or-service (and that the user has not explicitly deleted from the service, nor the service as part of its standard terms and conditions has deleted as a matter of routine). Note that this has been the subject of an excellent legal-academic paper by Alan Dahi and Marcelo Corrales Compagnucci \"Device manufacturers as controllers Expanding the concept of controllership in the GDPR\", published in Computer Law & Security Review 47 (2022) 105762, and is the subject of a still-pending-after-seven-years complaint that I filed with the Irish DPC against WhatsApp for violating various GDPR sections relating to access and portability (in which the DPC seems to favor WhatsApp's/Meta's undue influence vs. the clear intention of the GDPR).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.063455Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3581951.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3581951",
+    "chunks_doc_id": "F3581951",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

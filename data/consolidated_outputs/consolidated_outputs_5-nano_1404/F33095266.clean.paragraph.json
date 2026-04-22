@@ -1,0 +1,89 @@
+{
+  "doc_id": "F33095266",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:53:02Z",
+    "finished_at": "2026-04-14T09:53:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "-The end of the misuse of the term purchase in cases where product ownership is not guaranteed"
+              },
+              {
+                "quote": "A closer eye on violations to existing fairness laws for companies selling to Europe without being based here."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "-An end to abusive and psychologically designed to be addictive monetization methods including the introduction of overlapping systems made to confuse and obfuscate real money value of what is being spent."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers should be held accountable to provide the products customers paid for without arbitrary time restrictions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28669,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like assurance as to the following points when it comes ot practices around digital products : -The end of the misuse of the term purchase in cases where product ownership is not guaranteed -A guarantee that digital goods which have been purchased without a clear end date to be preserved moving forward, allowing myself to continue accessing what I paid for. -An end to abusive and psychologically designed to be addictive monetization methods including the introduction of overlapping systems made to confuse and obfuscate real money value of what is being spent. -A closer eye on violations to existing fairness laws for companies selling to Europe without being based here. As far as specifically the gaming space goes, publishers should be held accountable to provide the products customers paid for without arbitrary time restrictions caused by intentionally restrictive code architecture or overreliance on needlessly specific licensed solutions to easily solvable issues.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.698599Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095266.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095266",
+    "chunks_doc_id": "F33095266",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

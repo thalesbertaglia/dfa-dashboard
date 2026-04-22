@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586430",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:30Z",
+    "finished_at": "2026-04-14T12:56:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "First I would like games to be transparent."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I am not buying the game I am buying access to a service that can be interrupted at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21269,
+          "unit_kind": "feedback"
+        },
+        "text": "First I would like games to be transparent. If it is a game that works only online and it will be taken offline eventually, I want this to be clear at the moment of purchase. I am not buying the game I am buying access to a service that can be interrupted at any time. If i am buying a game I want to have access to that game even if the company is not supporting the game or is closed. I understand that some elements of the game do need maintenance or have cost associated with them and a company can't support this elements for eternity but I want them to have a plan for this case and when they stop support others could continue supporting it (fans, modders or other companies); or the game could go in a \"museum\" status where this elements are no longer active having just some place holders. For example if you have a race car game and the game needs a license for the use of the cars likeness. After the company will stop supporting they can change all the car skins to a no license skin. All I ask is for them to have a plan for stopping support that will allow us to play the game even after that moment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.240289Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586430.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586430",
+    "chunks_doc_id": "F3586430",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

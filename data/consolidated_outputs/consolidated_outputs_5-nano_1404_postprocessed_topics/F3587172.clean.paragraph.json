@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587172",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:28Z",
+    "finished_at": "2026-04-14T13:13:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers should not be able to block the use of games which people have bought"
+              },
+              {
+                "quote": "\"sunset\" shut down games"
+              },
+              {
+                "quote": "they should open it up so that users can support the game."
+              },
+              {
+                "quote": "For example, if steam could give users a patch so that a game can be used offline, and not require a link to their server."
+              }
+            ]
+          },
+          {
+            "topic": "ID Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "No biometric or digital ID or government ID should be required for using digital services or games which people have paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45855,
+          "unit_kind": "feedback"
+        },
+        "text": "Games, and other digital products, should continue to be available to people who bought them. Publishers should not be able to block the use of games which people have bought, eg if they don't agree with your politics, they should not be able to \"sunset\" shut down games. If they want to step away from a game title, stop providing a service, they should open it up so that users can support the game. For example, if steam could give users a patch so that a game can be used offline, and not require a link to their server. No biometric or digital ID or government ID should be required for using digital services or games which people have paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.459519Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587172.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587172",
+    "chunks_doc_id": "F3587172",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587172.clean.paragraph.json"
+}

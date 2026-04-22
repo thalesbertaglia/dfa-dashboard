@@ -1,0 +1,83 @@
+{
+  "doc_id": "F33095349",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:54:54Z",
+    "finished_at": "2026-04-14T09:55:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative design or unfair monetization."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "especially the games sector."
+              },
+              {
+                "quote": "Undermine the free-to-play model that has made European games accessible to millions of players;"
+              },
+              {
+                "quote": "The proposed treatment of in-game currencies and virtual tokens as financial transactions rather than digital content would fundamentally alter how games are designed and operated."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27735,
+          "unit_kind": "feedback"
+        },
+        "text": "Feedback on the proposed Digital Fairness Act: As a supporter of fair, transparent digital markets, I share the EUs goal of protecting consumersespecially minorsfrom manipulative design or unfair monetization. However, I am deeply concerned that the current framing of the Digital Fairness Act (DFA) risks producing unintended harm to Europes digital economy, especially the games sector. As many games industry leaders pointed out, the DFA could severely disrupt how many free-to-play games work. The proposed treatment of in-game currencies and virtual tokens as financial transactions rather than digital content would fundamentally alter how games are designed and operated. It would mean that each use of an in-game token might trigger the same compliance and consumer-protection requirements as a real-money purchaseadding unnecessary friction, complexity, and cost to what should be a seamless entertainment experience. Such an approach could: Undermine the free-to-play model that has made European games accessible to millions of players; Reduce player enjoyment by introducing repeated consent screens, euro-denominated price prompts, or constant parental authorization steps; Create heavy administrative burdens that smaller studios cannot absorb; Make Europe a less attractive place to build and publish games, pushing innovation elsewhere. These effects would not make the digital market fairerthey would make it slower, less creative, and less competitive globally. The aim of the DFA should be proportionality and clarity. Protect consumers, yesbut do so through targeted measures, not blanket reclassification of game mechanics that have been standard for decades. Virtual currencies are not financial instruments; they are part of a creative system that rewards progress and supports sustainable business models. I encourage the Commission to: Keep in-game currencies defined as digital content, not digital value. Engage deeply with European game developers and consumer-protection experts to find balanced solutions. Ensure regulation is evidence-based and reflects actual risks, not hypothetical worst-case scenarios. Avoid measures that inadvertently destroy Europes most successful creative export industries. Europes game sector is a global success story built on innovation, trust, and creative freedom. With thoughtful collaboration, its possible to protect players without dismantling the design foundations that make games work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.713606Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095349.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095349",
+    "chunks_doc_id": "F33095349",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3598359",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:39Z",
+    "finished_at": "2026-04-14T13:41:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a combination of at least 2 of these hurdles must be passed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20482,
+          "unit_kind": "feedback"
+        },
+        "text": "My wish is, to have a legislation for computer driven service hotlines for companies. Nearly all of the companies, where I am a client at the moment have a quiet annoying telephone service hotline. Before I get an human operator, to whom I can talk to, a combination of at least 2 of these hurdles must be passed: - An artificial intelligence to whom you should say a keyword what your concern is. The computer does not understand you very well - Some commercial advertisement about some of the companies products - A telephone computer where you go through a menu by dialing numbers on your telephones keypad - Some information where to get service on a webpage or FAQ - An annoying, repetive music for an average time of 25 minutes - which is mostly paused for some jingles or slogans of the company Sometimes after staying in the line for extensive period of time, a disconnection (hung up the phone) is initiated by the company. My suggestion to solve these problems would be, to give a legislation, so that EU citiziens do not waste their time. Just some ideas: - Getting to the final waiting queue may at most take 1 minute - The waiting queue should be silent except for a call of estimated waiting time in minutes, every minute - If the computer recognizes your phone number, it is offered, that you will be called back, when an operator is available or the call center is less busy",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.983274Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3598359.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3598359",
+    "chunks_doc_id": "F3598359",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3598359.clean.paragraph.json"
+}

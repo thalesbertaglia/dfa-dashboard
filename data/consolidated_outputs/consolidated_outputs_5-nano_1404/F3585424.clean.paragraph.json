@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585424",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:20Z",
+    "finished_at": "2026-04-14T12:27:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Similar to demonetization the practice of shadow banning needs to stop."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "What companies excuse with \"EULA\" is absolutely ridiculous these days."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20574,
+          "unit_kind": "feedback"
+        },
+        "text": "Currently, content platforms have absolut authority over their content. And this is good, it is as it should be. However what isn't good is if monetized content gets removed/demonetized without any transparency, due to negligence of automated systems or malicious parties, creating considerable irreparable unjust harm to the content creator. In those cases the content platform cannot be hold liable and always refers to third parties for damages. This needs to change, content creators need better protections and the first defense has to be the content platform itself. Currently those platforms have zero incentive to protect creators as they're able to simply defer any responsibility to the third-parties involved or outright ignore automated filter systems that go haywire. If content platforms can be hold liable, even just partially, for damages, they will be forced to improve content creator protections. Similar to demonetization the practice of shadow banning needs to stop. Shadow banning refers to the practice of making content/comments invisible for other users without deleting the content/comment itself. It is a vile practice that undermines free speech and the dignity of the creator of the content/comment. The removal of public content/comments needs to be handled transparent and with a clear detailed reason. A general token reason like \"violates our rules\" doesn't cut it and it needs to be specific which rule got broken. Only with transparent reasoning can the user react in order to improve his behavior and avoid mistakes. Sidenote: Also it is time that sold software gets viewed as a product and not as a license. What companies excuse with \"EULA\" is absolutely ridiculous these days.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.736065Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585424.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585424",
+    "chunks_doc_id": "F3585424",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

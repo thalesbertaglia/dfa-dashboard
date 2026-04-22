@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584334",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:24Z",
+    "finished_at": "2026-04-14T11:55:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "applying Digital Fairness Acts towards video games."
+              },
+              {
+                "quote": "Video games are often disregarded as something that aren't or shouldn't be covered by any fairness or consumer laws"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19654,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to bring your attention to applying Digital Fairness Acts towards video games. Video games are often disregarded as something that aren't or shouldn't be covered by any fairness or consumer laws, and recently video game publishers have taken great advantage of this. Consumers are literally losing access to product they have paid for, without warning, at the whim of the publishers. Moreover, there is no gaurantee that people who purchase video games are able to play them years after any sort of official support has ended for that game. Because whilst it'd be unreasonable to demand video game publishers to keep servers and services running indefinitely, it is reasonable that consumers should be able to access the base game, even if there are no official servers supporting players or new content. Video game publishers should be forced by law to include transparency for end-of-life plans and for them to at least investigate the possibility to release community tools for private citizens to keep servers and game content alive, even after the publishers have abandoned their video game. I, as many others here, kinly ask that you take a moment to consider strenthening and protecting EU consumer rights in regards to video games. With heartfelt regards, Martin Frotvedt",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.183320Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584334.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584334",
+    "chunks_doc_id": "F3584334",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

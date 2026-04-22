@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3655026",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:28Z",
+    "finished_at": "2026-04-14T13:43:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to gain access to personal information"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23101,
+          "unit_kind": "feedback"
+        },
+        "text": "1- on the phone that I bought I do what I want, not Google not Meta not anyone can tell me what to do. 2- Sideloading app is a way to move away from google and all those company that do not care for privacy. 3- Sideloading can be use to install Free and Open Source app. 4- People that use sideloading know what they are doing. 5- the Play Store if full of malicious app too, so google claiming if for safety and security is hypocritical. 6- now most attacks on phones and computers are in the form of Social Engineering done by scammers or others with bad intentions, to gain access to personal information (eg banking, social media, emails logins) to steal money, sell data, or to use a compromise device to commit frauds. Locking Android will not help. They can persuade you to install a remote connection app from the play store and they have full access to a device. 7- Safety and security come from education and knowledge.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.050137Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3655026.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3655026",
+    "chunks_doc_id": "F3655026",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

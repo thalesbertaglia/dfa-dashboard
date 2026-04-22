@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585346",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:40Z",
+    "finished_at": "2026-04-14T12:26:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games as an artform."
+              },
+              {
+                "quote": "games which I and many others have purchased being killed off and unplayable after we made that purchase"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "being purposefully made to connect to servers as a shady business practice."
+              },
+              {
+                "quote": "refuse to add an end of life plan or lock what traditionally never needed an internet connection"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31660,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am an EU citizen from Ireland and I would like to ask that consideration be given to protecting my own, and millions of others, consumer rights when it comes to video games as an artform. We have experienced countless incidents of games which I and many others have purchased being killed off and unplayable after we made that purchase because game companies refuse to add an end of life plan or lock what traditionally never needed an internet connection (the main game story which does not require server hosting and ran on discs like dvds traditionally without a required internet connection) being purposefully made to connect to servers as a shady business practice. This in effect made the copies of a game that myself and many other EU citizens own through purchasing, completely inaccessible with no recourse. It also is purposefully destroying a piece of art for the sake of profiteering. Thank you for reading, - A concerned EU citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.690859Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585346.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585346",
+    "chunks_doc_id": "F3585346",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585346.clean.paragraph.json"
+}

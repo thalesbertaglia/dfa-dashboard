@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584361",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:09Z",
+    "finished_at": "2026-04-14T11:56:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Imagine you had a favourite toy as a child, then someday someone shows up and takes it away because they don't want to produce or support it anymore."
+              },
+              {
+                "quote": "publishers cannot remove the products we have purchased,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21498,
+          "unit_kind": "feedback"
+        },
+        "text": "I have dual citizenship from a French backround living in Canada. Video Games are art, and it is a travesty for hundreds to thousands of hours of work to simply be forgotten because publishers wish us to simply move on to their next product. I humbly request that measures be taken to protect these works that are held dear to most who have grown up with them. Imagine you had a favourite toy as a child, then someday someone shows up and takes it away because they don't want to produce or support it anymore. This is unforgivable from a consumer and ethical standpoint given the amount of dollars we pay for each purchase. I humbly request that action be taken so that publishers cannot remove the products we have purchased, have put time into, and have an emotional attachment with.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.196718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584361.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584361",
+    "chunks_doc_id": "F3584361",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

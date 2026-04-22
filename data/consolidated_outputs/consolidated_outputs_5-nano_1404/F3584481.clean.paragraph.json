@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584481",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:22Z",
+    "finished_at": "2026-04-14T11:59:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please, expand this act to include protection from publishers destroying video games that the customer has already paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11136,
+          "unit_kind": "feedback"
+        },
+        "text": "Please, expand this act to include protection from publishers destroying video games that the customer has already paid for. It's a widespread and very anti-consumer practice where even when one owns a video game, the publisher can at any time, for any reason and with no prior warning disable it, rendering it it unusable with no option for refund, repair or any form of continued use. A myriad of games today are at risk of this. One I own for example is Helldivers 2, a game by made by Swedish studio Arrowhead and published by Sony. If support for it were to end today, I'd lose access to what I paid for, as the game has no end of life plan. The solution would be simple: force video game publishers to have a form of end of life plan for their video games, so that the consumers may continue to play them (even if without all features) after support has ended. I do not ask publishers to keep supporting their games forever, just to provide the means for customers to bring the game back into working order (for example, via private servers) or to leave it in a playable state.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.253833Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584481.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584481",
+    "chunks_doc_id": "F3584481",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

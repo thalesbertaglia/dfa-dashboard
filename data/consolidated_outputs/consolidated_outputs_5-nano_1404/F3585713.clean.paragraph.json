@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585713",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:31Z",
+    "finished_at": "2026-04-14T12:35:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of imposing subscription models and invasive marketing, which bind users to closed eco-systems, often to the detriment of their freedom of choice."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ‘Stop killing games’ initiative, which fights for consumer rights and resists similar commercial practices by large foreign companies in the European market."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41737,
+          "unit_kind": "feedback"
+        },
+        "text": "I consider it extremely important to emphasise the need to reduce the monopolisation of the digital market and to normalise the use of alternative solutions, such as Linux operating system instead of exclusive dependence on systems such as Windows and Microsoft Office packets. Particular attention should be paid to the risk of over-reliance on foreign corporations that often set high prices for basic technology, which should be accessible to all, especially when there are quality free alternatives. I also consider it necessary to review the practice of imposing subscription models and invasive marketing, which bind users to closed eco-systems, often to the detriment of their freedom of choice. In this context, it is also important to mention the ‘Stop killing games’ initiative, which fights for consumer rights and resists similar commercial practices by large foreign companies in the European market. I would kindly ask for my arguments to be taken into account and for the importance of protecting user rights and digital balance to be recognised, please welcome.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.884562Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585713.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585713",
+    "chunks_doc_id": "F3585713",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

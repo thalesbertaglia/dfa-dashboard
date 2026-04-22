@@ -1,0 +1,98 @@
+{
+  "doc_id": "F33095694",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:17:07Z",
+    "finished_at": "2026-04-14T10:17:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When I buy a game, it shouldnt be switched off later."
+              },
+              {
+                "quote": "Always-online and server kills take away what I paid for."
+              },
+              {
+                "quote": "Never brick a purchased game."
+              },
+              {
+                "quote": "If servers must close, keep the game playable offline or enable community servers."
+              },
+              {
+                "quote": "Treat shutdowns as non-conformity."
+              },
+              {
+                "quote": "If a game depends on servers, show it clearly and state how long support will last."
+              },
+              {
+                "quote": "Set a minimum support period (e.g., years from last EU sale) or a mandatory offline fallback at end-of-life."
+              },
+              {
+                "quote": "Consumers get repair (offline mode), replacement, or a refundautomatically."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "That feels like an unfair contract term and a clear lack of conformity: the product no longer does the basic thing it was sold to dobe playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46502,
+          "unit_kind": "feedback"
+        },
+        "text": "When I buy a game, it shouldnt be switched off later. Always-online and server kills take away what I paid for. That feels like an unfair contract term and a clear lack of conformity: the product no longer does the basic thing it was sold to dobe playable. Please close this loophole. Require publishers to: Never brick a purchased game. If servers must close, keep the game playable offline or enable community servers. Treat shutdowns as non-conformity. Consumers get repair (offline mode), replacement, or a refundautomatically. Be honest at purchase. If a game depends on servers, show it clearly and state how long support will last. Set a minimum support period (e.g., years from last EU sale) or a mandatory offline fallback at end-of-life. Games are cultural works and peoples purchases should be respected. Killing a game after sale undermines trust in the digital single market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.763431Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095694.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095694",
+    "chunks_doc_id": "F33095694",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

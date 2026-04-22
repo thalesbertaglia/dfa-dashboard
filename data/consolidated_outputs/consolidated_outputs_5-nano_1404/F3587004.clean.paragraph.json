@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587004",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:54Z",
+    "finished_at": "2026-04-14T13:08:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sunsetting online-only games such as \"The Crew\" that have been fully paid for yet discontinued to exist by their company ubisoft."
+              },
+              {
+                "quote": "as a consumer we paid for the games and as a right, we get to keep them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32408,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello European Commision, I fully support your initiative but I'am also concerned over the how game companies have lately been sunsetting online-only games such as \"The Crew\" that have been fully paid for yet discontinued to exist by their company ubisoft. I fear that more games will follow suit and I wish for your initiative to include that games should be protected and perserved, online or not because as a consumer we paid for the games and as a right, we get to keep them. I would also like to suggest to put something to prevent payment procressers to not censor and prevent a consumer from being able to buy what he wants as long as it is legal, seeing as visa and mastercard have a duoploy. Please, consider these suggestions as game companies and payment processers have lately been overreaching with their power and destroying any sort of possibility to preserve games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.409628Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587004.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587004",
+    "chunks_doc_id": "F3587004",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

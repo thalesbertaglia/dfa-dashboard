@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3592813",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:11Z",
+    "finished_at": "2026-04-14T13:38:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If they make it clear that it's a subscription or that they can terminate your access, then they need to display those details clearly."
+              },
+              {
+                "quote": "or if they are just renting/subscribing."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16512,
+          "unit_kind": "feedback"
+        },
+        "text": "The main thing that I want to make sure is addressed in this piece of policy is that when a company is telling you that you are buying something, they can't change or remove access to a digital good that you have purchased. If they make it clear that it's a subscription or that they can terminate your access, then they need to display those details clearly. At the very least, this should be the requirement for a company that sells a digital good or service. To clarify all the restrictions or limitations that come with that digital good or service, just need to be clearly displayed and labeled so that anyone can understand if they are buying a digital good/service or if they are just renting/subscribing.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.928395Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592813.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592813",
+    "chunks_doc_id": "F3592813",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592813.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585142",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:00Z",
+    "finished_at": "2026-04-14T12:21:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Video game publishers should not have the right to take away our purchased games like what happened with \"The Crew\" from Ubisoft."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games that require an online connection to play such as MMORPG games like World of Warcraft must publish a way to self host the game servers if/when they stop servicing it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21846,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game publishers should not have the right to take away our purchased games like what happened with \"The Crew\" from Ubisoft. Video games that require an online connection to play such as MMORPG games like World of Warcraft must publish a way to self host the game servers if/when they stop servicing it. This is already a thing with private servers hosting older MMORPG games that have been taken offline and not playable by owners of the game such as Star Wars Galaxies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.612910Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585142.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585142",
+    "chunks_doc_id": "F3585142",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584118",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:53Z",
+    "finished_at": "2026-04-14T11:49:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory and manipulative behaviour"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair to buy a game that a company forces users to connect online to play (even if its a single player game) and discontinues the game later on, making a version 2, 3 or 4 of the same game in order to get it bought again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24594,
+          "unit_kind": "feedback"
+        },
+        "text": "2 points on digital fairness, - Video game micro transactions have predatory and manipulative behaviour, instead of benefiting game acomplishments, you have the option to pay the same game or multiple times more to get achievments that should be part of the game sold. Which makes a game a way to disguise selling ingame items as a main motivation for a game creation. - Stop Killing Games initiative is refering a plan on end of games that should be reviewed, either due to future cultural reference, collection, entertainment or even by the simple fact that once a game is bought it should be available for those who bought it even if a company ceases exist. providing alternatives such direct connect, p2p or other solutions provided by games creators. There are easy solutions for online only single player games, and online only multiplayer games. And is unfair to buy a game that a company forces users to connect online to play (even if its a single player game) and discontinues the game later on, making a version 2, 3 or 4 of the same game in order to get it bought again. Just like micro transactions, games with no end of life plan are suceptible to manipulative and deceptive behaviour to consumers online.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.081054Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584118.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584118",
+    "chunks_doc_id": "F3584118",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584118.clean.paragraph.json"
+}

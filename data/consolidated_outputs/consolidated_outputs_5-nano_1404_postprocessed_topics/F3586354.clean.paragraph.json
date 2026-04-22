@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586354",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:54Z",
+    "finished_at": "2026-04-14T12:55:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in case of videogames that are online-only, turn off the servers without providing the community with tools (software to host their own servers) and effectively removing all content that the customer has, again, paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Corporations should not have the power to simply remove content that has been paid for by the customers from them"
+              },
+              {
+                "quote": "They must not become some sort of moral police that can bar me, an european citizen, from paying for anything I wish, be it anything from food to explicit, legal pornographic content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45034,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be greatly appreciated by all EU (and all non-EU citizens due to the \"Brussels effect\") if this legislation would include protections for 1. Digital ownership This would include any form of digital content, such as movies, music, software or videogames. Corporations should not have the power to simply remove content that has been paid for by the customers from them, or in case of videogames that are online-only, turn off the servers without providing the community with tools (software to host their own servers) and effectively removing all content that the customer has, again, paid for. 2. Freedom of digital payment As recently shown by Visa and Mastercard, these companies should have no business policing what content I can and cannot pay for. They must not become some sort of moral police that can bar me, an european citizen, from paying for anything I wish, be it anything from food to explicit, legal pornographic content.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.215978Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586354.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586354",
+    "chunks_doc_id": "F3586354",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586354.clean.paragraph.json"
+}

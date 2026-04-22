@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584173",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:04Z",
+    "finished_at": "2026-04-14T11:51:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This Initiative is to make sure that when a consumer buys a product, in this case a video game that consumer gets to keep that product and prevents the publisher from remotely disabling this product in the future."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12499,
+          "unit_kind": "feedback"
+        },
+        "text": "Due to the on-going European Citizens' Initiative \"Stop Destroying Videogames\" I noticed how both objectives are aligned. This Initiative is to make sure that when a consumer buys a product, in this case a video game that consumer gets to keep that product and prevents the publisher from remotely disabling this product in the future. See the 2014 video game \"The Crew\" by Ubisoft. I would hope that you would consider adding videogame protection as to prevent the malpractice of disabling a product a consumer payed for and owns.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.110153Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584173.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584173",
+    "chunks_doc_id": "F3584173",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584173.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585921",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:04Z",
+    "finished_at": "2026-04-14T12:41:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you don't own a copy of a game you own a license that can be revoked"
+              },
+              {
+                "quote": "Please add protections to prevent games that have already been purchased from being destroyed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26716,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, in resent years there has been a worrying trend of publishers and developers of media to act as if a purchase is not ownership, and that publisher's reserve the right to terminate your access to products you own, the wording used is that \"you don't own a copy of a game you own a license that can be revoked\" and this sentiment has even been extended to physical copies of games and even hardware like consoles. Please don't allow multi billion Euro companies to abuse consumers by (in my opinion) stealing people's property that they have paid money for. When you buy a product you should be free to use it however you like. Please add protections to prevent games that have already been purchased from being destroyed. Thank you, and have a wonderful week.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.985789Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585921.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585921",
+    "chunks_doc_id": "F3585921",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

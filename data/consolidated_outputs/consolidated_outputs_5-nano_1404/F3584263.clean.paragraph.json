@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584263",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:38Z",
+    "finished_at": "2026-04-14T11:54:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video-games under it wing as well,"
+              },
+              {
+                "quote": "the games were shut down without any way for us to play them on our own"
+              },
+              {
+                "quote": "the stop killing games initiative has already passed 1.4 million signatures"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24271,
+          "unit_kind": "feedback"
+        },
+        "text": "Please have this act take video-games under it wing as well, ever since i was a child video-games were a part of my entertainment and usually a place to wind down from real life hardship, i met my best friends online in games and even my partner, but recently games became a tool rather than art, and were destroyed along with my memories i made, and even of friends that passed away, i will never re-live the experiences we shared because the games were shut down without any way for us to play them on our own, the stop killing games initiative has already passed 1.4 million signatures and i believe there is a chance for video-games that we own to stay as our own, so please save our video-games save our entertainment save our memories! p.s. for anyone wondering, the game that me and my late friend used to play alot was called club penguin",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.150411Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584263.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584263",
+    "chunks_doc_id": "F3584263",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

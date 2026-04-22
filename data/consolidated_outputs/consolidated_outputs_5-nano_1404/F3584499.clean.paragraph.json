@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584499",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:46Z",
+    "finished_at": "2026-04-14T12:00:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one is to include video games, customers should be able to play the game they paid for and publishers shouldn't have a say to just pull the plug and basically steal what customers paid for."
+              },
+              {
+                "quote": "this also includes game genres like horror games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24146,
+          "unit_kind": "feedback"
+        },
+        "text": "This is great way to have fairness on digital media, i would also like to suggest two more additions, one is to include video games, customers should be able to play the game they paid for and publishers shouldn't have a say to just pull the plug and basically steal what customers paid for. Second is the problem with payment processors like visa and mastercard who threaten digital stores to stop the sell of any adult media, this also includes game genres like horror games and because of it many great games are removed and can't be preserved, payment processors shouldn't have the ability to dictate people what they can and can't buy as long as it's legal. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.262692Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584499.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584499",
+    "chunks_doc_id": "F3584499",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584833",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:10Z",
+    "finished_at": "2026-04-14T12:12:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I buy a game, play it, and enjoy the singeplayer, the developer/publisher should NOT be allowed to take that game away from me or make it so I can't play games anymore that could and should be playable on your own - without having the need for the developers to upkeep the game!"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we - gamers - don't own the games we ''buy'', but it shouldn't be a temporary license. And if it is, it should state for how long the terms are."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44383,
+          "unit_kind": "feedback"
+        },
+        "text": "There are a lot of anti-consumer practises in digital products and games specifically, but the one that worries me the most is one of the most self-explanatory issues out there: ownership. Now I'm okay with the fact we - gamers - don't own the games we ''buy'', but it shouldn't be a temporary license. And if it is, it should state for how long the terms are. If I buy a washing machine, I don't want the sellers to just decide the machine's no longer supported and then pick it up at our house and just take it away. The same goes for games. If I buy a game, play it, and enjoy the singeplayer, the developer/publisher should NOT be allowed to take that game away from me or make it so I can't play games anymore that could and should be playable on your own - without having the need for the developers to upkeep the game! It's understandable game companies can't upkeep their game servers forever, but to lock players out from playing !!!or even removing the game copy from their library!!! should be criminal. This is a true story: this is what happened to The Crew (2014) by Ubisoft. If you can't make sure people can enjoy a game that I could previously enjoy on my own - without any players and therefore no need for online services - forever, you shouldn't release the game in the first place. I could accept a clause that allows companies to throw servers offline and deem games unplayable if the games were explicitly called ''multiplayer-only title'', as the goal of that game is with to play with other players like Battlefield 2042, but even then they could (and, really, should) implement a mechanism that introduces bots instead of actual players. Overall, this is a very anti-consumer practise and it should be forbidden by law. Even if we don't ''own'' the game (I disagree with that too, but it's another topic) I should at least be able to PLAY what I BUY.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.460068Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584833.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584833",
+    "chunks_doc_id": "F3584833",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

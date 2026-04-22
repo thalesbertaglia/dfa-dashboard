@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586899",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:42Z",
+    "finished_at": "2026-04-14T13:06:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogame content"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Products should be clearly offered as either 'product' (robust license for personal use) or 'service' (with actual enforcable SLA)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37084,
+          "unit_kind": "feedback"
+        },
+        "text": "I greatly appreciate actual and rational changes to this unregulated industry, which isn't just impacting videogame content, but digital goods as a whole. Products should be clearly offered as either 'product' (robust license for personal use) or 'service' (with actual enforcable SLA). As such, they should be always assessible to the end user to archive even if no longer supported. As well, these changes should touch upon the rampant and irrational censorship of digital goods enforced with zero rational or scientific basis. Protection of minors should be from predatory business practices, not from content that is legaly offered within Adult Only category. We censor works of fiction while minors face bullying, degradation and even systemic abuse in daily education and familly life, and let them be trained and groomed from young age to be susceptible to all forms of advertisement and predatory business practices by international conglomerates. Let this be a call for rationality and aiming legal efforts at actual damaging problems in our society, not censoring works of art and fiction which get targetted only because they are visible, and emotional activists do not respect the right for free thoughts and speech.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.378672Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586899.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586899",
+    "chunks_doc_id": "F3586899",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

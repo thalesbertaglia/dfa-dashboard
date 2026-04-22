@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584301",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:32Z",
+    "finished_at": "2026-04-14T11:54:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers creating paid experiences and then taking them away by shuting down the servers they are ran on and not providing any way for the users to continue playing the game they paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14059,
+          "unit_kind": "feedback"
+        },
+        "text": "I never know how to start these things, so I'll just get right into it. I feel like the citizens of the EU would benefit if your \"Digital Fairness Act\" incorporated the problem of video game publishers creating paid experiences and then taking them away by shuting down the servers they are ran on and not providing any way for the users to continue playing the game they paid for. Best case scenario is they inform the players two weeks beforehand and then shut the them off. There is currently an initiative fighting for the consumer's rights regarding this right now by making the game publishers leave the games in a playable state (This could mean as little as giving players the right to host their own private/public servers after the publisher shuts down the official ones). The \"Stop Killing Games\" initiative has already gotten over 1 million signatures and it still needs all the help it can get so we would all, as avid video game consumers, appreciate if you investigeted the \"Stop Killing Games\" initiative and see if you could incorporate some of their values into your initiative. We need you! Kind regards!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.167333Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584301.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584301",
+    "chunks_doc_id": "F3584301",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584301.clean.paragraph.json"
+}

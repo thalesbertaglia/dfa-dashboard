@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584961",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:10Z",
+    "finished_at": "2026-04-14T12:16:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers destroying video games that people bought with their own money is a really big problem in the industry that no one has tried to stop and it happens even at the moment I'm writing this on some popular platforms."
+              },
+              {
+                "quote": "They could still pull it from their platform but they should have to give you a kind of notice and provide some means for you to download it so you could continue running it."
+              },
+              {
+                "quote": "Nobody should have the right to take away the thing you bought!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13385,
+          "unit_kind": "feedback"
+        },
+        "text": "Publishers destroying video games that people bought with their own money is a really big problem in the industry that no one has tried to stop and it happens even at the moment I'm writing this on some popular platforms. They could still pull it from their platform but they should have to give you a kind of notice and provide some means for you to download it so you could continue running it. Nobody should have the right to take away the thing you bought! If the developers are no longer working on the game, they could simply put up an announcement when you enter the game that the game is no longer updated and that anything that happens in it is your responsibility.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.526469Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584961.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584961",
+    "chunks_doc_id": "F3584961",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587149",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:42Z",
+    "finished_at": "2026-04-14T13:12:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forcing platforms like Itch.io and Steam to remove content, even when it breaks no laws,"
+              },
+              {
+                "quote": "targeting 'NSFW' or so-called objectionable games."
+              },
+              {
+                "quote": "blanket bans on all NSFW material are harmful and undermine our ability to choose what we consume."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28148,
+          "unit_kind": "feedback"
+        },
+        "text": "This topic is incredibly important to me. I believe that recent developments involving payment processors such as Visa and Mastercard influenced by extremist groups like Collective Shout forcing platforms like Itch.io and Steam to remove content, even when it breaks no laws, are unacceptable. This violates the free speech rights of developers and the fans who enjoy their work. I believe Collective Shouts influence wont stop at targeting 'NSFW' or so-called objectionable games. Many sources show they hide behind claims of protecting women while erasing games with LGBTQ+ themes simply for including them. While I agree that some games might not belong on mainstream platforms, and that it is important to have clear rules about acceptable content, blanket bans on all NSFW material are harmful and undermine our ability to choose what we consume. My main concern is that massive companies like Visa and Mastercard which function as near-monopolies have so much power they can impose their values on entire communities by threatening to cut off financial access. That level of control over speech and art is dangerous. I hope these platforms will gain stronger protections against these companies, so they can defend themselves from malicious actors. Have a great day - Vojtěch Schenk, Citizen of the Czech Republic",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.451727Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587149.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587149",
+    "chunks_doc_id": "F3587149",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587149.clean.paragraph.json"
+}

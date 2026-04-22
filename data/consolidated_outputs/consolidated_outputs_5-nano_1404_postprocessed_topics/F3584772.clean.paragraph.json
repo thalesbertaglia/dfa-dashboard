@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584772",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:40Z",
+    "finished_at": "2026-04-14T12:10:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently you can \"buy\" a videogame and they can after a year or two shut down their servers which are needed for their game to work, essentially making your purchase invalid (without giving you a refund)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the thing being purchased can NOT be a license or something similar, but is a product that you the consumer OWNS and the creator of said program would not be able to dictate what you can or cannot do with it."
+              },
+              {
+                "quote": "And they should also NOT be able to revoke it in any way unless they issue a refund or something similar."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31153,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this is a really important issue, so thanks for taking it seriously. The Digital Fairness Act should also cover video games in my opinion. Currently you can \"buy\" a videogame and they can after a year or two shut down their servers which are needed for their game to work, essentially making your purchase invalid (without giving you a refund). There is also a Citizens initiative with over 1.4 million signatures about this (stop killing videogames), so it is a popular idea. This problem also extends to other digital assets like purchased music, movies, etc where acces is removed from PURCHASED media because of \"licensing\" or other stuff which makes it not a purchase but a license. I think this law should make it so that if it says \"purchase\" or \"buy\" or \"lifetime\" or something similar, the thing being purchased can NOT be a license or something similar, but is a product that you the consumer OWNS and the creator of said program would not be able to dictate what you can or cannot do with it. And they should also NOT be able to revoke it in any way unless they issue a refund or something similar. If the case is cheating in video games they should be able to ban you from their servers but still allow you to play offline and not ban you from the game as a whole. There is also a problem on Android in which Google provides a service (Google Play Integrity/SafetyNet) that is used by many banking apps and others (like McDonalds app, some ticketing apps). Google says this app makes sure that your device is secure enough to use said app (even though it allows old and insecure phones) and disallows you if your phone is e.g. rooted. The problem is that it only works on Google allowed ROMs (mobile phone operating systems based on the Android Open Source Project) like Samsung's and other manufacturers, while it doesn't work on a secure operating system like GrapheneOS. Since this service is used by many banking apps and Google controls who is allowed/disallowed, this essentially gives Google absolute power on who can compete with them (most people won't use a mobile phone OS that their banking app doesn't work on) and is therefore also anti-competitive, but such practise should as well be outlawed in this Act",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.422643Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584772.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584772",
+    "chunks_doc_id": "F3584772",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584772.clean.paragraph.json"
+}

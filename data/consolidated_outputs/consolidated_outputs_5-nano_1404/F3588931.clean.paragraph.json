@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3588931",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:23Z",
+    "finished_at": "2026-04-14T13:27:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the lifecycle and long-term availability of videogames."
+              },
+              {
+                "quote": "This issue is growing, as more games rely on online components, digital distribution, and DRM mechanisms that render them unplayable once publisher support ends."
+              },
+              {
+                "quote": "Such a plan should outline what happens when a game is no longer supported or sold, and should include steps to either maintain limited offline functionality, open up server code for community hosting, or remove DRM restrictions that prevent continued use."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41627,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the European Commissions initiative on the Digital Fairness Act, which takes important steps toward ensuring that digital services respect fundamental rights and empower consumers. In that context, I wish to draw attention to an important and often overlooked aspect of digital fairness: the lifecycle and long-term availability of videogames. Modern videogames are not merely entertainment products; they are cultural works, social platforms, and in many cases, personal investments of time, creativity, and money. However, consumers frequently face the sudden disappearance of games due to server shutdowns, license expirations, or platform changes, leaving no legal way to access or preserve them. This issue is growing, as more games rely on online components, digital distribution, and DRM mechanisms that render them unplayable once publisher support ends. This is why I support extending the Digital Fairness Act to include provisions that requires publishers and platform holders to develop and disclose an end-of-life plan for their videogames. Such a plan should outline what happens when a game is no longer supported or sold, and should include steps to either maintain limited offline functionality, open up server code for community hosting, or remove DRM restrictions that prevent continued use. This would promote transparency, give consumers fair expectations, and provide a pathway for digital preservation. Without an end-of-life plan, video game companies should only be allowed to rent the games, but also compelled to maintain a minimum period (e.g. 12 month period) to provide online access to the games, otherwise they should be forced to refund. This approach aligns with the spirit of the Digital Fairness Act: protecting users from sudden loss of access and ensuring that digital content is treated with the same respect and consumer protection standards as physical goods. In conclusion, I fully support the Commissions efforts through the Digital Fairness Act and encourage the inclusion of videogame lifecycle transparency as part of its digital consumer protection framework. By mandating end-of-life plans for videogames, the EU can lead the way in creating a more just, responsible, and culturally aware digital economy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.697427Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588931.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588931",
+    "chunks_doc_id": "F3588931",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

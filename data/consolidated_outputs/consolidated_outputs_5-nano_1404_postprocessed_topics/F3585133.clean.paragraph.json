@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585133",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:49Z",
+    "finished_at": "2026-04-14T12:21:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games should be covered by the digital fairness act."
+              },
+              {
+                "quote": "these purchases are treated as just licenses hidden in complex terms and agreement."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20109,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear sir or madam, Let me first start off by saying that the already established law proposal is very good and that as a citizen of the EU I fully stand behind this. never the less I would like to make a proposal for adding Game. Video games should be covered by the digital fairness act. Currently, companies can revoke access to games we buy, often without clear notice or justification, as these purchases are treated as just licenses hidden in complex terms and agreement. Many time's these include single player games that have no need for server upkeep or long term maintenance from the developer. Including video games in consumer protection laws would stop companies from unjustly removing access or shutting down services, protecting players investments and digital rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.609310Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585133.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585133",
+    "chunks_doc_id": "F3585133",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585133.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584825",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:11:46Z",
+    "finished_at": "2026-04-14T12:12:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the protection of video games from deletion, destruction and permanent inaccessibility."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15756,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act should include the protection of video games from deletion, destruction and permanent inaccessibility. This has been happening to hundreds of games over the years, and has personally impacted me with titles like \"Wildstar\" and \"Firefall\". The reason for this \"destruction\" is usually the termination of online services, which have been incorporated into these games in such a way as to make them required for play, and by disabling these services on the publisher's or developer's side, it renders the affected games inaccessible. Some of these destroyed games are then even removed from users' collections or libraries, effectively preventing them from accessing their legally purchased, digital goods. Without an end-of-life plan on the side of the developer/publisher, or any consideration for keeping games accessible to the user after official support has ended, these games are effectively and permanently destroyed. The \"Stop Killing Games\" EU citizens Initiative has been started in an effort to address this issue, and has already garnered tremendous support from over 1,4 million EU citizens. I believe this issue is worthy of consideration to be added to the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.455376Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584825.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584825",
+    "chunks_doc_id": "F3584825",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

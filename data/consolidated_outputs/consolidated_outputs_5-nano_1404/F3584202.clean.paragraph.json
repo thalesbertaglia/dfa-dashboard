@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584202",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:05Z",
+    "finished_at": "2026-04-14T11:52:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory/addictive design in games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers may remotely end your ability to use a product that has been bought"
+              },
+              {
+                "quote": "(games that customers have bought and own)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31820,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see an addition to the Digital Fairness Act that deals with customer protection when purchasing digital goods. More specifically: customer protection against publishers destroying video games. As it stands right now, publishers may remotely end your ability to use a product that has been bought and as a customer you can't do anything about it. One example is the game \"The Crew\", which stopped working for customers due to it's 'always online' nature - despite it being a single player game. I believe the Digital Fairness Act is an important step towards better protection when people are dealing with online based services. I really like the part of the Act that aims to address predatory/addictive design in games. It would be a boon to those who feel pressured to spend huge amount of money in games. And in my opinion it is an opportunity to also protect video game customers from having their games destroyed (games that customers have bought and own) at the same time. If not addressed now, customers may end up now owning what they buy in the future. There is already a European Citizens' Initiative called \"Stop Destroying Videogames\" that is aiming to bring these matters to the EU agenda. But why not add this to the Digital Fairness Act as well, to make sure we actually get the ball rolling. This became rather lengthy. Thanks for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.123104Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584202.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584202",
+    "chunks_doc_id": "F3584202",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

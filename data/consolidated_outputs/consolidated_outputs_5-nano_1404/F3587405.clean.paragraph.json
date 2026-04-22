@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587405",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:30Z",
+    "finished_at": "2026-04-14T13:17:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors are increasingly exceeding their role by policing what content may be sold."
+              },
+              {
+                "quote": "By unilaterally imposing their own content rules, they effectively force all platforms to censor material, regardless of EU law."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protectionist measures such as the GPSR and tariffs"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41694,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned about the growing trend of censorship and restrictions on the internet. Independent artists and small businesses rely heavily on digital platforms to earn a living. A diverse and competitive platform ecosystem benefits both creators and consumers and this competition should be actively encouraged. However, payment processors are increasingly exceeding their role by policing what content may be sold. By unilaterally imposing their own content rules, they effectively force all platforms to censor material, regardless of EU law. This undermines the regulatory powers of the EU and it's Member States. Foreign governments such as the UK, USA, and Australia are introducing age verification and child protection measures that require users to provide government-issued IDs and biometric data. Such practices raise serious concerns under existing EU principles, including data protection and proportionality. The EU Fairness Act should ensure that foreign regulations or private contractual practices cannot indirectly restrict EU citizens rights to access the internet or conduct lawful business within the Union. Finally, I want to highlight that independent artists and small businesses are disproportionately harmed by protectionist measures such as the GPSR and tariffs, as their work depends on the global reach of the internet. I urge the Commission to ensure that the final regulation protects competition, fundamental rights, and the ability of small creators to thrive online.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.518692Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587405.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587405",
+    "chunks_doc_id": "F3587405",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

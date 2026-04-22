@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585905",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:36Z",
+    "finished_at": "2026-04-14T12:41:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many ads are deliberately positioned in ways that make it almost impossible to avoid clicking them while scrolling."
+              },
+              {
+                "quote": "This manipulative placement causes users to unintentionally access websites they never intended to visit."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Does ownership end if the platform shuts down?"
+              },
+              {
+                "quote": "I believe companies should be required to clearly inform consumers at the time of purchase or in another prominent place about what will happen to their digital content if the service is discontinued."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27854,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the introduction of the Digital Fairness Act and strongly support its intention to enhance consumer protection in the digital space. However, I would like to raise a few additional points for consideration, particularly regarding digital media purchases and the concept of digital ownership. Currently, it is often unclear whether consumers truly \"own\" the digital products they purchase, such as eBooks or video games. In many cases, access to these items seems to depend on the continued existence of the online store or service where they were bought. This raises important questions: Does ownership end if the platform shuts down? Can the purchased license simply expire under such circumstances? I believe companies should be required to clearly inform consumers at the time of purchase or in another prominent place about what will happen to their digital content if the service is discontinued. Without such transparency, customers may be misled into believing they have permanent ownership when, in fact, their access may be temporary. Additionally, I would like to highlight an increasing problem with online advertising practices, especially on mobile devices. Many ads are deliberately positioned in ways that make it almost impossible to avoid clicking them while scrolling. This manipulative placement causes users to unintentionally access websites they never intended to visit. I believe such practices should be restricted, as they compromise user experience and fairness. Thank you for considering these points as part of the ongoing discussion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.978788Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585905.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585905",
+    "chunks_doc_id": "F3585905",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

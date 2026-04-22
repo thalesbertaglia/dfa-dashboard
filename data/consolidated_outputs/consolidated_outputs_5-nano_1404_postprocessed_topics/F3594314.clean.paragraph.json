@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3594314",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:12Z",
+    "finished_at": "2026-04-14T13:40:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "monthly subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Data profiling creates digital discrimination"
+              },
+              {
+                "quote": "forcing users to surrender personal data"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30772,
+          "unit_kind": "feedback"
+        },
+        "text": "Today, buying digital products often means renting access: companies can revoke it anytime. This extends to \"smart\" appliances, where features like improved performances, remote control and heated seats require monthly subscriptions, turning purchases into ongoing costs. Power is concentrated in a few corporations, enabling financial censorship and forcing users to surrender personal data, risking breaches and surveillance. Data profiling creates digital discrimination, chilling online freedom and requiring stronger regulations. Mandatory digital ID verification exacerbates these risks, exposing users to identity theft and excluding those without tech access or willingness to share sensitive data. Foreign users face additional harms, as corporate policies often override their countries privacy laws. Censorship is also growing. After an AI chatbots link to a suicide, Italy blocked all related content (even historical or fictional references) showing a heavy-handed approach that stifles legitimate discourse. The internet, now essential for work, healthcare, and daily life, is controlled by gatekeepers who can cut access arbitrarily. We need policies that protect privacy, prevent exclusion, and uphold open digital participation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.971777Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3594314.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3594314",
+    "chunks_doc_id": "F3594314",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3594314.clean.paragraph.json"
+}

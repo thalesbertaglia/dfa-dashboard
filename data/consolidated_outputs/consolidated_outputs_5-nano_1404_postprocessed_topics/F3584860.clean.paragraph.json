@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584860",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:58Z",
+    "finished_at": "2026-04-14T12:13:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading ads and manipulative design"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, it's way too common for companies to shut down servers or remove access to games people have already bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19768,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I really appreciate the European Commissions work on the Digital Fairness Act. Tackling things like misleading ads and manipulative design is a big step in the right direction. But Id like to raise something thats become more and more frustrating as a digital consumer. Right now, it's way too common for companies to shut down servers or remove access to games people have already bought. This can sometimes even be single player titles. Once the servers are gone, the game becomes unplayable, even though you paid for it. I think the Act could be stronger by including some basic protections around this. For example requiring publishers to have a end-of-life plan when they stop supporting a game. Theres already an ongoing citizens initiative called Stop Destroying Videogames (ECI(2024)000007) thats pushing for these kinds of protections. I think the goals of that campaign and this act align well. As someone whos grown up with digital games and online platforms, I just want to know that the things Ive paid for wont suddenly disappear because of a business decision. I hope this Act can help make digital ownership more secure and fair. Thanks for reading and for giving us regular citizens a chance to be heard.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.473633Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584860.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584860",
+    "chunks_doc_id": "F3584860",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584860.clean.paragraph.json"
+}

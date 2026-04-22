@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586532",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:39Z",
+    "finished_at": "2026-04-14T12:59:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've had products (games in particular) be taken away simply because the developers of said products decided it is too costly to continue supporting them or simply decided they wish to create a new feel for their game."
+              },
+              {
+                "quote": "The game destiny 2 is well known for its ''vaulting'' of content."
+              },
+              {
+                "quote": "Which basically means previous chapters of the story are completely gone and there is no way for anyone, even the people who paid for them and rightfully own those chapters to continue playing them after the developers decide to ''vault'' them."
+              },
+              {
+                "quote": "I have been lucky to only have lost around 60 of content this way, however there are many others who've spent over a hundred or even more for premium versions of that content, only to have it taken away just the same."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24189,
+          "unit_kind": "feedback"
+        },
+        "text": "I've had products (games in particular) be taken away simply because the developers of said products decided it is too costly to continue supporting them or simply decided they wish to create a new feel for their game. This is ok, however the content I paid for, should remain available to me, even if in an offline state or another more player friendly manner, instead of it simply being cut off without any room for compromise. To give a direct example: The game destiny 2 is well known for its ''vaulting'' of content. Which basically means previous chapters of the story are completely gone and there is no way for anyone, even the people who paid for them and rightfully own those chapters to continue playing them after the developers decide to ''vault'' them. I have been lucky to only have lost around 60 of content this way, however there are many others who've spent over a hundred or even more for premium versions of that content, only to have it taken away just the same.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.274431Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586532.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586532",
+    "chunks_doc_id": "F3586532",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

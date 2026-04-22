@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3585328",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:17Z",
+    "finished_at": "2026-04-14T12:26:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are a product that is not sold with an expiration date, yet, they are treated as such."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers are allowed, at any time, to make the product consumers have purchased unusable, on their own terms, without providing an alternative to allow the customer to keep using the product."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EULAs should be written with restrictions aimed at protecting both the publisher and the customer, the customer product must retains it's usability even when the support from the publisher is over."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gathering data that can be collected and sent to a central server for unknown purposes beside checking if the user is \"cheating\"."
+              }
+            ]
+          },
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "It would be ideal to force the publishers to provide a plan after the product end of life (which should be clearly stated), to keep utilizing the purchased game privately, via self hosted mechanism, which would not have any run cost for the publishers or cause them any damage, but would allow individual consumers to use their own product, without any need for the publisher."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 54464,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, video games are a product that is not sold with an expiration date, yet, they are treated as such. Publishers are allowed, at any time, to make the product consumers have purchased unusable, on their own terms, without providing an alternative to allow the customer to keep using the product. This can lead to mislead the customer into purchasing something that is effectively treated as if it had an expiry date, even though the customer has no knowledge of when. The knowledge of when the software would go online could and would refrain some customer from purchasing the product. It would be ideal to force the publishers to provide a plan after the product end of life (which should be clearly stated), to keep utilizing the purchased game privately, via self hosted mechanism, which would not have any run cost for the publishers or cause them any damage, but would allow individual consumers to use their own product, without any need for the publisher. It would also be beneficial to put some limitations on what publishers can write on their End User License Agreement, some of the terms are outrageous, anti consumer, and seem to not consider the fact that the custom has a right to use the product however they wish for as long as they wish to, which, when purchasing a product, should be a given. EULAs should be written with restrictions aimed at protecting both the publisher and the customer, the customer product must retains it's usability even when the support from the publisher is over. Furthermore, some of the DRM and anti cheating/piracy software that publishers install on the consumer devices (such as personal computers) can be potentially dangerous and do invade the privacy of the individual. These DRM comes as software running with administrator privileges, drivers or more. Sometimes they continuously run in the background, gathering data that can be collected and sent to a central server for unknown purposes beside checking if the user is \"cheating\". There should be restrictions on such software. It is unfair for a consumer to have a software that has full access of their device solely to play a video game; it also creates a dangerous attack surface which can result in damage. A software running as administrator or as a driver, if hacked or somehow controlled remotely, can lead to data leak, ransoms, or more. The concept of \"least privilege\" should be enforced, and on that regard, a video game has no reason to run as administrator, or have software running with high privileges or as a driver. Only the owner of the device should have and/or need such access, and even if administration privileges are required for the installation, due to the limitation of the operating system (Windows), there is no reason to not install the game on the user's directory without administration privileges or anyway not need such accesses at run time. For the protection and interest of the consumer, and to limit anti consumer practices, we should enforce respect of the customer purchase and access to their device. Limiting potential attack surface and misleading purchases from occurring. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.682741Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585328.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585328",
+    "chunks_doc_id": "F3585328",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585328.clean.paragraph.json"
+}

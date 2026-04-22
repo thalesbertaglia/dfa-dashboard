@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586965",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:53Z",
+    "finished_at": "2026-04-14T13:07:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if I buy a video game I can still play it again in 10 years’ time."
+              },
+              {
+                "quote": "in the Netherlands where all lootboxes are exiled."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "‘addictive design of digital products’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49532,
+          "unit_kind": "feedback"
+        },
+        "text": "Hallo, I would appreciate it if this law also ensures that if I buy a video game I can still play it again in 10 years’ time. I sometimes do this out of nostalgia and with how industry wants to make this impossible now, I would like to see it if they cannot legally remove something I have already paid for. I also fear that, in my view, the ‘addictive design of digital products’ will go too far as, in my view, in the Netherlands where all lootboxes are exiled. Personally, I believe that if you get what you get, you cannot in any way exchange with other people that there should be lighter rules, and that it should be allowed. I can understand what laws are in place to prevent the most addictive, but I do not want it to become completely illegal.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.397161Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586965.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586965",
+    "chunks_doc_id": "F3586965",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586965.clean.paragraph.json"
+}

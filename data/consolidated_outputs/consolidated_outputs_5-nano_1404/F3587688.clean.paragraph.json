@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587688",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:54Z",
+    "finished_at": "2026-04-14T13:20:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutting down digital games"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "World of Warcraft, a subscription-based game with no publicly communicated end-of-life plan."
+              },
+              {
+                "quote": "Consumers continue to pay annual fees without clarity regarding the games longevity."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35673,
+          "unit_kind": "feedback"
+        },
+        "text": "I wish to raise a serious concern about the growing practice of shutting down digital games, often leaving consumers with no access to content they paid for. A personal example is TERA, which I purchased on CD in 2013, shortly after that a year later the game switched to a \"free-to-play\" model in 2014 and i continued to support it through in-game purchases. On June 28, 2022, the PC version was shut down entirely, while the game itself migrated to consol platform and as im writing this now in 2025 only the console version remains. My right to access a digital good i have paid for and supported were stripped from me - over night . My account, purchases, and progress were lost without the option to keep playing the game on the platform i originally purchased it on. This reflects a broader issue: consumers are losing access to products they paid for --permanently-- simply because publishers choose to withdraw them. Another pertinent example is World of Warcraft, a subscription-based game with no publicly communicated end-of-life plan. Consumers continue to pay annual fees without clarity regarding the games longevity. Without adequate regulatory safeguards, even such established titles face the potential of abrupt discontinuation or platform shifts, leaving consumers who choose to invest time, effort and money vulnerable and deprived of recourse. These are not isolated incidents. Players across Europe are calling for reform through the Stop Killing Games movement. A particularly pressing concern lies with so-called \"free-to-play\" games which have a permanent online connection forced upon the user... or titles that are advertised as free to access, require no upfront purchase, and can be played simply by downloading them. These games often rely on microtransactions and in-game purchases as their primary revenue model. Ironically, it is precisely these games that are most vulnerable to sudden shutdowns. Because they depend on continuous profitability, publishers frequently terminate such games when revenue declines, regardless of how much time or money individual players have invested. These shutdowns are typically absolute, due to the fact that most of these games require a constant online connection to function. When servers are taken offline, the entire game becomes inaccessible...even to those who have made significant financial contributions through in-game purchases. What is especially concerning is that many of these games could remain accessible if developers simply implemented an offline mode upon end-of-life. However, this is almost never done. I strongly urge that the Digital Fairness Act include a legal obligation for game publishers to implement an offline end-of-life plan for any digital product featuring paid content or microtransactions. No consumer should permanently lose access to digital goods they have paid for...regardless of whether the game was purchased outright or supported through in-game payments. We no longer tread the path to an increasingly online world we live --IN it--.... Digital spaces, digital purchases, and digital experiences are part of everyday life. As such, they must be protected by law with the same seriousness as any physical product. Without legal guarantees, consumers remain at the mercy of corporate discretion, with no recourse when their digital property is taken from them..",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.568431Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587688.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587688",
+    "chunks_doc_id": "F3587688",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

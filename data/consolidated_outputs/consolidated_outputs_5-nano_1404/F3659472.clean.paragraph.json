@@ -1,0 +1,58 @@
+{
+  "doc_id": "F3659472",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:09Z",
+    "finished_at": "2026-04-14T13:44:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14384,
+          "unit_kind": "feedback"
+        },
+        "text": "This is an request raised regarding Play Integrity API provided by Google in Android system to prevent modification of OS that is shipped by default. Though this functionality claims to improve security of your device but in principle it is highly anti competitive and anti consumer practice. It has three levels of security which can be used by application to function properly. The issue with this approach is that the requirements for level gives Google extreme control and hinders user choice which can be explained by the fact that technically a device running a lower version of Android with no security update from years being shipped to device by OEM, will be considered more secure than a device with latest version of Android and security updates where user have installed a alternative by themselves.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.064314Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3659472.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3659472",
+    "chunks_doc_id": "F3659472",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584692",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:38Z",
+    "finished_at": "2026-04-14T12:06:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a policy for video games not getting destroyed after already being sold to consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19472,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey there! Id like to make a request for the Digital Fairness Act to include a policy for video games not getting destroyed after already being sold to consumers. This has been a huge problem for over a decade in the gaming industry and is often overlooked/ignored when it comes to the laws of video game distribution. The creation of clear and strict laws on the prohibition of the destruction of video games by developers/publishers would be greatly appreciated by all consumers. This problem has been greatly campaigned against by the Stop Killing Games Initiative, which itself has skyrocketed in popularity in the last month and a half. To anyone who has taken the time to read this, thank you and I hope you consider this request!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.357598Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584692.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584692",
+    "chunks_doc_id": "F3584692",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

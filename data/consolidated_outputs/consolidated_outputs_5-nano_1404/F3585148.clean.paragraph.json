@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585148",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:11Z",
+    "finished_at": "2026-04-14T12:21:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a video game development company can basically terminate a game."
+              },
+              {
+                "quote": "closing the old games"
+              },
+              {
+                "quote": "focing you to buy the newest products even if its worse then the last because that the only way to play something similer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22220,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU As a consumer of video games and an EU citizen i feel i must add my voice to help bring attention to an issue within the world wide gaming community. And that is the fact that a video game development company can basically terminate a game. There are safety for the product we buy. imagine the you buy a book and on the same day the people you buy it from walk into your house and burn the book so you can't read it. thats what we have now products that can be taken when the company does not make enough money or lost interest in it. imagin not being able to read sherlock holmes because the company that prints it said no and you are now forced to burn your own copy of the book. No other products has this and they feed you lies to closing the old games and focing you to buy the newest products even if its worse then the last because that the only way to play something similer. imagin you buying a book but it keep being burned in your house, and if you want to read it again you have to read and buy a new version thats often worse.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.614664Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585148.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585148",
+    "chunks_doc_id": "F3585148",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

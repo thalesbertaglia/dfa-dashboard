@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585332",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:20Z",
+    "finished_at": "2026-04-14T12:25:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The vagueness of what falls under \"additcting design\", gambling is brought up under this topic, but what counts as gambling?"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a slot machine in it you can spin using tokens you get by doing small in-game missions in which some of those you could perhaps technically speed up using premium currency and thus possibly real money."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It has to be made clear and not just assumed whether or not a digital purchase is an actual purchase or just a licence."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33339,
+          "unit_kind": "feedback"
+        },
+        "text": "I am very much of the oppinion that this act would be a generally big step in the right direction for online fairness. But there are 3 things I am somewhat worried about: -The vagueness of what falls under \"additcting design\", gambling is brought up under this topic, but what counts as gambling? Is it only gambling if you have to spend real money on it, is it gambling if you can but definetly don't have to spend money on it, or even more does it count as gambling even if you can't spend any money on it? for an example: a mobile game I play, shop titans, has a slot machine in it you can spin using tokens you get by doing small in-game missions in which some of those you could perhaps technically speed up using premium currency and thus possibly real money. But this is very much not the designed way it should be done, would this still count even though you have to go through so many steps to even be capable of spending money on it? -The possible inclusion or addition of even just the first step of something like the stop killing games iniciative. It has to be made clear and not just assumed whether or not a digital purchase is an actual purchase or just a licence. This is most often not the case in mediums like gaming at this point and can lead to large amounts of frustration and/or anger when certain digital goods are made completely inaccesable by the distributor. Often even if they still could be played (although perhaps with the lacking of some features) without the distributor having to do/pay anything for it. -The power certain private companies can posses over large parts of the digital world even though they are not directly involved in it. The main example at the moment being the abuse of power of certain large payment processors that recently banned large amounts of games from online game stores like Steam and Itch.io worldwide at the request of a small group of protestors in Australia that don't like the toppic of certain games even though they are completely legal in the countries they where distributed. Even though you may agree with some of the games that now got banned, the point remains that +-1000 mails from a small collective of very vocal people to a private company influenced houndreds if not thousands of digital goods worldwide in which that company didn't and shouldn't have any say in.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.684182Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585332.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585332",
+    "chunks_doc_id": "F3585332",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585332.clean.paragraph.json"
+}

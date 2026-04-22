@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587467",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:06Z",
+    "finished_at": "2026-04-14T13:17:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I think the DFA should be extended to video games also."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16999,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the DFA should be extended to video games also. For example a few years ago I used to play a game called Plants vs. Zombies: Garden Warfare 2 with my brother a lot. And now that I installed the Linux on my computer and also bought a Steam deck, which runs on Linux, I wanted to play this game again with my brother. And it turns out they added some anti cheat that doesn't support gaming on Linux. I have bought the game three times in total (first on my PlayStation4, the second and the third time was on my computer, when they didn't have this anti cheat that doesn't work on Linux) and now I can't play it, because they won't let me. And I don't think they should have the right to do such a thing. For now I could install Windows and play it there, but what about after the turn off the servers, I won't be able to play it if they don't give the some way for people to host their own servers for this game before shutting down.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.526688Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587467.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587467",
+    "chunks_doc_id": "F3587467",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

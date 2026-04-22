@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585001",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:39Z",
+    "finished_at": "2026-04-14T12:17:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Game developers and or publishers, shutting down their games as they see fit."
+              },
+              {
+                "quote": "the media can't just dissapear never to be enjoyed again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12925,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to add to this the problem of Game developers and or publishers, shutting down their games as they see fit. I am a huge fan of older games which are very much in the danger zone in that regard. I think there should be some kind of protection, so that the media can't just dissapear never to be enjoyed again. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.546576Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585001.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585001",
+    "chunks_doc_id": "F3585001",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585001.clean.paragraph.json"
+}

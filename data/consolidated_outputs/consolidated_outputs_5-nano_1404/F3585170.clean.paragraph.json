@@ -1,0 +1,128 @@
+{
+  "doc_id": "F3585170",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:47Z",
+    "finished_at": "2026-04-14T12:22:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These dark patterns, easy to enter, difficult to exit, are detrimental to users and is underhanded abuse by these companies."
+              },
+              {
+                "quote": "Similar design choices of fake urgency, hidden costs, and nagging prompts etc. are used across industries to push consumers into choices they would not make under neutral conditions."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Adobe for instance, makes cancellation of subscriptions deliberately difficult, hiding early termination fees behind convoluted flows and layered confirmations."
+              },
+              {
+                "quote": "Starting June 26 2025, it suddenly required an annual subscription (~1,188 NOK) to maintain device functionality."
+              },
+              {
+                "quote": "This retroactive removal of functionality from devices already purchased and installed is deeply unfair and effectively turns ownership into a subscription, with no choice."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hiding early termination fees behind convoluted flows and layered confirmations."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a long-time user of Blizzards Overwatch, I was directly affected by the complete removal of the original game (Overwatch 1) and its forced replacement with Overwatch 2."
+              },
+              {
+                "quote": "This transition was imposed without meaningful consent."
+              },
+              {
+                "quote": "Overwatch 2 is simply a different product, different from what I purchased."
+              },
+              {
+                "quote": "Users like myself, who had invested time and money into the original game, were denied any continued access, despite having purchased it outright."
+              },
+              {
+                "quote": "It is a structurally different product with new gameplay, monetization, and progression systems."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The unilateral withdrawal of a paid product violates basic expectations of digital contract fairness and ownership."
+              },
+              {
+                "quote": "The right to retain and access purchased digital goods (especially in cases where continued access imposes no legitimate burden on the provider) should be protected by law."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45997,
+          "unit_kind": "feedback"
+        },
+        "text": "To whom it may concern, I am submitting this feedback in support of a strong and enforceable Digital Fairness Act. My concerns are based both on personal experience and on wider patterns of unfair practices affecting consumers across digital markets. Companies, Adobe for instance, makes cancellation of subscriptions deliberately difficult, hiding early termination fees behind convoluted flows and layered confirmations. These dark patterns, easy to enter, difficult to exit, are detrimental to users and is underhanded abuse by these companies. Similar design choices of fake urgency, hidden costs, and nagging prompts etc. are used across industries to push consumers into choices they would not make under neutral conditions. Such practices are not limited to utility software. As a long-time user of Blizzards Overwatch, I was directly affected by the complete removal of the original game (Overwatch 1) and its forced replacement with Overwatch 2. This transition was imposed without meaningful consent. Overwatch 2 is simply a different product, different from what I purchased. It is a structurally different product with new gameplay, monetization, and progression systems. Users like myself, who had invested time and money into the original game, were denied any continued access, despite having purchased it outright. This unilateral withdrawal of a paid product violates basic expectations of digital contract fairness and ownership. One especially serious issue is the broader trend of companies revoking access to digital products entirely, even for single-player games or software that has no ongoing server dependency. That publishers can remotely disable a product a user has purchased, often without warning or recourse, is unacceptable. This practice turns digital ownership into a de facto lease, of just a few years in some cases. The problem is exacerbated by the lack of alternatives such as self-hosting options, or patches to preserve functionality post-sunset, even when technically feasible. Another recent case is Futurehome, a smarthome provider. Starting June 26 2025, it suddenly required an annual subscription (~1,188 NOK) to maintain device functionality. Devices continue manually but are useless via app and automation unless the fee is paid, even for core local features that had worked without cloud dependency. This retroactive removal of functionality from devices already purchased and installed is deeply unfair and effectively turns ownership into a subscription, with no choice. In this case it also strongly departed from what the user initially purchased, and could expect when they purchased a product; they never expected their newly installed products to simply cease to function and be held hostage. In this case it is not so different from ransomware: Malicious software is unwillingly installed and functionality is denied unless payment is sent to an unscrupulous party. The current legal framework does not provide sufficient protection against these abuses. While the DSA covers platforms, companies like game publishers and SaaS providers often fall outside its scope. The UCPD and CRD do not explicitly address coercive interface design or post-purchase product revocation. The DFA should fill this gap. The right to retain and access purchased digital goods (especially in cases where continued access imposes no legitimate burden on the provider) should be protected by law. Likewise, cancellation and downgrade processes should be as simple and transparent as signup. Definitions of dark patterns should be codified and banned across all consumer-facing digital services. Without a strong regulatory response, digital markets will continue to normalize practices that deny consumers effective control over the products they buy, the contracts they enter, and the interfaces they interact with. The DFA must reassert consumer rights and digital product stability as foundational principles. Respectfully, Victor Boman Sweden",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.622599Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585170.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585170",
+    "chunks_doc_id": "F3585170",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

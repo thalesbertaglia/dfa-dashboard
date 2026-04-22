@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3605687",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:35Z",
+    "finished_at": "2026-04-14T13:41:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe that game developers and players should be obliged to allow players to continue using an acquired game even when the official servers are switched off."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13094,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that game developers and players should be obliged to allow players to continue using an acquired game even when the official servers are switched off. In particular, in the case of multi-player games, the use of which is strongly linked to central servers, the sale of the game should also be accompanied by the fundamental right to play the game on a permanent basis. If the last public servers of a game are switched off (following the declaration of intent to cease commercial operation), it should be mandatory, as a compensation, to provide users with means to continue the game independently. This can take the form of dedicated server software, publication of the server part as open source or other technical solutions. The decisive factor is that the player experience is maintained at least for a reasonable period of time after the purchase. An example of a game I played years ago shows that this is possible and reasonable, the game Command & Conquer: Renegade. Once the official online services ceased, players continued to be able to host their own servers. This enabled the community to keep the game alive independently, which is very close to the original player experience and is also in the interests of consumer protection. A purchased game should not become worthless after a few years by switching off central servers alone. Buyers have a legitimate expectation to obtain a product that they can use, at least in basic function, regardless of the economic choices made by the publisher. I therefore call for a clear rule requiring game developers to take appropriate measures, when the official online business is discontinued, to enable the game experience to continue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.003428Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605687.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605687",
+    "chunks_doc_id": "F3605687",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3605687.clean.paragraph.json"
+}

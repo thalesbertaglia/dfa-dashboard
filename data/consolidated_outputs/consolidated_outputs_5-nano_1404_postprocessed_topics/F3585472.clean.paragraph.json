@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585472",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:24Z",
+    "finished_at": "2026-04-14T12:28:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many modern video games are now sold as digital-only products, often requiring online access or servers to function."
+              },
+              {
+                "quote": "publishers sometimes remove these games from sale, disable their functionality, or shut down serversrendering them unplayableeven for people who legally purchased them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Clarify Digital Ownership Rights: Help define what rights consumers have when buying digital content, especially if it can later be revoked or rendered useless."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29254,
+          "unit_kind": "feedback"
+        },
+        "text": "Feedback on Digital Fairness Initiative Preserving Access to Video Games Dear European Commission, I appreciate the effort being made through the 2024 fitness check on digital fairness and the broader REFIT initiative. As a European consumer, I support stronger protections in the digital marketplace and would like to raise an often-overlooked issue: the destruction or disabling of purchased video games by publishers. Many modern video games are now sold as digital-only products, often requiring online access or servers to function. Unfortunately, publishers sometimes remove these games from sale, disable their functionality, or shut down serversrendering them unplayableeven for people who legally purchased them. In some cases, games are erased from digital storefronts entirely, with no way for consumers to re-download or access them. This is not only deeply frustrating for customersit also raises questions about digital ownership and fairness. Here are a few examples: \"The Crew\" (Ubisoft, 2014) was recently shut down, including its single-player mode. People who paid for it now have nothing. \"Battleborn\" was taken offline permanently, despite players having invested time and money. \"Assassin's Creed Liberation HD\" was at one point going to be removed even from peoples libraries, until public backlash caused Ubisoft to change course. \"Mirrors Edge Catalyst\", among other games, was delisted and is no longer available, even for preservation. This practiceeffectively deleting purchased contentis unfair to consumers and damages digital trust. Many of us buy games with the expectation that well be able to access them for years, not only as entertainment but as part of our personal and cultural history. I kindly urge the Commission to consider including the following within the scope of this initiative: Consumer Safeguards: Require companies to offer reasonable alternativessuch as offline modes, local versions, or refundswhen shutting down games that were sold to customers. Digital Preservation: Encourage companies to work with cultural institutions or preservation groups to archive and maintain access to significant video games. Transparency and Notice: Mandate clear communication about game shutdowns or delistings well in advance, including information on how it will affect existing customers. Clarify Digital Ownership Rights: Help define what rights consumers have when buying digital content, especially if it can later be revoked or rendered useless. Video games are a meaningful part of modern culture, especially for younger generations. They are creative works that deserve to be preservedand consumers deserve to be treated fairly when purchasing them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.760292Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585472.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585472",
+    "chunks_doc_id": "F3585472",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585472.clean.paragraph.json"
+}

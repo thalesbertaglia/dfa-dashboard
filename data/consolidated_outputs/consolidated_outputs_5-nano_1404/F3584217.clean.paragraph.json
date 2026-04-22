@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584217",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:30Z",
+    "finished_at": "2026-04-14T11:52:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games with online-only features can become unplayable once servers are discontinued."
+              },
+              {
+                "quote": "This could involve releasing offline versions of games, providing access to private servers, or releasing the source code of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11566,
+          "unit_kind": "feedback"
+        },
+        "text": "The proposed measures are a step in the right direction, however I believe it's important to also address the issue of consumer ownership of digital goods like movies, music, software, and video games. Currently, consumers often purchase these products under the assumption of ownership, but access can be revoked with little notice. This is particularly problematic in the video game industry, where games with online-only features can become unplayable once servers are discontinued. This already happened to hundreds of games. To address this, I suggest including provisions in the Digital Fairness Act that require game developers to implement end-of-life plans for their products. These plans should ensure that consumers can continue to access and use the content they've purchased, even after official support has ended. This could involve releasing offline versions of games, providing access to private servers, or releasing the source code of the game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.129674Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584217.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584217",
+    "chunks_doc_id": "F3584217",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3664838",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:12Z",
+    "finished_at": "2026-04-14T13:45:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android App Installation Blocking",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google planning to block installing apps on Android."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8631,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express concern with regards to Google planning to block installing apps on Android. In my opinion this is an unfair invasion of freedom in devices that I bought. I do not believe there is any reason why a corporation should have any control over software that is installed on my own device. If such a thing were to happen on a standard computer I would change the operating system however for mobile devices this is not an option, which I would also say is an issue for digital fairness.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.084498Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664838.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664838",
+    "chunks_doc_id": "F3664838",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

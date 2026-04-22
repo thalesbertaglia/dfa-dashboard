@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585425",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:20Z",
+    "finished_at": "2026-04-14T12:27:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the shutdown or removal of servers for games purchased that require a server to be played."
+              },
+              {
+                "quote": "If the customer bought the game then it should be available to play for as long as the customer wants it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15136,
+          "unit_kind": "feedback"
+        },
+        "text": "I am commenting to say that this act is a ray of hope in the abuse that consumers take nowadays at the hands of the ever bold corporations. I would like to plea that you consider the state of the video game landscape as well nowadays in what pertains to the shutdown or removal of servers for games purchased that require a server to be played. If the customer bought the game then it should be available to play for as long as the customer wants it. That's how buying something works, when degradation of the physical media isn't in consideration. The \"stop killing games\" petition already mentioned this fact and stated the possible workarounds and end of life options provided by the developers to make sure the game goes on even after service is gone. And this is but one of the many abusive behaviours that customers have to face nowadays, not just in gaming. Life isn't getting easier and having corporations fleece us and manipulate us out of our money isn't helping. Thank god for the European union and their sturdy moral compass. Cheers!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.736633Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585425.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585425",
+    "chunks_doc_id": "F3585425",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

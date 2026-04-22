@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585459",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:03Z",
+    "finished_at": "2026-04-14T12:28:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games as a medium"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "agreements behind closed doors that would now dictate the rules and laws regarding the publishing of cultural material."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28479,
+          "unit_kind": "feedback"
+        },
+        "text": "In light of the recent \"Stop Killing Games\" initiative I would like to voice my full support for the project and hope that the European Union officials not only treat it with utmost respect but also enforce the steps necessary to preserve video games as a medium. This would create a more consumer-friendly environment where any and all digital products will still be accessible, even in an event of the original publisher no longer supporting the product no matter the reason given. Additionally, I hope that the European Commission takes into account the recent development of the \"Collective Shout\" group which has recently coerced payment processors such as Mastercard and Visa to harrass publishing platforms such as Itch.io and Steam to delist products whose themes and objectives did not align with Collective Shout's hateful and bigoted rhetoric. I am bringing this up because such a small group based in Australia has caused ripples across the entire world, beridding hundreds of thousands of people of their sources of income and giving payment processors the floor to usurp the authority of age rating systems and initiatives such as IARC, PEGI or ESRB. I do hope that the European Commission takes the steps necessary to ensure the safety of creators and stop powerful corporations and wealthy individual persons from coming to agreements behind closed doors that would now dictate the rules and laws regarding the publishing of cultural material.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.754162Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585459.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585459",
+    "chunks_doc_id": "F3585459",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585459.clean.paragraph.json"
+}

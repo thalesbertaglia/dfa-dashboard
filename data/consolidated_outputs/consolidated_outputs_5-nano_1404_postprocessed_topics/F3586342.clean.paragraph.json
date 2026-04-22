@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586342",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:29Z",
+    "finished_at": "2026-04-14T12:54:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preserve our purchases of videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the fact that payment processing companies apparently can decide what type of content is being sold by platforms like steam or itch.io"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27449,
+          "unit_kind": "feedback"
+        },
+        "text": "I do support the calls to preserve our purchases of videogames expressed in other commentary. If possible, i would also like to raise concern about another issue that has appeared recently in public space - the fact that payment processing companies apparently can decide what type of content is being sold by platforms like steam or itch.io - content that is legal under the law, but simply being viewed unfavorably by those payment processors. I believe those companies should not have a say in what type of content they process transactions for as long as the content itself is legal under the law. While they are private companies unfortunately they have such a stranglehold on internet commerce that they really should be treated and regulated like public services.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.210152Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586342.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586342",
+    "chunks_doc_id": "F3586342",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586342.clean.paragraph.json"
+}

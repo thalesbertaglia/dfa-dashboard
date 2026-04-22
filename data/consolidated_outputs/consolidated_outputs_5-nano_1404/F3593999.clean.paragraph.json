@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3593999",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:58Z",
+    "finished_at": "2026-04-14T13:40:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hidden dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "free game"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "cancel your subscription"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21647,
+          "unit_kind": "feedback"
+        },
+        "text": "Unfair practices by developers, publishers, or retailers in the digital market must be addressed under the Digital Fairness Act. While individuals are ultimately responsible for their choices when purchasing or playing a game, companies that enable harmful behaviors through manipulative design tactics should also be held accountable. Practices such as psychological pressure, shaming mechanisms, or hidden dark patterns must be prohibited. Just because these tactics are not openly visible does not make them any less harmful. The use of subtle psychological tricks in digital products is widespread and often unnoticed by users. Examples include deceptively worded prompts like requiring a user to click No, I dont want any benefits when refusing a paid offer in a free game, manipulating button sizes or colors to steer choices, or deliberately hiding or obscuring the option to decline or close advertisements. Such design patterns exploit cognitive biases and mislead consumers, undermining fairness and transparency. The Digital Fairness Act should ensure that digital environments are free from these manipulative tactics so that users can make informed and unpressured choices. If I have to Google how to cancel your subscription because I cant find the council button then your design is shady and this happens with so many services",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.966999Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593999.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593999",
+    "chunks_doc_id": "F3593999",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

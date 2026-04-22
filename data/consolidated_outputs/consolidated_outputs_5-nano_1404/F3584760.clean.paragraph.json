@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584760",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:05Z",
+    "finished_at": "2026-04-14T12:09:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The trend of requiring constant internet connectivity allows companies to make games unplayable, leaving consumers who invested real money with nothing."
+              },
+              {
+                "quote": "Ubisoft shut down \"The Crew 1,\" rendering a game I purchased completely inaccessible."
+              },
+              {
+                "quote": "Its unfair that companies can design their products to become obsolete without any compensation for consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33157,
+          "unit_kind": "feedback"
+        },
+        "text": "Im excited to see the EU taking a stronger stance on consumer rights against questionable practices by companies! As a dedicated gamer, its clear we need better regulations in the industry. The trend of requiring constant internet connectivity allows companies to make games unplayable, leaving consumers who invested real money with nothing. The \"Stop Killing Games\" movement highlights this issue, and I believe it could significantly strengthen consumer protections. I experienced this firsthand when Ubisoft shut down \"The Crew 1,\" rendering a game I purchased completely inaccessible. Its unfair that companies can design their products to become obsolete without any compensation for consumers. Lets unite and advocate for the change we deserve! Im thrilled by the progress being made, and I hope it continues to benefit all gamers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.393117Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584760.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584760",
+    "chunks_doc_id": "F3584760",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

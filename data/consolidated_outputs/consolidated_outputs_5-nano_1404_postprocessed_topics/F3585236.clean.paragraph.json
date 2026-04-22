@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585236",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:19Z",
+    "finished_at": "2026-04-14T12:23:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers can unilaterally unlist, remove and end all suport to video games that the consumer already brought at a whim."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9115,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello dear reader! I think this can be a great opportunity for all of us to expand the Digital Fairness Act to also cover video games. As of today, publishers can unilaterally unlist, remove and end all suport to video games that the consumer already brought at a whim. In my opinion, as EU consumers, we should have the right to use a product that we acquired and at least have some protections in place to prevent digital distributors of video games removing access to an already functioning product. Thank you a lot for consideration! Have a great day, Victor",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.649510Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585236.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585236",
+    "chunks_doc_id": "F3585236",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585236.clean.paragraph.json"
+}

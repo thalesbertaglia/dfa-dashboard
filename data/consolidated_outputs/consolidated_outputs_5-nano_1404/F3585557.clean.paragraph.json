@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585557",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:24Z",
+    "finished_at": "2026-04-14T12:30:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "always online requirements and DRMs that require daily/weekly logins and are tied to a third party service without which they cease to function."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18113,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital media, such as Movies, Books and Games, that are \"bought\" (through a License or otherwise) and not \"rented\" (subscriptions with a fixed time mentioned on the sale), should be available for life. Currently people are forced to live with the risk of losing access to their purchased Items, due to always online requirements and DRMs that require daily/weekly logins and are tied to a third party service without which they cease to function. This is like buying a car, except that the car manufacturer can just lock you out of your vehicle on a whim, because they dont want to produce spare parts for it anymore. Instead of allowing the consumer to either fix the car himself or source spare parts from a different supplier. If a company has no intentions to further provide a service (be it due to maintenance costs, profitability or any other reason) and has no reasonable claim that a 3rd party service would harm their future Profits with said service (which shouldnt be the case as they do not intend to keep running said service). Then a consumer should be allowed to continue using the product they bought through their own means, or provided with a version of the product that can operate without the service",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.801868Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585557.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585557",
+    "chunks_doc_id": "F3585557",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

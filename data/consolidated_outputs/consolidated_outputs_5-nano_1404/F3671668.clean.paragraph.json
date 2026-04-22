@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3671668",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:32Z",
+    "finished_at": "2026-04-14T13:46:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns in applications"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "abuse of personal data"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "daily video game rewards"
+              }
+            ]
+          },
+          {
+            "topic": "Sideloading Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This case is Google, which as of September 2026 will require all Android apps, even those installed outside its official shop (sideloading), to be signed by verified developers."
+              }
+            ]
+          },
+          {
+            "topic": "FOSS Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "free and open software (FOSS) without contributing to the data economy imposed by Google."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33807,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that the Digital Fairness Act should focus on protecting users from several problematic practices affecting our privacy and digital freedom. Topics such as dark patterns in applications, abuse of personal data, excessive control of big tech and uncontrolled progress on artificial intelligences deserve particular attention. Many digital services, such as games and social media, use dark patterns. They are tricks designed not only to spend money, but to engage you and spend more time in your apps. For example, daily video game rewards, constant notifications or the famous scroll infinite in TikTok are strategies to keep us attached to the screen. In particular, these patterns are very dangerous for children, who can become addicted to gambling and spend money without control. In addition, mandatory identification is being imposed to use services, supposedly to protect, but in reality it is a covert method to collect and sell our personal data. Those who want to do harm will seek ways out of control, while most will be exposed and monitored, driving a more discriminatory society. One relevant case is Google, which as of September 2026 will require all Android apps, even those installed outside its official shop (sideloading), to be signed by verified developers. This severely limits the freedom of users and developers who prefer to create or use free and open software (FOSS) without contributing to the data economy imposed by Google. Sideloading, one of the pillars differentiating Android as an open system, is thus severely restricted, particularly affecting those seeking alternatives outside the control of big tech. Finally, artificial intelligences are very powerful and useful tools, but they should be used with control and ethics. Many feed on data and texts without permission, without respecting people’s privacy, and have a growing role in the massive generation of fake news, which is causing tremendous damage to society by confusing and polarising public opinion. If not properly regulated, these technologies can reinforce prejudices and contribute to an even more unequal and monitored society. In short, these areas are key for the Digital Fairness Act to truly protect users and promote a fairer and more transparent digital environment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.090085Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3671668.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3671668",
+    "chunks_doc_id": "F3671668",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

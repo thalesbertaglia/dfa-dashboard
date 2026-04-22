@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:57Z",
+    "finished_at": "2026-04-14T13:18:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "give customers the way to play games when they have ceased all support for them"
+              },
+              {
+                "quote": "after they have ceased support they should give the players the tools so they can keep playing"
+              },
+              {
+                "quote": "either for making an offline mode or giving the community the tools to make their own private servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19767,
+          "unit_kind": "feedback"
+        },
+        "text": "Companies should give customers the way to play games when they have ceased all support for them, after they have ceased support they should give the players the tools so they can keep playing, either for making an offline mode or giving the community the tools to make their own private servers",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.536770Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587521",
+    "chunks_doc_id": "F3587521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587521.clean.paragraph.json"
+}

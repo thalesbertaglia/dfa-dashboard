@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585556",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:24Z",
+    "finished_at": "2026-04-14T12:30:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many current digital games use the term ‘purchase’ if somewhere in small prints are actually ‘borrowing’ indefinitely, in which the ‘seller’ (borrower) can withdraw the rights of use at any time without justification."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is the current reality of many digital games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A comparison: I ‘buy’ a car. However, somewhere in the contract there is a side-word that it is actually a ‘borrowing’, but the price is at the level as if it were a real ‘purchase’."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33559,
+          "unit_kind": "feedback"
+        },
+        "text": "Many current digital games use the term ‘purchase’ if somewhere in small prints are actually ‘borrowing’ indefinitely, in which the ‘seller’ (borrower) can withdraw the rights of use at any time without justification. A comparison: I ‘buy’ a car. However, somewhere in the contract there is a side-word that it is actually a ‘borrowing’, but the price is at the level as if it were a real ‘purchase’. After a year, the ‘seller’ arrives and slows down the car to bring it back to the ‘seller’’s own possession. No reimbursement will be made. This is the current reality of many digital games. In addition, many digital games use ‘micro-transactions’ that contain adventitious digital goods. The term ‘buy’ rather than ‘borrowing’ is also used. There is also explicit use of mechanisms and designs that are known from casinos and why legislation has been adopted (in the case of casinos) that excludes minors. Strangely, these laws are still not applied to digital games. Often with the argument that there is no monetary equivalent. A short e-Bay search for rare items accounts shows: However, there is a corresponding monetary equivalent and the law should apply accordingly. In addition, minors are trained even before they reach the age of majority to play irresponsible money in casinos. A particularly serious example is the ‘Roblox’ game, which, during the coronavirus crisis, partially broadcasted advertising to minors, how the parents’ credit card is clandestinely blurred in order to ‘buy’ (again a real ‘rent’ or ‘borrow out’) accordingly, an extension of regulations is urgently needed, as the already existing regulations are manifestly insufficient.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.801323Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585556.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585556",
+    "chunks_doc_id": "F3585556",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

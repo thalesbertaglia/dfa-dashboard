@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585093",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:55Z",
+    "finished_at": "2026-04-14T12:20:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publisher can as of now just kill games, that consumers paid for, as they want."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8897,
+          "unit_kind": "feedback"
+        },
+        "text": "The act and thoughts behind it are something that I think most of us can get behind. The main problem I find with it is, that it does not cover the purchase and ownership of video games. Publisher can as of now just kill games, that consumers paid for, as they want. For example The Crew or online features of the Little Big Planet Games were just discontinued leaving consumers without the option to use the product they paid for. I think that this act could help fight this problem by directly tackling this problem and creating stricter rules for publishers to allow consumers to use the product they paid for even when the publisher does not feel like it. The general interest in this can also be seen in the movement stop killing games and the EU petition with 1.4 million signatures on this topic.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.593041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585093.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585093",
+    "chunks_doc_id": "F3585093",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585093.clean.paragraph.json"
+}

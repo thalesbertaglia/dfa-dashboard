@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3584801",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:43Z",
+    "finished_at": "2026-04-14T12:12:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "playing with people's vices (addictive designs e.g. gambling)"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "and even mentioned gaming for some of these examples."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Obfuscating through legalese: EULAs more often than than are extremely long and include a lot of obfuscation of what you are agreeing with,"
+              },
+              {
+                "quote": "Many times the games have data gathering that is mentioned obscurely in the EULA"
+              },
+              {
+                "quote": "There have also been cases of EULAs being rewritten and you'd either not have a \"Disagree\" button or if you disagreed, you would be booted out of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 109467,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I like that this initiative picks up on a lot of issues on the internet for consumers, and I've seen that you have included issues like playing with people's vices (addictive designs e.g. gambling), unfair commercial practices and obfuscating through legalese and even mentioned gaming for some of these examples. I see no reason this shouldn't be supported and I also kindly ask that you consider including gaming issues more, for example: Recently there has been an EU initiative called Stop Killing Games that garnered over 1.4m signatures and could be of interest to the Digital Fairness Act as well because of how many games are now online-only/live service or need an online component when it wouldn't be strictly necessary, and when the publisher decides it's no longer a good idea to support the game, they shut off the servers and the customer now has a dead purchase. Note that SKG never asks that companies continue to support a game when it's no longer economically feasible, but instead asks that these companies have an end of life plan for their game, which wouldn't impact them economically (no servers needed, negligible time for implementing something like this as many games already do and private (by consumers) servers exist) or time wise because through the process of development, they would already have a standalone, no-online version. Beyond that, it would also fit the Digital Fairness Act because it hits on many of the same points the DFA brings up: 1. Obfuscating through legalese: EULAs more often than not are extremely long and include a lot of obfuscation of what you are agreeing with, I know that the EU already has some protections for this but this does not invalidate the whole contract and some egregious practices still happen. 2. Misdirection - You are supposedly purchasing something, the digital shops always use the word \"Purchase\" or \"Buy\", it's never \"Lease\" or \"Borrow\", and yet publishers through the EULA can tell you that you are only \"borrowing a license\" which they can always take away (e.g. no more servers, banning your account, etc) 3. Unknowingly granting permissions - Many times the games have data gathering that is mentioned obscurely in the EULA, there have also been cases of EULAs being rewritten and you'd either not have a \"Disagree\" button or if you disagreed, you would be booted out of the game. 4. Turning off servers to incite people to buy the sequel - Which I would say falls under unfair commercial practices, for example, you can no longer play Overwatch even if you did purchase it because it's no longer available, there is now only Overwatch 2, and Overwatch 2 was sold practically at the same price and the game was not changed almost at all. It was almost a carbon copy of Overwatch. I hope my feedback will help both your Act and the initiative. Thank you very much.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.442471Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584801.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584801",
+    "chunks_doc_id": "F3584801",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

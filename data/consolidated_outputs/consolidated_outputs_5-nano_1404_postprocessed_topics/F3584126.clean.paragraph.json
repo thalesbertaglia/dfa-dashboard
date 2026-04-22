@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584126",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:14Z",
+    "finished_at": "2026-04-14T11:49:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "search my deposit for customers who bought an air-conditioning system from me more than two years ago."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "going from EUR 60 to EUR 150"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40139,
+          "unit_kind": "feedback"
+        },
+        "text": "I am a wholesale and external trader in Germany and I have been selling air-conditioning systems for 10 years. Let’s imagine that I would search my deposit for customers who bought an air-conditioning system from me more than two years ago. Then I go to the customer at 3 a.m., enter the house and propose the old air-conditioning system with a hammer. And on 8 a.m. I am in front of the door with a new, better air-conditioning system and sell it at full price. This would be inconceivable and arguably a prison sentence in the third or fourth attempt. But why? Because I sell the wrong product. If I sell in software, computer programs or video games, everything would be normal. This has been the normal course of action for more than 5 years. But because I sell air-conditioning systems, I cannot break my product from end-of-life customers to create demand for new products. I find it unfair. What if I incorporate a chip into the air-conditioning system and, with a remote control, send the device the signal to stop starting? Would this be more permitted than the hammer? Is distance decisive? For many video games going from EUR 60 to EUR 150, the signal is simply ‘no longer functioning, bad advertising for the successor’. I would appreciate if we no longer treat the destruction of software products differently. I and 1.5 million others in Europe are in favour of the current movement against the destruction of goods already sold.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.084957Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584126.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584126",
+    "chunks_doc_id": "F3584126",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584126.clean.paragraph.json"
+}

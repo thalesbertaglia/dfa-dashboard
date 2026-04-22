@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584123",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:04Z",
+    "finished_at": "2026-04-14T11:49:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10340,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumer rights are under attack from all directions and that includes digital goods like video games, creative software, and productivity tools. I believe it's crucial that the rights of private citizens to own what they lawfully purchase be protected, not just for the sake of creativity and productivity, but also for mental well-being and digital freedom. When a person buys a game or app, they should not live in fear of it being revoked or rendered useless due to server shutdowns or corporate decisions. This is about basic digital property rights and protecting consumer trust in the long term. Please make sure the Digital Fairness Act doesnt overlook the digital spaces where millions of people live, work, play, and create.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.083466Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584123.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584123",
+    "chunks_doc_id": "F3584123",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584123.clean.paragraph.json"
+}

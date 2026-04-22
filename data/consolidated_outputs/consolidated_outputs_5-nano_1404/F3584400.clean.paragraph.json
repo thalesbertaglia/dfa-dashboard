@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584400",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:18Z",
+    "finished_at": "2026-04-14T11:57:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ownership for people who part with their paychecks to buy digital goods or physical goods that get bricked when software support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30595,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU representatives. This act is a golden opportunity to sway software/firmware creators and publishers into more pro-consumer policies. Over the last 15 years it has become standard practice for software to be abandoned and destroying itself or the hardware it is attached to. Leading to incredible amount of e-waste and/or the destruction of software with cultural value (like videogames, movies, etc). Please consider including protections like the ones outlined in the Stop Destroying Videogames initiative. I am personally in favour of extending such End Of Life protections to all software that has been purchased by consumers, not only video games. We should and must stop producing waste, be it physical or digital. And protect art and the ownership for people who part with their paychecks to buy digital goods or physical goods that get bricked when software support ends. Thank you, from a concerned citizen.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.216505Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584400.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584400",
+    "chunks_doc_id": "F3584400",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

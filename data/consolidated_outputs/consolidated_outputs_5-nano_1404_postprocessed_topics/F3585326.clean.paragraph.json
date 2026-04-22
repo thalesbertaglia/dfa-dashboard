@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585326",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:16Z",
+    "finished_at": "2026-04-14T12:25:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Videogames are sold as products, but are treated as licenses, that can be revoked at any time for any reason."
+              },
+              {
+                "quote": "to take away ownership of Videogames, that were already sold to the customer, when they feel like it."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, publishers have the right, by their own ToS (to which customers HAVE to agree to AFTER making the purchase), to take away ownership of Videogames, that were already sold to the customer, when they feel like it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29074,
+          "unit_kind": "feedback"
+        },
+        "text": "In my opinion, the Digital Fairness Act should include the topic of videogame-publishers being not allowed to mandate what digital ownership means. Right now, publishers have the right, by their own ToS (to which customers HAVE to agree to AFTER making the purchase), to take away ownership of Videogames, that were already sold to the customer, when they feel like it. This is a form of planned obsolescence, to incentivise the purchase of the next game. In my eyes, this is an industry practice that is highly unfair to the customer and goes against the most basic rules of general commerce. Videogames are sold as products, but are treated as licenses, that can be revoked at any time for any reason. Within the last 15 years, publishers worldwide have Massively overstepped legal boundaries and purposefully created a legal grey zone to act within, while ceasing as much power, control and money as possible. The videogame industry is in dire need for pro-consumer regulation.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.681869Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585326.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585326",
+    "chunks_doc_id": "F3585326",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585326.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586217",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:46Z",
+    "finished_at": "2026-04-14T12:51:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Always-Online DRM (Digital Right Management) gets shutdown after a number of years."
+              },
+              {
+                "quote": "in the event of service discontinuation, games should have their always-online DRM removed/patched out"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30129,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello to whom it may concern from the European Commission. I've had multiple games that I own (Or what digital storefronts call \"I have a license for\") get severely degraded functionality or outright stop working because it was no longer feasible to keep services running for from the developers/publishers point of view. This is especially outrageous (but not limited to) games that can be played offline and alone (also called single-player games) but they fail for just the simple fact that the Always-Online DRM (Digital Right Management) gets shutdown after a number of years. Digital media like books, music and videos do not become impossible to be enjoyed just because the author, studio or publisher are not interested in these properties anymore. The same standard should go for games but many games are not architected for an eventual shutdown of the servers, services or the respective companies. I am not asking for indefinite support, that is not economical nor feasible. All I am asking for is, in the event of service discontinuation, games should have their always-online DRM removed/patched out and server files required for other types of live-service games released, to the best of their ability, (as-is, with a no-support disclaimer from the company if they so wish to) so these digital interactive art-pieces can still be enjoyed by the rightful consumers that bought these games. Preservation of games, preservation of the purchases of consumers and preservation of the culture and it's heritage should not be an afterthought. Yours truly A Gamer and a concerned EU Citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.159710Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586217.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586217",
+    "chunks_doc_id": "F3586217",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586217.clean.paragraph.json"
+}

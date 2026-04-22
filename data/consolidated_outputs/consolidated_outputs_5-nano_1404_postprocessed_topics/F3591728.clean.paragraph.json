@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591728",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:42Z",
+    "finished_at": "2026-04-14T13:36:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I paid for a videogame, the access to that videogame should not be revoked ever."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12386,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey, Please go ahead and protect us, consumers from game developer companies destroying videogames. Its sad, that this is not automatically granted. If I paid for a videogame, the access to that videogame should not be revoked ever. Its okay, if the game developers dont support that game anymore, if they dont provide updates anymore, but me as a user should be able to keep playing that game if I want, once again, I PAID FOR IT. Thanks. Just a user from EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.896543Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591728.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591728",
+    "chunks_doc_id": "F3591728",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591728.clean.paragraph.json"
+}

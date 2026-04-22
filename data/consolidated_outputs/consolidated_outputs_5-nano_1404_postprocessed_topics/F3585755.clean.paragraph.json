@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585755",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:48Z",
+    "finished_at": "2026-04-14T12:36:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they should be held liable for making such statements if this kind of decision is changed AFTER it is sold to a customer."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "drop rates (Random Generated Numbers) for obtaining in game rewards should be disclosed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35639,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, as a Polish consumer, I interact with games daily, and I believe it's essential to protect consumers from unfair business practices. I think that whatever is being advertised should be included in the product, eg. a program developer states that their game will not require an internet connection, they should be held liable for making such statements if this kind of decision is changed AFTER it is sold to a customer. I also believe it's fair to disclose that all drop rates (Random Generated Numbers) for obtaining in game rewards should be disclosed whenever obtaining the item requires spending money, and the consumer should be provided with estimated cost of an item they want to obtain through RNG. I hope my thoughts help forge better future for gaming.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.905005Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585755.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585755",
+    "chunks_doc_id": "F3585755",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585755.clean.paragraph.json"
+}

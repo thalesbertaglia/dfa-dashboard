@@ -1,0 +1,114 @@
+{
+  "doc_id": "F3589285",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:36Z",
+    "finished_at": "2026-04-14T13:32:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "behind a subscription-based paywall"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "change the sales contract after the fact"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "pressured companies from removing completely legal items"
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "not purchased and owned"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 119453,
+          "unit_kind": "feedback"
+        },
+        "text": "Aside from looking at the main points of this initiative such as dark patterns, loot boxes and predatory practices I urge you to consider several additional points which are highly problematic practices against consumers. 1) Partial payment processors. It has for quite a while now been the case that payment processors, specifically Visa and MasterCard, have pressured companies from removing completely legal items, sometimes entire product categories, from their offerings lest the payment processors outright cancel their cooperation. This is a gross misuse of market power. Most prominent in recent years is the refusal to process payments or cooperate with vendors selling legal goods marketed to adults. 2) (Digital) goods ownership. It used to be that purchasing a physical copy of books, software, music, games and such used to mean to actually own said physical copy. With the move to digital distribution not only the digital goods but in many cases also the physical copies (e.g. purchasing a physical copy of a game or software with digital activation codes included) are now not purchased and owned (despite the use of 'buy' and 'purchase' buttons, only clarifying in deeply hidden EULAs or such) instead licenses to said products are sold. Not only is this misleading, the licenses can and often are revoked at will of the licensor. Purchasing purely digital conent such as music, in-game items and such is also problematic when the platform operator decides to remove that content. I distinctly remember cases of hundreds of movies being removed from streaming platforms and thus removing access to purchased movies with no recompense. Not this was not discontinuation of the streaming service itself but a restructuring of their offerings. Strengthening the rights to ownership in these cases would be much appreciated. 3) Corollary to 2) I point your attention to the very succesful 'Stop Destroying Videogames' EU petition with almost 1.5 million signees. This highlights the problem of selling digital goods, in this case games, with online-only features and discontinuing the online features at an indeterminate point of time often rendering the purchased goods unusable. The initiative aims for regulation to include end-of-life plans to allow for the digital goods to remain usable (at least in principle) even if the official online service is shut down. 4) Forced changes of contracts after the sale. Especially with cloud-based products such as baby monitors and cloud-based cameras, doorbells and such the devices are sold at full price with access to the cloud features. It has happened multiple times that after 1-5 years the company decided to change the sales contract after the fact and lock features originally sold with the product behind a subscription-based paywall. In these cases customers are deprived of functionality the originally paid for at no respite. Here too an end-of-life plan would be helpful; either allowing the customers to set up their own cloud servers, patching out the necessity for a cloud connection or by other means. 5) Legalize a second life for abandoned products. As mentioned in 4) with rising frequency companies drop support for products or going bankrupt their products turn into (physical) abandonware. Examples include E-Bikes, E-Scooters, various cloud devices up to (potentially) electric cars. To my knowledge it is currently illegal to attempt to make these devices work again through reverse engineering or third-party firmware updates / replacements due to intellectual property rights. Please consider exemptions in such cases to reduce the amount of electronic waste and for the benefit of the owners.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.777406Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589285.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589285",
+    "chunks_doc_id": "F3589285",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589285.clean.paragraph.json"
+}

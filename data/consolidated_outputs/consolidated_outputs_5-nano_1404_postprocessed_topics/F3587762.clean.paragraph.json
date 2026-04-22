@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587762",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:44Z",
+    "finished_at": "2026-04-14T13:21:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I am greatly concerned that I can buy a product, any product, but in particular video games, and a company can just retract access to it entirely at will at any point in time."
+              },
+              {
+                "quote": "Video games with an online element in particular should be developed with an End of Life plan in place so customers can continue to access their purchased product in a reasonably playable state."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Separately from this, I do not believe charging a subscription service to access features that are physically present in a product, such as heated seating in cars, and costs the production company nothing to activate from the factory, is ethical behavior."
+              },
+              {
+                "quote": "If the function is physically present and only requires an online activation to function, companies should not be allowed to charge an ongoing subscription fee to keep it active."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23337,
+          "unit_kind": "feedback"
+        },
+        "text": "I am greatly concerned that I can buy a product, any product, but in particular video games, and a company can just retract access to it entirely at will at any point in time. Even if the video game is sold as a physical copy, like in the case of The Crew published by Ubisoft, the game was mode wholly unavailable despite functionally being a single player game. No company should be able to retract access to a purchased product in this manner simply because they deem it unprofitable. Video games with an online element in particular should be developed with an End of Life plan in place so customers can continue to access their purchased product in a reasonably playable state. If games are developed with End of Life plans in mind, I do not believe this would be prohibitively expensive to the point of stifling innovation. Separately from this, I do not believe charging a subscription service to access features that are physically present in a product, such as heated seating in cars, and costs the production company nothing to activate from the factory, is ethical behavior. If the function is physically present and only requires an online activation to function, companies should not be allowed to charge an ongoing subscription fee to keep it active. At absolute worst, car companies should only be allowed to charge a single one-time payment to activate features of physically present hardware on a permanent basis.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.582385Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587762.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587762",
+    "chunks_doc_id": "F3587762",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587762.clean.paragraph.json"
+}

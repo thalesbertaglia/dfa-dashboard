@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3588108",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:24Z",
+    "finished_at": "2026-04-14T13:22:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lootbox mechanics."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "abusive EULAs"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18319,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to address these issues: - ensure a level playing field for online traders and unfair commercial practices related to dark patterns: currently, the Mastercard/Visa global duopoly is aggressively forcing sites like steam, itch.io, civitai, tensorart, dlsite and others not to sell any item that could \"damage the brand image\" as confirmed by public declarations of their managers. Only the Japanese government is actively fighting this trend. Given the power of these two organizations, they can put out of business in months any seller they do not like, as happened in japan and currently happening in the us with civitai. They should be forced to comply to laws and laws only, because they are offering a public service and because of the duopoly they have established, no one can do business without them or their merchant banks or payment providers. - unfair commercial practices related to dark patterns: ubisoft and many other video games publishers like nintendo are forcing abusive EULAs on their products that basicly treat the buyer as a sort of temporary user or a service that may be removed to their will. See the Stop Destroying Videogames initiative. - addictive design of digital products: all free to play videogames resort to inducing addiction in players by using lootbox mechanics. In short: free to play videogames that have any kind of in game store should be banned, as they cannot economically be profitable without exploting addiction patterns. Every video game should resort either on a subscription or a full price.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.614821Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588108.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588108",
+    "chunks_doc_id": "F3588108",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

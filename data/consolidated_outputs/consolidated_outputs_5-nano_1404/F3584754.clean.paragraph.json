@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584754",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:52Z",
+    "finished_at": "2026-04-14T12:10:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when purchasing a digital product the consumer can only read the EULA after making the purchase, and they are forced to accept it."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "by forcing a clause in their End User License Agreement (EULA) that is not forcible under European Law but also not in any way fair to the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 104657,
+          "unit_kind": "feedback"
+        },
+        "text": "In my opinion the preservation of purchased video games and other digital goods should be included into the Digital Fairness Act, the current mentality of \"You'll own nothing and you'll be happy\" or forcing the consumer to destroy both physical and digital version of a product whenever the developer or publisher decides to terminate the product by forcing a clause in their End User License Agreement (EULA) that is not forcible under European Law but also not in any way fair to the consumer. In many cases, when purchasing a digital product the consumer can only read the EULA after making the purchase, and they are forced to accept it. The StopKillingGames initiative combined with the Digital Fairness Act can both make for a better, fairer and safer digital future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.390108Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584754.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584754",
+    "chunks_doc_id": "F3584754",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

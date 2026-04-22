@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33091935",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:16Z",
+    "finished_at": "2026-04-14T09:35:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loopholes and misleading practices in online membership contracts."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10835,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. During these months, we have reflected on the importance of the Digital Equity Act. This is about protecting consumers and users, and simplifying the rules to protect them. I therefore agree with the application of that law, since it will bring very great benefits. First, it is a solution tool, because it will eradicate a large number of problems we are currently experiencing as a result of loopholes and misleading practices in online membership contracts. It also boosts digital education and skills to adapt to the labour market of the future in the European Union.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.585693Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091935.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091935",
+    "chunks_doc_id": "F33091935",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

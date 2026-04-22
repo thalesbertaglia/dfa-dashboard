@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585485",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:47Z",
+    "finished_at": "2026-04-14T12:29:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "users merely license content and may lose access if distribution rights change."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14130,
+          "unit_kind": "feedback"
+        },
+        "text": "Ownership in the Digital World:: The notion of 'ownership' is unclear and inconsistently applied in the digital world. In the physical world, ownership of media is tangible, taking form as physical artifacts such as DVDs (for movies) or CDs (for music). These items remain the consumer's property and are accessible indefinitely, unless the owner chooses to relinquish them. I propose that new rights be introduced to better protect consumers in the digital world, in ways that more closely reflect their rights in the physical analogue. Tangible Examples of Unclear Digital Ownership:: The concept of 'services' translates well into digital contexts. Renting a movie online, such as through Amazon, closely resembles the experience of renting a film from a local store. However, the digital translation of ownership is far weaker. In the physical world, purchasing a DVD implies permanent ownership. In contrast, 'purchasing' a digital movie on Amazon means access is granted only under certain conditions: - Amazon must retain the distribution rights for that movie. - The user's account must remain active and in good standing. I mention Amazon specifically as a prominent example where the notion of consumer ownership of digital goods is weak. However, the issue is widespread across digital platformsincluding Steam, Hulu, YouTube, the Epic Games Store, and others. The same fragility applies across various types of media, including movies, games, software, and music. Why Current Interpretations of Ownership Are Inadequate:: Several real-world cases demonstrate that current notions of digital ownership are insufficient and have already resulted in consumers losing access to products they paid for. These examples show that this is not a theoretical concern, but a practical one: - Scott Pilgrim vs. The World: The Game Delisted in 2014 due to licensing issues, making it unavailable for new purchases or re-downloads until years later. - DuckTales Remastered Temporarily removed from digital storefronts, cutting off access for many who had purchased it. - Amazon Video Delistings In 2020, Amazon clarified in a court case (Holas v. Amazon) that users merely license content and may lose access if distribution rights change. - Apple iTunes Movie Removals In 2018, a Canadian user lost access to purchased movies (e.g., The Matrix). Apple cited revoked studio rights and denied responsibility for maintaining access. Conclusion:: These cases illustrate the need for improved consumer protections in digital markets. Digital ownership must be decoupled from individual service providers and grounded in transferable, enforceable rights. A consumer who purchases a digital product should not lose access because of behind-the-scenes licensing decisions, platform closures, or account restrictions. Reforming digital ownership to reflect the permanence and autonomy of physical ownership is essential for fairness and transparency in digital marketplaces.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.767111Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585485.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585485",
+    "chunks_doc_id": "F3585485",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585485.clean.paragraph.json"
+}

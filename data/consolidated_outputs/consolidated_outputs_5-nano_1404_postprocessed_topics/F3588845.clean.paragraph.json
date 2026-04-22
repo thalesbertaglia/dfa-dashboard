@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588845",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:02Z",
+    "finished_at": "2026-04-14T13:26:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "clear display of real-money costs for virtual currencies and loot boxes, as current practices often confuse or mislead players."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive mechanics being targeted to minors,"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "easy, oneclick cancellation of subscriptions or free trials that convert automatically."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27937,
+          "unit_kind": "feedback"
+        },
+        "text": "As a game designer and consumer, I support the Digital Fairness Acts aims to promote fair and transparent digital design. I believe it is especially important to require clear display of real-money costs for virtual currencies and loot boxes, as current practices often confuse or mislead players. I am also concerned about addictive mechanics being targeted to minors, and I strongly support measures to ensure easy, oneclick cancellation of subscriptions or free trials that convert automatically. At the same time, I encourage proportionate rules that improve transparency without overburdening small indie developers. Finally, I recommend that the EU prioritize strong enforcement of existing consumer directives before layering new regulatory obligations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.691950Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588845.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588845",
+    "chunks_doc_id": "F3588845",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588845.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585765",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:07Z",
+    "finished_at": "2026-04-14T12:36:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies who have exploited consumers by shutting down their games with little to no warning"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16716,
+          "unit_kind": "feedback"
+        },
+        "text": "Since The Digital Fairness Act will protect consumer rights in the digital world, it would be great if it also included protections against companies shutting down their games without providing refunds to customers or any alternative solutions. At the moment there are many video game companies who have exploited consumers by shutting down their games with little to no warning (without offering any refunds or any way for the consumers to continue playing these games). These actions have led to the destruction of many video games with many companies taking advantage of their customers. I believe that protection against the destruction of video games should also be included in this act (if it is possible of course). If this happens, this unfair practice that many video game companies use will no longer be possible, ensuring the protection of future consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.909558Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585765.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585765",
+    "chunks_doc_id": "F3585765",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585765.clean.paragraph.json"
+}

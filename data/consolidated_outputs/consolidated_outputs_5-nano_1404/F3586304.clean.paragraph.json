@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586304",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:22Z",
+    "finished_at": "2026-04-14T12:53:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games in particular suffer from advancing technology and company driven decision making (when terminating Live Services) that makes a large part of them inaccessible after a couple of years."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital goods (such as video games) should not be able to be held hostage by the original rights holder after purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26717,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital goods (such as video games) should not be able to be held hostage by the original rights holder after purchase. It's extremely anti-customer and anti-consumer to be able to alter the terms of sale and service after purchase. A digital item bought should be the property of the person purchasing it and they should be free to do with it as they please, except for redistributing it where copyright is infringed. The fact that (large) companies can sell digital goods and, at any point after the fact, rescind your access to the goods due to their own internal licensing structure, even without providing any kind of compensation, is unacceptable. Even if digital goods can be copied indefinitely, ownership is a basic right of the customer, and it should not lie with the party giving out the goods. Video games in particular suffer from advancing technology and company driven decision making (when terminating Live Services) that makes a large part of them inaccessible after a couple of years. In this case volunteers should be given the tools to and/or be free to continue the service as they see fit without the rights holder shutting down any efforts despite already having given up on providing the goods. This does not mean that the rights holder must ensure that their goods are accessible indefinitely with their own resources, but that they must not be able to interfere with volunteers trying to make this happen. Nobody would consider it fair that a car sold to you can be, at any point, called back by the manufacturer without any option for you to prevent this. Similar things need to apply to digital goods.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.196621Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586304.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586304",
+    "chunks_doc_id": "F3586304",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585319",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:05Z",
+    "finished_at": "2026-04-14T12:25:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a key reason for the companies' ability to exploit consumers in related ways is increased tracking and surveillance."
+              },
+              {
+                "quote": "Monopolistic conduct in the tech sector increases the value of aggregated surveillance information,"
+              },
+              {
+                "quote": "Less tracking, less data collection, and forbidding tech giants from invasive surveillance will help the Act keep their results,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21207,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with the provisions set out in the Digital Fairness Act and I believe that it does a good job identifying the common anti-consumer practices that we all wish were not so ubiquitous. As the DFA's website states in its opening paragraphs, a key reason for the companies' ability to exploit consumers in related ways is increased tracking and surveillance. In my view it is impossible to regulate the outcome of tracking (DFA unfair practices) without regulating the root cause (invasive surveillance). Monopolistic conduct in the tech sector increases the value of aggregated surveillance information, and attempting to comply with strict verification and control laws either kills smaller tech businesses that would attempt to compete with giants, or risks citizens' private data. The UK's Online Safety Bill is a complete disaster in waiting, people will have their identities stolen in never-before seen numbers, and it's an awful restriction of free expression. I urge the Commission to support the Digital Fairness Act with strong data protection and privacy provisions, and to refuse even worse surveillance and tracking like the UK's Online Safety Bill. Less tracking, less data collection, and forbidding tech giants from invasive surveillance will help the Act keep their results, and expose it to less backdoors. I also recommend listening to the experts from the Electronic Frontier Foundation (EFF) in this matter. As well as writer/technologist Cory Doctorow, whose writings on \"enshittification\" present a clear thesis on how the unfair practices under the DFA came to exist.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.679509Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585319.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585319",
+    "chunks_doc_id": "F3585319",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585319.clean.paragraph.json"
+}

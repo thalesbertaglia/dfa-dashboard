@@ -1,0 +1,90 @@
+{
+  "doc_id": "F33081563",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:26Z",
+    "finished_at": "2026-04-14T09:30:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Commissions current description of dark patterns is too broad and could unintentionally restrict transparent and ethical communication."
+              },
+              {
+                "quote": "Manipulative design that undermines informed consent or exploits cognitive biases."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Personalisation and vulnerabilities Rules must differentiate between misuse of sensitive data (e.g. political, health, religious) and vague notions of individual vulnerability (e.g. age, distress, financial situation)."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Influencers should be treated as any other advertising channel. Creating a special category with unique obligations risks: Disproportionate burdens, Erosion of legal consistency, and Lack of technological neutrality. The real focus must be what is marketed and how, not who markets it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22269,
+          "unit_kind": "feedback"
+        },
+        "text": "KreaKom does not support the creation of a new Digital Fairness Act (DFA). Instead of introducing yet another regulatory layer, the EU should focus on ensuring that existing rules are applied consistently and effectively. European companies are already subject to extensive consumer protection, data and marketing legislation. Adding new, overlapping frameworks risks creating unnecessary burdens for businesses without delivering real benefits for consumers. The DFA, as currently envisioned, risks doing the opposite of what is needed: rather than simplifying and clarifying, it complicates the landscape and undermines European competitiveness. Need for precise definitions There is, however, a clear need for precise and narrow definitions of harmful practices in the proposed DFA. Vague or overly inclusive definitions risk capturing legitimate marketing, which by its very nature seeks to influence consumer choice. The Commissions current description of dark patterns is too broad and could unintentionally restrict transparent and ethical communication. A workable definition must distinguish between: Legitimate persuasion (compelling messaging, clear CTAs, fact-based urgency), and Manipulative design that undermines informed consent or exploits cognitive biases. Without such clarity, businesses face legal uncertainty while consumers risk losing access to valuable, relevant and consumer-friendly communication. Personalisation and vulnerabilities Rules must differentiate between misuse of sensitive data (e.g. political, health, religious) and vague notions of individual vulnerability (e.g. age, distress, financial situation). A blanket ban based on the latter would have far-reaching consequences, undermining personalised communication that consumers often value and expect. Any regulation must rely on observable behaviour and transparency, not assumptions about a consumers inner state. Targeted advertising is an essential driver of relevance, efficiency and consumer benefit. Overly broad restrictions risk eroding these benefits, stifling innovation, and harming smaller businesses in particular. Influencers: focus on practices, not categories Influencers should be treated as any other advertising channel. Creating a special category with unique obligations risks: Disproportionate burdens, Erosion of legal consistency, and Lack of technological neutrality. The real focus must be what is marketed and how, not who markets it. Protection of minors should be product-focused and technology-neutral. Denmarks 2022 addition to the Marketing Practices Act offers a strong example: it prohibits marketing of unsuitable products to under-18s (such as tattoos, cosmetic procedures and products not recommended by the authorities e.g. energy drinks and diet supplements) regardless of platform. This product-based approach is flexible, enforceable and more future-proof than influencer-specific rules.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.542661Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33081563.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33081563",
+    "chunks_doc_id": "F33081563",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33081563.clean.paragraph.json"
+}

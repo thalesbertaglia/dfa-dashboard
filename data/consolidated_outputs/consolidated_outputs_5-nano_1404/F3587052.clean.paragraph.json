@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587052",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:51Z",
+    "finished_at": "2026-04-14T13:09:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they only license their software and dont grant ownership for digital content, in spite of asking for real money."
+              },
+              {
+                "quote": "If a company sells a digital product they should not be allowed to pull the plug unilaterally whenever they seem fit, but provide alternatives for offline use after they shut down the servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23334,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear members of the European Commission, thank you for taking decisive steps to protect fair treatment of European citizens in the digital realm. I would sincerely ask you to have a closer look into the actual development in the (digital) video game business. More and more video game publishers and entertainment companies are taking content offline, for which EU-customers have paid money before, because they only license their software and dont grant ownership for digital content, in spite of asking for real money. If a company sells a digital product they should not be allowed to pull the plug unilaterally whenever they seem fit, but provide alternatives for offline use after they shut down the servers. Especially since video game is art and a part of our culture, there is a common interest in protecting those pieces of art and in keeping them available, whether they are good or bad. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.420851Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587052.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587052",
+    "chunks_doc_id": "F3587052",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

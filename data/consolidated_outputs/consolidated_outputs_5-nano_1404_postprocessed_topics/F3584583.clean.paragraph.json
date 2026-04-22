@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584583",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:25Z",
+    "finished_at": "2026-04-14T12:02:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to request the inclusion of video games and software under this act, due to concerns of non-preservation, since they do not have plans of supporting the aforementioned after the end of cycle."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18989,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request the inclusion of video games and software under this act, due to concerns of non-preservation, since they do not have plans of supporting the aforementioned after the end of cycle. Especially since a lot of those aforementioned are usually purchased through real-life currency, so it would render the game unplayable to anybody who might want to revisit or would want to try out the aforementioned. At the same time, it would also mean that the money I used to purchase the aforementioned would be useless, since I do not have access neither to the money, nor to the aforementioned.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.303261Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584583.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584583",
+    "chunks_doc_id": "F3584583",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584583.clean.paragraph.json"
+}

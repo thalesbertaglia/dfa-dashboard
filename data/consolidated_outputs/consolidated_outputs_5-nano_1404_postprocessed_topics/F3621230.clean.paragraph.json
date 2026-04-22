@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3621230",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:28Z",
+    "finished_at": "2026-04-14T13:42:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some games, for no good reason, require a connection to the servers of the developer."
+              },
+              {
+                "quote": "Those servers usually get disconnected if the game stops being profitable for the studio, thus rendering the entire game unplayable."
+              },
+              {
+                "quote": "If that happens, there should be an option to play the game in offline mode and on servers hosted by the community."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9467,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like this act to include protections for consumers from unfair practices of the game development industry, namely, destroying the consumer's ability to play certain games. Some games, for no good reason, require a connection to the servers of the developer. Those servers usually get disconnected if the game stops being profitable for the studio, thus rendering the entire game unplayable. If that happens, there should be an option to play the game in offline mode and on servers hosted by the community. When I download a game, invest my time and usually even money into it, I should be able to play it regardless of its developer's profit margins. In my opinion, this suggested protection should exist both for upcoming and already published games. There are literally hundreds of games that face this issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.022047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3621230.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3621230",
+    "chunks_doc_id": "F3621230",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3621230.clean.paragraph.json"
+}

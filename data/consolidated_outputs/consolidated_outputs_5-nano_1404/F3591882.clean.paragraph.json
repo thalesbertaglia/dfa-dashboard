@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3591882",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:55Z",
+    "finished_at": "2026-04-14T13:37:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "intentional moral gatekeeping by payment processors that unilaterally prevent from purchasing perfectly legal digital products (eg. video games) with one's own money just because their content is something they don't approve of."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12783,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to direct the attention on the intentional moral gatekeeping by payment processors that unilaterally prevent from purchasing perfectly legal digital products (eg. video games) with one's own money just because their content is something they don't approve of. This also has the secondary and equally intended effect of censoring works of art made by and about people belonging to (oftentimes oppressed) minorities. I believe it would behoove the EU Commission to put a stop on such behaviour by prohibiting it under the law (eg. making it illegal for them to enforce an arbitrary ban on certain contents if they want to keep operating in the EU) or heavily sanctioning it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.900777Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591882.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591882",
+    "chunks_doc_id": "F3591882",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

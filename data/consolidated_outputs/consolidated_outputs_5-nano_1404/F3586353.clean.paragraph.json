@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586353",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:50Z",
+    "finished_at": "2026-04-14T12:55:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays, more and more games with server-side components are being developed, but whatever happens when these servers are no longer available (i.e. the game becomes implayable)."
+              },
+              {
+                "quote": "I could buy a game today and I know tomorrow that the servers will be shut down the same day if I have Pech."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20214,
+          "unit_kind": "feedback"
+        },
+        "text": "The first point should be broadened to include unfair practices in the sale/operation of video games. Nowadays, more and more games with server-side components are being developed, but whatever happens when these servers are no longer available (i.e. the game becomes implayable). When I buy a game, I just have to hope that servers will be available for as long as possible – but there is no guarantee. I could buy a game today and I know tomorrow that the servers will be shut down the same day if I have Pech. Thus, the sole control of whether I can use the purchased product lies with the developers/publishers. I experienced it myself with various games, e.g. Darkspore: Servers are no longer available since 2016 and there is no possibility to play this game (as there is no offline mode or similar). However, it was nowhere on the box that I could only play the game until 2016. Also with Defiance (later than Defiance 2050) – the game needs servers to be playable. However, these have now been scaled down and my money is therefore put into the sand. The list of games already affected and affected in the future is constantly growing. I have just given two examples here. The fact that a manufacturer does not provide the servers for a game up to all is perfectly understandable, but this should not make the entire game unplayable for all buyers. It should be mandatory that the games remain playable in some form (how exactly depends on the game of course).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.215569Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586353.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586353",
+    "chunks_doc_id": "F3586353",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

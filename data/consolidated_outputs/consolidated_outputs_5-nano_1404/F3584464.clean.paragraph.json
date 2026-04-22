@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584464",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:56Z",
+    "finished_at": "2026-04-14T11:59:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Expanding the fairness act to include digital goods and services such as videogames should be strongly considered."
+              },
+              {
+                "quote": "Videogames are an emerging artform with an interesting history that requires preservation for an understanding of our technological as well as cultural past - not to speak of the value of the videogames themselves as individual pieces of art."
+              },
+              {
+                "quote": "Usually companies defend this practice by setting up their games as services tied to servers which can then be shut off once the game no longer meets their profit margins."
+              },
+              {
+                "quote": "This leaves customers with products which are either entirely non-functional, or with severely reduced options in the useage of said products."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the current interpretation of distribution rights makes it so that digital goods such as videogames cannot - even in principle! - be properly stored or passed on for re-use, reproduction or historical preservation."
+              },
+              {
+                "quote": "If I have a physical product, I can recreate said product - as long as I do not sell it (which would violate copyright) - or I could resell the same physical product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28209,
+          "unit_kind": "feedback"
+        },
+        "text": "Expanding the fairness act to include digital goods and services such as videogames should be strongly considered. Videogames are an emerging artform with an interesting history that requires preservation for an understanding of our technological as well as cultural past - not to speak of the value of the videogames themselves as individual pieces of art. Many companies currently employ strategies to make it impossible to continue to use or even preserve their videogames for the purposes of not having to compete with older products. This is not only a concern about problematic business relationships where customers are unable to continue to use products they have purchased, but additionally makes preserving our cultural history difficult. Usually companies defend this practice by setting up their games as services tied to servers which can then be shut off once the game no longer meets their profit margins. While it would of course be unfair towards such companies to demand indefinite continued support, it is easily possible to construct videogames so that once the servers will be shut down, private owners could host servers of their own - putting the management, preservation and system security into the hands of the customers themselves. Instead, companies currently \"jury-rig\" the management of their games so as to be impossible to be run after they shut their servers down, rather than releasing the software used to run the servers to the public. This leaves customers with products which are either entirely non-functional, or with severely reduced options in the useage of said products. An alternative strategy currently has also been to combat the redistribution of digital goods as \"theft\" well beyond the limits that other products would have. If I have a physical product, I can recreate said product - as long as I do not sell it (which would violate copyright) - or I could resell the same physical product. With digital goods, this has led to a situation where it is neither possible to resell nor recreate the product for an indefinite amount of time (limited ONLY by the ending of the copyright itself). Copyrights should obviously be protected, but the current interpretation of distribution rights makes it so that digital goods such as videogames cannot - even in principle! - be properly stored or passed on for re-use, reproduction or historical preservation. The current situation is as if we would be allowing book publishers to burn every single copy of a work of literature in existence once the publisher wishes for the reader to move on from it. This is an unconscionable erasure of art and history performed every day at an alarming - and shockingly efficient - rate. Please stop this manufactured destruction of human cultural history!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.245531Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584464.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584464",
+    "chunks_doc_id": "F3584464",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

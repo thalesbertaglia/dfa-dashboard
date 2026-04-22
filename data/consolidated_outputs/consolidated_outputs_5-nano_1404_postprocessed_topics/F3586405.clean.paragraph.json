@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3586405",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:56Z",
+    "finished_at": "2026-04-14T12:56:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are a lot of games which either are single player or can be played single player, but require you to connect to a server in order to play."
+              },
+              {
+                "quote": "but I can make a private server whenever I want and play with other people as much as I want."
+              },
+              {
+                "quote": "or provide a LAN server hosting option."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Recently a lot of companies have started editing their EULA to say that they are selling licenses and not the game itself, but it's a small print in a 50 page document which literally no one reads."
+              },
+              {
+                "quote": "like Ubisoft, even wrote that people are to throw away/break their discs of said games when they pull the plug which I find ridiculous."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32074,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see an inclusion in this act for not destroying video games. There are a lot of games which either are single player or can be played single player, but require you to connect to a server in order to play. At some point developers stop the support and stop the server which leaves you with a copy of a game that you have paid for which doesn't work. There's already an initiative called Stop Killing Games trying to fight for protection of such games, but the practice of the game industry doesn't seem fair, so something could be mentioned in the Digital Fairness Act. Recently a lot of companies have started editing their EULA to say that they are selling licenses and not the game itself, but it's a small print in a 50 page document which literally no one reads. Some companies, like Ubisoft, even wrote that people are to throw away/break their discs of said games when they pull the plug which I find ridiculous. If you still have something that can work, why would destroy it on purpose. Overall, the Stop Killing Games initiative is about receiving fair service and asking the developers to either outright say when you're purchasing something that you will have it for X number of years or make the single player online games be playable offline, or provide a LAN server hosting option. I still have a copy of Counter Strike 1.6 which is like 20 years old or something and is absolutely not supported, but I can make a private server whenever I want and play with other people as much as I want. How can a 20 year old game do that, but not one made in recent years? Thank you for readings this and I hope that you would consider my feedback!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.232747Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586405.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586405",
+    "chunks_doc_id": "F3586405",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586405.clean.paragraph.json"
+}

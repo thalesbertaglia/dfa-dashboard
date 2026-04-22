@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585432",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:31Z",
+    "finished_at": "2026-04-14T12:27:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games like 'Pathfinder Online' or 'DriveClub' have simply been taken offline and are impossible to play nowadays."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 7472,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to give my feedback to the Digital Fairness Act from the EU as a polite request to also take include video games for this specific act. Many consumers have lost their digital media to video game companies crudely shutting down any availabity to play their games, despite the consumers having already paid for said product. This issue is also already being made aware of by the 'Stop Killing Games' movement. Video games like 'Pathfinder Online' or 'DriveClub' have simply been taken offline and are impossible to play nowadays. Games that I had the privilege to play and pay for before being taken offline. I therefore ask the EU to consider these issues and iclude them in this act. Thank you very much.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.740460Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585432.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585432",
+    "chunks_doc_id": "F3585432",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

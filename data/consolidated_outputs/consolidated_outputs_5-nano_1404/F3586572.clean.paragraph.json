@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586572",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:04Z",
+    "finished_at": "2026-04-14T12:59:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the products purchased digitally are the property of the person who pays them, and not a rental for an indefinite period imposed by companies that produce or sell the subject in digital form"
+              },
+              {
+                "quote": "who sells digital products gives the consumer ownership of their digital product, it can be shared, sold, saved as the final consumer so wishes (if the digital product is not the final consumer, then piracy is not stolen)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31844,
+          "unit_kind": "feedback"
+        },
+        "text": "1: companies or platforms that already have internal regulation and follow the laws of the countries of the European Union should not be influenced and pressured by other bankeries to follow rules that are not internally imposed or defended by governments, which are forced by third parties in an abusive check against the individual rights of their consumers. 2: there must be government regulation with regard to abusive marketing on digital media platforms, where there will be no prescribed control of advertisers on YouTube, where over 50 % of your denial is inflicted by advertising on the platform itself in an hour often contradicting choices defended by the creators of contesting on the platform. 3: the choices that can be made for decent purchases on platforms are a matter for the consumer and must not be superseded without the consumer’s consent, ‘the products purchased digitally are the property of the person who pays them, and not a rental for an indefinite period imposed by companies that produce or sell the subject in digital form’ 4: who sells digital products gives the consumer ownership of their digital product, it can be shared, sold, saved as the final consumer so wishes (if the digital product is not the final consumer, then piracy is not stolen) 5: there is already control over what type of contest is sold to minors, it is up to the European Union to monitor whether the law is followed by the platforms.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.280609Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586572.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586572",
+    "chunks_doc_id": "F3586572",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

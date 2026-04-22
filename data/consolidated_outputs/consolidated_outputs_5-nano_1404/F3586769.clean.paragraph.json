@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3586769",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:19Z",
+    "finished_at": "2026-04-14T13:04:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forcing the customer to pay a subscription"
+              },
+              {
+                "quote": "exorbitant cancellation fees"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "setting the price of a given software needlessly high, while having it on perpetual discount for a fraction of the cost"
+              },
+              {
+                "quote": "If you buy it now, you can get 800% value"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the publisher of the software reserves the right to revoke a user's access to a piece of software already purchased by the customer"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49757,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel there should be more protection for digital goods, like software and videogames purchased by the consumer, as I understand the situation to be now, the publisher of the software reserves the right to revoke a user's access to a piece of software already purchased by the customer, if that is mentioned in the EULA. Also companies like Adobe employ several anti consumer strategies in their pricing model, like forcing the customer to pay a subscription, instead of simply being able to purchase a given piece of software, often including software bit desired by the customer. In this specific case they also charge exorbitant cancellation fees, when the customer inevitably wishes to cancel the subscription. Lastly, many software publishers employ purposefully hard to understand pricing models, setting the price of a given software needlessly high, while having it on perpetual discount for a fraction of the cost, claiming \"If you buy it now, you can get 800% value\" for example. Of course, by definition, the value of digital software is arbitrary. A good example of this would be the software amplitube 5, sadly I'm unable to attach a screenshot.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.340620Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586769.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586769",
+    "chunks_doc_id": "F3586769",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

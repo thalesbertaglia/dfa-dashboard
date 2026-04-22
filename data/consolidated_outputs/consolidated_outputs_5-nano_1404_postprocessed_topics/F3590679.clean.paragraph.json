@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3590679",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:02Z",
+    "finished_at": "2026-04-14T13:34:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies, by praxis, are leaving content out of the normal game to be able to sell things on the same day the game is released that should be in the original product to make more money."
+              },
+              {
+                "quote": "Now they are sold in a small trickle to make players pay more for less."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17808,
+          "unit_kind": "feedback"
+        },
+        "text": "I dont know if it goes into the digital fairness act but its getting very common that games release \"day 1 DLC\" also known as Downloadable content. Companies, by praxis, are leaving content out of the normal game to be able to sell things on the same day the game is released that should be in the original product to make more money. Often those things are quite crucial content, like more stories, additional characters etc. DLCs in themselves should be regulated. Before \"DLCs\" came in the form of an expansion to the original game that had a set price with all the new content. Now they are sold in a small trickle to make players pay more for less.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.836397Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590679.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590679",
+    "chunks_doc_id": "F3590679",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590679.clean.paragraph.json"
+}

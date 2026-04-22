@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584983",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:05Z",
+    "finished_at": "2026-04-14T12:17:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Switched off a game (“The Crew”) for which I paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I can no longer open the game and there is no money back from Ubisoft or Steam."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30675,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear, please take into account the Stop Killing Games initiative. I was switched off a game (“The Crew”) for which I paid for. (See Annex) It had single player functions, but Ubisoft has been completely shut down due to unsupported multiplayer modes, although the single player functions should function smoothly and hopefully need soon as soon as there is a clear law on this issue. I can no longer open the game and there is no money back from Ubisoft or Steam. This practice is very uncommon and anti-consumer! I don’t want it to be designed in the future that video game publishers or developers force consumers to consume by switching off old games instead of honestly achieving economic success through market and competition. It’s like to break into the customer’s garage and ignite his car because he should finally buy a new one!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.537926Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584983.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584983",
+    "chunks_doc_id": "F3584983",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

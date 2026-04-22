@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585491",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:53Z",
+    "finished_at": "2026-04-14T12:29:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Card Network Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "outsized power of payment services primarily Visa and Mastercard to enforce content censorship across online platforms, even when the content is fully legal under EU and national law."
+              },
+              {
+                "quote": "these schemes are forcing platforms (Steam, Patreon, crowdfunding sites) to remove or censor lawful products and services."
+              },
+              {
+                "quote": "Arbitrary censorship: Decisions are often based on the card networks internal policies, moral stances, or public pressure, rather than any objective breach of law."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15448,
+          "unit_kind": "feedback"
+        },
+        "text": "One aspect that remains insufficiently addressed is the outsized power of payment services primarily Visa and Mastercard to enforce content censorship across online platforms, even when the content is fully legal under EU and national law. Monopoly leverage: As virtually all merchants must accept Visa/Mastercard, these schemes are forcing platforms (Steam, Patreon, crowdfunding sites) to remove or censor lawful products and services. Arbitrary censorship: Decisions are often based on the card networks internal policies, moral stances, or public pressure, rather than any objective breach of law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.770563Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585491.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585491",
+    "chunks_doc_id": "F3585491",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

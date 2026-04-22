@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584505",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:59Z",
+    "finished_at": "2026-04-14T12:00:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It's not fair that people can buy a game and then lose access to it forever just because the servers get shut down."
+              },
+              {
+                "quote": "Adding a rule that forces companies to offer offline modes or let players run their own servers when a game is shut down would go a long way toward making digital purchases more fair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12446,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should include protections from the Stop Killing Games movement. It's not fair that people can buy a game and then lose access to it forever just because the servers get shut down. If you pay for something, you should be able to keep using it. Adding a rule that forces companies to offer offline modes or let players run their own servers when a game is shut down would go a long way toward making digital purchases more fair. Games shouldnt just disappear. It's not fair, not for anyone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.265577Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584505.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584505",
+    "chunks_doc_id": "F3584505",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584505.clean.paragraph.json"
+}

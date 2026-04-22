@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586010",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:33Z",
+    "finished_at": "2026-04-14T12:44:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair practice of revoking digital licences of media that was paid for (for example video games or certain software)."
+              },
+              {
+                "quote": "I belive its unfair to pay for a product (or a \"licence\") and have no ownership of said product especially when it can be taken away at any time for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Another worrying practice that could be looked into is the power that payment processors have over things (example: the recent Visa and Mastercard situation)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35507,
+          "unit_kind": "feedback"
+        },
+        "text": "As someone who is very involved with digital media, I think its very important to protect the consumer from predatory parctises. The points outlined in the act are great examples of unfair treatment of consumers and should be heavily looked into. On top of these points i would suggest also looking into the unfair practice of revoking digital licences of media that was paid for (for example video games or certain software). I belive its unfair to pay for a product (or a \"licence\") and have no ownership of said product especially when it can be taken away at any time for any reason. Another worrying practice that could be looked into is the power that payment processors have over things (example: the recent Visa and Mastercard situation)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.034079Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586010.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586010",
+    "chunks_doc_id": "F3586010",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586010.clean.paragraph.json"
+}

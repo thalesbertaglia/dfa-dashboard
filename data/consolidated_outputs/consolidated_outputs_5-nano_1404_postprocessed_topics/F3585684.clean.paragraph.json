@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585684",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:30Z",
+    "finished_at": "2026-04-14T12:33:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if I bought a game like Battlefield, it should remain playable and not depend on the goodwill of the manufacturer as a so-called live service game."
+              },
+              {
+                "quote": "the actual medium is often only ‘licensing information’, so I will not be able to download the game next year when I switch on the console."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23310,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to propose the safeguarding of computer games for this law. Computer/video games are art and should also be protected in the way they are sold. For example, if I bought a game like Battlefield, it should remain playable and not depend on the goodwill of the manufacturer as a so-called live service game. At that time, when the internet was still in its infancy, that was of course: The cassette, Cartridge, CD, DVD, BluRay contained the whole game and could optionally join an internet server to implement essential things such as an online multiplayer mode. However, nowadays, as in the case of Nintendo Switch 2, the actual medium is often only ‘licensing information’, so I will not be able to download the game next year when I switch on the console. This will not only lose important time documents, but also the content I actually bought with my expensive money. If the EU does not restrict this under the Digital Fairness Act, you will become the unwilling playball of publishers of a game. Apart from the potential data protection and security issues posed by a permanent online constraint. Finally, I must always be connected to all my data everywhere in newer games, suffer from local or global internet failures, and below it if the company itself is hacked. I would therefore ask you to protect our digital treasures at least in the same way as previous generations of their images, music or similar cultural objects.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.868712Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585684.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585684",
+    "chunks_doc_id": "F3585684",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585684.clean.paragraph.json"
+}

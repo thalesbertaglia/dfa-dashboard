@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589509",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:31Z",
+    "finished_at": "2026-04-14T13:31:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10884,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings to whoever is reading this, I would like to voice my concern about many video game companies, that create video games (for example concord published by sony) and are later on taken down by the publisher, most of the times also becoming unplayable due to these games being only multiplayer. In addition, as you might already know because video games are treated like art, they must be preserved so that later generations can enjoy then as well. So please try to help the campaign of \"Stop killing games\". Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.795414Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589509.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589509",
+    "chunks_doc_id": "F3589509",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

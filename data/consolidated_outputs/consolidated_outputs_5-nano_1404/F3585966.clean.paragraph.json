@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585966",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:15Z",
+    "finished_at": "2026-04-14T12:43:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers destroying video games."
+              },
+              {
+                "quote": "I have personally experienced a game that I spent money on being shut down, leaving me unable to play it."
+              },
+              {
+                "quote": "Publishers should not leave them in a completely unplayable state."
+              },
+              {
+                "quote": "In fact, around 1.5 million people have already signed a petition requesting that video games not be destroyed, so clearly there is a lot of demand for consumer rights in the video game industry too."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 55211,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello there, as a German citizen, I think something related should also be added to the initiative, to make it fairer for consumers. Since the Digital Fairness Act already covers gambling-like features in games, it would be fitting to extend this to the ownership of games. Just because it's a game doesn't mean you shouldn't be able to own it fairly. Since digital fairness is the topic of the initiative, I don't see why video games, which are also digital, should be excluded from it. In fact, around 1.5 million people have already signed a petition requesting that video games not be destroyed, so clearly there is a lot of demand for consumer rights in the video game industry too. Customers should be protected from publishers destroying video games. Video games also contain a lot of art, history and culture, which is another reason why I think they should be protected.I have personally experienced a game that I spent money on being shut down, leaving me unable to play it. I did not find that fair. There are hundreds of other games that have already been destroyed, and more will be destroyed. Publishers should not leave them in a completely unplayable state. I hope the EU Commission will consider my feedback and make video game ownership fairer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.010224Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585966.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585966",
+    "chunks_doc_id": "F3585966",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3585173",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:54Z",
+    "finished_at": "2026-04-14T12:22:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the way videogames are being sold."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if you were do buy physical copies of a videogame, you would then be forced to destroy it in case support from the company ceased to be on it, and you can't even get a refund from that."
+              },
+              {
+                "quote": "does not specify on the game's description whenever the support for said game is going to end."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37577,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be really nice to work on digital properties. What has been worrying me the most recently is the way videogames are being sold. For some reason, whenever you \"Buy\" a game, you're actually buying a license to the game? I don't really get it...If I spend my money to acquire a digital product, I do not own it? Am I not allowed to keep it and use it as if it was like any other product? Some companies even made it so that, if you were do buy physical copies of a videogame, you would then be forced to destroy it in case support from the company ceased to be on it, and you can't even get a refund from that. This does not feel like paying for a product, this isn't fair, especially if the company in question does not specify on the game's description whenever the support for said game is going to end. Something that the buyer must be notified of BEFORE acquiring it. It would be great if the companies could simply allow \"third parties\" to host and support a game in case the game's company were to stop working on their own products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.623774Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585173.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585173",
+    "chunks_doc_id": "F3585173",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585173.clean.paragraph.json"
+}

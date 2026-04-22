@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585910",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:41Z",
+    "finished_at": "2026-04-14T12:41:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the last years, many games have been revoked after the developer just decided to not let the players play their own games."
+              },
+              {
+                "quote": "the prime example of this is The Crew from Ubisoft, a mostly singleplayer game that is not playable anymore because Ubisoft decided to close the servers."
+              },
+              {
+                "quote": "For multiplayer games, the developers should provide a way for players to host their own servers after they decide to not support it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28434,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing this because in the last years, many games have been revoked after the developer just decided to not let the players play their own games. This happened in the case of singleplayer games that could be played offline but the developer decided to revoke access from everyone. The prime example of this is The Crew from Ubisoft, a mostly singleplayer game that is not playable anymore because Ubisoft decided to close the servers. I am not asking for the servers to be maintained forever but they should leave it in a playable state by applying an offline patch. Many other games did this like Redfall and every game should be like that. For multiplayer games, the developers should provide a way for players to host their own servers after they decide to not support it. Many games did this in the past like all Valve games, Battlefield games and others. Another issue is payment proccessors like Visa and MasterCard being able to dictate what online storefronts like Steam can sell. Recently, they pressured Steam and Itch.io to remove games that have mature themes like crime and drugs. Games are a form of art just like movies or TV series. Imagine not having Breaking Bad or the Sopranos because Visa wouldn't allow people to pay for cable or streaming services because of that. Thank you for reading this and i hope you can keep this in mind.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.981222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585910.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585910",
+    "chunks_doc_id": "F3585910",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

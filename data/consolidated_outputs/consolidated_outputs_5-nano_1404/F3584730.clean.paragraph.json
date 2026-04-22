@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584730",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:56Z",
+    "finished_at": "2026-04-14T12:08:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We see influencers who are willing to levy the relationship they have with their audience to invest in their cryptocurrencies, and then pull the rug from underneath them while it is valuable."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Game developers are playing the system by inserting mechanics that resemble slot machines, but are distinct enough to circumvent the same kind of legislation that casinos are under."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Software developers in general are willing and able to revoke access to any application, game or other digital good, after it was already purchased by a consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Booking.com have been manipulating prices behind the scenes and offer their cheapest room by having the customer opt out of their right to cancel the reservation, no matter how early the cancellation attempt is sent in."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36637,
+          "unit_kind": "feedback"
+        },
+        "text": "I wholeheartedly support this initiative. Online purchases have become as common-place as regular ones, but the absence of up to date legislation leaves customers vulnerable to commercial parties that are willing to make use of any gray area. We see influencers who are willing to levy the relationship they have with their audience to invest in their cryptocurrencies, and then pull the rug from underneath them while it is valuable. Video Game developers are playing the system by inserting mechanics that resemble slot machines, but are distinct enough to circumvent the same kind of legislation that casinos are under. Software developers in general are willing and able to revoke access to any application, game or other digital good, after it was already purchased by a consumer. Hotel \"brokers\" (for lack of a better name) like Booking.com have been manipulating prices behind the scenes and offer their cheapest room by having the customer opt out of their right to cancel the reservation, no matter how early the cancellation attempt is sent in. It is possible to make this list more extensive but I think this paints a clear picture. Legislation is needed to protect ownership after online purchases and to make it abundantly clear which practices are unlawful, and therefore actionable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.376923Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584730.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584730",
+    "chunks_doc_id": "F3584730",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

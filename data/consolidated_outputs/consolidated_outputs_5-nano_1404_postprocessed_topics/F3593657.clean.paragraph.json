@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3593657",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:29Z",
+    "finished_at": "2026-04-14T13:39:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This entirely changes the way purchasing digital media works into more so of a loaning, or borrowing of the property, which is neither what we as customers and consumers have agreed to nor been informed of before such a change has happened."
+              },
+              {
+                "quote": "nor been informed of before such a change has happened."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12226,
+          "unit_kind": "feedback"
+        },
+        "text": "As others have said previously, digital media like this has the power to effect people in more ways than one. It can be educational, make us feel different things and bring us just simple enjoyment. Removing our ability to access these thing would be a determent to society. Not only that but removing our ability to access such things is simply unjust and not right. Especially when an attempt to do so after a lawful purchase of such an item responds in legal action by the company who owns the property. This entirely changes the way purchasing digital media works into more so of a loaning, or borrowing of the property, which is neither what we as customers and consumers have agreed to nor been informed of before such a change has happened. This leads us as consumers to be treated unfairly and kept in the dark until the last possible moment, when the companies who are taking part are able to push us into a corner with legal actions and therefore silencing our voices and rights as customers and consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.955551Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593657.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593657",
+    "chunks_doc_id": "F3593657",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593657.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585250",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:33Z",
+    "finished_at": "2026-04-14T12:23:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gaming is a big hobby of mine"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21549,
+          "unit_kind": "feedback"
+        },
+        "text": "There is an ongoing petition going on called \"stop killing games\" that have over 1,4 million signatures. I'm not from an EU country so I can't sign it, but as far as I understand I can voice my feedback here. Gaming is a big hobby of mine and is something I have been doing since I was a child and probably will until I'm an old man. I often go back and play games made when I was to young to play them or even games made before I was born. I replay games I played when I was a child or a teen. It would be very sad and unfortunate to not be able to play them again. That my ownership of these games are taken away. Not just for me, but for everyone that bought the game and everyone that was planning to. It is also sad for the people that made the game. That publishers legally can take away a purchased product should be a crime instead. You don't see the same happen to food, cars, fishing rods, sofas, kitchen utensils or other physical objects. Digital products should be no different. If I buy a game or a movie for example I expect to have access to it for as long as I own it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.654381Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585250.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585250",
+    "chunks_doc_id": "F3585250",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

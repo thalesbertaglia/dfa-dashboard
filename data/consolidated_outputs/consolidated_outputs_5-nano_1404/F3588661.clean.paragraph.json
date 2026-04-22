@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588661",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:47Z",
+    "finished_at": "2026-04-14T13:25:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is utterly preposterous that companies can simply cut off access to an artwork or cultural product at their discretion after I as a consumer have paid full price for it."
+              },
+              {
+                "quote": "Clauses defining that you are technically only buying a \"license to use the product\" are typically buried under legal jargon a so-called average jane has no hope of actually understanding without a lawyer present."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22848,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should be extended to cover user rights over digital goods, namely, software, ebooks, and video games. It is utterly preposterous that companies can simply cut off access to an artwork or cultural product at their discretion after I as a consumer have paid full price for it. This is especially egregious as the user is usually not adequately and honestly informed of the possibility of such a thing happening, and is led to believe that they in fact own the product for the rest of their life, like with physical goods. Clauses defining that you are technically only buying a \"license to use the product\" are typically buried under legal jargon a so-called average jane has no hope of actually understanding without a lawyer present. Personally I think the DFA should be amended to forbid such practices entirely however, as we as Europeans cannot simply let our access to art and culture depend on the whims of a few executives in a profit-seeking corporation. If the corporation is no longer interested in supporting a product, said product should be possible for the community to support instead.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.669067Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588661.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588661",
+    "chunks_doc_id": "F3588661",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

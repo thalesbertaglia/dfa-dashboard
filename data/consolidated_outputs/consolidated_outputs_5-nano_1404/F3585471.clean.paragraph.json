@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3585471",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:21Z",
+    "finished_at": "2026-04-14T12:29:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Whether you are buying the game files such that it can always be run on your machine without the need for third party authentication."
+              },
+              {
+                "quote": "Whether there is an in-game store."
+              },
+              {
+                "quote": "dedicated servers (that can be run locally) is included in the purchase."
+              },
+              {
+                "quote": "whether you are effectively renting(no control over the files due to authentication/storefronts etc) or owning the item needs to be added."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I sincerely hope the commision is considering \"key-point EULA's\" that clearly state to what degree you are buying/renting a service and to what degree you own a digital product."
+              },
+              {
+                "quote": "Whether the service of downloading the game from somewhere is included and if so, for how long, etc etc."
+              },
+              {
+                "quote": "At the very least some kind of label as to whether you are effectively renting(no control over the files due to authentication/storefronts etc) or owning the item needs to be added."
+              },
+              {
+                "quote": "Another suggestion is to allow players to always stay on the version/eula/key points that they originally bought such that they don't suffer from future enshittification which we often see nowadays."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46691,
+          "unit_kind": "feedback"
+        },
+        "text": "I sincerely hope the commision is considering \"key-point EULA's\" that clearly state to what degree you are buying/renting a service and to what degree you own a digital product. Citizens can't be expected to go through \"lawyer speak\" of EULAs and waste so much of our time. Further, \"marketing speak\" also serve to dilute and trick people. Therefore I would recommend the creation of (legally binding) key points that clearly states what you are buying, that are succinct enough to be put on store pages. Such key points can be whether dedicated servers (that can be run locally) is included in the purchase. Some stores like steam (sort of) already do this. Whether you are buying the game files such that it can always be run on your machine without the need for third party authentication. Whether there is an in-game store. Whether the service of downloading the game from somewhere is included and if so, for how long, etc etc. At the very least some kind of label as to whether you are effectively renting(no control over the files due to authentication/storefronts etc) or owning the item needs to be added. Also I would point that much of the issue lies in developers and publishers (As per their EULA) to always change the EULA. Another suggestion is to allow players to always stay on the version/eula/key points that they originally bought such that they don't suffer from future enshittification which we often see nowadays.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.759739Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585471.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585471",
+    "chunks_doc_id": "F3585471",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

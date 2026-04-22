@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585829",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:45Z",
+    "finished_at": "2026-04-14T12:38:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to stop videogame publishers from shutting down online games and taking them off of digital stores without giving them a way to be played offline or a full refund of the game and the additional content bought for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25022,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm writing this to show my support to the Digital Fairness Act, because i think the objectives are good for consumers of any kind of digital content. With this being said, i ask you to add something to stop videogame publishers from shutting down online games and taking them off of digital stores without giving them a way to be played offline or a full refund of the game and the additional content bought for it. I've had an experience regarding this problem when the servers for \"Friday the 13th: The Game\", published by Gun Media and developed by IllFonic, were shut down and the game was removed from the stores, leaving me and many other people with a game that didn't work, and worst of all without giving us a full refund, so they basically stole our money. I just hope that you can help us defeat the greed of these publishers, because this is starting to get absurd.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.941672Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585829.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585829",
+    "chunks_doc_id": "F3585829",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585829.clean.paragraph.json"
+}

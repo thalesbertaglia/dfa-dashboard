@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33076621",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:19Z",
+    "finished_at": "2026-04-14T09:29:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games that are affected by digital planned obsolescence"
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership & Access",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "creating a precedent for the concept of digital ownership"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23516,
+          "unit_kind": "feedback"
+        },
+        "text": "I wonder if the Digital Fairness Act could also include stuff regarding stopping payment processors from blocking digital storefronts from carrying content they consider \"risky\", establishing firmly that their role is to process payments, not deciding whether or not the content is appropriate, and creating a precedent for the concept of digital ownership, which we seriously need in the current landscape where you can buy a movie or piece of music digitally and lose access to it the moment the business who handled the sale go bankrupt or loses the license or any other number of reasons, which are issues that impact the broad spectrum of modern digital first media. I recommend contacting Louis Rossmann, spearhead of right-to-repair and right-to-own movements in the United States, and potentially Ross Scott of the Stop Killing Games movement, and organizers (such as Daniel Ondruska) of the European Citizens Initiative Stop Destroying Videogames for potential input on the Digital Fairness Act. Thank you. Attached is a spreadsheet of games that are affected by digital planned obsolescence submitted to the BEUC, courtesy of the Stop Killing Games movement. It may not be currently 100% accurate, but this is data that may be helpful at this stage of public commentary.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.516117Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33076621.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33076621",
+    "chunks_doc_id": "F33076621",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

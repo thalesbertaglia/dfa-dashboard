@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586215",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:44Z",
+    "finished_at": "2026-04-14T12:51:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Digital Goods Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "statements of ownership of your digital products."
+              },
+              {
+                "quote": "a ownership clause for digital goods."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another important thing to add is that, there should never be a subscription only model."
+              },
+              {
+                "quote": "By example, if a game company releases a game they should not have the ability to put this game behind a subscription only, they should also have a buy once option for the people that do not wish for a subscription nor the benefits of a subscription."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44666,
+          "unit_kind": "feedback"
+        },
+        "text": "In correspondence to the Digital Fairness Act i must admit that, in order to protect consumer rights there does seems to be a part missing. This part is the statements of ownership of your digital products. To often, citizens are faced with the fact that, when they buy a digital item, they are not the owner of this item. Whilst this would be obvious when retaining access to a digital goods from a subscription, this should not be the case when you right out buy the product. As we already have legislation for items like cars, food, etc. to mark down the ownership of the product bought as the consumer, it would also be a perfect fit for the Digital Fairness Act to include a ownership clause for digital goods. This way, people won't ever have to fear that their product that they bought with their hard earned money will be taken away on a whim of a company that does not wish to support the so said digital product. Examples of this would be: - Buying a digital copy of a movie - Buying a digital version of a album or track from a music band - Buying a digital version of a game - Buying a lifetime version of a software This would not include: - Digital movies you get via a subscription - Music on a streaming website that you get access to via a subscription - Software that you get via a subscription - Games that you get via a subscription Another important thing to add is that, there should never be a subscription only model. In this day and age subscriptions are everywhere and the consumers get overwhelm by them, using tactics as FOMO (Fear Of Missing Out) companies actively exploit this option to get a regular recurring income stream from citizens, whilst it is good to have an option to do so, this should not be the only option. By example, if a game company releases a game they should not have the ability to put this game behind a subscription only, they should also have a buy once option for the people that do not wish for a subscription nor the benefits of a subscription. this way people can keep the ownership of the products they really want but also have a option for subscription based products with more benefits.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.158429Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586215.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586215",
+    "chunks_doc_id": "F3586215",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

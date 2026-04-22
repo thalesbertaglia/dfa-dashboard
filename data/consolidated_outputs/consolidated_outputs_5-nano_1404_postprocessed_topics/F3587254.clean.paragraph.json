@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587254",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:12Z",
+    "finished_at": "2026-04-14T13:14:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "power credit card companies such as visa and mastercard can wield over purchasing online,"
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the remote destruction of things like software or games because the original company no longer supports it,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34158,
+          "unit_kind": "feedback"
+        },
+        "text": "i am concerned about the power credit card companies such as visa and mastercard can wield over purchasing online, an unelected authority dictating what they will allow to be purchased on a whim without any discussion, no debates and forcing others to change what is allowed to be sold by threatening to withdraw their services, almost every company or service is dependent on them meaning they have more influence than even governments. another issue facing digital services is the remote destruction of things like software or games because the original company no longer supports it, imagine if you were to buy a book but the company that published it goes out of business and they can just remotely destroy it. it would be one thing if it could no longer be purchased but if you bought something you should still be allowed to use it",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.485572Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587254.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587254",
+    "chunks_doc_id": "F3587254",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587254.clean.paragraph.json"
+}

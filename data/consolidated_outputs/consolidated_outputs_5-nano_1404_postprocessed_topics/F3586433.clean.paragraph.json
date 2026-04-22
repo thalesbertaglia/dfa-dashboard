@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586433",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:34Z",
+    "finished_at": "2026-04-14T12:56:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors (Visa, MasterCard,...) should not be able to preassure stores into not providing a product I want to buy."
+              }
+            ]
+          },
+          {
+            "topic": "ID Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the new UK law, in which everyone needs to ID themself."
+              },
+              {
+                "quote": "How would my data be stored, what do I need protecting of?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22831,
+          "unit_kind": "feedback"
+        },
+        "text": "As protecting the right to own a product I bought is important, I also want to point out some other disturbing developments with fairness in the internet space. Payment processors (Visa, MasterCard,...) should not be able to preassure stores into not providing a product I want to buy. As an adult I can decide what I want to consume and want to pay for. Also the new UK law, in which everyone needs to ID themself. How would my data be stored, what do I need protecting of? Wouldn't it be the parents, that need to suppervice their children? This ist a thinly veiled attemt to controll people and ist frankly disturbing. It also opens the door for stalking and swating.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.241937Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586433.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586433",
+    "chunks_doc_id": "F3586433",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586433.clean.paragraph.json"
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3589049",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:30Z",
+    "finished_at": "2026-04-14T13:29:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "put all their old products behind a monthly subscription paywall"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sell current products that only function with internet access (even if the games are offline) and will be completely unusable after console support has ended."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "inflation is not the cause of price hikes in the video game industry; it's the major companies that think they can get away with it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40004,
+          "unit_kind": "feedback"
+        },
+        "text": "We have sadly reached a point where companies are making arbitrary decisions about whether consumers are allowed to own or use the products they have paid for. Certain companies will put all their old products behind a monthly subscription paywall or sell current products that only function with internet access (even if the games are offline) and will be completely unusable after console support has ended. Other companies will flat-out cut digital access to some of their games without any warnings, compensation, or even the possibility of playing the game offline. Customers who purchase the products and expect to keep using said products, even if designed to be online only, will have their consumer rights violated and their money wasted by insidious practices that America is usually famous for. If proper protection is not enforced, the products of the past will become unreliable services in the future. And I'd like to close off my feedback by adding that inflation is not the cause of price hikes in the video game industry; it's the major companies that think they can get away with it, and anyone who says otherwise might have a hand in that issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.738415Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589049.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589049",
+    "chunks_doc_id": "F3589049",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589049.clean.paragraph.json"
+}

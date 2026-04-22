@@ -1,0 +1,74 @@
+{
+  "doc_id": "F33092605",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:49Z",
+    "finished_at": "2026-04-14T09:37:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google plans to require mandatory registration for all Android app developers, with unregistered developers apps being blocked from installation on devices."
+              },
+              {
+                "quote": "This would give Google de facto control over which apps can run on Android and would force developers to hand over personal data as a precondition for distribution, even outside Google Play (source: short F-Droid blog: https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html)"
+              },
+              {
+                "quote": "Over time, this could eliminate viable, privacy-respecting distribution channels and concentrate power in a single gatekeeper."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31732,
+          "unit_kind": "feedback"
+        },
+        "text": "Google plans to require mandatory registration for all Android app developers, with unregistered developers apps being blocked from installation on devices. This would give Google de facto control over which apps can run on Android and would force developers to hand over personal data as a precondition for distribution, even outside Google Play (source: short F-Droid blog: https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html) Such a requirement would undermine alternative app stores and direct distribution (sideloading). Stores like F-Droid, which curate only open-source software, do notand should not have toenforce Google-controlled developer registration. Over time, this could eliminate viable, privacy-respecting distribution channels and concentrate power in a single gatekeeper. We already see how tightly locked ecosystems restrict user choice. While EU rules have opened some paths to alternative app stores on iOS, Apple can still unilaterally block apps and keep devices tightly controlled (e.g., reporting on removals of third-party stores/apps: https://www.theverge.com/news/767344/apple-removes-itorrent-altstore-pal-ios-marketplace). A smartphone is, in essence, a small computer. EU residents should retain the freedom to install lawful software of their choice, from the source of their choice, without being forced through a single corporate registry. Please ensure the Digital Fairness Act preserves open installation paths, fosters competition, and safeguards privacy - let's not treat mobile phones in a different light than our computers. Thank you for considering this input.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.609653Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092605.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092605",
+    "chunks_doc_id": "F33092605",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

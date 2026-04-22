@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586765",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:12Z",
+    "finished_at": "2026-04-14T13:03:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Destroying Videogames initiative included in this bill with over 1,4 million signatures."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processors Content Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I also think it would be good to rain in the power of Payment processors where they need to process all legal purchases and cannot tell any vendor / consumer what they are allowed to buy or pressure them to what type of content they provide / consume."
+              }
+            ]
+          },
+          {
+            "topic": "Data Localization (EU Data Residency)",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "All financial data & personal data should only be allowed to be stored and processed in the EU even its when anonymous without access from outside the EU."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25032,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, 1: I would like to see the Stop Destroying Videogames initiative included in this bill with over 1,4 million signatures. 2: I also think it would be good to rain in the power of Payment processors where they need to process all legal purchases and cannot tell any vendor / consumer what they are allowed to buy or pressure them to what type of content they provide / consume. If they really think something is Illegal, they should report it to the proper authorities. 3: All financial data & personal data should only be allowed to be stored and processed in the EU even its when anonymous without access from outside the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.338862Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586765.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586765",
+    "chunks_doc_id": "F3586765",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

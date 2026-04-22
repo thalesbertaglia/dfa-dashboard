@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585664",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:49Z",
+    "finished_at": "2026-04-14T12:33:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please include a section about preventing video game publishers from having the ability to take away games that have been sold to players without issuing a refund for the purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please also include a point about forcing developers to have an end-of-life plan for games that are exclusively multiplayer or require online access at all times."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32068,
+          "unit_kind": "feedback"
+        },
+        "text": "Please include a section about preventing video game publishers from having the ability to take away games that have been sold to players without issuing a refund for the purchase. It is a predatory anti-consumer tactic designed to stop people from playing older games they enjoy and force them to purchase newer ones which are often filled with microtransactions and predatory practices. You can compare this to a car company taking back a person's car without a refund to their original purchase in order to prompt them to purchase a newer, more expensive one with data tracking systems in the on-board computer. No one wants to go through that. Please also include a point about forcing developers to have an end-of-life plan for games that are exclusively multiplayer or require online access at all times. This is to protect an individual's ability to keep playing a game after the developers decide to shut down servers, which otherwise would make the game literally unplayable. An example of a solution to this is allowing players to host their own servers on their own computers. You can compare this practice to a car manufacturer creating cars that need to connect the on-board computer to a server in order to turn on, only to later on shut down those servers for various reasons. Once again, no one wants to go through that. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.858447Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585664.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585664",
+    "chunks_doc_id": "F3585664",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

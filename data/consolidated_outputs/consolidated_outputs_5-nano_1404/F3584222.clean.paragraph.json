@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584222",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:39Z",
+    "finished_at": "2026-04-14T11:53:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some publishers sell video games using terms which run counter to Directive 93/13/EEC and deliberately prevent consumers from retaining or repairing the product they have purchased"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22314,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I would like to know whether it would be possible to have protections for consumers who have bought video games against publishers who destroy the same video games that have been paid for. The price of the same games may be up to 100 per copy. A large number of games have already disappeared for years and the list is only growing. The problem is not that companies stop supporting video games, but that they can make the product innacessible to their consumers when the same games were not ‘rented’ but sold. I would like to inform you that the European initiative ‘Stop Destroying Videogames’ has already reached more than 1400 000 signatures, and this initiative requires support from Europe to stop the destruction of video games in the future, bearing in mind that video games are a form of art, as do music, films, painting and I go through it. I hope you take the time to discuss this request: ‘Some publishers sell video games using terms which run counter to Directive 93/13/EEC and deliberately prevent consumers from retaining or repairing the product they have purchased’. A list of games about to disappear and or already disappeared already exists by searching for: The ‘Dead game list’ also contains a list of games that have been properly preserved by fans or developers. The list in question is not complete but represents an example of what happens to video games in the case of a stop to a publisher’s spport. Thank you for reading me",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.132255Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584222.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584222",
+    "chunks_doc_id": "F3584222",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

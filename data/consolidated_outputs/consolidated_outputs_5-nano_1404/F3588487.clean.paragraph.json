@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3588487",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:48Z",
+    "finished_at": "2026-04-14T13:24:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Generally these come with EULAs that declare the purchase to be a license only, with the seller being able to revoke the license for any reason, or even no reason, and may require the buyer to uninstall and destroy any copies of the software, which is completely unfair."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In many cases, the software comes with an online check-in requirement, so the seller can remotely deactivate the software, leaving the user unable to use it."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Full-price games containing in-game purchases, multiple game editions with exclusive pre-order content that cannot be obtained after release, overt or covert gambling (in-game purchases such as \"card packs\", \"loot boxes\", \"gacha pulls\", tickets to dungeons that drop a random item at the end, and similar mechanics) that cause addiction like actual gambling even if there is always an in-game item awarded for the purchase but is of random value, and even if there is no way to \"cash out\" the item because emotional value of rare items is still value."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in-game currency is often only sold in packs of predetermined sizes, and the sizes are carefully chosen to make sure that there is never a pack that has the exact amount of currency required for a popular item"
+              },
+              {
+                "quote": "All of these practices should be controlled to make sure the cost of purchases is transparent and that games don't become online casinos with their random reward mechanics."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35838,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer of digital goods I am concerned about the state of ownership for video games, application software and physical goods with embedded software (such as IoT devices). Generally these come with EULAs that declare the purchase to be a license only, with the seller being able to revoke the license for any reason, or even no reason, and may require the buyer to uninstall and destroy any copies of the software, which is completely unfair. In many cases, the software comes with an online check-in requirement, so the seller can remotely deactivate the software, leaving the user unable to use it. In the case of video games, this also results in a cultural loss as video games are works of art and one cannot be substituted for another. Therefore it is important for video games, application software and firmware to not be allowed to be deactivated for a reason that is not the fault of the buyer, and the seller should provide an end-of-life plan that ensures that if the seller is unable or unwilling to maintain support for the software, the user remains able to use it. In the case of video games, I am also concerned about the spread of abusive practices. Full-price games containing in-game purchases, multiple game editions with exclusive pre-order content that cannot be obtained after release, overt or covert gambling (in-game purchases such as \"card packs\", \"loot boxes\", \"gacha pulls\", tickets to dungeons that drop a random item at the end, and similar mechanics) that cause addiction like actual gambling even if there is always an in-game item awarded for the purchase but is of random value, and even if there is no way to \"cash out\" the item because emotional value of rare items is still value. Items may be sold on a \"fear of missing out\" basis to encourage spending. Especially in free-to-play games, in-game purchase items may cause disproportionate advantages such that it is not possible for a free player to compete (\"pay to win\" mechanics). There may be no spending cap on desirable items, leading to players spending excessive amounts of money (\"whaling\"), sometimes involuntarily due to being susceptible to manipulation and addiction. In-app purchases often obscure the true value of the purchased item by using intermediate in-game currency with an arbitrary exchange rate, as well as providing discounts for bulk purchase. The in-game currency purchased for real money may also be earnable in game, obscuring the relationship between the amount of real money spent and the value of the in-game purchase. In-game currency is often only sold in packs of predetermined sizes, and the sizes are carefully chosen to make sure that there is never a pack that has the exact amount of currency required for a popular item, so the player has to purchase a bigger pack and end up with extra currency left over, which often encourages later purchases to take advantage of the leftover currency. All of these practices should be controlled to make sure the cost of purchases is transparent and that games don't become online casinos with their random reward mechanics.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.650285Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588487.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588487",
+    "chunks_doc_id": "F3588487",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584277",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:02Z",
+    "finished_at": "2026-04-14T11:54:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the seller unilaterally can void without any repercussions or duty to the customer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19541,
+          "unit_kind": "feedback"
+        },
+        "text": "To whom it may concern, I am writing to voice my hopes that a provision regarding video games is added to this act. I have loved video games for as long as I can remember, and consider them works of art like music, film and literature that are just as central to human culture as any other creative expressions. As such, I am concerned by the current trajectory of the video game industry where products theyve sold to consumers can be effectively destroyed at any point, for any reason. I strongly believe that anything marketed and sold to me as a product should be treated like a product and not some nebulous legalese-ridden agreement that the seller unilaterally can void without any repercussions or duty to the customer. If youve bought a product - be it a book, a game or anything else - you should at least have the right to keep and use it for as long as you wish. I have personally had several experiences with the loss of games that I have purchased with no recourse or compensation with games such as Eternal Crusade, Warhammer Online, Dark Spore, (to be fair, EA did offer me a new game as compensation there, but that is the only exception.) and many more, both single- and multiplayer games. I hope you agree with me that the protection of consumer rights and preservation of cultural works is important enough to do something about, whether it be in this act or a separate one.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.157150Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584277.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584277",
+    "chunks_doc_id": "F3584277",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584836",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:18Z",
+    "finished_at": "2026-04-14T12:12:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stop video-game companies destroying games after cutting support for them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14725,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I would like suggest the digital fairness act to add a point to stop video-game companies destroying games after cutting support for them. I believe this is important for the same reason we keep art and movies alive. It can show future generations what people in the past enjoyed for entertainment. There is already a European initiative called stop destroying games which already has 1.4 million signatures which shows public interest in end of the destruction of games. It also be similar to current consumer pertection laws like how when a company stops making a certain brand of car they can't just take that car that you bought, or like when Apple releases a new iPhone they can't take away people's already purchased older iPhone models. Please consider adding this to the act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.461607Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584836.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584836",
+    "chunks_doc_id": "F3584836",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584836.clean.paragraph.json"
+}

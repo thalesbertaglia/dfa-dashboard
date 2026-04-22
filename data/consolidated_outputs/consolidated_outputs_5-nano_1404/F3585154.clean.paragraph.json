@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585154",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:25Z",
+    "finished_at": "2026-04-14T12:22:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I have played games for most of my life"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shoveling this on the market and then asking people to pay."
+              },
+              {
+                "quote": "Games should be protected, they shouldnt be a one time payment of 80 bucks for 4 years of fun."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47819,
+          "unit_kind": "feedback"
+        },
+        "text": "I have played games for most of my life, I spend over 3000 euros on games and over 4000 eurors on hardware from game consoles to computers. The reason you should consider games under the umbrella you want to protect is because they are works of art. A blend of music, drawings, designs and most importantly vision. Most of these games would be considerd to be not much more then a stepping stone for developers. And they will remove them once they release a new varrient. why? because then they dont have to compare with older versions. versions without micro transactions versions without any stuffy AI or DLC or maybe even a game thats half finished. shoveling this on the market and then asking people to pay. while the older games where beloved good and working but now unplayble due to them either disabeling multiplayer or making it so that it is mostly unplayable. A game i love is battelfied 1. a game that has player ran servers. that shows that the industry can keep these works of art alive. For pc users only. trying to play it on console will net you with no servers. no way to play what i find one of the best battelfields. Games should be protected, they shouldnt be a one time payment of 80 bucks for 4 years of fun. you should be able to play them with friends still or in a way that is meaningfull and fun.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.616772Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585154.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585154",
+    "chunks_doc_id": "F3585154",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

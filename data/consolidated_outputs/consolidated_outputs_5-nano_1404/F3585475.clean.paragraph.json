@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585475",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:31Z",
+    "finished_at": "2026-04-14T12:28:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "receiving video games so that they cannot be switched off."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16059,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies, gentlemen and non-binary people, I support all kinds of EU consumer protection. I see the Digital Fairness Act as an opportunity to step up consumer protection. I and 1.4 million other Europeans signed a civil initiative in favour of protecting video games. Its name is “Stop Destroying Videogames” and is committed to receiving video games so that they cannot be switched off. Indeed, producers of those games can simply switch off servers. Thus, they would make the purchased game and thus property completely useless. Unfortunately, this has already happened and will continue, as the modern video game scene sets this as the default. Countless projects of art, fun, love and memories were thus completely nullified. Here, the Digital Fairness Act has an opportunity to curb precisely this kind of injustice. If video games were to be incorporated, something would no longer happen. I hope you will reflect on this and include video games as described in the Stop Killing Videogames Initiative!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.761831Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585475.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585475",
+    "chunks_doc_id": "F3585475",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

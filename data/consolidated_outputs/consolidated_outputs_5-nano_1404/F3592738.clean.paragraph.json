@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3592738",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:05Z",
+    "finished_at": "2026-04-14T13:38:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to see a legal provision obliging manufacturers to sell games to final consumers not as a licence, but as the actual possession of the game."
+              },
+              {
+                "quote": "In this way, you believe that you can be played at any time and for an indefinite period of time determined by the consumer himself."
+              },
+              {
+                "quote": "The acquisition of a computer game (in the broadest sense) should, by law, be in possession rather than just a right of use."
+              },
+              {
+                "quote": "Otherwise, it will affect me more like a rent rather than a purchase or purchase."
+              },
+              {
+                "quote": "Games are also a cultural object that needs to be protected."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17375,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see a legal provision obliging manufacturers to sell games to final consumers not as a licence, but as the actual possession of the game. Comparable to analogue games or board games, which are also purchased by the consumer and then held. In this way, you believe that you can be played at any time and for an indefinite period of time determined by the consumer himself. Anyone who wants to develop digital games and thus earn money should also be obliged to provide a specific service in return, and not only the right to use it for a period of time arbitrarily set by the seller. I would like the legislator to strengthen the consumer’s rights. The acquisition of a computer game (in the broadest sense) should, by law, be in possession rather than just a right of use. Otherwise, it will affect me more like a rent rather than a purchase or purchase. I would like, for example, to be able to show to my children, even after decades, what games I have gone through in my childhood, or what were the reasons why there are now those games that are nowadays. Games are also a cultural object that needs to be protected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.927208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592738.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592738",
+    "chunks_doc_id": "F3592738",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

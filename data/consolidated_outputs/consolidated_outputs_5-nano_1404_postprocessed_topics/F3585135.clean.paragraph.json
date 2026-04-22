@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3585135",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:51Z",
+    "finished_at": "2026-04-14T12:21:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end of service for videogames."
+              },
+              {
+                "quote": "Many cases of end of service concerning videogames have left their users in the complete incapacity of using a product they paid for (i The Crew)"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "selling their game as a \"license of use\" rather than transfering actual ownership of a product"
+              },
+              {
+                "quote": "allowing themselves the right to remove access to their games to the people that bought it."
+              },
+              {
+                "quote": "These actions threaten the very concept of property and ownership."
+              },
+              {
+                "quote": "guarantee the access to their products in any form or any manner exploitable to the consumer in case of an end of service."
+              },
+              {
+                "quote": "solifidy the notion of property around videogames to prevent behaviors like stated above"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34681,
+          "unit_kind": "feedback"
+        },
+        "text": "As of 2024 the international videogames market represented approximately 250 billions USD and is set to grow to half a trillion by 2030. Therefore it appears important to reinforce consumer's protection in an area with such a growth; as the current market state does NOT offer sufficent protection to consumers especially on matters such as end of service for videogames. Many cases of end of service concerning videogames have left their users in the complete incapacity of using a product they paid for (i.e The Crew) and could be qualified as unfair practices from editors of these games. Nowadays many videogames companies cover themselves from such issues by selling their game as a \"license of use\" rather than transfering actual ownership of a product, allowing themselves the right to remove access to their games to the people that bought it. These actions threaten the very concept of property and ownership as neither the price, nor the manner of payment, nor the very existence of the game often being physical and tangible, may indicate that the buyer does not obtain ownership of the product he paid for. Therefore it appears important for EU Citizens that the Digital Fairness Act adresses these issues by ensuring that videogames editors guarantee the access to their products in any form or any manner exploitable to the consumer in case of an end of service. Furthermore, the Digital Fairness Act should aim to solifidy the notion of property around videogames to prevent behaviors like stated above, as the price range and way of advertising and selling videogames for the past decades have remained the same while the ownership that comes with it has drastically changed in a disadventageous way for the consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.610265Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585135.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585135",
+    "chunks_doc_id": "F3585135",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585135.clean.paragraph.json"
+}

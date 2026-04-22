@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585033",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:31Z",
+    "finished_at": "2026-04-14T12:18:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames are being sold as revokable licenses that can be taken away for no reason at all."
+              },
+              {
+                "quote": "but most EULA terms allow the developer or publisher to take away our products at their whim."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16796,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it would be worthwhile for the DFA to target an additional unfair practice on online platforms. With increasing frequency, videogames are being sold as revokable licenses that can be taken away for no reason at all. I call it unfair because videogames are marketed and sold as if they were goods, but most EULA terms allow the developer or publisher to take away our products at their whim. Years ago, it was understood that purchasing a game enabled the consumer to enjoy it as long as the hardware worked, and I would like it to be so again. The death of some videogames is not hypothetical, but real. I have attached a link to an unofficial list of over 1000 games that either have been shut down (~50%), or are at risk of shutting down. Thankfully, some of them do survive due to fan support. I believe this issue is very important among EU citizens, as the \"Stop Destroying Videogames\" citizen's initiative has well over surpassed its original goal of a million signatures (link also included in the attached file). Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.562883Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585033.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585033",
+    "chunks_doc_id": "F3585033",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

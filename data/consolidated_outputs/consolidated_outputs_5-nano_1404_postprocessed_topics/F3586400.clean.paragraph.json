@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586400",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:51Z",
+    "finished_at": "2026-04-14T12:56:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to be required to leave the video games in question in a functional (playable) state."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23575,
+          "unit_kind": "feedback"
+        },
+        "text": "Hundreds and hundreds of digital headlines, mostly games, depend on ancillary services supplied by the publisher or developer, without which the product (s) already purchased becomes completely or largely non-functional. If the publisher or developer stops these resources, the product purchased by the consumer shall be destroyed. We call for publishers who sell or license video games to consumers in the European Union (or related functions and resources sold for video games they control) to be required to leave the video games in question in a functional (playable) state. We call to prevent the remote deactivation of video games by publishers before providing reasonable means to continue operating the video games in question without the participation of the publisher.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.231042Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586400.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586400",
+    "chunks_doc_id": "F3586400",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586400.clean.paragraph.json"
+}

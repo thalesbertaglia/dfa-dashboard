@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584850",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:40Z",
+    "finished_at": "2026-04-14T12:12:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The program requires activation through Reason's servers, which eventually dropped activation support for EOL versions resulting in professional studios effectively losing access to that software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18016,
+          "unit_kind": "feedback"
+        },
+        "text": "I highly that believe digital products with a perpetual license go EOL (End-of-Life) should be released with all of their DRM stripped off so that the consumers who paid for it don´t access to the product their purchased. Case study: This happened with the perpetual licenses of old versions of the Reason DAW (Audio production/recording software). The program requires activation through Reason's servers, which eventually dropped activation support for EOL versions resulting in professional studios effectively losing access to that software. They could only continue using the installs that were already activated. Would they move the install to another machine or reinstalled the software, consumers wouldn´t be able to activate their purchased software. You can look a bit closer into it through this link: https://consumerrights.wiki/Reason_Studios Even though the activated installs remained activated, those machines will inevitably die. Storage media doesn´t last more than 25 years. Most of those computers had around 10-12 more years of life in them. In a professional recording studio setting -- processing power, ram and storage is not important to upgrade since audio recording is not a compute intensive task. At least in the last 15 years. So obsolescence is not a valid talking point since. The same goes for some health care, industrial and other strategic and critical applications in which more compute is basically irrelevant. A better solution yet would be for those programs to go open-source after going EOL, just like patents do. This would allow companies that don´t want to continue maintaining the software to drop the official support while still allowing consumers to still maintain it. I hope I made my points clear and thank you for going through them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.468638Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584850.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584850",
+    "chunks_doc_id": "F3584850",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

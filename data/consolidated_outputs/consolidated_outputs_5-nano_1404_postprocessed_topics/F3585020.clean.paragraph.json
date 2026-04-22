@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585020",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:08Z",
+    "finished_at": "2026-04-14T12:18:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "close the servers of an online game without prior warning (example with The Crew in 2024)"
+              },
+              {
+                "quote": "predatory micro-transactions that can ruin families,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15536,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is a very good initiative to protect consumers of certain products online. A major issue that has not been mentioned in this regulation concerns the gigantic video game industry: large companies such as Ubisoft can close the servers of an online game without prior warning (example with The Crew in 2024) and players who bought the physical disk or game digitally would not be able to appreciate their product. Video game is just as legitimate a form of art as a Monet painting or an album by Georges Brassens. Many talented people are doing a lot of work to ensure that the final product is appreciated by as many people as possible. Unfortunately, due to the large studios wanting to cut off excessive finances and seek short-term profit, the online servers of many games are ever switched off, leading to the permanent death of the video game: players find themselves with either an unnecessary disk or a title in a ‘digital library’ on Steam when they have paid for playing there. This initiative for me is crucial for the preservation of art, for the rights of consumers who can play the game they have bought and to avoid abuses by big companies that deprive us of our rights. The Stop Destroying Games movement (ICE (2024) 000007), which has already reached 1.4 million signatures, shows that this problem affects many people in the European Union. Whether it is a video game removed from a platform, lost ever or predatory micro-transactions that can ruin families, we need to be more informed and protected against these anti-consumer strategies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.556520Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585020.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585020",
+    "chunks_doc_id": "F3585020",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585020.clean.paragraph.json"
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33095674",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:16:11Z",
+    "finished_at": "2026-04-14T10:16:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "aggressive digital planned obsolescence, anti consumer practices and forcing AI integration."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "moving away from on-premise ownership and onto Software-as-a-service as a model"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "mine private citizens data."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26816,
+          "unit_kind": "feedback"
+        },
+        "text": "Large digital companies like Adobe, Microsoft, EA, Netflix, Facebook, Alphabet (Google) etc. Have exploited the very loose set of laws around software copyright and digital publishing to create aggressive digital planned obsolescence, anti consumer practices and forcing AI integration. It forces customers, governments and companies to buy new software that at best does the same as the old, but at worst, can be a poor substitute and mine private citizens data. This is becoming the norm as we're moving away from on-premise ownership and onto Software-as-a-service as a model and even more so now with LLMs like chatgpt. It can create new cyberattack vectors for private citizens as well as government entities and smaller companies who uses these digital products. not only in terms of traditional hacking, but also with new misinformation campaigns.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.758640Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095674.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095674",
+    "chunks_doc_id": "F33095674",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095674.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589007",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:41Z",
+    "finished_at": "2026-04-14T13:27:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "termination of operation servers for games requiring access to the Internet"
+              },
+              {
+                "quote": "the consumer’s right to access the product that purchased it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14812,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like this initiative to also address the practices of video game companies, namely practices related to the termination of operation servers for games requiring access to the Internet, whether they contain a play regime with other players (multiplayer) or not. These practices violate the consumer’s right to access the product that purchased it by giving these distributors the power to decide whether the people who purchased their products have the right to access them, if this right is detrimental to them for financial or commercial reasons. I believe that once a product has been sold to a consumer, the consumer should have the right to access as long as he owns the product. If the distributing companies no longer want or can no longer provide technical support for a video game, they should create a plan to ensure that the consumer will continue to have access to the product that purchased it, the only difference being that the distributing company and developers will no longer be responsible for the technical condition of the game, in the same way as a manufacturer is no longer responsible for repairing a device once it has exited the warranty. In this way, the consumer continues to maintain access to the game for as long as the technical condition allows access.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.722890Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589007.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589007",
+    "chunks_doc_id": "F3589007",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

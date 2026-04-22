@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588969",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:56Z",
+    "finished_at": "2026-04-14T13:27:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Uses for such technology include DRM or Anti-Cheat in online games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14997,
+          "unit_kind": "feedback"
+        },
+        "text": "Modern digital products and services increasingly require technical measures against tampering. Uses for such technology include DRM or Anti-Cheat in online games. While the protection of intellectual property is necessary, the current implementations of such technology also prevents (and/or can be misused to prevent) innovation in the operating system space and hinders research by preventing running unauthenticated code on devices that are owned by the end user. Such authentication can, in the current framework, only be given by big tech (e.g. Microsoft) and the OEM of the device. To solve this issue, the digital fairness act should allow consumers and end users to replace (not modify!) the software on general purpose computers. To this end, a general purpose computer should be defined as any device capable of executing a program, where the purpose of computation may be changed after purchase. Such a definition would include most devices that are updateable, i.e. telephones, smart fridges, car radios, as well as desktop and laptop computers. Exceptions need to be made for safety reasons, however, those exceptions must be limited to a minimal state; such that if alternative measures than complete lockdown could be taken, they must be taken. A related problem to this that must also be addressed is that Secure Boot must not be used to prevent participation in daily life. For example, currently mobile banking apps and mobile ticketing apps refuse to run on privacy-focused smartphone operating systems, because these systems can never get the authentication needed from a private third party. This prevents participation in daily life, especially for vulnerable and at risk people. Most of these restrictions are arbitrary with no real-world security benefit to the end user. These restrictions, usually imposed by private third party corporations outside the EU, also stifle innovation and business within the EU. It is impossible for EU companies to create privacy focused operating systems for phones with any meaningful market share, because to use these operating systems in day-to-day operations, users need to give up digital participation in daily activities. Thus, the EU should regulate the usage of and access to secure boot; not only to give consumers choice, but to lay the foundation that a market of operating systems for general purpose computers according to the aforementioned definition can exist; or, in the case of laptop and desktop computers, can continue to exist.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.709168Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588969.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588969",
+    "chunks_doc_id": "F3588969",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588969.clean.paragraph.json"
+}

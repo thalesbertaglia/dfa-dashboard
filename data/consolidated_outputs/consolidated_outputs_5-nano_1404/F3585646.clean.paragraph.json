@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585646",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:18Z",
+    "finished_at": "2026-04-14T12:32:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling mechanics inside of video games that children can use."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15038,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as someone who has played video games since a very young age, I encourage looking into gambling mechanics inside of video games that children can use. Specifically when the items have a real world value. One such case is \"Skins Cases\" in the game Counter-Strike 2. These cases can be earned by anyone by simply playing the game, and can be opened without any I.D verification by simply buying a one time key for the cases with funds from the users Steam wallet, which can be purchased with money, or received when selling cases on the Steam Community Market, meaning anyone can open these cases, even a child with no way to buy Steam wallet funds. When the case is opened using the key, it gives the user a random weapon skin, with a random wear and pattern value. The skin's value can range wildly. The most common skins are only worth about 0.10 on the Steam Community Market, but the rarest skins can be sold for up to 1800 on the Steam Community Market, all for Steam wallet funds. There is no way to withdraw Steam wallet funds, but these skins can be traded to a account controlled by a 3rd party website, that then can be payed out in fiat currency, cryptocurrency, or other skins, or traded to another user for a cash sum in return. The most sought after skins have been sold for over 1,000,000$ to collectors, who pay with bank transfers, avoiding any KYC checks in the process. It is my opinion that these mechanics are not safe for children to have access to, and therefore should be locked behind I.D verification, and should require a license to operate to ensure fair practices. Thank you for your consideration!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.849524Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585646.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585646",
+    "chunks_doc_id": "F3585646",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

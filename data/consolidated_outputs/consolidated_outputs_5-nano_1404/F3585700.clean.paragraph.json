@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585700",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:04Z",
+    "finished_at": "2026-04-14T12:34:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers can pull the plug on a video game that you bought and make it inaccessible."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14661,
+          "unit_kind": "feedback"
+        },
+        "text": "The earliest silent movies are lost. Some movies with audio are also lost forever. People back then did not value preserving them as history and cultural heritage. The same is happening now with digital products like video games. In 100 years, archaeologists will look back at our current time and conclude: These were the dark ages of video games. 80% of what was played back then is lost forever and can never be played again. Why? Because publishers can pull the plug on a video game that you bought and make it inaccessible. This is not fair. Not fair to you and not fair to all future generations. If you want to show your children, what you played when you were little, you can't anymore. This is why the EU should protect consumer rights and allow customers of video game to keep playing them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.878051Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585700.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585700",
+    "chunks_doc_id": "F3585700",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

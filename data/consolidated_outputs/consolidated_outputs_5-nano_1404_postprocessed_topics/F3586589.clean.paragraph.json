@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3586589",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:35Z",
+    "finished_at": "2026-04-14T13:00:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "which I believe is one of dark practices trying to extort money from gamers."
+              },
+              {
+                "quote": "Unfair cookie collection checkboxes, set up to deceive users into thinking they have clicked save my options while they click on accept all cookies button."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gambling-like features such as loot boxes,"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Making unsubscribing from services as hard as possible"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42847,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to point some harmful mechanisms used in digital space that in my opinion should be regulated: 1) digital currencies e.g. Riot Points in game League of Legends can be used to hide live money cost of some things such as skins (different looks of your playable character), which I believe is one of dark practices trying to extort money from gamers. 2) Gambling-like features such as loot boxes, which after being bought for real currency could return high value items in game or something worthless (with latter one being much more prevalent) 3) Making unsubscribing from services as hard as possible - including many step processes, which are meant to tire user and make mistake, resulting in staying subscribed, often paired with changing of position of 'stay subscribed' and 'unsubscribe' buttons. In my opinion only one click with one optional confirmation if user is sure should be maximal number of clicks to unsubscribe. 4) Unfair cookie collection checkboxes, set up to deceive users into thinking they have clicked save my options while they click on accept all cookies button. Thank you for possibility of giving my feedback. With kind regards, Daniel Grochowski",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.287358Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586589.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586589",
+    "chunks_doc_id": "F3586589",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586589.clean.paragraph.json"
+}

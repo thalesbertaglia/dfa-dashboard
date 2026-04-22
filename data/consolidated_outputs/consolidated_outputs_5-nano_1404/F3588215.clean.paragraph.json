@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588215",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:46Z",
+    "finished_at": "2026-04-14T13:23:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers permanently disabling video games that consumers have spent money on."
+              },
+              {
+                "quote": "The game had in-app purchases available and even though we never spent any money personally, a lot of people did and now don't have access to any of the content they purchased,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19187,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I agree with the points brought up in the DFA. I'd also like to propose two additional points: Publishers permanently disabling video games that consumers have spent money on. (For more information, see the Stop Destroying Videogames Initiative.) Payment processors limiting online purchases based on what they deem unacceptable. I have personal experience with the first point I brought up, as my wife and I played a combined 57 hours of a game called KartRider: Drift, which is now only available to play in South Korea and Taiwan. The game had in-app purchases available and even though we never spent any money personally, a lot of people did and now don't have access to any of the content they purchased, which I think is relevant for the DFA. This game could be made available as an offline version to enjoy with family and friends by having the remaining racers be automated. This is common practice for other racing games. I wish to play a part in advocating for consumer rights and thank you for taking the time to do so as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.630347Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588215.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588215",
+    "chunks_doc_id": "F3588215",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587841",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:06Z",
+    "finished_at": "2026-04-14T13:21:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they use the terms & conditions and the EULA to pretend that what you were sold is actually a \"license\" that merely gives you access to use a product as long as it remains available."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would very much like it if the digital fairness act also adressed the issue of game destruction."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sell you products that they, at some undisclosed time in the future, can just destroy, remove, or make inaccessible without any penalties to themselves or reimbursements to the customers who have purchased their products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44370,
+          "unit_kind": "feedback"
+        },
+        "text": "I would very much like it if the digital fairness act also adressed the issue of game destruction. As it stands right now it is common practice for video game companies to sell you products that they, at some undisclosed time in the future, can just destroy, remove, or make inaccessible without any penalties to themselves or reimbursements to the customers who have purchased their products. The way companies get around this is by selling you a video game, a digital product, through an online storefront that explicitly uses language like \"purchase\" & \"buy\" while they use the terms & conditions and the EULA to pretend that what you were sold is actually a \"license\" that merely gives you access to use a product as long as it remains available. This is then abused by video game companies to rob their customers of their products at an undisclosed and likely unplanned time later down the line so as to keep the product they sold you from competing with one of their newer products or to save money on service & server costs related to the product. This would be like if a company that sells chairs was allowed to go to your home and break the chair you bought from them to prevent your old chair from competing with their new chairs. Or if you bought a camera that came with an online cloud saving functionality that when disabled by the company broke the whole camera and. Here is a few examples of video games that video game companies have destroyed or removed my access from, or rather robbed me of, over the years. Overwatch 1 - BlizzardActivision (Now inaccessible as it was removed to prevent it from competing with Overwatch 2) Destiny 2 - Activision/Bungie (original campaign & expansions that I purchased are inaccessible) The Crew - Ubisoft (servers were shutdown and rendered the game unplayable as it received no end of life patch) (Note, these were all single-purchase games, no recurring subscriptions for access needed) I also own both the Division 1 and 2 and considering that Ubisoft destroyed the Crew I am worried that these games also will not be patched for offline mode when their servers eventually go offline. These are also single-purchase games without subscription fees. We desperately need legislation to address this issue as literally hundreds of thousands of video game customers are being robbed yearly because of this. Keep in mind that merely forcing publishers & sellers of video games to use terms like \"rent\" instead of \"purchase\" or \"buy\" is not a fix to this issue as while this would help customers make more informed decisions this would not address the main issue, which is video games being destroyed and rendered unplayable, i.e customers losing access to the products they paid for. I also fear that just changing the terms would further cement the anti-consumerist practices of planned obsolesence and disposability that is already prevalent in the video game industry. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.588142Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587841.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587841",
+    "chunks_doc_id": "F3587841",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

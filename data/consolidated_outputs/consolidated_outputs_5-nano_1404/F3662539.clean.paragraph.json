@@ -1,0 +1,58 @@
+{
+  "doc_id": "F3662539",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:39Z",
+    "finished_at": "2026-04-14T13:44:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11822,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to share my concerns about the restrictions on sideloading apps on Android devices. While I understand the intention is to keep users safe, these restrictions can unfairly limit what average consumers can do with their devices. Android already has Google Play Protect, which is designed to detect and block harmful apps. For most users, having Play Protect active provides enough security. Preventing people from installing apps from outside the Play Store takes away choice from those who are capable of managing their own security. A better approach would be to have Play Protect turned on by default and allow users to turn it off if they want to sideload apps from other sources. This would keep most users safe while giving those who want more control the flexibility to do so. Restricting sideloading without this option can feel like limiting user freedom instead of protecting it. Giving people the ability to make informed decisions about their devices is important for a fair and open ecosystem. Thank you for considering this perspective.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.073648Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3662539.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3662539",
+    "chunks_doc_id": "F3662539",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

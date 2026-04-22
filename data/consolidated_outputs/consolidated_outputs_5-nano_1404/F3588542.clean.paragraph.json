@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588542",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:03Z",
+    "finished_at": "2026-04-14T13:24:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "servers, keys and other means to render bought software useless."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18113,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned in the trend in software, among which games, to make it dependent on producer/distributor-held required parts to make them work. With this I mean servers, keys and other means to render bought software useless. People buy and pay for a product but find it at some point that it will no longer perform its function because the producer/distributor turned off a part required to make it work. When explicitly, and clearly, stated the thing you buy is not a product but a service this behaviour could, and should, be treated differently, but when someone buys a product it should be up to the buyer to decide to stop using it and producers/distributors should be held to providing a way to make this possible. I thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.654429Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588542.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588542",
+    "chunks_doc_id": "F3588542",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

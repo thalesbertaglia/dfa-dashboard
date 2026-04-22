@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3592850",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:23Z",
+    "finished_at": "2026-04-14T13:38:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these formats are designed to maximize engagement"
+              },
+              {
+                "quote": "by design these platforms do not allow users to opt out of these formats"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16852,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent years, major online platforms have increasingly promoted short-form video formats such as Shorts, Reels, and Stories. While these formats are designed to maximize engagement, they are also highly addictive and often consumed unintentionally by users. This creates a situation where people spend significant amounts of time on content they do not actively seek out, which can negatively affect their digital wellbeing, productivity, and overall user satisfaction. Moreover, these contents are predominantly consumed by young people, which can have significant implications for the healthy development of their cognitive abilities Lots of users complain about this kind of content, but by design these platforms do not allow users to opt out of these formats, which raises concerns about fairness, consumer choice, and the right to meaningful control over ones digital environment. Therefore, it is important that the Digital Fairness Act addresses this issue by requiring platforms to provide effective tools for disabling. The obvious solution would be to create a right to disable addictive formats. Large platforms should be required to provide users with the option to disable certain intrusive or addictive formats (such as Shorts, Reels, or Stories). This would empower users to regain control over their digital experience and reduce unintended consumption. This is extremely important for the futur generations because the behaviour young people have with these content is extremely concerning.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.931803Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592850.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592850",
+    "chunks_doc_id": "F3592850",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

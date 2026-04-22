@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585297",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:39Z",
+    "finished_at": "2026-04-14T12:24:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers unfairly cut off access to their products even though consumers have paid money to own those products."
+              },
+              {
+                "quote": "delist and pull games and publications that are deemed 'problematic' by these payment processors."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13207,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for giving me this opportunity to add feedback about the digital fairness act. This is an initiative I do believe in, but I feel it could be expanded with an eye for the current rise in censorship. Much of the other feedback has already touched upon the fact that video game publishers unfairly cut off access to their products even though consumers have paid money to own those products. I would also like to add my concern about payment processors (mastercard, visa and paypal) being able to excersize censorship by threatening to pull their services from companies that depend on them. Currently big platforms like Steam and Itch are forced to delist and pull games and publications that are deemed 'problematic' by these payment processors. This targets erotic content, but also disproportionately targets minority independent developers who use these platforms to make a living. The financial sector should not be an arbiter of morality or be able to excersize censorship to such an extent. What kind of a world do we live in where corporations decide which laws consumers have to follow? I hope you will consider this as part of the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.672343Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585297.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585297",
+    "chunks_doc_id": "F3585297",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585297.clean.paragraph.json"
+}

@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3586042",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:39Z",
+    "finished_at": "2026-04-14T12:45:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gaming industry has begun outright destroying videogames and removing them from peoples digital libraries."
+              },
+              {
+                "quote": "Publishers/developers are finding ways to make games inoperable or inaccessible in order to sell the next one in the series."
+              },
+              {
+                "quote": "This is unfair, especially when they outright kill the game, removing it from ones possession."
+              },
+              {
+                "quote": "A game sold should be unable to be removed from ones possession."
+              },
+              {
+                "quote": "If they have online components, they should have an end of life plan where the community around the game have a reasonable chance to set up their own servers."
+              },
+              {
+                "quote": "The EU should protect customers from game companies destroying the games that they sell them."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I expect to keep that product, unless it is clearly stated that I am lending or subscribing and getting limited access."
+              },
+              {
+                "quote": "When this is the case I expect to be told how long I have access to that product or service."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You shouldn't be able to sell a vacuum cleaner with a killswitch that gets activated when the next update to the series comes out."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39687,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello With any purchase of a product I make I expect to keep that product, unless it is clearly stated that I am lending or subscribing and getting limited access. When this is the case I expect to be told how long I have access to that product or service. The gaming industry has begun outright destroying videogames and removing them from peoples digital libraries. One powerfull motivator for the companies doing this could be to sell more products of a similar nature, such as has been happening with driving games. Publishers/developers are finding ways to make games inoperable or inaccessible in order to sell the next one in the series. This is unfair, especially when they outright kill the game, removing it from peoples possession. You shouldn't be able to sell a vacuum cleaner with a killswitch that gets activated when the next update to the series comes out. Consumers should be protected from this in the games industry. A game sold should be unable to be removed from ones possession. If they have online components, they should have an end of life plan where the community around the game have a reasonable chance to set up their own servers. The EU should protect customers from game companies destroying the games that they sell them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.052904Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586042.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586042",
+    "chunks_doc_id": "F3586042",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586042.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585634",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:05Z",
+    "finished_at": "2026-04-14T12:32:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "What the customer often buys is no longer a copy of the product, but merely a license to access the videogame."
+              },
+              {
+                "quote": "Disabling access to the purchased video game, and rendering the product (video game) useless, without giving any compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13134,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Comission, I write to you with concerns for consumer protection. If a customer were to buy a product, such as a music CD or movie DVD, they commonly able to keep the purchased product and use it for as long as they like. However, when it comes to the digital media of video games this is unfortunately not the case. What the customer often buys is no longer a copy of the product, but merely a license to access the videogame. At the time of purchase there is usual no information given for how long this access may be, And once the publisher of the video game deems the product no longer profitable for them, they often shut it down. Disabling access to the purchased video game, and rendering the product (video game) useless, without giving any compensation. A recent example is the video game The Crew by the publisher Ubisoft with had both a online multiplayer and a single player component that could be played offline. But instead of simply disabling the online features when discontinuing suppoet the publisher destroy access to the game entirely instead. Hundreds of video games have already been destroyed. And the customers who bought these games in the first place are left with nothing. The Stop Destroying Videogames initiative calls to require publishers to create a end of life plan for videogames to maintain usability for consumers in the European Union (or related features and assets sold for videogames they operate) to leave said videogames in a functional (playable) state. At the time of writing the initiative collected already over 1.4 million signatures to support for protection video games from getting destoryed by their publishers. I and thousands other EU citizens would be highly thankful if you could begin to protect video game owner ship as well. Thank you for your time reading and please consider.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.844034Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585634.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585634",
+    "chunks_doc_id": "F3585634",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585634.clean.paragraph.json"
+}

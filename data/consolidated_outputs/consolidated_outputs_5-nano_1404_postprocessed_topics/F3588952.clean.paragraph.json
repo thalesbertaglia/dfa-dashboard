@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588952",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:36Z",
+    "finished_at": "2026-04-14T13:26:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Unfortunately these DLCs were tied to online servers, so when Ubisoft decided to turn off the servers, these purchases were removed from the games."
+              },
+              {
+                "quote": "The DLCs I bought and rightfuly own are now unavailable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20077,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I hope the digital fairness act will protect our rights as consumers and make sure that not only online games, but all games in general will stay in the ownership of people who paid for them. I would also like if the same applied to DLC for the games as well. I have DLC for several Assassin Creed games from Ubisoft, which contained bonus missions, weapons cosmetics, etc. for the singleplayer. Unfortunately these DLCs were tied to online servers, so when Ubisoft decided to turn off the servers, these purchases were removed from the games. The singleplayer part of these games are still functional and playable, but the DLCs I bought and rightfuly own are now unavailable. They were bought and tied to my account. As such, their accessibility should not be dependent on the online servers, but only to the account they were bought for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.703665Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588952.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588952",
+    "chunks_doc_id": "F3588952",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588952.clean.paragraph.json"
+}

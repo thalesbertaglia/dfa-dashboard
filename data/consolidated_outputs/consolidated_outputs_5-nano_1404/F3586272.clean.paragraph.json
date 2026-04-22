@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3586272",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:27Z",
+    "finished_at": "2026-04-14T12:53:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many online storefronts for video games appear to engage in practices that the Digital Fairness Act seeks to investigate or regulate."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preventing traders from using dark patterns and other unfair techniques that pressure, deceive and manipulate consumers online;"
+              },
+              {
+                "quote": "presenting video games as goods while only providing a limited license is deceptive and manipulative."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "difficult cancellations of subscriptions, auto-renewals or free trials converted into paid subscriptions"
+              },
+              {
+                "quote": "subscription-like access as a sale of goods"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the terms of sale (digital contracts) are biased against the customer."
+              },
+              {
+                "quote": "They should instead provide the customer with expiry date upfront or ensure that the game remains accessible indefinitely, either via end of life patch or by providing additional tools appropriate to run the product in a reasonable functional state."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 58161,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir/Madam, Many online storefronts for video games appear to engage in practices that the Digital Fairness Act seeks to investigate or regulate. Storefronts such as EA App, Steam, Ubisoft Store give the customers the option to acquire their products in a manner that deceives the customer into thinking that the product has been purchased (that is, the customer is tricked into thinking a retail purchase and transfer of ownership has been made). However, the digital storefront hides within the terms of service and the terms of purchase the fact that the purchase is only effective for an unspecified amount of time (the purchase is not a subscription service and is not a transfer of ownership). This has lead many games to be rendered inaccessible (further referred to as \"destroyed\") to the people who bought them, detailed list of titles destroyed or at risk can be found here: https://stopkillinggames.wiki.gg/wiki/Dead_game_list This type of practices also sparked an industry debate that has lead to Stop Destroying Games citizens initiative being launched: https://citizens-initiative.europa.eu/initiatives/details/2024/000007_en The citizen initiative seeks that the developers and the publishers of video games implement an end of life plans for their products. This issue appears to be connected to The Digital Fairness Act within objectives: preventing traders from using dark patterns and other unfair techniques that pressure, deceive and manipulate consumers online; - presenting video games as goods while only providing a limited license is deceptive and manipulative. giving consumers greater control of their online experience by addressing addictive design features that lead consumers, particularly minors, to spend excessive time and money on online goods and services; - removing access to an older version of a game in order to drive sales of a new game affects customer's control over online spendings addressing problems with digital contracts (e.g. difficult cancellations of subscriptions, auto-renewals or free trials converted into paid subscriptions, use of chatbots for customer service). - the storefronts present subscription-like access as a sale of goods, the terms of sale (digital contracts) are biased against the customer. The publishers and the storefronts currently play it both ways: present their products as goods, while providing subscription with unknown expiry date. They should instead provide the customer with expiry date upfront or ensure that the game remains accessible indefinitely, either via end of life patch or by providing additional tools appropriate to run the product in a reasonable functional state.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.184342Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586272.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586272",
+    "chunks_doc_id": "F3586272",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

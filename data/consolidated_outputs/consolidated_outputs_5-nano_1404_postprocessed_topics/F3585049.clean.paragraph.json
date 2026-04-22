@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585049",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:54Z",
+    "finished_at": "2026-04-14T12:19:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video game universe as an indicator of extreme practices that insufficient regulation can lead to."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "including (sometimes harmful) changes, suspension of access or even outright removal of the product without compensation or reimbursement (in some cases) and often with the legal minimum of prior warning and information."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19181,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, considering that the EPR initiative covers all digital interactions, I suggest using the video game universe as an indicator of extreme practices that insufficient regulation can lead to. Unfortunately, being labeled as ‘for children’ in the collective unconsciousness, distributors and, more generally, video gaming companies have for decades received little attention from the courts, which has encouraged commercial behaviour that no other industry would have been able to afford... This behaviour has led to anti-consumer practices where the customer becomes a mere tenant of his purchases, subject to all unilateral decisions by suppliers (facilitated by the digital dimension of the products, as opposed to the physical value of other industries), including (sometimes harmful) changes, suspension of access or even outright removal of the product without compensation or reimbursement (in some cases) and often with the legal minimum of prior warning and information. Again, this issue may not specifically concern the defined objectives of the EPR, but in my view is a (unfortunately) real example of the type of abuse that insufficient or poorly enforced legislation could produce...",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.571100Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585049.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585049",
+    "chunks_doc_id": "F3585049",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585049.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584459",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:50Z",
+    "finished_at": "2026-04-14T11:59:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "cover video games as well as other types of media that can be destroyed on a whim without reimbursement and leaving the consumer without the product they purchased."
+              },
+              {
+                "quote": "What comes up as the problem is the fact they can decide if they don't want to support the game anymore, that means closing servers and making the product unusable as they were shut down and the consumer sitting with a product they cannot use as a result."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20472,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to throw my hat in and say that the Digital Fairness Act needs to cover video games as well as other types of media that can be destroyed on a whim without reimbursement and leaving the consumer without the product they purchased. Large video game publishers have been for the last good long while made video games that requires you to run them through online services to be able to play the product they released which isn't a problem in itself. What comes up as the problem is the fact they can decide if they don't want to support the game anymore, that means closing servers and making the product unusable as they were shut down and the consumer sitting with a product they cannot use as a result. It's like buying a car and not being able to drive it because the company didn't want to support that specific model anymore, which to me and many others seems like a kick in the face from the provider of these products. People want to be able to play these games whenever they want, but it's hard to do so since that a lot of games released today is forcing you to play through a service that can be shut off at any given moment with little to no prior notice, especially since money was exchanged for the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.243041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584459.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584459",
+    "chunks_doc_id": "F3584459",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

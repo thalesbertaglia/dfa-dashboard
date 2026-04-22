@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585037",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:37Z",
+    "finished_at": "2026-04-14T12:18:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This has resulted in many games being advertised as products and sold as such, only for said video-game to eventually be shutdown at a later date, removing access to said product that was bought and paid for by the consumer."
+              },
+              {
+                "quote": "without warning, without a refund and without any other recourse or compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21719,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that video-games are an important angle to consider in relation to the Digital Fairness Act. Many video-game publishers take advantage of the ambiguity between what's considered a digital good, and what's considered a digital service. This has resulted in many games being advertised as products and sold as such, only for said video-game to eventually be shutdown at a later date, removing access to said product that was bought and paid for by the consumer. It is an extremely misleading and unfair business practice that only seeks to maximize profit at the expense of the consumer. Imagine if you bought a refrigerator and then suddenly one day, the company that manufactures the said refrigerator came into your home and took away your refrigerator with everything inside, without warning, without a refund and without any other recourse or compensation. I'm of the belief that digital goods should be preserved and I would hate to see a future where planned obsolescence becomes the norm in society in which everything is perishable and non recoverable. I think that video-games, much like other forms of consumable media should be preserved, for their cultural impact, their entertainment, and everything else. Growing up, many video-games left an impact on my childhood, much like a favourite cartoon or movie would, its something I like to revisit every now and then for nostalgia sake and replay-ability. In a future that values planned obsolescence, I wouldn't be able to relive that nostalgia.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.564821Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585037.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585037",
+    "chunks_doc_id": "F3585037",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585037.clean.paragraph.json"
+}

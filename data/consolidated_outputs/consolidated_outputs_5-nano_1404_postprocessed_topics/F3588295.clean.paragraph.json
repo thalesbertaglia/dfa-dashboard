@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3588295",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:02Z",
+    "finished_at": "2026-04-14T13:23:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry"
+              },
+              {
+                "quote": "Ubisoft Entertainment recently deactivated all copies of the video game The Crew, both digital and on a physical disk"
+              },
+              {
+                "quote": "the video game purchased must be the property of the person who paid for it"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the passes to unlock elements at stake"
+              },
+              {
+                "quote": "the purchase of additional downloadable content for aesthetic purposes or to replace the stock of digital currency"
+              },
+              {
+                "quote": "have now exploded for several years and may lead to problems of dependence"
+              },
+              {
+                "quote": "unknowingly emptying people’s wallets"
+              },
+              {
+                "quote": "These practices need to be strictly regulated in parallel with the protection of the purchases made for the video games themselves."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46147,
+          "unit_kind": "feedback"
+        },
+        "text": "This is undoubtedly a laudable initiative in all its parts, but I am keen to express my views on the video game industry and the damage caused to paying users. (1) the prize funds, the passes to unlock elements at stake, the purchase of additional downloadable content for aesthetic purposes or to replace the stock of digital currency, have now exploded for several years and may lead to problems of dependence, as well as unknowingly emptying people’s wallets. These practices need to be strictly regulated in parallel with the protection of the purchases made for the video games themselves. 2) I would like to explain to me better, today you can only buy a licence to use a video game (be it on a physical medium or in digital form), which can be revoked at any time and for any reason. This must end up, the video game purchased must be the property of the person who paid for it, and the manufacturers, distributors, etc. should not be able to deactivate them as they wish. Ubisoft Entertainment recently deactivated all copies of the video game The Crew, both digital and on a physical disk, because the life cycle of the product had come to the end: this is understandable to the extent that a product which no longer gives a profit margin cannot be maintained indefinitely with all the costs involved, but cannot be rendered unusable either. The minimum that can be done is to give the community of enthusiasts the opportunity to keep it alive. In conclusion, I kindly ask the European Commission to safeguard the mental health and portfolios of European citizens by means of regulations on the purchases at stake, of whatever kind, and to restore ownership of the video games purchased to the legitimate buyers. Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.638210Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588295.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588295",
+    "chunks_doc_id": "F3588295",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588295.clean.paragraph.json"
+}

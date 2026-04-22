@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3660394",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:31Z",
+    "finished_at": "2026-04-14T13:44:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restrictions and constant warnings against sideloading are framed as security, but in practice they trap us inside Googles own store and services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13151,
+          "unit_kind": "feedback"
+        },
+        "text": "I think one area the Digital Fairness Act really needs to address is how consumers are being corralled into closed ecosystems. On Android, for example, restrictions and constant warnings against sideloading are framed as security, but in practice they trap us inside Googles own store and services. Thats not about safety its about control. The same goes for planned obsolescence. Devices that are still perfectly functional get cut off from updates after just a few years, forcing people to buy new hardware. Batteries are glued in, repair is discouraged, and software support is cut short. This is unfair to consumers, bad for the environment, and completely out of line with the EUs own sustainability goals. When were locked into one ecosystem like this, we also lose independence as Europeans. Our digital lives end up entirely dictated by a handful of non-EU companies, which weakens the EUs own strategic autonomy. That should be a red line. Yes, we need proper security protections, but they must be designed in a way that respects consumer choice and developer privacy. That means not leaving them in the hands of the same corporations that profit from lock-in. Instead, certification and oversight should be handled by independent third parties NGOs, academic bodies, or EU-mandated institutions that are transparent and accountable. In short: let us sideload, stop planned obsolescence, and dont let security become a smokescreen for monopoly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.070535Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3660394.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3660394",
+    "chunks_doc_id": "F3660394",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3660394.clean.paragraph.json"
+}

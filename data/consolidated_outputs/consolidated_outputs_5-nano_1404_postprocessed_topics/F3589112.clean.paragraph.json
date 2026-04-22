@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589112",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:33Z",
+    "finished_at": "2026-04-14T13:29:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove games from Steam/Itch"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16116,
+          "unit_kind": "feedback"
+        },
+        "text": "Payment processors need to be prohibited from discriminating against legal purchases, or using threats of revoking service to control what legal goods or services are allowed to buy or sell; a good example of this is Mastercard/Visa's underhanded tactics to remove games from Steam/Itch, which was done in the name of 'protection' but was, in truth, coercive censorship, as can be seen by the number of games discussing LGBTQ topics and non-traditional sexual relationships which were completely delisted. Visa and Mastercard claim they aren't responsible, but that is because they used proxies, and caved to pressure from a single, fringe, radical, bigoted Australian group.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.757387Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589112.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589112",
+    "chunks_doc_id": "F3589112",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589112.clean.paragraph.json"
+}

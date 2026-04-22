@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585555",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:23Z",
+    "finished_at": "2026-04-14T12:30:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the shutting down of purchased video games by publishers, rendering the product unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15049,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I am writing with hopes that this act could be stretched to also include consumer protection rights in regards to the shutting down of purchased video games by publishers, rendering the product unusable. A prime example of this practice is Ubisoft's \"The Crew 2\" which was shut down in 2024 with no refund or alternative means to play provided to those who purchased it. I implore anyone looking into this to take a look at the Stop Destroying Videogames initiative. Apart from the consumer rights aspect, I believe that videogames are a legitimate form of art and culture that deserves to be preserved alongside films and literature but sadly many games are being destroyed, leaving few ways to look back on their cultural and historic significance.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.800847Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585555.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585555",
+    "chunks_doc_id": "F3585555",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585555.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584991",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:19Z",
+    "finished_at": "2026-04-14T12:17:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"always online\" functions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16217,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I here to ask if a section about online games could be added. More specifically games that require some sort online verification or \"always online\" functions. I would like that the creator, publisher and owners of the game and IP cannot just close their servers, and thereby completely make the game unplayable, without adding an option for people that have bought the game to still be able to use/play the game. As an example there's the game \"The crew\" which Ubisoft rendered playable by shutting down the game's servers (March 31,2024): I also think that this should apply to other software not in the video gaming industry. Software you may have paid a lot of money for, suddenly unusable due to servers being shut down. I hope that You will consider and add a section for these situations. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.541425Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584991.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584991",
+    "chunks_doc_id": "F3584991",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584991.clean.paragraph.json"
+}

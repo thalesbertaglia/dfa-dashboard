@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585851",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:38:49Z",
+    "finished_at": "2026-04-14T12:39:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the proposition to force the user to buy or subscribe to a more new version or a sequel"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24497,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be very relevant to add this video game event and other software parts that are sold as complete products but rely on constant digital validation by companies by selling them. Many games and other software parts have been destroyed or rendered unusable purely by the publishing company’s decision such as the proposition to force the user to buy or subscribe to a more new version or a sequel (if any). While requiring any supplier to support something ad aeternam is absurd, asking for a plan for the end of life of a game or piece of software, and making it functional at the end of its support, is not to ask for a lot. This would also encourage us to help preserve software for future generations in an educational manner.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.953880Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585851.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585851",
+    "chunks_doc_id": "F3585851",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

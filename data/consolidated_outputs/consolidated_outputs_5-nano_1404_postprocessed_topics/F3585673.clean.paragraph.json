@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3585673",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:06Z",
+    "finished_at": "2026-04-14T12:33:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You cannot use this product you have already paid us for unless you agree to these terms that we did not lay out before you made your purchase"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "You bought this game, but it requires a constant connection to our servers to play (Even if the game is NOT multiplayer or it does have a singleplayer mode)"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "demanding digital identification from users to \"prove\" their age"
+              },
+              {
+                "quote": "how much companies ALREADY pry into consumers' personal data"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Adobe recently locking all its customers completely out of all their programs unless said customers agreed to their updated terms of service, which includes FORCING them to let their work be used for AI training."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28703,
+          "unit_kind": "feedback"
+        },
+        "text": "Joining in with the other commenters to request stronger consumer protection for digital goods (Video games, but also software such as image, video or audio editing software) be included in this initiative. So many companies these days will sell you something, then spring an End User License Agreement on the customer AFTER they've already purchased the product, thus basically making it a case of \"You cannot use this product you have already paid us for unless you agree to these terms that we did not lay out before you made your purchase\", as well as being entirely willing to change the terms of that agreement later on, with the consumer having no recourse at all besides \"Agree to the changed terms\" or \"No longer have access to the software at all\". To say nothing of the more video game specific instance of \"You bought this game, but it requires a constant connection to our servers to play (Even if the game is NOT multiplayer or it does have a singleplayer mode), and once we shut down the servers you have no recourse and your copy of the game is completely useless\", but there are also instances such as Adobe recently locking all its customers completely out of all their programs unless said customers agreed to their updated terms of service, which includes FORCING them to let their work be used for AI training. Actions such as these should be made explicitly illegal if we want to be able to say that consumers truly have any rights online. Also, in recent weeks there have been several instances of sites enforcing overly restrictive and intrusive ID requirements for users to prove that they're adults. Just today, there are reports of YouTube using AI to somehow try and figure out if their users are lying about their ages, (presumably based off of the content they are engaging with) and demanding digital identification from users to \"prove\" their age if YT's algorithm assumes they are underage, and similar approaches are apparently being tested on sites such as X/Twitter. All in the name of \"protecting children\" of course, but putting in this sort of intrusive agegating on sites that basically EVERYONE uses very much seems like it's in fact making the internet LESS safe for everyone, especially with how much companies ALREADY pry into consumers' personal data.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.863047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585673.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585673",
+    "chunks_doc_id": "F3585673",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585673.clean.paragraph.json"
+}

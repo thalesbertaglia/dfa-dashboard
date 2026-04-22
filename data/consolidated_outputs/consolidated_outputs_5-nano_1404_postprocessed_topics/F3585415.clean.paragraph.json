@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3585415",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:08Z",
+    "finished_at": "2026-04-14T12:27:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "particularly video games,"
+              },
+              {
+                "quote": "When a publisher decides a game is no longer profitable, they can simply switch off the servers, and the product we paid for becomes worthless digital dust."
+              },
+              {
+                "quote": "online-only requirement was enforced even after support ended."
+              },
+              {
+                "quote": "The core of the issue is the illusion of ownership."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The core of the issue is the illusion of ownership."
+              },
+              {
+                "quote": "This practice is not only unfair but is actively anti-consumer, often designed to push players toward newer sequels."
+              },
+              {
+                "quote": "online-only requirement was enforced even after support ended."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please mandate that any product sold as a \"purchase\" must remain functional for the consumer after the seller's support ends, for example by requiring an offline patch."
+              },
+              {
+                "quote": "Furthermore, the language used at the point of sale must be transparent about whether we are truly buying a product or simply renting a service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45316,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear members of the Commission, I am writing to you today to voice my profound concern regarding the state of digital consumer rights in the European Union. As an avid consumer of digital media, particularly video games, I have watched with alarm as our rights to the products we purchase have been steadily eroded. The core of the issue is the illusion of ownership. We are encouraged to \"buy\" a game, but what we receive is merely a temporary, revocable key to access it. When a publisher decides a game is no longer profitable, they can simply switch off the servers, and the product we paid for becomes worthless digital dust. This happened with a racing game I owned and enjoyed for its single-player experience; it is now completely unplayable simply because its online-only requirement was enforced even after support ended. This is not acceptable. It feels like theft. This practice is not only unfair but is actively anti-consumer, often designed to push players toward newer sequels. When I buy a physical book, the publisher cannot enter my home years later and burn it to make me buy another. Why should our digital libraries be treated with less respect than our physical ones? I urge you to use the Digital Fairness Act to rectify this. Please mandate that any product sold as a \"purchase\" must remain functional for the consumer after the seller's support ends, for example by requiring an offline patch. Furthermore, the language used at the point of sale must be transparent about whether we are truly buying a product or simply renting a service. Thank you for your attention to this critical matter. I trust that you will act to protect the rights of millions of EU consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.731175Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585415.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585415",
+    "chunks_doc_id": "F3585415",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585415.clean.paragraph.json"
+}

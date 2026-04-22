@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586867",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:08Z",
+    "finished_at": "2026-04-14T13:05:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-of-life plan for online games"
+              },
+              {
+                "quote": "whereby people's goods can be taken away after purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25135,
+          "unit_kind": "feedback"
+        },
+        "text": "I thank you for allowing this opportunity to give feedback, to add my voice alongside numerous others, in support of the addition of regulations regarding video games, and other digital goods, for instance, ensuring that companies include an \"end-of-life\" plan for online games. As things stand, consumer protection worldwide is lacking in the face of the business practices of companies in these rapid growing industries, whereby people's goods can be taken away after purchase and this should not continue. Please address this issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.371348Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586867.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586867",
+    "chunks_doc_id": "F3586867",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586867.clean.paragraph.json"
+}

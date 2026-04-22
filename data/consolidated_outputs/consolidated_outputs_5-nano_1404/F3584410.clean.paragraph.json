@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584410",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:36Z",
+    "finished_at": "2026-04-14T11:57:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Stop Destroying Videogames initiative is necessary for the smooth development of the video game market and for consumer demands."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it was not normal to pay for a game that can be unplugged and switched off ever without any apparent reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22398,
+          "unit_kind": "feedback"
+        },
+        "text": "During my life, I saw a lot of games coming and leaving. However, in recent years, I have realised that it was not normal to pay for a game that can be unplugged and switched off ever without any apparent reason. It is unacceptable for us, citizens of the European Union, to do so. If you decided to cut your electricity in your neighbourhood without any reason, it is illegal. Why is this situation applied to all products, but is not applied to video games? It is imperative to protect consumers from businesses and their predatory practices. The Stop Destroying Videogames initiative is necessary for the smooth development of the video game market and for consumer demands.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.222097Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584410.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584410",
+    "chunks_doc_id": "F3584410",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

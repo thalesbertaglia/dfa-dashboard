@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3664214",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:01Z",
+    "finished_at": "2026-04-14T13:45:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Sideloading or installing whatever software i want should be allowed on the device i purchased."
+              },
+              {
+                "quote": "requiring idwntification of the app or program developer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15532,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel like a digital fairness act should include the freedom or fairness to install whatever software i want on my smartphone/computer/other digital device without a major monopolistic company like apple/google/microsoft having a say in wether or not they deem the software safe to install by requiring idwntification of the app or program developer. The fact that a company can decide to ban a developer of a possibly competing product from having apps that can be installed on a consumers device is frankly disgusting and in breach of fair market practices. Sideloading or installing whatever software i want should be allowed on the device i purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.081081Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664214.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664214",
+    "chunks_doc_id": "F3664214",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

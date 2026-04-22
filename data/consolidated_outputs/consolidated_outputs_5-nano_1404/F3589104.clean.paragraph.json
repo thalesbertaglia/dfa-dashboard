@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589104",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:24Z",
+    "finished_at": "2026-04-14T13:29:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Hi, I would be grateful if you could add video game protection to this act, especially single player."
+              },
+              {
+                "quote": "Destroying video games that consumers paid for, just because the game producer does not want to maintain them anymore, is an infringement on property rights and that is unacceptable."
+              },
+              {
+                "quote": "they should give the consumers a way to preserve such games instead of destroying them outright."
+              },
+              {
+                "quote": "private community servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31985,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I would be grateful if you could add video game protection to this act, especially single player. Destroying video games that consumers paid for, just because the game producer does not want to maintain them anymore, is an infringement on property rights and that is unacceptable. It is perfectly reasonable to stop online services related to said game if the company decides it is no longer financially valid, however, they should give the consumers a way to preserve such games instead of destroying them outright. It can be done by allowing private community servers or even just patching the game to make it playable offline. As I said, it is perfectly reasonable for companies to stop providing services that are no longer financially valid, but some kind of middle ground must be achieved. Many thanks for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.755484Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589104.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589104",
+    "chunks_doc_id": "F3589104",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

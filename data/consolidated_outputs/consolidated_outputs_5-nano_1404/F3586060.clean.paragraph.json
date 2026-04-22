@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586060",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:21Z",
+    "finished_at": "2026-04-14T12:45:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they're challenging video game publishers on some very shady EULA clauses,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "8. Termination ''...UBISOFT (or it's licensors) may terminate this EULA, at any time, for any reason..."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38083,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, I'd like to bring to your attention the consumer movement Stop Killing Games, I urge you to go to their site for more information, they can explain the movement far better than I can. A couple of examples of why I believe the SKG movement is important, they're challenging video game publishers on some very shady EULA clauses, for example: For Ubisoft: \"8. Termination ''...UBISOFT (or it's licensors) may terminate this EULA, at any time, for any reason...\" And for Blizzard Entertainment: \"B. Termination ''Blizzard rezerves the right to terminate this agreement at any time for any reason, or for no reason, with or without notice to you...\" According to the EU Commission, that might be a violation of Directive 93/13/EEC, which protects consumers from unfair terms and consumer contracts. There is more but I don't want to clutter this feedback text, so to end I'll once again urge you to go to the Stop Killing Games website to get better and clearer information than what I can give you here. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.063114Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586060.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586060",
+    "chunks_doc_id": "F3586060",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585379",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:21Z",
+    "finished_at": "2026-04-14T12:26:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "At present, publishers can remove access to games that people have legally purchased at any time, even if those games are fully playable offline."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "at the time of purchase the game was presented as something we owned, not as a temporary rental."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28651,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my support for the EUs efforts to improve consumer protection in the area of digital video games. At present, publishers can remove access to games that people have legally purchased at any time, even if those games are fully playable offline. A recent example is The Crew, which became completely unplayable after its servers were shut down. Players had paid not only for the base game but also for additional content such as expansions or individual cars, in some cases even during the final days before the shutdown. No compensation or alternative way to continue playing was offered, even though I and many others never used the games online features and played it solely offline. Ending the games functionality was therefore not inevitable but rather a deliberate decision by the developer, seemingly aimed at pushing consumers to purchase a newer version. Moreover, at the time of purchase the game was presented as something we owned, not as a temporary rental. I believe this practice is unfair and undermines consumers trust in the digital market. When we buy a game, we expect to be able to keep playing it even after official support ends. It would therefore be appropriate for EU rules to ensure timely information about a games lifecycle and planned server shutdowns, and also to require that games remain playable in some form for example through offline functionality or by allowing community support without the need for direct involvement from the developer. Video games are not only a means of generating profit; they are also part of our history and, in many cases, a form of art. I therefore consider it important to protect not only consumers from having their purchased goods taken away without warning years after purchase, but also to protect the games themselves from unnecessary destruction caused by the endless pursuit of profit, in order to preserve a part of our culture. Thank you for considering this feedback and for your work to protect consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.709058Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585379.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585379",
+    "chunks_doc_id": "F3585379",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585379.clean.paragraph.json"
+}

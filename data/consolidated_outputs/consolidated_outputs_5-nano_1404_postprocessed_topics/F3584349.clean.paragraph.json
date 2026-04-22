@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584349",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:53Z",
+    "finished_at": "2026-04-14T11:56:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "specifically for video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Or at least ban publishers from using the word \"buy\", insisting they call it \"renting\" a game and explicitly having them say for how long."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ban publishers from using the word \"buy\", insisting they call it \"renting\" a game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38755,
+          "unit_kind": "feedback"
+        },
+        "text": "I am asking the EU to stand up for consumer rights in the digital space, specifically for video games. Consumers paying for a game shouldn't be denied access just because a publisher doesn't want to support it. That's an undermining of ownership and digital justice. The EU should make it obligatory for consumers to have at least some form of access to bought games, either offline access or ongoing presence, even when online activities stop. Or at least ban publishers from using the word \"buy\", insisting they call it \"renting\" a game and explicitly having them say for how long. \"You will rent XYZ game for 5 years at the cost of 99 EUR\", or similar. The European Citizens Initiative of stop killing games already has a lot of support and this fairness act could support as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.190893Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584349.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584349",
+    "chunks_doc_id": "F3584349",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584349.clean.paragraph.json"
+}

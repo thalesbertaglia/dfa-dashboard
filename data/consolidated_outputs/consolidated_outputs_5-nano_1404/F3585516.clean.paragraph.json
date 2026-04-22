@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585516",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:30Z",
+    "finished_at": "2026-04-14T12:29:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "disabling or significantly limiting access to games after the point of sale"
+              },
+              {
+                "quote": "became entirely unplayable, even offline, after its servers were shut down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28030,
+          "unit_kind": "feedback"
+        },
+        "text": "While I support the goals of the Digital Fairness Act, I believe it should go further by tackling the growing issue of consumers losing access to digital products they've legally purchased. Particularly in the video game industry. Increasingly, companies are disabling or significantly limiting access to games after the point of sale, which raises serious concerns about the durability of digital ownership. A striking example is Ubisofts The Crew, which became entirely unplayable, even offline, after its servers were shut down. With more products now being offered in digital-only formats, there's a real risk that this practice could become the norm, eroding consumer rights and turning purchases into little more than temporary rentals. The fact that over 1.4 million people have signed the Stop Destroying Videogames initiative highlights just how strongly the public feels about this issue. To truly protect consumers online, the Act should ensure that companies cannot retroactively degrade or revoke access to digital content that was sold. Additionally, the role of payment processors in controlling access to services based on opaque policies or external pressure, often with no legal justification, this needs scrutiny. This form of private censorship is both unfair and potentially abusive, and safeguards should be in place to prevent it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.783139Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585516.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585516",
+    "chunks_doc_id": "F3585516",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

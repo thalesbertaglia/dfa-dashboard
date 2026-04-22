@@ -1,0 +1,80 @@
+{
+  "doc_id": "F33070262",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:08Z",
+    "finished_at": "2026-04-14T09:28:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in 1 click it is bought."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We can record our favourite searches"
+              },
+              {
+                "quote": "This homepage shows different articles every time you connect."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33559,
+          "unit_kind": "feedback"
+        },
+        "text": "I have been using Vinted since 5 years. After a period of ‘normal’ consumption on this platform, I have for several years been in a form of addiction to Vinted. I log on to the app as soon as I have a few minutes (or a few seconds). I buy what I do not need because the homepage shows me many articles and which are exactly what drives me the purchasing process is very simple; in 1 click it is bought. I think today I’m clearly in an addiction to vinted. It takes precedence over the rest of my old. This homepage shows different articles every time you connect. We can record our favourite searches and it’s very easy to have access to a lot of new products. Thus, I had to remove the app from my phone. It has limited my consumption on Vinted but not enough. I feel a lot of pleasure when I connect to Vinted and I find a clothes sympathetic. When I wanted to consume otherwise for economic but above all environmental reasons, I’m taking a lot of things when I’ve got in a different way.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.484078Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33070262.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33070262",
+    "chunks_doc_id": "F33070262",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

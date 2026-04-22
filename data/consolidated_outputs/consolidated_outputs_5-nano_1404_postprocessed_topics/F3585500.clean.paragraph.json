@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585500",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:07Z",
+    "finished_at": "2026-04-14T12:29:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ownership of a bought game, into being a license, so consumers no longer technically own it."
+              },
+              {
+                "quote": "once the gaming companies decide to no longer support their game and remove their servers, they can make it unusable for the consumers that bought/licensed them."
+              },
+              {
+                "quote": "\"end of life\"-plan for how to handle that shutdown, so consumers can still access their bought games, just not through the company that stopped supporting them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20047,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Digital Fairness Problem: License vs ownership As a very long time gamer, back in the day I used to physically buy and own the games I bought for 300-400 dkk. I still have the physical copies of 30+ year old games. Nowadays the gaming companies seem to have quietly switched the ownership of a bought game, into being a license, so consumers no longer technically own it. This hurts our consumer rights. Over the years I've spent a lot of money buying games, but apparently those 1000+ games aren't owned. That seems wrong. Many of them I still haven't played either, because I bought many on sale (estimate it's 300+ unplayed) but due to the way modern games often require you to be online while using them, once the gaming companies decide to no longer support their game and remove their servers, they can make it unusable for the consumers that bought/licensed them, which is another big problem. 2. Digital Fairness Problem: Stop Killing Games A petition for the EU called \"STOP KILLING GAMES\", which currently has around 1,4 million signatures is trying to stop companies from just ending access to bought games, by making them include an \"end of life\"-plan for how to handle that shutdown, so consumers can still access their bought games, just not through the company that stopped supporting them. It has been suggested that they either code an offline solution into the soon-to-be unsupported game or give their customers information to make their own online servers to run the game on. I'm not a representative of the initiative, so I may have the details wrong, but I fully support it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.774877Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585500.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585500",
+    "chunks_doc_id": "F3585500",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585500.clean.paragraph.json"
+}

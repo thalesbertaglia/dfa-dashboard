@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585222",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:53Z",
+    "finished_at": "2026-04-14T12:23:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "offline functionality"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15236,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly urge the European Commission to include provisions that protect consumers from losing access to legally purchased video games when publishers shut down online servers. The current lack of obligation for publishers to provide offline functionality or alternatives after server termination undermines digital ownership and consumer trust. As digital goods become more prevalent, it is essential that legislation reflect the principle that consumers should retain meaningful access to what they purchase. Just as physical goods cannot be repossessed or disabled by the manufacturer post-sale, digital products should not be rendered unusable due to unilateral publisher decisions. The Digital Fairness Act provides an excellent opportunity to address this growing issue. Mandating the preservation of core game functionality either through offline modes, peer-to-peer hosting, or access to self-hosted server tools would not only protect consumers but also promote software preservation and cultural heritage. Digital fairness must mean lasting access and ownership. I urge the Commission to consider this essential consumer protection as part of a fair and future-proof digital economy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.642514Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585222.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585222",
+    "chunks_doc_id": "F3585222",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585222.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:58Z",
+    "finished_at": "2026-04-14T13:24:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online and multiplayer video games"
+              },
+              {
+                "quote": "defunct online games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14250,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing in support of legal exemptions that allow for the preservation and revival of online and multiplayer video games that have been discontinued or made inaccessible by their publishers. When companies shut down game servers or implement DRM systems that prevent continued access, they effectively erase these titles from our digital and cultural history. Even players who legally purchased these games are left with nothing. This is not only a consumer rights issue; it is also a growing threat to cultural preservation in the digital age. The Stop Killing Games movement has raised global awareness of this problem. It emphasizes the need for legal frameworks that empower institutions, researchers, and even individual preservationists to restore and maintain abandoned games, especially when there is no ongoing commercial exploitation. I urge the European Union to adopt and defend copyright exemptions that explicitly support: The operation of replacement servers for defunct online games. The circumvention of DRM when it is the only barrier to preservation or access. The right of libraries, archives, museums, and recognized preservation groups to maintain access to software, including multiplayer games. Without these changes, we risk losing access to an entire generation of cultural artifacts. Please help ensure that games, like books, films, and music, can be studied, played, and remembered long after their commercial lifecycle ends.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.652954Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588521",
+    "chunks_doc_id": "F3588521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

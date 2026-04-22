@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588085",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:15Z",
+    "finished_at": "2026-04-14T13:22:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manufacturers remotely disable functioning hardware or software simply because they no longer offer support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19608,
+          "unit_kind": "feedback"
+        },
+        "text": "This proposal should also help ensure that consumers can continue using products they've already purchased, even if the manufacturer goes out of business or ends support such as with smart home devices or video games. This aligns with the goals of the citizens' initiative \"Stop Killing Games\". Currently, there is a growing number of cases where manufacturers remotely disable functioning hardware or software simply because they no longer offer support. This practice undermines consumer rights, especially when the product continues to work without needing further manufacturer involvement.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.611383Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588085.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588085",
+    "chunks_doc_id": "F3588085",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

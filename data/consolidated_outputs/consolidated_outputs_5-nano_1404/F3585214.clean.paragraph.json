@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585214",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:46Z",
+    "finished_at": "2026-04-14T12:23:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"prohibits games that violate the standards of payment processors, card networks, and internet network providers\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36121,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, First I'd like to request for this act to cover the issues as highlighted by the Stop Destroying Videogames citizens initiative. I think it really hurts (digital) culture if games in which people have invested time, money and memories just disappear. It feels a bit like beloved books we paid for are being taken from our bookshelves AND the library. Additionally I'd like to request for this act to address the recent development where online payment processors pressure publishing platforms into censoring their catalogue. This recently happened with Steam as well as Itch.io. It feels wrong that companies like Paypal or Mastercard can dictate what people publish and download on third party platforms. Especially if the payment processors are American and the content publisher and user are in the EU, because the way things are going in the USA this makes Donald Trump control my Dutch gaming library. It is not inconceivable that someone like Donald Trump bans companies from 'supporting' LGTB or Palestina or whatever theme and it gets enforced in a way that forces card processors to ban transactions with these themes which then forces the publing platforms to censor and ban such content. Note the publishing platforms had actually illegal content under control with their own rules and enforcement, until they were forced to add a very vague new rule that \"prohibits games that violate the standards of payment processors, card networks, and internet network providers\", which could mean anything at any time. The last issues also builds on the problem of payment processor monopoly, as to be commercially viable a platform needs to support creditcards and is thus inevitably bound to the whims of Visa and Mastercard (and Donald Trump). Thanks for your consideration, a Dutch citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.638716Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585214.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585214",
+    "chunks_doc_id": "F3585214",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

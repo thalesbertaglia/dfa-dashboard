@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584998",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:35Z",
+    "finished_at": "2026-04-14T12:17:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "because it is financially advantageous to take away old games to compel people to buy new ones."
+              },
+              {
+                "quote": "Video games are one of my two biggest hobbies, and each time I lose a game that is important to me, part of me dies because I can never have this good time again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15935,
+          "unit_kind": "feedback"
+        },
+        "text": "In my 27 years, I have seen many games that are no longer possible. Partly for legitimate legal or technical reasons, but 99 % of cases were simply because the firm had no loud to continue offering it, or because it is financially advantageous to take away old games to compel people to buy new ones. I can never experience a part of my childhood again and I have to find myself, but I want to avoid that even more games are destroyed so that new memories remain available in the future. Video games are one of my two biggest hobbies, and each time I lose a game that is important to me, part of me dies because I can never have this good time again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.544911Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584998.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584998",
+    "chunks_doc_id": "F3584998",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33095189",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:52:04Z",
+    "finished_at": "2026-04-14T09:52:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Price indication should be clear and transparent"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Practices that force consumers to purchase unwanted in-game virtual currency should be avoided"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17584,
+          "unit_kind": "feedback"
+        },
+        "text": "Initial results of compliance with Virtual Currency regulations in the EU by top-selling free-to-play Mobile Games This feedback presents the initial results of research analysing compliance by the games industry with the seven principles on virtual currency in games the Consumer Protection Cooperation Network (CPC) published in March 2025. These principles share significant overlap with the goals of the digital fairness act when it comes to the games industry and monetisation. The seven CPC principles are: 1. Price indication should be clear and transparent 2. Practices obscuring the cost of in-game digital content and services should be avoided 3. Practices that force consumers to purchase unwanted in-game virtual currency should be avoided 4. Consumers should be provided with clear and comprehensive pre-contractual information. 5. Consumers' right of withdrawal should be respected. 6. Contractual terms should be fair and written in plain and clear language 7. Game design and gameplay should be respectful of different consumer vulnerabilities. This research performed a content analysis analysing principles 1 to 5 and 7, for the top 50 free-to-play mobile games on the Google Play Store in Finland. We find no game to be fully compliant and compliance rates across the principles to be extremely poor, as low as 0% in the case of principle 1. Current Findings: The top 50 free-to-play games from the Google Play Store, none of the 38 which contained virtual currency followed all of the CPC principles. Principle 1 was not complied with by 0 of 38 games, Principle 2 was not complied with by 29 of 38, Principle 3 was not complied with by 37 of 38, Principle 4 by 34 of 38, Principle 5 by 35 of 38, and Principle 36 of 38. Data and analysis can be found on the open science framework at the following link: https://osf.io/w6ms9/overview?view_only=7aba0b6502e84588bbd4c2ef5d9763c3",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.693153Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095189.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095189",
+    "chunks_doc_id": "F33095189",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095189.clean.paragraph.json"
+}

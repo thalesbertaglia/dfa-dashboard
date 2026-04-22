@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586637",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:49Z",
+    "finished_at": "2026-04-14T13:01:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "from publishers destroying their video games."
+              },
+              {
+                "quote": "ending support for their games or removing them from digital marketplaces."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16340,
+          "unit_kind": "feedback"
+        },
+        "text": "Im very positive to the digital fairness act. This exactly the sort of legislation I want the EU to pursue when it comes to the unethical techniques and commercial practices in the digital sphere. I would however ask that you consider adding a sixth point that gives customers protections from publishers destroying their video games. In the current digital ecosystem there are no protections in place to stop game publishers from simply ending support for their games or removing them from digital marketplaces. I see this as huge consumer rights issue that needs to be addressed. The game industry is worth almost 2 billion euros, this is not some small industry there are millions of consumers who are frankly being ripped off. I know its a popular issue among people at moment as can be seen with the popular Stop Destroying Games european citizens' initiative. The initiative has as over a million signatures as of the time of writing this. Thank you for your time please consider adding this point to the digital fairnesss act",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.305425Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586637.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586637",
+    "chunks_doc_id": "F3586637",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586637.clean.paragraph.json"
+}

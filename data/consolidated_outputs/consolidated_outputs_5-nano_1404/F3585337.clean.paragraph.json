@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585337",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:27Z",
+    "finished_at": "2026-04-14T12:25:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "CRIMESIGHT, it was an unique and fresh product on the market, with a cost of $20, yet lasted just short of ten months before being delisted"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28988,
+          "unit_kind": "feedback"
+        },
+        "text": "I've come in support of Stop Killing Games due to personal experience, I wish to bring attention to a Konami Digital Entertainment game by the name of CRIMESIGHT, it was an unique and fresh product on the market, with a cost of $20, yet lasted just short of ten months before being delisted, which I find unfair, because they could have just as easily made the matches and rooms hosted on a player's PC like some other games do, for example GunZ 2: The Second Duel, I think that method is called peer-to-peer networking, something to explore. I know a future law can't be applied retroactively, but I'd like more research on this practice in the industry and a possible fix for any upcoming titles so nobody has to waste money and lose the special game they love just because it is unpopular(or the company decides to shut it down for whatever reason.) Thank you for your attention, EU bureaucrats!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.686500Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585337.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585337",
+    "chunks_doc_id": "F3585337",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

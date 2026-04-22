@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3584782",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:57Z",
+    "finished_at": "2026-04-14T12:10:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protect consumers agaist malicious video game end of life practices."
+              },
+              {
+                "quote": "video games companies want customers not to own their purchased video games."
+              },
+              {
+                "quote": "and allow the community the host their own servers when the company no longer does."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the exact same digital item in the store again this time for 30,-."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies should not be able te revoke access of a purchased video game whenever they want."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48012,
+          "unit_kind": "feedback"
+        },
+        "text": "Protect consumers agaist malicious video game end of life practices. I spend 20,-on Call of duty warzone and when they released warzone 2 which was basically the same game they took the access away from my purchase en sold the exact same digital item in the store again this time for 30,-. video games companies want customers not to own their purchased video games. Companies should not be able te revoke access of a purchased video game whenever they want. It's only fair. Companies should have a fair end of life plan for these digital products and allow the community the host their own servers when the company no longer does.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.430140Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584782.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584782",
+    "chunks_doc_id": "F3584782",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584782.clean.paragraph.json"
+}

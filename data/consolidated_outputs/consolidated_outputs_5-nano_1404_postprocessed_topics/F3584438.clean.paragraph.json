@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584438",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:21Z",
+    "finished_at": "2026-04-14T11:58:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games, such as computer games, have become much more part of our culture,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies that are allowed to immediately delete games and, although the consumer has paid money for it, destroy the cultural good and trust in the sector."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24779,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and gentlemen, I have given my signature on the ‘Stop Destroying Videogames’ initiative, for which 1.438.628 votes have already been collected. I believe that digital games, such as computer games, have become much more part of our culture, and the fact that digitisation continues to grow is making it increasingly important to preserve cultural digital content. Companies that are allowed to immediately delete games and, although the consumer has paid money for it, destroy the cultural good and trust in the sector. This form of destruction, I think, can also be used for older games as soon as licences are purchased. This means that a cultural good that is already several decades old can easily be destroyed, which is unacceptable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.233624Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584438.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584438",
+    "chunks_doc_id": "F3584438",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584438.clean.paragraph.json"
+}

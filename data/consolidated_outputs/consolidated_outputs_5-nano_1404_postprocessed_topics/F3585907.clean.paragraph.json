@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585907",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:39Z",
+    "finished_at": "2026-04-14T12:41:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games to be constructed in such a way that they require a connection to a server hosted by the publisher,"
+              },
+              {
+                "quote": "when the publisher deems the game not profitable anymore they simply shut down the servers, rendering the game that customers paid money for unplayable"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37004,
+          "unit_kind": "feedback"
+        },
+        "text": "For the past 15 years or so it has become common for video games to be constructed in such a way that they require a connection to a server hosted by the publisher, and when the publisher deems the game not profitable anymore they simply shut down the servers, rendering the game that customers paid money for unplayable while the publisher keeps all the profit they made up to that point. There has never been concrete legislation or case law on this matter, letting publishers get away with selling a product and taking it away from the buyer. It's possible to make video games from the ground up such that this would never happen, such as by not requiring a constant connection to the publisher's servers or releasing an update when support ends that lets customers host their own servers. Having legislation that prohibits video game publishers and developers from destroying the video games they've sold to customers would be invaluable to consumer rights and art preservation, and is a very popular cause as evidenced by the roughly 1,4 million signatures on the EU Citizens' Initiative on this matter. An additional amendment to the Digital Fairness Act to address this issue would fit in well with everything else on the list. Kári Garpsson, Iceland",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.979790Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585907.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585907",
+    "chunks_doc_id": "F3585907",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585907.clean.paragraph.json"
+}

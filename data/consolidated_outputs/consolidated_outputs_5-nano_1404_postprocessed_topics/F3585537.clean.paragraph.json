@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585537",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:58Z",
+    "finished_at": "2026-04-14T12:30:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "However, it is increasingly common for publishers to disable access to these products without any clear end-of-life plan."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-user license agreements (EULAs) disproportionately favor the publisher, often limiting what consumers can do with the products they have acquired."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "collect data without sufficient transparency,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36178,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for the opportunity to share my views on improving consumer rights in the digital environment. When consumers purchase video games, they reasonably expect to receive a lasting product that they can continue to use. However, it is increasingly common for publishers to disable access to these products without any clear end-of-life plan. This practice can be both confusing and disappointing for customers, and it undermines trust in the digital products. Since as early as 2004, over 350 games have become completely unplayable, with more than 350 additional titles currently at risk. To address this, I believe the EU should consider requiring publishers to clearly communicate if and when a digital product will no longer function or be supported. If official support is ending, companies should also provide practical options for customers to continue using their purchase such as offline functionality or the ability to host the product independently without depending on the publisher's ongoing involvement. I would also like to highlight that over 1.4 million citizens across Europe have already voiced their support for the European Citizens Initiative titled \"Stop Destroying Videogames.\" This initiative calls for stronger protections for digital products and shows that many people are deeply concerned about the loss of access to games and software they have legally purchased. It reflects a strong public desire for meaningful policy changes in this area. In addition, many end-user license agreements (EULAs) disproportionately favor the publisher, often limiting what consumers can do with the products they have acquired. These agreements should be more balanced to ensure that individuals can continue to enjoy and use their software in a fair and reasonable way, even after support has ended. Another area of concern is the use of digital rights management (DRM) and anti-cheat technologies. These often run with elevated system permissions, collect data without sufficient transparency, and may pose security risks to users' devices. Games should not require administrator privileges to operate, nor should they include persistent monitoring tools. Data collection should always be transparent, limited and optional. Thank you again for considering this feedback. I hope these points contribute meaningfully to your discussions on safeguarding consumer rights in the digital age.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.792385Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585537.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585537",
+    "chunks_doc_id": "F3585537",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585537.clean.paragraph.json"
+}

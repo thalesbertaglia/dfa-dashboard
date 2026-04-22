@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584137",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:40Z",
+    "finished_at": "2026-04-14T11:49:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some game publishers have adopted a practice of permanently shutting down these services, without making it known up front when the product is bought that they will do so, effectively erasing the product we paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17356,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, Thank you for taking time reading through this message. I am a concerned citizen residing in Sweden. I am writing to provide feedback on the proposed Digital Fairness Act, and to respectfully request that it includes provisions aligned with the goals of the Stop Killing Games initiative. As digital consumers, we increasingly purchase and engage with products that exist only online or require online services to function. Unfortunately, some game publishers have adopted a practice of permanently shutting down these services, without making it known up front when the product is bought that they will do so, effectively erasing the product we paid for. This is not just an issue of disappointment, it is an issue of fairness, digital ownership, and consumer protection. I strongly urge you to consider integrating consumer protection measures into the Digital Fairness Act to prevent this. Thank you for your attention, and for your continued work toward fairer digital markets in the EU. Sincerely, A Concerned Citizen from Sweden",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.090167Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584137.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584137",
+    "chunks_doc_id": "F3584137",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584137.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F32845329",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:14Z",
+    "finished_at": "2026-04-14T09:27:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a final update to the game when they are ending support for online services, they should allow the community to keep the game as a singleplayer local game, or allow community hosted servers and have the game still be playable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If all games had a \"not playable after xxxx\" date it would ruin most of the digital entertainment industry."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30029,
+          "unit_kind": "feedback"
+        },
+        "text": "I support this movement fully. I want to OWN the products that i've bought and corporations should NOT be able to take them away. It's a tactic that violates the consumer's rights. As a final update to the game when they are ending support for online services, they should allow the community to keep the game as a singleplayer local game, or allow community hosted servers and have the game still be playable. There are many games that are now considered very much retro that are still being played today and noone should be able to take away that. If all games had a \"not playable after xxxx\" date it would ruin most of the digital entertainment industry. There would be a lot less options even in the educational video games or team-building or any other Puzzle games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.455382Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32845329.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32845329",
+    "chunks_doc_id": "F32845329",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3677477",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:40Z",
+    "finished_at": "2026-04-14T13:46:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android App Installation Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "block installation of apps of my choice,"
+              },
+              {
+                "quote": "Google blocking users from installing apps, in whatever way they see fit,"
+              },
+              {
+                "quote": "Google should not have a say in what apps I install, or how I install them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25795,
+          "unit_kind": "feedback"
+        },
+        "text": "Allowing Google to block installation of apps of my choice, on my phone, puts them closer to the anti-competition model that Apple is running, and should be blocked by EU. The only party winning by Google blocking users from installing apps, in whatever way they see fit, only benefits Google and their app marketplace, Google Play, while actively harming the openness that Android offers. I bought my phone, I own my phone. Google should not have a say in what apps I install, or how I install them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.091709Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3677477.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3677477",
+    "chunks_doc_id": "F3677477",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3677477.clean.paragraph.json"
+}

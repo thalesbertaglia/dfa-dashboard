@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587243",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:00Z",
+    "finished_at": "2026-04-14T13:14:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a video game called \"The Crew\" that was killing by Ubisoft."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13896,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey European Commission, I would very much like to suggest about adding some protection against digital products that were bought and then later on disabled/invalidated by the publisher. Big example is a video game called \"The Crew\" that was killing by Ubisoft. I believe that this is a trend that will continue unless a strict and direct law is introduced. I think that Digital Fairness Act can expand or touch upon that topic. Thanks a lot for your attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.483364Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587243.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587243",
+    "chunks_doc_id": "F3587243",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587243.clean.paragraph.json"
+}

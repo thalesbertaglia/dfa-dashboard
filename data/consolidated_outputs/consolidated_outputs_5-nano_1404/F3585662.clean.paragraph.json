@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585662",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:46Z",
+    "finished_at": "2026-04-14T12:33:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When a company decides to retire a videogame and explicitly make it unplayable because it's not profitable enymore"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17797,
+          "unit_kind": "feedback"
+        },
+        "text": "Videogames are culture. They include original art and music. Some have also very ditinct characters and intricate scripts. When a company decides to retire a videogame and explicitly make it unplayable because it's not profitable enymore, they're not only robbing that experience from the customers who paid for it, but also erasing the work of the artists who worked in it and a piece of mankind's history.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.857494Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585662.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585662",
+    "chunks_doc_id": "F3585662",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

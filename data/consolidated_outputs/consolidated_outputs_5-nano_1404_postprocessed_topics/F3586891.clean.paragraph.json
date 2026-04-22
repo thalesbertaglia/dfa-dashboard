@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586891",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:26Z",
+    "finished_at": "2026-04-14T13:06:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They are denying service to legal businesses or pressuring platforms to remove entirely lawful content simply because it does not align with their internal values or risk assessments."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Disappearing Digital Goods - Wheres My Game? Another pressing issue is the widespread sale of digital goods, especially games, that later become unusable due to platform decisions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34798,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European citizen and digital consumer, Id like to highlight two critical issues that I believe fall directly under the scope of the Digital Fairness Act (DFA): the unchecked power of payment processors to enforce private censorship, and the deceptive revocability of digital goods post-purchase. These issues represent deep imbalances in consumer rights and corporate overreach, both of which the DFA has a unique opportunity to address. 1. Payment Processors Acting as Private Censors Theres a growing and deeply concerning trend where payment processors like Visa, Mastercard, and others are acting as moral gatekeepers. They are denying service to legal businesses or pressuring platforms to remove entirely lawful content simply because it does not align with their internal values or risk assessments. This type of behind the scenes censorship is extremely dangerous. It bypasses democratic processes and uses financial infrastructure similar to monopoly to enforce arbitrary standards. The result is a censorship effect on lawful expression and commerce, without due process or accountability. The Digital Fairness Act should: - Prohibit payment providers from blocking transactions or pressuring platforms to remove content unless mandated by law. - Require full transparency and justification when access is denied for individual, including an appeal process. - Make it illegal for intermediaries to enforce platform-wide policy changes in situation of absent legal ruling on the matter. Fairness in digital commerce includes fairness in access to that commerce. The law must recognize that payment systems are not neutralthey are now levers of control. 2. Disappearing Digital Goods - Wheres My Game? Another pressing issue is the widespread sale of digital goods, especially games, that later become unusable due to platform decisions. These are goods that were sold outright, not rented or licensed for a limited time. Nobody at any time during transaction process used term \"Rent\" or \"License\" etc . And yet, when a company shuts off authentication servers or removes a required online component, consumers immediately lose access to something they paid for. This isnt just poor product design, its a form of digital dispossession. The buyer is left with nothing, and there is rarely any warning at the time of purchase about the products actual longevity. The DFA should address this by requiring that sellers: - Disclose up front the online dependencies and expected support period for any digital good. - Guarantee access to an offline or archival version wherever feasible. - Be prohibited from disabling purchased content unless theres a valid legal reason. - If the publisher abandons a product or shuts down its infrastructure, they must not pursue legal action against third parties who restore basic functionalitysuch as running dedicated serversprovided they do not sell, modify, or misrepresent the product. This ensures that ownership isnt dependent on the continued goodwill of a corporation. Consumers and communities should have the right to preserve access when the original provider walks away. Digital goods should follow the same fairness principles as physical goods. Ownership must mean something, even in a digital economy. Conclusion : Both of these issues reflect how consumers are affected when power has become too concentrated in the hands of large intermediaries, whether payment processors or digital platforms. The Digital Fairness Act offers a chance to restore balance, transparency, and trust of end user in the digital economy. I urge the Commission to include a safeguards in the DFA that limit private censorship and protect consumer, enabling long-term digital ownership. These are not marginal concerns, they are foundational to the digital rights of EU citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.376078Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586891.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586891",
+    "chunks_doc_id": "F3586891",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586891.clean.paragraph.json"
+}

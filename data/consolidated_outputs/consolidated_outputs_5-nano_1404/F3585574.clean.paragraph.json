@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585574",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:42Z",
+    "finished_at": "2026-04-14T12:31:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In recent years, several video games have been decommissioned by different undertakings, since they could no longer maintain the servers of those games online."
+              },
+              {
+                "quote": "The Crew’, which was completely inaccessible by Ubisoft on 31 March 2024, while revoking the players’ licences without any reimbursement from Ubisoft."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "On termination (by the CLUF), whatever the reason, you must immediately uninstall the Product and destroy all copies of it that are in your possession."
+              },
+              {
+                "quote": "revoking the players’ licences without any reimbursement from Ubisoft."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29122,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir/Madam, as a resident of the European Union and a citizen of one of its Member States, I would like to share the following message with you about the preservation of digital content, which I believe, and according to over 1.4 million Europeans who signed the European Citizens’ Initiative “Stop Killing Games”, should be an additional major challenge for the Digital Fairness Act in order to provide more protection for consumer rights, which concerns video games in this case. In recent years, several video games have been decommissioned by different undertakings, since they could no longer maintain the servers of those games online. This is the case, for example, of ‘The Crew’, which was completely inaccessible by Ubisoft on 31 March 2024, while revoking the players’ licences without any reimbursement from Ubisoft. In addition, the same company has recently updated its End User Licence Agreement or CLUF to include the following part in Article 8 thereof: ‘On termination (by the CLUF), whatever the reason, you must immediately uninstall the Product and destroy all copies of it that are in your possession.’ It therefore seems unacceptable to me to require the destruction of the product that the consumer has paid for access without any compensation from the company, and this practice even runs counter to the protection of purchasers. In conclusion, it would be of great benefit for buyers to have a means to continue accessing content after purchase with video games end-of-life solutions, for example, through developers continuing to maintain servers online after the end of the game’s life, or by providing ways for the community to keep the game accessible. Or alternatively, add and keep offline features of the game while leaving buyers the licences for which they have paid for, or reimburse consumers if none of these solutions are possible. Thanks for your understanding.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.810196Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585574.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585574",
+    "chunks_doc_id": "F3585574",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

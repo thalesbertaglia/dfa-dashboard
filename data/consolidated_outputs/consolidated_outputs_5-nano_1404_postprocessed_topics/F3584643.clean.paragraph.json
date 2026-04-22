@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584643",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:00Z",
+    "finished_at": "2026-04-14T12:05:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "so when i pay for a videogames that is online only, i want to be 100% certain that my purchase cannot be taken away from me."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection against the destruction of Digital goods"
+              },
+              {
+                "quote": "it would mean the loss of all of my digital purchases i have ever made on these platforms, i wouldnt have access anymore to what i paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43010,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey Hey, I have very strong opinions on videogames. to my videogames are just as much art as music, films or books. Videogames combines aspects of all mentioned art forms. so when i pay for a videogames that is online only, i want to be 100% certain that my purchase cannot be taken away from me. As of right now this is not the case, countless videogames get destroyed the moment its not profitable anymore for the owner to host servers. Imagine a film releases into cinema, it makes profit for a while through tickets, snacks and merchandise, but the moment not enough people watch it, it gets destroyed, no one ever being able to see it ever again. that would be ridiculous. So why is it legal for videogames? therefor the Digital Fairness Act should include protection against the destruction of Digital goods such as pay to play videogames AND free to play videogames since even free to play videogames sell digital goods in the form of Cosmetics/characters/items etc. I also strongly belief that ALL distributors of Videogames(Steam, Epicgames, Battle.net) should be required to allow players to play the games they purchase without needing to connect to the internet. this is already the case for the videogame distributor GOG(good old games) because what if the companies behind Steam or Epic games or Battle.net go bankrupt or go offline through any other reason. It would mean the loss of all of my digital purchases i have ever made on these platforms, i wouldnt have access anymore to what i paid for. it needs to be 100% certain that i can keep what i paid for, anything else is an insult to consumer rights",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.333359Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584643.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584643",
+    "chunks_doc_id": "F3584643",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584643.clean.paragraph.json"
+}

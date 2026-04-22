@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586098",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:48Z",
+    "finished_at": "2026-04-14T12:47:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Namely game development companies, and to a lesser degree software companies in general, make their software more and more dependent on always online presence for their digital rights management purposes."
+              },
+              {
+                "quote": "Be it making games nonfunctional or providing community with tools to support games on their own, this movement seeks for publishers to be upfront about it and state clearly what happens once they decide to stop supporting games."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Adobe line of products which require subscription to their service these days in order to get access to their line of software, but same software was being sold not long ago as standalone disks which users could user and install."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28974,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for taking the time to read my feedback. Issues already listed on the page are indeed big issues that keep getting bigger and require need for stricter regulation. While many would argue governments shouldn't overextend their reach, this area is like a wild west with few law and even fewer adhered to. In addition to already mentioned issues, it would be great to see some attention dedicated to a problem which is getting more prominent. Namely game development companies, and to a lesser degree software companies in general, make their software more and more dependent on always online presence for their digital rights management purposes. However this mechanism can and is frequently used to prevent people from using products they have purchased once company decides it's time to retire support for it. In the past this wasn't much of an issue because one could keep CD/DVD and reinstall software as needed and use it. While this service termination can be explained to a degree with maintenance costs and similar expenses it's also a very poor excuse as all software can be written in such a way to keep working after official support has been terminated. This can be done either by keeping software/game partially functional or completely indistinguishable from supported version. Take for example Adobe line of products which require subscription to their service these days in order to get access to their line of software, but same software was being sold not long ago as standalone disks which users could user and install. One bad example is Ubisoft announcing they were killing support for their \"The Crew\" game. While it's in their right to stop supporting that product, they effectively prevented everyone who bought that game from ever playing it again. While there is currently ongoing effort by volunteers to make community driven servers to help revive beloved game, they also might get sued by Ubisoft for infringing on their copyright or similar act. All they needed to do was provide unsupported server software to people to play on or not prevent community efforts in revival. In contrast to anti-consumer behavior of Ubisoft there stands Valve Software, who for every game they release also release servers for community to run. Not only are their games better for this and more consumer-friendly, they also ensure their games have bigger thriving communities and end of life plans. Some of their games are played to this day, despite being release couple of decades ago. There's an online movement currently driving attention to this issue called \"StopKillingGames.com\" and their approach is really good in my opinion. They seed to force companies to end of life plans for games. Be it making games nonfunctional or providing community with tools to support games on their own, this movement seeks for publishers to be upfront about it and state clearly what happens once they decide to stop supporting games. This would give opportunity to customers to make more informed decision without publishers having to do anything unless they want to.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.088093Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586098.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586098",
+    "chunks_doc_id": "F3586098",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

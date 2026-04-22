@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584455",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:47Z",
+    "finished_at": "2026-04-14T11:59:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "borderline offensive tactics of monetization"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17724,
+          "unit_kind": "feedback"
+        },
+        "text": "In the past several years, the tendencies of games developers and publishers to use borderline offensive tactics of monetization and to block access to paid software, just so users jump on the new one, has become a common sight, especially in mobile gaming. For this reason i would like videogames and their practices to be included and considered in this act, with an explicit (but not limited to) reference to the ECI \"Stop Killing Games\".",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.241582Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584455.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584455",
+    "chunks_doc_id": "F3584455",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584455.clean.paragraph.json"
+}

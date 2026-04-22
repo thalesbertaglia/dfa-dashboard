@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589895",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:30Z",
+    "finished_at": "2026-04-14T13:32:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the servers were deactivated"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22168,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness initiative is a great idea, recently there have been many problems with consumers and large digital companies, using anti-consumer practices, but I would like to suggest including the protection of video games from their destruction, especially those already sold to consumers. There are several examples of this, such as The Crew, a game published by Ubisoft Entertainment S.A., which a few years ago the servers were deactivated and the game was practically unfair. while Ubisoft did not have any appeal to make this not the case and it also prohibited players from creating it. There are hundreds of examples, but most are on the website mentioned below (https://stopkillinggames.wiki.gg/wiki/Dead_game_list), it is not an official list but it is trustworthy and, above all, accurate. According to them, there are already 358 games that have been destroyed by this very harmful and anti-consumer business model, which makes the preservation of the entire video games an impossible mission. With this comment, I would like to take measures to prevent the complete death of a video game, leaving the community to create its own measures or for the distribution company to provide the necessary tools Good nights, afternoons or days: Axel Alberto Rojas Gallardo (Spain)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.809544Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589895.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589895",
+    "chunks_doc_id": "F3589895",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

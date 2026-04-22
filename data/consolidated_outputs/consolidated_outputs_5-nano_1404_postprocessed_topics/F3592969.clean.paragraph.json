@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3592969",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:46Z",
+    "finished_at": "2026-04-14T13:38:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital games and content being pulled from stores or made unplayable after purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12921,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer and gamer, Im deeply concerned about the trend of digital games and content being pulled from stores or made unplayable after purchase. Its frustrating and unfair when something Ive paid for disappears or becomes unusable because a company decides to shut down servers or remove access. If the Digital Fairness Act wants to be truly fair, it must address this issue. Digital products should come with the same ownership rights as physical ones. If I buy a game, I should be able to play it indefinitely not just until a publisher changes their mind. Please include strong protections for digital ownership, and stop companies from killing games people paid for. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.942714Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592969.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592969",
+    "chunks_doc_id": "F3592969",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592969.clean.paragraph.json"
+}

@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3588957",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:45Z",
+    "finished_at": "2026-04-14T13:27:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital video games"
+              },
+              {
+                "quote": "Ubisoft deactivated the game entirely"
+              },
+              {
+                "quote": "completely unplayableeven in single-player mode"
+              },
+              {
+                "quote": "Legal safeguards against the arbitrary removal or deactivation of purchased digital content"
+              },
+              {
+                "quote": "Requirements for companies to allow continued access to single-player or offline modes, even after online services are shut down"
+              },
+              {
+                "quote": "Clear and enforceable definitions of digital ownership"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29688,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I would like to strongly urge you to include provisions for the preservation and long-term accessibility of digital video games in the upcoming Digital Fairness Act. As a consumer, I have experienced firsthand the consequences of current digital ownership models. A recent example is the case of The Crew, a game published by Ubisoft. I purchased this game and played it for years, but in 2024, Ubisoft deactivated the game entirely. It was removed from my account, and it is now completely unplayableeven in single-player mode. I paid for this title with the expectation that I would be able to access it as long as I owned the necessary hardware. This practice is deeply unfair to consumers and sets a dangerous precedent for digital media. When a product I legally purchased can be deleted without recourse, it calls into question the very definition of digital ownership. Video games are not only entertainment; they are a significant part of modern culture and history. Preservation should be a priority, both for consumers' rights and for cultural heritage. I respectfully ask that the Digital Fairness Act ensure: Legal safeguards against the arbitrary removal or deactivation of purchased digital content Requirements for companies to allow continued access to single-player or offline modes, even after online services are shut down Clear and enforceable definitions of digital ownership Thank you for considering this important issue. Sincerely",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.705267Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588957.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588957",
+    "chunks_doc_id": "F3588957",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588957.clean.paragraph.json"
+}

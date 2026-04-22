@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587389",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:58Z",
+    "finished_at": "2026-04-14T13:16:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gaming industry's current practice of \"selling games\" is arguably unfair."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "With game makers in said ToS retaining right to take away your license."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24447,
+          "unit_kind": "feedback"
+        },
+        "text": "The gaming industry's current practice of \"selling games\" is arguably unfair. As it stands now, customer is presented with option of \"BUYING A GAME\" in stores, not a license, which to a common man would mean - you're buying a product. However, by gaming industry's claim, we're buying a license or service they provide, hence the reason of necessity to agree to their Terms of Service (ToS further) to actually be able to play the game. A ToS that you only can agree to AFTER your purchase of it, not before. With game makers in said ToS retaining right to take away your license. As it stands, it is killing games, which are art and as of now are still being marketed as a product, not a service. And isn't it under EU regulations that a licence, that is sold without clearly state operation time, is basically a product that buyer has right to do as any normal product (sell, modify, retain). It would be more fair for there to be a end of life plan for time when game developer selling you license as \"game\" so you could still have access to your purchased \"game\" after they stop \"supporting\" it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.512376Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587389.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587389",
+    "chunks_doc_id": "F3587389",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587389.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585823",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:38Z",
+    "finished_at": "2026-04-14T12:38:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling in videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they stop the purchased game from working"
+              },
+              {
+                "quote": "what they call 'service' rather than ownership of them"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31132,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm really happy that the legislation contains laws that aim to finally prevent gambling in videogames which has been the most direct way that companies could use to exploit vulnerable youth and cause addiction problems. I'm happy that the EU still protects us as the citizens from corporate greed and abuse, such as the unfair practices of Apple. I would however propose to mention another issue which has been the dearest to me, never resolved by any European laws, and very popular among all of my peers under 30 years of age. The corporate world that deals with the creation of videogames has no restrictions to a power they most often abuse. After gaining profit for selling games, or what they call 'service' rather than ownership of them, once the game no longer produces enough income, and they want to make more money on a new game, sometimes even copying the old game and adding minor fixes (every edition of a famous football game does that) - they stop the purchased game from working. One can buy the product a week before its closed, and never have access to it again. To me that feels nothing short from fraud, and is unexplainable. It's destroying what I worked hard to purchase, to make me pay more. There never is any expiry date, no mention of when they plan to close the game - until the decision has been already made that it will shut in a handful of weeks. I am disappointed that those malicious practices have never stopped since at least 15 years, and so I believe that European Union should finally end this exploitation of consumers. I will be most satisfied with any addition that would influence this issue. Either corrupting the file on a computer, that costs nothing to maintain for the company, should be banned, or companies should be instructed to give at least half a year notice before they plan to destroy the game we purchased. In here I do not propose any form of costs for the companies - if they wish to stop continuing servers, so be it, I understand that this is maintenance which brings costs. But single player games cost nothing to maintain, and destroying my file on my device, for which I paid my money, simply because the company wants me to pay more is once again, fraud and should be put to end. European Union - I count on you. With greatest regards, Paweł Ferensztajn, citizen of Poland",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.939013Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585823.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585823",
+    "chunks_doc_id": "F3585823",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

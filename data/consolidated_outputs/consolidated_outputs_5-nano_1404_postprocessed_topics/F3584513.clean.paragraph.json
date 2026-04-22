@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584513",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:11Z",
+    "finished_at": "2026-04-14T12:00:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the Digital Fairness Act should also include video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "withdraw the licence for a game they have acquired at any time and without reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15318,
+          "unit_kind": "feedback"
+        },
+        "text": "As it is a big issue and a personal concern for me too, the Digital Fairness Act should also include video games. First of all, it is necessary to implement customer protection for this market, which is still relatively unregulated. The first thing is to design rules that do not simply allow video game developers/publishers to switch off games without having at least one kind of end-of-life plan for the product, in order to protect customers. The Stop Destroying Videogames Petition has received well over 1 million signatures and should not be a particularly controversial issue, as other markets already have regulations and laws in place. I am also already affected by this, as the game ‘The Crew’ published by Ubisoft was terminated and users removed from the account. Despite the possibility of improving the game without online functionalities, this step has not been taken. This should not be easy in the future. It is important for most game pubers to write in the EULAs that they withdraw the licence for a game they have acquired at any time and without reason. I would like to ask you to consider the ever-growing global market for video games, given that, at the current state of play, publishers are supplied with no guarantee as to the length of use of the licence.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.269273Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584513.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584513",
+    "chunks_doc_id": "F3584513",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584513.clean.paragraph.json"
+}

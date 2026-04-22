@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586718",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:35Z",
+    "finished_at": "2026-04-14T13:03:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Includes 30-day free-play period for all newly created service accounts*. User registration and service subscription are required to play the game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the problem with TOS is that we are forcing a person to read a long text in the excitement of playing the game."
+              },
+              {
+                "quote": "TOS wording is very sophisticated, so much that even people in their 30's have difficulty understanding it, so TOS is a vunerability to the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32788,
+          "unit_kind": "feedback"
+        },
+        "text": "I think that one of the big problems is that the market is not being transparent with the consumer, ence the problem with \"The Crew\", where people thought that where buying a product instead of a license. I think that forcing developers to make servers or adapt it so,despite being easy for companies with great financial support can be harsh on indie developers, because they may not have the programming experience to make it and are dependent on engines such as Unity,Unreal and Godot, etc... My solution, like I said before, is transparency force the developers list what the consumers are buying. What is a lincense and what is the product, the exemple I can give is Final Fantansy 14 on the page of steam where they have a warning that says in the first line \"Includes 30-day free-play period for all newly created service accounts*. User registration and service subscription are required to play the game.\" Emphasis on \"service subscription\". My version would be something like - offline content: (description) -online content: (description) -if online will we release servers files after company servers shutdown: -no -problably no -yes By doing this we give the resposibility to the consumers if they want to buy the product/license knowing that may not have support in the future and give the freedom to indie developers to not stress about the servers files duo to lack of experience. One of the arguments from the solution above is that everything is explicit in the TOS. The problem with TOS is that we are forcing a person to read a long text in the excitement of playing the game. Furthermore most of the consumers are between the age of 18 and 26 and TOS wording is very sophisticated, so much that even people in their 30's have difficulty understanding it, so TOS is a vunerability to the consumer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.330091Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586718.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586718",
+    "chunks_doc_id": "F3586718",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

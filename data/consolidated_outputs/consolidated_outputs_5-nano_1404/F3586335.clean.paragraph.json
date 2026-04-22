@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586335",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:16Z",
+    "finished_at": "2026-04-14T12:54:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you cant own any digital goods they are all just limited licenses."
+              },
+              {
+                "quote": "the most important aspect of my ownership rights is that whoever sold it to me cant take it away from me when they feel like it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21669,
+          "unit_kind": "feedback"
+        },
+        "text": "When talking about digital fairness we need to include the problems with digital ownership. Today companies want to say you cant own any digital goods they are all just limited licenses. But this is not fair buying for example a DVD gives me ownership rights the same should apply when I buy a digital game the most important aspect of my ownership rights is that whoever sold it to me cant take it away from me when they feel like it. The world is becoming more and more digital and with it we are right now losing rights that we had before. The digital market need to begin acting like they pyshical one in a much larger extent.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.208178Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586335.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586335",
+    "chunks_doc_id": "F3586335",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3585644",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:16Z",
+    "finished_at": "2026-04-14T12:34:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This seems like a black marketing tactic to me, in the sense \"buy it now or you will never get to have it\" even though there is no reason to limit digital sales in such a way, especially since Nintendo is the publisher and IP rights holder in this case."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Super Mario 3D All-Stars collection for Switch. It was only available for one year, after that the physical edition was removed from stores and the digital edition removed from the online store."
+              },
+              {
+                "quote": "Another example is the Deadpool video game. After the license agreement between Activision and Marvel ended all Marvel games developed by Activision were removed from digital stores and can no longer be acquired."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nintendo and Playstation have made an effort to make some of these older games available through a subscription based model to play on modern hardware and on Playstation you can also buy individual games digitally, which is way better than only having the subscription option."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Such license agreements between companies should not be able to prevent already finished games which have been sold before from no longer being available, instead the publishing rights should be transferable in some way."
+              },
+              {
+                "quote": "for example by transferring the licenses to another platform, or if the product was exclusive to the store it should be provided without DRM to the purchasers."
+              },
+              {
+                "quote": "Simply not having purchased goods available anymore for a consumer should not be an option."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 112838,
+          "unit_kind": "feedback"
+        },
+        "text": "I'got got three points to make here: 1. About products no longer for sale One example for this is the Super Mario 3D All-Stars collection for Switch. It was only available for one year, after that the physical edition was removed from stores and the digital edition removed from the online store. This seems like a black marketing tactic to me, in the sense \"buy it now or you will never get to have it\" even though there is no reason to limit digital sales in such a way, especially since Nintendo is the publisher and IP rights holder in this case. Another example is the Deadpool video game. After the license agreement between Activision and Marvel ended all Marvel games developed by Activision were removed from digital stores and can no longer be acquired. This hinders the preservation of these games. Such license agreements between companies should not be able to prevent already finished games which have been sold before from no longer being available, instead the publishing rights should be transferable in some way. 2. Availability of \"retro\" games Video games older than let's say 20 years are usually no longer available to buy from the original publisher. Nintendo and Playstation have made an effort to make some of these older games available through a subscription based model to play on modern hardware and on Playstation you can also buy individual games digitally, which is way better than only having the subscription option. But many old games are still not available in any way and a few years back there was an effort by video game companies to prevent a public digital library of these titles to exist. So in my opinion, if a rights holder does not make such games available for purchase in any way, there should be a way for the public to still experience these titles, after some time, through a public digital library (independent from the original publishers), since these games probably are not played solely for enjoyment but rather out of curiosity and for research purposes. 3. \"Buying\" digital products When buying a physical product, the seller and manufacturer are usually no longer involved in what the purchaser can do with the product. I can resell it, gift it to someone bequeath it to my heirs, etc. But \"buying\" digital products is in most cases \"acquiring a license for limited personal use\", which means I can't resell the product, gift it, or even let my children inherit it. Many people today do not seem to understand the difference here. Also companies usually hide this somewhere in their End User License Agreements. Either the wording needs to be restricted in a digital store with such license agreements to prevent wording like \"buy\", \"buy game/movie\" and instead enforce phrases like \"buy personal use license\" or similar. Or even better for consumers would be if it would be enforced that licenses must be transferable from one user account to another (without a fee from the store, time limits how often this can be done per license should be okay). Though all this still comes with the problem \"What if the store front closes down\". For this case there should be legal requirements how license purchases should be handled, for example by transferring the licenses to another platform, or if the product was exclusive to the store it should be provided without DRM to the purchasers. Simply not having purchased goods available anymore for a consumer should not be an option.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.848328Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585644.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585644",
+    "chunks_doc_id": "F3585644",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585644.clean.paragraph.json"
+}

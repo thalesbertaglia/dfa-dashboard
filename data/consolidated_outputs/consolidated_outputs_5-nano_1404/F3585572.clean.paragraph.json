@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585572",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:41Z",
+    "finished_at": "2026-04-14T12:31:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently publishers are able to shut down their games without needing to inform the players/consumers and for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It now states that when they shut down a game the player is obligated to destroy their digital or physical copy of the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19972,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned citizen and supporter of the stop killing games initiative I would like to ask for stricter consumer rights regulation to be implemented regarding videogames. Currently publishers are able to shut down their games without needing to inform the players/consumers and for any reason. To give an example of just how ridiculous this is. Let's say you bought a new car and parked it on your driveway. The next day you see your car is gone and in your mailbox you find a letter from the car manufacturer. They decided to stop building that specific model of car and also destroyed all existing cars of that model, including yours. This is exactly what is happening to videogames right now. Publishers need to be forced to provide proper end of life plans for their games. This doesn't have to be expensive either. For single player games make them playable without an online connection. And for multiplayer games simply provide support for privately hosted servers. The only thing we ask is the ability to keep enjoying the games that we paid for. An industry leading example of these consumer rights violations is Ubisoft. They recently updated their terms of service. It now states that when they shut down a game the player is obligated to destroy their digital or physical copy of the game. To come back to my example of the car. Now you received a letter from the manufacturer telling you to light your own car on fire and destroy it or they will come and arrest you. Obviously my example is a little exaggerated, but you get my point. Please hear my voice and the voices of all my fellow gamers and help us stop killing games!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.809244Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585572.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585572",
+    "chunks_doc_id": "F3585572",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

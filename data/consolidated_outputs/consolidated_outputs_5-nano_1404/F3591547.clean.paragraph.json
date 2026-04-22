@@ -1,0 +1,107 @@
+{
+  "doc_id": "F3591547",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:59Z",
+    "finished_at": "2026-04-14T13:36:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Microtransaction (MTX) and unethical marketing targeted towards children as a predatory tactic is such an egregious situation that defies words."
+              },
+              {
+                "quote": "FOMO mechanics in games that are tied to MTX should be eliminated."
+              },
+              {
+                "quote": "Predatory gambling mechanics tied to MTX should be eliminated."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games are products that once bought must remain in resonable working condition and not be unilaterally terminated by the company at end of life."
+              }
+            ]
+          },
+          {
+            "topic": "Open Source Preference",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Open source software developers, game developers and products should be prioritized in the EU over closed source options."
+              },
+              {
+                "quote": "EU-wide open source support and offering for businesses and clients."
+              },
+              {
+                "quote": "Linux or similar open-source OS and open source programs/apps adopted at the government and state level with an emphasis on collaboration and security."
+              }
+            ]
+          },
+          {
+            "topic": "RISC-V ISA Adoption",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Prioritize RISC-V ISA for relevant products and systems at the EU level for digital sovereignty."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28440,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for the opportunity to adress some of the growing concerns we have in relation to both the games and software industry. As an EU citizen I would like to make a few sensible suggestions, which will hopefully lead to improvements in these areas in the future. Microtransaction (MTX) and unethical marketing targeted towards children as a predatory tactic is such an egregious situation that defies words. A family's financial stability may be under duress due to such unnecessary game mechanics. FOMO mechanics in games that are tied to MTX should be eliminated. Predatory gambling mechanics tied to MTX should be eliminated. Stop killing games. Period. Games are products that once bought must remain in resonable working condition and not be unilaterally terminated by the company at end of life. Solutions must be found and standards must be set or else both consumer confidence and art will disappear. Open source software developers, game developers and products should be prioritized in the EU over closed source options. We all stand to gain. EU-wide open source support and offering for businesses and clients. Linux or similar open-source OS and open source programs/apps adopted at the government and state level with an emphasis on collaboration and security. Prioritize RISC-V ISA for relevant products and systems at the EU level for digital sovereignty.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.876444Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591547.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591547",
+    "chunks_doc_id": "F3591547",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

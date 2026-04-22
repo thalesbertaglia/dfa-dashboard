@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585458",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:02Z",
+    "finished_at": "2026-04-14T12:28:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers of this games can, will and already have taken away access from some video games that had been purchased because is no longer ''profitable'' for them to maintain the servers of said games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16026,
+          "unit_kind": "feedback"
+        },
+        "text": "I have been playing video games for the better part of my life, I think they are a very important piece of media because they are usually result of hardworking artists, musicians, writers and even actors. For this, I consider video games pieces of art that should be protected and preserved for future generations to enjoy and study but that is becoming harder and harder because the publishers of this games can, will and already have taken away access from some video games that had been purchased because is no longer ''profitable'' for them to maintain the servers of said games. It has been proven there is indeed ways to workaround this issue by having the publisher giving a simplified version of the code that would allow to self host games that are currently ''online-only'' games. Don't let corporations destroy humanity culture in the name of profit.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.753610Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585458.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585458",
+    "chunks_doc_id": "F3585458",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

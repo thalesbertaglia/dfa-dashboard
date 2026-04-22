@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585071",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:23Z",
+    "finished_at": "2026-04-14T12:19:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deactivate key functionalities or make them completely unusable for users, even if they have properly purchased the software."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital products, in particular video games, are made inaccessible by providers’ unilateral decisions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18663,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and Gentlemen, I would like to draw attention to an increasingly relevant problem: Increasingly, software providers retrofit their products, deactivate key functionalities or make them completely unusable for users, even if they have properly purchased the software. This concerns both commercial and private applications. Particular attention is currently being paid to this issue through the petition ‘Stop Destroying Videogames’, which illustrates how digital products, in particular video games, are made inaccessible by providers’ unilateral decisions. As a result, consumers permanently lose access to legally purchased content. I am of the opinion that a software product purchased once purchased must remain usable at least to the extent agreed or advertised at the time of purchase. A clear and enforceable legal framework would be urgently needed from the point of view of consumer protection. I hope that this aspect will be taken into account in the further development of the Digital Fairness Act. Yours sincerely, Alexander Straube",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.582366Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585071.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585071",
+    "chunks_doc_id": "F3585071",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

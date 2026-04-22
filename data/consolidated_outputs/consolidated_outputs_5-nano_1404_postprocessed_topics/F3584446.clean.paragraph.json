@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584446",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:37Z",
+    "finished_at": "2026-04-14T11:58:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In case of an in game item this item having a price which i can resell since its not a service."
+              },
+              {
+                "quote": "In case of games for example owning the binary and being able to resell it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17686,
+          "unit_kind": "feedback"
+        },
+        "text": "Consider proposing assigning a value to digital items in general. In case of an in game item this item having a price which i can resell since its not a service. In case of games for example owning the binary and being able to resell it. This could fix multiple issues in the market at the same time giving more value for the money spent towards any purchase. This would mean selling in game items would have to facilitate a market for exchanges and buying software would give you the right to own it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.237659Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584446.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584446",
+    "chunks_doc_id": "F3584446",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584446.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587202",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:15Z",
+    "finished_at": "2026-04-14T13:13:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "my right to have perpetual access to the video games I bought."
+              }
+            ]
+          },
+          {
+            "topic": "GenAI Training Data Without Permission",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "It was created based on billions of items, books, images, music, videos and other multimedia without permission, licence or compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29788,
+          "unit_kind": "feedback"
+        },
+        "text": "There are two cases of abuse of power in the digital space that are of particular importance to me. First, my right to have perpetual access to the video games I bought. Today, companies design games in such a way that they rely on a server to continue operating. When the servers are switched off, the game actually disappears. The law should require that all games have an end-of-life plan so that they continue to operate indefinitely after leaving the support. Second, generative ‘artifical intelligence’ (often called GenAI). It was created based on billions of items, books, images, music, videos and other multimedia without permission, licence or compensation. The technology was almost exclusively designed to compete in the same markets where the stolen data originated, directly damaging writers, musicians and artists who involuntarily contributed their work to this technology. The law should prohibit the use, distribution and training of any GenAI programme that has obtained its training data without the permission of the author.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.473931Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587202.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587202",
+    "chunks_doc_id": "F3587202",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

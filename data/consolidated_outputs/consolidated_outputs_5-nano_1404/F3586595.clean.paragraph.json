@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586595",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:43Z",
+    "finished_at": "2026-04-14T13:00:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you pay full price, but you do not truly own them. Instead, you buy a license that can be revoked or rendered useless at any time."
+              },
+              {
+                "quote": "Many modern games rely on online servers, even for single-player content!"
+              },
+              {
+                "quote": "Once a game is no longer generating revenue, those online dependencies serve no purpose except to permanently disable the product we paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A clear example was when Ubisoft shut down \"The Crew\", making it permanently unplayable for every paying customer. No refund, no offline mode, just gone."
+              },
+              {
+                "quote": "No refund, no offline mode, just gone."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37375,
+          "unit_kind": "feedback"
+        },
+        "text": "Today, video games often come with a hidden risk: you pay full price, but you do not truly own them. Instead, you buy a license that can be revoked or rendered useless at any time. Many modern games rely on online servers, even for single-player content! When those servers are shut down, the game stops working entirely. This is not just a gaming problem, it is a consumer rights issue. Imagine buying a washing machine, only for the manufacturer to remotely disable it because they stopped supporting that model. That would be unacceptable. Yet in the digital world, this is becoming normal. A clear example was when Ubisoft shut down \"The Crew\", making it permanently unplayable for every paying customer. No refund, no offline mode, just gone. The EU already recognizes this growing problem through initiatives like 'Stop Destroying Video Games', but stronger protection is needed. I urge the Digital Fairness Act to include provisions that: 1. Require publishers to provide an offline mode or equivalent when a games servers are shut down, or 2. Release the necessary server code or tools so the community can preserve the product. I am not asking companies to maintain online services forever, that would be unreasonable. I am asking for the same rights we had with physical media: if you buy a book, you can read it anytime. If you buy a DVD, you can watch it anytime. Digital games should be no different. Today, always-online requirements often exist mainly to push in-game purchases, not to improve the core product. Once a game is no longer generating revenue, those online dependencies serve no purpose except to permanently disable the product we paid for. Please ensure future legislation gives consumers lasting access to their legally purchased games!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.290703Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586595.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586595",
+    "chunks_doc_id": "F3586595",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

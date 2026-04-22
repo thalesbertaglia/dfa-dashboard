@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587545",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:15Z",
+    "finished_at": "2026-04-14T13:18:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns in purchases"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "making it difficult to terminate business relationships."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43217,
+          "unit_kind": "feedback"
+        },
+        "text": "I am an European Citizen who makes a living in digital spaces. Over the past two decades, I've watched the internet go from a place of freedom and expression to a wild west of uncontrolled corporate greed, where big companies do everything in their power to extract money from consumers and give nothing back, including making it difficult to terminate business relationships. One of the areas dear to me where this has been happening has been video games. It is an area where we see everything from misleading marketing, to dark patterns in purchases, and addictive, psychological tricks to keep people playing and paying for something they do not necessarily want. Companies have even willfully deprived consumers of their purchases through no fault of the consumer! I urge the EU to expand the Digital Fairness Act to include requests from the Stop Killing Games initiative and restore digital consumer rights to people who love video games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.540548Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587545.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587545",
+    "chunks_doc_id": "F3587545",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

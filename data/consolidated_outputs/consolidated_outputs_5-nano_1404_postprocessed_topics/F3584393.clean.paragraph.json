@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584393",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:11Z",
+    "finished_at": "2026-04-14T11:57:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"buy\" buttons, which are essentially \"rent\" buttons due to their EULAs."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22725,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like to add some addition feedback to the part: addressing problems with digital contracts: Currently, online stores such as Amazon, Steam, Playstation and etc. have \"buy\" buttons, which are essentially \"rent\" buttons due to their EULAs. This should stop. Either tell your customers straight up \"you do not own this product\" on the page, or make it so that this product is not tied to your store and your control of accessing it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.212655Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584393.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584393",
+    "chunks_doc_id": "F3584393",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584393.clean.paragraph.json"
+}

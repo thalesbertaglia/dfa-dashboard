@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584820",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:11:38Z",
+    "finished_at": "2026-04-14T12:11:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-of-life plan"
+              },
+              {
+                "quote": "The \"end-of-life plan\" ensures that a game remains in a playable state even after the publisher/platform stops supporting it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20059,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European citizen and as a game owner, I would like to be able to play the games I bought (which were sold as \"goods\") after an arbitrary amount of time.This entails that games should have an \"end-of-life plan\", as stated in the final version of the European Citizens Initiative named \"Stop Killing Games\". To reiterate, the \"end-of-life plan\" ensures that a game remains in a playable state even after the publisher/platform stops supporting it. Please consider adding the requirement of \"end-of-life plans\" into videogames as over a million of persons already signed in the European Citizens Initiative \"Stop Killing Games\". Thank you so much for taking the time to read this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.452898Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584820.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584820",
+    "chunks_doc_id": "F3584820",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

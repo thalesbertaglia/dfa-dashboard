@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584156",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:21Z",
+    "finished_at": "2026-04-14T11:52:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is also lot of \"dark design\" patterns,"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "microtransactions (especially their macro prices) are getting out of hand"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "everything collecting user data should be clearly on Opt-IN basis"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "changes in those ELUA - they can change it anytime and if I do have game/software for 2 years and on year 3 they change something I dont agree with Im suddenly locked out of my game/software forever - that should not be legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 111943,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like if customers had protection against games being destroyed by publishers (atm lot of games could be removed from ppls libraries, features significantly reduced and so on - its crucial somebody shines light into it and prevent companies from overstepping their boundaries in this regard - despite having similarities with lot of other issues already covered by law this topic is in some regards highly unregulated / forgotten). Lot of good games are already unobtainable, destroyed, lost and so on (probably not related to this per se but sometimes company just have a mess in licenses - that happened to No One Lives Forever for example - there was initiative to remaster it and bring it up to modern standards but companies are not willing to find up who has license so the game is in limbo - nobody cant remaster it before license is found and those who should be looking do not care enough so if nothing changes whole series of games is dead). There is also lot of \"dark design\" patterns, microtransactions (especially their macro prices) are getting out of hand, games like Hogwarts Legacy have no option to decline ELUA in game (you have to force close it which is not ok) and you basically have to agree to spyware (company has in list of collected data even things like sexual orientation, religon and so on which is insane) to play the game - it should be heavily regulated what they can and canot have in ELUA for playing a videogame. Also overall companies are not implementing Opt-Ins but Opt-outs which is not in spirit of GDPR and options to opt-out are heavily hidden and hard to find or split into multiple categories in hope user will forget to cancel some - everything collecting user data should be clearly on Opt-IN basis and not wanting to provide information like my sexual orientation or religion should not prevent me from being able to use bought software or play bought video game. Aditional issue is changes in those ELUA - they can change it anytime and if I do have game/software for 2 years and on year 3 they change something I dont agree with Im suddenly locked out of my game/software forever - that should not be legal. (with all those auto updates and always online models shoved into our faces over the last like decade its not even possible usually to stay on version that worked and was not burdened with those ELUA additions).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.101514Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584156.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584156",
+    "chunks_doc_id": "F3584156",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

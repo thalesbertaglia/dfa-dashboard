@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585970",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:19Z",
+    "finished_at": "2026-04-14T12:42:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry"
+              },
+              {
+                "quote": "delisted, shut down, or require online connectivity without preservation plans are effectively \"destroyed,\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26477,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to you as a concerned citizen and passionate supporter of digital preservation, to respectfully express my strong support for the Stop Killing Games initiative. This proposal addresses a growing issue within the video game industry: the increasing number of games being rendered unplayable due to the lack of preservation plans from certain publishers. As digital consumers, we believe it is vital for the European Union to ensure that consumers are protected from the arbitrary shutdown of products they have lawfully purchased. Games that are delisted, shut down, or require online connectivity without preservation plans are effectively \"destroyed,\" despite holding cultural, historical, and economic value. Without regulatory action, several beloved and culturally significant titles may disappear entirely. For instance: Mirror's Edge Catalyst, a unique title known for its art direction and gameplay, may no longer be accessible if online services are removed. Battlefield 1943 and Battlefield: Bad Company 1 & 2 are examples of games that have already been delisted, and their online functionality is set to be disabled permanently. Games like The Crew and Project Spark have already been made unplayable, erasing them from gaming history. Over 1.4 million individuals have already signed the Stop Killing Games petition, sending a clear and powerful message that European consumers care deeply about digital rights and cultural preservation. We respectfully urge the European Union to take meaningful steps to require that publishers implement clear, transparent preservation strategies before removing games from sale or shutting down essential online services. These actions will help ensure that our digital cultural heritage is protected and that consumers retain access to the products they paid for. Thank you for your attention and for your continued commitment to protecting the rights of European citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.012240Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585970.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585970",
+    "chunks_doc_id": "F3585970",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

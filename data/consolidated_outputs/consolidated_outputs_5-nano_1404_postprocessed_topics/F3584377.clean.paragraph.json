@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584377",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:33Z",
+    "finished_at": "2026-04-14T11:57:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ownership of digital products, particularly video games, is currently treated."
+              },
+              {
+                "quote": "When I purchase a digital game, Im not actually gaining ownership in any real sensejust a limited license that can be changed or revoked at any time by the platform."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "limited license that can be changed or revoked at any time by the platform."
+              },
+              {
+                "quote": "Access to what youve paid for shouldnt disappear just because a company decides to pull the plug."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29047,
+          "unit_kind": "feedback"
+        },
+        "text": "I want to express my concern about how ownership of digital products, particularly video games, is currently treated. When I purchase a digital game, Im not actually gaining ownership in any real sensejust a limited license that can be changed or revoked at any time by the platform. That doesnt seem fair. After paying full price, I can still lose access to the game due to things like server shutdowns, discontinued support, or sudden policy changes by the provider. In many cases, these games cant even be played offline, which means Im paying for something thats only usable under the platforms conditions. Thats a far cry from how physical purchases work, where once you own it, its yours to use indefinitely. I believe we need stronger consumer protections to ensure that digital purchases are treated more like physical ones. Access to what youve paid for shouldnt disappear just because a company decides to pull the plug. Offline functionality should be guaranteed whenever its technically possible, and access to purchased content shouldnt depend entirely on the future decisions of the platform. As we shift further into a digital world, protecting basic ownership rights is essential. Buying digital should not mean giving up control.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.204668Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584377.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584377",
+    "chunks_doc_id": "F3584377",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584377.clean.paragraph.json"
+}

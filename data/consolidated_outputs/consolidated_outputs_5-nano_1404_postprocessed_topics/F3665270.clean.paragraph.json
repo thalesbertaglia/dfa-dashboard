@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3665270",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:18Z",
+    "finished_at": "2026-04-14T13:46:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some washing machines only unlock additional washing modes once the device is connected to a mobile application and the customer subscribes to the vendors online platform."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Consumers are currently not adequately protected from manufacturer-driven firmware updates."
+              },
+              {
+                "quote": "Many devices, once connected to the internet, automatically install mandatory updates, even after the warranty period has expired."
+              },
+              {
+                "quote": "If an update fails, the device may become inoperable, leaving the consumer responsible for repair costs."
+              },
+              {
+                "quote": "Manufacturers should be held fully responsible for any damage caused by firmware updates, regardless of the warranty status of the device."
+              },
+              {
+                "quote": "Firmware updates sometimes remove existing features or introduce new problems without giving consumers the option to revert to a previous version."
+              },
+              {
+                "quote": "Manufacturers should be required to provide rollback options, allowing consumers to downgrade firmware to any previous version if newer updates create issues."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A common example is video games, where servers are shut down and even single-player modes become inaccessible because the software cannot connect to the vendors servers."
+              },
+              {
+                "quote": "This practice allows developers to unilaterally disable software or services at any time, leaving consumers without access to products they have paid for and without compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47185,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Mandatory online services and data sharing Many devices currently on the market require a permanent internet connection and integration with the manufacturers online services. Access to these services often involves additional user consents and the sharing of personal data. Without completing this process, certain features of the device remain unavailable, even though the consumer has already purchased the hardware. This practice effectively forces consumers to surrender personal data in order to fully use products they own. For example, some washing machines only unlock additional washing modes once the device is connected to a mobile application and the customer subscribes to the vendors online platform. Such practices should not be allowed: all device features should be available to the consumer without requiring internet access or personal data submission. 2. Risk of digital exclusion The increasing reliance on manufacturer services and mandatory internet connectivity for device functionality also risks excluding consumers with limited or no internet access. This creates a barrier to full participation in the digital economy and unfairly disadvantages individuals in rural areas, the elderly, or others who face connectivity challenges. 3. Lack of protection from mandatory firmware updates Consumers are currently not adequately protected from manufacturer-driven firmware updates. Many devices, once connected to the internet, automatically install mandatory updates, even after the warranty period has expired. If an update fails, the device may become inoperable, leaving the consumer responsible for repair costs. In such cases, manufacturers frequently reject repair claims on the grounds that the device is out of warranty, despite the failure being caused by the manufacturers own update process. Manufacturers should be held fully responsible for any damage caused by firmware updates, regardless of the warranty status of the device. 4. Forced feature removal and lack of rollback options Firmware updates sometimes remove existing features or introduce new problems without giving consumers the option to revert to a previous version. This leaves consumers with devices that are less functional than at the time of purchase. Manufacturers should be required to provide rollback options, allowing consumers to downgrade firmware to any previous version if newer updates create issues. 5. Unjustified online dependency and loss of purchased software Manufacturers and software developers increasingly enforce permanent internet connectivity requirements, even when such connectivity is not technically necessary for the software to function. This practice allows developers to unilaterally disable software or services at any time, leaving consumers without access to products they have paid for and without compensation. A common example is video games, where servers are shut down and even single-player modes become inaccessible because the software cannot connect to the vendors servers. Where software functionality does not inherently depend on online services, it should be preserved in an offline-capable state once official support ends, ensuring that consumers retain the right to use the products they purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.086162Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3665270.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3665270",
+    "chunks_doc_id": "F3665270",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3665270.clean.paragraph.json"
+}

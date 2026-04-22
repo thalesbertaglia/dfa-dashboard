@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586599",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:55Z",
+    "finished_at": "2026-04-14T13:00:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers should not be able to permanently disable their video games or revoke licenses that have already been bought."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "support told me to purchase Minecraft again, which had more than doubled in price since I first bought it."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The fact also is that the user agreement on the version I bought Minecraft on said \"when you purchase minecraft you will own it for life\". This was later changed behind closed doors and now users no longer actually own the game they buy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21801,
+          "unit_kind": "feedback"
+        },
+        "text": "My feedback on the Digital Fairness Act is to include publishers should not be able to permanently disable their video games or revoke licenses that have already been bought. I have had this experience a few times, I bought a game called \"Evolve\" and played it with friends, however the publisher decided to end its life support and make the game unplayable even though the consumers purchased the game. I also have issue with Microsoft/Mojang where I bought Minecraft back in 2010, over 15 years ago, where I did not play the game for a few years. During this time Microsoft decided to force players to migrate their accounts to a microsoft account but I did not recieve these news. I then recently tried to access my game (Minecraft) and did no longer own the game and support told me to purchase Minecraft again, which had more than doubled in price since I first bought it. They claim to have followed all the laws required, but it goes against consumers. The fact also is that the user agreement on the version I bought Minecraft on said \"when you purchase minecraft you will own it for life\". This was later changed behind closed doors and now users no longer actually own the game they buy. So again, please consider including this in the Digital Fairness Act so that us consumers won't be exploited more and have our games we buy taken away from us! Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.292454Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586599.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586599",
+    "chunks_doc_id": "F3586599",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

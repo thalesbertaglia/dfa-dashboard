@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585980",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:37Z",
+    "finished_at": "2026-04-14T12:42:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stop rendering games and other interactive works of art unplayable after purchase."
+              },
+              {
+                "quote": "I bought the game The Crew, and enjoyed it for many years."
+              },
+              {
+                "quote": "However, the company that made it, Ubisoft, has ended support for the game, despite selling it as a product to me."
+              },
+              {
+                "quote": "Now I can't play the game that I own anymore!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19224,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! My name is Steven Velema, I'm a citizen of the Netherlands. I am writing to you on behalf of a movement that aims to stop rendering games and other interactive works of art unplayable after purchase. I have personal experience with this as I bought the game The Crew, and enjoyed it for many years. However, the company that made it, Ubisoft, has ended support for the game, despite selling it as a product to me. Now I can't play the game that I own anymore! I believe this goes against preservation, consumer rights and just plain common sense: I bought the game, it shouldn't explode right in front of me because the company that sold it to me pushed a button. I believe this fits in very well with the Digital Fairness Act and would be a fantastic addition to protect consumers from these malicious practices. Thank you for your time and consideration!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.018599Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585980.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585980",
+    "chunks_doc_id": "F3585980",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

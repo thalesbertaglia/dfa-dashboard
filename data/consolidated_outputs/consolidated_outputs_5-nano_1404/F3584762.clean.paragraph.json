@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584762",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:14Z",
+    "finished_at": "2026-04-14T12:09:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they require online verification."
+              },
+              {
+                "quote": "But the publishers don't provide those services anymore and as such I cannot play my games that I own."
+              },
+              {
+                "quote": "I want to keep playing the games that I own, even after support end."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23759,
+          "unit_kind": "feedback"
+        },
+        "text": "A good day Sirs and Madams, As a 43 years old avid gamer almost all my life, I've seen and had many games in my life that I'm unable to play at this moment as they require online verification. But the publishers don't provide those services anymore and as such I cannot play my games that I own. For this reason alone, I want to request to have customer rights added to this Digital Fairness Act as to have publishers think about end of life stuff after they don't support the game anymore. I want to keep playing the games that I own, even after support end. This is also why I also support the \"Stop Killing Games\"-movement which I signed almost a year ago when movement began. Thank you for your time and effort and I hope to see a future where consumers have basic rights again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.394354Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584762.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584762",
+    "chunks_doc_id": "F3584762",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

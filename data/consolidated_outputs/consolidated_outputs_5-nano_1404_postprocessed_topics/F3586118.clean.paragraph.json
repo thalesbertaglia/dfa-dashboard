@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586118",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:33Z",
+    "finished_at": "2026-04-14T12:47:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the disturbing trend where companies can simply shut down access to digital games that consumers have paid for."
+              },
+              {
+                "quote": "When a customer buys a game, whether digitally or physically, it should mean ownership, not a temporary rental that can be revoked at any time."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terms of service being altered, games being pulled offline, and features being stripped without any compensation or legal protection for those who purchased them in good faith."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25690,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my support for extending the Digital Fairness Act, particularly in response to the growing frustration highlighted by the \"Stop Killing Games\" initiative. Over a million people have already spoken out against the disturbing trend where companies can simply shut down access to digital games that consumers have paid for. This needs to stop. When a customer buys a game, whether digitally or physically, it should mean ownership, not a temporary rental that can be revoked at any time. The recent example of Ubisoft removing access to \"The Crew\" for paying customers is a clear breach of consumer trust. These actions undermine the value of digital purchases and leave users powerless. The problem is not limited to one company. Across the industry, we see terms of service being altered, games being pulled offline, and features being stripped without any compensation or legal protection for those who purchased them in good faith. It is unacceptable that people can spend their hard-earned money on content that may disappear tomorrow. The Digital Fairness Act must guarantee that when consumers buy digital games, they retain access to them, just like we do with physical media. If companies cant guarantee that, they shouldnt be allowed to market digital purchases as buying. I strongly urge lawmakers to take this issue seriously and ensure digital ownership rights are respected. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.100958Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586118.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586118",
+    "chunks_doc_id": "F3586118",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586118.clean.paragraph.json"
+}

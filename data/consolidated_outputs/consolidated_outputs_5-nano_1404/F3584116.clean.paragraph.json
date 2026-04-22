@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584116",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:48:47Z",
+    "finished_at": "2026-04-14T11:49:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "But the we are renting a license that they can retract at any point."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16489,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am leaving feedback in hopes of garnering your attention to the video game industry. In the years since its inception the industry has mutated a lot with the rise of digital media, and in that mutation consumer rights have weakened or been abolished completely. We do not own our games anymore and it can be taken way at the whim of companies. They keep saying we \"Buy\" our games. But the we are renting a license that they can retract at any point. I humbly ask and beg of you to please ensure we gain consumer rights over our digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.080055Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584116.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584116",
+    "chunks_doc_id": "F3584116",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

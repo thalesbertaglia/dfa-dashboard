@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584129",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:18Z",
+    "finished_at": "2026-04-14T11:49:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include video games under the full protection of the Digital Fairness Act."
+              },
+              {
+                "quote": "Increasingly, publishers are discontinuing or disabling access to games that users have legally purchased, effectively destroying their value and denying customers the right to use what they rightfully own."
+              },
+              {
+                "quote": "Video games are a significant part of todays digital culture and economy."
+              },
+              {
+                "quote": "They should be treated as durable digital goods, not temporary services that can be revoked without recourse."
+              },
+              {
+                "quote": "I ask that steps be taken to ensure long-term access to purchased games, even after official support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12796,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, As a concerned consumer and supporter of digital rights, I respectfully urge you to include video games under the full protection of the Digital Fairness Act. Increasingly, publishers are discontinuing or disabling access to games that users have legally purchased, effectively destroying their value and denying customers the right to use what they rightfully own. Video games are a significant part of todays digital culture and economy. They should be treated as durable digital goods, not temporary services that can be revoked without recourse. I ask that steps be taken to ensure long-term access to purchased games, even after official support ends. Sincerely, Krzysztof Kohlman",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.086515Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584129.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584129",
+    "chunks_doc_id": "F3584129",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584129.clean.paragraph.json"
+}

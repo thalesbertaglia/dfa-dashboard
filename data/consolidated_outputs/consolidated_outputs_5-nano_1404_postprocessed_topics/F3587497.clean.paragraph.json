@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587497",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:48Z",
+    "finished_at": "2026-04-14T13:18:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames from being permanently taken offline and consumers being unable to access a product that they have already paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21836,
+          "unit_kind": "feedback"
+        },
+        "text": "To me, it would make a lot of sense to also include videogames from being permanently taken offline and consumers being unable to access a product that they have already paid for. There are hundreds, if not thousands of examples of developers taking a product, that millions of consumers have already paid to access and play, and taking any if not all connectivity and/or support for even complete offline accessibility for those games. That being said, developers and studios should therefore be encouraged and preferably, enforced to have a so called \"end of life plan\" where these games could still be accessed, and be in a playable state for the consumers who have, in many cases already paid for the product, after the studio/developer cannot or will not resume active support (i.e content updates, network connectivity, etc.), or in a more extreme case, refund the money that the consumers have paid for the product if they cannot access or play the game anymore. Furthermore there has already been a European citizens' initiative called \"Stop Destroying Videogames\" with over 1.4 million votes across the EU nations with a same goal, to stop studios/companies/developers from completely destroying videogames with no plan to let consumers to enjoy their works after they themselves decide to not continue actively supporting them. Thank you for your time, and i hope that this will be taken into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.532757Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587497.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587497",
+    "chunks_doc_id": "F3587497",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587497.clean.paragraph.json"
+}

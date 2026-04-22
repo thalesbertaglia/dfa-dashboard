@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584682",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:10Z",
+    "finished_at": "2026-04-14T12:06:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is basically how I feel about these lootbox systems."
+              },
+              {
+                "quote": "But secondly, what I don't like are the microtransactions, especially when they include gambling."
+              },
+              {
+                "quote": "Or surprise mechanics, like some companies describe them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutting down servers for online games."
+              },
+              {
+                "quote": "the product that you paid sometimes 60 or more for is just gone whenever the company making them decides they don't want to run that game anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42747,
+          "unit_kind": "feedback"
+        },
+        "text": "My first and foremost problem is the act of Game companies shutting down servers for online games. Even though many of them could be played offline or by peer to peer (Meaning you don't connect to a central server but instead directly to the people you play with.) This means that you buy a product, well, you think you do, but you don't, and then the product that you paid sometimes 60 or more for is just gone whenever the company making them decides they don't want to run that game anymore. And you are left with a broken product; you still technically own the game, and you still have the files, but they are now useless. Robbery in plain sight. Also, many children buy those games. I mean, I am earning good money at this point, so 60 is not that much for me nowadays. But if I think back on my childhood, when such money came to me only twice a year, I bought a game that got shut down three months later. I would have been so devastated. But secondly, what I don't like are the microtransactions, especially when they include gambling. And companies say they are not gambling in the legal sense, but in any other sense, they are, in my opinion. These are very nefarious since they often give you certain things (like items, level-up mechanics, weapons, or other things) that make you progress faster than people who don't spend extra money. However, since everything is made by the companies, they control how fast you progress in the game. So, in other words, it is like if I were buying a car. But I only got the basic car, and I need to pay more to get an upgrade like a better engine, but I can't just buy the engine; I need to gamble on it, and only have a chance to get a better engine, and the company completely controls my chances of getting the engine in the background. I don't even know if it is really a chance. Maybe there is a limit that I only get the engine after paying a certain amount of money or something like that. And that amount of money is higher than I paid for the car in the first place. But the company could have just delivered the car that I bought with the better engine in the first place. This is basically how I feel about these lootbox systems. Or surprise mechanics, like some companies describe them. Same thing, different name.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.352382Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584682.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584682",
+    "chunks_doc_id": "F3584682",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

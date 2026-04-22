@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584540",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:05Z",
+    "finished_at": "2026-04-14T12:01:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It should be the same with video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21149,
+          "unit_kind": "feedback"
+        },
+        "text": "This Act would gain to have protection against the \"killing\" of games that has been happening for years now. With over a million citizen having signed the Stop Killing Games initiative, it is clear now that it is something to be taken into account. I myself have seen some of my favorite piece of art being destroyed with no promise of letting anyone who ever purchased the game play it on their own term. If you buy a Toyota or a Renault car, the car companies have no say in whether you continue to use them or not after they stop producing the model you purchased. It should be the same with video games. We pay sometimes up to 70 or 80 for games that we enjoy, and get these medias taken away from us because the studios are too lazy and do not care about the consumer at all. Please act on this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.283155Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584540.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584540",
+    "chunks_doc_id": "F3584540",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

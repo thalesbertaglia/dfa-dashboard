@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33080310",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:12Z",
+    "finished_at": "2026-04-14T09:30:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They want every developer to go through them, pay them, and give up their real IDs before allowing android users to install any apps that developer made."
+              },
+              {
+                "quote": "This is absurdly monopolistic and will kill off every single 3rd party storefront on Android."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16782,
+          "unit_kind": "feedback"
+        },
+        "text": "This is my second comment towards this initiative, but I must add another issue to the mix. Google is planning to stop users from freely installing apps on their android devices (or sideloading) all together. They want every developer to go through them, pay them, and give up their real IDs before allowing android users to install any apps that developer made. This is absurdly monopolistic and will kill off every single 3rd party storefront on Android. They claim it's to \"protect\" their users from malware, while constantly allowing malware on the PlayStore themselves. F-Droid is a lot more secure than the play store will ever be by virtue of being an open source software store. Google wants to kill F-Droid. This atrocious measure will allow google to censor any apps or developers they don't like, no matter the reason, (they have blocked apps for political reasons before) and will essentially kill the open source ecosystem on Android, leaving users with no alternative in the smartphone scene, and allowing google to keep pushing their data collecting software into everyone, want it or not, there will be no alternative. It is my phone, my computer, my device that I paid full price for, Google should have no say on what I can or cannot install on it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.537222Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33080310.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33080310",
+    "chunks_doc_id": "F33080310",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33080310.clean.paragraph.json"
+}

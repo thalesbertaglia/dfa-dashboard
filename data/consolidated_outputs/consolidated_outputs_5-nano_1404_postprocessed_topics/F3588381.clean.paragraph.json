@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588381",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:17Z",
+    "finished_at": "2026-04-14T13:23:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Malicious tampering of availability and quality can also be obfuscated before purchase to manipulate customers to purchase inferior version of the digital product."
+              },
+              {
+                "quote": "Offering superior versions of product for added price after the fact the purchase was made is unfair due to previous obfuscation of available options."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13825,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness should also include protection against harmful influences on digital product transactions, such as purchases of digital media, and malicious tampering of digital media after purchase. Digital purchases should be ensured and protected if the following terms are met: - Both parties consent to and meet the requirements of the process. - The process meets all aspects of legality. - The product is legal. Retroactive, meaning after purchase, malicious tampering of digital products goes against digital fairness. Such acts pressure customers to purchase products at the earliest window of opportunity as availability and integrity of purchased products are not ensured after purchase. Therefore, the length of availability and quality of digital products can be monetized even more for added pressure on customers. Malicious tampering of availability and quality can also be obfuscated before purchase to manipulate customers to purchase inferior version of the digital product. Offering superior versions of product for added price after the fact the purchase was made is unfair due to previous obfuscation of available options. In short, Digital Fairness should also ensure the availability of digital transactions that are clearly offered without any obfuscation, and protection of digital products from malicious tampering that would harm the availability or integrity of products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.643206Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588381.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588381",
+    "chunks_doc_id": "F3588381",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588381.clean.paragraph.json"
+}

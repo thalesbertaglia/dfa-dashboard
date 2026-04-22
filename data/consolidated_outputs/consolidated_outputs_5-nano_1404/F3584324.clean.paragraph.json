@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584324",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:15Z",
+    "finished_at": "2026-04-14T11:55:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game preservation and digital ownership rights"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Lastly, malicious conditions such as forcing the user to destroy the physical copies of the disc or other physical support they bought after the end of support should be made illegal since it directly infringe on the customers' right to own the physical product they bought and do what they want with it within legal reason (making copies of the saves for personal use, storing the orginial and using it later whenever they want to, etc...) (for instance the disc with the data on it they got when buying the box of the game at a local supermarket)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38172,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing because i wish to support stronger consumer protections in the Digital Fairness Act and especially in regard to video game preservation and digital ownership rights, even if what i am about to write can completely also apply to other digital products and services. As part of the Stop Killing Games initiative, I urge for action to be taken against companies that remove all rights to use the service or products without doing anything for end of support. As they tend to claim that they provide a service, the minimum they should be forced to comply to is to EXPLICITLY put an end of service date and change the \"buy\" to \"rent\" in order to not fall into unfair commercial practices related to dark patterns. Furthermore, modern games increasingly depend on servers or online checks even when core gameplay doesn't require connectivity and similar games used to be completely offline in the past (say end of XXth century and begining of 2000). Such things allows companies to remotely disable products or services whenever they want to without needing to notify anyone unlike licences like EXCEL which is required to inform the user before them end of support. Lastly, malicious conditions such as forcing the user to destroy the physical copies of the disc or other physical support they bought after the end of support of the online download should be made illegal since it directly infringe on the customers' right to own the physical product they bought and do what they want with it within legal reason (making copies of the saves for personal use, storing the orginial and using it later whenever they want to, etc...) (for instance the disc with the data on it they got when buying the box of the game at a local supermarket).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.178420Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584324.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584324",
+    "chunks_doc_id": "F3584324",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

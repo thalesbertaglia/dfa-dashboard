@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585680",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:21Z",
+    "finished_at": "2026-04-14T12:33:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This includes contractually asking users to destroy any games they own of that company when the company ends support"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "contractually asking users to destroy any games they own of that company when the company ends support"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24025,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I believe the Digital Fairness Act should encapsulate gaming practices. Developers and Publishers have become increasingly anti-consumer and are using tactics that are now going way beyong anything consumer friendly. This includes contractually asking users to destroy any games they own of that company when the company ends support, being able to cut access to all aspect of a game, even ones that should be playable offline, when servers go down, without maintaining even the most basic of functionalities and without compensating the user. I believe that companies should be able to end support after any fair amount of time, but that when doing so, should remove any online requirements and allow users tocontinue using the product they purchased offline, even if it means the loss of some functionalities that can not be access offline (friend lists, online leaderboards, cooperative gameplay and so on). Thank you for your attention",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.866664Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585680.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585680",
+    "chunks_doc_id": "F3585680",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585680.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588526",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:00Z",
+    "finished_at": "2026-04-14T13:24:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I hope it can take video games as a medium into consideration as well."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the numerous stipulations in their legal text regarding their ability to provide service for their own products after they have been purchased is in no way structured to be in line with the general consumers best interests."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19395,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the goals and ideals of the Digital Fairness Act and hope it can take video games as a medium into consideration as well. The gaming companies control over the products they sell extends too far and the numerous stipulations in their legal text regarding their ability to provide service for their own products after they have been purchased is in no way structured to be in line with the general consumers best interests. I hope this can be taken into account by the Digital Fairness Act as I am strongly against many of the current gaming companies' business practices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.653950Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588526.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588526",
+    "chunks_doc_id": "F3588526",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588526.clean.paragraph.json"
+}

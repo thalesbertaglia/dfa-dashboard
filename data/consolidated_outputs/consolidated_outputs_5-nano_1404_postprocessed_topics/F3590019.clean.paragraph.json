@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3590019",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:52Z",
+    "finished_at": "2026-04-14T13:33:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games in recent years have moved from being physical products you can purchase at a store to mostly digital purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when you pay for a game you are only getting a \"license\" to play that game, not ownership of that copy of it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23862,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission representatives I would like to give my personal view to the digital fairness act. First of all, I am in support of what it tries to achieve, but I would like to see it expand to cover some unfair practices in the video game industry. Video games in recent years have moved from being physical products you can purchase at a store to mostly digital purchases. It is the view of many video game publishers that when you pay for a game you are only getting a \"license\" to play that game, not ownership of that copy of it. They also often mischaracterize arguments, claiming consumers want ownership of the IP of the publisher, which is entirely not the case. What I personally, and I know for a fact a lot of other people too, want is for digital games to behave like physical products, something you own that you can lend out to someone freely, sell on the second hand market or make back ups of it in case the store you purchased it from goes offline or you just want to be sure you will not be losing your copy of it. I can lend out my Nintendo switch cartridge of a game to my friend without any problems, but the digital version of the same game has a whole bunch of restrictions that differentiate it from the physical product, while costing the same amount. Nintendo is also a good example because the 3DS eshop has been closed and access to the games people have paid for is no longer possible but at the same time the DRM systems restrict the easy backing up of the games. Companies have all the leverage in these situations and consumers have to deal with it. Another issue that pertains particularly to unfairness is the pressure payment processors can apply to digital marketplaces to remove content that does not fit their political, ideological or other agendas. That is an extreme level of leverage that is currently being utilized against companies like Steam which are pressured to remove games that the payment processors do not like. While I do not particularly care for the games removed so far, it concerns me that in the future games I do care about might get the same treatment, and I would rather it not get to that point before we have protections against this kind of thing. Thank you so much for taking the time to read my feedback and whatever the result I hope we are led to a better place for consumers because of the DFA. Regards, An EU citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.815040Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590019.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590019",
+    "chunks_doc_id": "F3590019",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590019.clean.paragraph.json"
+}

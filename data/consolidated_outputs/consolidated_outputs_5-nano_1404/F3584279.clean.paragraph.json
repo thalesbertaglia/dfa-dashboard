@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584279",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:05Z",
+    "finished_at": "2026-04-14T11:54:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "example Ubisoft telling us to destroy our bought product when the service is being closed down"
+              },
+              {
+                "quote": "When the companies are shutting down services, for always online games (even singleplayer games), they are burning pages in the book"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12896,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello EU I've grown up with games since the PlayStation1 era, and at this point, not get any of the old games from anywhere. Games is like books in a library, a memory, an experience, a story that people want others to experience but if they aren't available, they can be experienced. When companies are basically telling customers, example Ubisoft telling us to destroy our bought product when the service is being closed down, they are basically telling us to burn the book we have bought. When the companies are shutting down services, for always online games (even singleplayer games), they are burning pages in the book, maybe even 90% of the book. The companies don't need to keep the online services online, but giving us, the customers, the ability to continue the servers and/or games, we can continue the community that games create after it's \"death\". Best example i can give of this is, old cars that haven't been made in decades. We can, if the manufacturers give us the manuals, can repair the car, continue to share our passion for the car we have chosen, and share the history that the car have, not just in our life but also for others that don't have the ability to maintain it",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.158146Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584279.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584279",
+    "chunks_doc_id": "F3584279",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

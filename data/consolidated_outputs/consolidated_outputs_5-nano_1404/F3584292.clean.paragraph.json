@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584292",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:22Z",
+    "finished_at": "2026-04-14T11:54:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The publisher sold this game to a company that turned it into a subscription service"
+              },
+              {
+                "quote": "This is especially important for games with that operate as a service but don't give a clear expiry date when you purchase them."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to ensure consumers retain access to digital games and programs they have purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some publishers go as far as to say that we only buy a license to the game and yet online stores say that you \"Purchase\" the product and not \"Rent\" it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36074,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as an European citizen I kindly ask you to consider adding protections in the Digital Fairness Act to ensure consumers retain access to digital games and programs they have purchased. As of right now, if publishers stop supporting them, the customers are left with nothing even if they legally paid. This is especially important for games with that operate as a service but don't give a clear expiry date when you purchase them. Some publishers go as far as to say that we only buy a license to the game and yet online stores say that you \"Purchase\" the product and not \"Rent\" it. I think we need clearer rights, DRM-free options and hopefully other systems in place to preserve what the customers paid for. Just to give a few examples of games where I've spent money that I can no longer access: Fractured Space Archeage: Unchained (The publisher sold this game to a company that turned it into a subscription service) Hawken Far Cry 3 (Online multiplayer) Test Drive Unlimited 2 (Online multiplayer) Tribes Ascend",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.163478Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584292.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584292",
+    "chunks_doc_id": "F3584292",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

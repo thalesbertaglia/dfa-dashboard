@@ -1,0 +1,114 @@
+{
+  "doc_id": "F33097059",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:43:37Z",
+    "finished_at": "2026-04-14T11:44:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              },
+              {
+                "quote": "‘addictive design of digital products’ – any digital product offering daily activity rewards should limit the frequency with which those rewards are distributed at a frequency of more than 8 hours (or more) to ensure that they do not interfere with the sleep health of their users."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Apply the same rules for the right of return for contracts that have the option of active self-renewal."
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing by influencers"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Each item that can be purchased ONLY with the use of payment systems must be priced in euros."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Assumptions based on users’ consumption of multimedia content should be put on pause if it is not actively used by the user (login or preview alone would not qualify the user as active)."
+              },
+              {
+                "quote": "Any website and/or portal that personalises your experience should only use the data actively provided to it by the user for the personalisation of ads."
+              },
+              {
+                "quote": "‘fair personalisation practices.’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44993,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that the DFA should deal with the following issues, divided according to the point raised: ‘unfair commercial practices related to dark patterns’ – Use of neutral and non-misleading graphics and language for the management of subscriptions and the like. — Apply the same rules for the right of return for contracts that have the option of active self-renewal. “misleading marketing by influencers” – Each influencer should, in each advertising space, place a prominent text indicating the nature of that space in the language of each of its target audiences, with the exclusion of English if it is generalist at European/global level. This text should be made visible throughout the advertising space. ‘addictive design of digital products’ – any digital product offering daily activity rewards should limit the frequency with which those rewards are distributed at a frequency of more than 8 hours (or more) to ensure that they do not interfere with the sleep health of their users. — In case a subscription issuing currencies and/or objects is linked to the above described daily activity, the user should be compensated for any unreceived currencies and/or objects. Each item that can be purchased ONLY with the use of payment systems must be priced in euros. — Assumptions based on users’ consumption of multimedia content should be put on pause if it is not actively used by the user (login or preview alone would not qualify the user as active). ‘fair personalisation practices.’ Any website and/or portal that personalises your experience should only use the data actively provided to it by the user for the personalisation of ads. Spirit of the proposals put forward: the FOMO (fear of missing out) is increasingly applied or the real price is obscured through the abuse of alternative coins. With these changes, I want to make the impact these practices can have on people more equitable and make the relationship between companies offering services and their users fairer and more transparent.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.048574Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33097059.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33097059",
+    "chunks_doc_id": "F33097059",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33097059.clean.paragraph.json"
+}

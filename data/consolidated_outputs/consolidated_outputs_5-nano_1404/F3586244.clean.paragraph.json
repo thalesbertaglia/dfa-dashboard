@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586244",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:36Z",
+    "finished_at": "2026-04-14T12:52:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hide all kinds of overreaching conditions in their terms"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the videogame and software space"
+              },
+              {
+                "quote": "shut down games or services we already paid for, with no warning and no refund"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26205,
+          "unit_kind": "feedback"
+        },
+        "text": "Really glad to see the EU taking action with the Digital Fairness Act. In the videogame and software space, companies have been getting away with way too much for way too long. Its become normal for them to hide all kinds of overreaching conditions in their terms, and somehow they still get to shut down games or services we already paid for, with no warning and no refund. Some even go as far as disabling hardware features we own (for example, repairing your phone might get it disabled), which should just be illegal. Hopefully this pushes the industry toward something fairer, where users have rights that dont disappear the moment they click \"Accept.\"",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.173524Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586244.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586244",
+    "chunks_doc_id": "F3586244",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

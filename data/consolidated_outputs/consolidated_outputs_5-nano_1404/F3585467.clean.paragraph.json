@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585467",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:18Z",
+    "finished_at": "2026-04-14T12:28:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when you've bought it you shold have permanent access to it unless it is made abundantly clear that it is: a) a subscription or b) a time limited license"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24792,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, this is the only way I as a Norwegian can have a say in the \"Stop killing games\" European Citizen' Initiative. First off, I like what I read in the Digital Fairness Act and support it wholeheartedly. But would like to add something: When you buy either some software or a game I would like that the item you've paid for can't be rendered useless by the publisher with the press of a button (for example shutting down servers required for the software to work). The way the industry today can legally decide that what you have bought suddenly is left in an unworkable state is truly something that you should look into and maybe implement in the Digital Fairness Act. It don't matter if its a game or an expensive software, when you've bought it you shold have permanent access to it unless it is made abundantly clear that it is: a) a subscription or b) a time limited license I really hope you can find a way to include something like this in the Digital Fairness Act (one might say that this bears some resemblance to a bait and switch tactic in some ways).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.758204Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585467.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585467",
+    "chunks_doc_id": "F3585467",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

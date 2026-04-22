@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584663",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:44Z",
+    "finished_at": "2026-04-14T12:06:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "From game to music and other products."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "license that permits usage of a product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24335,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the DFA shold try to talk the problem of proper ownership of online products. Due to the nature of too many companies are selling aoftware under a license that permits usage of a product. And many of the corporations that do that do not even meet the goals of the life of said \"service\" state on purchase. The most popular movement talking about this is the \"Stop Killing Games\" movement but I believe the problem is more general with software. From game to music and other products. Once upon a time you buy aomething and you owe it physically, or more recently, you buy something on a disk and you owe thay software forever. I think online products should be in a state when sold or discontinued where their use is still possible. This is not the same as a DVD degrading with time, this is closer to planned obsolescence. I believe consumers deserve more protection than they are currently getting that all software sold has go be held to a certain usability standard.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.343577Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584663.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584663",
+    "chunks_doc_id": "F3584663",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

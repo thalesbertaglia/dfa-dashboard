@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587056",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:59Z",
+    "finished_at": "2026-04-14T13:09:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "'live service games' otherwise known as Games as a Service"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a new game with a very similar premise for a higher price, not long after"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43747,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm a swedish EU citizen and I hope the European Commission considers including the medium of video games in this act, as the practices of the industry have gotten out of control through the decade/s concerning 'live service games' otherwise known as Games as a Service. I've been personally affected by a publisher pulling the plug on a live service game just over a month after I bought it for 20 euro, and being offered no compensation around 2019. It was the game Worlds Adrift, where the publisher Bossa Studios shut down the servers making it unplayable, and offering other games they'd published for more recent buyers, which I was barely not a part of. I was shocked when the publisher announced a new game with a very similar premise for a higher price, not long after. Ending these sorts of practices will lead to a much healthier industry, consumers not being duped into buying games that will be taken away from them, and a lot more digital fairness. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.422173Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587056.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587056",
+    "chunks_doc_id": "F3587056",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587056.clean.paragraph.json"
+}

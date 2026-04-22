@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586978",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:07Z",
+    "finished_at": "2026-04-14T13:07:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destroying games customers have already paid for."
+              },
+              {
+                "quote": "Hundreds of games have already been destroyed with no end-of-life plan and this simply can not stand."
+              },
+              {
+                "quote": "no existing laws to police bad practices."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16372,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned about the lack of laws related to destroying games customers have already paid for. This is a worrying trend that exists, with no existing laws to police bad practices. Developers should allow the community of said games to be able to still use these games moving forward. It is not the case that developers should continue to support them indefinitely, but rather hand over the game in a playable state to the community that loves and treasures their game. Hundreds of games have already been destroyed with no end-of-life plan and this simply can not stand.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.401488Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586978.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586978",
+    "chunks_doc_id": "F3586978",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586978.clean.paragraph.json"
+}

@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3584631",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:04:29Z",
+    "finished_at": "2026-04-14T12:05:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Being that most items sold on these games' shops are purely code and not material, therefore FOMO is only use to push users to spend money that otherways they would have not, this then being a bad practice, purely anti consumer and pushes them to spend more money."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In Game shop that does not use FOMO on their conetent"
+              },
+              {
+                "quote": "War Bonds (Battle Passes) are not time limited content"
+              },
+              {
+                "quote": "any digital content put to sell at an ingame shop, should be available to purchase and use for as long as the shop servers are running."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37473,
+          "unit_kind": "feedback"
+        },
+        "text": "Can i add something about FOMO to the feedback? Being that most items sold on these games' shops are purely code and not material, therefore FOMO is only use to push users to spend money that otherways they would have not, this then being a bad practice, purely anti consumer and pushes them to spend more money. And as an example of an In Game shop that does not use FOMO on their conetent, I would put Heldivers 2, as their War Bonds (Battle Passes) are not time limited content, rather contente that you can buy and complete at any time. As my opinion i think any digital content put to sell at an ingame shop, should be available to purchase and use for as long as the shop servers are running.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.327059Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584631.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584631",
+    "chunks_doc_id": "F3584631",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

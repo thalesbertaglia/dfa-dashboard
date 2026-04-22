@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585039",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:38Z",
+    "finished_at": "2026-04-14T12:18:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Platform operators and right holders are currently unilaterally granting far-reaching rights, such as the right to withdraw access to digital products already purchased at any time and without warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11639,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am an EU citizen and I would like to highlight issues related to digital entertainment goods under the Digital Fairness Act, in particular video games, but also digital films and series. Platform operators and right holders are currently unilaterally granting far-reaching rights, such as the right to withdraw access to digital products already purchased at any time and without warning. A typical example is switching off servers for video games with online components, making the product unusable, including for paying customers. It is particularly critical that in many cases there is no so-called exit plan in favour of users. If a service is stopped, for example selling and accessing digital films via a platform such as Amazon Prime, there must be a fair solution from the point of view of consumer protection. For example, in such cases, users should be allowed to store or otherwise access their purchased content locally for a certain period of time. I therefore call for clear legal requirements to ensure that access to digital purchases cannot be unilaterally withdrawn or, at the very least, that compensations or transitional solutions are provided for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.565787Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585039.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585039",
+    "chunks_doc_id": "F3585039",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585039.clean.paragraph.json"
+}

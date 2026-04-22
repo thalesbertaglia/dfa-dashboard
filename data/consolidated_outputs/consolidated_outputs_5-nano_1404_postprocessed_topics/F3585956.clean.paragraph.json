@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585956",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:56Z",
+    "finished_at": "2026-04-14T12:42:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that become unplayable when servers shut down."
+              },
+              {
+                "quote": "Digital ownership must mean long-term access, not temporary licensing."
+              },
+              {
+                "quote": "Games and other media should be treated like cultural works, with fair protections and lasting usability."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13415,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen and digital consumer, I strongly support efforts to protect digital purchases, especially video games that become unplayable when servers shut down. This undermines consumer trust and value. Digital ownership must mean long-term access, not temporary licensing. Games and other media should be treated like cultural works, with fair protections and lasting usability. It's time for EU law to reflect this reality.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.004938Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585956.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585956",
+    "chunks_doc_id": "F3585956",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585956.clean.paragraph.json"
+}

@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3586397",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:55:48Z",
+    "finished_at": "2026-04-14T12:56:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading colour schemes."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Personalised marketing feels extremely intrusive"
+              },
+              {
+                "quote": "When deciding on whether you want to disable cookies, some websites make it really difficult to opt out of them collecting your data."
+              },
+              {
+                "quote": "won't allow you to browse the site unless you agree to having your data sold to shady third party data brokers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If it's a subscription or a license, it needs to be made clear on how long you get to keep the product when you buy it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 50453,
+          "unit_kind": "feedback"
+        },
+        "text": "This sounds like something the general public will significantly benefit from. Personalised marketing feels extremely intrusive and it feels like you always need to be on your guard when clicking anything because of misleading colour schemes. I do have to things that I'm not seeing here that I would like to see. 1. When deciding on whether you want to disable cookies, some websites make it really difficult to opt out of them collecting your data. They will make it impossible to decline the option of collecting your data and won't allow you to browse the site unless you agree to having your data sold to shady third party data brokers. 2. It should not be possible to make digital goods you have purchased before inaccessible to you. If you bought a program or video game, you should get to keep it, even if support for the media stops. If it's a subscription or a license, it needs to be made clear on how long you get to keep the product when you buy it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.229481Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586397.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586397",
+    "chunks_doc_id": "F3586397",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586397.clean.paragraph.json"
+}

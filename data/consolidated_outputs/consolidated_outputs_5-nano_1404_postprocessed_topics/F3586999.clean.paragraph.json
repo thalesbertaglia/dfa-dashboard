@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586999",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:45Z",
+    "finished_at": "2026-04-14T13:08:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibit service-dependent design that disables hardware at end-of-life without the option for the end user to install"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21029,
+          "unit_kind": "feedback"
+        },
+        "text": "Software services and the product you buy are getting increasingly intertwined. From toothbrushes with an app to cars, every device that can be connected to a manufacturer's app will be. With the pervasiveness of these devices, we are also seeing an increase in manufacturers shutting down their services for those products; products like: Google Nest Secure, Spotify's Car Thing. Many of these cases result in the effective destruction of the hardware, without the possibility of repair or a fallback mode with reduced functionality. This is harmful to the environment and anti-consumer. If these devices were made responsibly, with a way for the end user to retain access to basic functions, transfer ownership, or install alternative software; they would not become e-waste the moment a service is shut down. The lack of regulation regarding these digital services causes companies to disregard a consumer friendly and enviromentally suitable end of life for their products. I ask that the Digital Fairness Act include strong provisions to: Prohibit service-dependent design that disables hardware at end-of-life without the option for the end user to install Mandate that essential product functions remain usable, even after cloud services shut down. Require manufacturers to publish service end dates in advance, and provide open APIs or transition paths when retiring platforms. Enforce digital product sustainability alongside consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.407497Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586999.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586999",
+    "chunks_doc_id": "F3586999",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586999.clean.paragraph.json"
+}

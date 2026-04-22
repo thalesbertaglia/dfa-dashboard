@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3584752",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:47Z",
+    "finished_at": "2026-04-14T12:10:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A game called \"Lawbreakers\" sold by a korean/US company through a digital provider called Steam was shut off."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "holding houses with smart home software ransom demanding they pay subscription fees"
+              },
+              {
+                "quote": "micro-transactions or subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This means companies selling software are able to ignore the fact they have sold the product for a one time fee (normally viewed as a purchase) and then hold their product hostage for ransom or shut it off disabling access to the purchased product."
+              },
+              {
+                "quote": "claiming a license is perpetual while maintaining the right to revoke it is a consumer rights issue that needs to adressed in digital spaces"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 101438,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello i am a german citizen of the eu. A game called \"Lawbreakers\" sold by a korean/US company through a digital provider called Steam was shut off. Because they hold access to the servers and any game company will claim it is a license i have no way to continue usage of my purchased product. This means companies selling software are able to ignore the fact they have sold the product for a one time fee (normally viewed as a purchase) and then hold their product hostage for ransom or shut it off disabling access to the purchased product. Another case of this happening is in norway where a company (Futurehome) is currently holding houses with smart home software ransom demanding they pay subscription fees when before those same users bought the software. Claiming a license is perpetual while maintaining the right to revoke it is a consumer rights issue that needs to be adressed in digital spaces and no bill that promises to tackle these problems will be complete without it. This behaviour could expand until eventually everything runs on a dependency of another company and erodes the idea of ownership which is a fundamental right in capitalist or democratic society. While games are only a part of software i personally have experienced this many times with products i did spend money on and am essentially being exploited when i can no longer choose to return to a product i should still be able to given that i did buy it. While its unreasonable to expect perpetual support it is not unreasonable for companies to change software into a state where it can be run without their servers or services if they are unwilling to keep running it themselves for whatever reason if the users of that service did actually buy it. I would sincerely ask to consider adding protections for consumers on this to the bill atleast for videogames if not for all software. I would like to go over how videogame companies are exploiting this issue (as they are a rampant case of this): 1. If a product fails commercially but is ran as a service the purchases that were made under the presumption the service would get further development or support suddenly does not. This puts developers out of work and invalidates the customers purchase. (My case) 2. Products that are doing poorly may be sold to equity firms which will attempt to further exploit the users for more money, usually users feel pressured into supporting these practises even against their better judgement because if the company fails to turn a profit their purchases (including the now extra ones) will be invalidated. 3. Companies may turn products into other products without letting users use previous versions they actually purchased while also giving the product away for free in some instances. This means it can attract more users and earn money through micro-transactions or subscriptions but will invalidate users arguing for ownership of the copy they purchased. All of this leads the company to sell a product for cheap to recoup investment costs then avoiding responsibillity to the customers who have paid. Activision Blizzard has done method 3 for a game now called \"Overwatch 2\". At any point they could decide to treat customers more unfairly without legal protections for them as the company will always claim that it was a license that can be revoked at any time. There is also a online grass-roots movement called \"Stop Killing Games\" which is trying to make sure these practices are stopped or atleast legally clarified. They may have more information then i can provide here. While i can't make a full judgement on all types of software atleast with software entertainment i am certain legal protections are neccesary. I hope a request to consider adding it to the bill is not to over-bearing. Hoping for a better future Chad H.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.389038Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584752.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584752",
+    "chunks_doc_id": "F3584752",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584752.clean.paragraph.json"
+}

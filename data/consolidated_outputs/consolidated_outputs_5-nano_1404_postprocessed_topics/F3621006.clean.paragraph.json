@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3621006",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:18Z",
+    "finished_at": "2026-04-14T13:42:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the installation of an application outside the default library (Google Play Store/App Store)"
+              }
+            ]
+          },
+          {
+            "topic": "Developer Verification Requirement",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "to introduce an identification requirement for developers"
+              }
+            ]
+          },
+          {
+            "topic": "Privacy",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "personal data protection concerns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27884,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that EU citizens and the European Economic Community should have access to the full modification and customisation of their device. This includes the installation of an application outside the default library (Google Play Store/App Store). In addition, app developers want to be able to test them before they are officially released to the market. What Google is trying to do, for example, is a breach of the Digital Integrity Act – he wants to block (disable) the possibility of installing apps from unofficial sources and, in addition, to introduce an identification requirement for developers, which may give rise to personal data protection concerns that the developer themselves would have to introduce under this ban. This should not be the case – the user of a device who has purchased it for his own use should be able to set it up in his own way and the developer should not provide sensitive data just for that reason.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.021420Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3621006.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3621006",
+    "chunks_doc_id": "F3621006",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3621006.clean.paragraph.json"
+}

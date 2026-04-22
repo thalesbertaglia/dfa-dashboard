@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588633",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:23Z",
+    "finished_at": "2026-04-14T13:24:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "should be prohibited from profiting from trading, selling, or making available any of the personal data they collect."
+              },
+              {
+                "quote": "Also, any information, collected by any individual or group, marked as necessary for the functioning of the service, should be used only internally"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31002,
+          "unit_kind": "feedback"
+        },
+        "text": "Now that many are thinking about age verification, and about companies, or third party services, that act as a middleman, I believe this companies should be prohibited from profiting from trading, selling, or making available any of the personal data they collect. Also, any information, collected by any individual or group, marked as necessary for the functioning of the service, should be used only internally, since any trade of this, in any form, would not constitute part of the core functionality, and as such should be under the same prohibition.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.663014Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588633.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588633",
+    "chunks_doc_id": "F3588633",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

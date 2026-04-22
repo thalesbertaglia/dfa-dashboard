@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:39Z",
+    "finished_at": "2026-04-14T12:29:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry within the European Union."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13096,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Parliament / European Commission, I am writing to express my deep concern regarding recent proposals and regulatory measures that risk harming the vibrant and innovative video game industry within the European Union. Video games have grown beyond mere entertainment they are a vital cultural medium, a significant source of employment, and a thriving part of the creative economy. They foster creativity, social connection, and education for millions of European citizens of all ages. However, I fear that certain regulatory initiatives, if implemented without sufficient industry consultation and balanced consideration, could unintentionally stifle creativity, innovation, and investment in European video games. Restrictive rules or burdensome legislation may threaten the sustainability of developers, especially small and independent studios, and ultimately reduce the diversity and quality of games available to players. I strongly urge the EU institutions to engage closely with game developers, players, and other stakeholders before advancing new regulations. It is crucial to ensure that policies support rather than hinder the growth of this dynamic sector while safeguarding consumers and respecting artistic freedom. Please consider the cultural and economic importance of video games and work towards balanced solutions that nurture this thriving industry instead of putting it at risk. Thank you for your attention and your commitment to fostering a prosperous future for video games in Europe.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.785587Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585521",
+    "chunks_doc_id": "F3585521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

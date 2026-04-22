@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3584476",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:09Z",
+    "finished_at": "2026-04-14T11:59:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns out of the cookies banner"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is unacceptable that some software can use those agreements to make you buy subscription software that you are going to lose as soon as the subscription expires."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is also unacceptable that sometimes you buy complete software that works only if you are only, or can be deactivated remotely by an AI or a human error."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games will be part of the same rules as other software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32873,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer in the EU who is working closely with software, I would love to be more protected while buying and surfing online. First of all, I don't want to pay or accept all cookies; this is a threat. Second, I want dark patterns out of the cookies banner. It is unacceptable that sometimes it is necessary to click more than 4 times to reach the \"Refuse All\" button. Third, I want you to stop being chained to the international law about the licenses made in the USA. It is unacceptable that some software can use those agreements to make you buy subscription software that you are going to lose as soon as the subscription expires. It is also unacceptable that sometimes you buy complete software that works only if you are only, or can be deactivated remotely by an AI or a human error. In the end, I also want to make sure that video games will be part of the same rules as other software. And I would like the video games to be protected, as cultural products; they should be preserved, they shouldn't be disabled remotely, and they should be free to share if they are not sold anymore.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.251516Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584476.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584476",
+    "chunks_doc_id": "F3584476",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

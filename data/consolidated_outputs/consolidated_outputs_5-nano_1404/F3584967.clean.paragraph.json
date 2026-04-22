@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584967",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:25Z",
+    "finished_at": "2026-04-14T12:16:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "recent scandals in the USA regarding video games distributed over Steam."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers who sell products marketed as \"services\" with a clear intention to discontinue support shortly thereafter."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19492,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, The Union has always been progressive and strict on regulations that have protected us from harm. I suggest that the Board consider regulating the uncontested authority of payment processors over their services. The most well-known ones, such as VISA and Mastercard, have a monopoly over their practices with little to no obligation to governments. This became apparent from recent scandals in the USA regarding video games distributed over Steam. Such issues have not yet emerged here; however, it is better to avoid them. Currently, these payment processors can control money transactions based on their judgment, and as they are businesses with no moral obligations, these decisions are prone to be profit-oriented. I believe only the government exclusively should have a say in moral and social decisions, not private companies. I think such regulations would defend consumer rights and freedom of speechqualities that are dear to the Western culture that the EU is sworn to protect and further. I would also like to mention my support for the Stop Killing Games movement. Although the details regarding a fair environment for both consumers and companies are unclear to me, unfair and exploitative practices are currently running rampant by video game publishers who sell products marketed as \"services\" with a clear intention to discontinue support shortly thereafter. The existence of such issues pushes the whole market in a more exploitative direction, as it gives a clear advantage in securing profit over fair game publishers. I think the issue of payment processor monopolies is more widespread and problematic, but both topics should be investigated. Thank you for the opportunity to provide feedback!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.529813Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584967.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584967",
+    "chunks_doc_id": "F3584967",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

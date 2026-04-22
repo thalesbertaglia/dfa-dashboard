@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584954",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:44Z",
+    "finished_at": "2026-04-14T12:16:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are no longer considered owned media, instead paying for a video game is more akin to leasing it"
+              },
+              {
+                "quote": "publishers are free to revoke your access to said video game whenever they see fit"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21595,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, As a consumer of digital art myself, I would like to request that customers are given a layer of protection from publishers killing media. As of late there has been a trend in the video games market where video games are no longer considered owned media, instead paying for a video game is more akin to leasing it, the customer does not have ownership of the purchased media. This means the publishers are free to revoke your access to said video game whenever they see fit, not only would this void your purchase, it would make the consumer either forced to either purchase another copy of an already purchased product or outright not being able to ever consume that media again. Games are a form of entertainment, but also a form of art. I am in the firm belief of preserving art for the future, the history of an entire industry is at risk of disappearing. I am requesting to make publishers include an end of life plan on video games. That way the publishers are not obligated to maintain the media and if they're not interested in doing so. Plenty of people can band together as a community to revitalize those dead games, this has already happened plenty of times before. I am not the only concerned citizen here either, in the European citizens' initiative act for Stop Destroying Videogames over 1.4 million signature was reached. Suffice to say there's plenty of interest in preserving videogames in a playable state.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.521086Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584954.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584954",
+    "chunks_doc_id": "F3584954",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

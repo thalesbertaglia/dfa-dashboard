@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584909",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:12Z",
+    "finished_at": "2026-04-14T12:14:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "issues related to video games."
+              },
+              {
+                "quote": "An example of a game that can't function without the online aspect of it would be \"Overwatch\" and \"Counter Strike\"."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there is no reason from my perspective to keep them \"always online\" and they should be regulated."
+              },
+              {
+                "quote": "At this point some games feel like they are always online only to force a consumer to buy the new game that may be worse than the previous iteration."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32150,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would appreciate it if this act would focus more on the issues related to video games. Some licenses for games are being taken away with little to no warning, and they are made with the intention to be unusable after some time. It's understandable that games that rely on player interactions are taken offline and unplayable, but there are games that include no player-to-player interaction, and there is no reason from my perspective to keep them \"always online\" and they should be regulated. At this point some games feel like they are always online only to force a consumer to buy the new game that may be worse than the previous iteration. I've been a gameplay programmer for about 6 years now, and this is very important to me. The best example of a game like this that I can think of is \"The Crew\" and \"Need for Speed 2015\". An example of a game that can't function without the online aspect of it would be \"Overwatch\" and \"Counter Strike\".",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.497524Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584909.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584909",
+    "chunks_doc_id": "F3584909",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584909.clean.paragraph.json"
+}

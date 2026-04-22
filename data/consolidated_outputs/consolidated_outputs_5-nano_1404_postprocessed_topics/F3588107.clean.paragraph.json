@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588107",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:24Z",
+    "finished_at": "2026-04-14T13:23:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some publishers put pressure on game developers to ‘finish’ software as soon as possible, often in semi-finished form"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "this is misleading towards customers"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they may request that software purchased on a physical medium be deleted because ‘the time of support has expired’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41496,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU, I am extremely concerned that, on the one hand, some publishers put pressure on game developers to ‘finish’ software as soon as possible, often in semi-finished form, erroneously, etc., which will be brought to normal condition over time with repairs. On the one hand, this is misleading towards customers and, on the other hand, it puts developers under unhealthy pressure. I also find it problematic that publishers are, more recently, obscured in the User’s Agreement that they may request that software purchased on a physical medium be deleted because ‘the time of support has expired’ – ugye Ubisoft – now I think for you. I feel that if the publisher conveys the message that buying is not possession, it is right to think that piracy is not the theft.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.614303Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588107.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588107",
+    "chunks_doc_id": "F3588107",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588107.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585342",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:32Z",
+    "finished_at": "2026-04-14T12:25:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games to be a part of our cultural heritage, like any other form of art."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17415,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, I consider video games to be a part of our cultural heritage, like any other form of art. It should not be possible for publishers to remove this heritage completely, if it is possible for users to maintain it without any cost or detriment to the publishers. This has been happening for over a decade now and is getting worse. It is time to draw a line in the sand on these destructive practices. Thank you for hearing my concern.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.689175Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585342.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585342",
+    "chunks_doc_id": "F3585342",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585342.clean.paragraph.json"
+}

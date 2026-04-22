@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586028",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:16Z",
+    "finished_at": "2026-04-14T12:44:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are sold under license agreements that allow publishers to revoke access at any time."
+              }
+            ]
+          },
+          {
+            "topic": "IoT Support Discontinuation",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "When a company discontinues support or goes out of business, these products often become useless, resulting in unnecessary electronic waste and a loss for the customer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42704,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the law should also consider the problem of digital ownership in the context of video games and connected devices. Right now, many video games are sold under license agreements that allow publishers to revoke access at any time. This means consumers do not truly own the products they pay for, and games can become permanently unplayable. The transaction then resembles a rental rather than a sale, since there is no ownership. Beyond consumer protection, this also raises important concerns about cultural preservation. Video games are a form of art. Allowing them to disappear because they are no longer commercially viable is simply unacceptable. The loss of these digital works represents a loss to humanity's collective cultural and creative legacy, there could be many ways to preserve these works, as we do with books or other works. A similar issue exists with Internet of Things (IoT) devices and other products that rely on proprietary software connected to company servers. When a company discontinues support or goes out of business, these products often become useless, resulting in unnecessary electronic waste and a loss for the customer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.044389Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586028.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586028",
+    "chunks_doc_id": "F3586028",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

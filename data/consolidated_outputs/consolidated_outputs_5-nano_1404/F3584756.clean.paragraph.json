@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584756",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:56Z",
+    "finished_at": "2026-04-14T12:09:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When payment processors pressure digital stores to remove legal content, such as adult-themed or controversial games, they're bypassing public discourse and legal standards, enforcing their own values in place of democratically enacted laws."
+              },
+              {
+                "quote": "Example: In recent days, VISA and Mastercard have pressured platforms like Steam and Itch.io to delist games with adult or fringe content, particularly visual novels, erotic games, or anything payment processors deemed \"risky\", not because the content was illegal, but because of vague reputational concerns."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17090,
+          "unit_kind": "feedback"
+        },
+        "text": "Action on requiring payment processors to remain neutral Payment processors like VISA and Mastercard hold enormous influence over digital commerce, often acting as de facto gatekeepers to entire markets. Requiring these companies to process legal transactions without imposing their own \"corporate morality\" is essential to preserve freedom of expression and prevent corporate overreach. When payment processors pressure digital stores to remove legal content, such as adult-themed or controversial games, they're bypassing public discourse and legal standards, enforcing their own values in place of democratically enacted laws. This undermines both consumer rights and the creative freedom of developers. Example: In recent days, VISA and Mastercard have pressured platforms like Steam and Itch.io to delist games with adult or fringe content, particularly visual novels, erotic games, or anything payment processors deemed \"risky\", not because the content was illegal, but because of vague reputational concerns. These interventions led to several developers having their games shadow-banned or removed altogether, despite operating within the law. This sets a dangerous precedent where financial corporations can effectively dictate what kind of art, expression, or storytelling is permitted onlinenot through legislation, but through economic coercion. A requirement (preferably a legislative one) for neutrality in payment processing, provided the transaction involves legal goods, would help uphold both free enterprise and freedom of expression.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.391153Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584756.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584756",
+    "chunks_doc_id": "F3584756",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

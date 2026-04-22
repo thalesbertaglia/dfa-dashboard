@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585773",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:24Z",
+    "finished_at": "2026-04-14T12:36:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games were sold as complete products, but in reality they are just a license's with none expiration date, that for some reason publishers can disable for any or non reason, even without contacting the \"owner\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33858,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider adding issue with destroying digital products, like video games to the act. Its very important topic, and there even is an active EU initative, with over 1.4mln signatures, called \"Stop Destroying Video Games\". Quick explanation of the problem: For around 20 years, video games were sold as complete products, but in reality they are just a license's with none expiration date, that for some reason publishers can disable for any or non reason, even without contacting the \"owner\". It's so hostile to consumer that it shouldnt be even possible for them, and it can be a violation of directive 93/13/EEC. Stop Destroying Games initative wants basic consumer laws, and publishers to make end of life plans for their games (\"products\"), so it can be preserved for future generations, and that this games should be left in functioning playable state even after developer cuts official support for it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.913181Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585773.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585773",
+    "chunks_doc_id": "F3585773",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

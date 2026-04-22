@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3591173",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:32Z",
+    "finished_at": "2026-04-14T13:34:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unbelieveable that the protection we had for physical games has almost completely dissapeared when it comes to digital games."
+              },
+              {
+                "quote": "how do we as consumers trust buying things digitally if we cant be assured that we actually own what we bought."
+              },
+              {
+                "quote": "Many games are theathered to an internet connection and can not be played offline even the single player section off a game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12045,
+          "unit_kind": "feedback"
+        },
+        "text": "Im situated in skandinavia, and i still find it unbelieveable that the protection we had for physical games has almost completely dissapeared when it comes to digital games. How do we as consumers trust buying things digitally if we cant be assured that we actually own what we bought. And the fact that it can be taken away from us. Stop killing Games should be a law that protects the consumer and ensures that we actually own what we buy. Maby its about time that a reposatory for games that are no longer avalible is created and game companys and developers now have to make sure that we can still access the game we own even when they are \"sunset\". Many games are theathered to an internet connection and can not be played offline even the single player section off a game. Red Dead Redemption 2 is a perfect example. Why do i need to have a internet connection for a single player game. The Online portion i understand but even that can be made so that it is avalible too, but its put in the hands off those who bought the game (give them the option make there own server and keep the game alive, Forever. Do developers really want there hard work to dissapear into the ether never to be played again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.845768Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591173.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591173",
+    "chunks_doc_id": "F3591173",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

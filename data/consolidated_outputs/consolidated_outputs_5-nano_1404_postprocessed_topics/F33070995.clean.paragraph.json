@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33070995",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:22Z",
+    "finished_at": "2026-04-14T09:28:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "‘planned obsolescence’"
+              },
+              {
+                "quote": "despite the abandonment of the services by the company responsible for this."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25985,
+          "unit_kind": "feedback"
+        },
+        "text": "As one of the opponents of the voluntary destruction of digital creations by industries or known as ‘planned obsolescence’, I proclaim ‘The digital fairness act’ as a necessity for the protection of these achievements, by making them accessible to consumers who have acquired a copy, thus being able to continue using it and perpetuating their employment over time, despite the abandonment of the services by the company responsible for this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.490310Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33070995.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33070995",
+    "chunks_doc_id": "F33070995",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33070995.clean.paragraph.json"
+}

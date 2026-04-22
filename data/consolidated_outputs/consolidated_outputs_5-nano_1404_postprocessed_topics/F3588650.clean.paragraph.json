@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3588650",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:37Z",
+    "finished_at": "2026-04-14T13:24:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair practice of publishers destroying video-games they have sold to customers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If I buy a thing, I should own it forever."
+              },
+              {
+                "quote": "Video-games should be left in a functioning state after the publisher ends the support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22734,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to bring your attention to the unfair practice of publishers destroying video-games they have sold to customers. They sell the games which require a connection to a remote server in order to operate even if the game is for one player only, so no need to connect to other players. When the publisher decides to end the support for the game, they shut down the connection to the server, and the customers lose access to the video-game they purchased. The best example of this is the video-game The Crew which as been shut down in April of 2024. It required a connection to a remote server, and when the publisher decided, the game was rendered unplayable, even though customers purchased a game, and not a subscription. This practice is the equivalent of a book publisher going into a customer's home, taking all the copies of a purchased book away and burning them. We need protection against this practice. If I buy a thing, I should own it forever. Video-games should be left in a functioning state after the publisher ends the support. I am not asking for a publisher to support the game indefinitely, but when they end support the game should remain playable. How they enable that is up to them. For more detail please refer to the European Citizens Initiative - ECI(2024)000007 - Stop Destroying Videogames",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.665771Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588650.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588650",
+    "chunks_doc_id": "F3588650",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588650.clean.paragraph.json"
+}

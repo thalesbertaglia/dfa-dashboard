@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585082",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:40Z",
+    "finished_at": "2026-04-14T12:20:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Game Developers can currently make games that you have paid money for and own unplayable or if you have a digital only version of them, completely delete the game from your library,"
+              },
+              {
+                "quote": "an end of life plan for their games that allows the players to continue playing the game they own even after the product stops being supported."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25948,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like for you to consider adding one more point to this Digital Fairness Act. Video Game Developers can currently make games that you have paid money for and own unplayable or if you have a digital only version of them, completely delete the game from your library, without a chance for us as a consumer to do anything about it or the developer being punished for technically stealing a sold product from us. To protect digital consumer rights, game developers and publishers should be stopped from doing this, by making them create an end of life plan for their games that allows the players to continue playing the game they own even after the product stops being supported. The Stop Destroying Videogames initiative that is almost at an end of it's signing period has already gathered over 1,4 million signatures supporting some kind of legislative action on this, and the Digital Fairness Act could be one way to involve the goals of that initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.587438Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585082.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585082",
+    "chunks_doc_id": "F3585082",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585082.clean.paragraph.json"
+}

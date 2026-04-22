@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586187",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:58Z",
+    "finished_at": "2026-04-14T12:50:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the usual practice of some game publishers to restrict access to published video games"
+              },
+              {
+                "quote": "Any method by publishers of making a purchased game unplayable after publication should be prohibited."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13680,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for the opportunity to leave comments. I would suggest that another item be included. In my view, the usual practice of some game publishers to restrict access to published video games that are no longer profitable for them falls within the category of digital fairness. Publishers should not be able to restrict in any way games they no longer distribute themselves. This includes, for me, the online obligation of single player titles, but also efforts by third parties to operate private multi-player servers. Any method by publishers of making a purchased game unplayable after publication should be prohibited. Thanks!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.140076Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586187.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586187",
+    "chunks_doc_id": "F3586187",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586187.clean.paragraph.json"
+}

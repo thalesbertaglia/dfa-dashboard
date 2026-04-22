@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3590619",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:52Z",
+    "finished_at": "2026-04-14T13:34:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We deserve representation and a freedom of expression in creating our own video games."
+              },
+              {
+                "quote": "These organizations have attempted and at times succeeded to censor NSFW games and LGBT+ games, both of which could be strongly interconnected, as sexuality and gender are closely connected and lean more into the NSFW field."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20402,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to speak on behalf of the LGBTQ+ community about the DFA and Stop Killing Games initiative. We deserve representation and a freedom of expression in creating our own video games. I worry that the world is growing more hateful of us and of POC within digital media. There has been an uprising of communities, groups or even organizations of people built or created for the sole purpose of spreading hatred towards the LGBT+ and POC communities. These organizations have attempted and at times succeeded to censor NSFW games and LGBT+ games, both of which could be strongly interconnected, as sexuality and gender are closely connected and lean more into the NSFW field. I would like to request protection from these organizations and security for the creation, distribution and consumption of LGBTQIA+ media. We deserve representation and a peace of mind knowing that we are safe from being harassed and taken down by these hateful, hurtful and damaging groups of people. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.834057Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590619.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590619",
+    "chunks_doc_id": "F3590619",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

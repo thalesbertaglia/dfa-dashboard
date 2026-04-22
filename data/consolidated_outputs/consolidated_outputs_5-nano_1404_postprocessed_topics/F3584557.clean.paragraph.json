@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584557",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:40Z",
+    "finished_at": "2026-04-14T12:02:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some gaming companies are making decisions that take away access to games we purchased, which is wrong."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23335,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm a digital consumer and gamer. I believe we all should have the right to own what we paid for. Sadly, some gaming companies are making decisions that take away access to games we purchased, which is wrong. In my opinion, every company should design their game architecture in a way that allows the community to keep it alive after official support ends. We've seen what passionate communities can achieve when given the chance, and I believe this should be encouraged, not blocked.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.291555Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584557.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584557",
+    "chunks_doc_id": "F3584557",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584557.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584910",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:13Z",
+    "finished_at": "2026-04-14T12:14:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers/developers destroying the games they have bought."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the licenses can be easily revoked by publishers/developers whenever they feel like doing so."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18742,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, this initiative has some strong points and could definitely help path the way towards a better digital landscape. I would however like to see the addition of protecting consumers from video game publishers/developers destroying the games they have bought. In the current landscape it is possible of these companies to take away the ability to access and play video games that people have bought whenever these companies wish to stop supporting their games. This has lead to the disappearance of hundreds upon hundreds (if not more) of video games and people losing access to games they payed for. In addition to this I would also like to see more protections in regards to companies selling licenses to video games to consumers instead of receiving a copy of this game. With the current system the licenses can be easily revoked by publishers/developers whenever they feel like doing so. A better alternative is how Good Old Games handles this and gives customers an installer for a game they've bough with which they can do anything they want. The destruction of video games by publishers/developers and almost only being able to play video games through licenses, lead to a digital anti-consumer world where no one owns anything and nothing is preserved.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.497979Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584910.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584910",
+    "chunks_doc_id": "F3584910",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584910.clean.paragraph.json"
+}

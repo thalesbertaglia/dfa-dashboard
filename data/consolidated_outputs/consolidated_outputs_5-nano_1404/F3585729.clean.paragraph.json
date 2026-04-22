@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585729",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:01Z",
+    "finished_at": "2026-04-14T12:35:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the unjust practice of rendering legally purchased video games unplayable due to server shutdowns or revoked access"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Establish legal protections against unilateral license revocation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10370,
+          "unit_kind": "feedback"
+        },
+        "text": "I write to you today to advocate for the inclusion of the Stop Killing Games initiative within the scope of the Digital Fairness Act. This initiative addresses a growing concern among European consumers: the unjust practice of rendering legally purchased video games unplayable due to server shutdowns or revoked access. It is fundamentally unfair that consumers who have paid for a digital product can later be denied access to itnot because of misuse or license expiration, but because the publisher has chosen to discontinue support. This practice undermines the very notion of digital ownership and consumer trust. The Crew (Ubisoft) is a notable example: Despite being primarily a single-player racing game, The Crew required a constant internet connection. In 2024, Ubisoft shut down its servers and revoked licenses, making the game completely unplayableeven for those who had purchased it. In complete contrast you have Knockout City (Velan Studios): Upon closure, developers took the commendable step of releasing tools for players to host private servershighlighting that alternatives are possible. Why This Matters: 1) Consumer Rights: A purchased product should remain accessible. Revoking access post-sale is akin to repossessing a book or film after purchase, or worse; burning them in a purge. 2) Cultural Preservation: Games are modern cultural artifacts. Their loss is a loss to history, art, and education. 3) Transparency and Accountability: Consumers deserve clear information about a game's lifecycle and post-support options. Suggested Provisions 1) Mandate offline modes or self-hosted server options for games sold in the EU. 2) Require publishers to disclose end-of-life plans at the point of sale. 3) Establish legal protections against unilateral license revocation. The Digital Fairness Act is a powerful vehicle for restoring balance between consumers and digital publishers. Including the Stop Killing Games initiative would ensure that fairness extends to the digital entertainment we cherish and invest in. Thank you for your attention and leadership in protecting digital rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.892759Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585729.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585729",
+    "chunks_doc_id": "F3585729",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

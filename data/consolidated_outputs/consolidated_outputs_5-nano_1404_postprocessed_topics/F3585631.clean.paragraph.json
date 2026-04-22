@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585631",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:03Z",
+    "finished_at": "2026-04-14T12:32:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns and intentionally addictive design"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13188,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, I think the Digital Fairness Act has chosen to target some very important issues in todays digital space, especially dark patterns and intentionally addictive design (in video games and other applications, such as dating apps). I would like to suggest the inclusion of something concerning ownership of video games (and any microtransactions included in said games) after sale, as some publishers/developers make products consumers have bought completely inaccessible/nonfunctional, some time after sale. I'm not suggesting that publishers and developers have to maintain their games or servers indefinitely, only that the consumer has a reasonable way of accessing the content that they have purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.842450Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585631.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585631",
+    "chunks_doc_id": "F3585631",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585631.clean.paragraph.json"
+}

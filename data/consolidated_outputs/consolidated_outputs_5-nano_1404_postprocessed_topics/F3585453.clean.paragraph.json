@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585453",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:53Z",
+    "finished_at": "2026-04-14T12:28:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumer unfriendly gaming companies"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pull ownership of digital products from under the user or alter digital products to become unusable after a certain period of time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19979,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as a citizen of the United States, I know I am not a member of the European Union. I would like to say that the Digital Fairness Act has lasting rammifactions outside the EU as well such as the United States. I believe that should the act regulate digital purchases and ownership, that exploitation, such as by payment processing companies and consumer unfriendly gaming companies, may be resolved. Many companies have it within their right to pull ownership of digital products from under the user or alter digital products to become unusable after a certain period of time. I and many others only ask that the act regulate digital ownership in order to resolve this lingering issue so that everyone may have a fair and equitable time purchasing digital goods. After all is it not true that a store cannot take back an apple from a consumer once it has been purchased and paid for?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.751006Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585453.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585453",
+    "chunks_doc_id": "F3585453",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585453.clean.paragraph.json"
+}

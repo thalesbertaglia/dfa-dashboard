@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584914",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:20Z",
+    "finished_at": "2026-04-14T12:14:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games could easily be included as a point due to being a mostly digital product these days."
+              },
+              {
+                "quote": "Many publishers for games have shut down servers for games that can only be played on said servers making your copy of the game useless,"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "buried near hidden clauses in their terms of service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28805,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel like video games could easily be included as a point due to being a mostly digital product these days. Many publishers for games have shut down servers for games that can only be played on said servers making your copy of the game useless, a few of these publishers have buried near hidden clauses in their terms of service that should they no longer support the game you have to destroy your copy of said game, I feel this is stepping over the line when it comes to digital fairness since it isn't clearly stated when purchasing their product. To ensure fairness of purchased digital goods and video games there's a citizens initiative going over this in \"Stop Destroying Videogames\" in where 1.4 million signatures have been collected from EU citizens to support the idea of publishers having to impliment some form of end of life plan for games, this is to ensure that the product purchased can still be used after the publishers are no longer capable/willing to support the product. Video games that are a rather new form of entertainment compared to other forms seem to sit in a grey zone for legislation and what is allowed which causes publishers of video games to resort to practises that are not fair to the consumer in order to increase their revenue and profits at the expense of the consumer, this has only seemed to increase since the video games could be purchased and downloaded digitaly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.499868Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584914.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584914",
+    "chunks_doc_id": "F3584914",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584914.clean.paragraph.json"
+}

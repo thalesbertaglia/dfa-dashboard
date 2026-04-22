@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3589163",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:50Z",
+    "finished_at": "2026-04-14T13:30:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games which I once paid money for are no longer accessible to me because they have been delisted and/or the servers have been taken offline."
+              },
+              {
+                "quote": "since I paid money for a product I should still be able to use it in some form."
+              },
+              {
+                "quote": "Please review and hopefully change these shady practices of the video game industry to take games away from the consumer under the Digital Fairness Act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15402,
+          "unit_kind": "feedback"
+        },
+        "text": "I want to bring attention to the fact that video games which I once paid money for are no longer accessible to me because they have been delisted and/or the servers have been taken offline. To my understanding, since I paid money for a product I should still be able to use it in some form. I didn't sign up for a subscription service or a time limited plan, neither did I lease these games. I plain and simple bought them with cash and am no longer able to play them in any shape or form. Please review and hopefully change these shady practices of the video game industry to take games away from the consumer under the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.763753Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589163.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589163",
+    "chunks_doc_id": "F3589163",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589163.clean.paragraph.json"
+}

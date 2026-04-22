@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586076",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:02Z",
+    "finished_at": "2026-04-14T12:46:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in digital purchases within video games"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "systems and designs that promote addiction through spending"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33417,
+          "unit_kind": "feedback"
+        },
+        "text": "The ‘destruction’ of video games already sold to a public interested in them has (regrettably) normalised among the majority of codicous companies. They do not strive to make a video game that is interesting or good enough to make the price so discarded with that which ends up on the market (a good example of this is the recent failure of ‘Mindseye’) and hope that we will spend more money on services within those video games in such a way as to connect us as if it were a casino, rather than engaging us through an attractive gameplay. These services are the only important thing for this type of company to decide whether or not to support the support of this video game, the money it receives from consumers, which again leads us to the ‘demolition’ of video games that are worth worth but do not see the light of the day again because they have not won as much paste to these companies as they expected. To a large extent, it would help consumers to endorse this initiative, as it could lead to the inclusion of protection by publishers in digital purchases within video games and the abolition or regulation of systems and designs that promote addiction through spending.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.071888Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586076.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586076",
+    "chunks_doc_id": "F3586076",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584574",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:18Z",
+    "finished_at": "2026-04-14T12:02:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers of games should be clearer about how long their games can be used."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15323,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir, I think this initiative seems very good when it comes to upholding our rights as consumers. A further point I would recommend is that publishers of games should be clearer about how long their games can be used. More and more recently, games, which people thought they bought as a product they can retain, are being completely dismantled by the publisher. I think it would really be good if publishers had to contribute to a clear life expectancy at gaming, and to avoid the word ‘purchase’ when they really believe that the product can be rented for a certain number of years.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.300152Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584574.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584574",
+    "chunks_doc_id": "F3584574",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584574.clean.paragraph.json"
+}

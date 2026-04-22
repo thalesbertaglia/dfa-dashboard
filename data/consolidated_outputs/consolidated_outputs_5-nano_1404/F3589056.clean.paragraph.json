@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3589056",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:41Z",
+    "finished_at": "2026-04-14T13:29:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently there is a lack of clarity as to what exactly is bought when a customer buys a game."
+              },
+              {
+                "quote": "clear language as to what kind of product is being sold"
+              },
+              {
+                "quote": "the neccesary data to privately host the game is made available"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40635,
+          "unit_kind": "feedback"
+        },
+        "text": "Currently there is a lack of clarity as to what exactly is bought when a customer buys a game. Customer expectation is that digital gaming products are bought as a whole product, akin to how a boardgame is bought and can then be played after support from the company has ceased, or even beyond the lifetime of the company who creates and/or distributes the product. Certainly digital games are rarely marketed as buying a temporary product, or access to a server while it more and more often is what it comes down to. I think that it is important that this is addressed in this act. The easiest way to solve this issue would be requiring clear language as to what kind of product is being sold, and what that means for lifetime expectations. The most preferable way would be that part of buying a license to a gaming product being that at the end of the lifetime of the game, the neccesary data to privately host the game is made available, and the game updated to support that.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.740912Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589056.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589056",
+    "chunks_doc_id": "F3589056",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

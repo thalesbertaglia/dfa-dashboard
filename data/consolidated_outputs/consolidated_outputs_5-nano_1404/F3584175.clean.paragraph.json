@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584175",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:05Z",
+    "finished_at": "2026-04-14T11:51:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "removing or disabling games"
+              },
+              {
+                "quote": "online-only games that become unplayable when servers shut down"
+              },
+              {
+                "quote": "titles removed from stores so they can no longer be downloaded"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26322,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a great first step. One suggestion is that the commission consider the Digital Fairness Act to include additional protection for consumers who purchase video games. In short, many publishers and platforms have started removing or disabling games. Often, this happens without warning and with no alternative way to access and the product, or refund provided. At time of writing, over 100 digital games have been made obsolete - this includes online-only games that become unplayable when servers shut down, or titles removed from stores so they can no longer be downloaded. To combat this, the Stop Destroying Videogames European Citizens Initiative has been set up to call for legislation to prevent the destruction of videogames and protect consumer digital rights. This initiative has already gathered over one million signatures from EU citizens. Thank you for your consideration",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.111103Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584175.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584175",
+    "chunks_doc_id": "F3584175",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

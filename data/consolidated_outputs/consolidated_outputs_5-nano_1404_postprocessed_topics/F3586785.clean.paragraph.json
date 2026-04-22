@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586785",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:33Z",
+    "finished_at": "2026-04-14T13:03:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the matter of videogames."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remove an access to them on a whim."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23815,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I am a gamer from Poland and would like you to consider within this initiative the matter of videogames. Many big companies started a trend of making us pay for games and saying we don't own them. In my country games are expensive and it is not consumer friendly to publish a title, make you pay for it and remove an access to them on a whim. Companies like Ubisoft, EA, and even Blizzard has lost their way and have become a greedy institutions, making money without a concern for their customers. Please look into this issue and update the initiative for more fair and consumer friendly environment. If you need evidence please see this link that shows how much damage some companies are doing: https://stopkillinggames.wiki.gg/wiki/Dead_game_list",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.345777Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586785.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586785",
+    "chunks_doc_id": "F3586785",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586785.clean.paragraph.json"
+}

@@ -1,0 +1,74 @@
+{
+  "doc_id": "F33095444",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:00:07Z",
+    "finished_at": "2026-04-14T10:00:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection against the withdrawal of in-circulation computer games should be put in place solely because publishers require the termination of their online services."
+              },
+              {
+                "quote": "Providing binaries that can ensure that the user community can continue to use the product would be a good way to do so, for games created in the future."
+              },
+              {
+                "quote": "Complete prohibition of the use of singleplayer games for the same reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12453,
+          "unit_kind": "feedback"
+        },
+        "text": "In order to promote consumer-friendly practices, protection against the withdrawal of in-circulation computer games should be put in place solely because publishers require the termination of their online services. Providing binaries that can ensure that the user community can continue to use the product would be a good way to do so, for games created in the future. Complete prohibition of the use of singleplayer games for the same reason.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.727833Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095444.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095444",
+    "chunks_doc_id": "F33095444",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

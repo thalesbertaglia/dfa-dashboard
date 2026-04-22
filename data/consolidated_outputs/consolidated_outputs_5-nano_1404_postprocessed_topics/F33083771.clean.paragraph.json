@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33083771",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:59Z",
+    "finished_at": "2026-04-14T09:31:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game publishers increasingly ask us to buy games and then do not own them, or may prevent us from accessing them when they decide to do so."
+              },
+              {
+                "quote": "When paying for a product and not for a subscription, it seems clear that we should be able to own that product in perpetuity."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19325,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game publishers increasingly ask us to buy games and then do not own them, or may prevent us from accessing them when they decide to do so. When paying for a product and not for a subscription, it seems clear that we should be able to own that product in perpetuity. However, this is no longer the case with many new video games exiting the market. Would it be possible to regulate these practices in order to guarantee buyers’ rights and allow them to take advantage of their product as they see fit?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.548562Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33083771.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33083771",
+    "chunks_doc_id": "F33083771",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33083771.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585023",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:15Z",
+    "finished_at": "2026-04-14T12:18:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A notable example is Ubisofts game called: The Crew."
+              },
+              {
+                "quote": "instead of spending 100+ euros on a liscence of a game that could be taken away any day without much prior warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16010,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act should include clear protections for consumers to ensure continued access to the digital media we have purchased. There have been numerous instances where users lost access to their purchased digital products, simply due the companies deciding it is no longer viable to maintain. A notable example is Ubisofts game called: The Crew. The legislation should require companies to provide ways for consumers to continue using their purchased media, even after official support ends, instead of spending 100+ euros on a liscence of a game that could be taken away any day without much prior warning.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.558114Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585023.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585023",
+    "chunks_doc_id": "F3585023",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

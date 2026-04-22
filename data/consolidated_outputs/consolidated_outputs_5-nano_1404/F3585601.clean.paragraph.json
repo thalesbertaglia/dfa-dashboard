@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585601",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:18Z",
+    "finished_at": "2026-04-14T12:31:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory developer practices like artificial online requirements for single player games and other similar practices."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect video game customers (and software in general) from predatory developer practices like artificial online requirements for single player games and other similar practices."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In essence, purchasing is not the same as renting so if I have a compatible system for the software (developers shouldn't have to support software forever), I should still be able to play the offline parts forever."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26687,
+          "unit_kind": "feedback"
+        },
+        "text": "I'd like the Digital Fairness Act to protect video game customers (and software in general) from predatory developer practices like artificial online requirements for single player games and other similar practices. These are used as kill switches to kill software that customers purchased and paid for, to push them into buying later iterations of the game. An analogy would be that you buy a car and secretly, the manufacturer remotely breaks the car irreparably after a handful of years. In essence, purchasing is not the same as renting so if I have a compatible system for the software (developers shouldn't have to support software forever), I should still be able to play the offline parts forever. It shouldn't break just because they turn off a program that answers a phone home function in the software. Thanks and I hope you take this into consideration!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.822737Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585601.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585601",
+    "chunks_doc_id": "F3585601",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

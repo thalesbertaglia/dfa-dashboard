@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584260",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:33Z",
+    "finished_at": "2026-04-14T11:53:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "part that modern video-games play, a kind of purchase where large publishers are free to revoke access to, and to retroactively destroy and make them unplayable for their customers for any reason at any moment they feel like under the pretense of ending a service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9607,
+          "unit_kind": "feedback"
+        },
+        "text": "I am just a simple citizen with no legal education. Reading this proposed initiative about digital fairness leaving out a major gap in the digital goods market is saddening me. I am of-course talking about the part that modern video-games play, a kind of purchase where large publishers are free to revoke access to, and to retroactively destroy and make them unplayable for their customers for any reason at any moment they feel like under the pretense of ending a service. I'd love if this initiative could take on that issue as well and work towards a fair legal procedure for the protection of video-games purchased by consumers as to not have them be at the mercy of the respective games publishers anymore but instead define clear rights they might have. Kind regards, Kevin Sommerfeld",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.148966Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584260.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584260",
+    "chunks_doc_id": "F3584260",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

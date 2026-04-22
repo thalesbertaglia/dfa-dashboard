@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584717",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:25Z",
+    "finished_at": "2026-04-14T12:07:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "prevention for video games that have already been sold to customers to the Digital Fairness act so that companies cannot take the product they've sold just because they are shutting down services to coerce customers to buy their newer products"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24201,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Im someone whos lived his entire live in Europe, im from a country where theres very little that truly interests me, except for video games, they're my form of escape and joy and have been for a big chunk of my life. So I kindly ask that you add the prevention for video games that have already been sold to customers to the Digital Fairness act so that companies cannot take the product they've sold just because they are shutting down services to coerce customers to buy their newer products I believe this is where the digital fairness act can also add more protections for the medium along with the Consumers Initiative \"Stop Destroying Videogames\" that has already reached 1.5m Signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.370252Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584717.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584717",
+    "chunks_doc_id": "F3584717",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584717.clean.paragraph.json"
+}

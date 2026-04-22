@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3588383",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:20Z",
+    "finished_at": "2026-04-14T13:24:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Blizzard reserves the right to terminate this Agreement at any time for any reason, or for no reason, with or without notice to you."
+              },
+              {
+                "quote": "any right you may have had to any pre-purchased Game access or virtual goods, such as digital cards, currency, weapons, armor, wearable items, skins, sprays, pets, mounts, etc., are forfeit, and you agree and acknowledge that you are not entitled to any refund for any amounts which were pre-paid on your Account prior to any termination of this Agreement."
+              },
+              {
+                "quote": "they dont own games."
+              },
+              {
+                "quote": "\"Buy\" when you make a transaction for a game."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory and addictive gambling that is allowed in many games that target the most vulnerable and important members of society - namely children."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "massive overreach that huge payment processing corporations like Visa and Mastercard have in dictating what can be bought or sold in online stores like Steam or Itch.io site."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46999,
+          "unit_kind": "feedback"
+        },
+        "text": "As much as positive leap the Digital Fairness act is I think that there is a crucial aspect it is missing. Right now the consumer has almost no rights in regards to content like games that they bought. All the power rests in hands of the publishers of games, for example Blizzard EULA states \"Blizzard reserves the right to terminate this Agreement at any time for any reason, or for no reason, with or without notice to you. [...] In the event of a termination of this Agreement, any right you may have had to any pre-purchased Game access or virtual goods, such as digital cards, currency, weapons, armor, wearable items, skins, sprays, pets, mounts, etc., are forfeit, and you agree and acknowledge that you are not entitled to any refund for any amounts which were pre-paid on your Account prior to any termination of this Agreement.\". So a consumer could spent hundreds or even thousands of Euro on digital content in Blizzard's game World of Warcraft and it all can just be taken, banned or blocked for any reason they think up. Blizzard already used it's EULA to justify canelling or \"killing\" their game Overwatch that sold over 50 milion copies just so that they can profit from Overwatch 2. But the consumers that already bought the game that they just destroyed, cannot access the content that they payed. Another example of publisher overreach is Ubisoft open stance that the customers need to understand that they dont own games. But their storefront clearly states \"Buy\" when you make a transaction for a game. Ubisoft also \"killed\" the game called \"The Crew\" that had many single player components that consumers across the world enjoyed and now cannot access forever due to the fact they (Ubisoft) wanted bigger sales on \"The Crew 2\" I do not expect for the publisher to run the game servers forever because that is not feasible BUT there need to be control of these processes. Possible avenues that could be implemented are: a) a defined expiration date for a game. b) a defined end of life plan for a game after the publishers support ends c) enabling a way for the consumers to keep running the game servers by the consumers at their own expense and risk by sharing server binaries as done by many older games example. \"Star Wars Galaxies\" d) making games in such a way so that they dont require constant internet connection to access the single player content Yet another aspect not covered by the Digital Fairness Act of the online world is the massive overreach that huge payment processing corporations like Visa and Mastercard have in dictating what can be bought or sold in online stores like Steam or Itch.io site. If the product is legal what right do the payment processors have in dictating the Eu citizens buying and spending. Another aspect of publisher overreach is almost unchecked, predatory and addictive gambling that is allowed in many games that target the most vulnerable and important members of society - namely children. Games such as \"League of Legends\", \"Overwatch\", \"Star Wars Battlefront\" and many more are games that are played by the underage that often cannot resist such strong temptations. Even for adults it is often difficult and ruining aspect of gaming. I am happy that is one of the aspectc that the Digital Fairness Act is addressing, I hope it will be as punishing and as restrictive as possible to manipulate people with these practices as possible. There needs to be created some regulations in these aspects as right now almost all the power lies with the companies and publishers with the consumer being massively on the losing side with almost no protections.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.644298Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588383.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588383",
+    "chunks_doc_id": "F3588383",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588383.clean.paragraph.json"
+}

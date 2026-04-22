@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585384",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:29Z",
+    "finished_at": "2026-04-14T12:26:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "removal of video games from digital platforms."
+              },
+              {
+                "quote": "loss of access to a game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24602,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to advocate for stronger consumer protection against the ongoing and widespread removal of video games from digital platforms. This issue has persisted for several years and continues to affect countless consumers, including myself. I have personally experienced the loss of access to a game, for example: \"Battlefield: Bad Company 2\" which was removed from digital libraries despite being paid for. Unless one owns a physical copy, there is now no legal way to play the game. Practices like this raise serious concerns about consumer rights and digital ownership. Unfortunately, the video game industry, still relatively young and loosely regulated, has taken advantage of these legal grey areas. Many people share this concern, as reflected in the growing support for the \"Stop Destroying Games\" movement. There is a clear consensus that consumer protection laws must be extended and enforced within the gaming industry to prevent further loss of purchased content. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.712339Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585384.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585384",
+    "chunks_doc_id": "F3585384",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

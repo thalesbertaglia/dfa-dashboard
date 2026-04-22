@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3586948",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:32Z",
+    "finished_at": "2026-04-14T13:06:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please consider also protecting video games as well."
+              },
+              {
+                "quote": "Games are up to 90 a piece and our access to them is on the whims of the publisher."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As is the EULA of sold products dictate that the publisher may terminate already sold services on a whim."
+              },
+              {
+                "quote": "In a nutshell we do not own the products we buy, which is leaves a bad taste in many consumer mouths."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21752,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider also protecting video games as well. As is the EULA of sold products dictate that the publisher may terminate already sold services on a whim. In a nutshell we do not own the products we buy, which is leaves a bad taste in many consumer mouths. Games are up to 90 a piece and our access to them is on the whims of the publisher. There is a grassroots movement called \"Stop killing games\" going on in EU that tries to remedy this. Please help us.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.393870Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586948.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586948",
+    "chunks_doc_id": "F3586948",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586948.clean.paragraph.json"
+}

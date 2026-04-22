@@ -1,0 +1,93 @@
+{
+  "doc_id": "F33096170",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:34:19Z",
+    "finished_at": "2026-04-14T10:35:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They redefined the meaning of \"Buying\" by removing ownership and replacing it with a user licence."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deceptive design like lootboxes"
+              },
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "which are mainly employed by the mobile games industry."
+              },
+              {
+                "quote": "In Diablo Immortal a player can spend over 100000 to level up a character fully."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49555,
+          "unit_kind": "feedback"
+        },
+        "text": "I´m a game developer with over 20 years of industry experience in design and involved in various game preservation efforts. Part 1: General Digital Fairness Feedback -------------------------------------------------------- Once upon a time when you bought games, movies or music on physical media you traded money for owning a product. This principle was true for a long time. But then media became digital and this transition was used by corporations who ran digital stores (Steam, Appstores etc) and publishers to strip away the rights of consumers. They redefined the meaning of \"Buying\" by removing ownership and replacing it with a user licence. However this small change had a huge impact, it gave the corporations alot more power over the products they sold. They now had full control over what the consumer could or couldnt do with the product they \"bought\". If Steam & Co ban your account, you lose access to all the products you have \"bought\". As an added bonus for the corportations, this change also meant that the consumer wasnt able anymore to resell the product they bought. Want your kid to inherit your game collection? Tough luck, the digital licences dont allow that, your kid will have to rebuy everything! The digital gaming space is being controlled by a few powerful companies, Apple (monopoly) and Google (quasi monopoly) for mobile, Steam (quasi monopoly) on PC, Playstation Network, Nintendo Store, and the Microsoft Store on console. Over the years those corporations found ways to slowly erode consumer rights via their licencing terms. It is time that EU pushes back against this. Part 2: Addictive Design Feedback ---------------------------------------------- As a longtime designer, I´m still surprised that to this day the EU allows companies to get away with deceptive design like lootboxes etc, which are mainly employed by the mobile games industry. Please have a look at this video for an example where someone analyses a mobile game with countless dark patterns and very deceptive design: https://youtu.be/o17lBUZgjTs Those \"games\" are basically digital drugs, they use countless psychologial tricks and dark patterns to get the user to spend money. In Diablo Immortal a player can spend over 100000 to level up a character fully. Why is it allowed to psychologically manipulate a consumer in a game when in real life this would be criminal? How is a digital drug that masquerades as a game any different from an actual drug? Unfortunately the employed tricks are very effective and make those companies alot of money, which then leads to other companies copying that bad model. This is ultimately a detriment to games and consumers. And worse of all - it can have real life effects, as can be seen in this 3 part documentary about Valve´s involvment in gambling and how it lead to real life \"gang\" wars: https://www.youtube.com/watch?v=q58dLWjRTBE https://www.youtube.com/watch?v=v6jhjjVy5Ls https://www.youtube.com/watch?v=13eiDhuvM6Y But just to be clear here, the basic mechanics and tricks those games use are not a problem per se, they only become a problem once money is involved. So im advocating for banning those mechanics from games if they arent transparent and employed to extract maximum money from consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.830049Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33096170.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33096170",
+    "chunks_doc_id": "F33096170",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33096170.clean.paragraph.json"
+}

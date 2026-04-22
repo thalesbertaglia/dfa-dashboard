@@ -1,0 +1,77 @@
+{
+  "doc_id": "F32844809",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:27:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "provide online presence and the possibility of playing online with subscriptions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21773,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games and other media content are not only digitally available but also physically accessible with the right infrastructure. As an additional option, it is possible to convert physically purchased games into digital (account-assigned) or vice versa in a clear and functional way. The primary objective of this would be to ensure its long-term preservation or transmission in the same way as for a non-digital product. Given that companies manufacturing and marketing different game consoles provide online presence and the possibility of playing online with subscriptions, a player playing only offline would not have to subscribe or appear online to launch a purchased game when buying a game. If the manufacturer does not provide a fully-fledged online present without a subscription, it should also be able to buy and start games offline when selling the toys. The user should be given the possibility to subscribe to and make conditional access to the purchased content with that provider or to do the same offline on a physical console and data carrier.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.443185Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844809.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844809",
+    "chunks_doc_id": "F32844809",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3589551",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:42Z",
+    "finished_at": "2026-04-14T13:31:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "Battleborn game completely inoperable when they closed down the game services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17359,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a good initiative that I support and thank you for working on it. If possible, I would like to see a paragraph added concerning the ownership of software (such as video games) sold on the internet. As is the case today, businesses can close down services that make the product inoperable. For me personally, the Gearbox Software made the Battleborn game completely inoperable when they closed down the game services. Probably because it was not sufficiently profitable. I had bought a licence for the game via the Steam platform.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.797718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589551.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589551",
+    "chunks_doc_id": "F3589551",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589551.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589391",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:13Z",
+    "finished_at": "2026-04-14T13:31:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these identity verification providers frequently use the following dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair Terms of Service of the identity verification provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38089,
+          "unit_kind": "feedback"
+        },
+        "text": "In regards to recent pushes in member states of the EU for \"age verification\" mandates for age-restricted content: The identity verification providers will propose to collect, on behalf of the end-user, personnal identity information in the form of legal documents (driver's licence, ID card, passport...) or a \"video selfie\" (using a camera to take a video of a person's face). Disregarding that these providers are _not_ required to be domiciliated in the EU, and as such, are bound to non-EU law if their servers are located outside the EU. Disregarding that these pushes incentivize _all_ websites to implement identity verification checks, rather than face huge fines in case of adult content \"slipping through the cracks\" and not being properly moderated. We focus on the fact that in order to minimise the extent of the intrusion on the end-users' personnal information, and instil confidence in the service, these identity verification providers frequently use the following dark patterns. Unknowingly Granting Permissions: the identity verification providers do not disclose clearly the breadth of personnal information gathered. The user might be required to transmit information from the NFC chip on their passport, without knowing that this chip stores biometric information and with no disclosure that they are providing personnal biometric information to the identity verification providers. The same goes for a video selfie, which might be presented as \"one-time age-verification\" but is in fact biometric information being stored, not just checked once. Obfuscation Through Legalese: the Terms of Service of identity verification providers do not make it clear that _all_ end-user personnal and biometric information shared with the provider can be accessed in its entirety by the business customers of the provider. Only reading the provider's technical API specifications for business customers reveals this. Even if the information is stored on the end-user device and not stored remotely by the provider, authorizing an identity verification check will still decrypt that information and make it available to the business customer for the duration of the verification check, with _no requirement_ that the business customer refrain from subsequently storing that personnal information. It does not either require that a business customer abide by GRPD personnal information deletion requests made by the end-user to the provider, as the business customer is a separate entity, without this being made clear to the end-user in the Terms of Service. Buried data-sharing: the end-users do not have easy toggles to chose which information to share; rather, it is an \"all-or-nothing\" situation. When the end-user accepts to share personnal data for identity verification purposes, business customers of the identity verification providers can access _all_ the data of the end-user. Data Misuse through Unfair Contractual Obligations: when using the service of the identity verification provider, the end-user is prompted, in the last step and after sinking significant time gathering the required personnal information, to disclose this information to a \"human agent\" for verification. This human agent is _not_ required to be an employee of the provider directly, but rather can be a contractual worker from a non-EU country being asked to review the contents of ID cards, passports, or biometric information. This exposes the end-user to identity theft with little recourse against the identity verification providers, as the responsibility for the breach of personnal data confidentiality can be solely attributed to the contractual worker through the unfair Terms of Service of the identity verification provider. The Digital Fairness Act is a push in the right direction to require that these identity verification providers disclose fairly and clearly to who and to what extent it gives access to personal information.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.787778Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589391.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589391",
+    "chunks_doc_id": "F3589391",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589391.clean.paragraph.json"
+}

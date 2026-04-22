@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586262",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:09Z",
+    "finished_at": "2026-04-14T12:52:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogame publishers have the right to sell a game as a one-time sale and then take it away from consumers when it is deemed convenient for the company."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a license which can be revoked at any time for any reason or no reason at all"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35101,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act covers a good amount of ground but I wish to recommend that it widens it's range to protect the costumers of videogames. Videogame publishers have the right to sell a game as a one-time sale and then take it away from consumers when it is deemed convenient for the company. It may come about due to licenses being expired or such, like a popular car brand in a racing game. It may also come about due to the game being multiplayer and not having enough people playing to justify to cost of running the servers for it. Consumers should be given tools to create their own servers after the company has lost interest in it, and for consumers to be able to play the videogames with expired licenses since they paid the agrred upon price for it. Keep in mind these two examples are not exhaustive. Personally, I had owned a videogame called Dark and Darker -which admittedly was given for free during a giveaway by Epic Games- which I one day received a notification for, informing me it will be removed from my library. In the Terms of Service section of many popular videogame vendors (Epic Games store, the EA app, Ubisoft Connect), it is explicitly stated that the purchaser does not own the game, but rather a license which can be revoked at any time for any reason or no reason at all, often without a refund. I kindly ask that you take the videogame market into consideration for the Digital Fairness Act as well. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.181066Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586262.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586262",
+    "chunks_doc_id": "F3586262",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

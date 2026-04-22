@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585864",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:21Z",
+    "finished_at": "2026-04-14T12:40:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers disabling or \"killing\" games that have already been sold."
+              },
+              {
+                "quote": "deactivating the servers necessary for these games to function"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46391,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to you as a concerned EU citizen to provide feedback on the Digital Fairness Act. I respectfully request that you consider adding a provision to protect consumers from the practice of video game publishers disabling or \"killing\" games that have already been sold. When we purchase a video game, we have a reasonable expectation of being able to play it for the foreseeable future. When games require network and server infrastructure to provide an online, multiplayer experience, it is reasonable to expect that at some point it is no longer profitable to provide that infrastructure, and that the online, multiplayer aspect of the game will cease to function. However, a growing trend sees publishers requiring online infrastructure even for single-player modes or even purely single-player games, then after a few years deactivating the servers necessary for these games to function, rendering our purchases worthless. This feels like a deeply unfair practice that undermines our rights as consumers. For example, titles like Microsoft Flight Simulator 2020 and 2024, or Elite: Dangerous, depend on online services to function, even for a purely single-player experience. If their publisher decides these servers are no longer profitable to maintain, the complex and expensive products will be rendered unusable. This will affect thousands, if not hundreds of thousands of EU citizens. Including protections against this practice in the Digital Fairness Act would be a crucial step towards ensuring that the digital marketplace is fair and that our purchases are respected long after the transaction is complete. I do not ask that publishers be required to provide expensive server infrastructure indefinitely. A more reasonable requirement could be to release the required server software and data to the public, so that we as their customers could run them on our own infrastructure to keep the games alive. Thank you for your time and for considering this important aspect of consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.960471Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585864.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585864",
+    "chunks_doc_id": "F3585864",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

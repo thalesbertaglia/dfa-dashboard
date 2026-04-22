@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585347",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:41Z",
+    "finished_at": "2026-04-14T12:26:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability to remotely disable games that were initially advertised as products."
+              },
+              {
+                "quote": "These games are advertised as one time purchase product that have an undisclosed timeframe support."
+              },
+              {
+                "quote": "they decided to pull support for their games and in turn making the product effectively unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23576,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider the unfair practice that gaming companies/publishers (such as EA, Ubsoft, Blizzard and others) wherein they have the ability to remotely disable games that were initially advertised as products. These games are advertised as one time purchase product that have an undisclosed timeframe support. After a certain time, determine by these companies, they decided to pull support for their games and in turn making the product effectively unplayable. There are two good examples of this which is the game 'The Crew' published by Ubisoft which stopped support for the game and in turn made the game unplayable as they had not patched out any services that had to call to their servers for information to which the game could not run without. Additionally, this game has core gameplay is essentially a single player game that had some multiplayer elements attached to it making it unplayable without these multiplayer elements at end of life. Another good example is the game 'Anthem' published by EA. EA is pulling support for this game in January 12, 2026 and will become unplayable unless EA makes certain patches to the game to remove any calls to their servers. While this game is advertised as a multiplayer game this can be played alone and shouldn't require server calls to continue to function. Additionally, multiplayer can be still incorporated at end of life without the need to call to their servers. These two games are only the most recent examples as there many more games that end up becoming unplayable. I'm currently in support of the EU initiative to \"Stop Destroying games\" which at the time of writing this has amassed 1.4 million signatures from all of the EU. I fully support this initiative and would like this to be a consideration for the digital fairness act. To clary, I do not wish games that are MMO like world of warcraft or Final fantasy 14 which clearly have a month subscription for server access to be considered for thas these are not one-time purchases but subscriptions however there is evidence to show that even these games have the ability to be supported at end of life. The aim here is not to have publishers support their games ad infinitum but rather that when publishers decide that the game is too costly for them to support themselves that they have an end of life patch or system in place so the game can be played in a reasonable sense.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.691193Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585347.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585347",
+    "chunks_doc_id": "F3585347",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585347.clean.paragraph.json"
+}

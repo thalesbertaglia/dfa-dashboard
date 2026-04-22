@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586721",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:36Z",
+    "finished_at": "2026-04-14T13:03:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I was the owner of The Crew, a video game that ceased to work entirely due to the avarisation of its creators,"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The future is increasingly felt as a place where you must be connected to the internet, and where everything you need will be paid by subscription and will be purely digital."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the game disc is now a playground, even when it had a good playing history, it was decided to leave the players without anything when they were no longer profitable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35592,
+          "unit_kind": "feedback"
+        },
+        "text": "Honestly, large companies that treat the consumer as a tone give me a lot of rabies. My feedback is to take into account the destruction of video games (and other digital content) and encourage you to continue doing everything they do. Anyone fighting for consumer rights is an ally. I was the owner of The Crew, a video game that ceased to work entirely due to the avarisation of its creators, so the game disc is now a playground, even when it had a good playing history, it was decided to leave the players without anything when they were no longer profitable. The future is increasingly felt as a place where you must be connected to the internet, and where everything you need will be paid by subscription and will be purely digital. It is sad and clearly designed to suppress us all. I am afraid and feeling powerless. Thank you for reading, do what you should like to do.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.331153Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586721.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586721",
+    "chunks_doc_id": "F3586721",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

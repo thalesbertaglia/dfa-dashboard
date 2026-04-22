@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585345",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:40Z",
+    "finished_at": "2026-04-14T12:26:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in particular video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I do not therefore buy a product, but only a temporary licence for use, which can be withdrawn unilaterally and without any legal claim."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22191,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and gentlemen, I would like to warmly welcome the Digital Fairness Act, but see a key issue as yet insufficiently addressed: protecting consumers from the arbitrary shutdown of paid digital products, in particular video games. As players, we are increasingly seeing that digital products for which we have regularly paid are rendered unusable after a short period of time. Online force, lack of offline modes and server mechanisms mean that a game that I buy is no longer open once the provider decides to pull the plug. This is not only a massive consumer protection problem, but also a cultural catastrophe. The Stop Killing Games project highlights this maladministration: Video games are a cultural good, but unlike books or films, I, as a buyer, have no possibility to archive or re-use my purchased product if the supplier no longer allows it. I do not therefore buy a product, but only a temporary licence for use, which can be withdrawn unilaterally and without any legal claim. I therefore call for: A legal obligation for providers to make paid games available at least in an offline version at the time of recruitment, whether through a patch, an emulator or the release of server components. Clear information requirements prior to purchase, whether a game must be permanently online, whether servers are planned to be shut down and how long support is guaranteed. A right to use purchased digital products on a permanent basis, as is self-evident in the case of physical media. The freedom of providers must not mean that they can make my property, which they do not want to do after, in particular. It is high time for digital consumer rights to be treated in the same way as real products. Everything else is an eyewip. Yours sincerely, Elsasser Johannes",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.690418Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585345.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585345",
+    "chunks_doc_id": "F3585345",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

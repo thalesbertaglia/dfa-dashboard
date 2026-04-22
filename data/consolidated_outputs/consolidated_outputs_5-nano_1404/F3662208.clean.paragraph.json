@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3662208",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:38Z",
+    "finished_at": "2026-04-14T13:44:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google is prohibiting apps to be installed in android anything other than from Play Store (Google's app store) or verified as a developer by paying Google, giving their (developer's) personal information and hoping they would consider their app"
+              },
+              {
+                "quote": "which is unfair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21361,
+          "unit_kind": "feedback"
+        },
+        "text": "Google is prohibiting apps to be installed in android anything other than from Play Store (Google's app store) or verified as a developer by paying Google, giving their (developer's) personal information and hoping they would consider their app\" (This applies to Open Source/FOSS apps as well) which is unfair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.072984Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3662208.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3662208",
+    "chunks_doc_id": "F3662208",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

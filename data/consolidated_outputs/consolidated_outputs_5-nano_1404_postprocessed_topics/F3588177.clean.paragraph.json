@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588177",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:39Z",
+    "finished_at": "2026-04-14T13:23:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This concerns video games that are sold, but then, in my view, about unfair practices that consumers are being disguised."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not meant to ‘purchase a non-permanent licence to use the product until we decide that you can no longer use it’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27540,
+          "unit_kind": "feedback"
+        },
+        "text": "I consider this suggestion to be good. I also signed the Stop Killing Games initiative. This concerns video games that are sold, but then, in my view, about unfair practices that consumers are being disguised. This not only leads to a verbatim planned inoperable, but also to the permanent destruction of art and cultural goods by economically motivated actors. If I click on ‘Purchase’ on a video game, it is not meant to ‘purchase a non-permanent licence to use the product until we decide that you can no longer use it’, but then I MINDESTENS get an As-Is variant of the game. I think this case should be clearly covered by a Digital Fairness Act because it is not fair for users of digital products (including video games) to be deceived in this way. Thank you for the attention, Leopold Bartos.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.620527Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588177.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588177",
+    "chunks_doc_id": "F3588177",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588177.clean.paragraph.json"
+}

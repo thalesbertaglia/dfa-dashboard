@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586591",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:37Z",
+    "finished_at": "2026-04-14T13:00:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing making me believe that I've purchased a videogame, but instead I was purchasing a temporary license to a videogame, namely The Crew."
+              },
+              {
+                "quote": "Ubisoft has ended support for the game, which invalidated my perceived ownership of my copy."
+              },
+              {
+                "quote": "I would like publishers to transparently mark their products with \"Live Service\" tag or other kind of warning that would inform me about the product being a temporary access."
+              },
+              {
+                "quote": "Instead of just shutting down the serves for the videogame forever, they allow people who purchased their game to host their own sessions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34686,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, I am a civil engineer from Czech Republic. I am concerned about misleading marketing making me believe that I've purchased a videogame, but instead I was purchasing a temporary license to a videogame, namely The Crew. Ubisoft has ended support for the game, which invalidated my perceived ownership of my copy. I would like publishers to transparently mark their products with \"Live Service\" tag or other kind of warning that would inform me about the product being a temporary access. For videogames that are not supposed to be temporary, I would suggest looking at The Spellbreaker game. Instead of just shutting down the serves for the videogame forever, they allow people who purchased their game to host their own sessions. I believe that we should expect the same standard for videogames that we expect from other digital and electronic products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.288471Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586591.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586591",
+    "chunks_doc_id": "F3586591",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

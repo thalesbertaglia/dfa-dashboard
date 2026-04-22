@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586033",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:27Z",
+    "finished_at": "2026-04-14T12:45:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm fully on board with this, especially regarding dark patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital video games like StarCraft II, which cannot be played whatsoever without first establishing an online connection to the servers"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I strongly believe that digital purchases should either be a product that you get to keep, or a service with a clearly stated end date."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34304,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, first of all I'd like to say I'm fully on board with this, especially regarding dark patterns. But like others I'd like to point out the issue regarding ownership of purchased digital goods. This is a big problem with games but I've also seen it happen to digital movies and books. Namely, sometimes they include some form of DRM that makes it mandatory to connect to the servers of the company, and as a result you need an internet connection to access that which you purchased. Even worse, they can shut down their servers at any time without any reason thereby rendering your purchases entirely null and void. I strongly believe that digital purchases should either be a product that you get to keep, or a service with a clearly stated end date. As it stands, many digital products are sold as goods but treated like services except they never told you that, nor the expiration date. It could be in ten years, or in two weeks. Who knows? The guessing game doesn't end there. We've reached a point where it's become pretty much impossible to figure out which digital goods rely on a connection to the company-owned server to function in the first place, prior to purchasing them. For example, a digital video game you purchase from the online store and games platform Steam could be completely free of DRM, meaning once downloaded the files can be used to play said game even when there is no connection to any online server or even any valid login credentials to the Steam platform it was purchased from. One such example is Baldur's Gate 3. On the other hand, there are digital video games like StarCraft II, which cannot be played whatsoever without first establishing an online connection to the servers of the corporation who sold it to its customers. I've personally experienced games having their servers shut down and becoming unplayable without any compensation from the corporation. One disturbing example is Overwatch, which was sunset to make way for a sort of pay-to-win successor Overwatch 2, which is barely different from the original except for key monetization aspects. I find that especially egregious because physical copies of the game can still be bought in many European brick and mortar stores, for example Müller Handels GmbH & Co. KG. I imagine inserting these copies into your system would result in it failing to connect to the servers then telling you to download its pay-to-win successor instead, which is baffling but the reality of the situation. Even when the servers are still online, you may still experience issues with digitally purchased games. Despite having bought StarCraft II in 2010, back then I had frequent connection issues with the servers denying my login attempts and not letting me play for reasons I have never figured out to this day. Grand Theft Auto V was another example of this, where after installing the game to my computer from seven DVDs I was told by the CAPTCHA system that my answers were wrong over and over and thus, for two days or so, I wasn't allowed to log in and play the game I had just purchased from Media Markt. In short, purchases of digital goods are a dice roll. They often don't tell you that you need a permanent internet connection in order to use them, or that crucial functionality is locked behind an online connection. Customers should be clearly informed if a digital product is a service, and if it is, the expiration date should be stated. The current situation where stores pretend to sell you goods but really they are services in disguise and you are never told how long they last is entirely unacceptable to me. All of this is more or less addressed in the European Citizen's Initiative \"Stop Destroying Videogames\" as well. Thank you very much for reading and your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.047043Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586033.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586033",
+    "chunks_doc_id": "F3586033",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

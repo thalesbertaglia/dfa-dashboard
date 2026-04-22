@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584676",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:06:07Z",
+    "finished_at": "2026-04-14T12:06:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "more and more of these games require an online connection to servers run by the publisher, even for features that dont seem like they should need it."
+              },
+              {
+                "quote": "When those servers are eventually shut down, the game just stops working entirely."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20016,
+          "unit_kind": "feedback"
+        },
+        "text": "Some video games are sold in a way that makes them feel like productssomething you own once you buy them. But more and more of these games require an online connection to servers run by the publisher, even for features that dont seem like they should need it. When those servers are eventually shut down, the game just stops working entirely. Its understandable that keeping servers online forever isnt always practical. But it would be fair to require publishers to provide a way for people to keep using what they paid for, even after official support endslike removing the online requirement or releasing a version that works offline. Its frustrating to lose access to something that was purchased in good faith simply because a company decides it's no longer worth supporting. Including something like this in the Digital Fairness Act would help make sure people arent left with nothing when that happens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.349998Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584676.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584676",
+    "chunks_doc_id": "F3584676",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584676.clean.paragraph.json"
+}

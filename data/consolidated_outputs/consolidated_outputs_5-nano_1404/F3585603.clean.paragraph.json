@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585603",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:19Z",
+    "finished_at": "2026-04-14T12:31:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the growing inclusion of gambling based mechanics in videogames"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When manufacturers and publishers end support for a videogame, the game can be left disabled and un-playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21797,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am a Norwegian citizen and I would like to publicly support the Digital Fairness Act initiative. I believe that that EU citizens are currently facing a large and growing problem of highly unethical and exploitative business practices that are causing enormous damage to both individual citizens and wider society. I am very opposed to the growing inclusion of gambling based mechanics in videogames and believe that they are a large contributor to the enormous increase in diagnosed gambling addiction that is currently witnessed in the EU. The inclusion of gambling in videogames is especially damaging to minors and young adults due to poor regulations and disproportionate exposure. Additional regulation of exploitative gambling mechanics needs to be implemented before more long-lasting damage is caused vulnerable populations. I would also like to publicly request additional consumer protections against the remote destruction of video games by their manufacturers without proper notice. Currently, many videogames require some form of online connectivity for the game to function. When manufacturers and publishers end support for a videogame, the game can be left disabled and un-playable. Current regulations do not require prior notice or lifetime road-maps and allow publishers to perform sudden and unannounced discontinuation. This should not be tolerated! For consumers to be able to make an informed purchasing decision, a public disclosure of service lifetime is a minimum requirement. I would like to refer the reader to the enormous success of the stop killing videogames European Citizens' Initiative as evidence for the widespread support for additional protections.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.824694Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585603.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585603",
+    "chunks_doc_id": "F3585603",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "doc_id": "F33092028",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:21Z",
+    "finished_at": "2026-04-14T09:36:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These patterns are intended to manipulate users to make decisions they do not want, for example, to subscribe or buy something."
+              },
+              {
+                "quote": "It would therefore be interesting to regulate such misleading patterns, with the aim of benefiting both the user and the entrepreneur alike."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Secondly, I think that advertising is a crucial element on the internet but should be further regulated."
+              },
+              {
+                "quote": "This would give users greater choice and control to establish that this is what they want to see, and can select targeted advertising."
+              }
+            ]
+          },
+          {
+            "topic": "Age Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "There should be more restrictions, such as: parental restrictions, use of passwords established by adults, records of documents certifying age, etc."
+              },
+              {
+                "quote": "This ensures the proper and controlled use of minors on the internet."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23756,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules ‘Law’ project: Defense of European Rights and Excellence for Consumers Higuzation \", No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. First, we define it as the Digital Equity Act. This law is a legislative proposal to strengthen online consumer protection. The main objectives of this law are therefore: consumer protection and protection of vulnerable groups. This includes aspects we have seen in class such as age assurance and advertising. As regards the age guarantee, I believe that there should be more restrictions, such as: parental restrictions, use of passwords established by adults, records of documents certifying age, etc. This ensures the proper and controlled use of minors on the internet. Secondly, I think that advertising is a crucial element on the internet but should be further regulated. This would give users greater choice and control to establish that this is what they want to see, and can select targeted advertising. On the other hand, as we have studied in class, the figure of dark patterns is very relevant. These patterns are intended to manipulate users to make decisions they do not want, for example, to subscribe or buy something. It would therefore be interesting to regulate such misleading patterns, with the aim of benefiting both the user and the entrepreneur alike. In my view, as a student of the Jean Monnet Project, the General Fairness Act is essential to ensure equal access to technologies for all. Today, we use digital technologies and media at all times, from online shopping to university. They should therefore be regulated in the best possible way, allowing us all the opportunity to choose.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.601693Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092028.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092028",
+    "chunks_doc_id": "F33092028",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

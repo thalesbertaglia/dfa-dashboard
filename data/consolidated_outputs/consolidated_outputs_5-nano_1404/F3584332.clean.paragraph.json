@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584332",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:23Z",
+    "finished_at": "2026-04-14T11:55:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online- and online-only games"
+              },
+              {
+                "quote": "online- or online-only games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19961,
+          "unit_kind": "feedback"
+        },
+        "text": "Considering the digital age, the only media that is self-destructive, is the online- and online-only games, which pretty much means it's a different form of high-stake market for both casual and competitive players. There really should be an option to preserve the games that are online- or online-only by a form of peer-to-peer system, which makes it less straining on developers, but more based on the player's system, or even just a simple off-line mode, in order to preserve the established digital content. Such example can be seen on the game \"Guild Wars 2\", where they initially had planned to make the in-between expansions called \"Living World Seasons\" unplayable after they're done. This was partially restored, but not to their original status in 2022, but is still better than entirely removing it. Another thing to consider, destroying, or making online- or online-only games which, may be, franchise-based, can also diminish the interest of future interest(s) of said franchises, making the interest in online- or online-only games quite volatile and even more risky, considering money being, at the end, throw into the void if the said online or online-only games get closed, and inaccessible for the purchaser.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.182292Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584332.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584332",
+    "chunks_doc_id": "F3584332",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

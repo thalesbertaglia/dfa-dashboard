@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3587428",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:57Z",
+    "finished_at": "2026-04-14T13:18:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This could be considered a \"dark pattern\"."
+              },
+              {
+                "quote": "the \"Dark Algorithmic Amplification\" part."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not allowing gambling mechanics with actual valuable reward in non-18+-games"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not making canceling harder than signing up"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "erosion of digital ownership"
+              },
+              {
+                "quote": "not allowing to take away software already bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 113037,
+          "unit_kind": "feedback"
+        },
+        "text": "(This is a correction of my previous feedback, that had a few errors. My apologies.) This \"Digital Fairness Act\" seems untenably dangerous for small platforms, and urgently needs a small volunteer platforms and small businesses exclusion, or most of them will probably close if this is becomes a punishable offense. The problem is that it's all very vague and almost any well-intentioned UI or algorithm could fall into one of the categories if you interpret it in the worst way possible. For example of the slippery slope, this EU page's own login could be considered a dark pattern: 1. Your own ec.europa.eu login shows \"choose verification method\" on login, and by default won't let me login with only a password, but instead seems to forcibly require some other mechanism where pretty much all of them require some additional data. 2. I don't want to use these for privacy reasons, and since to merely comment on this, I don't require some \"super secure\" account. 3. Yet, your login page made me believe, as a rather technical user, that this wasn't possible and I needed to give up some additional data. Only when I opened the dropdown and searched for a while, I realized I didn't need to do that and a mere password was enough. This could be considered a \"dark pattern\". You can find such a potential dark pattern, often not intended badly, on almost any website. The same is with the \"misdirection\" part, or even more so, the \"Dark Algorithmic Amplification\" part. It is almost impossible to run something like lemmy.ml for example, without getting accused of boosting content that users interact with, which can be desirable to see content that is actually worth seeing, and that being interpreted as intentional rage bait abuse of the user. Therefore, these guidelines urgently need: 1. some restriction to only apply to big platforms, 2. for especially the \"dark algorithmic amplification\" and \"misdirection\" and \"dark pattern\" sections some sort of malicious intent that needs to be shown, and/or 3. a strong limit on what fees or punishments can be applied without giving the platform a fair chance to address the issues. Addressing the issues must be realistically possible too, which it often isn't if you want the perfect engagement algorithm that never pushes rage bait for example, since such algorithms simply don't exist. In overall, it seems like most of this legislation is way too vague and goes too far, if applied to anybody else than the giants. Perhaps it would be better to leave it at the Digital Services Act, which is barely in full force, and to just wait a few years to see how much that one already improves the situation. I think you're jumping the gun here, with too much regulation too early. See where this ship is moving first. I do support work to regulate the erosion of digital ownership however, by not allowing to take away software already bought, by not making canceling harder than signing up, by not allowing gambling mechanics with actual valuable reward in non-18+-games, and so on, since those are way better defined than general more vague potential dark pattern UI.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.523882Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587428.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587428",
+    "chunks_doc_id": "F3587428",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587428.clean.paragraph.json"
+}

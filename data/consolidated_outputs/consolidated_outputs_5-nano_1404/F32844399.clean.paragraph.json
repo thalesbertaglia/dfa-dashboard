@@ -1,0 +1,77 @@
+{
+  "doc_id": "F32844399",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:27:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "computer games should not be switched off"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not subsequently to render a licence model or server shutdown retrospectively unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34496,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it is very important that by buying a device (be it computer, smartphone, TV, etc.) the device ultimately also belongs to one and can be disposed of in whatever form. This includes modifying/installing hardware and software without the prior agreement of the manufacturers. Apple and Google, but also Microsoft and others, are increasingly trying to restrict the freedoms and property of the device in the name of ‘security’. As a consumer, however, one should have the right to install software that was not previously released by equipment manufacturers – if my device is damaged, this is my problem. But my device, my risk. It is therefore necessary to ensure that Apple, Google and Co. Sideloading of apps (or, rather, installing any software on terminals) must not prevent. Similarly, in the case of the purchase of software, it must be ensured that it remains usable in the way it was acquired – and not subsequently to render a licence model or server shutdown retrospectively unusable. In this connection, I would like to refer to the Stop Killing Games initiative, which advocates that computer games should not be switched off, and I would like to call for the same thing for all digital media: If they are no longer supported/displaced by the manufacturer, they must be able to continue using them.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.434364Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844399.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844399",
+    "chunks_doc_id": "F32844399",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

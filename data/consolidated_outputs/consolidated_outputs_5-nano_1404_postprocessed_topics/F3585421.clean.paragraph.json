@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585421",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:18Z",
+    "finished_at": "2026-04-14T12:27:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns and flashing light that came up my screen."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A lot of games nowadays have so called loot boxes build in."
+              },
+              {
+                "quote": "These are just a form of gambling."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital goods in video games that are bought with money can be taken away if the publisher of the game decides."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25475,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is a good idea to improve the online space. I can still remember the first time I was visiting TEMU and was just overwhelmed with all the dark patterns and flashing light that came up my screen. (Flash-Sales which end time was changed after every refresh of the side or a spinning wheel to gamble a discount) Luckily I could spot them, but for someone without having a proper knowledge of these it would be impossible to see that this side is just tricking someone in irresponsibly spending. In another medium I found these and think it is deeply concerning is in video games. A lot of games nowadays have so called loot boxes build in. These are just a form of gambling. You spend money in the hope to get an item you want and if you loose you have to spend more money. Especially in games that are for kids or have an audience of kids (for example FIFA) this is targeting a really vulnerable audience that will most likely not understand what they are doing and how the system is engineered to have them spend all their money. A point that is missing in the act for me in terms of fairness is that digital goods in video games that are bought with money can be taken away if the publisher of the game decides. This is a problem brought up by the Stop Killing Games initiative. Games are marketed online as a full game however most likely these games can only be played if the servers are kept up by the publisher/ game developer and as soon as this isn't the case these cannot be played anymore. (An example for this would be The Crew from Ubisoft) The same is the case for in-game purchases which has to be bought with money and also cannot be used after the servers went down. In terms of fairness this should be added, so the consumer also has a way to still use the bought product. This does not mean that a publisher has to keep servers up forever, but to give online communities around the game a way to host their own server or setup other ways to still play the game and use the products they bought, after the publisher decides to not support the game anymore.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.734379Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585421.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585421",
+    "chunks_doc_id": "F3585421",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585421.clean.paragraph.json"
+}

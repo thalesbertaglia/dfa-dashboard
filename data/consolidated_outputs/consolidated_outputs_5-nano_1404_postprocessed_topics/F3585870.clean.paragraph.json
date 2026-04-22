@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585870",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:31Z",
+    "finished_at": "2026-04-14T12:39:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games have begun using a live-service-models, with no end of life plan, which leads to us consumers being left empty handed."
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "inclusion of a clause to preserve consumer ownership of bought digital media should be considered in this proposal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25993,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European citizen living in the digital era, most of transaction, socialisation, and entertainment is interacted with through digital means. Therefore I believe that it is imperative that how we interact with digital media is not used to hurt or manipulate us as consumers and everyday people. I believe in that this initiative will lead to more consumer-friendly practices. This leads me to think that an inclusion of a clause to preserve consumer ownership of bought digital media should be considered in this proposal. Video games have begun using a live-service-models, with no end of life plan, which leads to us consumers being left empty handed. These video games are marketed to us as a product, yet fulfill the role of a service as the shelf life of the product is not informed to the consumer. This would help further protect our purchases, as games can currently be arbitrarily shut down, essentially destroying fully functioning product of which a consumer holds ownership.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.963482Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585870.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585870",
+    "chunks_doc_id": "F3585870",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585870.clean.paragraph.json"
+}

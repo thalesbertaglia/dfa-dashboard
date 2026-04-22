@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586021",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:59Z",
+    "finished_at": "2026-04-14T12:44:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are similar to music."
+              },
+              {
+                "quote": "As a gamer, I want to choose what to play, not buy a game, invest time into it, and then be deleted in a few years."
+              },
+              {
+                "quote": "Today, I can hardly find a console suitable for playing these games."
+              },
+              {
+                "quote": "I don't want to pay considerable fees to be able to play a game that was sold to me by publishers via a physical or digital copy of the game."
+              },
+              {
+                "quote": "To this day, I still play that version of the game, because it was a different experience and part of my childhood."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24104,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, my name is Vasil Petrov. I'm from Bulgaria and grew up playing video games in the 90s. Back then, we had an arcade machine system to play famous games such as Street Fighter Alpha 2, The King of Fighters '96, and a few Capcom games. Today, I can hardly find a console suitable for playing these games. As a gamer, I want to choose what to play, not buy a game, invest time into it, and then be deleted in a few years. Video games are similar to music. I can still enjoy old songs, but if old songs from a different era are gone, I can't experience them, and more importantly, I can't experience the quality of the songs and how they changed culture. When I grow old, I want to come back and have the option to experience gaming like I used to play without a massive paywall that prevents me from experiencing the same timeless gaming. I don't want to pay considerable fees to be able to play a game that was sold to me by publishers via a physical or digital copy of the game. Activision Blizzard is a good example. They reviewed the World of Warcraft and have the original gameplay with few non-impactful changes. To this day, I still play that version of the game, because it was a different experience and part of my childhood.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.040408Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586021.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586021",
+    "chunks_doc_id": "F3586021",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586021.clean.paragraph.json"
+}

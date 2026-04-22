@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584655",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:29Z",
+    "finished_at": "2026-04-14T12:05:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections for games that can get shutdown in the future."
+              },
+              {
+                "quote": "Customers that buy videogames are currently not protected from the companies shutting down the game"
+              },
+              {
+                "quote": "The game was shut down by the company running the servers and i am now unable to play the game anymore."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20997,
+          "unit_kind": "feedback"
+        },
+        "text": "I would really like the digital fairness act to include protections for games that can get shutdown in the future. Customers that buy videogames are currently not protected from the companies shutting down the game, and without end of life support your purchace can get taken away from you. I have personally experienced this with a game called Free Realms. The game was shut down by the company running the servers and i am now unable to play the game anymore. It really bothers me that i cannot go back to the game, and I do not want any other consumers getting affected by anti consumer behaviour like this. The stop killing games movement has already collected over a million signatures in the EU and the concerns are very valid. I hope you will concider adding protections that will stop killing games in the future. Thank you very much.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.339741Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584655.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584655",
+    "chunks_doc_id": "F3584655",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584655.clean.paragraph.json"
+}

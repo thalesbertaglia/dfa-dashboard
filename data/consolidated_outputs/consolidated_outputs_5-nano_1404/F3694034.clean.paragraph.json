@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3694034",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:02Z",
+    "finished_at": "2026-04-14T13:46:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "granting profit-driven companies near-total control over app installations on devices consumers own undermines fundamental ownership rights and personal freedom."
+              },
+              {
+                "quote": "This practice resembles an unfair commercial barrier under the Digital Fairness Act, as it limits choice, stifles innovation, and prioritizes corporate revenue over user autonomysimilar to how users freely install software on personal computers without restrictions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16552,
+          "unit_kind": "feedback"
+        },
+        "text": "While I recognize legitimate security risks from malware in apps sourced outside official stores, which could endanger average users, granting profit-driven companies near-total control over app installations on devices consumers own undermines fundamental ownership rights and personal freedom. This practice resembles an unfair commercial barrier under the Digital Fairness Act, as it limits choice, stifles innovation, and prioritizes corporate revenue over user autonomysimilar to how users freely install software on personal computers without restrictions. To address this without compromising safety, the Act should promote informed user options, such as opt-in sideloading with clear warnings, third-party app store certifications, or transparent vetting processes. This balanced approach would empower consumers while mitigating threats, aligning with the DFA's goals of tackling exploitative digital practices.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.097772Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3694034.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3694034",
+    "chunks_doc_id": "F3694034",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

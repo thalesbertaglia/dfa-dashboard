@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585392",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:44Z",
+    "finished_at": "2026-04-14T12:26:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the enforcement of consumer rights for gaming"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 5830,
+          "unit_kind": "feedback"
+        },
+        "text": "I am in the support of the preservation of games, and the enforcement of consumer rights for gaming that has been absent for far too long. While this act may not affect me directly due to being a non EU-citizen, I believe it to be a global wave of an effect and therefore support it heavily Please assist in the protection of gamers around the world and have companies Stop Killing Games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.717471Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585392.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585392",
+    "chunks_doc_id": "F3585392",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585392.clean.paragraph.json"
+}

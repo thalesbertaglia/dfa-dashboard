@@ -1,0 +1,110 @@
+{
+  "doc_id": "F3586190",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:05Z",
+    "finished_at": "2026-04-14T12:50:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital products shall not be rendered inoperable by the manufacturer after sale. The technical design of the product must be such as to maximise the longevity of the product."
+              },
+              {
+                "quote": "Manufacturers design kill switches that allow them to render the products unusable after sale."
+              },
+              {
+                "quote": "Live service is the dark pattern that is incorporated as a necessity into games and allows the manufacturer to make the product unusable for buyers as it sees fit."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The relevant (by turnover) industry is computer games."
+              },
+              {
+                "quote": "Live service in this context is a continuous communication of the product from the customer’s home and terminal equipment to the manufacturer’s computer systems for the purpose of data exchange."
+              },
+              {
+                "quote": "Computer games are designed in such a way that they become inoperable when the manufacturer ceases to operate the live service."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Live service in this context is a continuous communication of the product from the customer’s home and terminal equipment to the manufacturer’s computer systems for the purpose of data exchange."
+              },
+              {
+                "quote": "so that gambling content can be optimised on extraction."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The declaration is deliberately misleading: for a service, the service provider would have to clearly state the period for which the customer buys the service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48038,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir, I would kindly ask you to take into account another anti-customer practice in this regulation: “Digital products shall not be rendered inoperable by the manufacturer after sale. The technical design of the product must be such as to maximise the longevity of the product.\" The anti-customer commercial practice is similar to the problem of dark pattern and planned obsolescence: Manufacturers design kill switches that allow them to render the products unusable after sale. The kill switch is described as an absolute necessity for the unsatisfied customer. A relevant (by turnover) industry is computer games. Live service is the dark pattern that is incorporated as a necessity into games and allows the manufacturer to make the product unusable for buyers as it sees fit. Live service in this context is a continuous communication of the product from the customer’s home and terminal equipment to the manufacturer’s computer systems for the purpose of data exchange. Computer games are designed in such a way that they become inoperable when the manufacturer ceases to operate the live service. Live service is also used to monitor the consumer, so that gambling content can be optimised on extraction. I am an informaticsman of the profession and I am therefore familiar with some relevant conclusions which do not appear obvious to a layman at first. Live Aervice becomes a dark pattern by the fact that for many games it would not be necessary to install a live service. The computer games are deliberately designed to require a live service. Indeed, for many games, they do not need to exchange data with the manufacturer in order to make all (or substantial proportions of) benefit to the customer. Dark Pattern will also become live service as a result of producers actually turning their product into a service, but pre-empting the consumer with a purchase item which the consumer is entitled to assume that it will be usable for an indefinite period. The declaration is deliberately misleading: for a service, the service provider would have to clearly state the period for which the customer buys the service. Thank you very much for taking my submission into account.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.141875Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586190.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586190",
+    "chunks_doc_id": "F3586190",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

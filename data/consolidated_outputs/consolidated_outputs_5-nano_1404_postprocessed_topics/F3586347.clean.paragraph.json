@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586347",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:42Z",
+    "finished_at": "2026-04-14T12:54:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "continue playing games for which they have paid,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16808,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, it is really necessary for the video game industry to start thinking about solutions so that players can continue playing games for which they have paid, simply being able to host our own servers or giving tools to communities to be able to do so, whether with a view to continuing to enjoy a good for each user or even the protection and preservation of video works. Thank you for doing what you can to achieve this goal.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.212676Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586347.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586347",
+    "chunks_doc_id": "F3586347",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586347.clean.paragraph.json"
+}

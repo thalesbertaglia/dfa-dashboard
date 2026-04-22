@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584429",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:15Z",
+    "finished_at": "2026-04-14T11:58:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deliberate harmful product design"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "killing games by removing servers providing services mandatory to pass always-online requirements."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24374,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of a member state of European Union, I've always been proud of how much better consumer protection is within the EU compared to the rest of the world, especially the US, and how further efforts are made to uphold that status. The sad reality is, though, that most videogame giants come from the US and try to bring harmful and extremely toxic behaviors with them. The kinds of behaviors they can engage in solely due to lobbying in the US and skirting the line of legality and consumer rights. I believe these companies should not be allowed to do the same in the EU. While this initiative is trying to address some of these issues, I feel like it misses one key point. And that would be to address deliberately removing access from content customers have already paid for and have ownership of. Many companies been trying hard to build a precedence for them to remove access to the products the customers already paid for. Whether digital or physical. Whether for a good reason or any arbitrary reason at all. One such method is killing games by removing servers providing services mandatory to pass always-online requirements. Such requirements are completely arbitrary and optional, but through the effort of deliberate harmful product design, these products become impossible to use despite having the rest of functionality fully operational. Please look up a European Citizens' Initiative number ECI(2024)000007 called \"Stop Destroying Videogames\" for more details. They can explain better than I can what my stance on the subject is.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.231705Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584429.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584429",
+    "chunks_doc_id": "F3584429",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584429.clean.paragraph.json"
+}

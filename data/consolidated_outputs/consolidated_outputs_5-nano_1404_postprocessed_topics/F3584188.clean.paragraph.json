@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584188",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:42Z",
+    "finished_at": "2026-04-14T11:51:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game market is an area where power increasingly shifts into the direction of publishers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11565,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing to me about the Stop Killing games initiative, which is very close to your Digital Fairness Act. As a buyer, it cannot be that products can be destroyed/destructed without regulation or consumer protection. This is not about forcing producers and developers to perpetuate support to the game, but to have a strategy on how buyers could continue to use the paid products. The above-mentioned initiative offers a wide range of opportunities. The video game market is an area where power increasingly shifts into the direction of publishers and, here, it is imperative that legal safeguards be put in place for consumers. Yours sincerely, Julius Wöhning",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.117390Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584188.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584188",
+    "chunks_doc_id": "F3584188",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584188.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586445",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:52Z",
+    "finished_at": "2026-04-14T12:57:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumer protection that SDVG would, in my opinion, rightly implement for those who have purchased a product without having been informed of its \"expiry date\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37370,
+          "unit_kind": "feedback"
+        },
+        "text": "As a fellow EU citizen, I would like to express my support for the Digital Fairness Act, but I would appreciate if this act incorporated the measures that the Stop Destroying Videogames is calling for. Many have spoken regarding the consumer protection that SDVG would, in my opinion, rightly implement for those who have purchased a product without having been informed of its \"expiry date\". But just as important for me it is the fact that videogames are an artistic and profoundly human creation through which a culture is formed, and this cannot have an expiration date beyond which one is no longer able to enjoy them. It would be like destroying half the paintings in the Louvre because most people do not look at them so they are cluttering valuable wall space, or demolishing the Colosseum because it is no longer used according to its original criteria. Video games are products like anything else, but that does not mean they should live and die as mere products. Just as an old edition of a book remains in my possession even after a complete reprint or the publisher's bankruptcy, video games should also be accessible to those who are interested in doing so, even after their official infrastructure fails for whatever reason. If we let thousands of video games perish, it will not only be a tremendous defeat for the rights of millions of European citizens who see their money evaporate due to arbitrary decisions made by multinationals, but it will also be a serious defeat for the aforementioned culture which, in a world where digital increasingly dominates the physical, risks being irremediably lost forever. I hope I haven't been too long-winded, just wanted to show my support. Sincerely, Dario Bennicelli",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.249439Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586445.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586445",
+    "chunks_doc_id": "F3586445",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585633",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:04Z",
+    "finished_at": "2026-04-14T12:32:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "But hundreds of games from big studios are also affected."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These “rules” typically bear the name “EULA”, or “end licence user agreement”."
+              },
+              {
+                "quote": "their ability to make video recorders inaccessible, at any time, without warning and without financial compensation to consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23510,
+          "unit_kind": "feedback"
+        },
+        "text": "Good afternoon, I want to give visibility to a growing problem in the international video market: companies’ controlled obsolescence of video lights. So far, there is no legal consensus on what a video is. Businesses then take advantage of the legal vacuum to introduce their own rules, often to their advantage and to the detriment of consumers. These “rules” typically bear the name “EULA”, or “end licence user agreement”. (It is worth noting that the European Union has recently challenged the legality of these contracts, discussions are ongoing) One of the most concrete examples of these abuses – and the reason why I comment here is their ability to make video recorders inaccessible, at any time, without warning and without financial compensation to consumers. This happened recently with the video “The Crew”. A case that has been highly publicised and is currently one of the best examples of this phenomenon of obsolescence ordered. But hundreds of games from big studios are also affected. In any case, consumers currently have no decision-making power, and this must change. Thank you for listening to me.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.843504Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585633.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585633",
+    "chunks_doc_id": "F3585633",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

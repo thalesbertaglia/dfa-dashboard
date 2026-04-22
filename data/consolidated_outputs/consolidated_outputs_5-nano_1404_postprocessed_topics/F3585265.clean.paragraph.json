@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585265",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:55Z",
+    "finished_at": "2026-04-14T12:24:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Removal and even blocking of use of ones own products from their own online libraries of games and e-books from websites or online platforms is too prevalent ."
+              },
+              {
+                "quote": "Ownership of the IP or the product should have 'some' deadline (like ~10y) after which rights should pass to the consumers unless it is still fully supported or worked on."
+              },
+              {
+                "quote": "Publishers should have obligation for online goods (games, moves etc) to be preserved when they passed reasonable time period."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13056,
+          "unit_kind": "feedback"
+        },
+        "text": "Regarding the Digital Fairness Act I would like to make it also include the protection and ownership of digital goods, games, e-books, music or things you have bought or otherwise purchased, software included. The act own paying and owing a product, should be enough. Removal and even blocking of use of ones own products from their own online libraries of games and e-books from websites or online platforms is too prevalent . Publishers should have obligation for online goods (games, moves etc) to be preserved when they passed reasonable time period. What was already purchased should be fully (mostly) usable regardless of its age even if required 3rd party help. Ownership of the IP or the product should have 'some' deadline (like ~10y) after which rights should pass to the consumers unless it is still fully supported or worked on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.660003Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585265.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585265",
+    "chunks_doc_id": "F3585265",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585265.clean.paragraph.json"
+}

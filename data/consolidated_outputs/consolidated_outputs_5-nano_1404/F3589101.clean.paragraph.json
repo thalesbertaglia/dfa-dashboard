@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3589101",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:22Z",
+    "finished_at": "2026-04-14T13:29:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When you buy a video game, you should rightfully own itjust like any other product."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Yet, more and more publishers are treating games as subscriptions or temporary licenses rather than permanent purchases."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they claim players are merely \"renting access,\" allowing companies to revoke or restrict games at any time under unfair terms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27598,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! When you buy a video game, you should rightfully own itjust like any other product. Yet, more and more publishers are treating games as subscriptions or temporary licenses rather than permanent purchases. They claim players are merely \"renting access,\" allowing companies to revoke or restrict games at any time under unfair terms. This practice strips consumers of their basic ownership rights and turns what should be a straightforward purchase into a controlled, revocable privilege. Its anti-consumer and needs to change.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.754208Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589101.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589101",
+    "chunks_doc_id": "F3589101",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

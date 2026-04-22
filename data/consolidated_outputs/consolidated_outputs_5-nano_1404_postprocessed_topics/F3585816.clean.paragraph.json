@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585816",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:27Z",
+    "finished_at": "2026-04-14T12:37:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game was removed from digital storefronts and even from players libraries, rendering it unplayable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "updating old End User License Agreements (EULAs), even for games we bought a decade or more ago, redefining them as temporary licenses instead of permanent purchases."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29310,
+          "unit_kind": "feedback"
+        },
+        "text": "I've been playing video games for over 30 years, Im genuinely worried about the direction the gaming industry is taking. It feels like we're losing something important not just the games themselves, but the sense of ownership and trust that used to come with buying them. Many of us grew up in an era where buying a game meant it was ours to keep. We could revisit it years later and relive those memories. But today, things are changing and not in a good way. More and more, companies are updating old End User License Agreements (EULAs), even for games we bought a decade or more ago, redefining them as temporary licenses instead of permanent purchases. This shift means companies can now revoke access to games at any time, sometimes without warning or refund. A recent example is The Crew (2014) by Ubisoft. The game was removed from digital storefronts and even from players libraries, rendering it unplayable. And its not an isolated case. Were seeing a trend where even single-player games that dont require online functionality are being tied to always-online requirements making them dependent on servers that wont be around forever. I understand that technology evolves and that supporting games long-term can be costly. But I dont believe the solution is to take games away from paying customers. There has to be a better path one that respects both the players and the developers. Many older games, even multiplayer ones, had offline modes or direct connection options. They still work today because they didnt rely on constant server access. It makes me wonder why this approach isnt still possible. In fact, even unofficial groups often manage to remove these always-online requirements and create offline versions not to encourage piracy, but to preserve access. If it's technically possible in those cases, surely game publishers can offer similar options themselves, especially when retiring older titles. Im not trying to criticize developers or studios unfairly. I know making games is complex and expensive. But I do hope the industry can find ways to preserve digital purchases when games reach their end of life. It would mean so much to so many players who have supported these games over the years. I myself own over 1,000 digital games, and sadly, many of them have had their EULAs quietly changed. These are games I bought under the impression Id always be able to play them. Many dont even need internet access and yet theyre now at risk of being pulled at any time. All Im asking and I think many others feel the same is for some sort of long-term solution. Not one that depends on keeping servers alive forever, but something that lets us keep and enjoy the games weve paid for. Without movements like #StopKillingGames or legislative support (especially in places like the EU), its hard to see this changing. But I truly believe theres a way forward that protects both the industry and the players who love it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.935100Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585816.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585816",
+    "chunks_doc_id": "F3585816",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585816.clean.paragraph.json"
+}

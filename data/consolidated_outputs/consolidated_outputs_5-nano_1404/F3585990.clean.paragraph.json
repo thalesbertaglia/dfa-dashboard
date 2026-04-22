@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585990",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:58Z",
+    "finished_at": "2026-04-14T12:43:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protecting games from dying."
+              },
+              {
+                "quote": "end-of-support plan so games can still be playable forever if you bought them."
+              },
+              {
+                "quote": "Payment processors are currently deciding what games can be sold and not sold, even if they are legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33952,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi I would love if the Digital Fairness Act would consider protecting games from dying. Games should have an end-of-support plan so games can still be playable forever if you bought them. It is not right to buy something and have it taken away later. Also everyone should be able to buy games they want, unless they are illegal. Payment processors are currently deciding what games can be sold and not sold, even if they are legal. Which is not good.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.024543Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585990.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585990",
+    "chunks_doc_id": "F3585990",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

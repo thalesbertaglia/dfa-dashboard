@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585934",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:28Z",
+    "finished_at": "2026-04-14T12:41:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gamers are now experiencing the same injustice."
+              },
+              {
+                "quote": "Today, instead of fridges or lightbulbs, it's digital softwareespecially gamesbeing arbitrarily rendered unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23036,
+          "unit_kind": "feedback"
+        },
+        "text": "This is not just a matter of consumer inconvenienceit is a repeat of historic patterns where industries exploited grey areas in technology transitions to disadvantage consumers. A clear parallel can be drawn to the early days of digital media: when DRM-heavy eBooks, music, and video services shut down, consumers lost access to paid content without compensation. Services like Microsofts eBook store and older versions of iTunes discontinued support, erasing access to entire libraries. Gamers are now experiencing the same injustice. This modern digital obsolescence echoes the practices of planned obsolescence in consumer goods during the 20th century, where manufacturers deliberately limited product lifespans. Today, instead of fridges or lightbulbs, it's digital softwareespecially gamesbeing arbitrarily rendered unplayable. The implications are broader than just games. As the digital economy grows, consumer trust erodes when purchases become temporary by default. Vulnerable groupsespecially younger consumersare disproportionately affected by these exploitative practices. The Digital Fairness Act must: - Prohibit the unjustified removal of purchased digital content. - Guarantee basic access or functionality, even post-support. - Require clear, upfront communication about product lifecycle, and ensure archival access or refunds where necessary. Without action, we risk normalising a digital environment where ownership is illusory and value can be revoked at any moment. Just as consumer protection laws evolved to meet the challenges of industrialisation, now they must evolve to safeguard citizens in the digital age.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.992681Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585934.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585934",
+    "chunks_doc_id": "F3585934",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

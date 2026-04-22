@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585965",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:12Z",
+    "finished_at": "2026-04-14T12:42:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers removing access to games that consumers have legally purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design and manipulative monetization when consumers are encouraged to invest in games that may later be revoked."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23144,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the goals of the Digital Fairness Act. However, I believe the bill should go further by addressing the increasingly common and harmful practice of video game publishers removing access to games that consumers have legally purchased. Removing access to digital gamesespecially single-player or offline titlescan be seen as an unfair commercial practice, as it undermines the consumers expectation of ownership and long-term access. It also raises issues of addictive design and manipulative monetization when consumers are encouraged to invest in games that may later be revoked. I urge you to include provisions that prevent companies from unilaterally disabling or de-listing games without offering a preservation method or alternative access.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.009767Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585965.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585965",
+    "chunks_doc_id": "F3585965",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

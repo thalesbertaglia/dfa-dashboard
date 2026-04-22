@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584857",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:54Z",
+    "finished_at": "2026-04-14T12:13:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some games are at risk of becoming unavailable to the customers in the future, or worse: some games might become unplayable AFTER customers have bought them, due to the termination of online services, or discontinued support by the developers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10441,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I wanted to give another suggestion regarding this initiative. Would it be possible to do something against the practice of killing video games? Some games are at risk of becoming unavailable to the customers in the future, or worse: some games might become unplayable AFTER customers have bought them, due to the termination of online services, or discontinued support by the developers. It has already happened with a video game called The Crew, and I'm worried it becomes the norm in the future if we don't do something about these anti-consumers practices. There is already a Citizen's initiative called \"Stop Destroying Videogames\" with over 1.4 million signatures, so it shows that it's an important matter for a lot of people. I hope you can provide some help regarding this issue. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.472110Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584857.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584857",
+    "chunks_doc_id": "F3584857",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

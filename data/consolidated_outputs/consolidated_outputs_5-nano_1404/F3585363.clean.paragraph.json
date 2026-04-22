@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585363",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:03Z",
+    "finished_at": "2026-04-14T12:26:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "what you've bought is not a product but in fact a licence to access a product that can be terminated at any time leaving you with nothing"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "i am a gamer in my free time"
+              },
+              {
+                "quote": "fairness doesnt seem to be covered when it comes to video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25798,
+          "unit_kind": "feedback"
+        },
+        "text": "im Nichlas a Danish citizen. i am a gamer in my free time and i would love to see games that ive bought still be playable years later both with or without their developers/publishers support. i see quite often or all the time that no matter where you \"buy\" a game now its sold as a product that you own, but when reading EULA's you find out that what you've bought is not a product but in fact a licence to access a product that can be terminated at any time leaving you with nothing and the company that's sold it to you doesnt suffer any backlash. fairness doesnt seem to be covered when it comes to video games, it used to be that you would buy a game from the store and the entire content of the game would be on the disc ready for you to install and play. this is sadly not the case anymore since companies want to sell you more content, now everything is only accessible if you have an internet connection and an account with their platform. even on alot of these companies platforms their products are sold to you as product you own and only when reading their EULA's does the facts get spelled out for you. to me this a problem and its a big consumer problem that tramples fairness especially for the consumer. i still own some games that are older then me that still work, why cant i own and play the rest?!.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.700238Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585363.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585363",
+    "chunks_doc_id": "F3585363",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

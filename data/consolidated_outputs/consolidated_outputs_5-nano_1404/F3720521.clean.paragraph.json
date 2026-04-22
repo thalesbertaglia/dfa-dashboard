@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3720521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:04Z",
+    "finished_at": "2026-04-14T13:47:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "using the term \"security\" as a justification for limiting users' ability to install software on their devices."
+              },
+              {
+                "quote": "\"I decide what you do with your device, regardless of what you bought it for.\""
+              },
+              {
+                "quote": "including the freedom to install applications from various sources."
+              },
+              {
+                "quote": "Using \"security\" as an umbrella term to justify such control should not be permitted."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24056,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, I am writing to express my concerns regarding the practices of major tech companies, specifically Google and Apple, in relation to the Digital Fairness Act. I believe that their recent actions pose significant threats to consumer rights and fair competition in the digital marketplace. Both Google and Apple are increasingly using the term \"security\" as a justification for limiting users' ability to install software on their devices. This approach effectively translates to, \"I decide what you do with your device, regardless of what you bought it for.\" Such a stance undermines the very essence of ownership and user autonomy. When consumers purchase a device, they should have the right to decide how to use it, including the freedom to install applications from various sources. The practices of these companies are particularly concerning because they operate within a two-party oligopoly. This limited competition allows them to impose restrictions without fear of losing market share to alternative platforms. As a result, users are left with fewer choices and are forced to accept the limitations imposed by these tech giants. This situation is not only detrimental to consumers but also stifles innovation and competition in the software market. Using \"security\" as an umbrella term to justify such control should not be permitted. While security is undoubtedly important, it should not come at the expense of user rights and freedoms. The Digital Fairness Act should ensure that consumers retain control over their devices and the software they choose to install, rather than allowing a select few companies to dictate these terms. I urge the EU to take these concerns seriously and to implement regulations that prevent monopolistic practices by tech giants. It is essential to create a digital environment that prioritizes consumer rights, fosters competition, and ensures that users have the freedom to make choices about their devices. Thank you for considering my feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.119636Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720521",
+    "chunks_doc_id": "F3720521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

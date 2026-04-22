@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585883",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:55Z",
+    "finished_at": "2026-04-14T12:40:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "purchasing digital video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair and non-negotiable terms"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40211,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I would like to respectfully submit the following feedback regarding the upcoming Digital Fairness Act. I urge the Commission to explicitly include strong consumer protections for individuals purchasing digital video games. Currently, buyers of digital games enjoy virtually no meaningful legal protection. Despite paying for what is presented as a product, they are instead granted a vague, one-sided license, often defined exclusively by the publishers End-User License Agreement (EULA). These EULAs typically contain numerous unfair and non-negotiable terms, leaving consumers with no real rights over the product they purchased. Major publishers, such as Ubisoft and Blizzard, include clauses in their EULAs that allow them to terminate the agreement and revoke access to purchased games at any time, for any reason, with or without cause, with or without notice. This means consumers who paid for a games, sometimes even owning a physical copy can suddenly lose access to it and are not entitled to a refund. Furthermore, publishers may unilaterally modify or remove content, reducing or even eliminating game functionality after purchase. This creates a scenario where a consumer may pay full price for a game and lose access the next day, a week later, or after a month, entirely at the discretion of the publisher, under terms that most consumers are not even aware of when they complete the purchase. This situation is not just unfair - it is exploitative. The scale and importance of this issue is further underscored by the European Citizens Initiative \"Stop destroying video games\", which has already gathered over 1.4 million signatures. This clearly shows that EU citizens care deeply about the integrity and preservation of their digital purchases. Digital video games are not simply entertainment, they are cultural works, products of creative labor, and often significant investments for consumers. They deserve the same basic consumer protection standards that apply to any other digital good sold within the EU. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.969776Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585883.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585883",
+    "chunks_doc_id": "F3585883",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585883.clean.paragraph.json"
+}

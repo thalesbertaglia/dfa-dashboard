@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588768",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:39Z",
+    "finished_at": "2026-04-14T13:25:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to cancel games that have already been purchased by people or to make it impossible to use the game."
+              },
+              {
+                "quote": "under what conditions I can use the game in question and for how long I can use it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10447,
+          "unit_kind": "feedback"
+        },
+        "text": "It is not acceptable, in my view, for toy publishers to cancel games that have already been purchased by people or to make it impossible to use the game. That cannot be accepted even if, in the terms of use of the toy, I refer to the fact that I only buy a right of use, because it is then possible to specify precisely under what conditions I can use the game in question and for how long I can use it. While computer games are part of the culture, their impressions of a given age, they reflect the expectations, world views, etc. As to date, computer games must also be made available.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.684206Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588768.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588768",
+    "chunks_doc_id": "F3588768",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

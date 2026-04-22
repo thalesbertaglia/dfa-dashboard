@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584299",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:30Z",
+    "finished_at": "2026-04-14T11:54:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game buyers to continue playing the products they have paid for when developers stop supporting online servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12355,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello Madam, Sir of the European Commission, I am sending this message to draw your attention to the European Citizens’ Initiative “Stop killing games”, which has reached more than 1.4 million votes. This initiative fights to allow video game buyers to continue playing the products they have paid for when developers stop supporting online servers via servers that will be managed directly by the consumer, as most online games currently cease to operate as soon as this happens like the game ‘the crew’ and other hundreds of video games, which is anti-consumer to see the product bought out of operation and the video game industry can do so at any time without warning before purchasing that the game may stop walking as soon as the company so decides. Thank you very much for reading this message and wish you a pleasant day. Cordially",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.166376Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584299.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584299",
+    "chunks_doc_id": "F3584299",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

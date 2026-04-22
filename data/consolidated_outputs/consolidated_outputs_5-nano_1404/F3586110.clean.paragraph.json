@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586110",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:08Z",
+    "finished_at": "2026-04-14T12:47:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The destruction of video games happens for various reasons including:"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Subscription Model Rotations: Games available via services like Xbox Game Pass or PS+ rotate out, making access temporary."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 51134,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, I would like to kindly suggest that one more point be added to the list of ammendments to the Digital Fairness Act. Specifically, the prevention of the destruction of video games that have been purchased by customers. Hundreds of video games have been destroyed by either game developers or publishers and the trend will only get worse for consumers if preventative measures are not implemented as soon as possible. The destruction of video games happens for various reasons including: Server Shutdowns: Online-only games become unplayable when publishers shut down servers. Always-Online DRM: Games that require a constant internet connection stop working if authentication servers go offline. Delisted from Stores: Games are removed from digital storefronts due to licensing issues, low sales, or publisher decisions. Lack of Backward Compatibility: Older games become inaccessible on modern hardware without official support. Digital Ownership Restrictions: Players cant legally preserve or transfer their digital games once access is revoked. Subscription Model Rotations: Games available via services like Xbox Game Pass or PS+ rotate out, making access temporary. Publisher Abandonment: Developers stop supporting or patching games, leaving them broken or unplayable. Licensing Expirations: Games based on music, sports, or film IPs are often removed when licenses expire. All of these are symptoms of a chilling trend towards video games being treated as disposable, regardless of consumer rights of ownership and whether hard copies of games (physical media) are owned or not. I hope that owners of video games will be able to use their property for as long as those games are owned and that that property is not destroyed. Thank you for your time. Best regards",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.096116Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586110.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586110",
+    "chunks_doc_id": "F3586110",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33072481",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:02Z",
+    "finished_at": "2026-04-14T09:29:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "regulations regarding videogame industry."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13398,
+          "unit_kind": "feedback"
+        },
+        "text": "One of the biggest gaps when it comes to Digital Fairness has to be the lack of any regulations regarding videogame industry. Ever since videogames became a medium, they've been essentially treated like toys and their artistic value has been disregarded. While the medium has risen and became one of the biggest industries on the planet, due to this origin as \"toys for children\" no rules or regulations exist to protect videogames as an art form. This resulted in thousands of games being lost - even if a person technically owns them. Nothing is done to prevent this. Imagine if movie DVD or book a person purchased could be taken away years later because a company tied it's functionality to their digital service (despite it being sold as a good and not service). A collaborative effort between thousands of people, released to more than million people, no longer available due to what is essentially is planned obsolescence on a company's part. Videogames are still a growing artistic medium, yet it was never seen as such by the law, resulting in many pieces of art being reduced to \"toys\". \"Toys\" that the company who sold them can take away from children at any time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.505673Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33072481.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33072481",
+    "chunks_doc_id": "F33072481",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33072481.clean.paragraph.json"
+}

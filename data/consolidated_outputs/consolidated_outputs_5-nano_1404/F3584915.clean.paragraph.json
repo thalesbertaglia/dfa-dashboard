@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584915",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:22Z",
+    "finished_at": "2026-04-14T12:14:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "permanent removal of video games when the game developers stop the service after we purchased a game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Most companies terms and services state that they can revoke access to a game without any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16380,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Digital Fairness Act, As a Dutch citizen I would like to draw some attention to the permanent removal of video games when the game developers stop the service after we purchased a game. This will cause players not access the game anymore. A great example is a game called: The Crew. This game was playable without interacting with players or services but because Ubisoft stops the service we are not allowed to play it anymore. This practice is getting out of hand and more and more games are getting destroyed. This situation is getting worse and more companies go down this road. The terms and services that these companies provide are also very hostile. Most companies terms and services state that they can revoke access to a game without any reason. There is already a initiative called: European Citizens' Initiative: Stop Destroying Videogames that already has 1,438,835 signatures because gamers see that the situation is getting worse. I attached a text file with the website and a short explanation on stop killing games initiative because it explains exactly what I mean and they explain it way better then I can. Thank you for your time reading this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.500352Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584915.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584915",
+    "chunks_doc_id": "F3584915",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

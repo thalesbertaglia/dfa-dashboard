@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:35Z",
+    "finished_at": "2026-04-14T12:42:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "acquired digital content that is unilaterally terminated by the seller leaving the acquirer without access to the purchased content."
+              },
+              {
+                "quote": "software that works only with a connection to the server managed by the seller, which terminates the support and disconnects those servers making the software unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13016,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to ask for attention to be paid to acquired digital content that is unilaterally terminated by the seller leaving the acquirer without access to the purchased content. As an example, software that works only with a connection to the server managed by the seller, which terminates the support and disconnects those servers making the software unusable. Ex: Some video games as well as other types of software.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.016778Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585977",
+    "chunks_doc_id": "F3585977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585977.clean.paragraph.json"
+}

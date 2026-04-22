@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584839",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:24Z",
+    "finished_at": "2026-04-14T12:12:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, game publishers can turn off servers required to play them, making legally bought game unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12699,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like for Digital Fairness Act to include people's rights to use software they bought. Right now, game publishers can turn off servers required to play them, making legally bought game unplayable. This harmful strategy already destroyed thousands of games. People should have right to play their games not just a year after release, but at any time",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.463230Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584839.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584839",
+    "chunks_doc_id": "F3584839",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584839.clean.paragraph.json"
+}

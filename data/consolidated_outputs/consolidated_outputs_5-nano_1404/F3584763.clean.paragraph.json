@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584763",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:16Z",
+    "finished_at": "2026-04-14T12:09:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you do not own the game, but a license to play the game, one which can be revoked by the manufacturer at anytime, without recourse."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair anti-arbitration and ownership clauses to their digital products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23829,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Digital Fairness Act is currently lacking in the areas of digital software, particularly video games. It seems that the vast majority of video game publishers are adding unfair anti-arbitration and ownership clauses to their digital products. In particular, a large number of recent videos games stipulate that you do not own the game, but a license to play the game, one which can be revoked by the manufacturer at anytime, without recourse. I firmly am against this type of clause, and think that digital software and ownership is something that needs to be more thoroughly investigated, explored and defined in the digital fairness act. There are many videos games I have purchased digitally under the assumption I was buying the game, only to have found out I do not own, which I see as a huge issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.394855Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584763.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584763",
+    "chunks_doc_id": "F3584763",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

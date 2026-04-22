@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585344",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:34Z",
+    "finished_at": "2026-04-14T12:26:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames that requires an online internet connection just to launch the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27251,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I would like to request an additional initiative to the Digital Fairness Act, protection of videogames. In recent years game developers have created more of what is known as \"live-service games\", videogames that requires an online internet connection just to launch the game. The problem is, when these games become less relevant and popular, developers can decide to shut down their online servers, even if the videogame contains large offline singleplayer content. However, a potential solution could be where game developers instead remove these online internet required functions from the game, leaving the offline parts of the game intact and still playable. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.689981Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585344.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585344",
+    "chunks_doc_id": "F3585344",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585344.clean.paragraph.json"
+}

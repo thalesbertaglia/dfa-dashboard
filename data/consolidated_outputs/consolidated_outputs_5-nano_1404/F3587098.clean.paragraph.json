@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587098",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:06Z",
+    "finished_at": "2026-04-14T13:10:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The developers/sellers can recall or discontinue the products as they please."
+              },
+              {
+                "quote": "Like for example, if you do not log in for a year they will remove your account and every purchase associated with it."
+              },
+              {
+                "quote": "It should also only be up to the store/seller to determine what content they want to provide."
+              },
+              {
+                "quote": "If support end, an end of life solution should be introduced to preserve the content."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31023,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital purchases need to be treated properly. The increase in shady definitions of ownership and licensing is a worrying sign when it comes to digital purchases. The developers/sellers can recall or discontinue the products as they please. Like for example, if you do not log in for a year they will remove your account and every purchase associated with it. Ownership needs to become a thing again, and it's only fair for the consumers to know what to expect from a digital purchase. If it's time-limited, it needs to be stated clearly. If support end, an end of life solution should be introduced to preserve the content. It should also only be up to the store/seller to determine what content they want to provide. Recently, we saw lots of content being removed from Steam and Itch.io, due to the payment providers. I believe this an overreach of power and an abuse of a monopolistic position on the market. In this case the target was certain types of games, but other games got caught in the crossfire, and I believe these situations sets a dangerous precedent. The law should be the foundation for what can be sold, not the personal beliefs of a few activists. If these group's personal beliefs are held above the law for what can be sold, then what will be banned next?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.435010Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587098.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587098",
+    "chunks_doc_id": "F3587098",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

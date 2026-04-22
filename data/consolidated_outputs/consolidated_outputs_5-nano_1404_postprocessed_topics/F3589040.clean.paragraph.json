@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3589040",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:23Z",
+    "finished_at": "2026-04-14T13:28:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "programmes/jeux vidéos."
+              },
+              {
+                "quote": "empêcher les distributeurs de programmes/jeux vidéos de rendre l'accès à ces jeux impossibles après l'achat du programme/jeux vidéos."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33899,
+          "unit_kind": "feedback"
+        },
+        "text": "Bonjour, J'écris ce feedback pour demander dajouter une ou plusieurs clauses concernant les programmes/jeux vidéos. Avec comme objectif d'empêcher les distributeurs de programmes/jeux vidéos de rendre l'accès à ces jeux impossibles après l'achat du programme/jeux. Une solution possible est d'obliger les distributeurs de faire une mise à jours rendant la connexion à un serveur central non nécessaire quand il ne peuvent ou ne veulent plus supporter le programme/jeux vidéos. Cordialement, Arthur",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.735976Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589040.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589040",
+    "chunks_doc_id": "F3589040",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589040.clean.paragraph.json"
+}

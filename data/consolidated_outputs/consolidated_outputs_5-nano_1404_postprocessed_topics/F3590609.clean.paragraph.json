@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3590609",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:51Z",
+    "finished_at": "2026-04-14T13:35:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The support for offline storage should not be removed to \"promote\" convenient cloud storage that can't be configured to be self hosted and asks for a monthly payment for any storing capacity higher than an USB stick from 2010."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I should not be forced to update to a subscription model."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Software that I paid for should not be rendered unusable if a DRM server is shut down."
+              },
+              {
+                "quote": "A company shouldn't be able to say that the product as originally advertised is not profitable, while at the same time not open sourcing the firmware to the public, as it might affect their profit (which they claim doesn't exist?)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 96928,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I greatly appreciate the effort that is being put in towards improving the fairness of digital products and services. I would like to share a few thoughts. As multiple varying size companies regularly fail to protect our personal data, governments need to provide a way to authenticate the identity of a person, while exposing as little data as possible. There are cryptographic \"zero trust\" methods of authenticating a user without tracking (as an example, https ensures secure channel with servers, but no https authority knows what sites I'm visiting). The service providers could get a guarantee from a government via digital signatures, that a user is unique and is a legal citizen. There could even be age verification integrated into this system. If the company database is compromised and the data is leaked or stolen, the signed tokens could be made unusable by any other server (via domain authentication). If it is necessary, the tokens could be decoded, but only by the government entities that have the necessary cryptographic keys. This would make compliance easier to implement, allowing more small business to participate with reduced risk and provide them with a reliable way to combat bots. Consumers would be protected by not disclosing their data to third parties as companies would only get the bare minimum data on them. I second a lot of the voices in the desire of digital (and physical) purchases working as advertised/expected without relying on the manufacturers/retailers decisions after the purchase was made. Software that I paid for should not be rendered unusable if a DRM server is shut down. I should not be forced to update to a subscription model. The support for offline storage should not be removed to \"promote\" convenient cloud storage that can't be configured to be self hosted and asks for a monthly payment for any storing capacity higher than an USB stick from 2010. A security camera should still be a working camera I can connect to a home server, even if the manufacturer can not continue supporting their servers. A company shouldn't be able to say that the product as originally advertised is not profitable, while at the same time not open sourcing the firmware to the public, as it might affect their profit (which they claim doesn't exist?). Any purchase that leads to random results should be treated as gambling, which comes with increased scrutiny and taxes on companies. Not knowing how long software/hardware will work at the time of purchase is gambling. Allowing users to replace cloud infrastructure with self hosted (or alternative) backends would negate this factor. All software that was developed using funds from government contracts should be made open source. Companies shouldn't be allowed to both take money developing tech for the government and keep any future profits for themselves. This could still exclude critical infrastructure for security reasons. This doesn't necessarily protect consumers, rather it is more fair to tax payers. On a similar note, companies should be required to allocate some percentage of their income to open source projects of their choosing (similar to how everyone pays for road maintenance). This should be public info, so the responsibility of auditing if the recipients were picked fairly would fall on public perception and opinion (I don't believe that this decision should be centralized or managed by the government).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.832361Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590609.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590609",
+    "chunks_doc_id": "F3590609",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590609.clean.paragraph.json"
+}

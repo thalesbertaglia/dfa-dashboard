@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586116",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:26Z",
+    "finished_at": "2026-04-14T12:47:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being destroyed in the name of \"not supporting them\", which made these video games totally inaccessible."
+              },
+              {
+                "quote": "Overwatch® 2 was marketed as either a new video game or an update, as Blizzard saw fit."
+              },
+              {
+                "quote": "The problem here is that Overwatch® 2 is not only another game, but also an replacement that would render Overwatch® 1 unplayable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22053,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings. Within the previous years, I witnessed many video games being destroyed in the name of \"not supporting them\", which made these video games totally inaccessible. My personal story is mostly about the multiplayer first-person shooter game Overwatch® 1 by Blizzard. Over the years it had become a video game that I enjoyed playing. However, Blizzard shut down the video game entirely with the promise of improving it via replacing it with an whole another video game. Overwatch® 2 was marketed as either a new video game or an update, as Blizzard saw fit. The issue here isn't Overwatch® 2 coming out, or it being supported more than the previous video game. The problem here is that Overwatch® 2 is not only another game, but also an replacement that would render Overwatch® 1 unplayable. In a fairly trivial nature, Blizzard could have kept Overwatch® 1 playable; without shutting down the video game's copy distribution channel, they could've simply shut down the dedicated servers and distribute dedicated server binaries to interested players. But, as you can read, that wasn't what happened. Video games, like most of the other commodities and services in the digital world, contain many anti-consumer practices like this within its industry. Therefore, I believe the Digital Fairness Act will do a lot of good for consumers regarding this and many other anti-consumer actions in the video game industry.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.099798Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586116.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586116",
+    "chunks_doc_id": "F3586116",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

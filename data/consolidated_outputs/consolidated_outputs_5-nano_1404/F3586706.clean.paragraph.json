@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586706",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:23Z",
+    "finished_at": "2026-04-14T13:02:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors should not have the ability to dictate how our money is spent as long as the transactions are legal."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32504,
+          "unit_kind": "feedback"
+        },
+        "text": "Two individual matters bring me here: The recent actions taken by payment processors that I deem problematic and disdainful & the issue covered by a simultaneously running petition going by the name Stop Killing Games. Both issues are quite pressing in my eyes. Payment processors should not have the ability to dictate how our money is spent as long as the transactions are legal. Payment processors are not our morality guides, nor should they ever be, no matter what the activists want. I will not elaborate on SKG too much here, as that is an adjacent matter from my point of view. However, it is noteworthy to mention that the current way in which these transactions and purchases are being marketed and handled does not align with our laws and already set up precedent and something should definitely be done about that aspect of things as well, not to mention the end of the current practice of leaving you with a gloried door stopper if you have bought a physical copy or absolutely nothing in the case of a digital one. Unacceptable, both of these, and I sincerely hope that it will be both considered and dealt with sooner rather than later. EU consumers have the right to use the product they PURCHASE & to have the ability to spend their money how they see fit, even if it rubs certain groups the wrong way.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.326365Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586706.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586706",
+    "chunks_doc_id": "F3586706",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

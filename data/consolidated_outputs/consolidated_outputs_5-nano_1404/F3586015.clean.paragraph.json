@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586015",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:46Z",
+    "finished_at": "2026-04-14T12:44:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The landscape of owning digital games is so distorted, that even physical game releases can be made obsolete, so that even owning a physical copy doesn't guarantee you will have the product in the future."
+              },
+              {
+                "quote": "and in order to play the game, I am forced to have an account to an online service that doesn't exist anymore,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36756,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel like the \"Stop killing games\" initiative is right up this alley, and should be included! The landscape of owning digital games is so distorted, that even physical game releases can be made obsolete, so that even owning a physical copy doesn't guarantee you will have the product in the future. This happened to me with the game \"Viva Piñata,\" where I now have the physical box and CD sitting on my shelf, and in order to play the game, I am forced to have an account to an online service that doesn't exist anymore, having made the contents of my physical purchase disappear. This likely happened because the publisher Microsoft didn't have an end of life plan for their game, and now having the game tied behind a service they discontinued, I essentially have just an empty CD. It's like buying a jacket, and the designer decides they'll no longer be manufacturing that line of clothing, and takes back my jacket and keeps the money!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.036790Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586015.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586015",
+    "chunks_doc_id": "F3586015",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584976",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:45Z",
+    "finished_at": "2026-04-14T12:17:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "servers were switched off, making it impossible for all buyers to use the software."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27527,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be good if the Digital Fairness Act does not lose sight of consumer protection when buying digital media. There is no real protection that purchased products with some necessary or often forced online service can be switched off or modified by the publisher as it sees fit. The licence for the product was sold without indicating a lifetime or minimum durability, but the publisher decides when the necessary servers will be switched off, making it impossible to continue using the software. This is particularly the case for software from the entertainment industry, such as the European Publisher Ubisoft, which recently ‘cancelled’ one of its games (The Crew) in which the servers were switched off, making it impossible for all buyers to use the software. There are several possibilities for continuing to run this software without incurring additional costs for companies, even since there are examples that have so far depended on the goodwill of publishers. Goodwill, which will not be present in large companies wishing to sell ‘part 2’. (The crew 2 is, of course, also marketed by Ubisoft. Is clear, ne?) Ach and the EU’s European Citizens’ Initiative ‘Stop Destroying Videogames’ has similar objectives with over 1.4 million signatures and seeks to achieve better consumer protection. I hope that consumer protection, especially as regards digital media, can be better protected. Thank you, yours faithfully,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.534461Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584976.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584976",
+    "chunks_doc_id": "F3584976",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

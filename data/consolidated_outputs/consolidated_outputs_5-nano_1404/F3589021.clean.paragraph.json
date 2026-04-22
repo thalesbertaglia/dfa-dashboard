@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589021",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:03Z",
+    "finished_at": "2026-04-14T13:28:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers deciding to make online games which depend on their servers to function to then shut these down whenever they please"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15612,
+          "unit_kind": "feedback"
+        },
+        "text": "As an EU citizen and digital consumer, I believe the digital fairness act needs to tackle the current ongoing problem of video game publishers deciding to make online games which depend on their servers to function to then shut these down whenever they please, which leave million of people unable to access their games, effectively robbed of their purchase. This is an entirely preventable problem which can easily be fixed in the early and mid stages of development by either allowing the users to be able to host their own servers, preparing a patch to the game which allows it to run offline or other similar methods. Publishers have essentially abused this for the past few years, this practice has been growing in an alarming rate, and I worry that it will become an industry standard that people will no longer have the right to play their games anymore. Having signed the 'Stop Destroying Games' citizen initiative, I hope that the Digital Fairness Act can also include what the initiative wants (as they seem to be similar and compatible) and find a way to stop this unfair practices from becoming mainstream.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.728516Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589021.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589021",
+    "chunks_doc_id": "F3589021",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

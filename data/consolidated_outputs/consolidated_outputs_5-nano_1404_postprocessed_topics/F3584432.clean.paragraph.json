@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584432",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:16Z",
+    "finished_at": "2026-04-14T11:58:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the moment those servers get shut down they become unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "block Digital Contents that they deem \"Risky\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19326,
+          "unit_kind": "feedback"
+        },
+        "text": "This is looking good but i would like to suggest 2 Additions. First a Protection against Companies \"Destroying\" digital Contents a while after the Customer bought them. This mostly happens in the Video game industry were Publishers after some time shut down their support for their games and their Servers, this wouldnt be a proplem if you could still play them after those shut downs but unfortunatly due to those Publishers makeing even Single player Games require connections to those Servers the moment those servers get shut down they become unusable. Endless Support would be bad for the Publishers but there are already Multiple Solutions for this Problem. \"Stop Destroying Videogames\" has made Multiple of those Suggestions like the Communitys being able to run their Own Servers after the Publishers Servers are shut down. The Second Addition i would like to Suggest would be something against Payment Processors like Mastercard and Visa being able to block Digital Contents that they deem \"Risky\". This mostly includes Adult Contents that have even startet to Disappear from Digital Stores through those Payment Processors. They shouldnt be allowed to dictate what a Customer can and cannot buy, although i understand that they dont want somethings being associated with them. I beg that those issues be considert at the very least to be looked into.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.232658Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584432.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584432",
+    "chunks_doc_id": "F3584432",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584432.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584510",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:10Z",
+    "finished_at": "2026-04-14T12:00:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are a form of art and entertainment, and have to be preserved as they have become part of human culture and a veritable expression of creativity."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27653,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games are a form of art and entertainment, and have to be preserved as they have become part of human culture and a veritable expression of creativity. This art form is currently not being protected in any way, and creations purchased by consumers can arbitrarily be destroyed from publishers whenever they feel games are not longer economically profitable. We are all able to replay video games from our childhood, that used to be sold in physical form, while modern ones, distributed digitally and protected by DRM or other forms of centralised control, are irrecoverably lost whenever the publisher decides to pull the plug. This, I feel, is unacceptable and a permanent loss of cultural heritage. Please encode rights-of-preservation for video games and other forms of electronic media in European Law so that modern and future video games can be played and enjoyed forever.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.267950Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584510.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584510",
+    "chunks_doc_id": "F3584510",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584510.clean.paragraph.json"
+}

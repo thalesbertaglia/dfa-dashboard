@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3584987",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:12Z",
+    "finished_at": "2026-04-14T12:17:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games from being discontinued and abandoned"
+              },
+              {
+                "quote": "Or even not being able to use game at all after discontinuation."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "That is a predatory service"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sell you email adress to advertisers"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you have to make make an account or pay a subscription to save my photo or video"
+              },
+              {
+                "quote": "when an account or payment is required to use a service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39771,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider adding the protection of online services like video games from being discontinued and abandoned without being able to continue using the product that had been purchased. Like is case of Ubisoft were after discontining a game you have to uninstall their products and aren't even allowed to host server for the users that legaly purchased the product. Or even not being able to use game at all after discontinuation. Most importantly i urge you to add protection from banks/ payment card processors that censor and blacklist what can be on sites like steam to be purchased. Prohibiting the products that they personally dont agree and support, gives the ability to censor public as they like. As a customer and internet user i have a right and freedom to enjoy legal products without them interfering and oppressing said freedom. They should not have the power to dictate what can be sold or not when the product or service is legal and doesn't break any laws. Also consider to add that when an account or payment is required to use a service that requirement has to be stated outright. Way to many times i had edited a photo or an wideo only to be told that i have to make make an account or pay a subscription to save my photo or video. That is a predatory service, you spend significant effort for example to fully edit a video, only to be told you need to pay or make an account to a service that will immediately sell you email adress to advertisers, to receive what you worked for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.539344Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584987.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584987",
+    "chunks_doc_id": "F3584987",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584987.clean.paragraph.json"
+}

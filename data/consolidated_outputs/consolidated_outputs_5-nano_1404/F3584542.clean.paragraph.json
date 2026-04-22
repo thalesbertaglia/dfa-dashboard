@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584542",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:06Z",
+    "finished_at": "2026-04-14T12:01:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe games are an art form themselves, maybe the most interactive of them all."
+              },
+              {
+                "quote": "Stop Killing Games initiative"
+              },
+              {
+                "quote": "By making them forever accessible, again, at no cost"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44044,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, the point I would like to make is short: lost media is a tragedy. While we overlook this fact in so many cases, we are unable to say how many masterpieces have been lost when it comes to books, movies and many other art forms lost to time. I believe games are an art form themselves, maybe the most interactive of them all. Here I am, offering my support for the Stop Killing Games initiative as it is asking for the bare minimum from multiple greedy, miserable companies: offer the product they are no longer willing to support, no changes needed -despite their endless lies- and no extra work on their part, to the fans of the game. The same fans that have proved time and time again that they are better and show greater benevolence than their enormous teams when it comes to supporting, modifying and improving said games. By making them forever accessible, again, at no cost, all of those that seek to play their childhood games once more or show their children the same wonderful experience they once enjoyed themselves, could have the means to do so. I believe there is no way to justify having made a purchase for a temporary good, ask yourself how you would feel about your car one day being taken away if the makers decided it's no longer making them enough money to be worth being \"kept alive\". Nobody wants games as a service, sadly there is no choice today, here's hoping there will be one tomorrow.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.284095Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584542.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584542",
+    "chunks_doc_id": "F3584542",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

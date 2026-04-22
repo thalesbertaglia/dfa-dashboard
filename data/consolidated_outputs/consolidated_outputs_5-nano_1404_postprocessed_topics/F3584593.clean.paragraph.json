@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584593",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:02:48Z",
+    "finished_at": "2026-04-14T12:03:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are many games which require a constant online connection to servers of the developers to be played."
+              },
+              {
+                "quote": "In this game many game modes dont work if you dont have a connection to IO Interactives servers."
+              },
+              {
+                "quote": "The Problem with this is that I fear if the servers for HITMAN World of Assasination arent financially runnable anymore, I could loose access to half of my Game which I purchased with my own money."
+              },
+              {
+                "quote": "I think it is in that way important for developers to have to think of an end of life plan to let their games be accessible through the communities means."
+              },
+              {
+                "quote": "This would be possible by giving us (the players) access to a server executable to which the game could connect to."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27254,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness is incredibly important in our time as many Products that can be bought online only come in digital forms. The problem with this is that, there are no real standards to what can be sold and it is very hard to identify if a program works the way you intend it to work beforehand. This is especially true for games. There are many games which require a constant online connection to servers of the developers to be played. I have experienced this first in the Game HITMAN World of Assassination by IO Interactive. In this game many game modes dont work if you dont have a connection to IO Interactives servers. The Problem with this is that I fear if the servers for HITMAN World of Assasination arent financially runnable anymore, I could loose access to half of my Game which I purchased with my own money. I think it is in that way important for developers to have to think of an end of life plan to let their games be accessible through the communities means. This would be possible by giving us (the players) access to a server executable to which the game could connect to. This will make games more accessible and create a fairer gaming community for players and developers alike.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.308241Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584593.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584593",
+    "chunks_doc_id": "F3584593",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584593.clean.paragraph.json"
+}

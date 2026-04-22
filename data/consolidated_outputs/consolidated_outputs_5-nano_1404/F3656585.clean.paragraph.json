@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3656585",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:45Z",
+    "finished_at": "2026-04-14T13:44:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "App Store Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "verify sideloading on Android is anti-competitive"
+              },
+              {
+                "quote": "alternative app stores in Android"
+              },
+              {
+                "quote": "This effectively grants Google full power to allow or disallow whatever apps they wish"
+              },
+              {
+                "quote": "This also would create significantly barries for open source and community-driven projects such as the F-Droid app store."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15541,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe Google's new initiative to verify sideloading on Android is anti-competitive, and also, sidesteps the intent of the previous ruling on the EU about alternative app stores in Android. This effectively grants Google full power to allow or disallow whatever apps they wish, and could easily be exploited to give them whatever advantage they'd like. The conflict of interest is clear. This also would create significantly barries for open source and community-driven projects such as the F-Droid app store.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.055965Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3656585.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3656585",
+    "chunks_doc_id": "F3656585",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

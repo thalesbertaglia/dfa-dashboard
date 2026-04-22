@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584546",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:15Z",
+    "finished_at": "2026-04-14T12:01:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "growing trend of publishers rendering previously purchased video games unplayable after official support ends."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "According to typical license agreements, publishers often reserve the right to shut down online services at any time, for any reason, sometimes even without providing one."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25148,
+          "unit_kind": "feedback"
+        },
+        "text": "I am an EU citizen, and I am deeply concerned about the growing trend of publishers rendering previously purchased video games unplayable after official support ends. This includes titles that I personally own and still value, such as Battlefield 2, Battlefield 3, Battlefield Vietnam, Battlefield 2142, and Battlefield: Bad Company 2. All of these games were developed in Sweden and are part of Europes contribution to the global history of game development. These games were an important part of my youth and a way to spend time with friends. Today, they no longer function as intended due to publisher decisions. In several cases, there is no official way to play them at all once the online infrastructure is gone, not even alone or with friends on a local network. The European Citizens Initiative Stop Destroying Videogames has collected more than 1.4 million signatures, which shows many EU citizens share these concerns about access, fairness, and long-term use of digital purchases. According to typical license agreements, publishers often reserve the right to shut down online services at any time, for any reason, sometimes even without providing one. In some cases, such as Ubisoft, a French game developer, users are expected to uninstall the product and destroy all copies upon termination. This means that legally purchased games can be rendered inaccessible without warning, leaving consumers with nothing. This is not about forcing companies to operate servers forever. It is about ensuring that once support ends, consumers still have access to what they legally purchased. Games should not become paperweights overnight. There should be a clear requirement that digital content remains functional even after official support ends. This should be part of the products end-of-life plan. Before a game is taken offline, publishers should ensure that users still have a way to access and use what they purchased, whether through an offline mode, self-hosted servers, or other solutions that do not rely on centralized infrastructure. The Digital Fairness Act is an opportunity to address this by setting basic expectations for digital longevity, strengthening consumer trust, and protecting Europes digital cultural heritage.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.286260Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584546.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584546",
+    "chunks_doc_id": "F3584546",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

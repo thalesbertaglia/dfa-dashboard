@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586520",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:19Z",
+    "finished_at": "2026-04-14T12:58:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of destroying or revoking access to video games that people have legally purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "updated their terms to force owners to destroy their physical copies once support ends"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19149,
+          "unit_kind": "feedback"
+        },
+        "text": "First of all, thank you for opening this initiative up for public feedback. I think the goals of the Digital Fairness Act are very important, but I believe theres one big issue missing from the discussion: the practice of destroying or revoking access to video games that people have legally purchased. Over the past few years, it has become increasingly common for publishers to shut down games, sometimes even single-player titles, making them completely unplayable. Players pay full price for a product, only to lose access later because a company decides to end support or switch off servers, often without offering any alternative like offline play or a refund. In some extreme cases, companies have even updated their terms to force owners to destroy their physical copies once support ends, which feels absurd and deeply unfair. Video games are not just software; they are cultural and artistic works that people invest time, money, and emotions into. When these games are killed without any option to preserve or continue playing them, its not just bad for consumers, it erases a part of digital culture permanently. I strongly believe the Digital Fairness Act should include provisions preventing companies from taking away access to purchased games. At the very least, publishers should be required to maintain basic playability (for example, offline modes) or issue refunds if they decide to shut a game down. Digital ownership should mean something real, not just a temporary rental until a company changes its mind. Thank you for considering this point. I hope this Act can help establish stronger rights for players and protect digital products from being destroyed after purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.268981Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586520.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586520",
+    "chunks_doc_id": "F3586520",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

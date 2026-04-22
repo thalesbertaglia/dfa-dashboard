@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589032",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:11Z",
+    "finished_at": "2026-04-14T13:28:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prevent large game studios from suddenly shutting down their services without prior notice, effectively making their products unusable after buying."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12050,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU I would greatly appreciate if this act would include elements that prevent large game studios from suddenly shutting down their services without prior notice, effectively making their products unusable after buying. Having the EU pass acts that protect the end user of video games could have a huge effect on other regions as well such as Switzerland.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.732435Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589032.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589032",
+    "chunks_doc_id": "F3589032",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589032.clean.paragraph.json"
+}

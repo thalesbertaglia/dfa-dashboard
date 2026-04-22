@@ -1,0 +1,95 @@
+{
+  "doc_id": "F33076721",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:21Z",
+    "finished_at": "2026-04-14T09:29:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It limits user freedom by restricting app installation to verified developers, diminishing Androids traditional openness and users ability to sideload freely."
+              }
+            ]
+          },
+          {
+            "topic": "Ad Transparency And Truthfulness",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "some apps displaying Google ads can mislead users because Google does not fully vet the accuracy of advertisements or the apps they promote."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Users across platforms like Instagram, Facebook, and Reddit often face a constant stream of recommended or suggested groups and pages."
+              }
+            ]
+          },
+          {
+            "topic": "AI Content Labeling",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "content and profiles operated by bots or AI should be clearly labeled as such."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21494,
+          "unit_kind": "feedback"
+        },
+        "text": "Firstly, Google's new developer registration and sideloading control policyeffective from September 2026 in select countries and expanding globally by 2027requires all developers to verify their identities and register their apps before installation on certified Android devices. While this policy aims to enhance accountability and reduce malware or fraud, it also introduces several concerns: - It limits user freedom by restricting app installation to verified developers, diminishing Androids traditional openness and users ability to sideload freely. Independent, hobbyist, and open-source developers may face privacy risks and barriers due to mandatory submission of personal information. The policy centralizes authority under Google, raising the potential for gatekeeping and reduced innovation. It threatens alternative app stores and niche local app ecosystems. Small developers may struggle to meet new administrative and technical requirements. Overall, this shift moves Android toward a more closed, controlled environment, potentially undermining user choice, developer diversity, and digital innovation. Secondly, some apps displaying Google ads can mislead users because Google does not fully vet the accuracy of advertisements or the apps they promote. These ads can redirect to deceptive apps that promise payouts or rewards but lack authenticity or proper verification. Given that these promotions appear through Googles advertising networks, Google should be held accountable for ensuring their truthfulness and for protecting users from misleading content. Thirdly, users across platforms like Instagram, Facebook, and Reddit often face a constant stream of recommended or suggested groups and pages. These unsolicited recommendations disrupt user experience, with limited options to completely opt out. Users should have the explicit choice to view suggested content only if they wish to, rather than having it imposed by default. Lastly, content and profiles operated by bots or AI should be clearly labeled as such. Transparency in this area is essential to preserve trust and help users distinguish genuine human interactions from automated or artificial ones.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.516632Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33076721.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33076721",
+    "chunks_doc_id": "F33076721",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F33070596",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:11Z",
+    "finished_at": "2026-04-14T09:28:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Forcing always-online DRM even for games that could function offline,"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industrys practice of making server-dependent games unplayable after servers are shut down."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Lack of transparency regarding digital product access and withdrawal rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31344,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I am writing to raise a serious consumer rights concern regarding the video game industrys practice of making server-dependent games unplayable after servers are shut down. I purchased the game The Crew at full price (70) as a physical copy upon its release. However, I am now unable to play this game because it requires a continuous internet connection to Ubisoft servers, which have been permanently shut down. When I insert the disc, I am met only with a message indicating the servers are down, rendering the game completely inaccessible. This is deeply unjust and violates the common understanding of ownership. Despite having bought the product legally, I am deprived of access rights that should be protected. This issue reflects broader harmful industry practices such as: Forcing always-online DRM even for games that could function offline, Permanently disabling access through server shutdowns without offline alternatives, Failing to provide clear consumer rights or compensation in these scenarios, Abusive monetization practices including microtransactions, Lack of transparency regarding digital product access and withdrawal rights. I urge the European Commission to address these issues urgently through the new Digital Fairness Act. This legislation must ensure that consumers who purchase games have the right to continued access, including offline play, even if servers are discontinued. Additionally, the Act should protect consumers from unfair and opaque business practices in the video game market and guarantee meaningful remedies when paid content becomes inaccessible. Thank you for your attention to this issue affecting European consumers. Sincerely, Sébastien Vacca",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.485099Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33070596.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33070596",
+    "chunks_doc_id": "F33070596",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

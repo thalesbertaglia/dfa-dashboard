@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584831",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:04Z",
+    "finished_at": "2026-04-14T12:12:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ownership in the case of digitally purchased video games has become increasingly ambiguous."
+              },
+              {
+                "quote": "consumers often do not truly own it but instead are granted access as part of a \"service.\""
+              },
+              {
+                "quote": "constant online connectivity."
+              },
+              {
+                "quote": "This can be exploited as a mechanism to revoke user access arbitrarily."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Pressure",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors allegedly used their financial leverage to pressure a digital distribution platform Steam into implementing certain restrictions."
+              },
+              {
+                "quote": "Regulatory actions and market limitations should only be within the competence of state institutions, not financial entities or private companies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45424,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, Firstly, I would like to express my sincere appreciation for your ongoing efforts in protecting the rights and interests of European consumers. Secondly, I would kindly ask you to consider including the following two concerns in the scope of the current initiative: 1. Digital Game Ownership and Consumer Transparency Currently, the concept of ownership in the case of digitally purchased video games has become increasingly ambiguous. After purchasing a game, consumers often do not truly own it but instead are granted access as part of a \"service.\" However, it is typically unclear how long this access will be available, and under what conditions. I would respectfully suggest that publishers be required to clearly communicate whether consumers are buying a product or merely subscribing to a service, and in the latter case, for how long access is guaranteed. Additionally, there is a growing trend of publishers making games unnecessarily reliant on constant online connectivity. This can be exploited as a mechanism to revoke user access arbitrarily. I believe this practice is unfair and should be regulated accordingly. 2. Market Pressure and Financial Influence on Digital Platforms Recently, an incident occurred that I found deeply concerning in terms of the future of market fairness. Payment processors allegedly used their financial leverage to pressure a digital distribution platform Steam into implementing certain restrictions. In my opinion, such private-sector pressure undermines free market principles and circumvents the authority of public regulators. Regulatory actions and market limitations should only be within the competence of state institutions, not financial entities or private companies. I believe this kind of interference should be investigated and, if necessary, sanctioned. I kindly ask you to take these concerns into account as part of your initiative. It is important to address behaviours that undermine consumer rights and threaten the principles of a fair and open market. Thank you for your attention. Kind regards, Adam Kristof Farkas",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.459018Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584831.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584831",
+    "chunks_doc_id": "F3584831",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

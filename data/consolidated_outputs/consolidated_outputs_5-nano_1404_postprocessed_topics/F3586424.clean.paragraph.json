@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586424",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:56:24Z",
+    "finished_at": "2026-04-14T12:56:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a way of reporting abuse of \"legitimate interest\" in cookie choice menus, which I would argue is a kind of dark pattern"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many server-dependent video games are acquired via one-time sale but no explanation of how long one will have access"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21858,
+          "unit_kind": "feedback"
+        },
+        "text": "I thank the commission for the opportunity to offer feedback on the content and reach of the DFA. I see an immense urgency to legislate against undue discrimination by monopolistic payment processors, since they have the ability to effectively censor certain kinds of (legal) art or speech by refusing service, without any democratic control or oversight. This could be feasibly utilized to silence ideas that are not in the interest of the payment processors or their business partners, and would have a chilling effect on our democracies. I also see a need to legislate against the release of art (such as video games) with a server dependency and no end-of-life plan. Existing market incentives do not seem to suffice to make developers consider during development, maintenance or a looming shutdown on how to provide a functional product after support ends. This practice also usually goes hand in hand with a blurring of product and service, since many server-dependent video games are acquired via one-time sale but no explanation of how long one will have access. Once support ends for this type of product all copies are rendered unusable, which self-evidently is not good for the richness of our cultural landscape, preservation efforts or consumer rights. In addition, I advocate for harsh penalties and a way of reporting abuse of \"legitimate interest\" in cookie choice menus, which I would argue is a kind of dark pattern",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.238217Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586424.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586424",
+    "chunks_doc_id": "F3586424",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586424.clean.paragraph.json"
+}

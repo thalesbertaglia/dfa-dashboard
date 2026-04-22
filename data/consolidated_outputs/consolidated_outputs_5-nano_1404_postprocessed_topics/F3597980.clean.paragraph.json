@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3597980",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:34Z",
+    "finished_at": "2026-04-14T13:40:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I think, at the moment there are quite some dark patterns in the internet."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11035,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to have an unified traffic light system on every page, for rejecting/allowing of cookies: - Red button means I would like to reject all cookies (or take only the technical necessary, (although, I think there aren't any, because all could be done by URL-adress Tokens)) - Yellow button leads me to a page, where I could choose what cookies I allow. - Green button would allow all cookies. I think, at the moment there are quite some dark patterns in the internet. One of the worst examples is the page \"www.heise.de\". If you want to reject all cookies, you have to go to \"Einstellungen\" (Settings) and the small printed \"Alle Anbieter anzeigen\" (Show all vendors). Than a page with 141 Reject buttons appear, but even if you click them all the button \"Ausgewähltem zustimmen\" (Apply selection) is not clickable. For me this is clearly a dark pattern.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.981602Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3597980.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3597980",
+    "chunks_doc_id": "F3597980",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3597980.clean.paragraph.json"
+}

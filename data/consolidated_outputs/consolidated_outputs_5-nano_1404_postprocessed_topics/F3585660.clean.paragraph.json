@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585660",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:39Z",
+    "finished_at": "2026-04-14T12:33:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One major issue is that when these online services are eventually shut down, players can lose access to everything theyve paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Game publishers can revoke access at any moment, often without meaningful compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32703,
+          "unit_kind": "feedback"
+        },
+        "text": "This is a fantastic concept, and Id like to propose broadening the scope to cover other types of digital mediaespecially video games. In todays digital age, many games rely heavily on a constant internet connection just to function, even when there's no clear reason for it. One major issue is that when these online services are eventually shut down, players can lose access to everything theyve paid for. Take Darkness Rises, a mobile action RPG that once had a thriving player base. Despite people investing time and real money into their characters and gear, the game was completely discontinued, making it completely unplayable. Theres no offline version or way to preserve your purchasesits just gone. This isnt a one-off case. Consider Fortnite, a hugely popular title today. Its free to play, but many users have spent substantial amounts on cosmetics. When Epic eventually shuts down its servers, and they will someday, theres nothing in place to let players continue using what they paid for. Then theres Overwatch, which Blizzard entirely removed to make way for Overwatch 2. Players who had paid full price for the original game were essentially left with nothing, since the \"sequel\" was free and stripped down compared to what they originally bought. Even games marketed with offline content arent safe. Ubisofts The Crew had a single-player mode, yet the company took down the servers and delisted the game. Now, even physical copies dont workyoure stuck at the main menu unless you connect to servers that no longer exist. Situations like these show how vulnerable digital purchases can be. Game publishers can revoke access at any moment, often without meaningful compensation. Adding protections for digital games, just like for other digital assets, would be a huge step toward fairer treatment of consumers in an increasingly online-dependent industry.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.856477Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585660.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585660",
+    "chunks_doc_id": "F3585660",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585660.clean.paragraph.json"
+}

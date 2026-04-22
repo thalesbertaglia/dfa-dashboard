@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3664437",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:05Z",
+    "finished_at": "2026-04-14T13:45:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that they should control what you can and can't do with it"
+              },
+              {
+                "quote": "\"Sideloading\" is no different than installing an application on your laptop or desktop using files like an EXE, APPIMAGE, DEB, etc."
+              },
+              {
+                "quote": "The right to install your own software should be granted to all and should not be taken away"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20485,
+          "unit_kind": "feedback"
+        },
+        "text": "As a people who use computers everyday where it is taken for granted that when you own a pc or a laptop you have the right to use it for what you want and install what you want on it. And yet companies like Google and Apple say that a smartphone is different and that they should control what you can and can't do with it, even what you install on your own device that was purchased with your own money. A smartphone these days can be equally, if not sometimes more powerful than a desktop or laptop and the only thing that differs is that a smartphone fits in your pocket. Why should we as a people give up the right to do what we want with our own property because some companies say so? When you buy something from the store like an apple for example, the store can not say that you are not allowed to put it in a blender when you get home. Why should this be different for electronics? \"Sideloading\" is no different than installing an application on your laptop or desktop using files like an EXE, APPIMAGE, DEB, etc. The right to install your own software should be granted to all and should not be taken away, as this could grant a gateway to lock down laptops and desktops as well I hope something will be done about all this and that changes like the ones that Google wants to make to Android will be prohibited.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.082338Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664437.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664437",
+    "chunks_doc_id": "F3664437",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

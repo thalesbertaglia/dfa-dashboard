@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3618269",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:06Z",
+    "finished_at": "2026-04-14T13:42:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google's actions on mandating identification before running any code is further locking down the mobile market."
+              },
+              {
+                "quote": "One is locking the device from running my own OS and the other is punishment for doing it anyways."
+              },
+              {
+                "quote": "Something as trivial as the macdonald's app is checking my device for signs of alternative software to deny me usage of the application."
+              },
+              {
+                "quote": "google is actively scanning my device for software installed from outside their marketplace and removing it through play protect."
+              },
+              {
+                "quote": "Bootloader locking"
+              },
+              {
+                "quote": "Software attestation"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21369,
+          "unit_kind": "feedback"
+        },
+        "text": "Companies ought not to have a say on device usage after first sale. Google's actions on mandating identification before running any code is further locking down the mobile market. In the other side of this duopoly, apple has almost maliciously denied applications on the altstore. Me as a citizen must adhere to arbitrary rules that are subject to change from both of these companies with no alternative. This is further enforced by 2 technologies * Bootloader locking * Software attestation Both limit the device features on the android ecosystem if you ran your own software. One is locking the device from running my own OS and the other is punishment for doing it anyways. Something as trivial as the macdonald's app is checking my device for signs of alternative software to deny me usage of the application. Moreover google is actively scanning my device for software installed from outside their marketplace and removing it through play protect.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.017804Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3618269.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3618269",
+    "chunks_doc_id": "F3618269",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3618269.clean.paragraph.json"
+}

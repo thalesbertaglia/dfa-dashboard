@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33074450",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:15Z",
+    "finished_at": "2026-04-14T09:29:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Today, many titles can be unilaterally disabled through DRM or server shutdowns, even when single-player content exists."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13978,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the Stop Killing Video Games campaign because consumers deserve durable access to the games they buy. Today, many titles can be unilaterally disabled through DRM or server shutdowns, even when single-player content exists. That practice undermines trust, harms preservation, and wastes money. Please act so that: Players retain access via an offline mode or a released dedicated server binary when official servers end. Companies publish clear end-of-life timelines well in advance. Meaningful remedies (refunds/credits) are provided if core functionality is removed. Sunset obligations are baked into storefront policies and consumer law. Games are part of our shared culture. We need basic continuity guarantees so purchases dont vanish.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.513773Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33074450.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33074450",
+    "chunks_doc_id": "F33074450",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

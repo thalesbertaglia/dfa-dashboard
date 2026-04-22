@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587128",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:02Z",
+    "finished_at": "2026-04-14T13:11:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling-like mechanics"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Removing access to property which was payed for beforehand is a one sided breach of a contract and therefore malicious behavior in the digital space which should be stopped."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21646,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully endorse the proposals 1-5 of the DFA to further protect consumers and their rights in the EU. Especially the various dark patterns and gambling-like mechanics are endangering safe online environments. But I would like to propose a sixth point including the obligation of publishers of digital goods (music, films, games etc.) to either keep on providing (access to) the acquired items or providing the customer with necessary means to gain access to them on their own. This might for example happen through downloadable DRM-free files or in the case of video games creating an offline-mode. Removing access to property which was payed for beforehand is a one sided breach of a contract and therefore malicious behavior in the digital space which should be stopped.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.445362Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587128.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587128",
+    "chunks_doc_id": "F3587128",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

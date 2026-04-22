@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585856",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:02Z",
+    "finished_at": "2026-04-14T12:39:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game companies from shutting down services required to play video games bought by customers."
+              },
+              {
+                "quote": "Today, many video games require always-online services to be played, even if the content one wishes to access is singleplayer and therefore by definition shouldn't require internet access."
+              },
+              {
+                "quote": "This \"death\" has already happened to many video games and the number will only continue to increase unless steps are taken to protect the customer and their purchase."
+              },
+              {
+                "quote": "discontinue online service for it, thus barring me from accessing a game that I even physically own on a DVD."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37537,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission. In essence my proposal is quite simple. Add to the Digital Fairness Act a section that prevents video game companies from shutting down services required to play video games bought by customers. I suggest taking steps such as requiring an end-of-life-plan to said games, enabling them to be available to the customer despite discontinuation of support by the publisher. Such a plan may take the form of removing the requirement for online services or better yet, not requiring online services for offline content to begin with. Background: Today, many video games require always-online services to be played, even if the content one wishes to access is singleplayer and therefore by definition shouldn't require internet access. Recently many companies have included, and continue to include, such online requirements but with no end-of-life-plan, effectively rendering a purchased product completely useless once the company decides they no longer want to provide access to said game. This \"death\" has already happened to many video games and the number will only continue to increase unless steps are taken to protect the customer and their purchase. Personally this has happened to Battlestations: Pacific, a game that I much enjoyed playing when I was younger. When I recently went to pick it up after a few years I discovered that it had been effectively disabled because the publisher, Square Enix, had decided to discontinue online service for it, thus barring me from accessing a game that I even physically own on a DVD. In advance, thank you for your consideration",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.956138Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585856.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585856",
+    "chunks_doc_id": "F3585856",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

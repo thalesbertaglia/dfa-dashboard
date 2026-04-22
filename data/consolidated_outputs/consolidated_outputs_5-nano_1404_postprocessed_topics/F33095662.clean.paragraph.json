@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33095662",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:14:37Z",
+    "finished_at": "2026-04-14T10:14:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "modify software licence agreements"
+              },
+              {
+                "quote": "manipulate unsuspecting customers into agreeing without proper knowledge or tools to verify those changes"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16284,
+          "unit_kind": "feedback"
+        },
+        "text": "Stop Killing Digital Products, not just games. The problem applies also to software like Adobe Photoshop or any other creative software like that. Companies abuse their ability to modify software licence agreements and manipulate unsuspecting customers into agreeing without proper knowledge or tools to verify those changes ( clearly abusing customer trust ) which in itself is malicious in nature and might cause worriesome trend in customer provider relationship.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.757042Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095662.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095662",
+    "chunks_doc_id": "F33095662",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095662.clean.paragraph.json"
+}

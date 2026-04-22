@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584492",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:36Z",
+    "finished_at": "2026-04-14T11:59:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the preservation and accessibility of digital games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17804,
+          "unit_kind": "feedback"
+        },
+        "text": "I urge the EU to consider amendments to the Digital Services Act that address the preservation and accessibility of digital games. I personally lost access to a game I greatly enjoyed Battleborn simply because the publisher decided to shut down support. This rendered a purchased product completely unusable, with no option for offline access or community-supported alternatives. Games are cultural products and should be protected against arbitrary \"kill switches\" by publishers. The DSA should ensure that when online games are decommissioned, users are given access to the software in a playable state either via an offline mode or through rights to self-host or emulate. Without such provisions, consumers are left powerless and cultural digital assets are lost forever. Please consider the long-term rights of users and the importance of digital preservation in future revisions of the DSA.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.259230Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584492.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584492",
+    "chunks_doc_id": "F3584492",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

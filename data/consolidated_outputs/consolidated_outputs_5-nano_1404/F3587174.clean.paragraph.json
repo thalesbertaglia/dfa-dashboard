@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587174",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:31Z",
+    "finished_at": "2026-04-14T13:12:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "revokable license"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15363,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, and thank you for taking the time to read my feedback. I was born in the 90s and got to experience what seems to have been the final years of ownership of digital goods. I am deeply concerned that nearly every digital product on offer now is a revokable license, where the copyright owner holds my purchase hostage and can revoke my access to it for any reason or without reason, with little to no means of recourse for me. I find this situation to be ridiculous, and I hope that the EU, as the most pro-consumer governing body on earth, can stop this predatory practice. Due to the influence of US laws where corporations buy politicians, copyright laws have become a mockery and treat paying customers like trash. When I purchase something, I expect to be able to enjoy or consume that thing whenever and however I want, at the time of my choosing. I find the very idea of businesses dictating how and if they will allow me to use my purchased product disgusting and dystopian. Digitial purchases must enjoy a higher than now level of protection, to ensure our rights as customers are protected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.460794Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587174.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587174",
+    "chunks_doc_id": "F3587174",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

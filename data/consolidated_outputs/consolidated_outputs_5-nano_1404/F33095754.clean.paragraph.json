@@ -1,0 +1,89 @@
+{
+  "doc_id": "F33095754",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T10:21:22Z",
+    "finished_at": "2026-04-14T10:21:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading dark patterns"
+              },
+              {
+                "quote": "design of digital products that create addictive"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "marketing by influencers"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair personalisation practices."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21904,
+          "unit_kind": "feedback"
+        },
+        "text": "The 2024 Fitness Check (evaluation) on digital fairness identified gaps in consumer protection online. Taking into account the current EU digital rulebook, the initiative aims to address problematic practices such as: unfair commercial practices related to misleading dark patterns marketing by influencers design of digital products that create addictive unfair personalisation practices. It also aims to ensure a level playing field for online traders, facilitate enforcement and introduce potential simplifications. All this can be checked and restricted with a European hotline for free telephone alerts or email alerts.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.776374Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095754.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095754",
+    "chunks_doc_id": "F33095754",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

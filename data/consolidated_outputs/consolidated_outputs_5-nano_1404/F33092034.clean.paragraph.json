@@ -1,0 +1,98 @@
+{
+  "doc_id": "F33092034",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:24Z",
+    "finished_at": "2026-04-14T09:37:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying videogames they already sold to customers."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "privacy should NEVER be sacrificed."
+              },
+              {
+                "quote": "monitoring private, encrypted, chats is a blatant assault on digital privacy and is completely unacceptable in all cases."
+              }
+            ]
+          },
+          {
+            "topic": "AI Disclosure",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "any use of generative AI should be marked as such"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies like MasterCard/VISA should not have extralegal power to censor products and should simply act as a payment provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39515,
+          "unit_kind": "feedback"
+        },
+        "text": "While the DFA is a good first step forward, there are many important, current, and pressing issues that are not tackled by the DFA, which should be: First, an extremely import assault on consumer rights that is not tackled by the DFA is publishers destroying videogames they already sold to customers. Many videogames are sold as goods but (unnecessarily) rely on access to a publisher's server to be playable, which publishers often disable without warning and without giving customers an alternative method of using their games, effectively destroying the goods they already sold. This is an assault on customer protection, ownership, art, history, and preservation of culture, and it is completely unnecessary: Implementing end-of-life plans that allow customers to keep operating their games (for example by running their own server) is entirely feasible and has been implemented in many existing games. It also allows the publisher to drop support *without* running the game forever: Noone is asking publishers to support a game forever, just to stop doing so responsibly. More resources can be found at https://www.stopkillinggames.com/faq and https://stopkillinggames.wiki.gg/wiki/Dead_game_list . A second issue not covered by the DFA is fair access to stores and purchases. Companies like MasterCard/VISA should not have extralegal power to censor products and should simply act as a payment provider. Lastly, privacy should NEVER be sacrificed. For example, monitoring private, encrypted, chats is a blatant assault on digital privacy and is completely unacceptable in all cases. Lastly lastly, the EU AI Act should be upheld in digital storefronts and related applications and interactions - Chapter IV Article 50 of the act very clearly states that any use of generative AI should be marked as such, and this should hold for both storefronts AND digital goods as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.602293Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092034.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092034",
+    "chunks_doc_id": "F33092034",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585661",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:40Z",
+    "finished_at": "2026-04-14T12:33:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gambling and psychological engineering in AAA games has grown to ridiculous proportions"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gambling and psychological engineering in AAA games has grown to ridiculous proportions"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now publishers can simply turn off games to \"encourage\" players to move on to New Game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27436,
+          "unit_kind": "feedback"
+        },
+        "text": "The gambling and psychological engineering in AAA games has grown to ridiculous proportions and I greatly appreciate your looking into these issues. Ownership is another DFI issue that has not been talked about as much. Currently there is no consumer protection at all. In 2024 Ubisoft shut down \"The Crew\" (a racing game), making it unplayable for everyone who bought it and in 2022 Blizzard shut down Overwatch 1 to overcome the lukewarm reception of Overwatch 2. This would be like Microsoft making Windows 10 inoperable overnight so that more people would finally buy their Windows 11. It sounds ridiculous but apparently that is currently legal. The Stop Killing Games initiative tries to start a dialog on the ownership issue but it also perfectly fits the scope of the Digital Fairness Act. I think it would be reasonable to own a product that I had bought with real money. A company finding it inconvenient that I play Old Game when they would like me to buy New Game instead should not be MY problem. Right now publishers can simply turn off games to \"encourage\" players to move on to New Game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.856979Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585661.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585661",
+    "chunks_doc_id": "F3585661",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

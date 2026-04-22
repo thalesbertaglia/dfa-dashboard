@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585923",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:09Z",
+    "finished_at": "2026-04-14T12:41:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unbalanced and anti-consumer language frequently implemented in contemporary licenses of digital goods"
+              },
+              {
+                "quote": "Namely I am referring to ability to retain/preserve any purchased digital product in the final minimal functioning state the product was last paid for and provided by the seller/publisher, after said seller/publisher had ended a service/support for the digital product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19166,
+          "unit_kind": "feedback"
+        },
+        "text": "Good Day, i believe the upcoming EU Digital Fairness Act is on a great trajectory, but I believe it could be additionally broaden up by additional protections regarding unbalanced and anti-consumer language frequently implemented in contemporary licenses of digital goods with intention to bring more parity with physical goods. Namely I am referring to ability to retain/preserve any purchased digital product in the final minimal functioning state the product was last paid for and provided by the seller/publisher, after said seller/publisher had ended a service/support for the digital product. For far too long sellers/companies/publishers have sold to us the consumers digital products for which access period is not defined with any rigid date or period, but at sole digression of the seller. Seller which more often than not ends up being unpredictable with previously mentioned digression, putting in danger critical tools and cultural cornerstones alike, i.e. specific builds of programs necessary for proper function of certain models of hardware and digital books, games, movies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.986869Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585923.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585923",
+    "chunks_doc_id": "F3585923",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

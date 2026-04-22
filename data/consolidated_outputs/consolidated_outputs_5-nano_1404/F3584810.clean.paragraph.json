@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584810",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:57Z",
+    "finished_at": "2026-04-14T12:11:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restrict or delist certain adult-themed games, including titles with stylized or fictional horror and sexual content."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Blizzards ToS states it may terminate user agreements at any time, for any reason, or for no reason, with or without notice."
+              },
+              {
+                "quote": "Similarly, companies like Take-Two and 2K reserve the right to remove user-generated content, restrict single-player modding, and enforce mandatory arbitration clauses that limit a players ability to seek legal recourse."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42492,
+          "unit_kind": "feedback"
+        },
+        "text": "Id like to raise additional concerns related to digital consumer rights in gaming. Recently, payment processors such as Visa, Mastercard, and PayPal have pressured digital storefronts like Steam and itch.io to restrict or delist certain adult-themed games, including titles with stylized or fictional horror and sexual content. These decisions were made behind the scenes and impacted even legal and previously approved games. While not everyone may care about these genres, it raises serious concerns when financial institutions, operating without transparency or public accountability, influence what legal digital content consumers can access. In addition, many major game publishers use Terms of Service that give them extensive control over purchased content. For example, Blizzards ToS states it may terminate user agreements at any time, for any reason, or for no reason, with or without notice. Similarly, companies like Take-Two and 2K reserve the right to remove user-generated content, restrict single-player modding, and enforce mandatory arbitration clauses that limit a players ability to seek legal recourse. These practices affect digital ownership, access, and consumer rights, even after purchase. I hope the Digital Fairness Act will address these imbalances and strengthen protections in the digital marketplace. Thank you for considering this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.447430Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584810.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584810",
+    "chunks_doc_id": "F3584810",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

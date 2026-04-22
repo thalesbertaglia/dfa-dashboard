@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586966",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:54Z",
+    "finished_at": "2026-04-14T13:08:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they were able to remotely destroy my copy of the game, rendering it permanently unplayable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there was no clear statement that I'm only paying for a temporary privilege to play the game for a year or two before it's permanently destroyed for everyone who bought it."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Gatekeeping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors cannot be allowed to have the power to shut down any company they want by refusing to do business with them for ideological reasons."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 97290,
+          "unit_kind": "feedback"
+        },
+        "text": "I like the Digital Fairness Act and the Digital Services Act, I think they will help protect customers from falling for fraudulent practices. But I wonder if it could also address the issue of purchases which are advertised as \"digital goods\", which you can download after buying, but then the seller or publisher treats it as a \"service,\" and in some cases may remotely destroy your purchased product. I'm one of many people who bought Ubisoft's The Crew game for PC. I was appalled that they were able to remotely destroy my copy of the game, rendering it permanently unplayable. When I bought it, there was no clear statement that I'm only paying for a temporary privilege to play the game for a year or two before it's permanently destroyed for everyone who bought it. This sentiment is shared by many, as evidenced by the Stop Killing Games EU campaign getting 1.4 million signatures. I know it was a small purchase, but to me it's the same as if a car manufacturer could remotely and permanently disable cars they sold. And that's not even science fiction! Polish train manufacturer, Newag, was caught putting DRM in their trains which would remotely disable the train in a way only possible to fix by the manufacturer, \"if the train has been laid up for a while, or even if they are detected via GPS to have visited a third-party workshop.\" The second concern I have is that we can't have a fair digital market without fair payment processors. Purchasing any digital good requires using a payment processor. It's not possible to participate in society in 2025 without payment processors. But in recent years, Visa, MasterCard, PayPal, Stripe, and others are putting pressure on various stores to censor legal products they ideologically disagree with. Processing online payments is so ubiquitous, that it should be a governmentally-provided basic utility, with EU-assured ideological neutrality. Payment processors cannot be allowed to have the power to shut down any company they want by refusing to do business with them for ideological reasons. This undermines democracy and our law, as countries can no longer choose what should be legal or not. Payment processors choose that for us, independent of what we find fair. Furthermore, we should put pressure on payment processors to stop this destructive practice of undermining democracy by refusing to do business with any company they disagree with.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.397602Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586966.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586966",
+    "chunks_doc_id": "F3586966",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

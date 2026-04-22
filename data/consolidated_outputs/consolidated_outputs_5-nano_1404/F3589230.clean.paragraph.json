@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3589230",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:10Z",
+    "finished_at": "2026-04-14T13:30:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as part of 'dark patterns' and/or 'misleading marketing' the fact that when we \"buy\" a digital good we essentially not \"own\" it."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Be it movie, ebook, music, program or even video game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the user must uninstall the product and destroy any physical copies the user may have."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29001,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think its worth noticing as part of 'dark patterns' and/or 'misleading marketing' the fact that when we \"buy\" a digital good we essentially not \"own\" it. Be it movie, ebook, music, program or even video game. According to Steams EULA we are buying a license to access the game, a value that is not mirrored when we press the \"buy\" button in its stores shopping cart. After California passed a law about it, most prompts changed into 'add to card'/'continue to payment'. Many of these services most notably movies and video games have clauses that allows the purchased product to be removed for whatever or no reason at all and with no reimbursement. A recent example would be Ubisofts 'The Crew'. On top of that Ubisoft recently changed its EULA to include that should a product be discontinued or the user is banned for whatever reason, the user must uninstall the product and destroy any physical copies the user may have. So I do urge you to use this opportunity and look into the concept of digital ownership. And while there are understandable cases where it can't be applied, I believe that in the vast majority it can. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.771264Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589230.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589230",
+    "chunks_doc_id": "F3589230",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

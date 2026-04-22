@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585618",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:38Z",
+    "finished_at": "2026-04-14T12:31:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of leaving video games in an unplayable state after (usually) the publisher decides to pull down the video game from market."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "using their monopoly status to coerce digital storefronts to remove products that they deem inappropriate."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18433,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Commission members, thank you for allowing me and others to express our concerns regarding problematic digital practices. I have two things that I would like you to also address in the Digital Fairness Act. First is the practice of leaving video games in an unplayable state after (usually) the publisher decides to pull down the video game from market. For example, I personally experienced this practice with an online game \"Overwatch\", which I bought years ago. However, as of October 2022, the game servers were shut down and the game became unplayable, depriving me of the product I had purchased. Taking away our digital properties is a massive concern shared by many, as seen with the popularity of the \"Stop Destroying Videogames\" initiative. My second issue concerns the payment processors, such as Visa and MasterCard, using their monopoly status to coerce digital storefronts to remove products that they deem inappropriate. This kind of control should not be possible for payment processors, and I feel that these companies are overstepping their boundaries in a way that might be illegal, thus requiring legal action by the European Commission. I hope that these issues could be included in the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.835590Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585618.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585618",
+    "chunks_doc_id": "F3585618",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

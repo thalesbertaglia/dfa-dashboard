@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586157",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:56Z",
+    "finished_at": "2026-04-14T12:49:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In recent years, a growing number of video games, such as Anthem (Electronic Arts) and The Crew (Ubisoft), have been permanently shut down by their publishers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibit \"license-only\" framing that undermines consumer expectations of ownership when purchasing a digital product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15042,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent years, a growing number of video games, such as Anthem (Electronic Arts) and The Crew (Ubisoft), have been permanently shut down by their publishers. These decisions have rendered games entirely unplayable, even for paying customers who lawfully purchased them. In many cases, these games rely on online authentication or server infrastructure, and once those servers are discontinued, the product ceases to function altogether. This practice raises serious concerns for digital consumer rights in the European Union: Loss of Access: European customers are losing access to games they paid for, effectively having their digital property destroyed by the publisher. There is no comparable physical product scenario where a company could revoke access post-sale. Lack of Transparency and Recourse: In most cases, shutdowns are announced with minimal notice and no refund, alternative access, or technical workaround. (such as offline modes or open-source server code). Sometimes games that are mainly single player games get shut down in a similar manner because basic online features are implemented in a way where the single player experience does not work without working server infrastructure. Digital Obsolescence: The lack of enforceable regulation enables a system where publishers can unilaterally erase games from existence, denying consumers the ability to revisit, study, or preserve these works. This is particularly harmful in a medium where games are also cultural artifacts and artistic expressions. The Digital Fairness Act presents a vital opportunity to correct this imbalance. I and many others urge the Commission to consider including video games into the DFA. Mandate continued access to digital games that have been sold, even after official support ends, such as through offline functionality or community-hosted servers. Require clear disclosures at the point of sale regarding how long a game will remain accessible and under what conditions it may become unavailable. Enable third-party preservation and emulation efforts when publishers discontinue online infrastructure, provided they are non-commercial and serve the public interest. Prohibit \"license-only\" framing that undermines consumer expectations of ownership when purchasing a digital product. Video games are not only entertainment, but they are a form of digital culture, education, and social interaction. Consumers deserve protections that ensure their purchases are respected, their access is preserved, and their rights are not rendered meaningless in the face of corporate discretion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.122923Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586157.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586157",
+    "chunks_doc_id": "F3586157",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586157.clean.paragraph.json"
+}

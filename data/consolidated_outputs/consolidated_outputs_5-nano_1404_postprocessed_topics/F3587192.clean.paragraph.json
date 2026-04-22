@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587192",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:00Z",
+    "finished_at": "2026-04-14T13:13:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Restricting content and requiring sensitive personal data such as ID for identification or images of the users face to access sites and content is a step backwards."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27489,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Payment processor have been and continue to be problematic. They have a monopoly in the market, and can pressure others to stop selling any content or they will suspend their transactions methods, forcing niche alternatives that are not realistic over complying. It does not matter to them that the content being sold is legal in the countries they are available, because they force their own moral judgements and moderation to any content, or create a critical problem to the sellers, buyers and store platforms with the suspension. The Digital Fairness Act has focus and objectives aimed towards protecting minors. EU citizens have already seen some negative effects from the British Online Safety Act. Everything and anything can not be justified with \"protecting minors\", that is the job of the parents, and should not affect every other citizen. Restricting content and requiring sensitive personal data such as ID for identification or images of the users face to access sites and content is a step backwards. This is EU, not China or Russia; the citizens do not want a police state here monitoring our every move.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.469592Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587192.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587192",
+    "chunks_doc_id": "F3587192",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587192.clean.paragraph.json"
+}

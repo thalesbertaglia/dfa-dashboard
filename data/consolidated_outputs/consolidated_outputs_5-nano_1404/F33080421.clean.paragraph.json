@@ -1,0 +1,58 @@
+{
+  "doc_id": "F33080421",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:18Z",
+    "finished_at": "2026-04-14T09:30:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10328,
+          "unit_kind": "feedback"
+        },
+        "text": "I am a daily user of the F-droid open source apps database on Android and Google’s plans to block the installation of all apps whose developers do not agree to hand over their personal data and signing keys for verification even though they do not distribute the apps through any Google owned service is a direct threat to my daily lives, where I strive to have as little as possible with the company by pricing open source technology. F-droid – which is both the name of the whole project, the database and the client-app – only distributes apps via its own open-source database, which the project has itself compiled, in order to ensure that users are not exposed to harmful codes of the type that Google has repeatedly allowed users to infect through its Google Play Store, despite the fact that developers have been verified and their apps have been virus scanned. Google’s plans to impose on all Android developers the obligation to report their personal data and signing keys make projects such as F-droid, working for the free and secure distribution of open-source apps on Android for over 15 years, impossible. The F-droid database contains several hundred different apps that would have to be individually notified, and as they are cleaned out when they are abandoned by their often individual developers, which for a tailor-made project like F-droid would have been a gigantic administrative work that is simply not sustainable. Do not allow Google to introduce its overall monopoly on app distribution on Android.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.539474Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33080421.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33080421",
+    "chunks_doc_id": "F33080421",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

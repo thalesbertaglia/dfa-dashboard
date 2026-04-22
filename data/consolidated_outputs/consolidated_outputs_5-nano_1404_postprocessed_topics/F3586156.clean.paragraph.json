@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586156",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:55Z",
+    "finished_at": "2026-04-14T12:49:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "becoming unplayable when publishers shut down their online services."
+              },
+              {
+                "quote": "ensuring offline functionality"
+              },
+              {
+                "quote": "Online service shutdowns have caused many video games to become completely unplayable"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19968,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request that the EU Digital Fairness Act address the growing issue of gamesparticularly single-player titlesbecoming unplayable when publishers shut down their online services. Many of these games only use online connections to enable microtransactions, which have no impact on the actual gameplay experience. Yet when these services are removed, the entire game becomes locked, even for players who already purchased it. This also extends to multiplayer games where players can already host their own matches. Despite the fact that player-hosted multiplayer exists, companies often remove online services entirely, rendering the game unplayable. In many cases, developers intentionally shut down older game versions when sequels are released, effectively forcing players to buy the new game regardless of their preference or investment in the original. This practice is extremely consumer-unfriendly and destroys game preservation. There should be legal requirements for publishers to provide an \"end-of-life\" solution when online services are shut downsuch as ensuring offline functionality or allowing consumers to legally create their own server software without being targeted for copyright infringement. Consumers deserve to keep access to the games they have purchased, and it is unfair for companies to take that away simply to push for new sales. Online service shutdowns have caused many video games to become completely unplayable, even when those games had significant single-player or local components. Notable examples include: Singleplayer disabled by DRM/online dependencies - Might & Magic X: Legacy shutdown 2021; DLC DRM blocked progression, single-player campaign effectively locked. - Darkspore shutdown 2016; alwaysonline DRM made the game unplayable. - Onrush shutdown 2022; services off removed progression/customization, most of the game gone. Multiplayer with playerhosted potential but killed by central services: - Evolve: Stage 2 shutdown 2018; dedicated servers off, Stage 2 removed; only legacy P2P client works. - Battleborn shutdown 2021; required alwaysonline, all modes died on server closure. - MAG (PS3) shutdown 2014; onlineonly, disc unusable after servers closed. Older games intentionally retired/replaced by sequels: - Overwatch (2016) servers shut Oct 2022 for Overwatch 2; original unplayable. - The Crew (2014) servers shut Mar 2024; no offline mode; sequels exist. - CounterStrike: Global Offensive replaced by CounterStrike 2 in 2023; CS:GO inaccessible via official channels. There are many other newer games facing the same problem. While some of the examples listed are older, this issue is even more severe with modern games, which increasingly rely on online services for basic functionality. This means consumers are now at greater risk of losing access to titles they have purchased, even when those games could otherwise function offline. Games should not be sold as temporary licenses except for MMOs, where an ongoing service is the core product. But even in those cases, if a publisher abandons a game, consumers should not be legally targeted for creating private servers that allow them to continue playing what they purchased. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.122297Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586156.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586156",
+    "chunks_doc_id": "F3586156",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586156.clean.paragraph.json"
+}

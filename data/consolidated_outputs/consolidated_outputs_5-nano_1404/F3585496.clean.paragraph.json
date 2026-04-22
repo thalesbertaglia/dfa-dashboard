@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585496",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:02Z",
+    "finished_at": "2026-04-14T12:29:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The prevention of the destruction of video games and other forms of digital art should be incorporated into the Digital Fairness Act."
+              },
+              {
+                "quote": "Videos games and other forms of digital art, once purchased, should remain functional to the consumer even when the developer decide to no longer support it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16899,
+          "unit_kind": "feedback"
+        },
+        "text": "The prevention of the destruction of video games and other forms of digital art should be incorporated into the Digital Fairness Act. Videos games and other forms of digital art, once purchased, should remain functional to the consumer even when the developer decide to no longer support it. Games should be constructed in such a way as to permit this. And developers should have an end-of-life plan so their games retain basic functionality after support ends. Allowing games to remain playable without developer support. The European citizens initiative, \"stop destroying videogames,\" which addresses these concerns currently has over 1.4 million signatures. Which shows that European citizens care about the destruction of video games and wish to prevent it. Video games are art, and art should be protected. It would be a shame to let pieces of culture be destroyed simply to maintain a consumer unfriendly practice.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.772740Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585496.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585496",
+    "chunks_doc_id": "F3585496",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

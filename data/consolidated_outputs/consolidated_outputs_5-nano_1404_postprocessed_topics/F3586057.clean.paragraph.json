@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3586057",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:14Z",
+    "finished_at": "2026-04-14T12:45:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying video games"
+              }
+            ]
+          },
+          {
+            "topic": "Offline Patch",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "be able to play them offline"
+              }
+            ]
+          },
+          {
+            "topic": "Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop censoring games"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "controlling what contents we can buy"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42617,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello Thankyou for taking the time to read this. I want customers have protections from publishers destroying video games To keep the games weve legally purchased and be able to play them offline. stop payment professors like visa and Mastercard from controlling what contents we can buy. Stop censoring games as its a very slippery slope, to getting to much censorship Thankyou again",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.061407Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586057.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586057",
+    "chunks_doc_id": "F3586057",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586057.clean.paragraph.json"
+}

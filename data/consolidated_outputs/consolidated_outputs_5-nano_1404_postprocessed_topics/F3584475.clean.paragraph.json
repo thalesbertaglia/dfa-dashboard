@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584475",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:07Z",
+    "finished_at": "2026-04-14T12:01:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "no option to decline the new terms"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "imposed a subscription fee for the existing customers to keep using their equipment"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "alter these agreements to introduce new fees"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If the consumer does not agree to the new terms, the product becomes unusable or loses features that it previously had."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 162508,
+          "unit_kind": "feedback"
+        },
+        "text": "When purchasing a digital product or any physical product that has a digital component consumers are required to agree to one or more agreements (license agreement, terms & conditions, etc.) in order to use or access that product. Examples of digital products would be movies, music albums, or video games. In the vast majority of cases these purchases are in fact for a license to access said content, however this is rarely made clear to the consumer. The same applies to the software or service parts of physical products, such as smartphones, smartwatches, smart home appliances, and video game consoles. Said agreements are often not presented before the point of sale, but at the point of trying to use or access the product. Non-agreement means you are unable to use the product and should be entitled to a refund, this is strongly protected for physical products but not for purely digital ones. The agreements typically contain language that permits the licensor to arbitrarily alter the agreement at any point with no recourse for the consumer. Such changes are made regularly and typically only announced via email with no option to decline the new terms or as a pop-up that might include the option to reject the new terms. If the consumer does not agree to the new terms, the product becomes unusable or loses features that it previously had. Examples: - Ubisoft revoked access to playing the video game \"The Crew\" from everyone who has purchased it - Adobe tried to claim ownership over all content created using its tools in order to use said material for AI training, but later backtracked after backlash - Norwegian company Futurehome sold smart home equipment as a one-time purchase, went bankrupt, got bought up, then the new owners imposed a subscription fee for the existing customers to keep using their equipment - VR-headset maker Oculus got purchased by Meta, later Meta would go on to force existing customers into creating Meta accounts in order to keep using the device and accessing their already purchased content There are already limitations on how other types of existing agreements are allowed to be changed. We need to update these limitations so that they properly apply in the digital realm as well. Companies should especially not be able to alter these agreements to introduce new fees or revoke access to products that have been purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.250986Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584475.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584475",
+    "chunks_doc_id": "F3584475",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584475.clean.paragraph.json"
+}

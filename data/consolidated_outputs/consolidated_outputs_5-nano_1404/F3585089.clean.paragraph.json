@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585089",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:52Z",
+    "finished_at": "2026-04-14T12:20:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Blizzard Entertainment Inc. took the game off stores and away from those who bought it."
+              },
+              {
+                "quote": "I was one of them, payed money and now lost the game due to it beeing taken away."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13524,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear reader, I am afraid that many big companys have the ability to take away the games I, as a person who enjoys playing and owning video games, and every other person owning them bought. Take overwatch as an example: Blizzard Entertainment Inc. took the game off stores and away from those who bought it. I was one of them, payed money and now lost the game due to it beeing taken away. This is just one among many examples that show how unfair the industry has become. As you can see due to the lack of fairness it has to become one of this Acts concerns to protect EU citizens in this aspect of the digital space. Thank you for reading the word of an concerned consumer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.591038Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585089.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585089",
+    "chunks_doc_id": "F3585089",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

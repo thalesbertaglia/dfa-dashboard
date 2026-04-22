@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586223",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:53Z",
+    "finished_at": "2026-04-14T12:51:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games they paid for already"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23464,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to chime in myself to add to the voices asking you to please also consider adding the goals and ideas of the Stop Killing Games initiative to this very important act. There is already the EU citizens initiative with over 1.4 million signatures, so you know this is something that gamers want - and what can I say, we are many ;) The commission registration number of that is: ECI(2024)000007 Many others have already told you details, but please have a look at the initiative as well. Lastly, I can only beg you to NOT listen to the blatant lies and misrepresentation brought forward by bad faith actors like the Video Games Europe lobby group - they ON PURPOSE misrepresent the entire idea. People have lost too many video games they paid for already, this has to end.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.162310Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586223.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586223",
+    "chunks_doc_id": "F3586223",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586223.clean.paragraph.json"
+}

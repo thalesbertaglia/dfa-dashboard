@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585766",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:09Z",
+    "finished_at": "2026-04-14T12:36:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe that including how gaming manufacturers sell and manage their games is an important point also when it comes to ‘digital fairness’."
+              },
+              {
+                "quote": "If you sell a product that currently uses the internet to function, the manufacturer must have in his plan how this will be phased out in a way that allows future use without their support."
+              },
+              {
+                "quote": "For example, offer the ‘server’ page, so individuals can keep the game alive themselves,"
+              },
+              {
+                "quote": "or the possibility to use the product without an internet connection."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22314,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that including how gaming manufacturers sell and manage their games is an important point also when it comes to ‘digital fairness’. If we, as consumers, buy a product, we should be the owner of this product and not allow a third party to do so our product fails. If you sell a product that currently uses the internet to function, the manufacturer must have in his plan how this will be phased out in a way that allows future use without their support. For example, offer the ‘server’ page, so individuals can keep the game alive themselves, or the possibility to use the product without an internet connection. . Thank you for helping all of us to achieve a fairer digital world together",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.910036Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585766.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585766",
+    "chunks_doc_id": "F3585766",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585766.clean.paragraph.json"
+}

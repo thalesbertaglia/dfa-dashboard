@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3587394",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:09Z",
+    "finished_at": "2026-04-14T13:17:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, such digital purchases are framed as licenses, and as such, can be taken away unilaterally."
+              },
+              {
+                "quote": "The period of software support is often unclear. And even if not, support periods are arbitrarily determined, and may be arbitrarily and unilaterally ended."
+              },
+              {
+                "quote": "Third, recent controversy around censorship by payment service providers has shown that consumers are not free from arbitrary restrictions by non-lawmakers in their choice of digital products."
+              },
+              {
+                "quote": "Furthermore, the companies that unilaterally impose these restrictions abuse their dominant positions in the market to do so, coercing stores into compliance."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it's exceedingly difficult for a consumer to know whether or not (and if so, which of) their data may be sold by digital platforms."
+              },
+              {
+                "quote": "If a consumer \"is the product\", the consumer is too often unaware and (practically) unable to decline."
+              },
+              {
+                "quote": "it's often too difficult to remove personal data (e.g. accounts) from digital platforms (e.g. websites), if at all possible."
+              },
+              {
+                "quote": "Consumers should be able to have all of their personal data removed from any given platform with only a few clicks."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 107584,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to suggest additional consumer protection on a few topics. First, as described by the Stop Killing Games Initiative, and by many other commenters, I would like to see rules in place to protect consumer access to digital goods they purchased (including but not limited to video games). Currently, such digital purchases are framed as licenses, and as such, can be taken away unilaterally. This needs to stop. Second, the lifespan of (digital) products is increasingly determined by software support. Too often, this support is lacking from the outset, causing economic loss for consumers, and potential collateral damage to, for example, the environment. The period of software support is often unclear. And even if not, support periods are arbitrarily determined, and may be arbitrarily and unilaterally ended. This needs to stop. Third, recent controversy around censorship by payment service providers has shown that consumers are not free from arbitrary restrictions by non-lawmakers in their choice of digital products. Furthermore, the companies that unilaterally impose these restrictions abuse their dominant positions in the market to do so, coercing stores into compliance. This needs to stop. Fourth, it's often too difficult to remove personal data (e.g. accounts) from digital platforms (e.g. websites), if at all possible. Consumers should be able to have all of their personal data removed from any given platform with only a few clicks. Currently, digital platforms actively pursue data collection and retention, actively making it more difficult for consumers to remove their personal data. This needs to stop. Fifth, it's exceedingly difficult for a consumer to know whether or not (and if so, which of) their data may be sold by digital platforms. Terms of service may or may not contain understandable clauses on the topic. If a consumer \"is the product\", the consumer is too often unaware and (practically) unable to decline. This needs to stop.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.514605Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587394.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587394",
+    "chunks_doc_id": "F3587394",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587394.clean.paragraph.json"
+}

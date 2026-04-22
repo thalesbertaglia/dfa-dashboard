@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3584944",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:14Z",
+    "finished_at": "2026-04-14T12:16:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games have been an integral part of the entertainment industry."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory AAA studios filling their games with micro-transactions and live of service games"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you are paying full price for an incomplete product."
+              }
+            ]
+          },
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "end of life plan so that games don't become lost media."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47592,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, video games have been an integral part of the entertainment industry. Millions of people play video games. With predatory AAA studios filling their games with micro-transactions and live of service games, these publishers also release games way to early and fix them when they are already released and being sold. So as the consumer most of the times when you buy a video game from those studios. You are paying full price for an incomplete product. Also video games are getting more expensive as time passes. These companies have been doing shady business practices to maximize their profits. So would you consider also including the protection of video games in the Digital Fairness Act and require publishers to make an end of life plan so that games don't become lost media.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.515985Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584944.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584944",
+    "chunks_doc_id": "F3584944",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584944.clean.paragraph.json"
+}

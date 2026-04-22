@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586109",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:08Z",
+    "finished_at": "2026-04-14T12:47:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games themselves will become more and more predatory."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "kill off a product whenever they want with the money I spent"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46475,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I am writing this as a concerned citizen who is advocating for the Digital Fairness Act. I would like to ask you if you can also look into the Stop Killing Games initiative? I am concerned in the coming future that video games themselves will become more and more predatory. As these game companies and publishers keep pushing their own tactics in regards of consumer treatment, these practices will become worse and worse over time. As of right now, why are gaming companies allowed to revoke my rights/access to a game I purchased with my own money? (Most notable example would the a game named \"The Crew\") Why are gaming companies allowed to design a game that has to constantly be connected to the internet and its servers to function? When it clearly can also work in offline settings? By doing this, gaming companies can kill whatever game they want, whenever they want and clearly do not care that I spent money on a game and my rights to be able to continue playing my game long after abandoning the game. This enables a malicious practice where a game company can make a game, publish it for a limited amount of time and then kill it so you can't access it anymore and thus, artificially creating a hole in a market that they themselves control by \"making\" a new game and funneling the player base to a \"newer\" game to further invoke bad consumer practices such as predatory in-game purchases and addictive gambling features. These companies are going to complain about \"how difficult it is\" to re-work a game and leave it in a functional state after its support ends. This statement is extremely disingenuous and there is a huge list of games that still work to this day. A good example is a game named Halo: Combat Evolved. This is a game that came out in 2001 for the original Xbox console. It was later ported over to PC in 2003 and added multiplayer function to the game. However, in order to retrieve the list of servers for you to connect to, it used a service called GameSpy. GameSpy is a middleman/3rd party service, so to speak. So in order to play online, GameSpy had to be up and running in order to get the list of servers to connect to. However, this company went defunct in 2013 which rendered a lot of games that used GameSpy as their server list host, non-functioning online-wise. Not shortly after, GameSpy was patched out (as in, the multiplayer component got reworked) from Halo and its online functionality fully restored. You can now load in a list of servers for you to connect to. This is how mainstream gaming and publishing companies are running their games, you are forced to connect to a server for the game to function and once those servers shut down, you can't play the game anymore, even though you paid for the game and would work otherwise without connecting to a server. As mentioned, stating that this is impossible to do and would require exorbitant amount of time is nonsensical. This is just an excuse for them to kill off the player base from the previous game in order to sell the same game over again. There are other games that never implemented middleman/3rd party services such as GameSpy for games that had a multiplayer component for retrieving a list of servers to connect to. Older games, such as Unreal Tournament games (1999, 2003/2004) Call of Duty 4 (2007) These games still work thanks to the online component being designed to work independently and not reliant on other middlemen/3rd party factors. So if these games still function, what is preventing them from enabling a game to function and leaving the game in a playable state? I do not want a future where I am at the mercy of a company that decides to kill off a product whenever they want with the money I spent and decide for me that I need this \"new\" product when the game I purchased already would work otherwise. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.095427Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586109.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586109",
+    "chunks_doc_id": "F3586109",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

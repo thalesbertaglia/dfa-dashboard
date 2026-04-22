@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584804",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:46Z",
+    "finished_at": "2026-04-14T12:11:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game Need For Speed Online 2015 have been disabled and I am no longer able to play it, either online or offline."
+              },
+              {
+                "quote": "Nothing is stopping publishers from disabling people's ability to play video games after they've already sold them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30693,
+          "unit_kind": "feedback"
+        },
+        "text": "I have been made aware that my video game Need For Speed Online 2015 have been disabled and I am no longer able to play it, either online or offline. It was a one time purchase, there was no expiration date, It did not require a subscription and it wasn't clearly marketed as a service. I fear that other video games that I've purchased will meet the same fate. Other video games that I've purchased that require an internet connection in order to start are Need For Speed Heat, Conan Exiles, Farcry 6, Diablo 3 and Diablo 4. Just like Need For Speed Online 2015, they're one time purchases, they don't have expiration dates, they don't require subscriptions and they're not clearly marketed as services. Nothing is stopping publishers from disabling people's ability to play video games after they've already sold them. Please extend the Digital Fairness Act to protect my right be able to play the video games that I've purchased.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.444215Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584804.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584804",
+    "chunks_doc_id": "F3584804",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

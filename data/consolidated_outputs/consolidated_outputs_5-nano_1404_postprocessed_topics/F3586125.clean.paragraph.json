@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586125",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:54Z",
+    "finished_at": "2026-04-14T12:48:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "censoring games/media based on campaigns by groups like \"Collective Shout\"."
+              },
+              {
+                "quote": "attack on Detroit: Become Human (misrepresenting social commentary as glorification)"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Though potentially an \"edge case,\" this constitutes \"harmful practices by influencers\" (organizational in this instance) under the Digital Fairness Act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37232,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for soliciting feedback on digital consumer rights. A pressing concern is payment processors (MasterCard, VISA) censoring games/media based on campaigns by groups like \"Collective Shout.\" Despite appearing well-intentioned, Collective Shout consistently seeks to limit artistic expression across games, music, film, and ads. Co-founder Melinda Tankard Reist's deep connections to Christian Baptist churches and her \"Pro-Life\"/\"Anti-Choice\" advocacy reveal a specific ideological crusade, not genuine consumer protection. Censorship driven by personal ideology is unacceptable. Collective Shout's actions are a slippery slope. Their attack on Detroit: Become Human (misrepresenting social commentary as glorification) and alignment with TERF ideologies signal a clear threat: the suppression of LGBTQIA+ representation in media. Allowing a small, ideologically driven minority to dictate content appropriateness via payment processors is dangerous. It empowers discrimination against LGBTQIA+ individuals and harms online freedom. Though potentially an \"edge case,\" this constitutes \"harmful practices by influencers\" (organizational in this instance) under the Digital Fairness Act. Such censorship enables discrimination and will damage the digital space. Thank you for your attention to this critical issue.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.104982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586125.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586125",
+    "chunks_doc_id": "F3586125",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586125.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588965",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:49Z",
+    "finished_at": "2026-04-14T13:27:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "and for the removal of access to purchased software at any time by the publisher without prior warning be outlawed as an addition to this act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17089,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am giving feedback as a consumer of video games, who wishes for the medium to be preserved, including live service titles, and for the removal of access to purchased software at any time by the publisher without prior warning be outlawed as an addition to this act. Thank you for your consideration of this feedback. Sincerely, Aaron Bartolo",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.706992Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588965.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588965",
+    "chunks_doc_id": "F3588965",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

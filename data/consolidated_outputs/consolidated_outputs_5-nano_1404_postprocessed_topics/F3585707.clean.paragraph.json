@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585707",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:16Z",
+    "finished_at": "2026-04-14T12:34:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These days game companies are doing a lot of shady things so that they can control what we can do with the products we buy."
+              },
+              {
+                "quote": "Stop Killing Games initiative, which has more than a million signatures already, is a great way to learn more about how video game companies destroys, or walk around consumer rights."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if they discontinue a game then we, the buyer, should destroy our physical product that we have bougt and own."
+              },
+              {
+                "quote": "I bought something, but because the company decides they no longer want to support the game and more importantly have no end of service plan I just lost money."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29630,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be nice if we can include ways to also protect consumers from losing access or being denied video games by the devolopers and company that made the games. These days game companies are doing a lot of shady things so that they can control what we can do with the products we buy. For example has Ubisoft said that if they discontinue a game then we, the buyer, should destroy our physical product that we have bougt and own. Another example and one I am going to be affected by is that I have bought the game Anthem and starting next year I will no longer be able to play something I have bought because EA, the company that made the game, has made it so there is no way to use the product if they shut down there servers. I bought something, but because the company decides they no longer want to support the game and more importantly have no end of service plan I just lost money. The Stop Killing Games initiative, which has more than a million signatures already, is a great way to learn more about how video game companies destroys, or walk around consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.881571Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585707.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585707",
+    "chunks_doc_id": "F3585707",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585707.clean.paragraph.json"
+}

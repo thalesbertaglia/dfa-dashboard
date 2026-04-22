@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585318",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:05Z",
+    "finished_at": "2026-04-14T12:25:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "However, if the manufacturer chooses to shut down the servers on which the online games can be played, consumers will no longer be able to play their purchased games."
+              },
+              {
+                "quote": "Is there a possibility of extending the Digital Fairness Act to include rules on games that prevent manufacturers from simply switching off their games on request without providing an alternative for consumers to continue using these games?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12337,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am very pleased to see that fraudulent practices are to be prevented in games. On the other hand, there is another one on the list, which has been burdened on consumers for many years: Video game manufacturers develop online games. These games are of course purchased. However, if the manufacturer chooses to shut down the servers on which the online games can be played, consumers will no longer be able to play their purchased games. In some cases, manufacturers have even gone so far that they have nevertheless developed games that do not need to take place online in such a way that they only work with an internet connection. Such games will also no longer be accessible to consumers if the manufacturer chooses to switch off the games because of their online compulsion and the associated costs. There is currently no way of defending itself against it. Of course, manufacturers cannot be expected to keep an online game available forever. However, there are costs associated with this, and this would be unsustainable or reasonable, especially for small businesses. However, the solution to the problem cannot be that consumers lose access to the game they have bought. It would be useful to find a solution that is satisfactory to both parties: Consumers can continue playing the game and the manufacturer can still switch off the servers if they want to do so. For example, this could be achieved by giving the consumer the right to provide servers (naturally at his own responsibility and risk) at the same time when the servers are switched off. And by removing online gambling, which should actually function without online access. Is there a possibility of extending the Digital Fairness Act to include rules on games that prevent manufacturers from simply switching off their games on request without providing an alternative for consumers to continue using these games? Ideally, an alternative that does not place the manufacturer at a disadvantage, as in the above example. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.679058Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585318.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585318",
+    "chunks_doc_id": "F3585318",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585318.clean.paragraph.json"
+}

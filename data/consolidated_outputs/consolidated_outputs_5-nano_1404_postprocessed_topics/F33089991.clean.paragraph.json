@@ -1,0 +1,90 @@
+{
+  "doc_id": "F33089991",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:32:20Z",
+    "finished_at": "2026-04-14T09:33:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Certain video games are not made to be permanently operational,"
+              },
+              {
+                "quote": "the game is rendered impossible to play when the publisher or developer decides to end its lifespan."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "before purchasing or paying a subscription fee."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The current legislation does not make it clear whether video games are considered services or goods, so many companies use the gray area to avoid responsibility while still collecting payment when a user might decide otherwise given enough information."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49150,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the efforts of the Digital Fairness Act in protecting consumers against various malicious practices in the digital space. I would like to bring an additional topic to attention which I think would fit its purpose: Certain video games are not made to be permanently operational, which in itself is not a problem, but in many cases the customer is not given any kind of warning or idea about how long it will remain functional before purchasing or paying a subscription fee. Worse yet, some of these games are made to require an internet connection even when the game itself doesn't necessitate it (such as single player games), but the game is rendered impossible to play when the publisher or developer decides to end its lifespan. The reasons for shutdown are often due to third party services that are laborious to peel away from the game, even though they do not affect the core functionality. Examples would be analytics, or a built-in online shop for visual (cosmetic) content, or convenience features. My suggestion would be to either require the future development of these games to provide an end of life plan, in which the operation of the game is possible but not at the burden or will of the publisher, or require very clear statements about how long the product is going to be working, so that a customer can make an informed decision before purchasing. The current legislation does not make it clear whether video games are considered services or goods, so many companies use the gray area to avoid responsibility while still collecting payment when a user might decide otherwise given enough information. Please consider adding this matter to your initiative. Thank you for your attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.567593Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33089991.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33089991",
+    "chunks_doc_id": "F33089991",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33089991.clean.paragraph.json"
+}

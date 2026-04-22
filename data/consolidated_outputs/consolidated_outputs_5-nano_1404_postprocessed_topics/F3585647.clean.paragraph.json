@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585647",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:18Z",
+    "finished_at": "2026-04-14T12:32:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A major racing game released in 2014 (The Crew) became entirely unplayable after its servers were shut down on 31March2024, despite containing significant single-player content."
+              },
+              {
+                "quote": "A widely popular multiplayer game from 2016 (Overwatch 1) was replaced in 2022 by a free-to-play sequel, eliminating access to the original paid version entirely."
+              },
+              {
+                "quote": "A prominent cloud-gaming service (GoogleStadia) terminated operations on 18January2023, with refunds provided solely due to voluntary corporate policy, rather than regulatory requirements."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "including refunds for any unused pre paid licences, subscriptions, or virtual currency associated with the discontinued service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22219,
+          "unit_kind": "feedback"
+        },
+        "text": "I am an EU consumer who regularly purchases digital software, including various productivity tools, applications, and interactive entertainment. Over the past several years, it has become increasingly common for software providers to implement mandatory server-based functionality, making these products entirely reliant on continuous server availability. This practice introduces significant consumer risks, particularly when companies decide to cease support or shut down servers, effectively rendering previously purchased digital products unusable overnight. This forced obsolescence constitutes an unfair commercial practice, squarely within the manipulative or unfair practices the European Commission highlights in its Call for Evidence for the forthcoming Digital Fairness Act. Several recent cases illustrate the tangible harm experienced by consumers: A major racing game released in 2014 (The Crew) became entirely unplayable after its servers were shut down on 31March2024, despite containing significant single-player content. A widely popular multiplayer game from 2016 (Overwatch 1) was replaced in 2022 by a free-to-play sequel, eliminating access to the original paid version entirely. A prominent cloud-gaming service (GoogleStadia) terminated operations on 18January2023, with refunds provided solely due to voluntary corporate policy, rather than regulatory requirements. Conversely, there are successful examples demonstrating practical solutions: One publisher offered an offline version of a popular mobile title (MegaManXDiVEOffline) upon server closure in 2023, allowing consumers ongoing access to their purchased content. Another company provided official community-hosted server tools (KnockoutCity) upon ceasing support in 2023, enabling continued use without incurring significant corporate cost. To effectively safeguard consumer rights, I suggest including clear provisions in the Digital Fairness Act addressing the end-of-life (EoL) scenario for digital products: 1. When digital software products reliant on server functionality are discontinued, the provider should either: a. Offer users an official update or patch that enables full offline functionality, or b. Provide the necessary server software and resources under a non commercial licence, permitting community-run servers. 2. Should providers be unwilling or unable to deliver either solution, consumers should be entitled to fair compensation, including refunds for any unused pre paid licences, subscriptions, or virtual currency associated with the discontinued service. Implementing such requirements would reinforce consumer trust, create consistency within the Single Market by providing a clear legal standard across the EU, and contribute positively to broader sustainability and digital preservation goals. Thank you for considering this critical aspect of digital fairness in your upcoming legislative proposals.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.850014Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585647.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585647",
+    "chunks_doc_id": "F3585647",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585647.clean.paragraph.json"
+}

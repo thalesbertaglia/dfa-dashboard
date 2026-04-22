@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586092",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:35Z",
+    "finished_at": "2026-04-14T12:47:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Loot Boxes in video games prey on vulnerable people."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Game companies are adding microtransactions / removing features AFTER Ive paid for the game - that cant be right?"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like the current GDPR rules tightened as they seem to be the only method of ensuring EU citizens are not treated like digital commodities with our data being traded like stocks."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30674,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for the chance to leave my feedback, it is very much appreciated. I have three main concerns. Firstly, I am a supporter of the European Citizens' Initiative Stop Destroying Video Games. With over 1.4 million signatures currently, I believe there is a large call for fairness in how our purchases are treated. Further, if I want to buy a hammer and agree a price with a hammer seller, it is illegal for them to take my money and deliver a bath tub (at least it is in Ireland). When I buy a physical or digital video game (or book in the case of Amazon and Kindle who now wont allow me to download my purchased books) I agree to give the seller money in return for the goods as described at the time I entered into the contract. Game companies are adding microtransactions / removing features AFTER Ive paid for the game - that cant be right? I didn't agree to that! The goods are now not as advertised! Secondly, I have seen reports that suggest GDPR rules will be slackened. I would like the current GDPR rules tightened as they seem to be the only method of ensuring EU citizens are not treated like digital commodities with our data being traded like stocks. Finally, lets be honest with ourselves - Loot Boxes in video games prey on vulnerable people. China is leading the way here as companies are required to show the odds of a particular item coming up. Loot Boxes in games are specifically designed to target young and neurodivergent players and foster a F.O.M.O. reaction. I am not a fan of over-regulation, however this space has been vastly under-regulated and the can kicked down the road for far too long. Please help us with these issues. Again, thank you very much for taking the time and for the chance to say my piece. Kindest regards from Ireland.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.082845Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586092.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586092",
+    "chunks_doc_id": "F3586092",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

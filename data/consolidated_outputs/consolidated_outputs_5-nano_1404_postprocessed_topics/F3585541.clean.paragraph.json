@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585541",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:00Z",
+    "finished_at": "2026-04-14T12:30:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games as a form of software would be considered as a valid object to which Digital fairness act should apply."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protecting users from such ad-hoc designs that allows game developers and publishers to disable the game (software) or making it unusable while offline even though it has no reason to be always online in the first place"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26358,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings. I would like propose, that video games as a form of software would be considered as a valid object to which Digital fairness act should apply. Some video games requires being online to be played. The requirement stems from the game design where online servers provides additional data to the game which cannot be distributed in physicals form or once game is being downloaded for the first time. While this behavior is totally understandable and appropriate for multiplayer games I would like to pay your attention to single player games. The games where dedicated server provided no additional content or functionality and is being used only as license validator or even worse, just to check if the server is online and if so - allow for a game to run. The latter one is the main issue games of the older game titles faces - if the publisher/developer decides to shut the licensing server down, the game will not be able to phone home thus getting blocked from being played. Protecting users from such ad-hoc designs that allows game developers and publishers to disable the game (software) or making it unusable while offline even though it has no reason to be always online in the first place should be very well a part of the digital fairness act",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.793970Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585541.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585541",
+    "chunks_doc_id": "F3585541",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585541.clean.paragraph.json"
+}

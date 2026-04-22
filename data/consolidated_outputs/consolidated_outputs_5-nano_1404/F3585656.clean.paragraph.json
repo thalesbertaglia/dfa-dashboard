@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585656",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:36Z",
+    "finished_at": "2026-04-14T12:33:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "longevity of video games."
+              },
+              {
+                "quote": "discontinue support for their games and shut down their servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24051,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my concerns regarding the longevity of video games. It has become increasingly common for companies to discontinue support for their games and shut down their servers, which effectively removes access to products that consumers have purchased. Many individuals, myself included, find it troubling that customers can be left without the ability to access games they paid for. I would respectfully suggest considering legislation that would require publishers to enable customers to host their own servers or otherwise preserve access when official support is ended. This approach would protect consumer rights and help maintain the value of purchased products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.854304Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585656.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585656",
+    "chunks_doc_id": "F3585656",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

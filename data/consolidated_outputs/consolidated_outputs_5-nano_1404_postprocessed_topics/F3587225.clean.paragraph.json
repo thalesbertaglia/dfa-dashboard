@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587225",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:46Z",
+    "finished_at": "2026-04-14T13:14:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games for both adults and children in many cases contain microtransactions, virtual currencies, loot boxes and pay-to-win mechanisms."
+              }
+            ]
+          },
+          {
+            "topic": "Data Portability",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Applications that do not need personal data to function should not be allowed to collect them."
+              },
+              {
+                "quote": "Companies that build applications where data is handled entirely locally on the user’s device without being sent to the company’s servers should be considered compliant with the GDPR, as long as there are no backways enabling data leaks."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32117,
+          "unit_kind": "feedback"
+        },
+        "text": "Opinion to the European Commission gambling industry, payment systems and data protection I would like to draw the Commission’s attention to three areas where I believe that stronger regulation is needed. 1. Gaming industry and consumer protection Dator games, mobile games and console games are often no longer sold as finished products, but as platforms for continued consumption through built-in shops. Games for both adults and children in many cases contain microtransactions, virtual currencies, loot boxes and pay-to-win mechanisms. I propose to divide games into two categories: Games that are pure entertainment without any kind of in-game store. Games that contain any form of in-game store, regardless of what is sold. The second category should be subject to specific rules. Among other things, an extra transaction tax should be introduced within the EU gradually higher depending on the aggressive nature of the business model. For example, games that use their own currencies, sell random content or provide gambling benefits against payment should be taxed more heavily on a transaction-by-transaction basis. The aim is to reduce incentives to build in these systems from the outset and to steer progress towards more content-driven experiences. Sales of add-ons (DLC) should also be included. It should not be the case that companies simply move sales to external platforms such as Steam to avoid regulation. I would also like to refer to the Stop Destroying Videogames initiative, which has more detailed suggestions in this area. The Commission should consider working with them in the design of new rules. 2. Payment systems and rule of law Companies such as Visa and Mastercard have denied the purchase of legal digital goods in several cases. This is highly problematic. When private actors act as regulators, they exceed their role and undermine the rule of law. While some goods may be controversial, decisions on their legality should lie with the Member States or the EU not with companies. The Commission should protect regulatory sovereignty from private financial actors acting outside their role. 3. GDPR and local data storage After years of the GDPR, it is clear that many actors are not able to protect personal data well enough. Therefore, the rules should be strengthened. Applications that do not need personal data to function should not be allowed to collect them. Any information shall require a clear and verifiable purpose. Companies that build applications where data is handled entirely locally on the user’s device without being sent to the company’s servers should be considered compliant with the GDPR, as long as there are no backways enabling data leaks. Such an approach strengthens privacy and reduces unnecessary data traffic, which also benefits the environment. Finally, thank you for the opportunity to comment. I hope these perspectives can contribute to a more balanced and future-proof EU regulatory framework.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.479500Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587225.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587225",
+    "chunks_doc_id": "F3587225",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587225.clean.paragraph.json"
+}

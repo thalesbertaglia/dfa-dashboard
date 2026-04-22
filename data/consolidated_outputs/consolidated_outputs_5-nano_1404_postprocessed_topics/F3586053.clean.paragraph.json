@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586053",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:07Z",
+    "finished_at": "2026-04-14T12:45:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some companies are intentionally killing of their old games with no support to play them."
+              },
+              {
+                "quote": "People were told to dispose of their game when the servers went offline, but the game was still being sold in stores."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14741,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings from Iceland. I've been following the \"Stop killing games\" movement initiative, and I think it's an important initiative that needs more support. Games are digital art, and it's a shame some companies intentionally let their games die, when it's almost certain that the thousands of artists that spend thousands of hours making the games would like the world to experience it now and forever. And on the side of the consumer. Some companies are intentionally killing of their old games with no support to play them. And continue to sell those games, even when they don't work. For example \"The Crew\". People were told to dispose of their game when the servers went offline, but the game was still being sold in stores. Consumers need more protection. Thank you for reading the feedback, have a wonderful day. - Ágúst",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.058912Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586053.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586053",
+    "chunks_doc_id": "F3586053",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586053.clean.paragraph.json"
+}

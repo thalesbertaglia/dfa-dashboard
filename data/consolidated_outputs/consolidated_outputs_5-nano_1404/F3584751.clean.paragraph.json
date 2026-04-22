@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584751",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:46Z",
+    "finished_at": "2026-04-14T12:09:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One example is the implementation of subscription-based heating systems for car seats."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Additionally, some video games incorporate spyware under the guise of anti-cheat systems, placing users security and personal data at risk."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers also retain the ability to revoke access to digital goods purchased by consumers, either to force them to buy newer products or simply due to an unwillingness to continue supporting the infrastructure required by online-only DRM."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33092,
+          "unit_kind": "feedback"
+        },
+        "text": "Initiatives such as this are vital, not only in regard to video games and other digital goods, but also for the broader future of domestic products. Draconian practices that have existed in the digital market for nearly two decades are now beginning to affect the use and ownership of physical goods as well. One example is the implementation of subscription-based heating systems for car seats. This feature is included in the manufacturing cost, an expense already supported by the consumer at the time of purchase. Nevertheless, the customer is then required to pay an additional monthly subscription to access a physical function that has already been paid for. Such anti-consumer practices must be regulated, and ideally, prohibited, particularly in the digital sector, where they are most prevalent. Today, software is frequently bundled with always-online DRM schemes that serve as ineffective anti-piracy measures (and are often circumvented, resulting in pirated versions functioning better than legitimate ones). Additionally, some video games incorporate spyware under the guise of anti-cheat systems, placing users security and personal data at risk. Publishers also retain the ability to revoke access to digital goods purchased by consumers, either to force them to buy newer products or simply due to an unwillingness to continue supporting the infrastructure required by online-only DRM. Digital goods should be treated similarly to physical products. Consumers must have the right to repair; the right to use products at any time without requiring an internet connection (except in cases where such connectivity is at the core of the product, such as online games, server-based software, or communication platforms); and the right to continued access and use of products even after the producer has ceased operations, has been dissolved, or merged into another company.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.388495Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584751.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584751",
+    "chunks_doc_id": "F3584751",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

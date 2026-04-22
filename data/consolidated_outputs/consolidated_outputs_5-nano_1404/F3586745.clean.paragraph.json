@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586745",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:55Z",
+    "finished_at": "2026-04-14T13:03:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This tactic is most prevalent in the video game industry where hundreds of titles have been irreversibly destroyed by publishers, so that consumers are forced to spend more money on new releases instead of enjoying the older titles."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The issue is a widespread tactic to force consumers to spend more money for no reason, by removing access to previously purchased versions of software and replacing them with new versions that need to be purchased again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20533,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital fairness act needs to address the issue of publishers delisting software and removing access of users who purchased previously available software. The issue is a widespread tactic to force consumers to spend more money for no reason, by removing access to previously purchased versions of software and replacing them with new versions that need to be purchased again. This tactic is most prevalent in the video game industry where hundreds of titles have been irreversibly destroyed by publishers, so that consumers are forced to spend more money on new releases instead of enjoying the older titles. This issue is also addressed by the Stop killing games European citizen initiative, which has garnered support from vice president of European parliment Nicolae Ștefănuță. List of titles that have been destroyed or face potential destruction is available on link:stopkillinggames.wiki.gg/wiki/Dead_game_list. This aforementioned behaviour may already violate Directive 93/13/ECC and deliberately prevent customers from retaining or repairing their purchase. In attachment I present a list of predatory monetisation tactics used by publishers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.334982Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586745.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586745",
+    "chunks_doc_id": "F3586745",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

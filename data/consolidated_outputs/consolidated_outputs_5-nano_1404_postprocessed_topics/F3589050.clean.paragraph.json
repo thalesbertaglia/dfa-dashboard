@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589050",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:33Z",
+    "finished_at": "2026-04-14T13:28:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to enforce digital planned obsolecense."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12987,
+          "unit_kind": "feedback"
+        },
+        "text": "Increasingly companies are moving to a framework of services to things that could be done localy in order to enforce digital planned obsolecense. I'd ask that you consider this as it attempts to shift the balance to even further strip consumers of what should be the products they purchased. I'd also request you consider economic fairness in this proposal. Payment processors have been for a while and continue to be trying to influence politics and art. If a large duopoly can influence an entire market's ability to use money there is no free market.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.739014Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589050.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589050",
+    "chunks_doc_id": "F3589050",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589050.clean.paragraph.json"
+}

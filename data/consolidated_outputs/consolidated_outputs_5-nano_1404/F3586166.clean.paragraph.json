@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586166",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:19Z",
+    "finished_at": "2026-04-14T12:49:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are art."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Make it easier for companies the give up liability for discontinued titles."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22024,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing this regarding game preservation. I find it odd I can still play chess with my kids like my father did when he was young, but I will never be able to play games like Warhammer online, Tera, Club Penguin, Rift and other games I played when I was young with my own son. We do so much to preserve old buildings, melodies, paintings and other things of our art, but why not video games. Video games are art. Please make companies clear we don't want them to maintain a game forever. We just don't want the game files to be held hostage. Or be sued because of fan made Projects of products which don't even exist anymore. Possible solutions could be the following. Make the release of the game and server files open source mandatory on discontinuing a game. Make it easier for companies the give up liability for discontinued titles. Make sure there must be an end of life plan available for any game opon launch. This should include which version of the game has to be released to the public, for example if add-ons or dlcs are available. Allow private servers to run when a game is shut down or if it derivative enough from the original game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.128149Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586166.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586166",
+    "chunks_doc_id": "F3586166",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

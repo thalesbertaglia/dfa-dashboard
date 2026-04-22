@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584473",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:05Z",
+    "finished_at": "2026-04-14T11:59:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "revoke the ownership of digital goods"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18522,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act should include the \"Stop Killing Games\" initiative, as it seeks to protect customer's ownership of digitally bought entertainment; which with current EULA's by many game developers/publishers allows them to post-purchase revoke the ownership of digital goods, removing these products from user's libraries for \"any or no reason\" (See EA's EULA). This citizen's initiative has already gained over 1.400.000 signatures, despite certain influencers and many game developers seeking to misrepresent the initiative as a whole; it seeks to get game developers to introduce End-of-Life plans for online features of their games. This includes allowing players to self-host online servers, Peer-to-Peer connections, and prevents publishers from revoking access/ownership of these digital products. What it does not aim to achieve is \"forced indefinite development\" or \"to kill life-service games as a whole\". With this initiative included, i can at least feel safe that my entertainment won't be stolen from me post purchase \"just because\".",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.249928Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584473.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584473",
+    "chunks_doc_id": "F3584473",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584473.clean.paragraph.json"
+}

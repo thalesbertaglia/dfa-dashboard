@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585681",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:21Z",
+    "finished_at": "2026-04-14T12:33:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remain playable even after server shutdowns."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19581,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and gentlemen of the European Commision, I find the Digital Fairness Act an important response to consumer problems in the Digital Single Market and complement existing rules. Many current requirements are symbolic because they remain without mandatory implementation, audits or sanctions. The DFA should include as clear as possible technical requirements, ensure measurability, establish mandatory controls and provide for penalties. Fairness can be not only normative, but enforceable in real terms! A personal problem lies in the lack of a concept of digital property. The EU Citizens Initiative Stop Killing Games already calls for rules to ensure that already purchased digital content, in particular games, remain playable even after server shutdowns. It has now reached over one million supporting signatures. In my view, another important issue in the area of digital fairness concerns payment service providers: Such actors may not regulate content, for example blocking content or providers on the basis of their own assessment. Their role must be strictly limited to the processing of payments, and intervention should be allowed only in the event of suspicion of fraud or other breach of law. That would protect diversity of digital offers and consumer access! My recommendations are: precise requirements, e.g. on offline use or private servers, rights to access on a permanent basis when digital purchases are made – clear roles: Platform/trader deliver content, payment service providers remain neutral – verification mechanisms, audits, penalties for non-compliance. MFG, Julian Tistler",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.867277Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585681.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585681",
+    "chunks_doc_id": "F3585681",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

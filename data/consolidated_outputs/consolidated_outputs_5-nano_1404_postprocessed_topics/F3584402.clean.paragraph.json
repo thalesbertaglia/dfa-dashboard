@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584402",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:19Z",
+    "finished_at": "2026-04-14T11:57:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games that already were sold to eu-citizens that are on the risk of being destroyed / turnt unplayable."
+              },
+              {
+                "quote": "There are games that I really love that don't have an end of life plan and I would be super disappointed to not being able to play them anymore in the future."
+              },
+              {
+                "quote": "I already lost several games this way because companies stop supporting them and decide to turn the servers offline."
+              },
+              {
+                "quote": "I would just be happy about a game just getting an offline palyable version even if it means not being able to beat some multiplayer aspects."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17205,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey! :D I would love for this act to also include games that already were sold to eu-citizens that are on the risk of being destroyed / turnt unplayable. There are games that I really love that don't have an end of life plan and I would be super disappointed to not being able to play them anymore in the future. I already lost several games this way because companies stop supporting them and decide to turn the servers offline. I would just be happy about a game just getting an offline palyable version even if it means not being able to beat some multiplayer aspects.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.217636Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584402.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584402",
+    "chunks_doc_id": "F3584402",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584402.clean.paragraph.json"
+}

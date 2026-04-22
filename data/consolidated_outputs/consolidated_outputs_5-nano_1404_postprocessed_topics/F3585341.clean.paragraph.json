@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585341",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:32Z",
+    "finished_at": "2026-04-14T12:25:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lost over years its access to multiple loved games."
+              },
+              {
+                "quote": "Very often game dies and we loose access to something that shaped our lifes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14278,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU, I am long term gamer who lost over years its access to multiple loved games. They can not be recovered from publisher and very rarely they can be bought over eBay. Very often game dies and we loose access to something that shaped our lifes. Games are art and must be protected or publishers must give us chance to do something to protect them. It would be very good idea to give this matter your attention and stand behind your citizens who are being used by big companies just for money. Thank your for taking your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.688694Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585341.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585341",
+    "chunks_doc_id": "F3585341",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585341.clean.paragraph.json"
+}

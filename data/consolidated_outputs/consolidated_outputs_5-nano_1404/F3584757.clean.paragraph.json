@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584757",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:59Z",
+    "finished_at": "2026-04-14T12:09:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prevents publishers from permanently disabling videogames they've sold to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18743,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I believe it would be incredibly funny to add a new part to the digital fairness act that prevents publishers from permanently disabling videogames they've sold to customers. On my own personal note, the original Overwatch got shut down and replaced with Overwatch 2, as well as Counter Strike Global Offensive being held in a purgatory where you need to install an additional plugin to log into CSGO servers instead of CS2. I do believe in consumer protection, and buying a game just to see it go away with no chance for players to keep playing is horrible, even if it is supposedly replaced by a \"newer and improved\" version. (Also, by now I'm sure you've heard of The Crew. There's a whole list of games, though to not trip spam detection, you'll have to investigate on your own.) Many publishers right now create live-service games that will eventually shut down, though there is no planned expiration date on many of them, nor is it a simple matter to revive the games with the files left over on the player's computers in order to play with other players. This is what is known to be a *bad* thing. An *unFair* thing, in the *Digital* realm. I will be very disappointed in the EU if you proceed to do nothing. Do not listen to the industry on this one.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.391625Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584757.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584757",
+    "chunks_doc_id": "F3584757",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

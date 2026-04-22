@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584181",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:21Z",
+    "finished_at": "2026-04-14T11:51:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "which can disappear those licences"
+              },
+              {
+                "quote": "which is a very unfair practice for consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17331,
+          "unit_kind": "feedback"
+        },
+        "text": "Good afternoon, I would like to call for this initiative to seek to encompass protection against the practice that many companies have traditionally taken to close down and disappear digital products when and as they want in the video game industry. At present, any company that develops a game and sells it has the right to do whatever it wishes with the licences they have offered to users, which can disappear those licences for pleasure, which is a very unfair practice for consumers. In my view, any company wishing to make a profit through a digital product should define a period of time during which the product must be operational or offer the product in such a way that it is available to consumers who have purchased it even when the companies that developed it cannot support it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.113949Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584181.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584181",
+    "chunks_doc_id": "F3584181",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584181.clean.paragraph.json"
+}

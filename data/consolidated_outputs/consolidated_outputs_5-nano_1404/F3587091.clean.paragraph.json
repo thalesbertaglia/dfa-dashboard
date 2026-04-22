@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587091",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:50Z",
+    "finished_at": "2026-04-14T13:10:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When we buy a game online, it should be ours to keepsimple as that."
+              },
+              {
+                "quote": "I really hope the EU steps in to make sure that when someone buys a game, it stays available to them, no matter what."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22841,
+          "unit_kind": "feedback"
+        },
+        "text": "Im writing as a regular gamer whos genuinely concerned about how digital games are being handled. When we buy a game online, it should be ours to keepsimple as that. Even if we cant resell it, that doesnt mean it should just disappear one day because a company or some automated system decides so. Lately, it feels like more and more decisions are being made by algorithms with no regard for the people who actually paid for these games. I really hope the EU steps in to make sure that when someone buys a game, it stays available to them, no matter what. Its only fair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.431247Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587091.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587091",
+    "chunks_doc_id": "F3587091",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

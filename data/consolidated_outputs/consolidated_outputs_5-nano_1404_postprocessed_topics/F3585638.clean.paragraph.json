@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585638",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:08Z",
+    "finished_at": "2026-04-14T12:32:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers permanently disabling video games they have already sold."
+              },
+              {
+                "quote": "Games people have bought and have been sold by publishers have been with without a fair amount of warning been de-listed and are now unobtainable."
+              },
+              {
+                "quote": "Payment processors (Visa & Mastercard) is also pushing censorship on video games that are legal."
+              },
+              {
+                "quote": "They should not be allowed to censor anything that's 100% legal in the EU."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terms that may already violate Directive 93/13/EEC and deliberately prevent customers from retaining or repairing their purchase."
+              },
+              {
+                "quote": "deliberately prevent customers from retaining or repairing their purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37436,
+          "unit_kind": "feedback"
+        },
+        "text": "Publishers permanently disabling video games they have already sold. Some publishers are selling video games under terms that may already violate Directive 93/13/EEC and deliberately prevent customers from retaining or repairing their purchase. Games people have bought and have been sold by publishers have been with without a fair amount of warning been de-listed and are now unobtainable. Large list of games that not necessarily was Online multiplayer only. https://stopkillinggames.wiki.gg/wiki/Dead_game_list Payment processors (Visa & Mastercard) is also pushing censorship on video games that are legal. They should not be allowed to censor anything that's 100% legal in the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.845159Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585638.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585638",
+    "chunks_doc_id": "F3585638",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585638.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584155",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:18Z",
+    "finished_at": "2026-04-14T11:50:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "should not have its access revoked by its publisher as if it were a service on a subscription model"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18938,
+          "unit_kind": "feedback"
+        },
+        "text": "The Act contains a good amount of consumer protections that I believe are valuable not only to the EU, but worldwide. I would be thankful if you considered adding the decision that digital media that was previously bought as a *product* (or which had other monetization, like microtransactions, where it is considered a continuous product), be it video games, movies, or any other kind of media, should not have its access revoked by its publisher as if it were a service on a subscription model. A recent situation like this was the video game The Crew (2014), which despite being sold as a product with no expectation of an end of support, had its servers shut down and it has become completely unplayable, even to those who legitimately bought it as a product they expected to have access to indefinitely. I believe the Act could be helpful in providing more protections to consumers regarding this issue and pushing forward the industry to become more clear and fair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.099178Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584155.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584155",
+    "chunks_doc_id": "F3584155",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584155.clean.paragraph.json"
+}

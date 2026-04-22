@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3585230",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:08Z",
+    "finished_at": "2026-04-14T12:23:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns in online interfaces"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames have little to no regulation for the consumer."
+              },
+              {
+                "quote": "gambling systems targeted towards children"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the intentional obfuscation of prices and actual money spent in a video game through the conversion to a premium currency without any details on actual monetary value in in-game stores should also be considered to be made a part of the DFA."
+              }
+            ]
+          },
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "without an end-of-life plan or any other form of recourse for customers who have often paid not just for access, but made additional payments later for a game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40603,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I think there's been a large abuse in recent years of the fact that many videogames have little to no regulation for the consumer. The digital fairness act will be a good thing to help with the increasing amount of gambling systems targeted towards children, but I think consumers could also benefit from having protections against companies being able to simply switch off any and all support for games they no longer wish to support without an end-of-life plan or any other form of recourse for customers who have often paid not just for access, but made additional payments later for a game. To add to the DFA's intention to combat false urgency and other dark patterns in online interfaces, I think the intentional obfuscation of prices and actual money spent in a video game through the conversion to a premium currency without any details on actual monetary value in in-game stores should also be considered to be made a part of the DFA.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.646466Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585230.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585230",
+    "chunks_doc_id": "F3585230",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585230.clean.paragraph.json"
+}

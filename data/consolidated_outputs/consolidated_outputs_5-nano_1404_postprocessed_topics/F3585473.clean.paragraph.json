@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585473",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:29Z",
+    "finished_at": "2026-04-14T12:28:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it's a real shame to see many of those games no longer available, as their online components are being taken away."
+              },
+              {
+                "quote": "In some recent cases, such as the somewhat infamous Concord, the games that customers have purchased may have been playable for a matter of weeks, as the games get taken down due to poor feedback."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I don't think it's just for companies and rightsholders to dictate what customers can and cannot play, regardless of if they still own the game."
+              },
+              {
+                "quote": "Even if the general consensus is that the game is bad, is it really right for the game to made unplayable for everyone who paid for it?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30404,
+          "unit_kind": "feedback"
+        },
+        "text": "Games have formed a fairly important part of my life. Whether it was making friendships through playing them, or maintaining them after moving away through online games. It's a real shame to see many of those games no longer available, as their online components are being taken away. In many cases I still own the game, I just cannot play it. I don't think it's just for companies and rightsholders to dictate what customers can and cannot play, regardless of if they still own the game. I believe that in almost any sale, a customer is lead to believe that as long as they own the game they purchased, they can continue to play it. With online systems since the mid 2000s, this has not been the case in increasing amounts. In some recent cases, such as the somewhat infamous Concord, the games that customers have purchased may have been playable for a matter of weeks, as the games get taken down due to poor feedback. Even if the general consensus is that the game is bad, is it really right for the game to made unplayable for everyone who paid for it? Every piece of art is culturally valuable to someone, and should always remain accessible to us or other people in the future, regardless of how the rightsholders happen to feel about it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.760846Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585473.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585473",
+    "chunks_doc_id": "F3585473",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585473.clean.paragraph.json"
+}

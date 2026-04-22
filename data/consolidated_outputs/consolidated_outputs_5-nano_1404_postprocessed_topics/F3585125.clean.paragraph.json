@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585125",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:40Z",
+    "finished_at": "2026-04-14T12:20:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "revoke access to the games that we have previously purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11160,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! More and more companies that produce and distribute video games have started to revoke access to the games that we have previously purchased. I think this is very unfair to the consumers and it doesn't work like this in any other area of business. Here is a long list of games that have either already been destroyed by the company releasing the game or are at risk of being destroyed in the future: https://stopkillinggames.wiki.gg/wiki/Dead_game_list Best regards, David",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.605869Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585125.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585125",
+    "chunks_doc_id": "F3585125",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585125.clean.paragraph.json"
+}

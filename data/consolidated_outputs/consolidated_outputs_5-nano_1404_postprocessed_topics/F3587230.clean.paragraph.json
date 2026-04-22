@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587230",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:50Z",
+    "finished_at": "2026-04-14T13:14:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns, addictive designs"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers must not deprive consumers of access to digital games or content that have already been paid for without compelling legal reasons."
+              },
+              {
+                "quote": "For online games, an offline mode or the possibility of community-led server operation should be provided (whenever possible) before shutdown."
+              },
+              {
+                "quote": "the unfair practice of disabling already purchased games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43477,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should explicitly provide for the protection of consumer rights in relation to digital games and content that have already been paid, even after official support or online services have been discontinued. Consumers expect to own digital products and not just rent for a limited period of time. EU law should therefore ensure permanent access to these purchases. Furthermore, payment service providers should not have the right to restrict the sale or transfer of digital products between platforms or to individual consumers, as such action affects competition and consumers’ rights as digital owners. Currently, the Digital Fairness Act deals with related issues such as dark patterns, addictive designs, gambling-like mechanisms and problematic business practices. However, extending it to the unfair practice of disabling already purchased games would make an important and necessary contribution to consumer protection. I therefore recommend that the law explicitly contains the following provisions: — Publishers must not deprive consumers of access to digital games or content that have already been paid for without compelling legal reasons. — For online games, an offline mode or the possibility of community-led server operation should be provided (whenever possible) before shutdown. Payment service providers should not be able to hinder legitimate sales between digital platforms in order to ensure fair competition and digital self-determination for consumers. Such measures would protect European consumers from losing access to legally purchased digital products and are in line with the objectives of the Digital Fairness Act and strengthen consumer rights in the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.481564Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587230.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587230",
+    "chunks_doc_id": "F3587230",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587230.clean.paragraph.json"
+}

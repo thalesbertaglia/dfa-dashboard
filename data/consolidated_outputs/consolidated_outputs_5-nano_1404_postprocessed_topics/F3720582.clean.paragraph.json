@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3720582",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:04Z",
+    "finished_at": "2026-04-14T13:47:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "just put a stupid checkbox in developer mode"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17485,
+          "unit_kind": "feedback"
+        },
+        "text": "Please someone help me understand why am I getting restricted to do whatver I WANT on MY OWN phone which I BOUGHT with MY OWN money. \"SeCuRiTy\" is not an answer, just put a stupid checkbox in developer mode if Google is so worried for their users. No, they want appstore monopoly like Apple, who by the way should also be sanctioned to the end of earth, until they allow the customers to do what THEY WANT on THEIR OWN phone.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.120344Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720582.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720582",
+    "chunks_doc_id": "F3720582",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3720582.clean.paragraph.json"
+}

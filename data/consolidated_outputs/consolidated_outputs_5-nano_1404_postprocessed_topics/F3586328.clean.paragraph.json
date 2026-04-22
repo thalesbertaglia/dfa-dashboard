@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586328",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:07Z",
+    "finished_at": "2026-04-14T12:54:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The clearest examples of this are games as a live service that often rely on sales of cosmetics or advantages for the player through micro-transactions to finance his multi-player service infrastructure"
+              },
+              {
+                "quote": "Some of these games have a retail price other than their micro-transactions."
+              },
+              {
+                "quote": "the modding scene has been able to maintain private game servers"
+              },
+              {
+                "quote": "private initiative and private individuals can put online games servers that are no longer officially supported by developers without being persecuted"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39629,
+          "unit_kind": "feedback"
+        },
+        "text": "This draft law should also provide for the guarantee of being able to continue to use software (both paid for and free of charge) after the end of the period in which the developer provides updates to be able to continue to use that software in the state in which the developer or publisher is unable to block its access or functionality, under the final responsibility of the user. The clearest examples of this are games as a live service that often rely on sales of cosmetics or advantages for the player through micro-transactions to finance his multi-player service infrastructure and which sometimes have the ability to play a single local player or multiplayer. Some of these games have a retail price other than their micro-transactions. In an ideal world, no studios or games should be interrupted by the failure of sales targets, but also those players who have participated in this commercially unsuccessful game are deprived of continuing to use what they have obtained with their own money, which the developer or publisher not only does not return but has used it to offer their next digital product. In the past, the modding scene has been able to maintain private game servers on which publishers and developers do not want or do not have the resources to maintain and I would like to add to my comments that it would also be positive to add a resolution that protects users so that, after the software lifetime, private initiative and private individuals can put online games servers that are no longer officially supported by developers without being persecuted.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.206119Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586328.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586328",
+    "chunks_doc_id": "F3586328",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586328.clean.paragraph.json"
+}

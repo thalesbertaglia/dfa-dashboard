@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588951",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:35Z",
+    "finished_at": "2026-04-14T13:26:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we're paying for something and they say we don't own it."
+              },
+              {
+                "quote": "they make us agree to an EULA or TOS after we've paid for the product which invalidates the EULA/TOS."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18944,
+          "unit_kind": "feedback"
+        },
+        "text": "For years games were sold on physical discs and there was no need for a live connection to play them. People could host their own servers for multiplayer. So there's no excuse for them to not be able to do it again. Not to mention that what they're doing is scam - we're paying for something and they say we don't own it. According to EU law that should be said beforehand but they make us agree to an EULA or TOS after we've paid for the product which invalidates the EULA/TOS.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.703166Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588951.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588951",
+    "chunks_doc_id": "F3588951",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588951.clean.paragraph.json"
+}

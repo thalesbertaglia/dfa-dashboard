@@ -1,0 +1,101 @@
+{
+  "doc_id": "F3587348",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:12Z",
+    "finished_at": "2026-04-14T13:17:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "camouflaged as \"in-app purchases\" or \"battle passes\" or \"season passes\""
+              },
+              {
+                "quote": "the disparity between reasonable consumer expectation and the actual license terms skirts close to false marketing or bait-and-switch behaviour."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Even though these games are built from the ground up as subscriptions to an online service"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the past two decades, growing anti-consumer practices have become a near-ubiquitous problem in the video game industry."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "license terms have skewed further and further in favour of the publisher and away from any semblance of consumer rights."
+              },
+              {
+                "quote": "When a game's online service is shut down, this product that was sold with the implied promise that the buyer would own it and be able to play it in perpetuity is now dead, snatched away remotely due to a financial decision made by the manufacturer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 113235,
+          "unit_kind": "feedback"
+        },
+        "text": "In the past two decades, growing anti-consumer practices have become a near-ubiquitous problem in the video game industry. When buying a video game, the actual object of the transaction is really a software license, granting the end user permission to run and operate the game. However, since games are marketed and sold much like physical products that one buys to own, this creates the reasonable consumer expectation that the license should closely mirror the experience of buying and owning a physical product. Video game publishers have not always kept this implied promise, but in recent decades, license terms have skewed further and further in favour of the publisher and away from any semblance of consumer rights. In particular, the so-called \"live service\" games, which have already raised various concerns with lawmakers around the world, present a problem in this regard. Even though these games are built from the ground up as subscriptions to an online service, which will lose all functionality as a \"game\" once the service is shut down, they are sold as standalone products with a single purchase and price point. Once the de facto subscription fees (camouflaged as \"in-app purchases\" or \"battle passes\" or \"season passes\") start to dwindle, the publisher has no further incentive to keep running the online service that the game requires. When a game's online service is shut down, this product that was sold with the implied promise that the buyer would own it and be able to play it in perpetuity is now dead, snatched away remotely due to a financial decision made by the manufacturer. Past experience with online-focussed games that reached the end of support has taught us that this behaviour of killing games is not an inherent, technical necessity; there are many alternatives, and they do not pose an undue hardship on the developers or publishers, if they are kept in mind from the start, during the planning stage. It costs virtually nothing, compared to the overall budget of such games, to spare some thoughts to including \"end-of-life\" provisions for online games. A game that has \"single-player content\" alongside the online-based play should not require a mandatory connection to the online service in order to play said content. This is not an undue imposition on the publisher, but a perfectly reasonable expectation. Once a publisher ends the online service supporting the game, they can release a \"consumer version\" of the server-side component under an appropriate license, which would allow the existing player community to run their own, limited-scope servers on a volunteer basis. After the end of the online service providing global leaderboards, group coordination, or match-making, a game might receive a final update patch that converts it to allow local multiplayer functionality, instead of relying on a global (or regional) online service. While this option requires the most work on the part of the developer, these development cost can be greatly reduced, if this option was planned in advance, during the conception stage. Past experience with these and other options has shown that they are perfectly workable and do not impose undue hardships on the publisher or developer of a game. If publishers want to run their games strictly as temporary subscription services, they should not market and sell them as finished products, creating a false expectation of ownership. But for most of these games, the entire marketing strategy for the in-game economy is based on fostering a feeling of ownership and long-term investment, encouraging players to keep spending more and more on a game they already bought which then leads to understandable feelings of being robbed, when all the virtual goods and products the player \"invested\" in get snatched away, when sales flag. The disparity between reasonable consumer expectation and the actual license terms skirts close to false marketing or bait-and-switch behaviour.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.502007Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587348.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587348",
+    "chunks_doc_id": "F3587348",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

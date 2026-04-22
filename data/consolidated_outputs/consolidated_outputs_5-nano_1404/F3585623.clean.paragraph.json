@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585623",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:45Z",
+    "finished_at": "2026-04-14T12:31:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "But the product itself be renedered useless upon the corporate host shuting down servers for the product in question."
+              },
+              {
+                "quote": "if they design the digital media such that it requires an online connection to work they should be requires to leave said digital media in a usable state once they end their support of the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13749,
+          "unit_kind": "feedback"
+        },
+        "text": "I approve of the initiative of the Digital Fairness Act. But believe it can be more comprehensive against predatory practises by corporate entities. Primarily in digital media where some products can be bought, and used. But the product itself be renedered useless upon the corporate host shuting down servers for the product in question. Now I would not go so far as to say that businesses should maintain digital media on servers for all time, if said media is dependant on them. But, if they design the digital media such that it requires an online connection to work they should be requires to leave said digital media in a usable state once they end their support of the product. Otherwise it would be as if you buy a car. And then 8 years later when the maker of the car ends their production of it, it just bricks and is permanently unusable. Regardless of anything you've done. In effect taking away a paid for product with no chance of recovery.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.838288Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585623.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585623",
+    "chunks_doc_id": "F3585623",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

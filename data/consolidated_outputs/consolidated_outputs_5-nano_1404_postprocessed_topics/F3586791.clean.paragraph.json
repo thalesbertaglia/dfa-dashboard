@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586791",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:38Z",
+    "finished_at": "2026-04-14T13:04:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Endless EULA-s, selling products as \"licence\" or \"service\" and then removing access when the product is no longer profitable."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Endless EULA-s, selling products as \"licence\" or \"service\" and then removing access when the product is no longer profitable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42022,
+          "unit_kind": "feedback"
+        },
+        "text": "I am in general pleased with the direction of the proposed changes in the Digital Fairness Act. However, I think it mentions a lot of practices, some part of the videogame industry is abusing a special mix of the brought up issues. Endless EULA-s, selling products as \"licence\" or \"service\" and then removing access when the product is no longer profitable. Even physical copies are no longer a safeguard against these practices, as a lot of products are released either half finished, or the physical copy not containing the whole copy of the game, requiring internet connection (which is only communicated on a small sticker/banner on the package most of the time). The changes proposed in the Digital Fairness Act could also cover the regulations asked for in the Stop Killing Games citizen initiative, which would require publishers/developers to create new games with an end-of-life plan, so the customers who buy these products won't loose access when the companies decide to shut down servers. Thank you for taking this feedback into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.347946Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586791.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586791",
+    "chunks_doc_id": "F3586791",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586791.clean.paragraph.json"
+}

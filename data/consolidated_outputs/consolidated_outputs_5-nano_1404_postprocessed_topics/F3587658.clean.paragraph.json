@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587658",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:38Z",
+    "finished_at": "2026-04-14T13:19:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games are being sold as services that at any time and any point can be taken away from the owner, as companies see fit."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14022,
+          "unit_kind": "feedback"
+        },
+        "text": "Is it possible looking into the rights to own games in current years? Games are being sold as services that at any time and any point can be taken away from the owner, as companies see fit. If I buy a product, I would expect to own said product, unless its not possible to keep it going. Even so, I would expect, as a customer, to own said product and be able to use the product as I see fit, once I have bought it. If the companies can't keep a game running, then it would be nice to have a backup plan for the ones still playing it. Maybe somehow, someway, they could host their own servers or host it locally, without their game being taken away from them once they have bought it. I understand its not possible to keep a game running forever, especially live service games, but let the fans enjoy the game, do not take it away from them once they have bought it, especially without further notice or end of life plan.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.562914Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587658.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587658",
+    "chunks_doc_id": "F3587658",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587658.clean.paragraph.json"
+}

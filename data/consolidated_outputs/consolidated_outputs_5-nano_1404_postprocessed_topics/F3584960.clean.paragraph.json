@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584960",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:06Z",
+    "finished_at": "2026-04-14T12:16:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games can be removed or made unplayable after purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Purchased products are marketed as ownership, but function as rentals."
+              },
+              {
+                "quote": "Consumers are not clearly informed that their access to the product may be revoked or altered after purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19665,
+          "unit_kind": "feedback"
+        },
+        "text": "Lack of transparency and recourse for consumers Companies are typically not obligated to disclose how long a digital game will be supported, nor are they required to offer refunds or alternatives when a product becomes inaccessible. Consumers are left without control or legal options. Games can be removed or made unplayable after purchase Many digital games even single-player titles, rely on servers or online compnents that can be shut down at any time. This means consumers may permanently lose access to content they have paid for, often without warning, compensation or alternative solutions. Purchased products are marketed as ownership, but function as rentals Although games are sold as if the buyer owns them, in reality they often behave like time-limited licenses. Consumers are not clearly informed that their access to the product may be revoked or altered after purchase. Its understandable that publishers want to move onto anotehr game. Or dont see an older one as profitable. But indirectly forcing your customers by blocking from playing the old game, to get a new game is ugly behaviour. Thank you for your attention",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.525941Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584960.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584960",
+    "chunks_doc_id": "F3584960",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584960.clean.paragraph.json"
+}

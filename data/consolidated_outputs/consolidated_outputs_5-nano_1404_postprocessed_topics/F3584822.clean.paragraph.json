@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584822",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:11:40Z",
+    "finished_at": "2026-04-14T12:12:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "denying my access to games I allready bought"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "PENALTIES for UNSUBSCRIBING."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If consumers can only support X years of support and then the game will become inaccessible we effectively RENT a game but are told we BUY it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29904,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to throw my 2 cents in and ask for the for software and/or online media (including video games) to be considered here too. Since unfair commercial practices could include denying my access to games I allready bought like the Title \"Assassins Creed II\" from Frances developer Ubisoft that i can no longer play due to no server connection and the game telling me it cannot possibly start. These experiences are sold as software and then discontinued. This issue prevails and has been important with other games like \"The Crew\" and EAs \"Anthem\" those games were 60 Euros OR MORE and are now not even paperweights for many since digital sales are more prevalent than ever. If consumers can only support X years of support and then the game will become inaccessible we effectively RENT a game but are told we BUY it. This however is not the only thing, I would also like to bring to your attention the unbelievable disgusting sheme of adobe when it comes to their creative suite that includes PENALTIES for UNSUBSCRIBING. What a dastardly joke that is. Please speak for us as our elected representatives and fight with us for a fairer future. Sincerely Robert Fischer",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.453901Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584822.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584822",
+    "chunks_doc_id": "F3584822",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584822.clean.paragraph.json"
+}

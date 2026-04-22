@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3664940",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:16Z",
+    "finished_at": "2026-04-14T13:45:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to profit directly on their services, or indirectly by selling their data or using it for their own marketing purposes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16274,
+          "unit_kind": "feedback"
+        },
+        "text": "Electronic device manufacturers should not be able to control how we use their devices. Devices are like tools, a shovel manufacturer cannot force us to dig only in a specific place and time. So, electronic device manufacturers shouldn't be able to tell us what programs we are allowed to run and what programs we can stop running. Of course, they might lay out their expectations in their warranty policies, but for users that don't care about warranty (of if it already expired), they should have the right for them to fully do as they please with their devices (as long as it doesn't break other local laws). Encroaching lockdown on usage from companies like Google or Apple is endangering that right. Placing heavy restrictions (if not outright complete bans) on sideloading apps and using custom OSes, under the pretense of \"Security\" is unjustified. Powerusers should have the ability to skip those security measures. Especially as the companies in question already control big chunks of the unchangable firmware and hardware, or buried deep in the default systems, with everything closed source and not under any outside control. This allows them to funnel users into their own ecosystems, to profit directly on their services, or indirectly by selling their data or using it for their own marketing purposes. Those behaviours should be punished by governing bodies and restrictions on them should be created and/or closely enforced.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.085638Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664940.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664940",
+    "chunks_doc_id": "F3664940",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3664940.clean.paragraph.json"
+}

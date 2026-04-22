@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3591553",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:00Z",
+    "finished_at": "2026-04-14T13:36:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stopping the destruction of videogames"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16691,
+          "unit_kind": "feedback"
+        },
+        "text": "Love the Digital Fairness Act. Would love it even more if it could include stopping the destruction of videogames. Videogames have been a big part of my life and being able to go back to games I've played before used to be a given, but nowadays, publishers are destroying/voiding access to games that we paid for. I'm more and more afraid it's going to hit some of my favourite games soon. Please consider including protection against this in the Digital Fairness Act. Check the stopkillinggames website to read more about the problem and suggested solutions.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.876985Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591553.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591553",
+    "chunks_doc_id": "F3591553",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

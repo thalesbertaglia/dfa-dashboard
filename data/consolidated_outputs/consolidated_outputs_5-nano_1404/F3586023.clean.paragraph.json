@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586023",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:08Z",
+    "finished_at": "2026-04-14T12:44:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sites persistently send you pop ups to enable some additional service (usually one which involves some sort of data collection)."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "also in this vein and akin to the issue of people forgetting about subscriptions, it should be required that people are reminded occasionally of optional (especially data collecting) services that they have opted into, as a user may have changed their views on these services but forgotten, and hence be unaware, that these are ongoing."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is also a quite prolific anti-consumer practice where digital purchases do not convey any sort of legal ownership."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39809,
+          "unit_kind": "feedback"
+        },
+        "text": "Dia dhuit. I am fully in favour of tackling the outlined issues. With regard to decision fatigue a particular problem is when sites persistently send you pop ups to enable some additional service (usually one which involves some sort of data collection). Sometimes these have a box you can tick to not receive the message again, but this is not universal. At the moment I have this issue in Gmail, where Google is sending me weekly pop-ups to enable their new AI-features (where Google invariably trains their AI models on user interactions) and there is no way to prevent these pop-ups other than selecting yes. I understand that users may change their mind and not necessarily know how to enable a feature they want, and for those people these reminders can be helpful, but for those with absolutely no interest there should be some way of permanently rejecting these reminders, so that a user isn't pressured into a service. This is particularly pernicious in the case of a site like Gmail, which most people are completely dependent on. Also in this vein and akin to the issue of people forgetting about subscriptions, it should be required that people are reminded occasionally of optional (especially data collecting) services that they have opted into, as a user may have changed their views on these services but forgotten, and hence be unaware, that these are ongoing. With regards to digital contracts, given that these are so prolific in every aspect of online life some real attention needs to be given. It is completely unreasonable to expect that any time a person makes a digital purchase of a video game, or agrees to the TOS of an online game, that they understand the nuances of the complicated legal language laid out in the terms and conditions. Some sort of standardisation would be extremely helpful, since much of the language is identical for practically every game, but there is no way for the user to know this unless they investigate every word. If these common aspects of the agreements could be standardised in some way and clearly identified it would be extremely helpful. This could be listed as \"you hereby agree to Agreement 1, Agreement 2, etc. You also agree to [insert aspects of the agreement which are unique to this contract]\" where \"Agreement 1\" refers to some standard agreement which is described by a regulatory agency independent of the particular company in question. This way a user can familiarise themselves with the specifics of these standard agreements and both immediately and clearly identify them in digital contracts. This would also make it easier for a user to identify when some aspect of a digital contract deviates from standard practice, or from the specific circumstances they are familiar with. There is also a quite prolific anti-consumer practice where digital purchases do not convey any sort of legal ownership. Consumers generally understand that subscriptions indicate access to a service, and hence this service has the possibility of being revoked. However when a one-time purchase is made of a digital good, the intuitive understanding is that you now have some sort of legal possession over this good. Unfortunately it has become standard practice for these purchases to only provide a licence to access some digital content. This often allows companies to remove access to a digital good and force consumers to buy the product again. This happened with \"Angry Birds\" on the Apple App store and Google Play store, where the original app was delisted from the platform and replaced with an \"updated\" (generally inferior) version that users had to purchase anew. The concept of \"digital ownership\" needs to be given serious attention, both to align with consumers intuitions about how store purchases are supposed to behave, and for the sake of preserving digital media and artwork which are at risk of becoming inaccessible. I greatly appreciate the attention given to these matters and hope some progress is made. Slán",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.041516Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586023.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586023",
+    "chunks_doc_id": "F3586023",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

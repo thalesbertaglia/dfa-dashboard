@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585261",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:50Z",
+    "finished_at": "2026-04-14T12:24:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "unplayable state after end of support"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16393,
+          "unit_kind": "feedback"
+        },
+        "text": "Having taken a look at this initiative I believe it has consumer rights at its heart, as such I warmly request this act be expanded to video games. The video games industry has grown exponentially over the years playing a major role in the digital market. Unfortunately with that have also come malpractices by the publishers that lead to games being left in a completely unplayable state after end of support, I believe this goes against the fundamental principle of consumer rights, losing access to products they paid for permanently. This issue could easily be alleviated from the publisher's side if enforced upon and would lead to significant art preservation that is being severely neglected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.658524Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585261.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585261",
+    "chunks_doc_id": "F3585261",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586146",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:39Z",
+    "finished_at": "2026-04-14T12:48:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "it is wholly unreasonable for the undertaking which sold the goods to be able to withdraw the consumer’s access to those goods"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15151,
+          "unit_kind": "feedback"
+        },
+        "text": "This should also include digital goods. If the consumer has paid the full price for a product in the belief that the judgment actually buys the goods, it is wholly unreasonable for the undertaking which sold the goods to be able to withdraw the consumer’s access to those goods simply because, in his eyes, the judgment has only sold a licence in order for the consumer to have access to the goods and, suddenly, the judgment does not wish to provide it for a longer period. Whether games, films, music, series or anything that can be distributed digitally, it is absolutely unacceptable to allow companies to abandon literally stealing from their customers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.116846Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586146.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586146",
+    "chunks_doc_id": "F3586146",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586146.clean.paragraph.json"
+}

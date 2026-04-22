@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3633485",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:51Z",
+    "finished_at": "2026-04-14T13:43:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Large-scale development studios are increasingly deliberately discontinuing support for games in order to force consumers to buy a new edition."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Despite demanding a full price for, in theory, a full game, these large studios treat their products as subscriptions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22851,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir/Madam, I would like to draw your attention to the increasingly hostile practice of some, particularly large-scale, video game development studies for consumers. Large-scale development studios are increasingly deliberately discontinuing support for games in order to force consumers to buy a new edition. Despite demanding a full price for, in theory, a full game, these large studios treat their products as subscriptions. This is as if the publisher of the book had e-booked the text in order for the reader to buy another edition. The stopkillinggames.wiki.gg site created by the player community lists as many as 358 games that have been lost between 1997 and 2025. This is more than 10 a year, without counting the games retained by their community! Video games represent the largest part of the entertainment market. Their preservation for future generations is as important as the preservation of films, music or literature. Apart from the fact that the buyer cannot be sure that the product for which he pays the full price will not cease to operate within the following month, their behaviour is important. I kindly ask you to accept the Stop Killing Video Games community’s requests for help with video games. Z. M.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.030631Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3633485.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3633485",
+    "chunks_doc_id": "F3633485",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

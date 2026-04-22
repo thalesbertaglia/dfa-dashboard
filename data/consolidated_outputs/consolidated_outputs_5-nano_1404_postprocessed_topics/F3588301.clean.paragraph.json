@@ -1,0 +1,108 @@
+{
+  "doc_id": "F3588301",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:05Z",
+    "finished_at": "2026-04-14T13:23:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Buying a video game today, unfortunately, no longer means truly owning it."
+              },
+              {
+                "quote": "Platform holders or publishers can revoke access at any time or render a game unplayable without offering any refund."
+              },
+              {
+                "quote": "many games are released unfinished and filled with manipulative monetization practices, while prices keep rising."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "manipulative monetization practices"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "prices keep rising."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Platform holders or publishers can revoke access at any time or render a game unplayable without offering any refund."
+              },
+              {
+                "quote": "In the past, the rule was: once you bought it, it was yours forever."
+              },
+              {
+                "quote": "And seek for physical videogames to be released and kept in a working state so that people rightfully own what they paid for - for decades to come."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41717,
+          "unit_kind": "feedback"
+        },
+        "text": "Buying a video game today, unfortunately, no longer means truly owning it. Platform holders or publishers can revoke access at any time or render a game unplayable without offering any refund. I am passionate about collecting video games and proudly display them on my shelf. The thought of losing all of these one day is a heavy blow. In the past, the rule was: once you bought it, it was yours forever. Today, the opposite is true, and that honestly makes me sad. At the same time, many games are released unfinished and filled with manipulative monetization practices, while prices keep rising. I believe the EU needs to examine how such business practices can be regulated to ensure that digital products actually deliver what we pay for. And seek for physical videogames to be released and kept in a working state so that people rightfully own what they paid for - for decades to come.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.638820Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588301.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588301",
+    "chunks_doc_id": "F3588301",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588301.clean.paragraph.json"
+}

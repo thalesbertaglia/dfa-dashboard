@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587042",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:41Z",
+    "finished_at": "2026-04-14T13:09:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "First, you impose mandatory network access on me to authenticate the copy"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Purchasing a product in these categories cannot imply total control sine die by the licensor over the purchaser."
+              },
+              {
+                "quote": "it is dishonest and absurd to deny the use or even require the destruction of such products when you want to discontinue support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34137,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe it is important to point out, in addition to other points already discussed in my contribution to the debate on the Digital Fairness Act, the anomalous situation of many products, most of which are sold online, but not only. When, for example, video games, audiovisual or textual content are sold, a sales model is used that has nothing to do with the nature of the actual products being sold. A service, for example, or a subscription can be sold using the license model, but not a book, a film, or a video game. It has never worked in the past, and it works even less today. Purchasing a product in these categories cannot imply total control sine die by the licensor over the purchaser. In particular, it is dishonest and absurd to deny the use or even require the destruction of such products when you want to discontinue support. To put it bluntly, if you intend to take a product and discontinue it, I don't see why the customer (who paid for it) should stop using it. First, you impose mandatory network access on me to authenticate the copy, which I can understand, but if you then decide to discontinue the product and throw everything away, then honesty would dictate that you simply remove that control and let your customers live (who, I remind you, have paid real, usually hard-earned money). First, it is fair and honest. Secondly, from a practical point of view, you will have a happy customer who will likely buy from you again. Thirdly, you will have avoided creating another software pirate who will NEVER buy from you again, but take and use your products without the need for an internet validation token. Those are wrong and counterproductive practice, typical of those who think exclusively about profit and not about the product or customer satisfaction (which is far more valuable than a few extra dollars in profit; it's like killing the goose that lays the golden eggs). What is sadder is having to be here asking for legislative intervention to teach certain people some good old-fashioned common sense.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.418753Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587042.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587042",
+    "chunks_doc_id": "F3587042",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

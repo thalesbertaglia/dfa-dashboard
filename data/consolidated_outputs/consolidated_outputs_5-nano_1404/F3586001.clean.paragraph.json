@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586001",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:43:27Z",
+    "finished_at": "2026-04-14T12:43:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark patterns are one of the things I are most concerned about, as I studied the topic and know the harm they can cause."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "purchase of digital video games, especially those with online functionality."
+              },
+              {
+                "quote": "Many of these video games are currently completely unusable if the distributor considers it, causing all consumers to be left without a product for which they have paid."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31746,
+          "unit_kind": "feedback"
+        },
+        "text": "Good evening. I am Carlos María González Martínez, a Spanish citizen. I am very happy to know that there is a proposal for a law to protect cosnumerators on the internet. Dark patterns are one of the things I are most concerned about, as I studied the topic and know the harm they can cause. If possible, I would like to suggest adding, if possible, protections for the purchase of digital video games, especially those with online functionality. Many of these video games are currently completely unusable if the distributor considers it, causing all consumers to be left without a product for which they have paid. There is an ongoing initiative, called ‘Stop Destroying Videogames’, which attempts to draw attention to the same problem, and has more than 1.400.000 signatures from every europa. Many thanks!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.030521Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586001.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586001",
+    "chunks_doc_id": "F3586001",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

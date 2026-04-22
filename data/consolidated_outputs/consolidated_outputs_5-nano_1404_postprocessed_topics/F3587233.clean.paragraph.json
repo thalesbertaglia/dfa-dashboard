@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587233",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:53Z",
+    "finished_at": "2026-04-14T13:14:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I kindly ask that the Digital Fairness Act includes strong protections for purchased video games."
+              },
+              {
+                "quote": "access to many games can be taken away at any time, even if they were legally purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19267,
+          "unit_kind": "feedback"
+        },
+        "text": "I kindly ask that the Digital Fairness Act includes strong protections for purchased video games. As a consumer, when I buy a gamewhether digitally or as a physical copy with a license keyI do so with the expectation that I will be able to play it for as long as I choose. Unfortunately, the current reality is that access to many games can be taken away at any time, even if they were legally purchased. This can happen when platforms delist titles, shut down DRM servers, or publishers remove games from user libraries. This situation creates a growing sense of insecurity for consumers, especially in a time where most games are sold digitally. It feels unfair and discouraging to know that something you paid for can disappear without recourse. In no other industry would such a practice be acceptableimagine buying a book that vanishes from your shelf without warning. Video games are not just entertainment; for many people they are deeply personal experiences, creative expressions, and even important ways to connect with others. People invest time, money, and emotion into these works. That should be respected. I believe the Digital Fairness Act has a unique opportunity to build trust between consumers and the digital marketplace by guaranteeing that when you buy a game, you keep itregardless of future corporate decisions. Thank you for considering this perspective, and for working towards a fairer and more transparent digital future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.482089Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587233.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587233",
+    "chunks_doc_id": "F3587233",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587233.clean.paragraph.json"
+}

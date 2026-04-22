@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588681",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:57Z",
+    "finished_at": "2026-04-14T13:25:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Steam recently had to remove hundreds of games from its catalogue"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These companies have been using their power to force online platforms to remove certain content under the threat of terminating ongoing business relationships."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18259,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing to you because the actions of some credit card companies such as MasterCard and Visa are worried about our freedom of art. For some time, these companies have been using their power to force online platforms to remove certain content under the threat of terminating ongoing business relationships. This has particularly affected Japanese traders such as DLsite in the past. However, larger Western platforms, such as Steam, have now become the target of this approach. Steam recently had to remove hundreds of games from its catalogue, otherwise Visa and MasterCard would have stopped cooperating with the platform. Although these games are mainly pornographic content, they are perfectly legal under current law. The implication is that Visa and MasterCard use the dependence of these platforms to play a de facto regulator of their content, thus limiting the availability of such content contrary to their legal legality. This could go far beyond pornographic content in the future, including politically or culturally controversial issues. Large financial entities should not be those that decide on the availability of legal content, nor should they be those who decide whether or not it has artistic value. In the context of the Digital Fairness Act, please address this approach by financial companies and place Visa and MasterCard in their barriers. This could go far beyond pornographic content in the future, including politically or culturally controversial issues.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.670624Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588681.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588681",
+    "chunks_doc_id": "F3588681",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588681.clean.paragraph.json"
+}

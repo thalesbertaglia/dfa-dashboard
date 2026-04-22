@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587043",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:41Z",
+    "finished_at": "2026-04-14T13:08:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to revoke consumer access to games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16102,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear all, I am writing to express my concern regarding the current state of ownershipor rather, the lack thereofwhen it comes to digital goods, specifically video games. Over the past decade, the primary method of video game distribution has shifted from physical copies to digital ones. As a result, many companies no longer offer actual ownership of these products, but instead provide access to them as a service, something that clearly wasn't possible when they were sold as physical products. This shift has enabled some companies to revoke consumer access to games, even after they have been paid for in full. I find the practice of revoking access to purchased videogames without requiring any form of valid justification to be highly concerning. Such behavior is exploitative and ultimately detrimental to both consumers and the broader market. The reason I am writing is because I strongly believe this issue warrants formal regulation to protect consumer rights in the digital space and my hope is that the Digital Fairness Act might do that. Thank you for your time and attention. Best regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.419148Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587043.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587043",
+    "chunks_doc_id": "F3587043",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587043.clean.paragraph.json"
+}

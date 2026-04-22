@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3585165",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:21:37Z",
+    "finished_at": "2026-04-14T12:22:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Consumers deserve enforceable guarantees that digital products, once sold, cannot be arbitrarily revoked or rendered unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "App stores, subscription models, and opaque recommendation engines subtly restrict user choice and stifle competition."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital marketplaces increasingly rely on nudging, dark patterns, and design lock-ins to entrench users within specific ecosystems."
+              }
+            ]
+          },
+          {
+            "topic": "Right To Local Execution",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the right to execute digital products independently of the vendors infrastructure, unless explicitly stated otherwise at point of sale."
+              }
+            ]
+          },
+          {
+            "topic": "Interoperability Of File Formats",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Interoperability and standardization of file formats and metadata should be encouraged to foster portability, competition, and long-term access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41838,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of a country within the EEA, I welcome the European Commissions efforts to strengthen digital fairness. I would like to highlight three key areas that deserve attention under this framework: 1. Digital Product Stability and Longevity We increasingly purchase games, applications, and creative tools that can be remotely disabled or removed. This sets a dangerous precedent: cultural goodssuch as video gamescan simply vanish, with no user recourse. Consumers deserve enforceable guarantees that digital products, once sold, cannot be arbitrarily revoked or rendered unusable. The EU should establish a Digital Shelf Life Guarantee: a right for consumers to retain access to a functional version of their purchased product for a defined period, or alternatively receive an offline-compatible version or a refund. 2. Right to Local Execution (StopKillingGames) With growing reliance on cloud-based DRM and centralized app platforms, users lose the ability to run software they legally obtained. A Digital Fairness Act should establish the principle of local autonomy: the right to execute digital products independently of the vendors infrastructure, unless explicitly stated otherwise at point of sale. This must also apply to hardware: if a devices functionality depends on cloud services, then when those services shut down, users should retain the ability to operate it via local network or direct access modes. 3. Protection Against Market Lock-In and Algorithmic Nudging Digital marketplaces increasingly rely on nudging, dark patterns, and design lock-ins to entrench users within specific ecosystems. App stores, subscription models, and opaque recommendation engines subtly restrict user choice and stifle competition. Legislation should enforce transparency in pricing, algorithms, and platform policies. Interoperability and standardization of file formats and metadata should be encouraged to foster portability, competition, and long-term access. This is not only about protecting todays consumers, but about ensuring the digital sovereignty, cultural preservation, and economic resilience of Europes future. Even in non-EU countries like Norway, EU law influences the frameworks we live under. A strong and enforceable Digital Fairness Act will have positive ripple effects far beyond the EU itself. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.620765Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585165.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585165",
+    "chunks_doc_id": "F3585165",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

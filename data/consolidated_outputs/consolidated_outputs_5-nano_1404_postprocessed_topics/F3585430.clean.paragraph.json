@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585430",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:29Z",
+    "finished_at": "2026-04-14T12:27:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There have been so many cases now of games getting pulled from stores and players hands, simply for not being profitable anymore, with no way of ever playing those games again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14020,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for giving us the opportunity to add our voice to this initiative. The digital fairness act is a strong step towards a better future. But, i would like to add the suggestion of including protections against the rising practice of game publishers destroying Video games. There is currently a trend of game publishers releasing games, which require constant support from the game developer/publisher to keep it running. There have been so many cases now of games getting pulled from stores and players hands, simply for not being profitable anymore, with no way of ever playing those games again. Publishers are selling these games to consumers with the intention of one day permanently removing the product from consumers hands. To add my own experience to this. I play a game called Final Fantasy 14 Online. I have put over 6000 hours of my own time into this game. I spent money buying the game itself. I spent money buying several expansion packs. And, i pay a monthly subscription to keep playing this game. But, one day, the game will just be gone. Since this is built as an online only game, with likely no plan to ever give players the tools needed to run their own servers, I will have no way to ever play it again. I will have lost all the time, and money, I have put into the game over the span of several years. This is both unethical, and a should be a strong breach of consumer rights. Even though I'm not a EU citizen, i think protections imposed by the EU would carry over to the greater world. Thank you for your attention in this matter.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.739488Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585430.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585430",
+    "chunks_doc_id": "F3585430",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585430.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585813",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:23Z",
+    "finished_at": "2026-04-14T12:37:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being destroyed after purchase"
+              },
+              {
+                "quote": "games I have purchased with my own money will be ended"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9317,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I want to raise concerns about video games being destroyed after purchase, I have seen many games, for example: The Crew, Battlefield 1943, Star Wars: Hunters, etc. I am deeply worried that games I have purchased with my own money will be ended just like the ones mentioned. I feel like this should be adressed in the Digital Fairness Act as many people are affected by this and support the Stop Killing Games/Stop Destroying Games movements, thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.933895Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585813.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585813",
+    "chunks_doc_id": "F3585813",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

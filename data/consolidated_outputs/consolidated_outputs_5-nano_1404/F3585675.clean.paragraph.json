@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585675",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:10Z",
+    "finished_at": "2026-04-14T12:33:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they backtracked on this decision, and asked lifetime licensee holders to buy their 'new' lifetime license for their latest big update (e.g. TeamViewer 16 vs TeamViewer 17)"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "many games which do not require an online service to support game-related activities, do require this online connection."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33380,
+          "unit_kind": "feedback"
+        },
+        "text": "There have been plenty of games or other types of software licenses being sold online under the pretense that they are lifetime licenses. However, as time would tell, this is not the case. Distributors/Publishers like TeamViewer and Ubisoft have sold products and taken back the possibility to use the sold software. In the case of TeamViewer: TeamViewer has sold licenses to their software, including lifetime, to both consumers and businesses with the legal writing that this license includes future updates. However, during some point in time, they backtracked on this decision, and asked lifetime licensee holders to buy their 'new' lifetime license for their latest big update (e.g. TeamViewer 16 vs TeamViewer 17) In the case of Ubisoft, to describe an example of which other game publishers are also using this same tactic, many games which do not require an online service to support game-related activities, do require this online connection. While this may seem innocent, several times it has been used to cut off access to these products. Customers who posessed these titles could no longer play the product they bought. Furthermore, several publishers and developers abandon titles with online services on their proprietary servers. This in turn causes these titles to also become unusable, while many of users still own licenses which they actively used. Apart from a few rare cases, publishers and developers refuse to give an end-of-life plan for these products which rely on infrastructure from these companies, causing these products to become unusable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.864045Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585675.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585675",
+    "chunks_doc_id": "F3585675",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

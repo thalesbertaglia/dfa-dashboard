@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584834",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:11Z",
+    "finished_at": "2026-04-14T12:12:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stop video game publishers from permanently disableing games that people have paid for"
+              },
+              {
+                "quote": "Games should be accessable to be played, even if only offline and singleplayer, after they have been purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The recent censorship of video games by Visa and Mastercard, who threatened to remove major video game platforms from their list of serviced payment partners after being pressured by an activist group is also deeply concerning to me"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29387,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to advocate for another point being added to stop video game publishers from permanently disableing games that people have paid for, as outlined by the Stop Killing Games movement. Games should be accessable to be played, even if only offline and singleplayer, after they have been purchased. The recent censorship of video games by Visa and Mastercard, who threatened to remove major video game platforms from their list of serviced payment partners after being pressured by an activist group is also deeply concerning to me, and I wonder if there is anything this bill can do to protect our rights to purchase legal media from the whims of monopolistic credit card companies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.460638Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584834.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584834",
+    "chunks_doc_id": "F3584834",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584834.clean.paragraph.json"
+}

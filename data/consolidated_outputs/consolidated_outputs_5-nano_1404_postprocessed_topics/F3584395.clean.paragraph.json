@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:57:13Z",
+    "finished_at": "2026-04-14T11:57:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there are games being sold as \"online only\" and then taken down by the developer making it impossible for someone who has paid to play that game to even start it up"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19509,
+          "unit_kind": "feedback"
+        },
+        "text": "While a lot of adults think video games are childish, it is the biggest industry in the world in terms of entertainment and should be considered very important law wise. Consumer right are being violated left and right by the gaming industry constantly and its being dismissed by law makers for one reason or another and not considered important. Both children and adults are being taken advantage of because of the lack of consumer protections. The fact that there are games being sold as \"online only\" and then taken down by the developer making it impossible for someone who has paid to play that game to even start it up is appaling and the fact that there is zero consumer protection in this area is so disappointing. Companies should be required to have some kind of end of date plan to change these online only games to be able to function offline or on private server after its end date. There are plenty of ways for developers to make this work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.213788Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584395",
+    "chunks_doc_id": "F3584395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584395.clean.paragraph.json"
+}

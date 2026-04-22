@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586198",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:20Z",
+    "finished_at": "2026-04-14T12:50:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "extremely predatory."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31584,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. The way video games are made nowadays is extremely predatory. There is no reason for companies to make games live service. They make them this way so people would be hooked on their gambling like systems, and end up paying a lot more money other than just buying the game. The companies can make games that have an offline mod. They chose not to. Example. \"Diablo 3\" the way its made on the PC is the same as an MMO with dependency on a Server Side program. How ever they did also make a version of the game for the nintendo switch, and that game can be played offline.( \"they\" can!! and always have the option to do it right) What they are doing now is traping us all in an endless loop of rentels... most games today dont even release fully functional. They dont care its just a cash grab for them. Its time to start to take back our money and time from them. \"if buying isn't owning, pirating isn't stealing\"",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.149041Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586198.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586198",
+    "chunks_doc_id": "F3586198",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

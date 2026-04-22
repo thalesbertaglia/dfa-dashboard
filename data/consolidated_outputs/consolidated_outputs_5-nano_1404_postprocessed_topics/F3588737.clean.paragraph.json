@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588737",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:28Z",
+    "finished_at": "2026-04-14T13:25:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games or core features of them are being shut down entirely even for players who paid for them."
+              },
+              {
+                "quote": "Digital products must not vanish the moment a server shuts down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11455,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully support the idea behind the Digital Fairness Act when it comes to transparency and consumer protection. However, I urge the Commission not to treat digital games as disposable software in the process. In recent years, we have seen a troubling trend: games or core features of them are being shut down entirely even for players who paid for them. A striking example is The Crew (2014), which was made completely unplayable in 2024 after its servers were shut down including the single-player mode. Gran Turismo Sport followed the same path when its servers were switched off in 2024, leaving many purchased features inaccessible. Mirrors Edge Catalyst lost its online features, and Media Molecules Dreams was effectively frozen in 2023, ending new uploads and limiting the community experience. This is not fair to consumers. Games are not just software they are art, emotional experiences, and social spaces. If regulation fails to distinguish between exploitative monetization and genuine creative expression, we risk stifling the diversity and innovation that Europe should be proud of. Please: Stop killing games. We need balanced rules. Yes to transparency and user protection but also yes to game preservation, offline availability, and the right to play what we paid for. Digital products must not vanish the moment a server shuts down.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.681515Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588737.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588737",
+    "chunks_doc_id": "F3588737",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588737.clean.paragraph.json"
+}

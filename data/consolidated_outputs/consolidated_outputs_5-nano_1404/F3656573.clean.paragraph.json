@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3656573",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:44Z",
+    "finished_at": "2026-04-14T13:44:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers should be granted, upon purchase of said devices, the right to modify, personalise, or otherwise utilise the devices as we see fit."
+              },
+              {
+                "quote": "They (the manufacturers) already have more access to our personal data than should be allowed, not to mention how much money they obtain in the process."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16070,
+          "unit_kind": "feedback"
+        },
+        "text": "Whilst I agree that manufacturers should have a say in how and why the products we buy from them are used as is relevant to national security issues, spam/scam artist activities, etc., consumers should be granted, upon purchase of said devices, the right to modify, personalise, or otherwise utilise the devices as we see fit. They (the manufacturers) already have more access to our personal data than should be allowed, not to mention how much money they obtain in the process.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.055415Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3656573.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3656573",
+    "chunks_doc_id": "F3656573",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

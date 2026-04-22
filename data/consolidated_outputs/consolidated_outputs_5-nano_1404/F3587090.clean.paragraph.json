@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587090",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:49Z",
+    "finished_at": "2026-04-14T13:10:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We need stronger legislation regarding video game ownership."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the steady climb in pricing for these products"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29241,
+          "unit_kind": "feedback"
+        },
+        "text": "We need stronger legislation regarding video game ownership. Like many people around the world, I've found video games to be a vital source of personal refuge and joy. They helped me navigate difficult times growing up. Offering support, inspiration, and a sense of belonging I might not have found elsewhere. Beyond serving as entertainment, many video games are undeniably works of art. I've lost count of how many have moved me emotionally or contributed to my personal growth. These games are more than just consumer products. They're the result of a vision of multiple people working together to create something for others to enjoy, both on their time and with those they love most. This is why I believe so strongly in the need for ownership rights and long-term access to the games we purchase. Losing access to these titles isn't just a financial issue (the financial aspect is still problematic given the steady climb in pricing for these products, games have never been pricier, and yet it seems that every year it becomes more common practice for companies to deprive costumers of the things they have purchased). It represents the erasure of cultural and emotional artifacts. It's a quiet form of cultural loss, one that deprives us of their continued influence and the personal memories they hold. When games become unplayable with no way to recover or preserve them, players are left without recourse. I believe legislation should require some form of preservation framework, one that ensures continued access to purchased games, even if the technical means are ultimately up to the individual. For instance, I spent countless hours during my teenage years playing Backlight: Retribution with friends. Today, it's no longer available, and I have no way of revisiting those meaningful moments. That loss is deeply felt and avoidable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.430804Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587090.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587090",
+    "chunks_doc_id": "F3587090",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

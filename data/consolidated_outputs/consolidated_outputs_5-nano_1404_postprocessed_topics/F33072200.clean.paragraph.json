@@ -1,0 +1,75 @@
+{
+  "doc_id": "F33072200",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:49Z",
+    "finished_at": "2026-04-14T09:29:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are more than disposable products they are part of our culture, our memories, and our communities."
+              },
+              {
+                "quote": "When publishers shut down online services or remove access to purchased titles, players are unfairly deprived of something they paid for and value."
+              },
+              {
+                "quote": "1. Ensure consumers can reasonably continue to access the games they have purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22174,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing as a concerned individual to express my strong support for the principles of the Stop Killing Games campaign. Video games are more than disposable products they are part of our culture, our memories, and our communities. When publishers shut down online services or remove access to purchased titles, players are unfairly deprived of something they paid for and value. I believe the Digital Fairness Act should include protections that: 1. Ensure consumers can reasonably continue to access the games they have purchased. 2. Require publishers to provide alternatives such as offline modes, updates, or preservation options when shutting down services. 3. Recognize the cultural importance of games and safeguard them for future generations. This is not just a consumer rights issue, but also a matter of cultural preservation. I urge lawmakers to take meaningful steps to stop killing games and to protect both players and our shared digital heritage.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.503699Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33072200.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33072200",
+    "chunks_doc_id": "F33072200",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33072200.clean.paragraph.json"
+}

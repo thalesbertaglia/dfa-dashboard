@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585026",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:18Z",
+    "finished_at": "2026-04-14T12:18:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they sell you a product, but in reality they only give you a license that they can revoke."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15225,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to have video games under the umbrella of the digital fairness act. Right now companies can just take away the games i paid for without any notice and consequences. I believe its unfair that they sell you a product, but in reality they only give you a license that they can revoke. They dont really state this anywhere except deep in their terms and conditions. Something no normal person reads and by that also doesnt neccessarily agree to.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.559611Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585026.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585026",
+    "chunks_doc_id": "F3585026",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

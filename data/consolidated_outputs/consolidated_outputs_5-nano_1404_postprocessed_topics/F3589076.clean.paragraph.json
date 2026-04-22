@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589076",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:55Z",
+    "finished_at": "2026-04-14T13:29:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16230,
+          "unit_kind": "feedback"
+        },
+        "text": "The way that video games are sold in my opinion could be all called \"unfair commercial practices related to dark patterns\". When people say they buy a game in reality they are buying a license that gives them little rights of actually being able to use the product that they paid for. As of now publishers can simply revoke access based on purely arbitrary reasons. I hope that in the future game publishers will at least give the fundamental resources to video game communities so that they can continue accessing and enjoying the games that they paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.746356Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589076.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589076",
+    "chunks_doc_id": "F3589076",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589076.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584454",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:46Z",
+    "finished_at": "2026-04-14T11:58:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many games are being shut down with no plan as to how to make the game playable after its end of service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12345,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to leave my comment on the destruction of games online and the Stop Killing Games Initiative. Many games are being shut down with no plan as to how to make the game playable after its end of service. That means that the games, which were bought by people, can no longer be accessed and played. A known example is the end of The Crew, a title that was released by Ubisoft. This not only hurts customers rights to use the things they have bought, but also hurts the preservation of media and erases countless hours of work that has gone to developing it. This is a serious problem that needs to be addressed and I hope, that this comment spreads awareness for this topic.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.241156Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584454.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584454",
+    "chunks_doc_id": "F3584454",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584454.clean.paragraph.json"
+}

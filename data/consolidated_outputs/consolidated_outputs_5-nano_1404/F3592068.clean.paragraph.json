@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3592068",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:07Z",
+    "finished_at": "2026-04-14T13:37:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When private companies or governments can track what we view online, they can build profiles on us that can be used for malicious purposes."
+              },
+              {
+                "quote": "The lack of transparency about where our online data is stored and how it is used, often buried in dense cookie policies, further compounds this problem."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 7677,
+          "unit_kind": "feedback"
+        },
+        "text": "* 2/2 - no space ... Censorship also has significant implications for privacy. Less privacy means a higher risk of identity theft and increased discrimination based on personal beliefs or choices. When private companies or governments can track what we view online, they can build profiles on us that can be used for malicious purposes. The lack of transparency about where our online data is stored and how it is used, often buried in dense cookie policies, further compounds this problem. In conclusion, censorship, whether it comes from a government or a private corporation, is a dangerous practice that undermines the very foundations of freedom and knowledge. It restricts access to information, stifles creativity, and erodes the trust that underpins a free and open internet. To preserve the internet as a space for open expression and intellectual growth, we must resist the consolidation of power in the hands of a few and demand transparency and accountability from the entities that control its vital infrastructure.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.906946Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592068.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592068",
+    "chunks_doc_id": "F3592068",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

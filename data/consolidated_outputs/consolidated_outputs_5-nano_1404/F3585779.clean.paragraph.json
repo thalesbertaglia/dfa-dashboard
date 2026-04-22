@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3585779",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:28Z",
+    "finished_at": "2026-04-14T12:37:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive design."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I see more and more sofisticated gambling mechanics in videogames, even in those played by children, and this needs to be stopped."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Difficult cancellations of subcriptions is another great point."
+              },
+              {
+                "quote": "Only cancel now and pay a fine."
+              }
+            ]
+          },
+          {
+            "topic": "Preservation Of Digital Content",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I see a lot of people in the coments mentioning the practice of videogame publishers to destroy older videogames, and I belive it's a good addition to the list."
+              },
+              {
+                "quote": "Same goes for deleting e-books."
+              },
+              {
+                "quote": "Videogames are art. They should be preserved, and we need some regulations for that."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36941,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm glad these points are being addressed, especially the third one about addictive design. I have already learned the hard way, but maybe other people will not have to. I see more and more sofisticated gambling mechanics in videogames, even in those played by children, and this needs to be stopped. Difficult cancellations of subcriptions is another great point. I have recently canceled my Adobe subscription and it was an experience. I wanted to leave it running to the end of what I paid for and than not to renew it, but that was not an option. Only cancel now and pay a fine. I see a lot of people in the coments mentioning the practice of videogame publishers to destroy older videogames, and I belive it's a good addition to the list. Same goes for deleting e-books. If I payed for the product... well, I want the product. Videogames are art. They should be preserved, and we need some regulations for that. I do not want unlimitted support from the developer, thats not realistic, but intentional destruction is wrong. Thank you for fighting for consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.916233Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585779.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585779",
+    "chunks_doc_id": "F3585779",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

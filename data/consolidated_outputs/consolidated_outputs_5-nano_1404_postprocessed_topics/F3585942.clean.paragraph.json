@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585942",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:41Z",
+    "finished_at": "2026-04-14T12:41:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game industry"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14835,
+          "unit_kind": "feedback"
+        },
+        "text": "As a concerned consumer and supporter of digital rights, I strongly encourage policymakers to ensure the Digital Fairness Act explicitly addresses the growing issue of digital product discontinuation, particularly in the video game industry. The Stop Killing Games initiative has highlighted how consumers are often denied long-term access to games they have legally purchased due to server shutdowns, DRM dependencies, and lack of preservation obligations. These practices erode consumer trust, undermine the principles of digital ownership, and threaten cultural preservation in the EUs creative sectors. The regulation should include enforceable requirements for digital continuity, transparency around product lifespan, and obligations for companies to maintain access or provide alternatives when digital services are discontinued. Protecting consumers in the digital economy must also mean safeguarding the value and longevity of the products they purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.998535Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585942.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585942",
+    "chunks_doc_id": "F3585942",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585942.clean.paragraph.json"
+}

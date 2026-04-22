@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3597604",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:40:30Z",
+    "finished_at": "2026-04-14T13:40:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gamers who are very attached to the games they play because they become their special interest."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9347,
+          "unit_kind": "feedback"
+        },
+        "text": "I have a family with autistic children, we have gamers who are very attached to the games they play because they become their special interest. My children spend much of not all their allowance on the games they play because its their special interest. The emotional and psychological impact shutting down games they have spent many years playing and investing money in has on children and adults autism is devastating. For them its much more than just a game, its their own social outlet or even their only way to release anxiety. Its not right that people spend so much time and money into something to then have it just taken away.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.979837Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3597604.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3597604",
+    "chunks_doc_id": "F3597604",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3597604.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585195",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:23Z",
+    "finished_at": "2026-04-14T12:22:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers who purchase video games are often at the mercy of large studios who can, and in some cases have, revoked access to titles without recourse."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "licensing changes, server shutdowns, or unilateral decisions by publishers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15648,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing to request you to consider expanding the scope of the Digital Fairness Act to explicitly include video games and other interactive digital media. I believe such an expansion would be fully in line with the Acts goals of ensuring consumer rights, digital ownership, and long-term access to purchased digital content. The current landscape makes it increasingly clear that consumers who purchase video games are often at the mercy of large studios who can, and in some cases have, revoked access to titles without recourse. Despite paying full price, users may find their games rendered unplayable due to licensing changes, server shutdowns, or unilateral decisions by publishers. Public support for stronger digital rights in gaming is already evidentone prominent example being the European Stop Killing Games petition, which has garnered significant attention and backing from consumers across the EU. This shows a growing demand for legal protections that ensure what we pay for, we actually own. I believe that including video games under the protections of the Digital Fairness Act would not only address these pressing concerns but also demonstrate a clear commitment to fairness, transparency, and accountability in the digital economy. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.631107Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585195.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585195",
+    "chunks_doc_id": "F3585195",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585195.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585523",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:46Z",
+    "finished_at": "2026-04-14T12:30:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rendering that videogame unplayable in future"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22986,
+          "unit_kind": "feedback"
+        },
+        "text": "I feel as though it would be prudent to include video games in the Digital Fairness Act, as by the current rules, there is nothing preventing any publisher from selling you a videogame, then rendering that videogame unplayable in future, without leaving the user any recourse but to own a broken video game. Speaking as a developer this could all be prevented, if the rules required publishers to include an end of life plan for all of their products, meaning they would be in a playable state when the publisher decides to stop supporting them. The publisher would no longer be responsible for the content on the product, but the buyers would be able to keep using the product they purchased. There is already a signature campaign that has over 1.4 million signatures, that will is trying to prevent games from being destroyed, and including them in the fairness act would only benefit the consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.786591Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585523.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585523",
+    "chunks_doc_id": "F3585523",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585523.clean.paragraph.json"
+}

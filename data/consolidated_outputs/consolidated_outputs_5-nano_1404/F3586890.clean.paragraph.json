@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586890",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:25Z",
+    "finished_at": "2026-04-14T13:06:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shut down with no offline support"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that license can expire/be revoked at the whim of the company."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39113,
+          "unit_kind": "feedback"
+        },
+        "text": "I am growing concerned over the \"selling\" of games as a \"service\" where you buy a game which at any point in time can be removed due to the publisher no longer wish to support running servers for said video games. One example is the video game \"the crew\" which was shut down with no offline support released to those who had bought the game, there are more games today that risks the same fate, add to it that many of these games have in game stores where you spend even more money aside from the game you already paid for and might have many items you spent money on being lost due to the game being shut down. You would think twice to buy a physical product, or any product if you where told that the manufacturer could at any moment come to you and take that product away without any compensation. This is the reality for me and I think many others when it comes to buying games at this current moment. I fully understand that companies can't maintain their own online service indefinitely, however they should at least be able to provide people or interest groups the tools to maintain servers of their own instead, or at a minimum allow access to offline functions rather then removing the game entirely. It is however unfair to be \"sold\" a game where the publisher do not make it clear it is not bought, but rented to you via a license and also have stores within the games where you buy even more products and that license can expire/be revoked at the whim of the company.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.375566Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586890.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586890",
+    "chunks_doc_id": "F3586890",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

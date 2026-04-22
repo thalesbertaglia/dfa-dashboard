@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3591285",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:53Z",
+    "finished_at": "2026-04-14T13:35:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I have no guarantee that my digital copy of the product will not be taken away."
+              },
+              {
+                "quote": "My account, through which the games were purchased, should not be deleted,"
+              },
+              {
+                "quote": "access to the game I have spent hundreds of hours on should not be disabled by the service leaving me with no possibility to return to it, not even in offline mode."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18784,
+          "unit_kind": "feedback"
+        },
+        "text": "I am leaving this comment under this initiative in the hope that, at the legislative level, attention will be paid to the fact that, having purchased a video game with my own money and invested dozens or even hundreds of hours into it, I have no guarantee that my digital copy of the product will not be taken away. My account, through which the games were purchased, should not be deleted, and access to the game I have spent hundreds of hours on should not be disabled by the service leaving me with no possibility to return to it, not even in offline mode.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.854216Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591285.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591285",
+    "chunks_doc_id": "F3591285",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591285.clean.paragraph.json"
+}

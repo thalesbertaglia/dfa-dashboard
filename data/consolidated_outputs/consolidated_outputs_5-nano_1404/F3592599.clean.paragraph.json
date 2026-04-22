@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3592599",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:59Z",
+    "finished_at": "2026-04-14T13:38:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End User License Agreements that are blatantly anti-consumer, up to denying access to purchased programs, services, media, etc at any time for any reason without warning or a stated reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14908,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European Citizen strongly interested in digital media, I support the scope of this initiative and would even urge to take it further. Digital goods and services are currently often beholden to End User License Agreements that are blatantly anti-consumer, up to denying access to purchased programs, services, media, etc at any time for any reason without warning or a stated reason. I fully support the extension of any and all fair commerce and consumer protection laws and guidelines to digital media and services.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.924227Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592599.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592599",
+    "chunks_doc_id": "F3592599",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585830",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:45Z",
+    "finished_at": "2026-04-14T12:38:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Anything else seems like misleading the costumer into thinking they \"own\" a license even though it is only a temporary one."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "advertisements are conveniently placed in positions where you \"accidentally\" click them when trying to scroll, especially on mobile."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20866,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Ladies and Gentlemen, The Digital Fairness Act is a good idea to strengthen consumer rights and I fully support its aims. However, I would like to bring your attention to digital media sales and digital ownership as well. In many cases it is unclear if I truly own a license to the digital media, such as eBooks and video-games. Do I only have a license to the content as long as the digital storefront exists? Can my license to the content expire in that case? In my opinion companies should have to disclose details on what happens to the content you purchase online, once the service/ storefront discontinues during the buying process or somewhere else prominent. Anything else seems like misleading the costumer into thinking they \"own\" a license even though it is only a temporary one. Additionally, I would like to mention that I have noticed an influx of cases in which advertisements are conveniently placed in positions where you \"accidentally\" click them when trying to scroll, especially on mobile. They are placed in such a manner, that you can almost not avoid clicking them, which makes people click-through to websites they do not even want to visit. Companies should not be allowed to do this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.942276Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585830.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585830",
+    "chunks_doc_id": "F3585830",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

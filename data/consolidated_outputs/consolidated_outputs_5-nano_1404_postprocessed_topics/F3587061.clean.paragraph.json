@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587061",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:11Z",
+    "finished_at": "2026-04-14T13:09:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I lost access to several games throughout my life, one of them SIMCITY when Electronic Arts decided to stop supporting that game because it was not profitable for them."
+              },
+              {
+                "quote": "There are many examples of how companies destroy video games when they cease to be profitable so that the next delivery of the same game does not lose audiences and thus customers."
+              },
+              {
+                "quote": "Losing access to a game for which I have paid, even if it is a usage licence, is insulting and leaves the consumer unprotected."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18293,
+          "unit_kind": "feedback"
+        },
+        "text": "I lost access to several games throughout my life, one of them SIMCITY when Electronic Arts decided to stop supporting that game because it was not profitable for them. There are many examples of how companies destroy video games when they cease to be profitable so that the next delivery of the same game does not lose audiences and thus customers. Losing access to a game for which I have paid, even if it is a usage licence, is insulting and leaves the consumer unprotected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.424447Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587061.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587061",
+    "chunks_doc_id": "F3587061",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587061.clean.paragraph.json"
+}

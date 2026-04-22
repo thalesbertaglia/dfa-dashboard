@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3591606",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:16Z",
+    "finished_at": "2026-04-14T13:36:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Killing Games initiative"
+              },
+              {
+                "quote": "This often means that the only way to experience the game is via illegal means."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital licenses that can be revoked on a whim of the seller should be regulated."
+              },
+              {
+                "quote": "Amazon has been known to delete or modify the content of ebooks (on kindle)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30380,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the Act should include provisions about payment processors and their push to limit and constrain peoples' ability to purchase certain goods. Very loud recent case is about Visa and Mastercard pressuring digital stores to halt sales of certain darker, 18+ albeit completely legal content. Payment processors should not be plying the role of censors Additionally the provisions of the Stop Killing Games initiative could be added to this Act. After all the initiative aims to prevent digital stores from completely removing access to digital software bought by the consumer. This often means that the only way to experience the game is via illegal means. And nowadays games are a medium that combines cultural properties of music, design, visuals, writing. Games being a relatively young medium do not enjoy the protections and preservation efforts that music or writing does. In general I believe the digital licenses that can be revoked on a whim of the seller should be regulated. This not only includes games, but also digital services providing access to music, movies, books (namely audibooks and ebooks). Amazon has been known to delete or modify the content of ebooks (on kindle). Because online digital purchases are most often actually just licenses, not copies of the product, meaning the consumer enjoys limited rights with regards to their purchases",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.881905Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591606.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591606",
+    "chunks_doc_id": "F3591606",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

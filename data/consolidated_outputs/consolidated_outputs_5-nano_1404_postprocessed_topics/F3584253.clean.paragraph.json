@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584253",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:25Z",
+    "finished_at": "2026-04-14T11:53:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a fan of video games"
+              },
+              {
+                "quote": "contingency plans"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14683,
+          "unit_kind": "feedback"
+        },
+        "text": "As a fan of video games who really cares about the visuals and the animations of the characters I care about, it really saddens me when the characters i bonded with for games I paid money to buy, or pay to get the skins/characters to just get destroyed with no way for me to keep playing my game in my servers or single player. Please help us protect the games we like by making game companies require contingency plans so that we can fairly keep our products and they stop killing games. I do not request infinite online service support as that is unreasonable and do not request security protection once the company decides to stop supporting the game. I merely ask for the games to be made available as single player or by peer to peer sharing with customers taking the risk of perr to peer (if there is any). Thank you for listening to my request.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.145940Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584253.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584253",
+    "chunks_doc_id": "F3584253",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584253.clean.paragraph.json"
+}

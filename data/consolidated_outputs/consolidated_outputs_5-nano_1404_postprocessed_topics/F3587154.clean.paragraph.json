@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3587154",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:52Z",
+    "finished_at": "2026-04-14T13:12:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we, consumers, do not actually own our purchased good"
+              },
+              {
+                "quote": "A publisher or developer reserves the right to 'pull the plug' at any time, making a game we might have paid good money for a few days ago permanently unplayable at their own whims."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44057,
+          "unit_kind": "feedback"
+        },
+        "text": "An inclusion should be made surrounding the topic of video games and their end of life plans. Currently, when 'buying' a videogame, the reality that we, consumers, do not actually own our purchased good, is hidden from us. A publisher or developer reserves the right to 'pull the plug' at any time, making a game we might have paid good money for a few days ago permanently unplayable at their own whims. The Stop Killing Games movement's popularity shows that this is something that we, consumers, feel should change. We would like there to be an explicit end of life plan for a game, describing long before the actual end what will happen when the game is no longer supported. This allows us to make a more informed purchasing decision. We would also like these plans to make the game permanently playable in some form (within reason), using techniques such as disabling online-only features or allowing the community to host the game themselves. Immensely popular online games such as Helldivers 2 are examples of games that are affected most of this issue plaguing the industry. One day, the developer will, quite rightly, decide they no longer wish to support the game. At that point, with or without a preperatory announcement, the game will be shut down, erasing the progress players made, the money they spent on in-game items and the possibility for gamers to play their favorite game with their friends. We feel this isn't right. Nothing stops the developer from handing a server executable to the players, allowing a community of the willing to keep supporting the game, or at the very least keep it up and running. Even in case handing over a server executable is not an option, we feel we should at least know about how the end of life scenario will be handled for a particular game, before spending our money on it. Thank you for considering this feedback. Personally, I appreciate the opportunity to voice my concerns and feel proud about being a citizen of a place that puts its people first.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.452773Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587154.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587154",
+    "chunks_doc_id": "F3587154",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587154.clean.paragraph.json"
+}

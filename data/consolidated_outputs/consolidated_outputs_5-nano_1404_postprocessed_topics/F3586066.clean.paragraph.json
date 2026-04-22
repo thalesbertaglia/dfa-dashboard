@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586066",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:45:37Z",
+    "finished_at": "2026-04-14T12:46:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in these video games you can spend extra currency to unlock more content"
+              },
+              {
+                "quote": "revoking your ability to use their games"
+              },
+              {
+                "quote": "you can no longer access in any form"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28989,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I hope the feedback reaches you in good health. A current predicament in the environment of video games in this day and age stems from the fact that even though you do buy the product and you have access to that product at the given time certain companies now are revoking your ability to use their games because they have dictated that they have stopped supporting the product. An analogy to this could be purchasing say an appliance from a certain company then a few years down the line that company that you bought the appliance off of has stopped manufacturing the appliance that doesnt sound very bad until the company demands that you return or are not allowed to use the appliance that you have paid for it with your own money your own property You see whats happening with games now is that without any fair warning? Companies are now restricting access to their games to people have bought them for years and even worse. Its not just the initial payment that would be affected by this. It would also be the fact that in these video games you can spend extra currency to unlock more content And as a result then people could be investing thousands of their currency into games that on the whim of a company, you can no longer access in any form. There is a very simple solution to this and it involves mandating that the company does give for a warning to their game shutting down but as well make it so the game is playable in some format with minimal features being removed to support this non-supported version of their product",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.066512Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586066.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586066",
+    "chunks_doc_id": "F3586066",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586066.clean.paragraph.json"
+}

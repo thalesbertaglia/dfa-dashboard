@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585232",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:09Z",
+    "finished_at": "2026-04-14T12:23:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames protection."
+              },
+              {
+                "quote": "\"always online\""
+              },
+              {
+                "quote": "take as example The Crew, a game from Ubisoft that was abruptly close and made unusable from people who bought it when the company closed down the respective servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32354,
+          "unit_kind": "feedback"
+        },
+        "text": "As an addition to the scope of the Digital Fariness Act I would ask you to consider videogames protection. A lot of the issues that you look to address are already plaguing the media with a new one being that of the \"always online\" that put products, that europeans buy, at risk of being simply destroyed, with no possibility of appeal (take as example The Crew, a game from Ubisoft that was abruptly close and made unusable from people who bought it when the company closed down the respective servers). There is already an European Citizens' Initiative on the matter, that has recently passed 1.4 million signatures, that goes in extensive details on the problem and on the possible actions to give us consumer more protection.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.647633Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585232.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585232",
+    "chunks_doc_id": "F3585232",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585232.clean.paragraph.json"
+}

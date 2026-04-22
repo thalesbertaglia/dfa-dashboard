@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584561",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:45Z",
+    "finished_at": "2026-04-14T12:02:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is important, whether you consume and play videogames yourself, or not."
+              },
+              {
+                "quote": "Game preservation is important."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "cancellations being written off as male cow manure tax write offs"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lack of privacy and ownership of anything"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40120,
+          "unit_kind": "feedback"
+        },
+        "text": "This is important, whether you consume and play videogames yourself, or not. With how the world is getting with these streaming services, offering less and less options of physical release of shows and movies, cancellations being written off as male cow manure tax write offs and people not being allowed to own the very thing they pay for anymore, this is important. You pay for a product, you should have the right to use that product for as long as you'd like to. The community supporting that product, supporting the Devs behind that product and supporting the company that helped produce said product, should absolutely have a say in keeping that very thing alive and in a usable state. A playable state. For as long as there's a community there to keep things running, the game should be allowed to live. Allowed to thrive and inspire the next generation of players and the next after them. With the way the world, the internet and the companies are getting cheekier by the day, the rampant generative AI slop machines and theft, lack of privacy and ownership of anything, could we please put our foot down, for once, and say; how about no? No. No more. No more of this same tired old routine. We're tired. We're tired but we will no longer be putting up with this nonsense. We channelled our energy, our time, resources and money into these companies and we will be one to who will bring them down if they don't have some cop on and sort this out. Game preservation is important. Preservation of any existing media is important. It's who we are. It's our creativity. Is that not important enough to live on long after we're all gone?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.293487Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584561.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584561",
+    "chunks_doc_id": "F3584561",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

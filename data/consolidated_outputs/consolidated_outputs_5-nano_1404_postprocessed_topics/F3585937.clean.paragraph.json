@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585937",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:31Z",
+    "finished_at": "2026-04-14T12:41:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I ask that the Digital Fairness Act include specific provisions to protect digital game ownership and access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9832,
+          "unit_kind": "feedback"
+        },
+        "text": "As a Norwegian citizen, I strongly support the goals of the Stop Killing Games movement. Unfortunately, I have not been able to formally support the related European Citizens' Initiative due to Norway not being an EU member. However, I hope this consultation can take into account the concerns shared by many European consumers, including those of us in the EEA. I ask that the Digital Fairness Act include specific provisions to protect digital game ownership and access. Too many games today become completely unplayable after a publisher or developer shuts down their serverseven if the consumer paid full price. This is not just a loss of value, but also a cultural and digital preservation issue. At a minimum, I believe consumers should be guaranteed access to an offline mode, the right to host private servers, or access to a preservation build if a game is removed or disabled. The law should require clear and fair terms when a product might become unusable, and ensure long-term access to what consumers have paid for. Thank you for considering the voice of players and consumers. Sincerely, Kristian Simonsen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.994504Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585937.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585937",
+    "chunks_doc_id": "F3585937",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585937.clean.paragraph.json"
+}

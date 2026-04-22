@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586587",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:59:32Z",
+    "finished_at": "2026-04-14T12:59:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "permanently removing access to legally purchased games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23349,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to respectfully suggest that the Digital Fairness Act include provisions to protect consumer rights and digital ownership in the context of video games. Specifically, I urge policymakers to consider measures that prevent companies from permanently removing access to legally purchased games (\"killing\" games), which undermines both consumer trust and digital preservation. Many players invest not just money but years of time, creativity, and emotional connection into games. Shutting them downespecially when no viable offline or archival alternative is providedcan feel like erasing a part of cultural history and personal experience. In other media, such as books or films, we expect continued access after purchase; games should be treated with similar respect. Suggestions to consider: Require that online-only games offer an offline or community-hosted mode if official servers are to be shut down. Ensure players can continue accessing single-player or local content for games they've purchased. Support digital preservation efforts and partnerships with libraries or cultural institutions. By adopting such measures, the Act would not only promote fairness but also preserve video game heritage and consumer trust in digital marketplaces. Thank you for considering this suggestion.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.286257Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586587.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586587",
+    "chunks_doc_id": "F3586587",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

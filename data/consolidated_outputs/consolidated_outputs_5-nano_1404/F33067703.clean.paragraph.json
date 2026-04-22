@@ -1,0 +1,86 @@
+{
+  "doc_id": "F33067703",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:27Z",
+    "finished_at": "2026-04-14T09:28:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restrict third party application installation (sideloading) on android devices"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "https://kotaku.com/mastercard-denies-pressuring-steam-to-censor-nsfw-games-2000614393"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Paypal in particular has frequently stolen people's hard earned money, locking them out of their accounts."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35401,
+          "unit_kind": "feedback"
+        },
+        "text": "Google's moves to restrict third party application installation (sideloading) on android devices will have devastating effects for consumer rights and freedoms for using \"smart\" devices across a wide range of fields, and is a blatant attempt to lock down control and strengthen their monopoly. It will do nothing to protect against supposed malware, as they claim, since the google play store already requires many of the things google will soon mandate for everyone, and yet the play store is completely riddled with malware. https://android-developers.googleblog.com/2025/08/elevating-android-security.html?m=1 https://www.zdnet.com/article/play-store-identified-as-main-distribution-vector-for-most-android-malware/ Further Visa, Mastercard and Paypal have and are in the process of restricting and cutting off the livelihoods of thousands of people by blocking legal financial transactions. Paypal in particular has frequently stolen people's hard earned money, locking them out of their accounts. https://arstechnica.com/tech-policy/2022/01/paypal-stole-users-money-after-freezing-seizing-funds-lawsuit-alleges/ https://kotaku.com/mastercard-denies-pressuring-steam-to-censor-nsfw-games-2000614393",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.461254Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33067703.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33067703",
+    "chunks_doc_id": "F33067703",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

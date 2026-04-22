@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3588686",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:59Z",
+    "finished_at": "2026-04-14T13:25:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video game content becomes unavailable due to the closure of servers, depriving consumers of content for which they have disbursed money."
+              }
+            ]
+          },
+          {
+            "topic": "Private Censorship By Payment Platforms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "prohibiting access to legal content on the pretext of their own directives, which is akin to censorship"
+              },
+              {
+                "quote": "this type of private censorship does not comply with any obvious legal or democratic framework"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28428,
+          "unit_kind": "feedback"
+        },
+        "text": "As a French citizen concerned about digital fairness and safeguarding our cultural heritage, I would like to draw the attention of the European Commission to two frequently underestimated issues: the preservation of video games and the growing role of payment systems in regulating or even censorship of online content. Many video game content becomes unavailable due to the closure of servers, depriving consumers of content for which they have disbursed money. In addition, payment platforms such as Visa, Mastercard or PayPal have a disproportionate impact on gaming platforms (e.g.: (Steam) by prohibiting access to legal content on the pretext of their own directives, which is akin to censorship, which should not be within their remit, this type of private censorship does not comply with any obvious legal or democratic framework. In order to fully achieve its objectives, the Digital Fairness Initiative must also ensure the protection and accessibility of digital works, regulate the actions of these private intermediaries and strongly support cultural preservation, especially in the digital field.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.671682Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588686.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588686",
+    "chunks_doc_id": "F3588686",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

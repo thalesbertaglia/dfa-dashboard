@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587207",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:27Z",
+    "finished_at": "2026-04-14T13:13:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a growing trend sees publishers rendering these purchased games permanently unusable by shutting down essential servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18470,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings! I am providing feedback on the Digital Fairness Act to highlight an increasingly common and unfair commercial practice: the post-sale destruction of purchased video games. When consumers buy a game, they rightly expect to be able to use it. However, a growing trend sees publishers rendering these purchased games permanently unusable by shutting down essential servers. A recent, high-profile example is Ubisoft's decision to make \"The Crew\" unplayable for everyone who bought it. This means the money spent by consumers has been wasted, and a piece of digital art and entertainment has been effectively destroyed. This is a clear case of unfair practice that the Digital Fairness Act is perfectly positioned to address. We are not asking publishers to bear the cost of online servers forever. We are asking for a reasonable solution: if a publisher decides to terminate online services required for a game, they must first provide a final update to make all offline content permanently accessible. This includes: 1. Single-Player Modes: All campaign and single-player content should function without an online check. 2. Local Multiplayer: Any existing local area network (LAN) or peer-to-peer multiplayer capabilities should be preserved. Including these consumer protections would be a significant step toward ensuring the digital market is fair, reliable, and trustworthy for all European citizens. Thank you for your time and consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.475237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587207.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587207",
+    "chunks_doc_id": "F3587207",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

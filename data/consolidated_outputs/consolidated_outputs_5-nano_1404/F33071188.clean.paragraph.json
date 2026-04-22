@@ -1,0 +1,95 @@
+{
+  "doc_id": "F33071188",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:35Z",
+    "finished_at": "2026-04-14T09:29:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Age Verification Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "'Age Verification' style restriction on adults"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability of electronic payment providers to decide which legal products/services cannot be paid for online is damaging to consumers and EU businesses, and is something the Act should look at."
+              },
+              {
+                "quote": "Ideally, payment providers should be required to process any legal payment."
+              }
+            ]
+          },
+          {
+            "topic": "Developer Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Developer Verification: Google announced that from 2026 to only allow phones/tablets to run Android apps from their Play Store, or apps that have been approved by Google (which requires the developer to give personal details to Google)."
+              },
+              {
+                "quote": "This change appears to be retroactive and would apply to devices that consumers have already bought."
+              },
+              {
+                "quote": "I feel this is an unfair practice, and may also stifle innovation as any app would need to be approved by Google, approval they could rescind later."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53059,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with the objectives / policy options, but I'm concerned that the \"protection of minors will be a key priority\" sounds like it's going to lead to another \"Age Verification\" style restriction on adults and unreasonable demands on websites etc. to be responsible for policing what minors can access. Children are not buying 100+ internet capable devices themselves, their parents are. Parents should take responsibility for what their children do with them. We have seen the UK, US (and soon Europe) bring in internet laws under the guise of \"protecting children\" that simply lead to restrictions on what adults are allowed to see and do online, and effectively censorship as tech companies block anything that may breach the rules. The proposed Digital Fairness Act should not be a continuation of that. Financial harm to consumers ,e-commerce, business costs, level playing field: Recently there has been a spate of websites and online stores (steam / itch.io) restricting what legal products/services can be bought due to the policies of their payment providers. i.e They have decided that certain things are not allowed and must be removed from sale, under threat of the business losing the ability to take any payments. As the payment processors all lead to a duopoly of US companies (Visa and Mastercard), they don't have much choice. I feel the ability of electronic payment providers to decide which legal products/services cannot be paid for online is damaging to consumers and EU businesses, and is something the Act should look at. Especially as the EUs own report shows digital payments exceeded 1 trillion per year. Ideally, payment providers should be required to process any legal payment. EU companies should not need to worry that their business could be effectively switched off by a US electronic payment company. Developer Verification: Google announced that from 2026 to only allow phones/tablets to run Android apps from their Play Store, or apps that have been approved by Google (which requires the developer to give personal details to Google). This change appears to be retroactive and would apply to devices that consumers have already bought. I feel this is an unfair practice, and may also stifle innovation as any app would need to be approved by Google, approval they could rescind later.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.495987Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071188.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071188",
+    "chunks_doc_id": "F33071188",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

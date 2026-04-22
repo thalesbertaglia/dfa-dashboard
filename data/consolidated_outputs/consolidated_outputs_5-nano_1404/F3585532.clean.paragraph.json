@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585532",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:51Z",
+    "finished_at": "2026-04-14T12:30:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "First of all is the initiative to protect purchased video games from destruction."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors, like VISA and MasterCard, pressuring stores to take down completely legal products that they deem undesirable, lest they withdraw their services."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23953,
+          "unit_kind": "feedback"
+        },
+        "text": "First I would like to express my sincere elation over the purpose of the Digital Fairness Act. The Digital Fairness Act has incredible potential in safeguarding consumer rights and I truly believe it is necessary. The reason I am writing this feedback is to highlight two concerns about the digital space that has grown considerably lately: First of all is the initiative to protect purchased video games from destruction. There is already a citizen's initiative with over 1.4 million signatures about this (https://eci.ec.europa.eu/045/public/#/screen/home) which shows that this is something that is important to many of the EU's citizens. And it is a very real concern, as many video games have already become impossible to play, such as the case with the game \"The Crew\" which blew up in the media last year. The second concern I would like to highlight is the very recent intensification of payment processors, like VISA and MasterCard, pressuring stores to take down completely legal products that they deem undesirable, lest they withdraw their services. I believe this is utterly unacceptable. I do not want payment processors to decide what I am allowed to spend my money on, that is none of their concern. No reasonable person associates what they buy with the service that facilitated the payment, as such the argument of 'brand protection' that I have heard is complete nonsense. I believe these two concerns fit very well in under the umbrella of \"digital fairness\" and I hope that you will strongly consider including protections for them in this initiative. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.789847Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585532.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585532",
+    "chunks_doc_id": "F3585532",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

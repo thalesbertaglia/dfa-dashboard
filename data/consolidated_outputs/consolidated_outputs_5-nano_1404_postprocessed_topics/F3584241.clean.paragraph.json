@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584241",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:00Z",
+    "finished_at": "2026-04-14T11:53:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video games industry"
+              },
+              {
+                "quote": "Hundreds upon hundreds of games people have paid hard cash for have been rendered lost."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17451,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this act really should also protect consumers from companies destroying products bought digitally with no recourse for the buyer. It is an extremely prolific practice in the video games industry, where some of the most profitable companies imaginable destroy their products without warning. Hundreds upon hundreds of games people have paid hard cash for have been rendered lost. It would be the equivalent of a music company being allowed to break my CDs whenever they wanted. It is absolutely an unfair and immoral practice that I think the EU should protect its citizens from, and I think these protections should be included under the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.140422Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584241.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584241",
+    "chunks_doc_id": "F3584241",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584241.clean.paragraph.json"
+}

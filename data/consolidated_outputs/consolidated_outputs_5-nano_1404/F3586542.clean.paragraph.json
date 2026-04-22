@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3586542",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:52Z",
+    "finished_at": "2026-04-14T12:59:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns designed to encourage addiction."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the company automatically added a \"Prime\" subscription, which was not easy to cancel."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dark patterns in video games: These are especially common in free-to-play video games, which have become increasingly common."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Under current legislation, publishers sell license keys rather than the actual game, meaning consumers have no control over the product once the publisher stops supporting it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27382,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to express my support for the Digital Fairness Act. As digital products and services become increasingly present in our lives (in the form of subscriptions, digital video games, etc.), many private companies are profiting from this trend by implementing misleading and harmful practices against consumers, including the use of dark patterns designed to encourage addiction. I would like to share some examples based on my personal experience. 1. Misleading and abusive practices: Several months ago, I found difficulties when trying to cancel a subscription with an online company that offers flight tickets and hotel reservations. During the process of purchasing a flight ticket, the company automatically added a \"Prime\" subscription, which was not easy to cancel. I had to spend hours on the phone and contact my bank to resolve the issue. While I eventually managed to cancel it, the process was unnecessarily difficult and could be nearly impossible for the average consumer. This is clearly an abusive practice. 2. Dark patterns in video games: These are especially common in free-to-play video games, which have become increasingly common. Their monetization strategies often rely on loot boxes, selling incomplete products, and promoting gambling-like mechanisms. As a user of some of these games, I can recognize many of these patterns, but I find them extremely concerning, particularly for young players who lack the experience to identify such manipulative practices. 3. Loss of access to purchased digital products: Im also concerned about digital publishers disabling video games that have already been sold. Under current legislation, publishers sell license keys rather than the actual game, meaning consumers have no control over the product once the publisher stops supporting it. New legislation is needed to ensure that consumers retain access to digital products theyve purchased, even if the publisher decides to stop supporting it. These guidelines should apply to new and future digital products. Movements such as Stop Killing Games and Stop Destroying Video Games could be considered for inclusion in the Digital Fairness Act. In summary, legislation and regulatory control for digital products and services are urgently needed in order to protect consumer rights and guarantee continued access to the digital products they purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.278584Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586542.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586542",
+    "chunks_doc_id": "F3586542",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

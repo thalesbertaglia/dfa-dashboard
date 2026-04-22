@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584364",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:15Z",
+    "finished_at": "2026-04-14T11:56:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games they purchase, whether it be a digital or physical copy."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12801,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act truly covers a lot of great points. One point that would be incredibly relevant for this act, which isn't currently on it though, is people nowadays owning the video games they purchase, whether it be a digital or physical copy. So many games these days have an expiration date, due to being made exclusively online or part of an online client service from a given company. More or less at any moment, a game manufacturer might decide to discontinue support for these games, rendering them unplayable. As such, if video games could be added to this act, in a way that forced game companies to allow for games to be played even after support has ended for said games, or not be required to have a constant online connection, it would without a doubt be a great step towards stopping the industry from killing off video games, products people have paid actual hard earned money for, when the companies don't want to support them anymore. Thank you for reading this feedback!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.198168Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584364.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584364",
+    "chunks_doc_id": "F3584364",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

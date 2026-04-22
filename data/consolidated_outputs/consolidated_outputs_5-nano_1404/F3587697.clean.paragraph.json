@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587697",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:02Z",
+    "finished_at": "2026-04-14T13:20:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "then making that software unusable by later switching off the servers without providing a means for users to host their own servers"
+              },
+              {
+                "quote": "another \"dark pattern\" of behaviour fits: that of encouraging or forcing players to download additional software before they can launch the software"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "where I can be targeted for upselling."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32456,
+          "unit_kind": "feedback"
+        },
+        "text": "This would seem like an ideal opportunity to include the practice of selling games (or really, any software) that has a dependency on servers hosted by the publisher, game studio or other involved entity, and then making that software unusable by later switching off the servers without providing a means for users to host their own servers, or access content (such as single-player campaigns, in the case of games) which should not strictly require online services. We can think of a game like Death Stranding to illustrate the single player case: the player sees and can interact with objects that have been left in the game world by other players, which assist players in their game. This is indirect interaction. The game also presents some objects which appear the same, but have not been created by other players. Should the servers become unavailable, players would not be able to access each others objects, but the campaign should still be playable. Other games feature direct user interaction - such as Doom, Call of Duty, Counter Strike, World of Warcraft. Earlier games featuring direct user interaction as either an additional game mode or a core gameplay mechanic have \"dedicated servers\" which can be downloaded and run by members of the public. Later games typically do not, and so when the publisher decides to no longer host centralised servers, those game modes or complete games become inaccessible, though they have been bought as part of the software. --- Additionally, and separately: --- Having read the Act in full, I do think another \"dark pattern\" of behaviour fits: that of encouraging or forcing players to download additional software before they can launch the software. For example, if I buy an Ubisoft game through Steam, launching it will require me to install Ubisoft software, which will then require that I login to the Ubisoft ecosystem where I can be targeted for upselling. Access to the game is contingent on this action. The game software is on my computer, and I use Steam as my preferred platform for buying games, so there is no reason for me to hold an account and log into another platform that I have no intention to use. This would be akin to downloading GMail on an iPhone and then being forced to download a version of Google's Play Store before I can access my emails.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.570184Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587697.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587697",
+    "chunks_doc_id": "F3587697",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

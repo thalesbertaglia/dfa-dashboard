@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3587488",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:30Z",
+    "finished_at": "2026-04-14T13:17:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "altering their own terms of service."
+              },
+              {
+                "quote": "forced into delisting content deemed undesirable by payment service providers MasterCard and Visa."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers are able to remotely disable access to a purchased video game at any time and for any reason, effectively destroying all working copies of the product."
+              },
+              {
+                "quote": "shutting down always-online video games to drive sales toward their newer products."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27499,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act addresses many important issues within the realm of digital services, and I support the initiative as a citizen of the EU. However, I would like to add two further issues this initiative might also be able to address: 1) Payment service providers & censorship Recently, online retail platforms Steam and itch.io were forced into delisting content deemed undesirable by payment service providers MasterCard and Visa. Since these companies have substantial market share, if not a duopoly, they can essentially freely determine what types of content retailers like Steam are allowed to host by altering their own terms of service. This is not fair to consumers, since they often have no practical way of switching payment providers to anything other than MasterCard or Visa and thus affect these companies' profits. I believe the Digital Fairness Act could potentially address this issue by proposing protections for digital platforms that utilise payment services. 2) Video game publishers disallowing customer access to purchased products As it stands, video game publishers are able to remotely disable access to a purchased video game at any time and for any reason, effectively destroying all working copies of the product. This has lead to harmful practices, such as publishers shutting down always-online video games to drive sales toward their newer products. This deprives consumers of their purchased goods which they should rightfully have ownership of. To protect consumer rights, the EU should enforce publishers to only release video games with an end-of-life plan that keeps games in a reasonably usable state indefinitely, as outlined in the \"Stop Destroying Videogames\" European Citizens' Initiative. I believe such action could also be proposed in the Digital Fairness Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.530383Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587488.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587488",
+    "chunks_doc_id": "F3587488",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587488.clean.paragraph.json"
+}

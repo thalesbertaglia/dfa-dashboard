@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585962",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:09Z",
+    "finished_at": "2026-04-14T12:42:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Hi! As a consumer of games the unchecked EULAS and companies free reign to market products as being buyable but retaining the ability to rescind that product or destroy it for any reason violates fairness and is a direct instance of false marketing and overprotection of IP that is anti consumer."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unchecked EULAS"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22836,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! As a consumer of games the unchecked EULAS and companies free reign to market products as being buyable but retaining the ability to rescind that product or destroy it for any reason violates fairness and is a direct instance of false marketing and overprotection of IP that is anti consumer. As such I petition you to include consumer protection as part of this initative as regards to game preservation and fairness in marketing of game products as well as upholding rights of games bought as a product and not a license taking to account that no game is currently or has been marketed, in a clearly descernible, way that it is a license that you are getting not a product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.008285Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585962.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585962",
+    "chunks_doc_id": "F3585962",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

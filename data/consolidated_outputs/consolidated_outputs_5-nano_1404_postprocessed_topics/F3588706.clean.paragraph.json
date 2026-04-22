@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3588706",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:10Z",
+    "finished_at": "2026-04-14T13:25:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If possible, I would like to see it extended to video game sales as well."
+              },
+              {
+                "quote": "Currently this is unregulated and game publishers kill their games as they see fit."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These games are sold as products, but are actually digital licenses, which is not mentioned anywhere."
+              },
+              {
+                "quote": "At some point publishers decide its in their best interest to switch off these servers, which means the game is dead for anyone who has it."
+              },
+              {
+                "quote": "At the time of purchase, customers are not informed on any time frame when this will occur, which is sometimes just a few months after the last game license was sold."
+              },
+              {
+                "quote": "an end of life plan for when the servers are switched off."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40329,
+          "unit_kind": "feedback"
+        },
+        "text": "I'm a citizen of the EU and appreciate the opportunity to leave feedback on an already decent consumer law. If possible, I would like to see it extended to video game sales as well. Currently this is unregulated and game publishers kill their games as they see fit. A lot of the newer games require a connection to a publishers server to function. These games are sold as products, but are actually digital licenses, which is not mentioned anywhere. At some point publishers decide its in their best interest to switch off these servers, which means the game is dead for anyone who has it. At the time of purchase, customers are not informed on any time frame when this will occur, which is sometimes just a few months after the last game license was sold. Even some single player games running locally have this problem. This is usually related to a copy protection license the the game publisher put in the game and doesnt want to pay for it anymore. Instead of removing the copy protection, the game is killed. These practices work heavily in favor of the game publishers, but are bad for consumers. A game that is no longer available cant be played, so consumers must by a new one. If you bought assets or DLC in a game... Too bad you just lost them, along with the money you paid for it. I would like to request that the EU takes a stand against these practices. Force game publishers to support games for at least a fixed time after the last sale and have an end of life plan for when the servers are switched off. Consumers have been asking to regulate this market for years now. In the mean time these anti-consumer practices become bolder over time. Back in the 90ties and early 2000, a lot of games supported LAN, which means they are still playable today, even if the server is dead for over 10 years. This technology is sometimes present in modern low-budget games. There is no reason why high-budget games cant implement the same technology. As a note: I dont think it is fair to ask a game publisher to support a game indefinitely. This is not what Im asking. I only want a way to keep these games alive, like 30 years ago. I dont like to have a game-library filled with reminders of games I bought and was able to play a long time ago. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.675590Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588706.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588706",
+    "chunks_doc_id": "F3588706",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588706.clean.paragraph.json"
+}

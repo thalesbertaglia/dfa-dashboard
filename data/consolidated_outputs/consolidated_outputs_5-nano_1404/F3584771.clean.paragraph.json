@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584771",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:09:38Z",
+    "finished_at": "2026-04-14T12:10:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to see this law include video games in its scope."
+              },
+              {
+                "quote": "Currently, publishers and developers create games with planned obsolescence, where they state in their terms that they can terminate services to the game at any point for any or no reason, and it often happens."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ubisoft also changed their EULA to say that people have to destroy physical copies of their games if they say so"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41925,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to see this law include video games in its scope. All points this move is seeking to address can be found in many popular games such as EA's sports games (FIFA, Madden, so on), the Call of Duty, Lost Ark and many more, especially mobile games. Just the few games I listed harm millions of consumers every year. It'd also be nice if the end of life issues was addressed. Currently, publishers and developers create games with planned obsolescence, where they state in their terms that they can terminate services to the game at any point for any or no reason, and it often happens. The consumers are then left with no access to the good/service they bought. I'd like this bill to address the issue by enforcing that once a game goes out of service, it has to be left in a state functional enough for a player to still be able either access its core functions or be able to replicate them easily if they still want to play. Recently, Ubisoft also changed their EULA to say that people have to destroy physical copies of their games if they say so, which seems entirely against the law and seems to be an escalation in response to the Stop Killing Games movement. Seeing that, I'd like to for the customers to have protections from publishers literally destroying games. I'd like to highlight that the Stop Killing Games movement already has over 1 mln signatures in their request for action to the EU government, so this is an important issue to many people. Thanks for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.422104Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584771.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584771",
+    "chunks_doc_id": "F3584771",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

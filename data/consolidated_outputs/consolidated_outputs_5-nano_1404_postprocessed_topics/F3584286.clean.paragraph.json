@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584286",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:12Z",
+    "finished_at": "2026-04-14T11:54:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to combat planned obsolescence in video, which is becoming a major problem for consumers."
+              },
+              {
+                "quote": "At present, however, it is a common practice in the world of video games."
+              },
+              {
+                "quote": "Some games are coded in such a way that they are dependent * on these servers to function."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "an arbitrary and artificial technical limitation aimed at making the game unusable, remotely, without the consumer’s consent, often in order to induce him/her to buy a more recent game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26053,
+          "unit_kind": "feedback"
+        },
+        "text": "HI there! I am writing to you to suggest the addition of a clause in the Digital Fairness Act to combat planned obsolescence in video, which is becoming a major problem for consumers. I am a player. Today, I can go to a shop, buy a game at 60, go home to play, and discover a week later that developers decided to cut the video servers. Some games are coded in such a way that they are dependent * on these servers to function. It is a completely arbitrary and artificial technical limitation aimed at making the game unusable, remotely, without the consumer’s consent, often in order to induce him/her to buy a more recent game. This is absurd for several reasons: (1) the game was sold as a good, not as a service; (2) the player is not informed, at the time of purchase, of this technical limitation, because not all games are coded with that addiction; 3) some games remain functional for several years (e.g.: The Crew of Ubisoft) while some games cease to operate after just a few weeks (e.g.: The Culling 2); (4) it is a disaster for the preservation and archiving of video lights, which are just as legitimate works as others. If you buy a DVD or Blu-Ray of a film, and the publisher decided, without consulting or warning you, to trigger a bomb in the box that destroys the disc... you probably find this illegal. Just as if your car decided to stop operating because the manufacturer stopped providing servers to which the car connects when starting. At present, however, it is a common practice in the world of video games. We do not ask for video game publishers to bear their games indefinitely, as this is unrealistic. However, in the 90s and 2000s, many games were designed to NOT depend on external servers to function (one-player mode, possibility to host own servers, etc.), which proves that this is possible. We simply ask for games to be designed with a fine-life plan at the top so that they are not completely unusable when the technical support comes to an end. Thank you for reading. European Citizens’ James",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.161902Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584286.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584286",
+    "chunks_doc_id": "F3584286",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584286.clean.paragraph.json"
+}

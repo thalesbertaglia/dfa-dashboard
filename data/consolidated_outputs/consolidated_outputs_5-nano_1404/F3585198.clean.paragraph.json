@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585198",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:25Z",
+    "finished_at": "2026-04-14T12:22:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers now indicate that they do not sell games, but only grant a temporary licence."
+              },
+              {
+                "quote": "This means that publishers can withdraw their games at any time."
+              },
+              {
+                "quote": "You are no longer the owner of the product you bought."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11547,
+          "unit_kind": "feedback"
+        },
+        "text": "I hope you also want to tackle the big issue with publishers. This case concerns the fact that publishers now indicate that they do not sell games, but only grant a temporary licence. This means that publishers can withdraw their games at any time. You are no longer the owner of the product you bought. I see it just like a car you buy, but which can be taken away from you by the manufacturer at any time before the door, with a notice that it will be taken back. That it is not your car, but that you only paid for a licence to use the car and that it is now being withdrawn, without you being able to do anything to do so. This is not something we need to allow. I think we have to resist this and stop it so that products you buy are really your property.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.632237Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585198.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585198",
+    "chunks_doc_id": "F3585198",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

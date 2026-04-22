@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3592282",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:16Z",
+    "finished_at": "2026-04-14T13:37:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games, which, despite being purchased, have a ‘valid date’."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19622,
+          "unit_kind": "feedback"
+        },
+        "text": "In today’s time of consumerism, we are often forced to spend large sums of money for ourselves for a better tomorrow. But when we come to the moment we spend this money for pleasure, we want to enjoy this pleasure for as long as possible, and as much as possible. Unfortunately, today, this problem has, unfortunately, encompassed today’s culture of video games, which, despite being purchased, have a ‘valid date’. The idea must be withdrawn as soon as possible and a way out in the future. An exit that allows each generation to enjoy the content of different titles for a long, long time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.912037Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592282.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592282",
+    "chunks_doc_id": "F3592282",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592282.clean.paragraph.json"
+}

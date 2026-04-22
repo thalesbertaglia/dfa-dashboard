@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584297",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:28Z",
+    "finished_at": "2026-04-14T11:54:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The spontaneous termination of video games violates consumer rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13838,
+          "unit_kind": "feedback"
+        },
+        "text": "Would like to pay attention to digital consumer rights regarding video games (video games). These are digital products purchased by consumers, so-called video games/games. These products are simply terminated without any proper communication at the time of the purchase of the game. This means that consumers are no longer able to use this product at that time. These deadlines, oftwel when the game is terminated, has never been communicated in advance to the consumer. To protect our digital consumer rights, these video games/games should be used at all times when the consumer buys the product. The spontaneous termination of video games violates consumer rights. I would like to draw attention to this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.165420Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584297.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584297",
+    "chunks_doc_id": "F3584297",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584297.clean.paragraph.json"
+}

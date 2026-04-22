@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33078547",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:30Z",
+    "finished_at": "2026-04-14T09:29:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the publisher can disable your game (fully, or partially) at any time."
+              },
+              {
+                "quote": "you do not own your purchase,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19225,
+          "unit_kind": "feedback"
+        },
+        "text": "PC videogames are sold online (steam, EA, Epic store, etc.). Nowhere is clear view is said that you do not own your purchase, but the publisher can disable your game (fully, or partially) at any time. Especially network servers needed for the game are discontinued and you cant play the game any more. At the minimum the publishers should keep offline features available to the game even if the servers go away.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.520541Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33078547.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33078547",
+    "chunks_doc_id": "F33078547",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

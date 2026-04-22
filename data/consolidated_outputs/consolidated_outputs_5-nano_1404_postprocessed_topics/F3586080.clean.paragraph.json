@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586080",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:06Z",
+    "finished_at": "2026-04-14T12:46:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"dark\" practices that are not allowed in other similar markets."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16368,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Commission, we thank you for having the Digital Fairness Act open to our feedback. As consumers that have paid for products, in this case video games, and having them shut down or removed for the goal of making us, the customers, move on to another product, looks like market manipulation in order to financially benefit from us, by having us left without options thus trying to force us to spend yet more money in new products that replace the previous ones. This is not the only problem. We, as clients and consumers, want to have a more fair and regulated market because this big gaming companies have been exploiting everything, they can with many \"dark\" practices that are not allowed in other similar markets. For years, we have been exploited as customers, with all types of practices and schemes for the sole purpose of profiting more and more from us. There is, of course, much more to discuss and address as this is just the tip of this iceberg, but I believe that together with my fellow citizens, we will raise the most important of the problems we face and hopefully some regulations will finally be made to solve some of the problems we face nowadays. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.074273Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586080.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586080",
+    "chunks_doc_id": "F3586080",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586080.clean.paragraph.json"
+}

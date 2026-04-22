@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584426",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:06Z",
+    "finished_at": "2026-04-14T11:58:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "paid games can simply be removed by providers, without users having any say."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9998,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir/Madam, I would like to draw your attention to an important topic that lies with me, namely the protection of digital goods, such as games. It is of great importance to protect users from losing access to their purchased digital goods and to prevent paid games from being removed without any public participation or pre-defined rules. Unfortunately, paid games can simply be removed by providers, without users having any say. This can lead to a lot of frustration and dissatisfaction among users, especially because they have paid for this. In addition, it is crucial to have clear rules and interference to prevent such situations and to ensure a fair and transparent process. I kindly ask you to consider measures that ensure the protection of digital goods and give users a voice in the process. This could help to increase users’ trust and improve user experience. Thank you very much for your attention and look forward to your response. Yours sincerely",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.230080Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584426.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584426",
+    "chunks_doc_id": "F3584426",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

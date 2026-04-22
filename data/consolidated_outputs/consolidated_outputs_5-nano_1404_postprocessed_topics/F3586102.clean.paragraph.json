@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3586102",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:01Z",
+    "finished_at": "2026-04-14T12:47:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As for dark patterns, there are many words that I could share on the topic, but for the sake of brevity I would strongly recommend EU parliament members read up on the term \"Enshittification\"."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I encounter more and more websites that demand full allowances in the cookie settings for access to their website."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some present it as an alternative to a subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "access to this bought product could be revoked at any time by the company."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40654,
+          "unit_kind": "feedback"
+        },
+        "text": "As an IT student that will soon enter the wrokforce I am worried several trends I've seen develop in recent years in digital media, social media platforms, search engines and online services. 1. The first trend I find alarming is the monopolization and obfuscation of information that was previously more easily accessible. Search engines deviate further and further from giving direct results to your search queries. For example; Google has effectively removed many of the advanced search features and will frequently ignore search operators like quotation marks. With search engines being the main gateway for people to find websites, both website owner and search engine user are more and more beholden to the whims of Google's algorithm. This monopolization of information by a private company is of great concern for the future of the world wide web. 2. My second point continues on the first; AI is increasingly being put at the forefront of many online services. Their unethical ways of obtaining training data and mimicking of artists using their own data to churn out video, text and images is a great threat to the livelihood of many creators. This also includes journalists who's work gets summarised, without them seeing so much as a penny or click for their work. Given that many of these AI companies also hold a monopoly on search there is little recourse for them to boycot or protest as they fear retaliation and being delisted from search engines. I feel that only on a governmental level can something be done to alleviate this drastic imbalance. 3. As for dark patterns, there are many words that I could share on the topic, but for the sake of brevity I would strongly recommend EU parliament members read up on the term \"Enshittification\". (Pardon the crudeness of the term, it is a real term I promise) In particular I recommend reading and watching the works of the man who coined the term, Cory Doctorow. It not only describes the spread of dark patterns, but also the incentives and motivations that have lead to their every increased use. I hope such information will hope create more effective legislation at combating this phenomenon. 4. There is a particular trend with internet articles and access to information that I've also noticed, which I fear could undermine the successful data protection that the GDPR has managed to achieve. I encounter more and more websites that demand full allowances in the cookie settings for access to their website. Some present it as an alternative to a subscription, others straight up refuse to deliver a function webpage without it. In either case, should this practice become the norm it would effectively render the GDPR useless as what point is there for data protection if it no longer grants you access to much of the internet? I do understand that access to websites is a privilege provided by the website owner and not a right. And that website owners require a form of income to keep their service running. However the internet and journalistic websites have functioned without such practices for decades now, so I find it hard to believe this is the only action left for said companies to provide sustainable access to their websites. I believe a balance can be struck where both parties interests are taking into account, without forced collection of user data. 5. Lastly I have many concerns when it comes to software and video games. These days the common practice is that software is provided under a licence and a digital copy of the product is provided. Unlike software delivered on a disk or storage device, access to this bought product could be revoked at any time by the company. This includes already installed copies on a user's computer, which can be deactivated, or rendered useless with required online verification. As a user I don't expect endless support for my digital products. I do however expect my software to remaining in working order, even after the company disappears or stops update support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.090991Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586102.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586102",
+    "chunks_doc_id": "F3586102",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586102.clean.paragraph.json"
+}

@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3664705",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:12Z",
+    "finished_at": "2026-04-14T13:45:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I personally lost access to the \"Schlag den Raab\" mobile game which I bought on Google Play and can no longer download."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Streaming services like Netflix produce some of their content in-house and make them available via a subscription only."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "1. Make all content purchasable (maybe after a certain period of exclusivity, like with \"Arcane\")."
+              },
+              {
+                "quote": "2. All purchases should be actual copies, not just licenses."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28230,
+          "unit_kind": "feedback"
+        },
+        "text": "In our modern day-to-day life we buy more and more things digitally. This includes movies, shows, songs, games and other media. Physical releases on Blu-ray, DVD, CD get rarer with each day. Some studios already choose not to publish their media this way in each country or sometimes not at all. Examples for limited/non-existent availability: - Limited access: \"The Wild Robot\" / \"Der wilde Roboter\" (2024) is not available as 4K Blu-ray in Germany. - No access: \"Pantheon\" (2022) is only available on streaming services, not on disc. Sadly, this makes actually - owning - content less and less possible. There are two main reasons for this: 1. \"Buy\"/\"Purchase\" options online usually mean \"get a license to watch the content as long as the provider has the rights to serve it to you\". For example, PlayStation attempted to delete Discovery content back in 2023 but luckily backtracked due to public outcry. The content stays online for at \"at least the next 30 months\". As for games, I personally lost access to the \"Schlag den Raab\" mobile game which I bought on Google Play and can no longer download. Most content cannot be bought DRM-free (mostly songs can currently still be bought as plain media files via sellers like Qobuz/Apple or a limited amount of games on platforms like GOG). 2. Some content isn't even available for purchase even years after its initial release. Streaming services like Netflix produce some of their content in-house and make them available via a subscription only. There might sometimes be exceptions, like with \"Arcane\" (2021), but the the vast majority of the content is not purchasable and gets removed once not enough people watch it anymore. My wish would be that there would be some kind of regulation to enforce the following: 1. Make all content purchasable (maybe after a certain period of exclusivity, like with \"Arcane\"). 2. All purchases should be actual copies, not just licenses. I see three options for the industry to achieve this: 1. Provide DRM-free purchase options (maybe with a higher price) 2. Make purchases available as DRM-free downloads once they are about to be no longer served 3. Continue to provide physical releases as an alternative to digital licenses, but with the same quality (e.g. a 4K HDR Blu-ray for 4K HDR movie) Note: Downloads should include all resolutions, audio/subtitle languages and extras that were included in the purchase (the same way as it is for Blu-rays and DVDs right now). I'm worried that without some kind of regulation, sooner or later we will no longer be able to own our bought content. Please consider enforcing the right to own your purchases.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.083939Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664705.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664705",
+    "chunks_doc_id": "F3664705",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3664705.clean.paragraph.json"
+}

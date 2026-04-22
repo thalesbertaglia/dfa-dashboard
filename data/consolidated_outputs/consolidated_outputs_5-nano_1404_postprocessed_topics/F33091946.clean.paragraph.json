@@ -1,0 +1,87 @@
+{
+  "doc_id": "F33091946",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:37Z",
+    "finished_at": "2026-04-14T09:35:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "consumers should have more control over targeted advertising, for example having an easy and effective way to reject targeted advertising or to give their explicit consent."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As regards the express submission of territorial jurisdiction, I find it wrong that the user/consumer benefits both in such a way as to enable the consumer to choose his domicile and the place where the proceedings will take place, even when he has signed a contract in which the lawful obligation has arisen."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "drip pricing, i.e. when costs/tariffs are not initially presented but added during the order, should be prohibited."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20282,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. In my view, consumers should have more control over targeted advertising, for example having an easy and effective way to reject targeted advertising or to give their explicit consent. As regards the express submission of territorial jurisdiction, I find it wrong that the user/consumer benefits both in such a way as to enable the consumer to choose his domicile and the place where the proceedings will take place, even when he has signed a contract in which the lawful obligation has arisen. I would add the following measure in relation to pricing: drip pricing, i.e. when costs/tariffs are not initially presented but added during the order, should be prohibited.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.590468Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091946.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091946",
+    "chunks_doc_id": "F33091946",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33091946.clean.paragraph.json"
+}

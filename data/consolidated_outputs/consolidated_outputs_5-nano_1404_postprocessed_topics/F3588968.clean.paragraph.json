@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588968",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:54Z",
+    "finished_at": "2026-04-14T13:27:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "especially the section of Dark Patterns."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect videogames to be left in a playable state once the publisher/developer ends support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12558,
+          "unit_kind": "feedback"
+        },
+        "text": "Regardless of whether or not you take my suggestion into account, having read through the Digital Fairness Act I will say I support the DFA regardless, especially the section of Dark Patterns. Like many others I am hoping you could include a point to protect videogames to be left in a playable state once the publisher/developer ends support. Currently the increasing trend of videogame publishers is planned obsolescence and shutting down the servers, leaving the customer with no possibilities to restore, repair or take on server responsibility privately.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.708620Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588968.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588968",
+    "chunks_doc_id": "F3588968",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588968.clean.paragraph.json"
+}

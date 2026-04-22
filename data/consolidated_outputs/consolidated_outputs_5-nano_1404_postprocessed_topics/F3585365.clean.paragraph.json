@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585365",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:05Z",
+    "finished_at": "2026-04-14T12:26:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There have already been 2 petitions asking that video games should not be switched off after sale."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11285,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Union The world is becoming more and more digitalised every day, legislation simply cannot keep up with technological developments. It is therefore of utmost importance that the public has sufficient rights in the digital world. We live in an era where companies have too much power to change the world in their vision where they can easily exploit everyone. I hope this legislation will be accepted but I feel that the proposed rights are incomplete. There have already been 2 petitions asking that video games should not be switched off after sale. I want you a lot of success With friendly thoughts Doktario Mystario",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.701295Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585365.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585365",
+    "chunks_doc_id": "F3585365",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585365.clean.paragraph.json"
+}

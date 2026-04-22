@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585412",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:06Z",
+    "finished_at": "2026-04-14T12:27:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game developers and publishers are denying access to games with (sometimes even completely unnecessary) online components, because upkeep costs for its servers have surpassed its income to some arbitrary threshold after which they do not consider the game profitable anymore."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays companies consider it perfectly acceptable to fully revoke a costumer's access to previously purchased digital goods for the smallest reasons."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13817,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to bring attention to issues of digital ownership, which I believe to be quite important to the topic of digital fairness. Nowadays companies consider it perfectly acceptable to fully revoke a costumer's access to previously purchased digital goods for the smallest reasons. This effectively becomes a form of legal scam. I would like to point out two important examples of this. The Stop Killing Games initiative, which has already passed 1.4 million signatures, deals with one of them. Video game developers and publishers are denying access to games with (sometimes even completely unnecessary) online components, because upkeep costs for its servers have surpassed its income to some arbitrary threshold after which they do not consider the game profitable anymore. This includes games which allow costumers to use real money to purchase in-game items that completely disappear once the game is taken offline. The initiative points to several ways this issue could be resolved, so I would like to focus on the next one. Recently Visa and Mastercard were pressured into, in turn, pressuring digital distributors into removing certain digital contents from their storefronts if they wished to continue to use their payment processing services. While this is a massive can of worms that isn't entirely relevant to digital fairnessone part of it is. Some of these distributors (such as itch.io) have completely removed access to some of these goods, even to costumers who had previously purchased them. While costumers who had already downloaded their goods were able to keep them, those who had effectively purchased a license to download the good have had their license revoked through no fault of their own. Again, this is purely because of external pressure from powerful companies. Why should it be legal for someone to offer a good and revoke access to it in the future, completely stripping one of its ownership when no rules or laws were broken? Governmental regulation regarding digital ownership are long overdue in the current day. Without them multi-million dollar companies are allowed to treat costumers who cannot fight back however they please. I implore you to consider these issues for inclusion in the digital fairness act. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.729253Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585412.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585412",
+    "chunks_doc_id": "F3585412",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585412.clean.paragraph.json"
+}

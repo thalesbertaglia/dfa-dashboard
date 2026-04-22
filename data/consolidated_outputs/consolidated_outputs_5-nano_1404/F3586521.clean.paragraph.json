@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:20Z",
+    "finished_at": "2026-04-14T12:58:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are most of the time sold as good without any specified expiration date; But the game can become unplayable if the publisher decide to disable the game remotely for example."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13939,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I think it would be a good idea to add protection for the destruction of video games in the Digital Fairness Act. Video games are most of the time sold as good without any specified expiration date; But the game can become unplayable if the publisher decide to disable the game remotely for example. In my opinion it is unfair to buy a game that can be set to an unplayable state by the publisher whenever the publisher deem the game no longer profitable for them. If the publisher of the game don't want to support a game any-more, the game should remain in a playable state for the end user. This will also be net positive for the preservation of video games if we have more regulation that enforce the publisher to leave the games in a playable state after the published decide to not support the game any-more. There is an European initiative that cover my feedback in more details. https://eci.ec.europa.eu/045/public/#/screen/home With kindest regards, Fabrice Peckel",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.269501Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586521",
+    "chunks_doc_id": "F3586521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

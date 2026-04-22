@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584486",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:26Z",
+    "finished_at": "2026-04-14T11:59:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games and how the publishers of said games sell them to us like products while treating them as services they offer which they also can stop whenever they want after getting our money (and remove from our libraries)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is important to have an end-of-life plan for such games, be it private servers without legal troubles, be it an consumer licence to host smaller peer-to-peer worlds, simply a patch to remove the login into the publisher server via the publishers launcher requirement to play single player games or whatever they can create."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28492,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I writing about a topic i find very important especially in consideration with Digital Fairness. It is about Video Games and how the publishers of said games sell them to us like products while treating them as services they offer which they also can stop whenever they want after getting our money (and remove from our libraries). I think it is very important for digital fairness to protect Gamers and the products they pay for. A company should be allowed to stop hosting a game if they start losing money, sure. But on the other side gamers shouldn't lose access to a product they bought because the company decided a sequel would increase profits so they kill the servers hosting the product. It is important to have an end-of-life plan for such games, be it private servers without legal troubles, be it an consumer licence to host smaller peer-to-peer worlds, simply a patch to remove the login into the publisher server via the publishers launcher requirement to play single player games or whatever they can create. 20 years ago, if you bought a game, you got the cd/dvd and could do whatever you want with it. The Publisher could go under and you still had your game and could still play it. Because the games were treated as products. Not services. But this perspective changed with digital markets and 24/7 aviability. They don't want to sell products, now they want to sell services we still have to pay full price for and which they can remove at-will to sell sequels and remasters with micro transactions and cosmetic dlc's. They changed faster than the law, but this Digital Fairness Act could help close the gap and help protect Gamers. Thank you for your Attention",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.256315Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584486.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584486",
+    "chunks_doc_id": "F3584486",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

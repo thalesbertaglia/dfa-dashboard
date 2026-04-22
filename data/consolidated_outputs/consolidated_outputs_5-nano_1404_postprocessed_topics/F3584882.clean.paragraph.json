@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584882",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:25Z",
+    "finished_at": "2026-04-14T12:13:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are part of the daily lives of many households."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they have the right for any reason or no reason to finish the product/service that consumers have paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19083,
+          "unit_kind": "feedback"
+        },
+        "text": "I think video games should be part of the Digital Fairness Act. Currently, there is no European law or standard that protects video games. Video games are part of the daily lives of many households. Unfortunately, video game publishers have full powers over their products. They can sell a product today and make it inaccessible the next day. Some Studios such as Ubisoft or Activion Blizzard have an extremely anti-consumer clause which explains that they have the right for any reason or no reason to finish the product/service that consumers have paid for. They sell video games as a service, but there is no end date for consumption. Stop Killing Games is a movement against this current situation and has obtained more than 1.4 million signatures. I recommend that you visit the site for further information. Thank you for your kind attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.482269Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584882.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584882",
+    "chunks_doc_id": "F3584882",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584882.clean.paragraph.json"
+}

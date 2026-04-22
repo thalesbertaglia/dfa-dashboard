@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584644",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:01Z",
+    "finished_at": "2026-04-14T12:05:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please also concider adding video games to the digital fairness act."
+              },
+              {
+                "quote": "Hundred games are already dead and can't be played again"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "force you to buy the new game"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29498,
+          "unit_kind": "feedback"
+        },
+        "text": "Please also concider adding video games to the digital fairness act. It sucks that games dies and you have no way of playing them again. Hundred games are already dead and can't be played again and many more is at risk of being the same. European Citizens' Initiative on Stop Destroying Videogames have 1 400 000 signitures. The reason publishers destroys games is mostly monitary and if they can force you to buy the new game they make more money instead of you being able to enjoy your game for however long you want.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.333821Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584644.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584644",
+    "chunks_doc_id": "F3584644",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584644.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586323",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:59Z",
+    "finished_at": "2026-04-14T12:54:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "the games we BOUGHT can still be used in 10, 15 or 20 years."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30234,
+          "unit_kind": "feedback"
+        },
+        "text": "First point to clarify, the initiative is not about forcing companies to maintain games or games services indefinitely, the initiative is asking that a plan for end of life is provided so that when these companies decide to stop support for their games then the community can take over without reverse engineering or hacking their way through so that the games we BOUGHT can still be used in 10, 15 or 20 years. As a long time fan of video games and other types of media I can nowadays easily take any game that I bought 20 or 25 years ago and still play it and that should be the way since these companies are selling games, not renting them and that should be a big point of discussion as well. If as consumers we are being SOLD a product, then we own the product, if that is not the case then it should be clear that we are RENTING a service which is not how the products are being advertised or offered in storefronts. I sincerely hope that the parliament takes action in protecting consumer rights and not companies that are valued in the hundreds and sometimes billions of euros which are obviously more worried in keeping their investors happy rather than the community that supported them to achieve their goals.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.204175Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586323.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586323",
+    "chunks_doc_id": "F3586323",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586323.clean.paragraph.json"
+}

@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3588970",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:59Z",
+    "finished_at": "2026-04-14T13:27:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Its a common practice to destroy or otherwise make a game you paid for uplayeble after its not worth for publishers to keep servers online or to include always online ellements evean for single player games that later make said game unplayeble."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Also there are is no option to resell your games on biggest online game stores."
+              },
+              {
+                "quote": "I dont see a reason why i shoudnt be able to resell my property if i desire."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 56379,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello I would want to kindly ask that this propoused law should include protection of videogames. Its a common practice to destroy or otherwise make a game you paid for uplayeble after its not worth for publishers to keep servers online or to include always online ellements evean for single player games that later make said game unplayeble. I think as a consumer who paid to own a game i should have right to play it. I dont ask for publishers to keep paying for old games server but for possibility of players to run their own for their own money. I think this is huge legal loophole and i would love for it to stop taking away my property from me. Also there are is no option to resell your games on biggest online game stores. I dont see a reason why i shoudnt be able to resell my property if i desire. thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.709762Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588970.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588970",
+    "chunks_doc_id": "F3588970",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "doc_id": "F3592877",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:24Z",
+    "finished_at": "2026-04-14T13:39:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Potential buyers can be directly lied to in upcoming product trailers and they often don't face any consequences for doing so."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video game media seems to often get away with anti-consumer practices more than any other medium i have observed."
+              },
+              {
+                "quote": "the players were promised transactionless access to character customizable elements and that it would be the standard at launch, which it did not do."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers can sell you a game on a digital platform and leave it in an unusable state without warning, while issuing no refunds or relief."
+              },
+              {
+                "quote": "the practice of selling an expiring product, without any labels or clarification that you are doing so."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40870,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game media seems to often get away with anti-consumer practices more than any other medium i have observed. Potential buyers can be directly lied to in upcoming product trailers and they often don't face any consequences for doing so.Example being the promise that in \"Halo: Infinite\" the players were promised transactionless access to character customizable elements and that it would be the standard at launch, which it did not do. Online video games can be subject to change during it's support lifetime, often resulting in a product that's unrecognizable from what you were first sold. Biggest offender however is the practice of selling an expiring product, without any labels or clarification that you are doing so. Publishers can sell you a game on a digital platform and leave it in an unusable state without warning, while issuing no refunds or relief. I have reason to believe that this is an intentional practice and not one derived from unfortunate circumstances. I highly implore the European Union to take a serious look at the \"Stop Destorying Videogames\" citizens initiative ,fulfill it's requests and push harsher regulation on digital consumer rights so that the average consumer isn't pressured or oppressed as terribly ever again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.932329Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592877.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592877",
+    "chunks_doc_id": "F3592877",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592877.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587512",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:54Z",
+    "finished_at": "2026-04-14T13:20:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "coerce users to give up their 14 day contract revocation right by offering the user 2 options of \"service starts in 14 days\" or \"I agree to waive my 14 day cancellation period\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 158588,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, as a resident of EU (Germany), I have run into several dark patterns that I believe could be legislated better, and I hope that the information I can provide can help with inspiration for the upcoming act. Service providers (especially telecommunications) should not be allowed to hide accessible cancellation and contact options with the intention to discourage consumers from moving away to other providers. When cancelling a mobile phone contract yesterday, the provider did their best to hide all means of cancelling other than by calling them. There were no other options listed in their official information page, nor was there anything that lead to a certain cancellation in the user portal. As an informed consumer, I am aware that I can email them or send them a cancellation request by post due to laws here, but many consumers are not aware of this right, and the restrictive working hours of the support line would not make it easy for most employed people to call them. Ultimately, we found a cancellation form at the footer of the page, in very small text, next to dozens of other links, which let us cancel online without having to call the mobile carrier's support line. I believe the carrier should be required to list all means of cancellation in their cancellation info page, including their email address, address, fax number (if relevant), and cancellation form (if any). --- The EU cookie law, while being good for EU consumers, has lead to much criticism due to so-called \"malicious compliance\" by companies, often taking up half the page or more. I have three bits of feedback on how to improve this and get rid of the annoyance while improving privacy of users. - Many online websites also do not provide a clear \"Decline all\" button, instead offering \"Accept all\" and \"Configure cookies\". Clicking latter button often takes one to a different page, or loads a menu slowly that one has to often manually remove a bunch of ticks from. Even as a privacy-conscious person, this has lead to me clicking \"Accept all\" because I wanted to read an article now, not after a minute of unchecking tickboxes. - Cookie prompts should respect the \"Do Not Track\" header (or similar) sent by the browser, so that users can choose to communicate their cookie acceptance or not on a browser level, without needing to inform each individual website. - Various websites require payment to opt out of tracking, only allowing clicking \"Allow all\" unless one agress to pay to access the content. Various German news websites and Facebook do this. This is a dark pattern and I believe this goes against the intent of the law (though was recently confirmed by courts as being in line with the text of the law). --- Companies, especially those offering digital services, have a tendency to coerce users to give up their 14 day contract revocation right by offering the user 2 options of \"service starts in 14 days\" or \"I agree to waive my 14 day cancellation period\". I believe this is a dark pattern and an anti-consumer practice. I understand that there are costs to offering a service for up to 14 days, so perhaps a middle ground of allowing easy cancellation within those 14 days but letting companies charge the user for the services provided within that time would achieve best results for both users and companies. I think it's more beneficial if a consumer can back out of a 2 year contract by paying a small amount, as opposed to being forced into a 2 year contract with no chance to test the service. Perhaps allowing companies to charge consumers for this could be limited based on industry, type of services provided, length of contract, and price of the contract, to avoid making the current situation worse for consumers on the providers that do currently offer a proper 14 day cancellation period in which services are rendered. Thank you for taking the time to read my feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.535544Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587512.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587512",
+    "chunks_doc_id": "F3587512",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587512.clean.paragraph.json"
+}

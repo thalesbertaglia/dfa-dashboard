@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585698",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:59Z",
+    "finished_at": "2026-04-14T12:34:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "periodic online activation/DRM that can disable legitimately acquired software when a device is offline or when vendor servers are retired"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If a critical online service is withdrawn, the vendor must: (a) provide an offline/LAN mode; or (b) supply server binaries/hosted replacement; or (c) remove DRM that blocks continued use; or (d) offer appropriate refunds/compensation."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Introduce a narrowly tailored noncommercial circulation exception for discontinued software that is no longer offered by the rightsholder, with safeguards (no monetization, provenance disclosure)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Dominant payment networks/processors can refuse transactions for lawful digital content, limiting consumer choice without due process."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47387,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome the initiative to strengthen consumer protection in digital markets. Please consider the following measures to secure fairness, durability and continuity for software and digital content. 1) Offline operability and continuity after support (EOL) Problem: Products are shipped with periodic online activation/DRM that can disable legitimately acquired software when a device is offline or when vendor servers are retired. This undermines privacy and security for airgapped systems. Example: Maintaining a licensed desktop OS on an airgapped computer is impractical because periodic activation is required even though core functions do not require the internet. Request Offline Operability Principle: Core functionality must not depend on vendor servers unless strictly necessary for that core function. Where online checks exist, vendors must provide an offline continuity mode (a final update or key that removes remote dependencies) no later than EOL. Presale disclosures must clearly state any hard online dependency, its purpose, and the minimum guaranteed duration of server availability. 2) Functionality and remedies when services are discontinued Problem: Consumers lose use of purchased products when companies shut down servers for onlinetied titles or features. Example: A publisher switched off a racing game, leaving buyers with an unusable product. Request: If a critical online service is withdrawn, the vendor must: (a) provide an offline/LAN mode; or (b) supply server binaries/hosted replacement; or (c) remove DRM that blocks continued use; or (d) offer appropriate refunds/compensation. Set a minimum continuity period after the last sale. If discontinuation happens earlier, remedies should apply automatically. Create targeted copyright/anticircumvention exceptions at EOL so consumers and preservation bodies can keep legitimately acquired software usable. 3) Legal status and circulation of discontinued software (abandonware) Problem: When a product is no longer sold or supported, consumers cannot lawfully obtain replacement copies, and preservation is chilled. Request: Introduce a narrowly tailored noncommercial circulation exception for discontinued software that is no longer offered by the rightsholder, with safeguards (no monetization, provenance disclosure). 4) Nondiscrimination by payment intermediaries for lawful goods Problem: Dominant payment networks/processors can refuse transactions for lawful digital content, limiting consumer choice without due process. Request Utilitylike, contentneutral duties for systemic intermediaries: No refusal for lawful goods based solely on content preferences. Clear eligibility criteria, proportional risk policies (fraud/AML), notice with reasons, and an appeal channel. Transparency reporting on contentbased restrictions. Promote payment choice and interoperability so consumers are not locked into a single gateway on dominant platforms. Enforcement and scope Define software broadly (including firmware and games) and apply rules to B2C transactions across the EU. Require plainlanguage disclosures on online dependencies, activation and EOL plans at the point of sale. Provide effective redress (refunds, DRM removal, alternative access) and meaningful penalties for noncompliance. These measures would align digital products with everyday expectations for physical goods: durability, continued usability after support ends, and freedom to choose lawful content and payment methods without sacrificing privacy or security.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.877008Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585698.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585698",
+    "chunks_doc_id": "F3585698",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585698.clean.paragraph.json"
+}

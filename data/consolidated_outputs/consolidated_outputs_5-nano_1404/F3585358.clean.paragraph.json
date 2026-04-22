@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585358",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:59Z",
+    "finished_at": "2026-04-14T12:26:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14202,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i am sending this feedback in hopes of achiving consumer protection where few previously existed. I am of cause talking about Video games, and companies proclivity to can their online games with no regard for any consumer who may still play it. What i hope to achive with this feedback is to it a requirement for companies to do something to let people contiune to play the games they have bought. If you are at all aware of the \"Stop destroying games\" EU initiave, then this is basically that. I cant be more coherent than the writing on that initiave, so if you require more information, then i implore you to head to the initiave and read there",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.697092Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585358.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585358",
+    "chunks_doc_id": "F3585358",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

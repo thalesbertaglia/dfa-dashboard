@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586531",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:39Z",
+    "finished_at": "2026-04-14T12:59:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the games they bought legally stop operating."
+              },
+              {
+                "quote": "If Sony decides to remove the game from the PlayStation Store, Sony can no longer legally buy it even if it was previously available."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital distribution has been monopolised and manufacturers dictate prices, determine the availability of games and limit consumers’ rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38713,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent years, players are increasingly witnessing phenomena that would have been difficult to imagine a decade ago: the games they bought legally stop operating. More and more publishers decide to switch off servers, remove titles from digital shops, or even block access to single-player games for licensing or commercial reasons. In the digital age, the ownership of games becomes illusory instead of a product, players only acquire the right of temporary use. This problem is particularly evident in consoles, where Nintendo, Sony (PlayStation) and Microsoft (Xbox) exercise close control over their platforms. Users are not able to buy games from other sources than the company’s official shop. The lack of openness known from PCs is not possible to install an external launcher or to buy a key in an independent shop. Digital distribution has been monopolised and manufacturers dictate prices, determine the availability of games and limit consumers’ rights. In practice, this means a lack of choice. If Sony decides to remove the game from the PlayStation Store, Sony can no longer legally buy it even if it was previously available. If Nintendo closes eShop on older consoles (such as 3DS or Wii U), players lose access to multiple titles for all. Microsoft, despite being more open to backward compatibility, is also involved in this trend. This is complemented by forced digital distribution. In an increasing number of cases, the physical releases of games do not contain the full product of the slab just a ‘key’, and the game must still be taken from the network. When servers disappear, installation also disappears. The players were put in front of the fact: in the digital world, they do not have games, but only access to them, which can be withdrawn without warning. And as each console acts as a closed ecosystem, there is no possibility to flee to an alternative shop or to shield itself from corporate decisions. The need to regulate this market is increasingly mentioned. O The right to preserve purchased games, archiving and access to older titles, alternatives to closed digital shops. Otherwise, the future of games will look like streaming everything at a moment, no ownership.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.273852Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586531.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586531",
+    "chunks_doc_id": "F3586531",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586531.clean.paragraph.json"
+}

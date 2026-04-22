@@ -1,0 +1,98 @@
+{
+  "doc_id": "F3585359",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:00Z",
+    "finished_at": "2026-04-14T12:26:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to force users to buy new digital product/subscriptions"
+              },
+              {
+                "quote": "locking features that was available at purchase behind additional fees"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "adding subscription to the product, locking features that was available at purchase behind additional fees"
+              },
+              {
+                "quote": "to force users to buy new digital product/subscriptions"
+              },
+              {
+                "quote": "Recently we have seen a smart-home app suddenly lock formerly purchased features behind new subscriptions"
+              },
+              {
+                "quote": "subscriptions to something that does not require continual service or always-online components to function"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video-game companies taking away the single-player part of a game, because they did not want to support the multi-player part of a product any longer, even if those two things could function independently"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37815,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it is important that this bill also ensures that companies cannot take away digital products that a user have already paid for, be that either by delisting the product, so the user cannot gain acces to it; updating the the product so it no longer functions; adding subscription to the product, locking features that was available at purchase behind additional fees, or; disabling the product by turning off servers without giving the userbase acces to selfhosting, so the product still can be used. We have seen multiple companies try to do things like this, to force users to buy new digital product/subscriptions, where the old product would function just fine if it was not for the company. Recently we have seen a smart-home app suddenly lock formerly purchased features behind new subscriptions, or video-game companies taking away the single-player part of a game, because they did not want to support the multi-player part of a product any longer, even if those two things could function independently. Additionally, I think it should be considered if companies should be allowed to sell subscriptions to something that does not require continual service or always-online components to function. Products such as editing software, or smart home appliances does not require those to function, and thus should be available to customers at a fair, one time purchase, and not locked behind a subscription.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.697988Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585359.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585359",
+    "chunks_doc_id": "F3585359",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

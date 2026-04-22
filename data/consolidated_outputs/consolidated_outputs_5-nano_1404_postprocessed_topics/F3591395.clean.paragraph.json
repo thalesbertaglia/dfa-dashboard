@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3591395",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:16Z",
+    "finished_at": "2026-04-14T13:35:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I am appalled that it is not possible to buy computer games that are legal because the payment providers have decided that we shouldn't be allowed to buy them."
+              },
+              {
+                "quote": "Having corporations decided what I can purchase should not be allowed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18909,
+          "unit_kind": "feedback"
+        },
+        "text": "I am appalled that it is not possible to buy computer games that are legal because the payment providers have decided that we shouldn't be allowed to buy them. As long as the games are legal in my country I should be able to buy them. Having corporations decided what I can purchase should not be allowed. https://www.theguardian.com/world/2025/jul/29/mastercard-visa-backlash-adult-games-removed-online-stores-steam-itchio-ntwnfb",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.860768Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591395.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591395",
+    "chunks_doc_id": "F3591395",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591395.clean.paragraph.json"
+}

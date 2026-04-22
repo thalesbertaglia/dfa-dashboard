@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587513",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:55Z",
+    "finished_at": "2026-04-14T13:18:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "gacha and various betting"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19750,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it is of great importance to include video games in this topic because topics such as lack of digital fairness for consumers and unclear rules are increasingly present in various video games. Most importantly, I think the biggest problem is that customers like me, buy these products and white this product may no longer be available, even after paying for it, whether because it is removed or because it is up to date or because it requires a constant internet connection, even if it does not use modes that require an internet connection, the factor of gacha and various betting is also very important. Some consumers are paying for a small degree of hope (often even specifying the percentage) that they will be able to buy the desired product!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.536248Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587513.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587513",
+    "chunks_doc_id": "F3587513",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587513.clean.paragraph.json"
+}

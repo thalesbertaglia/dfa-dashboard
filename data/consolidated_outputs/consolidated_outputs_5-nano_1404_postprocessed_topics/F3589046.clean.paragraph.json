@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3589046",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:27Z",
+    "finished_at": "2026-04-14T13:28:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Please add a protection to stop publishers from destroying video games the have already sold,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13929,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add a protection to stop publishers from destroying video games the have already sold, When I purchase a video game, I do not expect it to be forcefully taken from me in 1 week or 1 month or 1 year or 10 years. I expect access to the game's offline functionality indefinitely as that is part of the purchase, as well as the ability to have some type of localized or limited multiplayer if applicable without requiring the game's publisher online servers to remain active. Games are entertainment experiences like movies and tv shows, imagine a world where the show 'friends' is erased from all recording devices at once, or a Movie DVD / Bluray that stops working because it requires a connection to a dead internet server. This is the current status quo of video games, publishers decide to shut down the game's services, and players of a beloved franchise then have no ability to ever have that experience that again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.737459Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589046.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589046",
+    "chunks_doc_id": "F3589046",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589046.clean.paragraph.json"
+}

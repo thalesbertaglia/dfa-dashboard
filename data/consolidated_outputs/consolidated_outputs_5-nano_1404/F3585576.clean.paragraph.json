@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585576",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:47Z",
+    "finished_at": "2026-04-14T12:31:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "removing access from bought digital products"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14552,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like for the EU to take into account the practice of game/software publishers removing access from bought digital products, while being unclear/misleading on their ability to remove such access. At the moment, access from games/software products can often times be removed, while at the time of purchase, it was unclear whether you own the (digital) product and/or when or how or if the publishers are able to remove access to the (digital) product. This practice is misleading and unfair for consumers who think they are buying a product, only for access to the product being removed later on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.811220Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585576.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585576",
+    "chunks_doc_id": "F3585576",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

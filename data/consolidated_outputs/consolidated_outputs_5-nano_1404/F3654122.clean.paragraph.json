@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3654122",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:23Z",
+    "finished_at": "2026-04-14T13:43:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "\"Sideloading\""
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "so they do not get more popularity so they can sell your Data better."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28679,
+          "unit_kind": "feedback"
+        },
+        "text": "To make it short. Google / Alphabet are trying to muddy the waters here using terms like \"Sideloading\" as if it is something esoteric. It means Installing. Nothing more. I bought a device, it is MY device, I am running right now an Android OS on it, which is \"Linux\" Based and I want to Install Software on it. Any Software i want. If I am an Software Developer, an guy in IT, or a small company, even a Kindergarten, it is MOST Important to be able to Install your own Software without needing to publish it onto Google/Alphabets own Store. It is simply ridiculous what they are doing! Even right now they try to destroy other \"Flavors\" of Androids, as Example \"LineageOS\" and others so they do not get more popularity so they can sell your Data better. This Multi-Billion Dollar cooperations cannot simply do what they please, this needs to end.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.048537Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3654122.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3654122",
+    "chunks_doc_id": "F3654122",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

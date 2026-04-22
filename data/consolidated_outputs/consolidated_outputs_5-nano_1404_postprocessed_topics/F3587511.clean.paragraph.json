@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587511",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:52Z",
+    "finished_at": "2026-04-14T13:18:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers destroying the means to play video games that their consumers have already paid for"
+              },
+              {
+                "quote": "end-of-life plan for their video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18364,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I, as many others, would like to bring your attention to the issue of video game publishers destroying the means to play video games that their consumers have already paid for, often without enough notice, and request that you consider adding this practice to the list of issues you're willing to fight against. This harmful practice can be avoided by required publishers to include an end-of-life plan for their video games, ensuring they will still be available to those who have purchased them when they stop supporting/selling them or when they're taken off the digital stores. Such a plan could involve releasing the server software to the public or patching the games to not require online connection at all to run. It's doable and has been proven to work. Example: Epic has essentially given their game Unreal Tournament to their fans to do with it as they please, since Epic no longer profits from or supports this game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.534964Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587511.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587511",
+    "chunks_doc_id": "F3587511",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587511.clean.paragraph.json"
+}

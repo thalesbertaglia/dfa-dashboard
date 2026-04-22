@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585366",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:06Z",
+    "finished_at": "2026-04-14T12:26:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently games that you've bought can be destroyed and can never be played again even if you have the hardware to play it on."
+              },
+              {
+                "quote": "I just want to own my games again."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14943,
+          "unit_kind": "feedback"
+        },
+        "text": "Please protect customers from having publisher destroy video games. Currently games that you've bought can be destroyed and can never be played again even if you have the hardware to play it on. I have old nintendo games from my childhood I can still play as long as I have a working nintendo and CRT TV, but that is not the case with a lot of \"newer\" games even if you own the disk (now you mostly don't even get a disk or cartridge when you buy at the store, just a download code). Imagine buying a movie or a book and then suddenly the publisher makes you and everyone else unable to watch/read what you bought anymore effectively destroying it. There's a possibility they will rerelease it again, but with small changes (like a directors cut or something) so they can call it a new product and making you have to buy it again. I just want to own my games again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.701955Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585366.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585366",
+    "chunks_doc_id": "F3585366",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585366.clean.paragraph.json"
+}

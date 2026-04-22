@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589303",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:58Z",
+    "finished_at": "2026-04-14T13:31:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stopped being made to work simply by owning the physical copy or digital copy from an official retailer."
+              },
+              {
+                "quote": "Once they decide to shutdown their services, we are no longer able to make use of the data we have on our copies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22833,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings. I wish to make known that in the video game industry, a phenomenon became apparent over the course of a decade or two. It becomes hard to pinpoint but at some point in time, the same kind of video games that one could buy, in any genre or mode of play (singleplayer, multiplayer or both) stopped being made to work simply by owning the physical copy or digital copy from an official retailer. I myself own, and have owned, games that even if once they did have extra features or interactions online, you could still play them today, even if the original developer and publisher stopped supporting. Today, this is no longer the case. We have seen a spread of practices that invalidate our purchases when the developer or publisher decides to. Once they decide to shutdown their services, we are no longer able to make use of the data we have on our copies. While it is perfectly reasonable for a business to stop spending recurring costs on a product that stops generating revenue, it is not reasonable for it to be left in an inoperable state. Although few, some developers and publishers that did require connection to their services to play, ended up removing those requirements and adapting the final version of their games to allow for their customers to keep their games working, in as a complete a state as is possible to release. This labour, should be factored in at the planing stage. The video game developers have to adopt practices that allow for their support to end without destroying access to the product they sold to us. Remind you, this is a fairly recent practice, when taking into perspective the long history of video games. It has simply come to a point where it seems to want to become the norm, while simultaneously pushing against consumer rights and no one speaks up in an official capacity. This is us, the people, speaking up against a malpractice of business, with no root in logic or law. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.782512Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589303.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589303",
+    "chunks_doc_id": "F3589303",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

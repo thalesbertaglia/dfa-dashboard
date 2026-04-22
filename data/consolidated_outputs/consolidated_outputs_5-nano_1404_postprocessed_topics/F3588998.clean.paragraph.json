@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3588998",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:34Z",
+    "finished_at": "2026-04-14T13:28:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sell you a piece of software while framing it as a purchase, but do not disclose the fact that at some point in the future, said purchase will be rendered unusable when the publisher shuts down the servers that the software or video game depends on."
+              },
+              {
+                "quote": "The language about the publisher's right to discontinue the service at any moment is buried deep in the EULA"
+              },
+              {
+                "quote": "while nowhere on the storefront is it disclosed that the product will at some point stop functioning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30684,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like Digital Fairness Act to include protection against practices where software or video game publishers sell you a piece of software while framing it as a purchase, but do not disclose the fact that at some point in the future, said purchase will be rendered unusable when the publisher shuts down the servers that the software or video game depends on. The language about the publisher's right to discontinue the service at any moment is buried deep in the EULA, while nowhere on the storefront is it disclosed that the product will at some point stop functioning. I would like that, in cases where it's possible, publishers were encouraged to make their products in such a way that they do not unnecessarily depend on publisher's servers. And in cases where dependence on publisher's servers is to some degree unavoidable, like with multiplayer video games, that this fact is prominently disclosed on the storefront.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.720308Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588998.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588998",
+    "chunks_doc_id": "F3588998",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588998.clean.paragraph.json"
+}

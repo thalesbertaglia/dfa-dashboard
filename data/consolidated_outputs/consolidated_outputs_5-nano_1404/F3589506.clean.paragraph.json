@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3589506",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:29Z",
+    "finished_at": "2026-04-14T13:31:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription models"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "guaranteed for a certain time-frame after purchase, outlined before buying the product, with a reasonable legal minimum in place."
+              },
+              {
+                "quote": "There needs to be an end-of-life plan which ensures that as much as possible of the software can continue being used without further action by the seller."
+              },
+              {
+                "quote": "This end-of-life plan looks like needs to be outlined to the customer before purchase and again needs to meet legal minimums defined by law."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27517,
+          "unit_kind": "feedback"
+        },
+        "text": "While I like the measures proposed in this draft, I feel like they don't go far enough in protecting consumers. Software licenses, including but not limited to video games, are usually presented as \"buying a product\", which gives the impression of owning something. Because of the different circumstances of buying software vs. buying physical goods however, this analogy often does not hold up. To continue to be usable, Software needs frequent security and maintenance updates. These should be guaranteed for a certain time-frame after purchase, outlined before buying the product, with a reasonable legal minimum in place. This does not include feature updates, for which companies could still offer subscription models or other licensing models, or free or even Open-Source software. When abandoning software after the guaranteed maintenance time-frame, there needs to be an end-of-life plan which ensures that as much as possible of the software can continue being used without further action by the seller. This might include providing offline access to most features or offering self-hosted servers. This does not include continued support or server-hosting. What this end-of-life plan looks like needs to be outlined to the customer before purchase and again needs to meet legal minimums defined by law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.794814Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589506.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589506",
+    "chunks_doc_id": "F3589506",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

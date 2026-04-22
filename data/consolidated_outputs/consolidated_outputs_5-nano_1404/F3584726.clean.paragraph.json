@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584726",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:49Z",
+    "finished_at": "2026-04-14T12:08:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many games are sold digitally and marketed as permanent purchases, but later become unavailable."
+              },
+              {
+                "quote": "Online servers are shut down, rendering the game fully or partially unplayableeven in single-player modes."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In practice, license agreementsoften buried in terms of serviceallow companies to revoke access at any time."
+              },
+              {
+                "quote": "These terms are rarely communicated clearly prior to purchase, contradicting the principle of informed consent and creating a false expectation of digital ownership."
+              },
+              {
+                "quote": "Prohibit misleading language such as buy or own unless long-term access is contractually guaranteed."
+              },
+              {
+                "quote": "Mandate minimum access periods (e.g., 510 years) for purchased digital games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39743,
+          "unit_kind": "feedback"
+        },
+        "text": "As someone who has spent years engaging with video gamesboth as a player and a researcherIm writing to share concerns about the way digital games are sold, maintained, and in many cases, taken away from consumers. The proposed Digital Fairness Act presents an important opportunity to address some of the unfair practices common in the industry today, particularly those that affect access, ownership, and longevity of purchased digital games. These practices increasingly affect people of all ages, but they are especially harmful to younger players and those who invest significant time and money into games they expect to own. Removal of Purchased Games Many games are sold digitally and marketed as permanent purchases, but later become unavailable. In numerous cases: Online servers are shut down, rendering the game fully or partially unplayableeven in single-player modes. Games are delisted from storefronts and removed from user libraries. No offline options are offered, despite being technically possible. This results in the loss of access to products consumers believed they owned, often without compensation or alternative solutions. Misleading Ownership and Terms Games are commonly marketed with phrases like buy, own, or keep forever. In practice, license agreementsoften buried in terms of serviceallow companies to revoke access at any time. These terms are rarely communicated clearly prior to purchase, contradicting the principle of informed consent and creating a false expectation of digital ownership. No Refunds or Support After Shutdown When access is revoked due to game shutdowns, server deactivation, or DRM restrictions, users are rarely offered refunds or alternative support. This applies even when shutdowns occur shortly after release or affect paid content such as downloadable expansions or cosmetic items. The lack of redress is inconsistent with consumer protection standards in other sectors. Preservation and Access Rights Video games are not only commercial products but also cultural works. Current industry practices hinder long-term access and preservation. Once servers are shut down, many titles become permanently inaccessibleeven to consumers who legally purchased them. Without preservation measures or offline functionality, this leads to the loss of creative content and consumer investment. Recommendations: Require clear disclosure at the point of sale if a game relies on active servers or online services to function. Mandate minimum access periods (e.g., 510 years) for purchased digital games. Enforce refund or credit systems when games are made unplayable after purchase. Prohibit misleading language such as buy or own unless long-term access is contractually guaranteed. Require that single-player content remain accessible offline wherever technically feasible. Encourage preservation measures such as downloadable versions, server emulation tools, or source code availability when deactivating games. Conclusion: As the digital distribution of games becomes the standard, consumer protection must evolve. The ability for publishers to revoke access to paid games without compensation causes real harm and erodes trust. The Digital Fairness Act is a much-needed opportunity to introduce basic guarantees of transparency, ownership, and long-term usability in digital productsprotections that consumers increasingly expect and deserve.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.374953Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584726.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584726",
+    "chunks_doc_id": "F3584726",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585861",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:14Z",
+    "finished_at": "2026-04-14T12:39:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Games need to be preserved in a way so that customers will be able to use them anytime, even if the developer or publisher of the game decides to not support it anymore."
+              },
+              {
+                "quote": "If important online servers are getting shut down, players need the ability to play the game like before - maybe there could be the opportunity to host private servers to keep the game running."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16694,
+          "unit_kind": "feedback"
+        },
+        "text": "There is an initiative called \"Stop Destroying Videogames\" which is trying to protect video game comsumers' rights. The initiative's message could fit into the Digital Fairness Act and be an adequate addition for it. Games need to be preserved in a way so that customers will be able to use them anytime, even if the developer or publisher of the game decides to not support it anymore. If important online servers are getting shut down, players need the ability to play the game like before - maybe there could be the opportunity to host private servers to keep the game running. I have faced this problem recently while trying to connect to the Servers of \"The Crew\" which were shut down by game developer and publisher Ubisoft. Now it is not possible to play the game anymore as it depends on online server connection.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.958874Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585861.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585861",
+    "chunks_doc_id": "F3585861",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585861.clean.paragraph.json"
+}

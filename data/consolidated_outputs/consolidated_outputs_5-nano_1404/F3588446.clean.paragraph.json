@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588446",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:39Z",
+    "finished_at": "2026-04-14T13:24:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "stopping the video games from going offline"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they can currently censor freespeech online via denying payments to certain websites"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30078,
+          "unit_kind": "feedback"
+        },
+        "text": "i have 2 things id like to say 1. please include the act of stopping the video games from going offline for people who already brought the video game in question as it takes away the product from the consumer and to a certain extend it can take away the joy of going back and replaying that came as sometimes games can become core memoeries for me personally ill always love and charish the memeories of playing minecraft with my mom and my best freinds and i belive many others feel the same way and as such the games people play mean a lot to them 2. consider getting mastercard visa and paypal along with other payment processor in check as they can currently censor freespeech online via denying payments to certain websites and whilst we all agree its great when it removes people who gain profits form making illegal adult content its an entirely different park when these payment processor gets pressured into removing themselves from different websites simply because certain groups of people dont like what is being hosted on the website. it has already been misused to remove a game from steam called vile exhumed and it will continue to be misused",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.647526Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588446.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588446",
+    "chunks_doc_id": "F3588446",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587397",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:16:20Z",
+    "finished_at": "2026-04-14T13:16:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Killing Games/Stop Destroying Videogames initiative."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16200,
+          "unit_kind": "feedback"
+        },
+        "text": "Another message of support of the Stop Killing Games/Stop Destroying Videogames initiative. The only argument I can think of against the initiative, is that removing access to older games is a valid way of getting customers to buy sequels. I think this has very little effect, however--see CS:GO or any countless other examples of games released without shutting down previous games. I think it could even be extended to cover software, but I can see some argument in regards to productivity software, where users are more likely to continue using the same tool rather than upgrading if given an option, but most of these tools have monthly licenses, so that's a bit different. I think there should still be some kind of regulation around these kinds of software, even if just for archival sake, as these are far more likely to disappear forever. To enforce something like this, I think it may be nescessary for a version of the games to be stored so it can be released without input from the game developer / publisher. I think an ideal situation would have a \"software artifacts repository\" managed by the EU, that kept a copy of all software (source-code or binaries), including games that released for sale, and could release them after end-of-life or copyright expiration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.515714Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587397.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587397",
+    "chunks_doc_id": "F3587397",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

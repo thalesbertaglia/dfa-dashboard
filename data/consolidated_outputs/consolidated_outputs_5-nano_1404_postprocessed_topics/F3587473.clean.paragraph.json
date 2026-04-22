@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587473",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:17:23Z",
+    "finished_at": "2026-04-14T13:17:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "some of them are designed to require a constant connection to their server in order to function."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Usually they have a EULA that often states the games they bought can be taken away from them at any time or for any reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19385,
+          "unit_kind": "feedback"
+        },
+        "text": "When we buy things we own it, This was the norm for the last couple thousands of years of comerse, however, lately many companies are trying to pass the products they sell to customers as a \"service\". This is especially the case in the world of Video games where some of them are designed to require a constant connection to their server in order to function. Typically, when it comes to services, it is explicitly state when said service ends. Good examples of that would be renting a car, equipment or even paying for home cleaning. The customers know what to expect and proceed to get said services or seek better alternatives that fit their needs and budget. Unfortunately this isn't the case for video games sold as services. Usually they have a EULA that often states the games they bought can be taken away from them at any time or for any reason. I believe this is unfair for the customers as they often have no recourses to preserve the games or software they paid for. This might even be a violation of EU laws about fair trade and contracts, If so, I believe the Digital Fairness Act may be in the best position to address it. I believe it is also important to note there were a EU Citizen Initiative called \"Stop destroying games\" with over 1.4 Millions signature. Meaning there is a significant demand for better laws and regulation in favor of customers in the EU. Obviously, big players in the gaming industry such as Ubisoft Blizard and EA Games will find every excuses to dismiss or misinterpret what is demanded of them. All people want is a way to preserve the things their paid for after official supports ends. It might sound thrivial, but if this practice was to spread in other field, then it would be devastating. For instance, what if electric cars companies decided every new vehicle must be connected to a server in order to start? If that server goes down, thousands of vehicles would be rendered useless, stuck in traffic, possibly causing accidents, etc... This would be chaotic. I doubt the EU would allow such a thing, I believe the same should be said for video games and other softwares sold as \"services\"",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.528630Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587473.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587473",
+    "chunks_doc_id": "F3587473",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587473.clean.paragraph.json"
+}

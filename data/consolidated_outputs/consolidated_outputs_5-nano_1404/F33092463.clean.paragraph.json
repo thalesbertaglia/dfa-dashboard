@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33092463",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:36:45Z",
+    "finished_at": "2026-04-14T09:36:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The blanket approach to ‘dark patterns’ only creates a further, highly unclear obstacle to requirements, which leaves a great deal of room for interpretation during implementation and thus again encourages a warning industry."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13627,
+          "unit_kind": "feedback"
+        },
+        "text": "I am the head of e-commerce with a German mail order trader and have been on the digital market for more than 30 years. I believe that the Digital Fairness Act is superfluous because most of the elements that are again problematic here (data protection, accessibility, protection against unfair competition, product safety, data security) are already covered in relevant legislative packages. The blanket approach to ‘dark patterns’ only creates a further, highly unclear obstacle to requirements, which leaves a great deal of room for interpretation during implementation and thus again encourages a warning industry. Traders must also be allowed to price their goods digitally. At the end, I can tell us about the size and colour of (still allowed?) ‘salt’ buttons, rather than convince our customers with good – and also digital – service (no, that is no contradiction!). Due to numerous additional legal implementation obligations, there is still little time to shape it in the digital sphere. The Digital Fairness Act also puts consumers under pressure. Are European consumers empowered or rather not? The actual black sheep on the market will in any event not be able to capture the planned legislation: Then you simply operate from outside the EU.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.608080Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33092463.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33092463",
+    "chunks_doc_id": "F33092463",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584548",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:01:18Z",
+    "finished_at": "2026-04-14T12:01:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a date upon which the license will cease"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a poorly defined comment in the EULA about the licenser's liberty to pull support at will."
+              },
+              {
+                "quote": "Support that may very well be required lest the the licensed software be rendered unusable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32125,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that it must be required prior to distribution of software that ownership OR LACK THEREOF be displayed prominently. I thoroughly oppose the \"You'll own nothing and be happy\" idea, as proposed by Ida Auken in her 2016 essay. An essay that the EDRI has described as chilling and dystopian. It is my wish, for the sake of clearly delineating between a purchasable good or product, and the subscription to a license; that such a license, must clearly offer a date upon which the license will cease, before the subscription or purchase of said license. In the market of entertainment software, a license to use said entertainment, is rarely given a specific window of time for usage, except a poorly defined comment in the EULA about the licenser's liberty to pull support at will. Support that may very well be required lest the the licensed software be rendered unusable.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.287322Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584548.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584548",
+    "chunks_doc_id": "F3584548",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584548.clean.paragraph.json"
+}

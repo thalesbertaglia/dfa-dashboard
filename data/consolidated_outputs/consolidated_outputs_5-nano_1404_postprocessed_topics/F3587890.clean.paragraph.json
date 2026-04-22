@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3587890",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:19Z",
+    "finished_at": "2026-04-14T13:21:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe that the customers of video games and software in general should be protected and publishers should be prohibited from destroying games or making them inaccessible after a certain period of time."
+              },
+              {
+                "quote": "Paying for a game nowadays sadly doesn't mean you own that product as it can be \"legally\" taken away from you at any moment-without refund or any other kind of compensation."
+              },
+              {
+                "quote": "No one is asking of the developers to support indefinitely but to give tools to customers themselves."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26851,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that the customers of video games and software in general should be protected and publishers should be prohibited from destroying games or making them inaccessible after a certain period of time. Citizens should have this type of protection after purchase as a backbone. Paying for a game nowadays sadly doesn't mean you own that product as it can be \"legally\" taken away from you at any moment-without refund or any other kind of compensation. Please consider making changes to this initiative so that video game developers/publishers are not allowed to simply kill their games, effectively blocking their players from using the products they paid for. No one is asking of the developers to support indefinitely but to give tools to customers themselves.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.592554Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587890.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587890",
+    "chunks_doc_id": "F3587890",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587890.clean.paragraph.json"
+}

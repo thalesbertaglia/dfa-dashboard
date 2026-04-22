@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586536",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:42Z",
+    "finished_at": "2026-04-14T12:59:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "preservation of video games"
+              },
+              {
+                "quote": "deny access to the entire software"
+              },
+              {
+                "quote": "hold ownership for the products we have payed for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33697,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to ask for the inclusion of the preservation of video games as proposed by the Stop Killing games initiative. They are not asking for indefinite support or new services, but rather the preservation of the product we already payed for. One thing is to stop support and another is to outreach and deny access to the entire software, under the guise of security or other excuses. We'd like to hold ownership for the products we have payed for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.276586Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586536.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586536",
+    "chunks_doc_id": "F3586536",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586536.clean.paragraph.json"
+}

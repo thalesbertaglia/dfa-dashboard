@@ -1,0 +1,74 @@
+{
+  "doc_id": "F33091596",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:34:26Z",
+    "finished_at": "2026-04-14T09:34:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Merchant risk tiers or denying service altogether can and has been used as a threat for merchants to remove provided goods or services."
+              },
+              {
+                "quote": "no third party should be legally able to suppress legal services of a merchant."
+              },
+              {
+                "quote": "a digital storefront can be forced to not sell a certain game, while buying it in a physical store is still possible with the same payment provider."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21441,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative could also include provisions for preventing suppression or preferential treatment of goods or services by third parties such as banks and payment providers. Banks, Visa, MasterCard, PayPal and similar threatening and sometimes denying access to their services for content of their choice is incredibly dangerous. This precedent allows them to unilaterally suppress any type of content, goods or movement. In an extreme example suppress a political party, religion or any type of group/movement where they can deny payment processing for goods, services or donations associated with that group/movement. Or in case they desire to support a certain group/movement they can relax certain provisions or mark merchants as low risk making it much simpler to conduct business. Merchant risk tiers or denying service altogether can and has been used as a threat for merchants to remove provided goods or services. Not only has service been threatened/denied, the rules are also discriminatory for instance a digital storefront can be forced to not sell a certain game, while buying it in a physical store is still possible with the same payment provider. At minimum merchant risk tiers should be transparent and assigned solely based on merchant history, and no third party should be legally able to suppress legal services of a merchant. Currency handling institutions could be regulated similarly to the postal system.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.578159Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091596.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091596",
+    "chunks_doc_id": "F33091596",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

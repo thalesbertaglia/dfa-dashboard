@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588974",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:27:05Z",
+    "finished_at": "2026-04-14T13:27:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Also Overwatch was in trouble with EU for 'lootboxes' aka gambling mechanics some time ago."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these type of 'no closing plan' EULAs and such are predatory for customers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27343,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! Student, hobbyist game developer and worried EU citizen here. I would love to see Online Video Games added to Digital Fairness Act, there is so many game that require online access to be played that are on risk of being closed and players never be able to play it again. Game I personally play is Elder Scrolls Online, I have used so much money on the game and the game doesn't have proper plan if it was ever closed, and that makes feel like I'm being scammed, loosing all the content I paid for would be bad. Another game that I used to play before it was closed 'Overwatch' now having another worse version 'Overwatch 2'. Also Overwatch was in trouble with EU for 'lootboxes' aka gambling mechanics some time ago. So I think these type of things would be mandatory for Digital Fairness Act. Here's things I think how companies with Online mandatory games should be forced to handle game closes and such: Tools for players to host their own servers to play with friends, offline mode (Not talking about making the game singleplayer IF the game is multiplayer, I mean you should be able to start and play the game offline) As a currently 'hobbyist' game developer and customer I think these type of 'no closing plan' EULAs and such are predatory for customers and I think we should do something to stop big videogame studios/companies for scamming people and destroying videogames. Thank you in advance!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.711349Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588974.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588974",
+    "chunks_doc_id": "F3588974",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588711",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:16Z",
+    "finished_at": "2026-04-14T13:25:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction or disabling of legally purchased video games by publishers once they are no longer deemed profitable."
+              },
+              {
+                "quote": "Prevent publishers from rendering games unplayable post-sale without offering offline functionality or preservation solutions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10047,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen of the European Union, I urge lawmakers to address a growing issue in digital consumer rights: the destruction or disabling of legally purchased video games by publishers once they are no longer deemed profitable. Video games are not merely products they are cultural artifacts and works of art that deserve preservation. More importantly, consumers who have paid for these games often lose access through no fault of their own, with no legal recourse or alternatives provided. This practice undermines fundamental principles of ownership, cultural heritage, and fair use. I ask that new legislation be considered to: Guarantee the right of consumers to access and preserve games they have legally purchased. Prevent publishers from rendering games unplayable post-sale without offering offline functionality or preservation solutions. Recognize video games as part of Europe's digital and cultural heritage deserving of long-term access. Thank you for providing an opportunity to voice this concern. I hope it receives the serious consideration it warrants.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.677432Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588711.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588711",
+    "chunks_doc_id": "F3588711",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588711.clean.paragraph.json"
+}

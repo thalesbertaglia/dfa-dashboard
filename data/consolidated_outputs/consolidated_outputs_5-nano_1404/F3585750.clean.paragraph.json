@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585750",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:35:41Z",
+    "finished_at": "2026-04-14T12:36:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game publishers destroying content that consumers paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21394,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear reader, I hope this message fonds you well. As a citizen of The Netherlands I hope the Digital Fairness Act will also add to it's scope that consumers have protection from game publishers destroying content that consumers paid for. Games are a piece of art. With rich stories, beautiful design and cinematics, music, and even interactively/mechanically. Like classical art, we should strive to conserve video games maximally. So many games are already gone forever. It's a real shame, and unfair to the consumers who paid for them. I used to play a video game called Wildstar, and after paying 60 up front for the game in 2014, and on top of that also paying a 13 monthly subscription fee for the online servers, the game is now unplayable since 2018. I would love to go back to it and play it some more. But it's impossible, because the game developers and publishers abandoned the game. The publisher could have shared with the public all the necessary data to create fan hosted servers. Examples of this are: Myst Online: Uru Live Asheron's Call Astonia III",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.902489Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585750.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585750",
+    "chunks_doc_id": "F3585750",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

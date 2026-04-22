@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585398",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:50Z",
+    "finished_at": "2026-04-14T12:27:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we didn't buy a product but a license"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15441,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm from France. I heard youn accept feedback. So here is mine : does it seems fair to you that digitals products can be destroyed without refund ? That's what happen with a lot of video games. Let's say you bought a board game, you like it, play with it often,you even bought the addons. Then suddenly, you hear in six month your boardgame will turn into cinders. Why ? Because for the maker, it wasn't a product but a license. Just imagine the scandal if it would really happen... That's exactly what a lots of big companies do to video games with only online access. Even some companies without the need to be online like Gloomhaven (an Asmodee board game adaptation in video game) have updated their Terms of services saying we didn't buy a product but a license... So basically, i would like to add to this act a clarification regarding digitals products. If it's indeed a product then the consummer has the right to keep it as long as he want even if he don't use it. Just like a lot of others products people could buy and not use in the real world. With all my respect and sorry if my english is unclear.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.719836Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585398.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585398",
+    "chunks_doc_id": "F3585398",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585398.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586679",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:43Z",
+    "finished_at": "2026-04-14T13:02:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "on Steam-gaming platform where a big amount of games were de-listed because of these credit card companies."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the power to just take them away even without giving a reason (according to some of their EULA)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35950,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative is a great step in the right direction regarding consumer protections online in my opinion. There are however few things I would like to be considered adding that I see as quite recent rising problems. The first one is about payment providers such as Visa and Mastercard having the power to censure legal content such as videogames and manga by dictating them as high risk and pressuring companies to stop selling them. We have seen this happening in Japan in a way that companies have apparently gone under and artists have lost their income and just recently on Steam-gaming platform where a big amount of games were de-listed because of these credit card companies. It would seem that behind these actions is a Australian organization called Collective Shout and considering this it sets really dangerous president regarding freedom of speech and expression and the livelihood of artists. Payment providers should absolutely not have this kind of power to censor legal content/art/products even if they don't agree with it. The second thing I would like to bring up is gaming companies who are selling their games to consumers and have the power to just take them away even without giving a reason (according to some of their EULA) and have done so as well. They should be required to have plans to sunset their online games and especially single player games so that the games would be left in a playable state after the official support ends. There are over 1,4 million people supporting this idea in the Stop Destroying Videogames Initiative already but I think it would fit right here in this initiative as well if it is not too difficult. On top of that it is worth considering other software as well so companies couldn't just take away a lifetime purchase from the past. Keep up the good work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.319081Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586679.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586679",
+    "chunks_doc_id": "F3586679",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

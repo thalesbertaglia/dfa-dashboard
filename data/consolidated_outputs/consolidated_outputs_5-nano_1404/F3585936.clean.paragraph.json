@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585936",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:28Z",
+    "finished_at": "2026-04-14T12:41:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "- Avoiding lootboxes altogheter."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Refunds and warranty should apply to any piece of software, and yes, that includes games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26798,
+          "unit_kind": "feedback"
+        },
+        "text": "First of all thank you for this proposal, we are in a age where digital products are more integrated into our lives than ever before. We need protection so companies don't push their business in front of consumers. I would like to ask if it's possible to include Video Games in this proposal. In this case: - Not allowing for game server code to not be released when multiplayer games are shipped (this can happen after the fact - as in - if the game is unsupported by the company, they could just release the server binaries) - Avoiding lootboxes altogheter. Especially for payed titles. Free to play should be fine as this is a nice source of income for those games that are free to begin with. - Refunds and warranty should apply to any piece of software, and yes, that includes games. This should be more strict on AAA games as indie companies might not have the funds to support this and we need new indie games to keep the industry as creative as possible. Thank you so much for reading this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.993942Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585936.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585936",
+    "chunks_doc_id": "F3585936",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

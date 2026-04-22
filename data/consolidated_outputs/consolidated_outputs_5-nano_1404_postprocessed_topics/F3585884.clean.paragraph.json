@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585884",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:57Z",
+    "finished_at": "2026-04-14T12:40:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "add legislation for this kind consumer protection in regards to videogames into consideration."
+              },
+              {
+                "quote": "The videogame market has exploded and, unfortunately legislation is far, far behind, giving major co-operations near free rein."
+              },
+              {
+                "quote": "We are in dire need of consumer protections and clarity to preserve products that have been bought and paid for, but currently can be (and are being) retro-actively changed, ended or entirely removed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18639,
+          "unit_kind": "feedback"
+        },
+        "text": "I am here as a supporter for the Stop Killing Games Initiative, and respectfully request you add legislation for this kind consumer protection in regards to videogames into consideration. Last I checked, the Stop Killing Games Initiative is nearing a million and half signatures on a European Citizen's Initiative regarding this subject. The videogame market has exploded and, unfortunately legislation is far, far behind, giving major co-operations near free rein. We are in dire need of consumer protections and clarity to preserve products that have been bought and paid for, but currently can be (and are being) retro-actively changed, ended or entirely removed. These practices also constitute a loss of culture and art that deserves to be preserved.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.970276Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585884.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585884",
+    "chunks_doc_id": "F3585884",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585884.clean.paragraph.json"
+}

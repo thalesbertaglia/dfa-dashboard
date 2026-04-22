@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586144",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:31Z",
+    "finished_at": "2026-04-14T12:49:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory publishing style"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "they can take back any program they wish to."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47426,
+          "unit_kind": "feedback"
+        },
+        "text": "Please help protect all the consumers around the world and set moral and consumer protecting laws around program/video game publishing businesses. If I pay for a program that was advertised as full one time purchase I should be able to access my program whenever I want and whereever I want. These companies set a bad precedence and corrupt the computer related businesses to adopt this kind of predatory publishing style where they can take back any program they wish to. We seriously need a regulation to protect people from this predatory business strategies hell bent on profit, reminiscent of victorian companies with 0 regulations toying around with their unlimited power just because they wrote \"we can take it whenever we want\" in their 600 page long EULA that is also skipable with a checkmark.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.115672Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586144.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586144",
+    "chunks_doc_id": "F3586144",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

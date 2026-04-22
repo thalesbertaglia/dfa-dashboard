@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584384",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:46Z",
+    "finished_at": "2026-04-14T11:56:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video games industry seems highly non-regulated in terms of basic consumer rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10068,
+          "unit_kind": "feedback"
+        },
+        "text": "As someone living in Bosnia and Herzegovina which is a EU candidate, I believe the issue of digital fairness being better regulated in the EU is an important issue for me as well as a potential future EU citizen, especially in the context of video games. The video games industry seems highly non-regulated in terms of basic consumer rights. I call on the EU to regulate our digital rights and protect us as consumers from studios that are currently able to just pull the plug on products and services that have been paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.208081Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584384.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584384",
+    "chunks_doc_id": "F3584384",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

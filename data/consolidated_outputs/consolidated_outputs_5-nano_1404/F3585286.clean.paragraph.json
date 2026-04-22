@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585286",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:24Z",
+    "finished_at": "2026-04-14T12:25:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers would be rewarded for planning to make the games i buy obsolete, effectively revoking my purchase without refunding it."
+              },
+              {
+                "quote": "\"end-of-life\"-plan that ensures the game is playable in a minimum-viable state or opens up for fan-servers to keep it going."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as some terms of service say (like the Blizzard EULA, for instance),"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36861,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU lawmakers; i am a concerned gamer. I am concerned that, without legal protection in place, publishers would be rewarded for planning to make the games i buy obsolete, effectively revoking my purchase without refunding it. This is not just something that i am concerned of from a perspective of ownership, but also from the perspective of cultural expression. This has already happened to games i have valued my time with, like Archeage, Chain Chronicle and MapleStory 2. Considering that you are already looking at video games regarding unfair monetary practices, i wish to ask that you also consider expanding the Digital Fairness Act to protect the purchases of games such that publishers cannot render them unusable for any or even no particular reason at all, as some terms of service say (like the Blizzard EULA, for instance), and to ensure that in the event of official support for a game ends, there exists an \"end-of-life\"-plan that ensures the game is playable in a minimum-viable state or opens up for fan-servers to keep it going. Thank you for your attention in this matter. Kind regards, a concerned gamer from Norway.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.667751Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585286.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585286",
+    "chunks_doc_id": "F3585286",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

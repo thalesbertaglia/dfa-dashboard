@@ -1,0 +1,75 @@
+{
+  "doc_id": "F33093521",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:39:36Z",
+    "finished_at": "2026-04-14T09:39:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Android App Installation Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google's plan to soon take away users' ability to install Android applications that are not approved by them."
+              },
+              {
+                "quote": "the ability of a centralized, unsupervised, actor who themselves publishes apps to ban apps they do not approve of undermines the freedom of the software market as a whole."
+              },
+              {
+                "quote": "in an effective duopoly in the mobile OS market, where it is hard for users to install alternative OSes, sometimes artificially so, with manufacturers hindering users in their attempts."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15348,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to draw your attention to the issues linked to Google's plan to soon take away users' ability to install Android applications that are not approved by them. While there are legitimate reasons to impose default restrictions, it should, ultimately, be every users' choice to install whichever application they wish on the smartphone they paid for and own. What's more, the ability of a centralized, unsupervised, actor who themselves publishes apps to ban apps they do not approve of undermines the freedom of the software market as a whole. Certainly in an age of creeping digitisation of every aspect of life, including governments presence on digital platforms, abusing such powers could have dire consequences for those involved. Also remember the context is that of an effective duopoly in the mobile OS market, where it is hard for users to install alternative OSes, sometimes artificially so, with manufacturers hindering users in their attempts. As a final note, let me to share this article which explains the implications of the Developer Registration Decree for F-Droid, an alternative app store for Android: https://f-droid.org/en/2025/09/29/google-developer-registration-decree.html",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.629485Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33093521.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33093521",
+    "chunks_doc_id": "F33093521",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33093521.clean.paragraph.json"
+}

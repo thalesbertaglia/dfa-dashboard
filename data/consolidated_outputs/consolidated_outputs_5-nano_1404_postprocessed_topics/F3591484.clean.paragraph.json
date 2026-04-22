@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591484",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:41Z",
+    "finished_at": "2026-04-14T13:35:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Banks should not **know** what I'm buying."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13655,
+          "unit_kind": "feedback"
+        },
+        "text": "Mastercard, Visa, and other credit or banking companies should not dictate what is and is not allowed to be sold. The privacy of a consumer's property has been and should continue to be a keystone practice in protecting the consumers from forfeiting any and all personal, private information to a huge third-party conglomerate ran by out-of-touch executives who don't care about anything other than their bottom line. Banks should not care if I'm buying porn. Banks should not **know** what I'm buying. The use of one individual's money is nobody's business besides their own and whoever they feel comfortable sharing it with, and companies like Mastercard and Visa should be required to uphold that because their intrusion and the signaling that they expect to have more control over and knowledge of an individual's own private purchase is unprofessional at best and dangerously invasive at worst. If this idea of the credit banks monopolizing and policing any individual person's use of their money goes through, what comes next? Alternatives like PayPal follows right after? The local government? When does it stop? When will the fight to keep our autonomy subside?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.870718Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591484.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591484",
+    "chunks_doc_id": "F3591484",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591484.clean.paragraph.json"
+}

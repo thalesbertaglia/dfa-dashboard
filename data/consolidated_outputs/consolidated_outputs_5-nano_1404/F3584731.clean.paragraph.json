@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584731",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:08:04Z",
+    "finished_at": "2026-04-14T12:08:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Steam and itch.io started removing thousands of games"
+              },
+              {
+                "quote": "One day your game is there, the next its gone because some payment processor in another country decided they dont like it."
+              },
+              {
+                "quote": "If I buy something, I should be able to keep it."
+              },
+              {
+                "quote": "The way things are now, banks and payment companies get to decide what content is allowed, and regular people who actually pay for this stuff have no say at all."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28337,
+          "unit_kind": "feedback"
+        },
+        "text": "Im writing this because Ive honestly had enough of the way digital games and creative content keep getting yanked away from people who paid for them. Just this week, Steam and itch.io started removing thousands of games, a lot of them adult or indie titles, just because banks or payment companies apparently pressured them. It wasnt even about breaking any lawssuddenly whole categories of games, including LGBTQ stories and harmless indie projects, just dissapeared overnight. Nobody on those platforms got a warning, and theres no real way to appeal it. One day your game is there, the next its gone because some payment processor in another country decided they dont like it. At the same time, there are still publishers shutting down games that people bought and paid for, making them completely unplayable when the servers go offline. I keep seeing news about this happening more and more, and everyone I know who plays games is sick of it. If I buy something, I should be able to keep it. Thats just common sense. The way things are now, banks and payment companies get to decide what content is allowed, and regular people who actually pay for this stuff have no say at all. Its not right. If this Digital Fairness Act is supposed to protect people, it should make sure that digital products dont just vanish after you buy them, and that outside companies like banks cant secretly force platforms to censor stuff without being open about it. At the very least, there should be some transparency and a real way to push back. Otherwise, whats the point of talking about fairness at all?",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.377441Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584731.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584731",
+    "chunks_doc_id": "F3584731",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

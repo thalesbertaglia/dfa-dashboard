@@ -1,0 +1,69 @@
+{
+  "doc_id": "F33096977",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:36:29Z",
+    "finished_at": "2026-04-14T11:36:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "render the software you purchased or licensed inoperable, or deny you access to it for any reason other than failure to pay for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15654,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital goods and licenses should be granted all the same protections as other kinds of property. Currently, many software companies act as if they have the right to render bought or licensed software products unusable at their own discretion, for any reason or no reason, without compensation. As a typical example, the product is designed and made dependent on an external online service which is then shut down, rendering the product inoperable, and the justification can be as flimsy as the company simply wishing to sell you a newer product. In real world terms, this is comparable to a situation where a car manufacturer repossesses your car simply because they want to sell you another car. This kind of brazen theft would be unthinkable, yet the equivalent happens daily in software. In no other context would this kind of one-sided arbitrary denial of access to lawfully purchased or licensed property be considered lawful or acceptable, but many software companies brazenly use legal gray areas to quite literally steal the thing they sold you back. This practice is deleterious to consumer trust as well as contrary to simple common-sense justice, and should be explicitly outlawed. It should be made into EU law, in explicit terms, that software companies cannot through action or inaction render the software you purchased or licensed inoperable, or deny you access to it for any reason other than failure to pay for it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.028244Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33096977.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33096977",
+    "chunks_doc_id": "F33096977",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33096977.clean.paragraph.json"
+}

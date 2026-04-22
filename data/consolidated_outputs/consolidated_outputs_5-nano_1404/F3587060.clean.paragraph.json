@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587060",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:10Z",
+    "finished_at": "2026-04-14T13:09:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Safeguarding digital entertainment, in particularly video games from being permanently lost or made unusable."
+              },
+              {
+                "quote": "A number of titles have already vanished, leaving paying customers without access to products they rightfully own."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Addressing the growing influence of third-party platforms that pressure creators and distributors to alter or remove legal content based purely on subjective standards."
+              },
+              {
+                "quote": "This kind of interference arguably constitutes an unfair business practice as outlined in the Act."
+              },
+              {
+                "quote": "We've seen major payment processors compel vendors to delist materials that, while lawful, don't align with their internal policies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39710,
+          "unit_kind": "feedback"
+        },
+        "text": "Im in favor of the proposals outlined in this Act and would like to offer two further points for consideration: Safeguarding digital entertainment, in particularly video games from being permanently lost or made unusable. A number of titles have already vanished, leaving paying customers without access to products they rightfully own. This raises serious concerns about consumer rights. I dont want to live with the uncertainty that something I purchase today might be revoked tomorrow. The recent Stop Destroying Videogames campaign, which has gathered nearly 1.5 million signatures, is a valuable resource that illustrates the urgency of this issue. Addressing the growing influence of third-party platforms that pressure creators and distributors to alter or remove legal content based purely on subjective standards. We've seen major payment processors compel vendors to delist materials that, while lawful, don't align with their internal policies. This kind of interference arguably constitutes an unfair business practice as outlined in the Act, and it disproportionately impacts smaller creators and niche markets. If this trend continues unchecked, it could lead to broader consequences, including censorship and the economic marginalization of independent voices. In short, these patterns are concerning and deserve proactive oversight.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.423980Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587060.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587060",
+    "chunks_doc_id": "F3587060",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3585891",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:11Z",
+    "finished_at": "2026-04-14T12:40:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one sided terms change"
+              },
+              {
+                "quote": "my lifetime license was phased out without asking, notifying or me agreeing on these new terms"
+              },
+              {
+                "quote": "locking away the possibility to use older version of their software that had the older terms of service."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26924,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello this is from a student from Finland. I think EU has a stong reputation in digital rights and its known worldwide from it, but it is lacking in one area: consumer rights. Why can companies sell you lifetime access for services but can backtrack without any problems? This shoudnt be a possibility for companies to abuse consumer trust in their services and break it whenever they feel like doing so or it isnt profitable enought and we should have laws in EU for it. Included pictures show should be illegal one sided terms change from the Texas Instruments with they telling that my lifetime license was phased out without asking, notifying or me agreeing on these new terms and locking away the possibility to use older version of their software that had the older terms of service. EU has made some really strong and good decisions in the past that have made global changes like forcing apple to change its chargers to the better and newer standard so in my opinion EU could make a big change in the whole world by standing up to consumer abusing companies and solidify its reputation as a global powerhouse that makes big corporations change for better. Thanks for reading and have a great day/ kiitos että luit ja mukavaa päivää",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.973418Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585891.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585891",
+    "chunks_doc_id": "F3585891",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585891.clean.paragraph.json"
+}

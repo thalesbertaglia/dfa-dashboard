@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585289",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:27Z",
+    "finished_at": "2026-04-14T12:24:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "major game publishers increasingly treat games not as digital goods that consumers own, but as paid services that can be revoked at any time."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription-based games, such as the MMORPG World of Warcraft, where it is explicitly stated that access depends on an ongoing subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terms of service that allow them to withdraw support for a game at their discretion."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22137,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent years, a troubling trend has emerged: major game publishers increasingly treat games not as digital goods that consumers own, but as paid services that can be revoked at any time. Traditionally, purchasing a game has been understood as acquiring a digital product with no expiration date, something the buyer could keep and play indefinitely. The clear exception to this model has always been subscription-based games, such as the MMORPG World of Warcraft, where it is explicitly stated that access depends on an ongoing subscription. Consumers rightly expect that if a game is not marketed as a subscription service, it should remain accessible indefinitely, just like classic titles from earlier eras. However, more and more publishers now include terms of service that allow them to withdraw support for a game at their discretion. This effectively turns every game into a time-limited service, regardless of how it is sold. In my view, this practice demands regulatory scrutiny. Publishers should be required to clearly disclose whether a game may become unavailable in the future. Some initiatives, such as the \"Stop Killing Games\" movement, are already pushing for greater consumer protection in this space. But even before broader regulation is enacted, a crucial first step would be transparency: consumers should know when they are buying a product that can be taken away at any time. This growing trend of turning digital products into subscription-based services extends far beyond the gaming industry. In the broader IT world, products that were once marketed and sold as one-time purchases are increasingly being repackaged as subscriptions, often with no added value, and seemingly for the sole purpose of maximizing profit at the consumers expense. A prominent example is Microsoft Office 365, which has largely replaced the one-time-purchase model of earlier Office versions. While manufacturers certainly have the right to choose their business model, the concern arises in markets where a few dominant companies hold overwhelming influence. In such environments, the lack of competitive alternatives means consumers are left with little choice but to accept subscription-based access, regardless of whether it serves their best interest. If this trend continues without regulatory or market pushback, more and more digital products will be sold as services, to the detriment of consumer ownership, autonomy, and long-term value. In my humble opinion, a regulatory mechanism must be introduced to discourage manufacturers from defaulting to the subscription model for digital products. Since defining strict eligibility criteria for what qualifies as a subscription-based service would be difficult to enforce, and could easily be circumvented through legal loopholes, a more practical approach might be to impose higher taxes on subscription-based digital offerings. This would create a financial disincentive without outright banning the model. Of course, there may be other, more effective solutions that legal experts and policymakers could develop. Thank you for taking my feedback into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.668969Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585289.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585289",
+    "chunks_doc_id": "F3585289",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

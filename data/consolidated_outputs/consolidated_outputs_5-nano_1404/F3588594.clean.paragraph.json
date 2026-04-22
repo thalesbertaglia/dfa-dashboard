@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3588594",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:12Z",
+    "finished_at": "2026-04-14T13:24:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling (with all the psychological manipulation that goes along with that) into games for children"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in-game purches, which you lose as well when the game is killed."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shut them down completely, take them from the stores and prevent users that already bought said game to access their bought product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26768,
+          "unit_kind": "feedback"
+        },
+        "text": "Companies have added so many monetization methods to their games over the years while at the same time being allowed to shut them down completely, take them from the stores and prevent users that already bought said game to acces their bought product. That is very unfair to the consumer. Its just wild to me, that its okay to add gambling (with all the psychological manipulation that goes along with that) into games for children, but its not okay to guarantee that consumers can play the game they paid money for. This also concerns so called \"Free to play\" games, since those games are financed by in-game purches, which you lose as well when the game is killed. Here are some concrete examples of games this happened to: - Overwatch (Blizzard Entertainment, 20162022):Over 50 Million (!) sold copies - now those 50 million consumers cant acces their game anymore. - The Crew (Ubisoft, 20142024) - Lego Universe (Warner Bros./The Lego Group, 20102012): Shut down after only 15 months of service. All costumers have been permanently locked out from their game. - Warhammer Online: Age of Reckoning (Mythic/EA, 20082013) - Marvel Heroes Omega (Gazillion/Disney, 20132017) - AirMech Arena (Ubisoft, 20142020) - Age of Empires: Castle Siege (Microsoft, 20142019) - Defiance (Trion/Gamigo, 20132021) - Tom Clancys Ghost Recon Phantoms (Ubisoft, 20142016) - Babylons Fall (PlatinumGames/Square Enix, 20222023) - Battlefield 1943 (EA, 20092023) - Battleborn (Gearbox/2K, 20162021) - Battlefield Heroes, Battlefield Play4Free, Need for Speed: World und FIFA World: Taken out all on the same day: Jul. 15th 2015 - Evolve (Turtle Rock/2K, 20152023) and many more",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.658911Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588594.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588594",
+    "chunks_doc_id": "F3588594",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

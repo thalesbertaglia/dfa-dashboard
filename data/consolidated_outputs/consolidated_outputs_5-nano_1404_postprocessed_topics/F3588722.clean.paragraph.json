@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3588722",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:24Z",
+    "finished_at": "2026-04-14T13:25:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "rights to avoid products you purchased be deleted/deactivated, such as video games and smart devices."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17222,
+          "unit_kind": "feedback"
+        },
+        "text": "I would love to see this include the rights to avoid products you purchased be deleted/deactivated, such as video games and smart devices. I would also really want to see an effort made to simplify the language of EU legislation to make it easier to interpret, including for regular people. Despite being more proficient in English legal language, I typically find Norwegian law vastly easier to understand than EU law.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.679097Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588722.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588722",
+    "chunks_doc_id": "F3588722",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588722.clean.paragraph.json"
+}

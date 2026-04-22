@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3585563",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:28Z",
+    "finished_at": "2026-04-14T12:31:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "really hard to unsubscribe or cancel"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling stuff in games like loot boxes"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It felt like they were trying to trap me into paying longer than I wanted."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sell digital stuff as a product, and then later change the rules and say actually it's a service now."
+              },
+              {
+                "quote": "It shouldnt be hidden in the fine print or changed after the fact."
+              },
+              {
+                "quote": "what theyre buying is it a product? a service? a bit of both?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34403,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the Digital Fairness Act initiative. Ive personally had a bad experience with online services that made it really hard to unsubscribe or cancel. It felt like they were trying to trap me into paying longer than I wanted. Some of my friends have also been hurt financially by gambling stuff in games like loot boxes. I support the Stop Destroying Games Initiative and believe that media conservation is important, video games as well as books, movies, music etc. I also think its wrong for companies to sell digital stuff as a product, and then later change the rules and say actually it's a service now. People should be told clearly what theyre buying is it a product? a service? a bit of both? It shouldnt be hidden in the fine print or changed after the fact. At the same time, I get that making software and digital products isn't easy. It takes money, time, and there's always the risk someone just copies your idea. So I understand that companies want to protect what they build. If laws arent written carefully, they could accidentally hurt the people trying to make new things by making it too easy to steal or abuse their work. There needs to be a fair balance. Protect consumers, they shouldn't be tricked or left in the dark but at the same time don't make it impossible for honest companies to survive or innovate. We need rules that support a digital market thats both fair and creative, without one side always losing out.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.804643Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585563.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585563",
+    "chunks_doc_id": "F3585563",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585563.clean.paragraph.json"
+}

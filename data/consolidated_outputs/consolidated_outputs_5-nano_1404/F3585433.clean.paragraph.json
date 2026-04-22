@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585433",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:31Z",
+    "finished_at": "2026-04-14T12:27:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns where they make the 'no cookies please' button hard to see and put it next to the 'yes please' button that's eye searingly noticeable, or switch the two buttons around when they ask a second time to make sure you don't want their things"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the preservation of video games is added to this list"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24120,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to support this initiative because I'm so tired of the big corporations doing all this. I hate it. The amount of times i run into dark patterns where they make the 'no cookies please' button hard to see and put it next to the 'yes please' button that's eye searingly noticeable, or switch the two buttons around when they ask a second time to make sure you don't want their things, is ridiculous. In addition, I'd like to request that the preservation of video games is added to this list because i have already lost several games over the years that i paid honest money for and literally cannot play because they were online games, and the publisher shut down the servers without allowing us to make our own. One of my favourites, for example, was Magicka Wizard Wars, which technically speaking does have a server operated by the community, but to get that done, the community is technically breaking the law, both by modifying a proprietary file that belongs to Paradox, *and* by circumventing Paradox's systems. ALL to just let us play the game we paid for! It wasn't even a generic game like call of duty either. Magicka has the most inventive magic casting system i have ever seen in any video game and there literally is no other game with a casting system like Magicka, and we literally cannot play Wizard Wars against each other, a game we paid for, because the publisher didn't want to spend the tiny amounts of money, running servers for a couple hundred players, or open sourcing the server code and/or the game, so we can just host our servers legally. Or we can literally break the law to have our way. This is just not acceptable and hundreds of games have already fallen victim to this, and will continue to fall victim, and we cant even get refunds because noone cares about us! The stop killing games wiki has a list of dead games, which i am scared of posting a link for, lest i get accused of being a bot. For good reason, but still.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.740969Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585433.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585433",
+    "chunks_doc_id": "F3585433",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

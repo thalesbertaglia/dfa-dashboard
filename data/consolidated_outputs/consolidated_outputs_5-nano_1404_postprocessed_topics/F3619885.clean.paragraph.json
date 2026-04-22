@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3619885",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:16Z",
+    "finished_at": "2026-04-14T13:42:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "premium currencies in video games are a prime example of a dark pattern."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I also consider loot boxes and things similar to that that can be bought with real money should be banned."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "obfuscate how much items in in-game stores really cost."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22945,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe that premium currencies in video games are a prime example of a dark pattern. Most of the time, they are sold in bundles and consumers can't choose a specific amount that they want to buy. Oftentimes, video game companies will give consumers options to buy bundles of these currencies that either don't contain enough or contain too much of the premium currency for what the consumers want to buy. Consumers then buy the bundle that contains more than they need and they are left with some premium currency remaining. They don't want that to go to waste so they buy more of the premium currency to buy something else. Now the company succesfully made these consumers spend more money than they originaly intended. Premium currencies also obfuscate how much items in in-game stores really cost. In my opinion premium currencies in video games should be banned and everything in in-game stores should be available for purchase directly with real money like the euro. I also consider loot boxes and things similar to that that can be bought with real money as really bad as they are just a light version of gambling. The only difference is that with lootboxes you can't chase losses. Again I think that any lootbox or something similar to that that can be bought with real money should be banned.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.020183Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3619885.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3619885",
+    "chunks_doc_id": "F3619885",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3619885.clean.paragraph.json"
+}

@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584365",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:15Z",
+    "finished_at": "2026-04-14T11:56:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "proctetion of videogames for consumers"
+              },
+              {
+                "quote": "video-games"
+              },
+              {
+                "quote": "the ending of life-services of video-games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17812,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, as citicens of the EU i think that the digital fairness act should cover the proctetion of videogames for consumers, not only companies should have the last word in the ending of life-services of video-games people have pay money to have, as should reach with the consumers to settle in a way for the product to still be enjoyed in as full campacityas elected by consumers. Also the way companies treat videogames now can be leak into other form of digital products. If this read i humbly ask to have this terms reveised finds a solution in the best way they can.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.198644Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584365.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584365",
+    "chunks_doc_id": "F3584365",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

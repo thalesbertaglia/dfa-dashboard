@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585694",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:53Z",
+    "finished_at": "2026-04-14T12:34:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online games are shut down."
+              },
+              {
+                "quote": "Players should have the right to preserve and continue accessing games they've paid for, even if the original servers are no longer available."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11384,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the Digital Fairness Act and believe it should include protections for players when online games are shut down. People spend years building memories, friendships, and communities in these games, and it's frustrating when a company shuts everything down and makes the game completely unplayable. I've seen this happen with very different games-Club Penguin, a social game aimed at kids, and Counter-Strike 2 Online, a competitive shooter. In both cases, once official support ended, dedicated fans stepped in to preserve them. It didn't matter what kind of game it was- people cared enough to keep them running. Players should have the right to preserve and continue accessing games they've paid for, even if the original servers are no longer available.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.874950Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585694.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585694",
+    "chunks_doc_id": "F3585694",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585694.clean.paragraph.json"
+}

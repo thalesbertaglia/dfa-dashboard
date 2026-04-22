@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587109",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:34Z",
+    "finished_at": "2026-04-14T13:11:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one common example is video games"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "putting the consumers' private data at risk."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28283,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am mostly missing 2 things from the initiative. The first is that it does not protect online consumers while buying a product (one common example is video games). Companies can sell a product without the consumers owning it and it can be subject to the publishers decisions without prior notice. The second one is online privacy protection. With the rise of needing to verify yourself to gain access sites (which I feel completely unnecessary and intrusive), there is no guarantee for the consumers safety and even if the company claims it is handled well, there are no high enough standards they must follow, putting the consumers' private data at risk. Not to mention, some companies don't even claim to handle the information with care. This allows companies, governments to spy on people and abuse the system. While this issue has been covered by DSA (Digital Services Act), however I believe it does not guarantee the safety of consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.439466Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587109.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587109",
+    "chunks_doc_id": "F3587109",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

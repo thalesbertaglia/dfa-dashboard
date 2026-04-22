@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3588038",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:06Z",
+    "finished_at": "2026-04-14T13:22:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This includes games that are sold as one-time purchases or live service games that sell microtransactions."
+              },
+              {
+                "quote": "In the case of one-time purchase games, this means the removal of any DRM that prohibits the end user from preserving their purchase."
+              },
+              {
+                "quote": "The aim is to stop future games from being taken away from customers that bought them."
+              },
+              {
+                "quote": "Game publishers have been guilty of this for too long which is why an initiative such as 'Stop Killing Games' has become prevalent this past month."
+              },
+              {
+                "quote": "This initiative is also worth considering as an addition to the 'Digital Fairness Act' as it covers consumer protection in the online world."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27327,
+          "unit_kind": "feedback"
+        },
+        "text": "Companies that sell products as goods or sell individual goods in them (known as microtransactions) should not be allowed to revoke access to the product when the consumers money has already been taken. Consumers should have the ability to own any product they pay for, especially in a digital world where companies have too much power of ownership over goods the customer has purchased. Game publishers have been guilty of this for too long which is why an initiative such as 'Stop Killing Games' has become prevalent this past month. The aim is to stop future games from being taken away from customers that bought them. This includes games that are sold as one-time purchases or live service games that sell microtransactions. In the case of one-time purchase games, this means the removal of any DRM that prohibits the end user from preserving their purchase. In the case of live service games this is not retroactive and only requires future titles to have an end-of-life plan that allows the community or individual peers to continue supporting the game on their own systems. This initiative is also worth considering as an addition to the 'Digital Fairness Act' as it covers consumer protection in the online world.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.606783Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588038.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588038",
+    "chunks_doc_id": "F3588038",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588038.clean.paragraph.json"
+}

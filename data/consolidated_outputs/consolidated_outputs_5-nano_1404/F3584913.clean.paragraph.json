@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3584913",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:16Z",
+    "finished_at": "2026-04-14T12:14:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would love to see this Act being expanded to video games as well."
+              },
+              {
+                "quote": "online only or games which most of it's content reside in the online sections can be potentially vulnerable of being lost media."
+              },
+              {
+                "quote": "shut down all of it's online services without any way or help for individuals to be able to run their own server"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21919,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission! I would love to see this Act being expanded to video games as well. In the last 15 years, the amount of online only or games which most of it's content reside in the online sections can be potentially vulnerable of being lost media. Several important or genre altering / defining games are at risk where it's publisher team decides to shut down all of it's online services without any way or help for individuals to be able to run their own server or anything similar way of being able to play the game after the official servers shut down. I will present bring anti examples, since other responders have already mentioned some recent games of being lost soon. If not for these companies minimum act of decency, we would have already lost games such as NFS: The World, Test Drive Unlimited 2 (this is a genre defining game, which spawned off the festival racing games, such as Forza Horizon) and several others. Thank you for reading my feedback, and I'm highly grateful of your unparalleled attention to privacy, consumer protection, and general health improving laws. Sincerely, Peter",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.499409Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584913.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584913",
+    "chunks_doc_id": "F3584913",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

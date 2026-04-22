@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585619",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:39Z",
+    "finished_at": "2026-04-14T12:32:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End User License Agreement (EULA) clause allowing them to revoke access at any time for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ubisoft recently revoked access to \"The Crew\", a product customers paid for, despite it containing features that could have run offline."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors censoring legal content: Visa, prompted by the activist group Collective Shout, has pressured digital platforms like Steam and Itch.io to censor legally permissible content."
+              },
+              {
+                "quote": "Visa's decisions override local laws and platform safeguards, infringing on freedom of expression and digital sovereignty."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32709,
+          "unit_kind": "feedback"
+        },
+        "text": "Id like to raise two issues regarding digital fairness: 1. Companies revoking access to paid digital goods, 2. Payment processors censoring legal online content. Revoking access to paid digital goods: This issue, now prominent in the games industry, could spread to any sector using software licensing (e.g., office tools). Ubisoft recently revoked access to \"The Crew\", a product customers paid for, despite it containing features that could have run offline. With little notice, the game was deactivated entirely. Legally, Ubisoft relied on an End User License Agreement (EULA) clause allowing them to revoke access at any time for any reason. This is an abusive term that strips consumers of meaningful protections and ownership. It's prompted the Stop Destroying Videogames initiative, which has received over 1.4 million signatures. I urge you to introduce regulations preventing companies from enforcing such exploitative termsterms that could undermine consumer rights across all digital services if left unchecked. Payment processors censoring legal content: Visa, prompted by the activist group Collective Shout, has pressured digital platforms like Steam and Itch.io to censor legally permissible content. Visa claims neutrality, stating they only act against illegal activity. But recent actions target adult content that, while potentially controversial, is lawful. This is censorship. Visa's decisions override local laws and platform safeguards, infringing on freedom of expression and digital sovereignty. Their rationaleto protect childrenignores that this role belongs to parents and platforms, not financial institutions. Today its adult content. Tomorrow it could be political speech. We cannot allow financial infrastructure to dictate moral standards or restrict legal content. I call on regulators to compel payment processors to uphold their stated role: processing legal paymentsnothing more. Thank you for reading. My words are driven by frustration shared by many communities, alarmed at how a few powerful actors are restricting the rights of the manywhether for profit or in the name of morality. I hope this message helps bring about a more equitable digital future. Catalin Ispas",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.836110Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585619.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585619",
+    "chunks_doc_id": "F3585619",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585619.clean.paragraph.json"
+}

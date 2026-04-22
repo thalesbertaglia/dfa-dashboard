@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33079493",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:41Z",
+    "finished_at": "2026-04-14T09:30:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers destroying videogames after the sale."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment Processors censoring the internet like they're some sort of legislators."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18801,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I'm going to have to bring up 2 really serious issues, the first one is about publishers destroying videogames after the sale. The second (and admittedly more important) is about Payment Processors censoring the internet like they're some sort of legislators. (1) First issue; Publishers destroying videogames people already bought and paid for. It's really simple. Why are they allowed to remotely disable my game that I bought years ago (physical or otherwise). Not that long ago, when we bought a videogame, we owned it, but as the digital/internet era unfolds we're losing that basic right, and this is a huge problem for both consumer rights and videogame preservation. A good example is what Ubisoft did with The Crew, which I used to own. But now is no longer playable even in single player mode because the entire game relied on servers that no longer exist. A possible solution would be for videogames released going forward to have an end of life plan so that they're left in a playable state after support ends. It's worth mentioning that there has been a European Citizen's Initiative regarding this issue, and it got over 1.4 million signatures. (2) As for the bigger issue, this one concerns everything sold online; Credit Card companies and Payment Processors are exploiting their monopoly to censor content and essentially decide what we're allowed to buy, because apparently we now have to get their permission before we can spend our hard earned money. They started forcing platforms like Steam and Itch.io to remove certain types of content they don't like and so far have seen way too much success, because apparently the alternative for online platforms is not being able to process payments at all. Right now their focus seems to be on removing adult content, but what stops them from inforcing this \"moral code\" of theirs to start banning media/products over other reasons, like political views? This is monopolistic behavior and needs to stop. They should not have that much power, and I foresee a very dark future if we don't find a way to put an end to this as soon as possible. I sincerely hope you can help us deal with these issues. Thank you for your attention.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.523451Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33079493.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33079493",
+    "chunks_doc_id": "F33079493",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33079493.clean.paragraph.json"
+}

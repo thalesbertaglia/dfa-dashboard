@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3590594",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:50Z",
+    "finished_at": "2026-04-14T13:34:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to see the initiative tackle the practice of games (and occasionally other software) requiring an installation of software running at the kernel level unnecessarily."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This type of software has access to all the secrets stored by the device. Passwords, private communication, and user habits may all be extracted by this type of software."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "updates which force users to start paying subscriptions fees to continue using the devices they have already paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unavoidable software updates to already purchased devices with sole purpose of degrading their functionality or performance."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29668,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital fairness, security and sovereignty are very important topics to me. I would like to see the initiative tackle the practice of games (and occasionally other software) requiring an installation of software running at the kernel level unnecessarily. This type of software has access to all the secrets stored by the device. Passwords, private communication, and user habits may all be extracted by this type of software. Additionally, publishers may not always be trusted, deploying software with bugs, critical vulnerabilities or using it for ulterior motives (mining bitcoin on user's machine). I believe that this type of software reaches too far into consumers machines, imposing unnecessary risk for the consumers. With such initiative in place, I hope to see the EU tackle some of the challenges consumers are facing in the digital world. With digital and physical products being more and more intertwined, I believe that this motion could also address the fairness of anti-consumer practices put forth by internet reliant or internet enabled devices. I find it unacceptable, that companies are permitted to upload unavoidable software updates to already purchased devices with sole purpose of degrading their functionality or performance. Notable examples include: phone updates which degrade battery performance, updates which force users to start paying subscriptions fees to continue using the devices they have already paid for. I also dislike the practice of companies making software downgrading impossible. The user should be able to revert the device to the purchased state at any point, even after one of the previously mentioned updates. I find this issue to be most prevalent with mobile or IoT (internet of things) devices, as after a software update, restoring the previous software version is virtually impossible without specialized tools or dedicated exploits. I would like to see a discussion regarding those issues. Customers buying any device should never have to worry about the manufacturer releasing a software update, which makes the purchased device inoperable. Not only that, the users should be able to install any software version that was previously available for the device, in case that new features reduce the usability of the device for the user.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.831166Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590594.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590594",
+    "chunks_doc_id": "F3590594",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590594.clean.paragraph.json"
+}

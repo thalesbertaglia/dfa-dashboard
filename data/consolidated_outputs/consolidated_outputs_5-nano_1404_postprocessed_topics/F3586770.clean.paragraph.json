@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586770",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:20Z",
+    "finished_at": "2026-04-14T13:03:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Game Publishers shutting down video games that people have paid for, preventing access to them."
+              },
+              {
+                "quote": "Games should have some sort of end of life plan where they stay playable even when the official online services are shut down."
+              },
+              {
+                "quote": "Publishers sometimes shut down the games just to force the consumers to buy newer titles."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12869,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital Fairness Act should also work against Video Game Publishers shutting down video games that people have paid for, preventing access to them. Games should have some sort of end of life plan where they stay playable even when the official online services are shut down. Publishers sometimes shut down the games just to force the consumers to buy newer titles.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.341241Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586770.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586770",
+    "chunks_doc_id": "F3586770",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586770.clean.paragraph.json"
+}

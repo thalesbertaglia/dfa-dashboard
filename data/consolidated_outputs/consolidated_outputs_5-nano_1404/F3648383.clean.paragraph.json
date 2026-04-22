@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3648383",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:13Z",
+    "finished_at": "2026-04-14T13:43:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "OS Install Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "If I can no longer install what I want on my smartphone, but Google decides what I can and cannot install, I see my freedoms immensely constrained."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17591,
+          "unit_kind": "feedback"
+        },
+        "text": "It is extremely important to me to have the freedom to run my software on my hardware. I want to have control over what I can use. The only two smartphone operating systems are iOS and Android. I have actively done so because of the freedoms of Android. If I can no longer install what I want on my smartphone, but Google decides what I can and cannot install, I see my freedoms immensely constrained. Especially in this modern and digital world, we need the opportunity to install what you want. Please use the right sign and act for the people living in Europe, rather than just a big group.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.045009Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3648383.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3648383",
+    "chunks_doc_id": "F3648383",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

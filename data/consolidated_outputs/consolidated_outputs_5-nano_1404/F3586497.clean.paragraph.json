@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586497",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:57:56Z",
+    "finished_at": "2026-04-14T12:58:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The first is that there is no mention whatsoever of the currently all too common practice of video game publishers to stop making their games playable after a certain previously undisclosed point in time."
+              },
+              {
+                "quote": "Ubisoft, a major publisher, even recently updated its EULA to force players to destroy the physical copy of their games once they decide to stop support for it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35207,
+          "unit_kind": "feedback"
+        },
+        "text": "The objectives laid out by the Digital fairness act seem noble, but I believe they are missing some key points which have grown exceptionally prudent recently. The first is that there is no mention whatsoever of the currently all too common practice of video game publishers to stop making their games playable after a certain previously undisclosed point in time. it should not be possible for a company to revoke a buyer's access to their product after the buyer has purchased it. It is of course not feasible to expect companies to continue to support these games indefinitely, but it is both feasible and necessary that the publishers of these games make their products continue to be playable even after they choose to end support for them. Video games are art, and they are a completely uniquely interactive artistic medium in that they allow the consumer of this art to shape their own experience with it. Ubisoft, a major publisher, even recently updated its EULA to force players to destroy the physical copy of their games once they decide to stop support for it. This is patently absurd and needs to be halted. Allowing publishers to simply revoke access at any time without giving players any recourse to keep access to the product they already bought sees hundreds of unique experiences destroyed each year with no possibility for ever getting them back. The second is the currently discourse surrounding payment processors and their undue influence on online storefronts. Hundreds of thousands of games, each a unique experience, were delisted or removed from the two most popular online storefronts being itch.io and steam because major payment processors threatened to withhold use of their services if they didn't comply to their arbitrary demands of which content should be allowed to be sold on them. Allowing this practice to continue in effect crowns these payment processors as sole arbiters of what video games can be. It constrains the artistic freedom of creators and denies consumers the ability to experience the vision of these artists. I don't need a payment processor to tell me when and where I can spend my own hard-earned money. It is anti-consumer, anti-art and needs to be stopped.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.263567Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586497.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586497",
+    "chunks_doc_id": "F3586497",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

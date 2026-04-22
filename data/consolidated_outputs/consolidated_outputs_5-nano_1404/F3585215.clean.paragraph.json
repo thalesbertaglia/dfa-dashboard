@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585215",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:46Z",
+    "finished_at": "2026-04-14T12:23:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the practice of destroying the ability for consumers to access their purchased games after official support has ended"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end-user license agreements which allow publishers to revoke access to product without breaking terms of service"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23936,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe it would be wise to add to this act the protection of digital media. More specifically, within the video-game industry, the practice of destroying the ability for consumers to access their purchased games after official support has ended, has become common place. This manifests in end-user license agreements which allow publishers to revoke access to product without breaking terms of service, leaving purchased products in unusable states. I believe these practices clearly take advantage of the lack of regulation in this regard and that is something that should be changed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.639197Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585215.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585215",
+    "chunks_doc_id": "F3585215",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

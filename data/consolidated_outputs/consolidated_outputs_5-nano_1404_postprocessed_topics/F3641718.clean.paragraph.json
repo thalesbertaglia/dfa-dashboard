@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3641718",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:06Z",
+    "finished_at": "2026-04-14T13:43:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Bootloader Unlocking",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "unlock bootloader"
+              },
+              {
+                "quote": "Universal Bootloader Unlock on android"
+              }
+            ]
+          },
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "free sideload, Google had the good idea of putting sideload on android behind id verification."
+              }
+            ]
+          },
+          {
+            "topic": "Used Game Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "2- play integrity, it's simply pathetic the excuse root is bad for security when root works fine on every desktop system."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23976,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear commission, android has several issues: 1- users that buy an android device don't have power to unlock bootloader, this is in control of the brand or of the carrier, while for the carrier would make sense it should allow the user to buy the device and in case paying the remaining amount of the contract or binding the user so it won't be able to exit the contract and then allow him to unlock bootloader. This is not just a modding thing, bootloader unlock allows to install root. Root is having the administrator account on the device, without it's like having a computer with the guest account with the difference you can install programs and it won't reset every reboot. But you won't be able to do system modifications or anything meaningful at the system level. It MATTERS. 2- play integrity, it's simply pathetic the excuse root is bad for security when root works fine on every desktop system. This is an excuse for big tech to ban root and please big companies and shareholders. Now, to be honest play integrity for me is a problem BUT.... I urge first Europe to bring Universal Bootloader Unlock on android, without you won't be able to sell or distribute at all android devices, I say distribute because carriers won't have to slip through this. 3- free sideload, Google had the good idea of putting sideload on android behind id verification. This raises several issues, the first is that a lot of old apps will be banned because devs won't do verification for these apps, yes verification is per app. Another one is that devs that for some reason wanted to stay anonymous now won't be able to do it anymore (an example are emulators ones, those apps are gray area so shouldn't surprise they want to stay anonymous), the next issue is that if I as user want to do a small modification on an apk I won't be able to install it anymore, at ALL, no matter what because it won't be trusted. Of course this method Google is implementing would fight piracy but the side effects are too big, Google is also convinced that this would unmask who makes malware but no, they will find a workaround. Of course this is also a big data collecting by Google, but they implement it for security, I'm pissed of this excuse.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.040723Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3641718.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3641718",
+    "chunks_doc_id": "F3641718",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3641718.clean.paragraph.json"
+}

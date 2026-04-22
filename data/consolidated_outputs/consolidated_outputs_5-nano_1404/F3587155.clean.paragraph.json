@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3587155",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:53Z",
+    "finished_at": "2026-04-14T13:13:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns like anchoring"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addressing problematic personalisation practices"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are not an event."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 98430,
+          "unit_kind": "feedback"
+        },
+        "text": "A few points (from a video game point of view): The current objectives mentions 'addressing problematic personalisation practices'. There is at least one (in)famous talk called \"Lets go whaling: Tricks for monetising mobile game players with free-to-play\" where a developer recommends spending effort on converting 'whales' (large spenders) (if I recall correctly) using targeted cosmetics. Which is a recurring thing that has popped up in many games: a handful of players provide most of the income, and the items that can be bought are made to cater to their tastes. The talk also covers many other dark patterns like anchoring (eg 100 fake coins cost 5 euro, but 500 fake coins cost 10 euro so it must be a good purchase.) It's a good talk to see what developers are/have been actively doing to take advantage of people. And while the talk is aimed at free-to-play, it has not prevented companies from implementing similar models in fully paid up-front games. Which leads me to... ... games that require persistent access. These games, unless they were built with an alternate offline mode from the beginning, are only available at the leisure of the publisher. It doesn't matter if you were a \"whale\", from the previous paragraph, or someone who simply paid for the base game, you lose access all the same as long as there is no fallback and the developer is then not allocated time to retrofit the offline mode. In many older games, even if playing online was the main way to enjoy the game, it was usually accompanied with a LAN option, or 'Direct IP' where it would use either LAN discovery or allow users to connect to each other directly without the assistance of a central 'matchmaking server'. It should be noted though, that some game servers do more than just match up players and do more bookkeping. In those cases users would need a compatible server to connect to. In some cases this has been done as a community effort. For example Star Wars Galaxies, which was shut down in 2011 but due to fan effort there is still a possibility to enjoy it even today. The issue with this is, of course, that the people who paid for this entertainment product should not be required to perform unpaid labor to be able to play it again. Unlike a theater play, or going to the movies, video games are not an event. And either games that will some day no longer be available need to release a patch to make it available without the central server on the day it would otherwise be made unavailable, or they should be clearly marked, front and center, that it is just an entry-ticket to an event and will not be available after a certain period of time. Sorry for the word dump, but thanks for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.453339Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587155.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587155",
+    "chunks_doc_id": "F3587155",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

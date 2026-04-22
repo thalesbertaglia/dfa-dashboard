@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3586241",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:28Z",
+    "finished_at": "2026-04-14T12:51:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The publishers of software (in this particular case it pertains to games) publish software for purchase for use, but its actually a license with unclear expiration date."
+              },
+              {
+                "quote": "The publisher can, in other words, currently simply stop letting you use the software you purchased at an arbitrary point in the future."
+              },
+              {
+                "quote": "The goal of this initiative is not to force publishers to continue active service of their software, but to provide an end-of-life plan so that the software continues to function without support when the publisher decides to cease support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20685,
+          "unit_kind": "feedback"
+        },
+        "text": "As the Digital Fairness Act touches on matters of consumer rights, and unclear marketing, it seems fitting to also point to the Stop Destroying Videogames initiative: https://eci.ec.europa.eu/045/public/#/screen/home This is an initiative that basically calls out unclear business practices where the publishers of software (in this particular case it pertains to games) publish software for purchase for use, but its actually a license with unclear expiration date. The publisher can, in other words, currently simply stop letting you use the software you purchased at an arbitrary point in the future. The goal of this initiative is not to force publishers to continue active service of their software, but to provide an end-of-life plan so that the software continues to function without support when the publisher decides to cease support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.171570Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586241.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586241",
+    "chunks_doc_id": "F3586241",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

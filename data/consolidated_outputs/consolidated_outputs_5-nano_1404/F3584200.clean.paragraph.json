@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584200",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:04Z",
+    "finished_at": "2026-04-14T11:52:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"Stop Killing Games\" iniciative into this law."
+              },
+              {
+                "quote": "gambling in games"
+              }
+            ]
+          },
+          {
+            "topic": "Right To Repair",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "\"Right to repair\" into it, while you are at it?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35638,
+          "unit_kind": "feedback"
+        },
+        "text": "Well, it is what it is- I pay for it and I want to own it. I am asking for you to include \"Stop Killing Games\" iniciative into this law. Also, gambling in games- WHO NEED THIS? China BANNED IT ALREADY! CHINA! What are we waiting for? Are you all paid by them for not caring? Why dont you put \"Right to repair\" into it, while you are at it? Thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.122168Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584200.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584200",
+    "chunks_doc_id": "F3584200",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

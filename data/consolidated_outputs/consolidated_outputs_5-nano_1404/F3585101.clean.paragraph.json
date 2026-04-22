@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585101",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:06Z",
+    "finished_at": "2026-04-14T12:20:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there is no consumer protection against the fact that game developers simply switch off their online games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18829,
+          "unit_kind": "feedback"
+        },
+        "text": "Ladies and gentlemen, please consider extending the Digital Fairness Act a little and extending it to cover the protection of consumers of video games. At the moment, there is no consumer protection against the fact that game developers simply switch off their online games. So far so good. Online services have to pay for the business. However, this means that the user can no longer use the game even though he or she has paid for it. There are a number of solutions that would allow the game to be made available in one way or another. Not perhaps in its original form, but from an ‘offline mode’, through the introduction of a ‘peer to peer’ mode to the ‘dissemination of the server software’, there are many possibilities that would allow the developer to have a clean conclusion with the game and to ‘transfer to the user’. My request in brief: “Please include a wording that obliges game developers to install a possibility to continue using the game you paid for in some form. The developer is not yet responsible. This means to install an ‘end of life’ plan.’",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.596528Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585101.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585101",
+    "chunks_doc_id": "F3585101",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585659",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:36Z",
+    "finished_at": "2026-04-14T12:33:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to suggest including the topic of protecting video games and other media from being made unplayable after purchase."
+              },
+              {
+                "quote": "Because of current mechanisms of online distribution and Digital Rights Management it is possible for video game industry to control and revoke access to games people paid for."
+              },
+              {
+                "quote": "Therefore even with physical media still being in circulation they still may be rendered inaccessible."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to use the word \"buy\" in cases where only a revokable license is granted."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24657,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to suggest including the topic of protecting video games and other media from being made unplayable after purchase. There is already a Stop Killing Games citizen's initiative that gathered over 1.4 million signatures so the demand certainly exist. Because of current mechanisms of online distribution and Digital Rights Management it is possible for video game industry to control and revoke access to games people paid for. Therefore even with physical media still being in circulation they still may be rendered inaccessible. It would also help significantly to disallow redefinig basic terms like \"buy\" where nowdays every online distribution platform includes a user agreement clause that allows to use the word \"buy\" in cases where only a revokable license is granted.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.855963Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585659.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585659",
+    "chunks_doc_id": "F3585659",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585659.clean.paragraph.json"
+}

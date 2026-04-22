@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587173",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:29Z",
+    "finished_at": "2026-04-14T13:12:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dead/abandoned games source code"
+              },
+              {
+                "quote": "playable on private servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19760,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello dear members of the European commission, I don't understand why we can't own, or even buy dead/abandoned games source code at some point, perhaps if game owners made the game playable on private servers even after the official servers are discontinued, maybe this whole thing wouldn't be well..a thing in the first place...but hey greediness..amirite? Thx 4 your time !",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.460232Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587173.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587173",
+    "chunks_doc_id": "F3587173",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587173.clean.paragraph.json"
+}

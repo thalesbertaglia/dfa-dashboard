@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587105",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:10:15Z",
+    "finished_at": "2026-04-14T13:10:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The terms and conditions document for digital video games should reinforce the fact that the consumer is buying a product."
+              },
+              {
+                "quote": "This cannot be said of this new breed of digital only, always online games, which can be unceremoniously shut down, with the consumer having nothing to say about it - even when they paid full price at release."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29773,
+          "unit_kind": "feedback"
+        },
+        "text": "The terms and conditions document for digital video games should reinforce the fact that the consumer is buying a product. That product's ownership should be clearly transferred onto the buyer, with all the consumer benefits that entails - including a perpetual, non-revokable license. Video games are among the few artistic media which exist and are available only based on the publisher's whims. Many great works of video game entertainment currently exist only as physical copies, as their associated copyrights are in legal limbo - but at least they still exist in that form and can be experienced. This cannot be said of this new breed of digital only, always online games, which can be unceremoniously shut down, with the consumer having nothing to say about it - even when they paid full price at release. What I also find disturbing as an avid enjoyer of this artistic medium is an effort from large corporations to strongarm their way into what products are available, not just how they are available. Credit card companies have recently pressured large storefronts such as Steam and the much smaller itch.io into hiding or outright removing certain titles, based on content that might be somewhat crass, but not illegal. My concern is that if we let these companies - who have no business in making decisions on what art or entertainment is or isn't available - essentially blackmail storefronts based on different lobbying groups' interest, we may soon find ourselves in a reality where any kind of content these companies are not in favor of is being removed from sale. That these initiatives have their source in non-EU countries, but the effects of this lobbying harms the European consumer, is just insult added on top of injury. Any new legislation aiming to support consumer rights in the digital entertainment space should take the above issues to heart.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.437260Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587105.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587105",
+    "chunks_doc_id": "F3587105",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587105.clean.paragraph.json"
+}

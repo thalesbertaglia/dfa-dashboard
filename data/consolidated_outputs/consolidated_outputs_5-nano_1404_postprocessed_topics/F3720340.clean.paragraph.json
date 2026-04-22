@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3720340",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:58Z",
+    "finished_at": "2026-04-14T13:47:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This includes the side loading of applications which guarantees independence from potentially restricting app stores."
+              },
+              {
+                "quote": "to only allow applications from the playstore to be installed from 2027 onwards is restricting individual developers and small companies in their app development and ability to distribute their work."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19353,
+          "unit_kind": "feedback"
+        },
+        "text": "The push from Alphabet (former Google) to only allow applications from the playstore to be installed from 2027 onwards is restricting individual developers and small companies in their app development and ability to distribute their work. Especially in the open source parts of the android ecosystem this would have a dramatic impact. A multi billion dollar company shouldn't have the power to decide which apps people can install. Only a government should have that power. The digital fairness act needs to support the free choice of users in software. This includes the side loading of applications which guarantees independence from potentially restricting app stores.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.117015Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720340.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720340",
+    "chunks_doc_id": "F3720340",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3720340.clean.paragraph.json"
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3720800",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:16Z",
+    "finished_at": "2026-04-14T13:47:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Platform Lock-in",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google wanting to prevent me from being able to install the software that I want to install essentially turns the smartphone market into a duopoly"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16718,
+          "unit_kind": "feedback"
+        },
+        "text": "I have been an avid android user precisely because of the freedom it offers me. Google wanting to prevent me from being able to install the software that I want to install essentially turns the smartphone market into a duopoly where both iOS and Android now restrict the freedom I have with my own devices. I would no longer have a choice on which style of ecosystem I prefer and I'd be entirely forced to use an ecosystem which actively prevents my freedom of being able to make educated decisions and install software that I want to install on my own device. This is no longer a manner of a free market move. With the requirements of officially government mandated apps requiring the use of EITHER iOS or Android I would be forced into a restricted operating system that I did not specifically buy into. Again, I specifically bought into Android because it is the ecosystem that has always allowed its consumers to make educated decisions and install the things they personally want to install. That is why I did not buy iOS and is also why I've always been OK with Apple's approach towards iOS because it allowed people who prefer a more tightknit and regulated experience to use iOS devices whilst people like me who do not care for it and enjoy more freedom can use Android instead. Again, if Android were to restrict my access of what I'm allowed to install on my device I would no longer have a free market option. I would no longer have a choice of which kind of product I prefer because there are no more options. You would be enabling a duopoly which goes against the values of the EU as a whole.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.127101Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720800.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720800",
+    "chunks_doc_id": "F3720800",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3699106",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:06Z",
+    "finished_at": "2026-04-14T13:46:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital licenses that can be revoked at any time by the provider, not as a permanent copy."
+              },
+              {
+                "quote": "The ownership of a device should grant the user complete control over it, free from the manipulative restrictions of the manufacturer."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This can lead to higher prices, lower quality goods or services, and a lack of viable alternatives for consumers."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "monetize user data"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27798,
+          "unit_kind": "feedback"
+        },
+        "text": "Google's new initiatives for the Android operating system raise significant concerns about the future of user control and developer freedom. By requiring developers to register and verify their identity, Google appears to be moving toward a more restrictive, closed ecosystem, reminiscent of Apple's iOS.This approach effectively limits the ability to sideload apps, a fundamental feature that has long distinguished Android as an open platform.While Google may present this as a security measure, the potential consequences are far-reaching. This policy could solidify Google's monopoly by making the Google Play Store the only viable distribution channel for applications, thereby reducing consumer choice. It also creates a single point of failure and gives Google the power to arbitrarily ban developers, potentially stifling innovation and harming careers. Furthermore, this move could disproportionately affect developers in regions where Google's services are restricted, leaving them with no approved means of distribution.Ultimately, this new direction seems to give Google unparalleled power over the Android ecosystem.There is a valid concern that this policy could be a precursor to a fee-based model for distribution, trapping developers who have already transitioned to the new system and leaving no alternative for them or their users.Google is not alone: electronic device manufacturers are increasingly using \"security\" as a pretext to impose heavy restrictions on their products, limiting our ability to run custom software or sideload apps.This behavior is not about protecting users; it's about forcing them into a single, closed-source ecosystem.This allows companies like Google and Apple to directly profit from their services, monetize user data, and solidify their market dominance. This practice is fundamentally anti-consumer and should be closely monitored by regulatory bodies. The ownership of a device should grant the user complete control over it, free from the manipulative restrictions of the manufacturer.In addition to this, as more entertainment becomes exclusively digital, the ability for consumers to actually own what they \"buy\" is disappearing.Movies, shows, games, and music are frequently offered only as digital licenses that can be revoked at any time by the provider, not as a permanent copy. This is evidenced by services like PlayStation's attempt to delete purchased content and the rising trend of content that is exclusive to streaming services and never made available for a permanent purchase.This shift from ownership to licensing is a serious concern for consumer rights. I believe there should be a regulatory push to ensure that all digital media is available for purchase as a true, permanent copy.Without these measures, consumers risk losing their digital libraries forever. It is crucial to enforce the right to own our purchases.Monopolies, especially those held by private companies, service providers, and payment processors, are harmful because they stifle competition, innovation, and consumer choice.Without competition, there's little incentive for a company to improve its services, lower prices, or innovate new products. This can lead to stagnation and a lack of options for consumers.When a single company controls a market, it can dictate terms without fear of losing customers.This often results in higher prices, lower quality goods or services, and a lack of viable alternatives for consumers.Monopolies have less motivation to innovate. With no competitors to challenge them, they can continue to offer the same products or services without the pressure to improve or create something new.A monopoly in a critical sector, such as a payment processor, represents a significant risk. If that one company fails, experiences a service outage, or decides to block a user or organization, it can cause widespread economic disruption. This gives a single private entity immense power and control over society's infrastructure.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.099307Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3699106.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3699106",
+    "chunks_doc_id": "F3699106",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

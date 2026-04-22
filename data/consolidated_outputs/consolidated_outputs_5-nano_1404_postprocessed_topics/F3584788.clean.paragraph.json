@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584788",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:11Z",
+    "finished_at": "2026-04-14T12:10:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "end of life plan, which would allow us to keep playing after a game's servers go down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13992,
+          "unit_kind": "feedback"
+        },
+        "text": "I stand by the Stop killing games initiative and want this initiative to succeed so we can all own the games we buy. We're not sure wether or not this initiative is going to work due to a huge number of big companies being against this initiative, and thats why we want to have more chances at this succeeding. We as a community make the request for the digital fairness act to include a law that requires all videogames to have an end of life plan, which would allow us to keep playing after a game's servers go down. It's happened numerous times where game servers are shut down without compensation or an end of life plan, and i dont want this to happen to my favourite games. If this is even considered, i thank whoever is reading this a lot.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.434825Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584788.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584788",
+    "chunks_doc_id": "F3584788",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584788.clean.paragraph.json"
+}

@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3586051",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:59Z",
+    "finished_at": "2026-04-14T12:45:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of digital ownership of video games."
+              },
+              {
+                "quote": "Currently, developers and publishers are removing our access to video games which were purchased digitally."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as such they can revoke the access whenever wished."
+              },
+              {
+                "quote": "If it is to be a license, it should include an end date for when the license ends."
+              },
+              {
+                "quote": "Video games are not given such a date and advertise on stores as a full purchase."
+              },
+              {
+                "quote": "If it is to be a license, it should include an end date as well as obvious wording to state that it is a license and not a full purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48741,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to request consumer protection against the destruction of digital ownership of video games. Specifically, from stop killing games movement, which has started a European Citizen's Initiative with over 1.4 million signatures. Currently, developers and publishers are removing our access to video games which were purchased digitally. The claim being that they are single purchase licenses rather than full purchases, as such they can revoke the access whenever wished. This is a very anti-consumer practice as the only difference between this and traditional purchases is that it puts the ownership of the game solely on the companies giving no rights or ownership to the software for the consumer. Beyond this, a license is required to give an end date for when the license ends. Video games are not given such a date and advertise on stores as a full purchase. If it is to be a license, it should include an end date as well as obvious wording to state that it is a license and not a full purchase. Support for a video game doesn't need to extend for ever but there should be a plan made that people can still play the game through community methods when support ends. It is not a costly nor complicated requirement if a game is decided from the beginning for an end of life plan, so there is no good reason to destroy the history of video games when such easy work around are available. Perhaps past games cannot be saved from developers pulling away our purchases but perhaps future games and video game history can be saved from. This is a consumer rights issue. And companies removing ownership and rights from the consumer and it needs to stop.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.057666Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586051.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586051",
+    "chunks_doc_id": "F3586051",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586051.clean.paragraph.json"
+}

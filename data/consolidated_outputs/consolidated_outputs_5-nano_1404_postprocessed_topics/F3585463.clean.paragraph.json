@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585463",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:13Z",
+    "finished_at": "2026-04-14T12:28:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It attempts to stop publishers from destroying games and making them no longer playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10572,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I'd like to give attention to Stop Destroying Videogames. It attempts to stop publishers from destroying games and making them no longer playable. I used to play this game called \"Pixel Worlds\", I even spent money on it. But because it had no end of life plan it got destroyed and there is no way to play the game anymore in any way. I'd hate for that to happen to other games I love so I kindly ask of you to check out Stop Destroying Videogames",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.756012Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585463.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585463",
+    "chunks_doc_id": "F3585463",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585463.clean.paragraph.json"
+}

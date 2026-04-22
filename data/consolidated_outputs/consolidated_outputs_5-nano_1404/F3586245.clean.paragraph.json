@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586245",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:37Z",
+    "finished_at": "2026-04-14T12:52:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Age Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Age verification should be ensured by an appropriate method."
+              }
+            ]
+          },
+          {
+            "topic": "Retroactive Invalidation Of Purchased Digital Products",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The customer should not have invalidated rights to the purchased product."
+              },
+              {
+                "quote": "These purchased products should be available for use by the users who purchased the product even after support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28898,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. Thank you for opening up for feedback. Globalization and the Internet are increasingly used to purchase and acquire goods and products online. This includes not only physical products but also digital ones. 1. Age restriction. Some products are not suitable for children and young people. Age verification should be ensured by an appropriate method. Although I acknowledge the interest of companies in complying with child protection laws in this regard. Third parties should not interfere with the purchase and distribution of such products. This responsibility should be transferred to the joint responsibility of parents and traders/distributors in an appropriate manner. 2. Retroactive invalidation of purchased digital products. The customer should not have invalidated rights to the purchased product. This applies especially to software and games. Developers/distributors have made the decision to save on distribution costs for these products by selling them online and additionally to a lesser extent as physical copies (disks, USBs). This decision was made by the distributors, not the customers or users. These purchased products should be available for use by the users who purchased the product even after support ends. If they have taken and kept payments from customers (clients), they should not prevent the client from using the product. This is not only immoral, but also against the practices in the daily lives of customers in any other business transaction. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.174027Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586245.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586245",
+    "chunks_doc_id": "F3586245",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

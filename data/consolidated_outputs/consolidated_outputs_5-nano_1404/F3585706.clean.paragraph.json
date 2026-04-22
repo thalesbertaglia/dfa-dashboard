@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585706",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:14Z",
+    "finished_at": "2026-04-14T12:34:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game publishers reserve the right to revoke licenses of products they have already sold to the customers"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The whole idea of games as a service is extremely hostile to the consumer and games are needlessly made into a live service model and eventually abandoned."
+              },
+              {
+                "quote": "live service software would be made with end of life plans, and once the official support ends it would either be left at a somewhat functional state or give tools to the online communities to provide the support themselves."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processors' Monopoly",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors' monopoly over digital media and how it enforces unlawful censorship over software distributors."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38987,
+          "unit_kind": "feedback"
+        },
+        "text": "Finally we can see some progress, for that we are all grateful. Now in my opinion You should look into some other unfair aspects of online space. Like how game publishers reserve the right to revoke licenses of products they have already sold to the customers, basically cutting off access to products rendering them destroyed. The whole idea of games as a service is extremely hostile to the consumer and games are needlessly made into a live service model and eventually abandoned. European petition \"Stop destroying video games\", which already have over 1.4 million signatures, is trying to prevent this from happening by proposing that live service software would be made with end of life plans, and once the official support ends it would either be left at a somewhat functional state or give tools to the online communities to provide the support themselves. Secondly, look into payment processors' monopoly over digital media and how it enforces unlawful censorship over software distributors. Thank you for your hard work, I hope you will take this into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.881093Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585706.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585706",
+    "chunks_doc_id": "F3585706",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3591524",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:59Z",
+    "finished_at": "2026-04-14T13:36:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we only bought a license not an actual product"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Now every game has to be built around an ingame store and this store is so integrated that removing it is understandably cumbersome and not an easy or cheap task"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "cosmetics were bought through product webpages."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36695,
+          "unit_kind": "feedback"
+        },
+        "text": "First the game industry is taking purchases away from consumers under the guise that we only bought a license not an actual product though this is and was never stated under purchase on their product page. Nor is that in any way represented on receipts after purchase. Second is now payment processors controlling what I can and cannot use my own money on based on their own \"feelings\" and opinions. These are products that are legal in every way and break no laws, but I cant buy it because Visa, MasterCard, etc dont agree with it. They are payment processors meant to process payments, not financial advisors, legal or moral authorities. Also stating that because a game is live service it can not be maintained indefinitely is a problem they themselves created, games ran perfectly fine on community servers before and cosmetics were bought through product webpages. Now every game has to be built around an ingame store and this store is so integrated that removing it is understandably cumbersome and not an easy or cheap task, but it does not need to be built that way. There have been games and still are games that dont have an ingame store and instead require you to buy through their website..",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.875950Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591524.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591524",
+    "chunks_doc_id": "F3591524",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591524.clean.paragraph.json"
+}

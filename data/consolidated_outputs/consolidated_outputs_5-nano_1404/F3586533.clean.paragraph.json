@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586533",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:40Z",
+    "finished_at": "2026-04-14T12:59:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "“Rent” rather than “Buy”"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Purchase a video game where the publisher chooses to close the access."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibit the remote closure of a digital product: a streaming platform cannot cut off access to a purchased film/music, a game publisher cannot close access to a purchased game (e.g. Stop Destroying Videogames initiative), etc."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44633,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, Concerning the Digital Fairness Act, I would like to add a prohibition for a publisher or any entity offering a service to promote and sell that service with words that might suggest that that service would be a purchase of a product. When making a purchase, I expect that I will receive my property in the same way as buying a vinyl guarantee it will be used for life. The publishers currently offer (to my knowledge) these different dubious practices: — ‘purchase’ of a product that is dependent on an authentication system, with no possibility of local backup (For example: Buying music on a streaming platform does not necessarily guarantee me the possibility to play it without being connected to that platform.) – Purchase of a product that can be removed at any time by the platform (For example: Purchase a video game where the publisher chooses to close the access. C.F. The Crew game, which has been removed by Ubisoft and is no longer accessible to players who have “bought it”). Proposal 1: Force this kind of “Achat” to use adaptive vocabulary so as not to deceive the potential customer: “Rent” rather than “Buy”, “Temporary Licence” rather than “Product”, etc. Proposal 2: Prohibit the destruction of digital products remotely. Any digital product purchased as such must be usable under minimum conditions of use. Prohibit the remote closure of a digital product: a streaming platform cannot cut off access to a purchased film/music, a game publisher cannot close access to a purchased game (e.g. Stop Destroying Videogames initiative), etc.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.274965Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586533.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586533",
+    "chunks_doc_id": "F3586533",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

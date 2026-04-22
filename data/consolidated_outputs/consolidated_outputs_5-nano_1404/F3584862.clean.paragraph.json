@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3584862",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:03Z",
+    "finished_at": "2026-04-14T12:13:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that a video game which is bought should be owned and playable by that person."
+              },
+              {
+                "quote": "A game that was bought fairly and legally can suddenly become impossible to play because the developer decided that it should be so."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End-Use-License-Agreement (EULA) that you have to sign in order to play the game and which has all the terms and conditions that must be agreed to in order to play that game, only becomes viewable after the game has been purchased."
+              },
+              {
+                "quote": "This means there is no way to make an informed decision before purchase."
+              },
+              {
+                "quote": "They are always sold as licenses."
+              },
+              {
+                "quote": "This also means that a game might be bought and then made unplayable because some terms or conditions were broken without the customer even knowing what the terms were, in order to avoid breaking them, or to avoid buying the game to start with."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31262,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, i would like to add another point which concerns ownership of video games and that a video game which is bought should be owned and playable by that person. Firstly video game companies, when discontinuing a game by for example shutting down the servers used to host it, should be required to make some effort into still making it playable by the people who purchased it. This could be done in a reasonable manner by having the companies publicly release some kind of minimum viable version of that game, so that the people who own it can play that version going forward by hosting it on private servers. This would not put a too-great burden on developers and allow for more proper digital ownership. Purchasing something should give the protections of owning that thing, but this is not currently the case in video games and it should be considering how video games is the largest entertainment industry in the world. A game that was bought fairly and legally can suddenly become impossible to play because the developer decided that it should be so. Nothing else works like this for good reason and it is time that it was fixed. Secodnly and related to the topic of ownership is the wide-spread practice of selling games as licenses which can be revoked instead of items that are owned. This is ubiquitous and there is practically no way to buy a digital game and actually own it. They are always sold as licenses. This is bad from a consumer rights perspective but what makes it worse is the fact that the End-Use-License-Agreement (EULA) that you have to sign in order to play the game and which has all the terms and conditions that must be agreed to in order to play that game, only becomes viewable after the game has been purchased. This means there is no way to make an informed decision before purchase. This also means that a game might be bought and then made unplayable because some terms or conditions were broken without the customer even knowing what the terms were, in order to avoid breaking them, or to avoid buying the game to start with.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.474808Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584862.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584862",
+    "chunks_doc_id": "F3584862",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

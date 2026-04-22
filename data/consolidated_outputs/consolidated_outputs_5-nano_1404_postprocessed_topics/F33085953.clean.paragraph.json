@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33085953",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:31:42Z",
+    "finished_at": "2026-04-14T09:32:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The right of personalization. Digital fairness already explicitly include the need for fair personalization practices. A phone operating system that does not allow the user to install the applications they want unless they pay with private information is obviously not allowing fair personalization."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The false promise of customer service: if Android's next updates prevent users from being able to do things that they were able to do when they bought their phone, then the supposed 5 years of updates and service enforced by law are reduced to the one year before that update from Google."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26109,
+          "unit_kind": "feedback"
+        },
+        "text": "Google has recently announced (link https://android-developers.googleblog.com/2025/08/elevating-android-security.html?m=1) that future Android updates will block users from installing apps that are not on Playstore. There is also a suggestion that phones might come with the bootloader unlockable in the future. I find this concerning because of several aspects listed below, and I believe that the law should forbid such developments. 1. About privacy. If Google wants to forbid apps without publisher id in their Play Store, that's understandable. But forbidding me of installing my own apps, or any that i want, without me having to send private data to them is unacceptable. 1.1. Google is known to deal in the market of customer information, which they use for their adds services, for example. The announced closing of Android devices, while coated in a veil of \"security\", is in fact a hidden try to force independent developers to stop their work or give them all their private information: Google admittedly won't review the content or functionality of the apps they make available in Play Store, only the developer's identity matters for the verification process. 2. About the ownership of a phone. When I buy a phone, I pay for two things: a) the phone itself, and its components (hardware), and b) the software that comes installed in it (android/ios/etc). If the hardware is legally mine, I should have the rights to use it (within legal uses, of course) as I wish. How can I be forbidden to install my own applications on my own phone, unless I send copies of my identity documents to a private company that has nothing to do with my application? Am I not the owner of my phone? 2.1 If the rumor about not making bootloaders unlockable becomes true, buying a phone will be the equivalent of buying the software only. The hardware part that you pay for does not really become yours if you cannot use it as you wish (installing custom operating systems, called custom ROMs, in your phone). I believe that, even though this is only a rumor for now, the law should get ahead and straight out forbid such a development. 3. The right of personalization. Digital fairness already explicitly include the need for fair personalization practices. A phone operating system that does not allow the user to install the applications they want unless they pay with private information is obviously not allowing fair personalization. Do notice that not only I would have to send my own private data in order to install my datas, but I would also have to ask other independent developers to send their private data if I wanted to continue using their apps. 4. The false promise of customer service: if Android's next updates prevent users from being able to do things that they were able to do when they bought their phone, then the supposed 5 years of updates and service enforced by law are reduced to the one year before that update from Google. If someone buys a phone with Android in 2025 under the premise that Android is open source and allow users to install any apps they want, how can that right be revoked with the next year's update? I will effectively either lose my 5 years of updates, or lose the functionality for which I bought my phone. 5. The monopoly. Android holds a monopoly on the operating systems of non Apple smart cellphones. Up until now, that was not a problem because of its open source nature, and the fact that phones came with a) the possibility to use any apps that you want and b) an unlockable bootloader that allows the user to install other operating systems if they so wish. If bootloaders stop being unlockable, all phones in the market will be owned by apple or google. This is particularly worrysome considering that the use of a smart phone is becoming a necessity to participate in society, for communication, banking, administation, etc. The law should ensure that eu citizens aren't forced to use devices that are completely under foreign companies control.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.556975Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33085953.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33085953",
+    "chunks_doc_id": "F33085953",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33085953.clean.paragraph.json"
+}

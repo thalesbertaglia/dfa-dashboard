@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3593706",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:35Z",
+    "finished_at": "2026-04-14T13:40:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "advanced understanding of human psychology allows unscrupulous developers to tap into human behavior in a way where the exchange is not that straightforward."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games by nature are products that affect the user's psychology."
+              },
+              {
+                "quote": "The player enjoys the experience and therefore is willing to spend money."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26828,
+          "unit_kind": "feedback"
+        },
+        "text": "Video games by nature are products that affect the user's psychology. When the design is benign, it's a simple matter of cause a set of desired emotions, like joy, excitement, tension, suspense, etc... The player enjoys the experience and therefore is willing to spend money. However, an advanced understanding of human psychology allows unscrupulous developers to tap into human behavior in a way where the exchange is not that straightforward. A player looking for an experience but being unaware of these practices effectively opens up a backdoor to their brain for these companies to trigger a simple behavior: spend money. The experience the player gets in return is in no way proportional to the expenditure they are being tricked into. I believe this propsal addresses a lot of issues that can prevent this type of abuse and exploitation. I support it passionately and whole heartedly. I urge any legislators looking at this proposal not to think of it as a solution, but a sorely needed first step in addressing an issue that affects millions of people.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.957797Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593706.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593706",
+    "chunks_doc_id": "F3593706",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

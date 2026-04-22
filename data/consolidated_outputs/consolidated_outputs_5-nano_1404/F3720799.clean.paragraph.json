@@ -1,0 +1,104 @@
+{
+  "doc_id": "F3720799",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:15Z",
+    "finished_at": "2026-04-14T13:48:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Google should not be allowed to block sideloading mobile software, and Apple should also not be allowed to block sideloading software."
+              },
+              {
+                "quote": "Software lockdowns of any type should be made illegal."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When customers buy a piece of hardware, they should not have to pay more for the software, especially for software that is on a subscription basis."
+              },
+              {
+                "quote": "Not only it is a subscription, but it also imposes a cancellation fee."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Adobe should not be able to train LLMs using their paying users' private Adobe Cloud files and data."
+              },
+              {
+                "quote": "Microsoft and google can't stop spying on their users, they are legalized spyware and intrusion of privacy."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the greedy CEOs realised they can force everything as a subscription and keep milking people for years."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 98910,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe people should have the freedom to control their own software. I believe it is unfair for OEM manufacturers to artificially restrict users from acquiring different sofrware with the guise of \"safety\" and \"security\". Google should not be allowed to block sideloading mobile software, and Apple should also not be allowed to block sideloading software. Google took Android, which was FOSS and wants to control it as a whole, which is in violation of the FOSS licenses. Software lockdowns of any type should be made illegal. FOSS should be respected. When customers buy a piece of hardware, they should not have to pay more for the software, especially for software that is on a subscription basis. Everyone is trying to stop digital piracy, but no one is addressing the main reason why it became a thing. There used to be a buy for life option with software licensing, which is non-existent now, because the greedy CEOs realised they can force everything as a subscription and keep milking people for years. Not everything should be online, we deserve offline software. Digital rights are non-existent with the current always online software. Microsoft and google can't stop spying on their users, they are legalized spyware and intrusion of privacy. Adobe should not be able to train LLMs using their paying users' private Adobe Cloud files and data. Not only it is a subscription, but it also imposes a cancellation fee. I feel like we are living in a dystopian technocrasy, there are 20 big companies that pay big money to gain greater influence than ancient emperors. The people's rights are being stomped on, and enough legal bribery is offered to shut governments up. This needs to stop. Do something about it, make software great again. End this torment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.126519Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720799.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720799",
+    "chunks_doc_id": "F3720799",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

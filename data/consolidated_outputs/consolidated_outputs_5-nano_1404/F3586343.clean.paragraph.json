@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586343",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:29Z",
+    "finished_at": "2026-04-14T12:55:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Everything is provided \"as a service\" or \"as a subscription\""
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "My feedback would be to add protections against video games and/or other software that stop working after customers have already purchased them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43328,
+          "unit_kind": "feedback"
+        },
+        "text": "My feedback would be to add protections against video games and/or other software that stop working after customers have already purchased them. Today software developers rely more and more on \"cloud components\" and \"cloud delivered features\" when they are developing games and other software. To begin with, this was mostly for efficiency and scalability. For example, older games released on physical media had to be finalised before release. After release, no further enhancements could be made to the game. With the prevalence of internet connectivity a shift started happening. First games started relying on updates over the internet. Sometimes games were released early and in an unfinished state, which was later fixed by updates. Then, developers discovered the subscription model and how to make games reliant on online cloud-delivered services. These days developers build cloud-delivered services into both games and other software, even when the software itself does not even benefit from having cloud-delivered services. This has several benefits, but most of the benefits are on the developer and publisher side. The relationship between producer and consumer has been heavily scewed towards the producer. No longer are games and other software sold as copies that customers can own. Instead everything is provided \"as a service\" or \"as a subscription\". By doing this the producer gets around so much of other law requirements. A service can be provided and then shut down. The consumer has far fewer rights when it comes to services. Services are in many ways just contracts, not products. I do not want a future where everything that I used to own is now provided as a service, to be taken away from me by the producer for any reason and at any time. Many others feel like me. I would say the majority of consumers in the EU probably feel the same way. Why are products I used to buy and own, and which still seemingly work the same way, no longer products but services to be taken away from me at the will of the producer? What is even ownership of digital products these days? It seems like everything is turned into a service, and that producers do this at least in part because that gives them the total control over how customers are allowed to use their products. This is why there is currently a strong movement to stop killing games in the EU. The initiative asks the EU to instate law that would require developers and publishers to account for a day when they no longer want to provide the service. When that happens, the game should be left in a working state and should be handed over to the community in such a state. I think the Digital Fairness Act should look into the movement, but to not only limit itself to stop killing games, but also include software based services in general. The Stop Killing Games initiative is in my opinion well written and explains the issue from a fairly neutral perspective at length. The initiative can be found on the following EU page: https://citizens-initiative.europa.eu/initiatives/details/2024/000007 https://eci.ec.europa.eu/045/public/",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.210623Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586343.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586343",
+    "chunks_doc_id": "F3586343",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

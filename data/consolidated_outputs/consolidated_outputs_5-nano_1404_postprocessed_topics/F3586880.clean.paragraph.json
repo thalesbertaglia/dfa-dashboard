@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586880",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:18Z",
+    "finished_at": "2026-04-14T13:05:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games, which are software that have become licenses for no reason other than abusive control by their distributors."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I thought I had purchased a video game, as I had done so since I was little, but unfortunately it was a license and not a \\\"purchase\\\", the game's distributor decided to delete it, and now no one can play it, including me (I'm referring to The Crew, published by Ubisoft)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36732,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to bring up an issue regarding video games, which are software that have become licenses for no reason other than abusive control by their distributors. The conversion of computer programs from product to licence has given far too much power to large corporations and taken away far too many rights from citizens. It would therefore be important to consider whether an introspection to prevent the sale of products as licenses would be possible, in order to give more control back to citizens. There's also the fact that many video games, which I must reiterate are an art form, are disappearing every day. Therefore, more options should be provided to preserve this art. Many games are abusively controlled, allowing publishers to erase them. I myself have had the misfortune of experiencing this. I thought I had purchased a video game, as I had done so since I was little, but unfortunately it was a license and not a \"purchase\", the game's distributor decided to delete it, and now no one can play it, including me (I'm referring to The Crew, published by Ubisoft). Please give more power back to consumers, whose rights have been trampled upon for far too long. Also an europeen initiative have reached more than 1.4MILLIONS signature to mediate a part of this problem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.374598Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586880.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586880",
+    "chunks_doc_id": "F3586880",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586880.clean.paragraph.json"
+}

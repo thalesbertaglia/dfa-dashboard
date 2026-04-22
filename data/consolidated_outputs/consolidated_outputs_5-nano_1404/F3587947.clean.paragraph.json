@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587947",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:30Z",
+    "finished_at": "2026-04-14T13:21:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The game can only be played if you are connected to the internet, although it is a single player."
+              },
+              {
+                "quote": "deliberately rendered non-playable or elements that make the game playable are switched off."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15305,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Parliament, in the past, products have been sold to the citizens of the European Union which have become unusable after a few years. In the case of physical objects, it is understandable that wear and tear influences usability, but there is no wear and tear in software. In recent years, it has become increasingly common that sold computer games are deliberately rendered non-playable or elements that make the game playable are switched off. An example of how games are destroyed is the ‘Egypt settlement’ game. This was published in 2013 and developed by Magnussoft. The game can only be played if you are connected to the internet, although it is a single player. Nowhere is it possible to find an internet connection on the packaging. My parents gave me the game at the time, I could not play it at that time because my parents, of course, did not allow me to access my PC online. That is why I have been happy for years to finally play the game. But when I finally had an internet connection, the authentication servers were offline and the game could not be played. This example shows how businesses let games disappear forever because it is in their interest. As a result, the old game loses its usefulness and the players will be forced to buy new games. In order to ensure fairness for players in the future, the following would be important: Every single player is supposed to function independently on the internet (e.g. only need an internet connection when downloaded) – Each multi-player game should be given the opportunity to work without the developer’s servers (e.g. developers publish the game’s network code so that players can host their own servers or play via P2P connections) It would also have the advantage of the computer games that I count for the post-world, similar to paintings, music pieces, theatres and films in art, thus creating an ever-growing cultural heritage. It then also represents the most important medium of generation Z. I support the Stop Killing Games initiative and have signed the petition ‘Stop Destroying Videogames’ (‘ECI(2024)000007’). Kind regards,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.596904Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587947.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587947",
+    "chunks_doc_id": "F3587947",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587352",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:20Z",
+    "finished_at": "2026-04-14T13:15:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling in video games and intermediate coins that offsets the real price of the digital products you bought."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As long as content is legal, payment service providers should not be allowed to decide which digital products can be sold and which are not."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19952,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day, first of all, I wanted to thank you for addressing the serious problem of gambling in video games and intermediate coins that offsets the real price of the digital products you bought. I wanted to ask you whether you could also be interested in the case of Visa and Mastercard, who are imposing arbitrary censorship on certain digital content. The prime example is Valve who is removing thousands of video games from the Steam platform, under undue pressure from Visa and Mastercard, who threatened to disconnect their payment systems in the event that Valve did not respond to their demands. As long as content is legal, payment service providers should not be allowed to decide which digital products can be sold and which are not. I think it is too much power to do so. Thank you, Silvia S.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.503826Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587352.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587352",
+    "chunks_doc_id": "F3587352",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

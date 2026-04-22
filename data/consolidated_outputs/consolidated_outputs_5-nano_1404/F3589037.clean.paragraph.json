@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589037",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:20Z",
+    "finished_at": "2026-04-14T13:28:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one time purchase video games, not live-service digital products."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading them and obfuscating their now obvious malicious intent of pretending to sell and then stealing the rights of ownership from their customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32063,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU, As a consumer and as a citizen in the European Union i have to state that digital products are still products and should be treated as such. If a sale happens then the customer owns the product, and the vendor must be held legally accountable to provide the product. My observation regards one time purchase video games, not live-service digital products. I require from this bill to represent mine and many others desire to have the immutable right to always be able to access the digital products we have purchased. What people in the digital entertainment industry have done for the past decade was borderline illegal and has to be corrected, if not outright punished. Millions and billions of euros are spent yearly on the purchase of digital entertainment under the assumption that just like buying a physical copy of the product, a customer is entitled to the ownership of the digital version forever. This means that if in any way a producer manages to sell you the same product multiple times, they effectively multiply their profits with no investment on their part. The only way to sell someone something they already own is by taking it away from them. By the above logic video game publishers have abused their customer base by misleading them and obfuscating their now obvious malicious intent of pretending to sell and then stealing the rights of ownership from their customers. I urge the EU parliament to put a stop to the destruction of purchased goods and to severely punish all the bad actors in the video game publishing industry. Best regards, Peter, a concerned citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.734530Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589037.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589037",
+    "chunks_doc_id": "F3589037",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

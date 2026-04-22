@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3720109",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:46Z",
+    "finished_at": "2026-04-14T13:47:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "addictive user design."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "recommender system which is not based on profiling"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17715,
+          "unit_kind": "feedback"
+        },
+        "text": "There are currently 2 well-intentioned and much needed provisions related to recommender systems in the Digital Services Act - Article 27 and Article 38. While the requirement to offer a recommender system which is not based on profiling is a step in the right direction, it does not fully remedy the issue of addictive user design. Specifically, it fails to do so in three key ways. Firstly, the issue of having to opt out of using a recommender system based on profiling, i.e. consumers actively having to choose not to use a personalized recommender system service, instead of it being an option that they can opt into. Currently, consumers have to actively search for and turn off recommender systems based on profiling or recurrently switch to using non-personalized recommender systems. This creates unnecessary friction for users given that they are unlikely to know about the option of removing recommender systems based on profiling, and that they have to be tech-savvy enough to know how to turn off such settings. For example, Instagrams options for non-personalized Home Feed is hidden in the Instagram logo and the option for non-personalized Explore Page is hidden in the unlabeled dot-menu. In essence, it places an unfair burden on consumers in ensuring access to non-personalized and unbiased information. Large online platforms and very large online search engines should be mandated to use recommender systems not based on profiling as the default service option. Secondly, the issue of consumers not having the freedom to fully opt out of recommender systems based on profiling. Although social media platforms have given consumers the option that is not based on profiling, there is currently no legislative mandate for digital platforms that ensures that consumers dont have to be exposed to recommender systems if they choose not to do so. This includes services like Instagrams default Home Page based on profiling that is shown to users every time they open the app without the option to turn off personalized home feed indefinitely or Instagrams Explore page based on profiling is shown to users every time they use the service without the option to turn off personalization indefinitely. In essence, this creates fiction for users because they have to recurrently choose not to consume addictive content that is being presented to them. Large online platforms and very large online search engines should be mandated to allow consumers to disable recommender systems based on profiling, i.e. choose recommender systems not based on profiling indefinitely without having to make that choice every time they use the service. Thirdly, the issue of consumers not having the freedom to opt out of addictive recommender systems i.e. systems that use infinite scrolling feeds (a.k.a. endless scroll, continuous scroll), pull-to-refresh, autoplay. While the option to have unlimited access to information is beneficial, especially for the quality of search engines, the nature of infinite scrolling, pull-to-refresh mechanisms, and autoplay services on online platforms increases the addictive nature of social media. An option that removes recommender systems exists for some website platforms in the form of a third-party extensions (e.g. Unhook for YouTube). However, such a third-party tool is not feasible for mobile apps nor is it mandated as a native feature for web-based platforms. Given the relative popularity of such tools for web-based platforms, online platforms should be mandated to allow consumers to disable recommender systems.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.113893Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720109.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720109",
+    "chunks_doc_id": "F3720109",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

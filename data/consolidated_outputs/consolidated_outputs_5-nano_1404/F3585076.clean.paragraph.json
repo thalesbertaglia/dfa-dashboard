@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585076",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:33Z",
+    "finished_at": "2026-04-14T12:19:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair commercial practices related to dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online-only features to games where online play is not it's core part, only to be able to shut off it's servers, rendering the game unplayable und voiding the customers of it's purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21916,
+          "unit_kind": "feedback"
+        },
+        "text": "While it is important to find the best compromise between user protection and producer interests, it is not less important to consider that users, at all times, have the ability to use the purchased product they have bought foran undisclosed period of time. The EU plays a big role in the Right to Repair movement, stopping harmful practices from organizations so that the user can repair and use the purchased product for a prolonged period of time. Considering this, there is another branch in company practices, that are adjacent to this. User Software, especially video games, are living the same fate that hardware products suffered the years prior and continue to suffer. Once beeing \"out of support\" the product will get abandoned without any chance for consideration to the customer to keep the product in a functional state. Companies willingfully implement online-only features to games where online play is not it's core part, only to be able to shut off it's servers, rendering the game unplayable und voiding the customers of it's purchase. That malicous practice is very common in this field. Please entertain yourself to the list that the \"Stop killing Games\" Movement has compiled, to see for yourself, which games have suffered such a fate and which ones will probably follow them up. I very much hope that the Digital Fairness Act, especially it's focus on the point \"unfair commercial practices related to dark patterns\" can assemble a solution to this very real and very much growing problem. Thank you very much for your time and effort considering consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.584866Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585076.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585076",
+    "chunks_doc_id": "F3585076",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

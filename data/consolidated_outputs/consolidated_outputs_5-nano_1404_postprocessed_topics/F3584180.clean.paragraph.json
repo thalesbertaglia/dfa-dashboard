@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3584180",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:17Z",
+    "finished_at": "2026-04-14T11:51:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "hiding the fact, that their EULA defines their product as a license and they therefore have the right to retract the product."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A clear example of this is seen with video games, but also other digital products."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "EULA defines their product as a license and they therefore have the right to retract the product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26280,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I kindly ask that the act will also prevent digital/partially digital licenses being hidden as purchases. Any one time payment will always seem like a purchase for a consumer, but many companies are hiding the fact, that their EULA defines their product as a license and they therefore have the right to retract the product. A clear example of this is seen with video games, but also other digital products. The worst example I can come up with is the Nintendo Switch 2, where Nintendo is essentially destroying the hardware of the product people have bought, by denying them essential services for the product to function, and have designed the product specifically with that intent. I therefore ask, that licenses should not be allowed to be single payment, as this will always indicate a purchase and not a license contract for a consumer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.113491Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584180.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584180",
+    "chunks_doc_id": "F3584180",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584180.clean.paragraph.json"
+}

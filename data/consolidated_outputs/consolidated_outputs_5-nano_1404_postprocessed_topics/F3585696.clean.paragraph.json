@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585696",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:54Z",
+    "finished_at": "2026-04-14T12:34:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For over 10 years now companies have been releasing video games that people can buy which can become unplayable quite literally on the next day of the purchase and the customer can't do anything about it."
+              },
+              {
+                "quote": "If a game goes out of service but there are still people that want to play it I believe it needs to be kept alive for as long as those customers desire."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19911,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to suggest an addition to the Digital Fairness Act about video games. For over 10 years now companies have been releasing video games that people can buy which can become unplayable quite literally on the next day of the purchase and the customer can't do anything about it. In any other industry this would be highly illegal but that is not the case for video game development. There need to be laws preventing companies from making a game unplayable despite the person having bought it. If a game goes out of service but there are still people that want to play it I believe it needs to be kept alive for as long as those customers desire. We have been yearning for something to be done about this issue but not avail. Things however are starting to look optimistic with an initiative such as Stop Killing Games getting over 1.4 million signatures. Given how important this is to so many people I urge you to consider adding this to the Digital Fairness Act. Thank you for reading this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.875885Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585696.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585696",
+    "chunks_doc_id": "F3585696",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585696.clean.paragraph.json"
+}

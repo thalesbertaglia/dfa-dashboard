@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3590824",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:34:12Z",
+    "finished_at": "2026-04-14T13:34:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "For online software and videogames, there are multiple ways of accomplishing this, like for example releasing the server-based binaries and source code when the product reaches end-of-life"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21047,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day. It would be great if digital products couldn't be taken away, just like physical ones. For online software and videogames, there are multiple ways of accomplishing this, like for example releasing the server-based binaries and source code when the product reaches end-of-life, transferring all accountability to the users. The users would then be able to continue using the products they've purchased, albeit with a caveat of not being provided full support. As long as there is a notification that by using unofficial binaries or workarounds, the user himself accounts for usability and security of the product. This is fine, as long as the product remains usable after the official support ceases to exist. This does include future live service games and games that are dependent on web services to run. If a company fails to provide an end-of-life plan and destroys a product the user has purchased, the user should be paid back in full. This problem has been ignored for decades at this point. We wish for it to be addressed. Thank you for reading this, it matters to us. A lot.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.839723Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590824.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590824",
+    "chunks_doc_id": "F3590824",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590824.clean.paragraph.json"
+}

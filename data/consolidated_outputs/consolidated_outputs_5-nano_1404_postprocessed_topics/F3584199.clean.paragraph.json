@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584199",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:51:58Z",
+    "finished_at": "2026-04-14T11:52:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "End of life plans for videogames used to be the norm, something changed in the industry some time ago."
+              },
+              {
+                "quote": "It's hard to tell why the industry is so adamant on destroying old products we paid our hard earned money for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15678,
+          "unit_kind": "feedback"
+        },
+        "text": "End of life plans for videogames used to be the norm, something changed in the industry some time ago. Is it because they don't want you to play old games and buy the new? It's hard to tell why the industry is so adamant on destroying old products we paid our hard earned money for. Personally I think it's immoral to destroy something on purpose as a manufacturer that your customers paid for but in videogames it has become normalized. Examples of this are: The Crew, Lawbreakers(which I bought and played), Wildstar, these are simply the tip of the iceberg. I kindly urge you to consider covering videogames in the digital fairness act. If one buys a car and some unknown time later the company who made the car shows up at your house and trashes it, because they no longer make those cars there would be an uproar. Please protect our consumer rights. Gamers are people too. Thank you for reading and have a nice day!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.121692Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584199.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584199",
+    "chunks_doc_id": "F3584199",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584199.clean.paragraph.json"
+}

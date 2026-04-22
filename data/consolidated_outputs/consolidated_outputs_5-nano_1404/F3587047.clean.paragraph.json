@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3587047",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:46Z",
+    "finished_at": "2026-04-14T13:09:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games I have legally purchased are later disabled or removed entirely"
+              },
+              {
+                "quote": "There was no option to continue playing the game I paid for, no refund, and no meaningful preservation of the product I owned."
+              },
+              {
+                "quote": "a free-to-play title that shifted focus toward aggressive in-app purchases and stripped away many of the features that made the original enjoyable."
+              },
+              {
+                "quote": "Maintain offline functionality for any game features that do not rely on servers."
+              },
+              {
+                "quote": "Consumers deserve true digital ownership, not temporary access that can be taken away without warning."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38035,
+          "unit_kind": "feedback"
+        },
+        "text": "am increasingly concerned about the lack of protection for consumers in the digital games market. A disturbing trend has emerged where games I have legally purchased are later disabled or removed entirely, leaving me with nothing despite having paid full price. This is especially frustrating when it affects single-player content that does not rely on online features, yet still requires a constant internet connection just to function. A clear example is Overwatch, which I bought and enjoyed. However, the original game was later completely removed and replaced with Overwatch 2, a free-to-play title that shifted focus toward aggressive in-app purchases and stripped away many of the features that made the original enjoyable. There was no option to continue playing the game I paid for, no refund, and no meaningful preservation of the product I owned. This practice is not just unfairit is exploitative. If companies choose to discontinue online services, they should be required to: Maintain offline functionality for any game features that do not rely on servers. Offer updates or patches to preserve access for paying customers. Avoid revoking or disabling access to purchased titles without clear justification and compensation. Consumers deserve true digital ownership, not temporary access that can be taken away without warning. I urge the Commission to include these concerns in the Digital Fairness Act to protect both consumers and the long-term value of digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.420028Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587047.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587047",
+    "chunks_doc_id": "F3587047",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3587190",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:57Z",
+    "finished_at": "2026-04-14T13:15:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"the license can be revoked for any reason at any time\""
+              },
+              {
+                "quote": "\"short duration license agreements for in-game art and functionality without clearly disclosing this at the point of purchase.\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 172249,
+          "unit_kind": "feedback"
+        },
+        "text": "As a person interested in ownership of digital goods and clarity around digital services, I'd like to request some of those kinds of protections be part of the Digital Fairness Act. Especially basics like; 1. A legal requirement to declare the minimum duration of \"Games As A Service\" (GAAS) clearly up front at the point of sale. Either based on a commitment by the developer or based on the shortest license the game is dependent on. 2. Games should otherwise remain accessible as downloaded, and never be unnecessarily disabled. Single player and local multiplayer games should be well protected against unnecessary remote disabling by developers. Offline play should be basic remaining functionality for all games that have it. (The infamous Ubisoft racing game, \"The Crew\" was unnecessarily disabled remotely by Ubisoft effectively revoking the purchase. The game had everything necessary to be a fully playable functional game without online functionality, but like most other games it stated somewhere in its EULA something like \"the license can be revoked for any reason at any time\", which is not a fair business practice.) 3. An idealistic, further reaching request would be that if a developer decides to abandon online support for a game, it should become explicitly legal to support online play yourself if you own a copy. Making accessible the digital tools used to run the game's services, as they are integral to its function, should also be considered. To sum the problem up; It's becoming very clear that the medium of video games is in a vulnerable state that seems to fully allow the destruction of purchased content and a complete disregard for the customer. In addition to ungair EULA terms, careless use of Digital Rights Management software and other online requirements that are claimed to justify disabling video games permanently, too many developers have started building games dependent on short duration license agreements for in-game art and functionality without clearly disclosing this at the point of purchase. While it might be possible to inadvertently make things worse for the medium, it's almost certainly easy to make this situation significantly better by reinforcing our right to ownership, and requiring fair warning about duration to allow us to make informed decisions. Clear EU law on these principles should help a lot. I'll mention I've read through the DFA, I appreciate the work van der Leyen, McGrath and Cyber Risk GmbH is doing. I'd like to point out the \"10 April 2025 point 16. Scroll Jacking\" mention of infinite scroll, though. Regardless of addiction or time waste risks I find it to be a good feature in many contexts.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.468916Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587190.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587190",
+    "chunks_doc_id": "F3587190",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

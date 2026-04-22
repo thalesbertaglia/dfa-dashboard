@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585034",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:31Z",
+    "finished_at": "2026-04-14T12:18:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games to prevent companies from abruptly shutting down online services for games"
+              },
+              {
+                "quote": "These shutdowns often erase purchased content and digital progress"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14139,
+          "unit_kind": "feedback"
+        },
+        "text": "This should include video games to prevent companies from abruptly shutting down online services for games that players have invested time, money, and community in aligning with the goals of the Stop Killing Games initiative. These shutdowns often erase purchased content and digital progress, violating consumer trust and digital ownership. Including video games in such legislation ensures accountability, promotes long-term support, and protects players' rights in the digital economy",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.563364Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585034.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585034",
+    "chunks_doc_id": "F3585034",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585034.clean.paragraph.json"
+}

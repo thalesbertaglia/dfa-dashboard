@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3587534",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:10Z",
+    "finished_at": "2026-04-14T13:18:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              },
+              {
+                "quote": "deceptive interface design"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair subscription models"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online game shutdowns that leave consumers unable to access products they have legally purchased."
+              },
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32081,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I am writing as a concerned digital consumer to express my strong support for the Digital Fairness Act (DFA) and to respectfully suggest the inclusion of a provision addressing long-term access to video games as part of the Acts broader consumer protection goals. I fully support the DFAs mission to tackle unfair subscription models, dark patterns, and deceptive interface design. These are critical steps toward a more ethical digital market, and I appreciate the work being done to close these loopholes and protect users across the EU. As part of that effort, I urge you to also consider the issue of online game shutdowns that leave consumers unable to access products they have legally purchased. This is a growing concern, and over 1 million people have signed the Stop Killing Games petition in the EU alone, calling for fair protections in this space. Specifically, I propose that the DFA include language requiring that: If a game depends on online servers to function, publishers must provide an offline mode or enable community server hosting before shutting it down. Alternatively, where feasible, essential server code could be made available for consumer-hosted versions. This is not about nostalgiaits about digital fairness and preserving access to purchased content. Consumers should not lose what theyve paid for simply because a publisher decides to discontinue support. To ensure fairness and practicality, I support applying this provision only to games released after the DFA comes into force. Thank you for your leadership on this important legislation. Please help ensure the DFA defends consumer rights not just in subscriptions and interfaces, but also in long-term digital ownership. Sincerely, Georgios Sidiropoulos",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.539510Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587534.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587534",
+    "chunks_doc_id": "F3587534",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

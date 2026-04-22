@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586626",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:26Z",
+    "finished_at": "2026-04-14T13:00:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "abusive license changes after the product is bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24907,
+          "unit_kind": "feedback"
+        },
+        "text": "The software industry (and within other, game industry) has been killing product the user paid for when they stopped supporting it. We used to buy and own our software, and to be able to use them for how long we wanted to. Could this fairness act cover the anti-consumer \"limited\" license type of product, and the need for the industry to provide end of life plans for software/games they don't want to support anymore ? That could mean remove online license checks, DRM removal and more. Just to mention it but this issue is also happening within the connected devices scope, which leads to ewaste or abusive license changes after the product is bought Check out the stopkillinggame campain as an example",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.300516Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586626.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586626",
+    "chunks_doc_id": "F3586626",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586626.clean.paragraph.json"
+}

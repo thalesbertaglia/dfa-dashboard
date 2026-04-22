@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586203",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:50:23Z",
+    "finished_at": "2026-04-14T12:50:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "The Crew"
+              },
+              {
+                "quote": "to continue using the game in a functional form after the end of the official medium"
+              },
+              {
+                "quote": "such as the creation of private servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22779,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I respectfully convey the proposal to introduce a clause obliging sellers, distributors or developers of video games to offer consumers the possibility to continue using the game in a functional form after the end of the official medium. More specifically, I refer to securities which can be accessed only by connection to the servers of the supplier, without the existence of an active subscription. An example of this is the game The Crew, which becomes completely inaccessible with the closure of servers, although consumers have purchased it. I request that, in such cases, developers provide users with alternative solutions that allow playing offline or through their own technical means, such as the creation of private servers. Thank you for your attention and understanding.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.152008Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586203.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586203",
+    "chunks_doc_id": "F3586203",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586203.clean.paragraph.json"
+}

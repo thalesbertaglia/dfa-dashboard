@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584386",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:55Z",
+    "finished_at": "2026-04-14T11:57:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "stop payment processors such as mastercard and paypal from censoring media from different platforms."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm also wondering if we could stop platforms that host videogames,movies and music that have been paid for, from being ripped away from users due to licenses not being renewed or any other reason."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21766,
+          "unit_kind": "feedback"
+        },
+        "text": "So i like what you guys got cooking up here. I'm wondering if we could also stop payment processors such as mastercard and paypal from censoring media from different platforms. Itch.io and Steam have been forced to remove certain media deemed \"risky\" to keep the payment processors doing business with them. I'm also wondering if we could stop platforms that host videogames,movies and music that have been paid for, from being ripped away from users due to licenses not being renewed or any other reason. Thanks for reading and considering if this is something that can be done or not",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.209035Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584386.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584386",
+    "chunks_doc_id": "F3584386",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

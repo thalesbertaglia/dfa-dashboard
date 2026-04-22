@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584490",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:33Z",
+    "finished_at": "2026-04-14T11:59:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to destroy games that people have rightfully paid for,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13310,
+          "unit_kind": "feedback"
+        },
+        "text": "Please consider placing videogames under the Digital Fairness Act. Currently, publishers are free and clear to destroy games that people have rightfully paid for, nullifying their purchase with absolutely no warning. Publishers and developers should have an end of life plan for these products, instead of just destroying them when they're not profitable. EU consumers deserve to keep the product they pay for, and games should be counted amongst those. Not only that, this would be important to preserving history, not just of videogames but technology in general, these are the kinds of things we can look back on and build from, it's not right for publishers to destroy games entirely and make them and their work completely unaccessible for future generations. No one wants them to run these games indefinitely either, people like me simply want them to create an end of life plan and make it possible for players to host these games and/or play them on their own without needing the company to support them indefinitely. Please look into this, it would be much appreciated.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.258326Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584490.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584490",
+    "chunks_doc_id": "F3584490",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584490.clean.paragraph.json"
+}

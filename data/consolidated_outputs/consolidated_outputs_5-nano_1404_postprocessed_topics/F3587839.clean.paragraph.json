@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3587839",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:01Z",
+    "finished_at": "2026-04-14T13:21:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "these fake currencies are often bought in amounts that do not match the cost of an item."
+              },
+              {
+                "quote": "That way it becomes much harder to judge how much something costs."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Stop Destroying Videogames initiative (Commission registration number: ECI(2024)000007),"
+              },
+              {
+                "quote": "I am unsure if this would fall into the scope of this initiative, but I would highly recommend to consider regulating games that require an always online connection as well."
+              },
+              {
+                "quote": "but a short summary is t hat you buy a game license, but it is being portraited as buying a game."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The person who sells it to you can at any point decide to go \\\"we no longer want you to play it\\\" and turn off their servers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53382,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU Comission, for me a big problem are alternative currencies many games or websites use. You have to spend money to buy their made up currency, so you can buy whatever you want ingame with the made up currency. That way it becomes much harder to judge how much something costs. In addition these fake currencies are often bought in amounts that do not match the cost of an item. Eg. you want to buy something that costs 1000 fake currency, but you can only ever buy 900 of it in one go. That means you buy it twice and then you have 800 left that you cannot use which makes you want to spend more money, because otherwise those 800 would be wasted. I am unsure if this would fall into the scope of this initiative, but I would highly recommend to consider regulating games that require an always online connection as well. For a more indepth description, please see the Stop Destroying Videogames initiative (Commission registration number: ECI(2024)000007), but a short summary is t hat you buy a game license, but it is being portraited as buying a game. The person who sells it to you can at any point decide to go \"we no longer want you to play it\" and turn off their servers. Generally companies do not have any end of life plans to make sure that a person can either self-host or that the games will continue to function by other means, once the servers are shut down. Thank you for your time. Florian Blum",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.587569Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587839.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587839",
+    "chunks_doc_id": "F3587839",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587839.clean.paragraph.json"
+}

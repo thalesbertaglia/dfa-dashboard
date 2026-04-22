@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3584231",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:45Z",
+    "finished_at": "2026-04-14T11:53:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The gaming industry lately are making games to abolish them soon after so that you pay full price while only being able to play then for a short duration."
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership Rights",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "lately I've been scared of not being able to own things I've bought with my own money anymore."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processors Gatekeeping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Payment processors have been taking down games from launchers just because those Payment processors deem those games to be inappropriate."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41947,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, lately I've been scared of not being able to own things I've bought with my own money anymore. I'm referring to games specifically. The gaming industry lately are making games to abolish them soon after so that you pay full price while only being able to play then for a short duration. I'm not great at explaining this but a European Citizens' Initiative Called \"Stop Destroying Videogames\" explains this really well and shows what people like me want. Considering this Act is about Digital Fairness it would be highly appreciated if this too could be considered to become part of the act. But not only that. Payment processors have been taking down games from launchers just because those Payment processors deem those games to be inappropriate. And they have too much power in this world as they can. I really want to keep my freedom in the digital content I own! Thank you for your time and consideration",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.136328Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584231.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584231",
+    "chunks_doc_id": "F3584231",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

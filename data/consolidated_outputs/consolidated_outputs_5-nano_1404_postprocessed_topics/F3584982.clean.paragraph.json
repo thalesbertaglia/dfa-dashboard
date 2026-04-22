@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584982",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:04Z",
+    "finished_at": "2026-04-14T12:17:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "there are so far gaps in online connected devices and games."
+              },
+              {
+                "quote": "Ubisoft deactivated The Crew game in March 2024."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Updating obligations are too vague and refunds are rarely foreseen."
+              },
+              {
+                "quote": "minimum service durations"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28162,
+          "unit_kind": "feedback"
+        },
+        "text": "Increasingly devalued businesses by switching off digital services. Google stopped its nest security devices in 2024, ultimately destroying hardware worth hundreds of euros. Spotify also switched off Car Thing in December 2024 and Ubisoft deactivated The Crew game in March 2024. Products bought are transformed overnight into e-waste, without compensation. The damage is not only financial: When software shutdowns make hardware useless, avoidable e-waste is created – an ecological condition. While there are rules for digital content in the EU, there are so far gaps in online connected devices and games. Updating obligations are too vague and refunds are rarely foreseen. The Digital Fairness Act has so far hardly addressed the problem of discontinued services. Consumers therefore need stronger rights: such as minimum service durations, clear reimbursement claims, transparency of connected devices or an open source obligation after the end of life of the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.537406Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584982.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584982",
+    "chunks_doc_id": "F3584982",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584982.clean.paragraph.json"
+}

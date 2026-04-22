@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3585439",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:43Z",
+    "finished_at": "2026-04-14T12:28:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes and ingame purchases"
+              },
+              {
+                "quote": "always online drm and remote disabling"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19064,
+          "unit_kind": "feedback"
+        },
+        "text": "There are several topics from the Fairness Act that do impact my daily life, as I work as a serviceprovider in ecommerce, where shopowners force us to implement dark patterns into their webshop. When I was ask, what dark patterns are, the documents I provided were used as a playbook for the webshop. Consumer protection needs to step up. Also when it comes to loot boxes and ingame purchases. Secondly, there has been a concerning trend of videogame destruction by their publishers. I can play my favourite childhood games with my daughter today, but when I look at my nephew, I know he won't be able to, since always online drm and remote disabling will destroy the games he grew up with. It is like the publishers brake into my house and steal my copies of my games. Please add this to the Act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.744144Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585439.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585439",
+    "chunks_doc_id": "F3585439",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585952",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:41:51Z",
+    "finished_at": "2026-04-14T12:42:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I just want to be able to continue the play the games I purchased after the video game companies stop their support, when is no-longer profitable to maintain that support."
+              },
+              {
+                "quote": "Just a patch so I can play the games I payed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14021,
+          "unit_kind": "feedback"
+        },
+        "text": "Please, stop killing games! I'll keep it short! I just want to be able to continue the play the games I purchased after the video game companies stop their support, when is no-longer profitable to maintain that support. I don't want to force video games companies to keep that support at a lost!! Just a patch so I can play the games I payed. These should be possible for must if not all games. For single player games its a no-brainer. For massively multiplayer online Video Games could be trickier but no impossible. Thank you for your time. Paulo",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.003315Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585952.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585952",
+    "chunks_doc_id": "F3585952",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

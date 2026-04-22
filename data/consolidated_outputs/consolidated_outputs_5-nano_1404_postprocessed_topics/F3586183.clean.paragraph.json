@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3586183",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:51Z",
+    "finished_at": "2026-04-14T12:50:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a deceptive tactic in my opinion"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "sold a video game to me"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "you dont legal speaking own these"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30053,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello good members i appreciate your efforts heres what i have personally experienced. A company has in my case sold a video game to me only to change the fundamental project i have paid for making the item useless for me Worst of all the company (blizzard entertainment) is known to be vindictive where if you try to gain chargebacks through legal means such as paypal they comply but punish you but revoking your whole account including serval unrelated games you own they can get away with this because you dont legal speaking own these a deceptive tactic in my opinion Thank you for your time",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.137765Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586183.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586183",
+    "chunks_doc_id": "F3586183",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586183.clean.paragraph.json"
+}

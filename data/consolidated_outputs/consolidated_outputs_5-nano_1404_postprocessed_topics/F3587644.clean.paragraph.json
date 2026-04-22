@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3587644",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:27Z",
+    "finished_at": "2026-04-14T13:20:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "features are built in to the car but locked behind a subscription service."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is quite unfair to have terms like \"buy\" or \"purchase\" be redefined using Terms of Service to be more equivalent to \"Rent\" and \"Lease\"."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41085,
+          "unit_kind": "feedback"
+        },
+        "text": "This feedback is regarding ownership and usage of software and video games, and touches on topics that are also addressed in the EU citizens initiative \"Stop Killing Games\". When a consumer sees the words \"Buy\" or \"Purchase\", they understand that they own it. That nobody can take it away. But it sparks a conversation regarding licenses. Licenses exist with the idea that access can be revoked if the company wishes to not support the product anymore, or someones is abusing the service they provide. This, in essence, is not unreasonable. I do think, that if that is the case, and the words \"buy\" or \"purchase\" were used, that an end-of-life solution should be provided. Buy and purchase implies owning, implies no-one is allowed to take it away. It is quite unfair to have terms like \"buy\" or \"purchase\" be redefined using Terms of Service to be more equivalent to \"Rent\" and \"Lease\". These kinds of terms are becoming more widespread, and threaten digital fairness. Licenses are now often used as tactics to simply deprecate a service that doesn't require extensive support to run in the first place, as to not \"compete\" with future similar products or games the company has on its roadmap. An example of this recently was posted by Video Games Europe, where they opposed Stop Killing Games because (paraphrased): \"People would not play the new games if the old games are still available and well-maintained\". I would argue that if companies want to stop supporting software and games, that they rework it in such a way that the license owner can still use the product, either by self-hosting required server-software, or by open-sourcing the product and letting any community continue the project if that is so desired to do. You also see this kind of shenanigans with cars, where features are built in to the car but locked behind a subscription service. If the hardware is there, and weighs more, it takes more fuel, and you still aren't allowed to use the feature. Locking this in software seems wild. I think it is an incredibly dangerous direction if companies can redefine \"owning\" into \"leasing\", and an entity like the EU is perfect to slow that kind of behaviour to a halt. Companies will always want people to rent something instead of buying outright. That earns them more for relatively less effort. That is even more prevalent with software and games. Please, I would love for you to take this into consideration. And thank you for even requesting this kind of feedback.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.560436Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587644.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587644",
+    "chunks_doc_id": "F3587644",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587644.clean.paragraph.json"
+}

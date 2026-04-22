@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587021",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:18Z",
+    "finished_at": "2026-04-14T13:08:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Their use of language in their defense is clearly manipulative, intended to evade their responsibility to consumers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22816,
+          "unit_kind": "feedback"
+        },
+        "text": "Video game publishing companies definitely need to be more strictly regulated. New technologies are allowing them to establish practices that clearly go against the interests of their consumers, with product ownership being one of the most important. In the case of Stop Killing Games, the issue isn't about games being eternal or companies supporting them forever, but rather about giving the community access to continue enjoying them even if the companies can no longer sustain them. Their use of language in their defense is clearly manipulative, intended to evade their responsibility to consumers, so the analysis of this case must be based on evidence and specific terminology, not ambiguous marketing terms.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.413451Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587021.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587021",
+    "chunks_doc_id": "F3587021",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

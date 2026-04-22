@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586915",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:51Z",
+    "finished_at": "2026-04-14T13:06:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This mostly concerns video games"
+              },
+              {
+                "quote": "It is unacceptable that these games stop working just because the vendor doesn't want to support these non-critical portions."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30191,
+          "unit_kind": "feedback"
+        },
+        "text": "As a citizen, I'm very concerned about the increasing, unnecessary internet requirements on most media these days. For streaming, that is perfectly reasonable. But for other media, that causes a very real problem that the media that I have purchased becomes inaccessible and hence worthless. This mostly concerns video games, where many games only use the internet for enforcing perceived copyright risks, or for peripheral features like social media. It is unacceptable that these games stop working just because the vendor doesn't want to support these non-critical portions. Everything in the product that should reasonably not require an internet connection should continue to function independently of what the vendor decides to do after my purchase. Although games are the primary issue, purchasing movies (and possibly other media) via a download can also suffer from this issue, as the movie must be \"unlocked\" before playback. If the service used to \"unlock\" is discontinued, then my purchased copy of the movie becomes unusable and worthless. This with no reasonable reason as to why the already downloaded movie could not continue to be used on compatible devices. Regards, Pierre Ossman",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.382015Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586915.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586915",
+    "chunks_doc_id": "F3586915",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

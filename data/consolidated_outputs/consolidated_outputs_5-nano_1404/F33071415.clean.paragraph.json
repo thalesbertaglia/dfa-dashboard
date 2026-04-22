@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33071415",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:41Z",
+    "finished_at": "2026-04-14T09:29:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "lock down all android phones to not allow them to install side loaded apps"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "by requiring all app developers to follow their terms of service and register with them"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27214,
+          "unit_kind": "feedback"
+        },
+        "text": "I am very worried about the moves Google is making to lock down all android phones to not allow them to install side loaded apps, they are saying it's for security but Google has often been publicly caught caught housing malware in their approved apps, meanwhile there are several amazing fully open source apps stores like f-droid that have been around for over 15 years and have supplied a reliable safe and secure way to find many amazing open source projects. Google isn't trying to secure android phones, they are trying to control the market for all android apps, the actual way they are shutting down these alternative app stores is by requiring all app developers to follow their terms of service and register with them, but this is not for security, again this is for market domination. To have a thriving and competitive marketplace you need true alternatives, and Google calling all the shots on what can and cannot be installed on billions of devices isn't a step in the right direction.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.500360Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071415.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071415",
+    "chunks_doc_id": "F33071415",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

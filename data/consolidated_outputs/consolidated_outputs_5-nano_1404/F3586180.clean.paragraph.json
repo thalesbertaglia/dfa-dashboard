@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586180",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:45Z",
+    "finished_at": "2026-04-14T12:50:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they sell you a game, but at some point in the future, they allow you to use or play it longer."
+              },
+              {
+                "quote": "Sometimes because it is ‘Online Only’, sometimes because they want you to buy their new games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19530,
+          "unit_kind": "feedback"
+        },
+        "text": "Hejsan intercepted! Hope you have a pleasant and good day! Remember, however, just that they should include plans for other types of digital protection for things such as games and/or other forms of digital media that may need it. For example, there is this European initiative under the name ‘Stop Killing Games’, which has a half million signatures now, which mostly cares like the preservation of digital media as video games. What companies do is that they sell you a game, but at some point in the future, they allow you to use or play it longer. Sometimes because it is ‘Online Only’, sometimes because they want you to buy their new games. Think if you bought a new BMW and four years later, they will take the car out of you and you will have to buy a new one! Completely ill, so I think it is quite important to be allowed to own what you buy, so I have a small request from you with these laws that you check on digital media such as video games, so that you own what you pay instead of the company you bought from being able to come, but just take played by you when you do not want to do so. Remember if they did so with films, you bought a film on DVD 10 years ago, and now they come to your house and destroy the disk, va too is it? Thank you for listening/reading and having a very good day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.135910Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586180.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586180",
+    "chunks_doc_id": "F3586180",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

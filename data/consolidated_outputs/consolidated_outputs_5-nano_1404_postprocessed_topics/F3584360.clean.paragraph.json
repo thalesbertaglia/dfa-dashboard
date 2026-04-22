@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584360",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:06Z",
+    "finished_at": "2026-04-14T11:56:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These licenses often allow the license holder to discontinue access to the software for any reason and without compensation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20234,
+          "unit_kind": "feedback"
+        },
+        "text": "Most software nowadays is sold as a minimal license which allows users to use a specific piece of software. These licenses often allow the license holder to discontinue access to the software for any reason and without compensation. However when looking at how this is communicated to the consumer it's advertised as a good (using terms like \"Buy\" and \"Order\") and I would say that an average consumer would not expect to lose access to a piece of software once they've bought it. Especially since in the past software generally stayed available even after the company that made it went defunct. Nowadays more and more software requires an online connection to the server of the company that created the software and once the creator decides that keeping that server online isn't worth it anymore the customer loses access to the bought product. I therefore feel that it would be beneficial if there were protections for the consumer which at the bare minimum required companies to inform customers about how long a product is supported and what happens when that support ends. Also this information should not be in a EULA that you can't read while in the store or browsing an online store, it should be front and center on the product listing/packaging so there cannot be any confusion. If and end of support date is not communicated the company should be required to facilitate a way for customers to continue using the product after support ends. This would allow consumers to make an informed decision about if they want to spend their money on a piece of software that may no longer work in a year.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.196203Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584360.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584360",
+    "chunks_doc_id": "F3584360",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584360.clean.paragraph.json"
+}

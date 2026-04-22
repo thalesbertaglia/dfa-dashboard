@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3590461",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:33:31Z",
+    "finished_at": "2026-04-14T13:33:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that the product which you are seeing is not part of some sort of subscription."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21314,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it should be important to make it clear in advertisements, online shops, demos, etc. that the product which you are seeing is not part of some sort of subscription. It should be clear when you are buying a product, or when you are subscribing to a service. When you are buying a product, there should be very clear rules regarding ownership of the product, and that the \"bought\" product shouldn't be discontinued to the point which you can't use said product any longer (there should be a standard for minimal usage of the product). This is very important, since nowadays a lot of products we buy are digital (movies, books, videogames, ...), and it's starting to become a common practise in the aforementioned industries to simply discontinue products (specially in the videogames industry). Because of that, it feels nowdays when we are \"buying\" a product, we are, in reality, just subscribing to it, since it can be taken away from us very easily. Therefore, I think some legislation making clear what is owned by the consumer, and what the consumer subscribes to can help a lot",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.825978Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3590461.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3590461",
+    "chunks_doc_id": "F3590461",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3590461.clean.paragraph.json"
+}

@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3591686",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:34Z",
+    "finished_at": "2026-04-14T13:36:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When a company like a credit card provider can unilaterally refuse to process payments for certain content or services, it acts as a digital gatekeeper that limits consumer choice and access to legal goods and services."
+              },
+              {
+                "quote": "The DFA should consider measures to ensure that all digital actors, including financial intermediaries, are held accountable for their policies."
+              },
+              {
+                "quote": "Consumers and businesses deserve a fair and transparent digital marketplace where access is not unjustly restricted by intermediaries who control essential infrastructure."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22793,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to provide feedback regarding the need for the Digital Fairness Act to address the role of payment processors and other third-party financial services in the digital ecosystem. When a company like a credit card provider can unilaterally refuse to process payments for certain content or services, it acts as a digital gatekeeper that limits consumer choice and access to legal goods and services. This practice lacks transparency and can be used to enforce private content restrictions that have no basis in law, creating an unstable and unfair environment for both consumers and independent creators. The DFA should consider measures to ensure that all digital actors, including financial intermediaries, are held accountable for their policies. Consumers and businesses deserve a fair and transparent digital marketplace where access is not unjustly restricted by intermediaries who control essential infrastructure. I urge the Commission to include provisions that ensure such companies operate with clear, consistent, and justifiable policies that are in the public interest.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.888408Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591686.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591686",
+    "chunks_doc_id": "F3591686",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591686.clean.paragraph.json"
+}

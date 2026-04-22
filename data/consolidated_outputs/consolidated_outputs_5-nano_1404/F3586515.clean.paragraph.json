@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586515",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:18Z",
+    "finished_at": "2026-04-14T12:58:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Game Publisher: Big companies like EA, Ubisoft and Microsoft are taking our rights of owning the product we legally bought."
+              },
+              {
+                "quote": "Credit Card Companies: Big institutes like Mastercard and Visa do attack our right of free expression by forcing Gaming Platforms to censor completely legal games and deleting even the bought products from our library."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22811,
+          "unit_kind": "feedback"
+        },
+        "text": "I like to bring up a very important topic not just for me, but for millions of Europeans and basically everyone outside the EU. As a Game Developer I see our industry under attack by giant Game Publisher and Credit Card Companies. Game Publisher: Big companies like EA, Ubisoft and Microsoft are taking our rights of owning the product we legally bought. Because of this I would like you, our representatives, to include the \"Stop Killing Games movement\" and \"Stop Destroying Video Games\" initiative into the Digital Fairness Act. Credit Card Companies: Big institutes like Mastercard and Visa do attack our right of free expression by forcing Gaming Platforms to censor completely legal games and deleting even the bought products from our library. We in the EU have our legal system and only this system should decide what is right and what is wrong, not big cooperation. We can not and should not allow this, that puts our democracy at risk. Both topics are a very important issue and should be considered as part of the Digital Fairness Act. To protect our rights as customers and our democracy as EU citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.267357Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586515.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586515",
+    "chunks_doc_id": "F3586515",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586830",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:04:20Z",
+    "finished_at": "2026-04-14T13:04:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital platforms such as Steam, Itchio and other smaller ones"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19490,
+          "unit_kind": "feedback"
+        },
+        "text": "Recently we have had a big problem with Visa and Mastercard, the policies of these two companies have led to digital platforms such as Steam, Itchio and other smaller ones suffering from what could be seen as censorship strategies and threatening both the relevant digital platforms and consumers and creators with the threat of not supporting both platforms and creators. Payment processors (Visa and Mastercard mostly for the oligopoly between them) cannot decide on my purchases as long as it is legal in my country, be it physical or digital. So far, an Australian group called Collective Shout urged them to act against these platforms to ban and censor what is now the subject of adulthood games (from content for adults to other genders such as LGBTQ +), but only for now, they can continue to respond for other cases and go further.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.358499Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586830.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586830",
+    "chunks_doc_id": "F3586830",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

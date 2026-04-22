@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3587055",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:08:57Z",
+    "finished_at": "2026-04-14T13:09:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when companies purposefully hide one of the available options in order to promote more expensive alternatives."
+              }
+            ]
+          },
+          {
+            "topic": "Censorship Pressure By Payment Processors",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "VISA and MasterCard's recent pressure on European and Asian art and media to censor content for ideological reasons."
+              }
+            ]
+          },
+          {
+            "topic": "GDPR Misinformation",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google and META's intentional misinformation about GDPR a few years ago to undermine the legislation."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Another practice that goes unmentioned is software providers selling software and presenting it as permanent only to disable it or stop supporting it afterwards."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46768,
+          "unit_kind": "feedback"
+        },
+        "text": "1) On point 4, regarding digital subscriptions, another issue that goes unmentioned is when companies purposefully hide one of the available options in order to promote more expensive alternatives. (Example: Microsoft still offering the 7 tier without Copilot, but hiding it from their web page and automatically upgrading their customers to the 10 tier.) 2) An unmentioned unfair trade practice is the harmful influence that corporations attempt to wield against other corporations or against civil society. (Example: VISA and MasterCard's recent pressure on European and Asian art and media to censor content for ideological reasons. Example 2: Google and META's intentional misinformation about GDPR a few years ago to undermine the legislation.) 3) Another practice that goes unmentioned is software providers selling software and presenting it as permanent only to disable it or stop supporting it afterwards. (Example: Microsoft sold Windows 10 with the marketing that it was the final version that would last indefinitely, but they have already replaced it and have recently announced the end of support. Example 2: Video games publishers disabling their older video games remotely and rendering them unusable without proper reason or notification before the sale.)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.421755Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587055.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587055",
+    "chunks_doc_id": "F3587055",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

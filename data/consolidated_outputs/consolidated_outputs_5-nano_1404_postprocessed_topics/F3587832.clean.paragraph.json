@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587832",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:00Z",
+    "finished_at": "2026-04-14T13:21:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The removal or deactivation of purchased digital products like videogames."
+              },
+              {
+                "quote": "Also, consumers are losing access to videogames theyve paid for when publishers think they are no longer financially viable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19218,
+          "unit_kind": "feedback"
+        },
+        "text": "As a European citizen, I urge the Commission to include protections in the Digital Fairness Act against these two unfair practices that affect consumers not only in the EU, but around the world: 1. Commercial interference in lawful digital content driven by the biggest payment processors, and 2. The removal or deactivation of purchased digital products like videogames. Recently, lawful digital content has been removed from platforms like \"Steam\" and \"Itch.io\", not because of legal issues, but due to pressure from payment providers like Visa or Mastercard, influenced by the Australian activist group \"Collective Shout\". This kind of indirect censorship, done without transparency or consumer input, sets a dangerous precedent. Payment platforms should not be allowed to pressure any kind of retailer to remove lawful content, goods or services from their catalog for ideological or any other kind of reasons. Also, consumers are losing access to videogames theyve paid for when publishers think they are no longer financially viable. The Stop Destroying Videogames initiative (Commission registration number: ECI(2024)000007), shows how widespread this concern is. That initiative expresses how citizens expect one of the fundamental principles of commerce to apply to digital goods as much as it applies to tangible goods: that a person can keep what they buy. Please include rules in the DFA to protect consumers from both payment processing companies overreach and unjust loss of access to digital goods.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.587018Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587832.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587832",
+    "chunks_doc_id": "F3587832",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587832.clean.paragraph.json"
+}

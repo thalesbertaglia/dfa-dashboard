@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585327",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:17Z",
+    "finished_at": "2026-04-14T12:25:31Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terminate access to software and videogames that have been sold without a clear expiration date"
+              },
+              {
+                "quote": "without respecting or considering people's ownership of a copy of a videogame or piece of software"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13612,
+          "unit_kind": "feedback"
+        },
+        "text": "i would like to mirror the hopes of others providing feedback, that you will consider including provisions regarding preservation of access to digital purchases such as software and videogames. companies often terminate access to software and videogames that have been sold without a clear expiration date in order to push people to purchase or rent a newer version or to cut operating costs of servers or customer support without respecting or considering people's ownership of a copy of a videogame or piece of software, resulting in a functioning digital product suddenly becoming unusable even though through an update the product can be made to remain functional independently. similar practices are also appearing in physical devices with digital components(smart cars, home automation, baby monitors, security cameras, and even implanted medical equipment), but i don't know if this would fit within the scope of the digital fairness act.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.682303Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585327.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585327",
+    "chunks_doc_id": "F3585327",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585327.clean.paragraph.json"
+}

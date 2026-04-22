@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584934",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:14:54Z",
+    "finished_at": "2026-04-14T12:15:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This affects all software with DRM and arbitrary online requirements, but it's especially relevant to video games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This could be curbed by requiring an end-of-life plan as part of the product purchase agreement and safety guarantees to the publishers, so that they can't be held liable for software they no longer support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20281,
+          "unit_kind": "feedback"
+        },
+        "text": "The concerning practice of publishers irrevocably disabling products as part of their end of support for the software should be considered by this act. Software sold to customers is not designed to be functional after the publishers can no longer feasibly support it. This affects all software with DRM and arbitrary online requirements, but it's especially relevant to video games. A concerning amount of art, culture and tradition gets lost to time because the work is not preserved for and unavailable for the future generations. This could be curbed by requiring an end-of-life plan as part of the product purchase agreement and safety guarantees to the publishers, so that they can't be held liable for software they no longer support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.510744Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584934.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584934",
+    "chunks_doc_id": "F3584934",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

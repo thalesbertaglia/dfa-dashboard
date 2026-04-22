@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584271",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:48Z",
+    "finished_at": "2026-04-14T11:54:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They can decide whether or not the consumer actually gets to play the game they payed for or not."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, publishers can release online games while being in full control over the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16210,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I support the stop killing Games movement. I believe that once a customer puchased a game from a puublisher, they gain the right to be able to play that game, no matter what. Currently, publishers can release online games while being in full control over the consumer. They can decide whether or not the consumer actually gets to play the game they payed for or not. if the publisher decides to shut down the servers for an online game, it will become absolutely unplayable. This will result in the customer having payed money for something that holds no value anymore, which is unfair. The purchase of an online game should not come with the risk of paying this money for a product you won't be able to use, if the publisher says so. Therefore, the game publishers and companies should always provide an option for the consumer to be able to play an online game, even if the servers are shutting down. A good example would be \"The crew\" from Ubisoft. A car racing game for which Ubisoft decided to shut down the servers. Now, it became unplayable and all of that seemingly for no real reason and barely any warning. Car racing games can be enjoyed as singleplayer games too, so if Ubisoft would have provided an option like that, the consumers could still play the game.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.154373Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584271.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584271",
+    "chunks_doc_id": "F3584271",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584271.clean.paragraph.json"
+}

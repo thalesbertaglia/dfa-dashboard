@@ -1,0 +1,71 @@
+{
+  "doc_id": "F33071535",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:44Z",
+    "finished_at": "2026-04-14T09:29:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Proposed verification policy threatens to undermine F-Droids core values such as openness and user freedom by imposing requirements that are incompatible with the ethos and operational model of many FOSS developers and alternative app stores"
+              },
+              {
+                "quote": "The policy will advantage large corporations, further consolidating market power and reducing competition - a direct threat to the EU's digital sovereignty and fair competition objectives."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27858,
+          "unit_kind": "feedback"
+        },
+        "text": "I want to express serious concerns about Googles proposed mandatory developer verification policy which is planned to be implemented starting from September 2026. In short it demands that apps can only be installed on its operating system (Android) if the app developers have verified themselves with Google, even if the app is not installed via the Play Store. Enabling the implementation of this verification method carries a number of risks, including: 1. Limiting the ability of independent app stores such as F-Droid to operate. This app store for the past 15 years has provided a safe and secure alternative to Play Store for Android users around the world to find and install free and open source apps. Many F-Droid apps are maintained by volunteers or small groups without formal business structures. The verification process, which includes providing legal documentation (such as legal names, addresses and other personal information) and maintaining a public privacy policy, adds administrative overhead and privacy concers that may be unsustainable for such projects, and in result deter these developers from publishing their apps, reducing the number of apps available on F-Droid. According to F-Droid \"The way in which F-Droid builds free software from source and then distributes it to end users without needing to involve Google, is akin to how most Linux distributions have been distributing software for decades. These distributions mechanisms have stood the test of time, are regarded as extremely secure and trustworthy, and are used by most of the modern computing infrastructure across the globe. Nobody has suggested that Linux distributions need to be made safer for end users by having a central authority verify each app developer. It should be no different for mobile operating systems.\" Proposed verification policy threatens to undermine F-Droids core values such as openness and user freedom by imposing requirements that are incompatible with the ethos and operational model of many FOSS developers and alternative app stores 2. Centralizing sensitive developer data increases exposure to breaches (similar to Google+ API Data Leak in 2018) or/and misuse, raising GDPR compliance concerns and potential risks for EU-based developers. 3. Googles privacy policy states that it provides personal information to [Googles] affiliates and other trusted businesses or persons to process it for us, with no obvious restrictions on who or what constitutes trusted businesses or persons and no obvious restrictions on what those parties can do with the personal information. Using the new verification system will require all Android app developers to comply with Google's requirements, which poses a threat to the privacy of users data. 4. The policy will advantage large corporations, further consolidating market power and reducing competition - a direct threat to the EUs digital sovereignty and fair competition objectives. Also European users will have fewer options, as smaller developers will be unable or simply unwilling to comply, reducing access to niche and innovative solutions. The EU should urge Google to reconsider this policy and if necessary, intervene to protect the interests of European citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.501880Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071535.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071535",
+    "chunks_doc_id": "F33071535",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

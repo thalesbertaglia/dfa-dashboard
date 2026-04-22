@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3626692",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:42:33Z",
+    "finished_at": "2026-04-14T13:42:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Google has announced, that they will want to prohibit sideloading apps."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9567,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, this is in fact my second time giving feedback on this call, I hope it will be invalidated ;) Google has announced, that they will want to prohibit sideloading apps. I believe, that this is an unfair practice as I have bought the device and I want to be able to run any Software on it regardless if Google knows/allows this. It is my purchase and I should own the device. This should in my opinion also include the Operating System and not just be limited to apps! This would be very important, as it would allow for breaking the monopoly Google has with Android. Please do note though, that this would not be directly targeting Google, but instead the manufacturers themselves, including Samsung, Xiaomi, Huawei, etc. They would have to release the Firmware binaries and Drivers and more, which they could do as just Binaries, thus not giving away any important trade secrets. I hope this will be ready by a human ;D and taken into account when creating a new set of laws as it is of great importance to me and the people in my general social circle Kind regards Tom",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.023744Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3626692.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3626692",
+    "chunks_doc_id": "F3626692",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

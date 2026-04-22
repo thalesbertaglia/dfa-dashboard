@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586921",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:02Z",
+    "finished_at": "2026-04-14T13:06:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "may be able to force video game sales platforms to censor thousands of legal titles on the basis of mere allegations without evidence"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24204,
+          "unit_kind": "feedback"
+        },
+        "text": "I am concerned that payment providers, Visa and Mastercard in this case, under the mere pressure of evangelist lobbyists in another continent, may be able to force video game sales platforms to censor thousands of legal titles on the basis of mere allegations without evidence, impacting many European (as well as non-European) developers, who are thus deprived of revenue. This practice opens the door to many abuses. I encourage the Commission to deploy and promote as soon as possible its unified payment system, Wero, on a continental scale as an alternative to these non-European systems. But also to protect the freedom of creation and expression of its video game developers, an industry that generated around EUR 23.48 billion in revenue in 2022 on the continent.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.383632Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586921.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586921",
+    "chunks_doc_id": "F3586921",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

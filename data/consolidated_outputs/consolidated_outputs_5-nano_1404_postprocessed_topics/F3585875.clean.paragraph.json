@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585875",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:40Z",
+    "finished_at": "2026-04-14T12:40:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect consumers from arbitrary game shutdowns."
+              },
+              {
+                "quote": "Offline modes or private server tools for abandoned games."
+              },
+              {
+                "quote": "Refunds/compensation when live services end prematurely."
+              },
+              {
+                "quote": "Entire purchases (DLC, cosmetics) vanished overnight."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 53666,
+          "unit_kind": "feedback"
+        },
+        "text": "As someone who has spent decades playing and investing in PC games, I strongly support the Digital Fairness Act and its push to protect consumers from arbitrary game shutdowns. Too many companies treat games as disposable services rather than products we own, leaving players with nothing after years of support. Two glaring examples from the Dead Game List highlight why this law is necessary: \"LawBreakers\" (2017, Cliff Bleszinski/Boss Key Productions) A full-priced multiplayer shooter killed just a year after launch because it \"failed to find an audience.\" Players who paid $30+ were left with a worthless product, despite no technical reason it couldnt remain playable offline or via private servers. \"Evolve Stage 2\" (2016, Turtle Rock/2K) A free-to-play rework of the original game, shut down in 2018 with zero recourse for players. Entire purchases (DLC, cosmetics) vanished overnight. Peer-to-peer options existed but were ignored. These cases prove companies prioritize profits over preservation. The Digital Fairness Act must ensure: Offline modes or private server tools for abandoned games. Refunds/compensation when live services end prematurely. Transparency about longevity before purchase. Gaming is a cultural medium, not a rental service. Stop killing games. Rasmus Jensen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.965806Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585875.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585875",
+    "chunks_doc_id": "F3585875",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585875.clean.paragraph.json"
+}

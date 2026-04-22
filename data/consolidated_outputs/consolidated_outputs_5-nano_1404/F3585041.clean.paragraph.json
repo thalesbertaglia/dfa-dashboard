@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585041",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:42Z",
+    "finished_at": "2026-04-14T12:19:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the video game company Ubisoft stopped the support and removed the video game The Crew from digital bookshops"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the impossibility for a production house to remove products lawfully purchased from the bookshops of digital shops without giving the purchaser the opportunity to continue to use that product"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21408,
+          "unit_kind": "feedback"
+        },
+        "text": "In addition to the measures already in place, I consider that it is also necessary to add the impossibility for a production house to remove products lawfully purchased from the bookshops of digital shops without giving the purchaser the opportunity to continue to use that product, be it music, film, video games, programmes or so on. For example, in March 2024, the video game company Ubisoft stopped the support and removed the video game The Crew from digital bookshops and recently another company reported that it will soon end the support of another video game: Anthem. Despite both requiring constant internet access to work, manufacturers have many ways to allow buyers to continue using them even after the official servers have been switched off, as also required by the European Citizens’ Initiative ‘Stop Destroying Videogames’, which exceeded 1400000 signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.566923Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585041.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585041",
+    "chunks_doc_id": "F3585041",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

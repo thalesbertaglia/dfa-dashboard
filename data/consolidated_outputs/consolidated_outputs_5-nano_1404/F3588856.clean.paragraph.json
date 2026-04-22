@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3588856",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:05Z",
+    "finished_at": "2026-04-14T13:26:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "'The Mighty Quest for Epic Loot'"
+              },
+              {
+                "quote": "micro-transactions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24381,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to suggest that the Digital Fairness Act could protect online video games from being taken down fully by the developers without having a long-term life support to still be in a playable state after reaching end-of-life, suggested in the 'Stop Killing Games' initiative. An example of this which is probably not talked about a lot could be the video game called 'The Mighty Quest for Epic Loot' (PC version of the game). Albeit it was a free game, I believe it still included micro-transactions which could offer you the option to play with other characters or have multiple characters and so forth. While I personally have not purchased any micro-transactions, it was nonetheless a really fun video game which I still wish I could play to this day if it were around. (Early access was available in 2013, official release was in 2015 and it was shut down in 2016 based on wikipedia public information.)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.693009Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588856.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588856",
+    "chunks_doc_id": "F3588856",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3584298",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:29Z",
+    "finished_at": "2026-04-14T11:54:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "More and more video games are being released in digital versions and often require an internet connection"
+              },
+              {
+                "quote": "The video game requiring a working internet connection also means that whenever a publisher decides to shutdown the servers for the video game it will mean that thousands of people won't be able to play the video game anymore all at the same time."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The prices of video games have also stayed the same if not increased"
+              },
+              {
+                "quote": "consumers are already paying more for video games than before when publishers decided to only release digital versions because now they don't need resources like transport, paper and plastics to distribute the video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22345,
+          "unit_kind": "feedback"
+        },
+        "text": "More and more video games are being released in digital versions and often require an internet connection, a lot of these games very often can't be played without an internet connection even if it's a single player game with no multiplayer option. The video game requiring a working internet connection also means that whenever a publisher decides to shutdown the servers for the video game it will mean that thousands of people won't be able to play the video game anymore all at the same time. This has already happened multiple times to many people and sometimes the age of the video game can't even be considered old. So please include video games into the act so that even when a publisher decides to stop their servers, the consumer is still able to play the video game they paid for.The prices of video games have also stayed the same if not increased even it's only a digital version which actually means that consumers are already paying more for video games than before when publishers decided to only release digital versions because now they don't need resources like transport, paper and plastics to distribute the video games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.165895Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584298.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584298",
+    "chunks_doc_id": "F3584298",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584298.clean.paragraph.json"
+}

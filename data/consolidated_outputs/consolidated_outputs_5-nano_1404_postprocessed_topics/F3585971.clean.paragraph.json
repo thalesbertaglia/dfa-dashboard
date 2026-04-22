@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585971",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:23Z",
+    "finished_at": "2026-04-14T12:42:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is especially common in the video game industry."
+              },
+              {
+                "quote": "Once the servers were shut down, all access to the game was lostincluding the single-player portion."
+              },
+              {
+                "quote": "While the game was more complex and required an always-online connection, EA could still have released the server code or tools to allow the community to maintain the game."
+              },
+              {
+                "quote": "EA could still have released the server code or tools to allow the community to maintain the game."
+              },
+              {
+                "quote": "the servers will be shut down, effectively voiding all purchases without refunds."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "with no recourse for existing customers, because of a EULA that the buyer has no meaningful way to reject."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25189,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, I'd like to highlight two key ways this act could benefit consumers. First, digital goods are often not sold as \"goods\" but rather as serviceseven when there's a one-time payment. The wording typically states that these goods are \"sold,\" not \"leased\" or \"rented.\" Yet publishers retain the right to change how the product functions or even discontinue it entirely, with no recourse for existing customers, because of a EULA that the buyer has no meaningful way to reject. This is especially common in the video game industry. It used to be that when someone purchased a video or video game, they truly owned itoften in the form of a physical disc or cartridge. As technology progressed, we moved toward the convenience of digital distribution, which is cheaper for developers and distributors and more convenient for consumers. However, somewhere along the way, customer rights were eroded. This act could help restore some balance. A notable example is the video game The Crew, published by Ubisoft. Though it featured a single-player mode, Ubisoft decided maintaining the game servers was too costly. Once the servers were shut down, all access to the game was lostincluding the single-player portion. As a developer, I can say with confidence that releasing server tools to the public would have been a low-cost alternative that would allow players to continue enjoying the game without requiring Ubisoft to host servers. Another example is Anthem, published by EA. While the game was more complex and required an always-online connection, EA could still have released the server code or tools to allow the community to maintain the game. Instead, the servers will be shut down, effectively voiding all purchases without refunds. There are entire articles documenting similar cases where major publishers like EA plan to cancel support for their games. These may give some warning but offer no real solution for customers. Second, this act could help limit the growing influence of payment processors in determining what consumers are allowed to purchase based on \"brand image risk.\" While I understand that these are private companies, their role now resembles that of essential service providers (e.g., gas or electricity companies), especially in the digital space. For example, the popular game storefront Steam had to add the following clause to its rules under pressure from processors like Visa: \"Content that may violate the rules and standards set forth by Steams payment processors and related card networks and banks, or internet network providers. In particular, certain kinds of adult-only content.\" This policy targets otherwise legal content simply because the payment processors deem it questionable. Currently, the rule seems to apply mainly to adult-themed content, but this is a slippery slope. Any form of art could be labelled offensive by someone, and payment processors should not act as moral arbiters of what consumers are allowed to buy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.012731Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585971.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585971",
+    "chunks_doc_id": "F3585971",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585971.clean.paragraph.json"
+}

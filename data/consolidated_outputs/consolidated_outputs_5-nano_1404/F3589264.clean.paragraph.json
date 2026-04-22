@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589264",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:30:28Z",
+    "finished_at": "2026-04-14T13:30:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "destruction of old or discontinued videogames that we have paid for already and which are slowly eliminated, one by one, as their online support is terminated."
+              },
+              {
+                "quote": "the game can still be taken from the hands of the end-user (hereby, game copy owner) by the game's publishers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13399,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I hope you are having a nice day in the European Parliament! My request is that if you could help in the stopping of the destruction of old or discontinued videogames that we have paid for already and which are slowly eliminated, one by one, as their online support is terminated. This is happening even if there is a single player component to the respective game, the game can still be taken from the hands of the end-user (hereby, game copy owner) by the game's publishers. There is currently an online initiative (also directed to the European Parliament, called \"Stop Destroying Videogames\") on eci.ec.europa.eu, which has gathered more than 1.5 million signatures, so you could take a look into that if you have the time. In conclusion, I would like to thank you very much for your time in reading my plea and thank you for supporting this cause.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.775363Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589264.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589264",
+    "chunks_doc_id": "F3589264",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

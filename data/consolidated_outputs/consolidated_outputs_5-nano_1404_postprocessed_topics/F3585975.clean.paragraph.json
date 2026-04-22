@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585975",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:34Z",
+    "finished_at": "2026-04-14T12:43:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "force consumers to subscribe as the only option."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "collect data from consumers without their consent"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Monitoring of players on online video games"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "open links that upload the page or move screen elements to cause accidental clicks"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37231,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Access alternatives to digital content Software tools, video games, series, films and other digital content should offer alternatives to subscriptions. Before, businesses allowed the option to buy by means of a single payment, but now force consumers to subscribe as the only option. 2. Reliance on centralised servers Numerose video games and software tools depend on a permanent or regular connection, threatening their preservation (in the case of video games) and worsening the user experience legally accessing. This reliance on centralised servers also allows companies to collect data from consumers without their consent and to maintain absolute control at the expense of their users. 3. Monitoring of players on online video games The harmful behaviour of certain players (hacking, harassment or offensive comments) should be investigated exclusively by the judicial authorities. Many people who commit serious infringements in video games are often repeated and repeated in other games. Decisions taken by a developer shall not prevent them from re-engaging in the same behaviour on other platforms. Businesses should stay sidelined, without using security as an excuse for accessing users’ private data, and simply report cases to the competent authorities. This would ensure real-life consequences to prevent recidivism and establish generalised rules, which would be the same and retroactive for all video games. 4. Visual contamination Many pages and apps show constant notifications, open links that upload the page or move screen elements to cause accidental clicks or retain the user longer than necessary. These practices negatively affect the experience and result in a loss of time for the user.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.015322Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585975.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585975",
+    "chunks_doc_id": "F3585975",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585975.clean.paragraph.json"
+}

@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585258",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:46Z",
+    "finished_at": "2026-04-14T12:24:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the sale of products, in particular video games, which actually function as temporary service licences."
+              },
+              {
+                "quote": "the video game industry is normalising a model in which, after paying the full price, the publishing company can unilaterally withdraw access to the game by closing its servers"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Companies selling products that rely on an online service to function should be obliged to provide a solution that ensures their play after the end of the official support."
+              },
+              {
+                "quote": "This could include releasing the server code, implementing peer-to-peer connections or removing digital rights management (DRM) that prevents access."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24266,
+          "unit_kind": "feedback"
+        },
+        "text": "From the European Commission, I am writing to express my deep concern about an increasingly widespread practice in the digital market: the sale of products, in particular video games, which actually function as temporary service licences. When a consumer buys a product, he expects to acquire a durable property over it. However, the video game industry is normalising a model in which, after paying the full price, the publishing company can unilaterally withdraw access to the game by closing its servers, leaving it completely unusable. It is the digital equivalent of a publisher entering your home years after you buy a book and take it from your shelf because you have decided to stop printing it. This practice not only harms the consumer financially, who loses something for what he paid, but also poses a serious threat to cultural preservation, destroying interactive works of art in which thousands of people have invested time, money and emotions. I therefore request that the Digital Fairness Act include specific measures to protect digital property. Companies selling products that rely on an online service to function should be obliged to provide a solution that ensures their play after the end of the official support. This could include releasing the server code, implementing peer-to-peer connections or removing digital rights management (DRM) that prevents access. I am confident that the Commission will take steps to make the digital market a fairer and safer space for consumers, where “shopping” really means “owning”.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.657467Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585258.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585258",
+    "chunks_doc_id": "F3585258",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

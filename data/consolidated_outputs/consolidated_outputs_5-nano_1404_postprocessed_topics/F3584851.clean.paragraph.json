@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584851",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:41Z",
+    "finished_at": "2026-04-14T12:13:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game title called \"The Crew\" which was shut down by company Ubisoft."
+              },
+              {
+                "quote": "Players who \"own it\" cannot play it anymore in ANY way."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22314,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings! I would politely ask if you could include games and customers who purchased them in your Digital Fairness Act. As of right now we have no power of stopping companies from exploiting its player base, as it was seen with game title called \"The Crew\" which was shut down by company Ubisoft. Players who \"own it\" cannot play it anymore in ANY way. It was completly taken away from the. To add to this plead, currently ongoing \"Stop Killing Games\" Initiative gathered 1 438 832 signs as of current moment I am writing this feedback. It shows desperation of those who love video games and hope to preserve them. Hope you consider including games in Digital Fairness Act, I wish everyone who reads this a good day!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.469145Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584851.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584851",
+    "chunks_doc_id": "F3584851",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584851.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3591481",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:38Z",
+    "finished_at": "2026-04-14T13:35:54Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in regards to games sold by Steam and Itch.io."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15977,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital fairness act must include rules against companies and institutions overreach in financial transactions of fair and legal products online. What can and cannot be sold online should be decided by national and international laws not by companies and financial institutions own decisions and values. We are currently at the times of submission of this feedback seeing such an overreach by Mastercard, Visa and Paypal and their backing banks in regards to games sold by Steam and Itch.io. It is a slippery slope that will lead to extra juridical entities deciding what is legal and not and is clearly violating citizens rights of free expression. I hope legislators that this into consideration in this act which has great support amongs citizens.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.869608Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591481.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591481",
+    "chunks_doc_id": "F3591481",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591481.clean.paragraph.json"
+}

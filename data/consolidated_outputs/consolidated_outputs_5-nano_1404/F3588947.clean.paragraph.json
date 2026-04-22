@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588947",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:30Z",
+    "finished_at": "2026-04-14T13:26:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "opaque terms of service to revoke access or alter the product."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Ownership should mean securitynot just a temporary license at the whim of a corporation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18919,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Parliament, As a strong advocate for consumer protection in the digital age, I believe the current proposal for the Digital Fairness Act is a step in the right direction. However, I am concerned that one crucial area remains under-addressed: the definition and protection of digital goodssuch as movies, video games, and software. Too often, companies retain full control over these goods even after purchase, using opaque terms of service to revoke access or alter the product. In practice, this means a consumer can pay for a digital item, only to have it removed without recourse. If this happened with a physical productsuch as a DVD or video game discit would be considered theft or at least a breach of consumer rights. I supported the Stop Killing Games initiative as far as I was allowed, and I see the Digital Fairness Act as a logical next step. Strengthening consumer protection by clearly defining digital ownership would be a meaningful continuation of that effort. I therefore urge the inclusion of a clear, enforceable definition of digital ownership within the legislation. Consumers deserve the same protections for digital goods as they have for physical ones. Ownership should mean securitynot just a temporary license at the whim of a corporation. Thank you for your attention to this matter. Sincerely,",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.701528Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588947.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588947",
+    "chunks_doc_id": "F3588947",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

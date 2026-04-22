@@ -1,0 +1,116 @@
+{
+  "doc_id": "F3586950",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:06:35Z",
+    "finished_at": "2026-04-14T13:07:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "deceptive subscriptions"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers disabling access to games that consumers have purchased under what they reasonably understand to be a perpetual licence."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If a product is marketed or implied to be a permanent licence, require that it remains accessible even after end-of-life announcements."
+              }
+            ]
+          },
+          {
+            "topic": "Data Use Transparency",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "non-transparent data use"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Pressure",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibiting payment processors from coercing platforms to censor or de-list legal digital content."
+              },
+              {
+                "quote": "Ensuring that legal digital goods and services cannot be blocked from sale due to opaque financial pressure."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 59367,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act is a much-needed and timely initiative. It addresses a wide range of manipulative practices that consumers face in digital environments, such as dark patterns, deceptive subscriptions, and non-transparent data use. Its emphasis on fairness, transparency, and accountability is commendable and shows a strong commitment to consumer rights in an increasingly digitised economy. However, there is a major issue currently unaddressed by the draft: the growing practice of video game publishers disabling access to games that consumers have purchased under what they reasonably understand to be a perpetual licence. This is not limited to online-only games. Many single-player or locally-installed titles are rendered unplayable after publishers revoke access through DRM servers, authentication checks, or internal policy decisions. Even when no legal or technical reason exists to remove access, this is increasingly done to push users toward newer titlesa form of planned obsolescence. Consumers are not always aware that access to a digital game they purchased may be withdrawn in the future, especially when marketing implies a full and lasting licence. In many cases, even physical editions with install media are made unplayable due to publisher-side shutdowns. This practice undermines trust in digital goods and damages the cultural and financial value of legitimate purchases. I recommend that the Act include provisions to address this issue. Specifically: Require publishers to clearly disclose, at the point of sale, whether the game relies on remote servers or DRM that could prevent access in the future. Where a product is marketed or implied to be a permanent licence, require that it remains accessible even after end-of-life announcements. If a product is withdrawn or support ends, mandate reasonable remedies, such as an offline mode, DRM removal, or partial refunds. These steps would uphold the consumers right to retain access to products they paid for and align with the Acts goals of fairness and transparency. A second issue also merits urgent attention: the growing role of payment processorsespecially Visa and Mastercardin pressuring digital platforms to remove or restrict access to lawful content. This has recently affected platforms like Steam and itch.io, where legal gamesoften with LGBTQ+ or adult themeswere removed following behind-the-scenes demands from payment providers. This indirect censorship is deeply concerning, especially since the content in question often complies with both the law and platform rules. Financial institutions should not be allowed to act as de facto regulators of speech or culture. This undermines consumer choice and violates the principle of lawful commerce. Therefore, the Act should include clear provisions: Prohibiting payment processors from coercing platforms to censor or de-list legal digital content. Ensuring that legal digital goods and services cannot be blocked from sale due to opaque financial pressure. These two additionsprotecting indefinitely sold digital games from unjustified deactivation, and shielding legal commerce from financial censorshipwould significantly strengthen the Act and ensure it is truly comprehensive in protecting digital consumers. Thank you for the opportunity to contribute to this important initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.394632Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586950.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586950",
+    "chunks_doc_id": "F3586950",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

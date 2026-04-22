@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3657298",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:43:52Z",
+    "finished_at": "2026-04-14T13:44:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "developers are forced into giving their personal information"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18436,
+          "unit_kind": "feedback"
+        },
+        "text": "On the subject of unfair commercial practices, the news that Google will be prohibiting apps to be installed on Android from anything other than from Play Store (Google's app store) or if verified as a developer by paying Google, is very concerning. Creating an ecosystem where developers are forced into giving their personal information and hoping Google will consider their application in a timely manner (which Google is not known for) and without bias etc (also very hard to apply). This applies to OpenSource/FOSS apps as well, which defeats the whole purpose of the EU Digital Services act that stipulates side-loading should be permitted.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.058547Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3657298.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3657298",
+    "chunks_doc_id": "F3657298",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3657298.clean.paragraph.json"
+}

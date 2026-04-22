@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584296",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:28Z",
+    "finished_at": "2026-04-14T11:54:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protection/preservation of video games by publishers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 6709,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this act is a step in the right direction, but I urge you to add requirements for protection/preservation of video games by publishers. Currently publishers can decide (especially for live service games) when games are discontinued and more often then not it won't be followed up with an end of life plan, such as open sourcing server infrastructure to privately host game servers so the game that was bought can be played after it's end of life. There is already a EU petition called \"Stop destroying video games\" with1.4 Million signatures which focuses on exactly this issue, showing broad support for this issue. I think this addition would fit in the scope of this act and further protect consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.164921Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584296.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584296",
+    "chunks_doc_id": "F3584296",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

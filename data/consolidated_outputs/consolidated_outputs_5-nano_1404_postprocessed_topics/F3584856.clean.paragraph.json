@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584856",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:50Z",
+    "finished_at": "2026-04-14T12:13:02Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns are a constant issue and regulation seems needed"
+              }
+            ]
+          },
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Misleading marketing by influencers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11948,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the goals of this proposal are admirable, dark patterns are a constant issue and regulation seems needed Misleading marketing by influencers I feels is already taken care of by platforms and current legislation My main concern is the point about addictive design of digital products: how do you define when something has addictive design? It seems way too vague, which would lead to a lot of products being forced out of the EU market because the changes aren't possible or to selective enforcement and regulatory chokehold Again, anything could be said to have addictive design: books, YouTube, any video game, movies, TV shows, streaming services: that would be too broad, please drop this point",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.471602Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584856.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584856",
+    "chunks_doc_id": "F3584856",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584856.clean.paragraph.json"
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3585139",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:54Z",
+    "finished_at": "2026-04-14T12:21:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital goods like video games."
+              },
+              {
+                "quote": "Once bought, these products should remain permanently accessible and playable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15973,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly support this act, as it addresses much-needed regulatory gaps. However, I believe its critical to extend consumer protections to include digital goods like video games. Currently, theres a heated debate about whether rights holders can disable access to purchased games a practice I find unacceptable. Think of it this way: if you bought a physical appliance like a freezer, and the manufacturer discontinued support, would they be justified in entering your home to disable it? Of course not. The same principle should apply to digital purchases like video games. Once bought, these products should remain permanently accessible and playable. I sincerely hope this crucial issue is taken into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.611941Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585139.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585139",
+    "chunks_doc_id": "F3585139",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

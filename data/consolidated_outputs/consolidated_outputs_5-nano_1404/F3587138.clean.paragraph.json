@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587138",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:11:14Z",
+    "finished_at": "2026-04-14T13:12:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game publishers (especially, but this applies to any digital content) reserve the right to shut down and cut off access to content that a consumer has previously bought"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "game publishers (especially, but this applies to any digital content) reserve the right to shut down and cut off access to content that a consumer has previously bought"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46341,
+          "unit_kind": "feedback"
+        },
+        "text": "I heartily welcome EU action to promote digital fairness and the mentioned points. I have two issues to add currently: The power of the payment processor duopoly of Visa/Mastercard (and the closely related processors of Paypal and Stripe) to act as a 'morality police' and effectively decide what content is allowed and not, regardless of local laws. The ability of publishers to unilaterally revoke access to purchased content, as exemplified by the Stop Killing Games campaign (the Citizen's Initiative of which recently passed 1.4 million signatures). For the first point, you may be aware of the current backlack against Visa/Mastercard. The story is that a right-wing religious group has lobbied them to censor a number of adult video games from the world's major storefront and an indie games storefront. In the latter case, this pressure lead the indie storefront (Itch.io) to (temporarily) take down all adult content from the storefront to comply with the specific demands of the payment processors. This situation is intolerable. In effect, this small lobbying group (Collective Shout) has imposed their demands on every European customer (and it is very likely that they will go further to restrict adult content as they can). This must be a regulatory issue. As it stands, consumers are complaining to Visa/Mastercard, but the real issue is that the effective monopoly of these companies mean that they can dictate what is and is not allowed. This has been a problem for many, many years for any creator (games, writing, art) that works with adult themes, be it erotic, horror, or simply LGBT. Paypal is famously trigger happy, which makes it incredibly fraught to try to make a living in that space. The second issue that I bring up relates to the Stop Killing Games campaign. They put it more eloquently than I, but at the core, the problem is that game publishers (especially, but this applies to any digital content) reserve the right to shut down and cut off access to content that a consumer has previously bought - an inevitable consequence of the 'games as a service' that parts of the industry has pushed for a number of years, but not a law of nature. There are two issues in it. A) When access to perfectly functional content is rescinded (because a new version has come out, etc). B) When the content is built to require online access and call home to the developer's servers to allow the game to run. The Stop Killing Games campaign especially homes in on the second point, because in many cases it is not at all necessary for a game to call home - it might even be trivial to allow the game to function on its own (this applies most aptly to single player games, but even multiplayer games have solutions - it feels like ages ago, but dedicated, self-hosted servers used to be the standard way to do multiplayer games, and is a very viable option in many cases. What the campaign calls for it legislation to support this; that a publisher cannot unilaterally pull support without leaving some way for the game to remain playable - or at the very least make it crystal clear when support is expected to be removed (which was not the case for The Crew, the campaign's main point). Digital fairness requires legislation to achieve. I believe that the EU is well positioned to enforce this, as it does GDPR. It is my hope that these causes are taken up and fought for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.446479Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587138.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587138",
+    "chunks_doc_id": "F3587138",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

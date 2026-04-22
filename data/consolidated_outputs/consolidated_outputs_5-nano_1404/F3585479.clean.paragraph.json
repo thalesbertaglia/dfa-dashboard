@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585479",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:40Z",
+    "finished_at": "2026-04-14T12:28:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "losing the right to use already-bought products, such as video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16784,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello dear ECC, This is a request to please keep the purpose of the \"Stop Killing Games\" initiative in mind, as it is directly about customer rights and could affect the way we interact with a multitude of other online-only services in a more consumer-friendly manner, from my standpoint. Thusly, i would suggest something akin to what was pointed out in this YouTube video (https://youtu.be/E6vO4RIcBtE?si=15SiDeTYNiSdcAS0), which is a new, 6th section to the Digital Fairness Act specifically on the issue of customers losing the right to use already-bought products, such as video games. Thank you and have a wonderful day!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.763834Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585479.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585479",
+    "chunks_doc_id": "F3585479",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

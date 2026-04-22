@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584526",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:40Z",
+    "finished_at": "2026-04-14T12:00:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "End User License Agreement terms, telling their customers to destroy their copy of their game that they paid for whenever the games' servers shut down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16243,
+          "unit_kind": "feedback"
+        },
+        "text": "It would be nice if among unfair practices it could include videogame publishers shutting down games they have already sold, with nothing for consumers to show for what they actually paid for. Not really asking publishers to support their games till the end of time, but at least leaving their games after shut-down in a reasonably playable state whenever they deem them no longer profitable. Because in the meantime, publishers like Ubisoft and Activision-Blizzard-King have crazy End User License Agreement terms, telling their customers to destroy their copy of their game that they paid for whenever the games' servers shut down. Hundreds of videogames have vanished into the ether in the last 15 years because of all this. Let's do something about it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.275769Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584526.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584526",
+    "chunks_doc_id": "F3584526",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584526.clean.paragraph.json"
+}

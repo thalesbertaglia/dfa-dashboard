@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3586522",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:58:23Z",
+    "finished_at": "2026-04-14T12:58:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gaming Development Studios being able to cut off access to a product to consumers who purchased the product"
+              },
+              {
+                "quote": "Games increasingly require online connection to a server, which can be shut down arbitrarily with no consequence and block access to the product"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forcing stores (both digital and physical) to remove products that they do not like from their offering"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22757,
+          "unit_kind": "feedback"
+        },
+        "text": "The Consumer Rights online are indubitably lacking, the initiative takes a step in the direction of fixing this problem. There are however problems that it does not cover, one such problem is Payment Processor companies, especially American Visa and MasterCard, having the power to project their morality onto the consumer in EU by utilizing their duopoly status and forcing stores (both digital and physical) to remove products that they do not like from their offering. Another such problem is Gaming Development Studios being able to cut off access to a product to consumers who purchased the product, one of the ways this happens is that Games increasingly require online connection to a server, which can be shut down arbitrarily with no consequence and block access to the product (it should also be noted that this is not strictly a Game Studios problem, as, e.g., Smart Devices suffer from the same issue). The former might even classify as a National Security Risk, as the corporations that create the problem are not European, yet hold enough power to project their morality onto EU consumers. The latter problem currently has a proposed EU initiative, \"Stop Destroying Videogames\", which seems to align with the values of the Digital Fairness Act, and is heavily supported by EU citizens that are aware of the problem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.269987Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586522.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586522",
+    "chunks_doc_id": "F3586522",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

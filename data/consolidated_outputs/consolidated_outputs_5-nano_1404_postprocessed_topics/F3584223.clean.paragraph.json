@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584223",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:52:40Z",
+    "finished_at": "2026-04-14T11:53:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "As a gamer, I experienced a game I own that one day it was shut down permanently,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19965,
+          "unit_kind": "feedback"
+        },
+        "text": "As a gamer, I experienced a game I own that one day it was shut down permanently, so it means i paid for the product i no longer can access because the publisher can just decide to shut it down many people as gamers are frustraded so would let you consider adding video games to this, and also for games should have a end of life plan and the option if the game is online only that the community can host the server's them selves and leave the game in a playable state.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.132832Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584223.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584223",
+    "chunks_doc_id": "F3584223",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584223.clean.paragraph.json"
+}

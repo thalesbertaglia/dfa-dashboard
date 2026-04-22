@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3591467",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:32Z",
+    "finished_at": "2026-04-14T13:36:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "this is the current Steam / Itch.io controversy."
+              },
+              {
+                "quote": "Ubisoft controversy (\"stopkillinggames\") which decided to remove games from actual libraries"
+              }
+            ]
+          },
+          {
+            "topic": "Digital Ownership",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Moreover, the EU must take actions to provide citizens with appropriate digital rights."
+              },
+              {
+                "quote": "Digital goods used to be physical and thus impossible to claim back by providers and could be inherited, constituting actual capital with a valuable second hand market."
+              },
+              {
+                "quote": "This has created recently the Ubisoft controversy (\"stopkillinggames\") which decided to remove games from actual libraries"
+              },
+              {
+                "quote": "Now most digital goods cannot be transmitted or inherited while being priced the same than physical."
+              },
+              {
+                "quote": "EU should make a hard stance on digital ownership and transfer"
+              },
+              {
+                "quote": "if buying is not owning, then pirating is not stealing"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 54459,
+          "unit_kind": "feedback"
+        },
+        "text": "European citizens should not have the content they can buy approved / censured by foreign entities like card providers (Visa, Mastercard) and payment processors (Paypal) -> this is the current Steam / Itch.io controversy. These entities should be legally bound to accept any payment if they want to exist in the EU market. Mastercard is reported as politically involved and trying to limit the public knowledge of its involvement by actively leveraging subsidies (thanks to money they partly got through EU transactions...) (cf. https://www.reddit.com/r/Steam/comments/1mput4r/now_mastercard_are_censoring_free_speech/) Moreover, the EU must take actions to provide citizens with appropriate digital rights. Digital goods used to be physical and thus impossible to claim back by providers and could be inherited, constituting actual capital with a valuable second hand market. This has created recently the Ubisoft controversy (\"stopkillinggames\") which decided to remove games from actual libraries Now most digital goods cannot be transmitted or inherited while being priced the same than physical. EU has lost a lot of value by not ensuring that all digital goods should provide such convenience, with a mostly one way financial flow towards foreign entities I will add the saying in digital communities \"if buying is not owning, then pirating is not stealing\". EU should make a hard stance on digital ownership and transfer",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.866811Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591467.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591467",
+    "chunks_doc_id": "F3591467",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591467.clean.paragraph.json"
+}

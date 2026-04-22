@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585322",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:25:12Z",
+    "finished_at": "2026-04-14T12:25:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers to delist or disable games (including single-player titles)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21496,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, As you are aware, it is becoming increasingly common for publishers to delist or disable games (including single-player titles) for reasons such as expired licenses, server shutdowns, or strategic decisions. This often leaves paying customers with no access, no refund, and no viable alternative. In many cases, the games are rendered entirely unplayable, with no preservation pathway or legal recourse. As someone who finds deep personal value in games, this issue is not abstract. Titanfall 2, for example, is a game I love and return to often. It has provided me with comfort during difficult times, and the thought of it becoming unplayable due to publisher decisions is deeply upsetting. Video games are not merely digital services. They are cultural products and artistic works. Consumers deserve confidence that what they purchase will remain accessible under fair and reasonable conditions. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.680580Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585322.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585322",
+    "chunks_doc_id": "F3585322",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

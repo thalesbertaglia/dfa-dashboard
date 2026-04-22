@@ -1,0 +1,87 @@
+{
+  "doc_id": "F32844784",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:26:41Z",
+    "finished_at": "2026-04-14T09:28:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the arbitrary removal of games due to corporate decisions"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This practice, increasingly common among manufacturers, forces users into a single ecosystem, allowing companies to monetize user data and restrict choice under the guise of safety."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Terms of Service hidden or subject to frequent, unilateral changes."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 89122,
+          "unit_kind": "feedback"
+        },
+        "text": "The digital marketplace is increasingly fraught with issues that impact consumer rights and the very notion of ownership. From the sudden disappearance of legally acquired media like movies and anime, as seen with the Funimation and Crunchyroll merger, to the arbitrary removal of games due to corporate decisions, consumers find their purchases vulnerable. This vulnerability is compounded when companies disappear entirely, leaving customers with nothing for their online-only purchases. A significant problem is the blurring line between purchasing a product and merely licensing it. Companies often use the term \"buy\" for what is effectively a rental, with Terms of Service hidden or subject to frequent, unilateral changes. This means consumers can lose access to content they believed they owned, especially when platforms shut down or merge. The example of Sony moving users from Funimation to Crunchyroll, resulting in the erasure of entire libraries, highlights this precariousness. Solutions proposed include allowing consumers to download offline versions of their purchased media or enabling private, non-commercial servers for games, ensuring continued access to what was paid for. The shift from tangible goods to digital licenses means that movies, books, and games can vanish from a user's library overnight as well. This lack of control extends to the devices we own. Tech giants like Google are pushing for more closed ecosystems, exemplified by new Android policies that require developer identity verification. While presented as a security measure, this move limits the ability to \"sideload\" apps, a key feature of Android's open platform, and solidifies Google's monopoly over app distribution. This practice, increasingly common among manufacturers, forces users into a single ecosystem, allowing companies to monetize user data and restrict choice under the guise of safety. Adding another layer of concern is the growing influence of private payment processors in dictating what content is permissible. These companies, including major credit card providers, are censoring legally available products on platforms like Steam, Itch.io, and Patreon based on their own moral judgments rather than legal statutes. This overreach bypasses established legal frameworks for content regulation and can cripple businesses by denying them payment processing. This censorship not only restricts consumer choice but also stifles free expression, particularly affecting marginalized communities and artists whose work might challenge societal norms. This issue is compounded by the immense power of these private monopolies. Without competition, they can dictate terms, raise prices, and stifle innovation. Their actions, such as Visa and MasterCard's blocking of transactions for certain political movements and their censorship of content on Japanese manga sites, grant them immense control over both the economy and freedom of expression. This consolidation of power is anti-consumer and a direct threat to a free and open digital society. The difficulty in reaching customer support further erodes consumer trust. Many companies hide contact information, routing customers through AI chatbots that lead to endless FAQ loops, making it nearly impossible to resolve issues, especially those involving connectivity problems. Additionally, many platforms request excessive personal data, even when unnecessary for the service provided, raising significant privacy concerns. The lack of clear distinction between real purchases and rentals, coupled with the unilateral power of payment processors and the challenges in accessing support, creates an environment where consumers feel increasingly disempowered and distrustful.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.441483Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32844784.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32844784",
+    "chunks_doc_id": "F32844784",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F32844784.clean.paragraph.json"
+}

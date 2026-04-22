@@ -1,0 +1,77 @@
+{
+  "doc_id": "F33091956",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:57Z",
+    "finished_at": "2026-04-14T09:36:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the use of personal data as a form of payment."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 9535,
+          "unit_kind": "feedback"
+        },
+        "text": "Student of the Jean Monnet Modules project “DERECHO”: ‘Defense of European Rights and Excellence for Consumers HHarmonisation’, No 101239437. Project financed by the European Union. Jean Monnet Actions in the field of Higher Education: Modules. Call for tenders ERASMUS-JMO-2025-HEI-TCH-RSCH. I consider that this project correctly reflects the European Union’s efforts to update and strengthen consumer protection in a constantly evolving digital context. The incorporation of new directives, such as the Digital Fairness Directive, shows a legitimate concern to regulate emerging phenomena such as dark patterns, addictive design or the use of personal data as a form of payment. I fully share the project’s approach as it promotes a more balanced relationship between consumers and businesses, based on transparency, accountability and human intervention in automated processes. Furthermore, I consider it essential that the Member States, such as Spain, implement these rules in a timely and effective manner in order to ensure uniform and effective protection throughout Europe. In short, such initiatives help to consolidate an informed digital citizenship, aware of their rights and committed to sustainable and ethical consumption. This reflection is part of my participation in the Jean Monnet project on Damage and Consumer Law in the European Union, developed under the theme of Damage and Consumption.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.594443Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091956.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091956",
+    "chunks_doc_id": "F33091956",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

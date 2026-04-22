@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586279",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:36Z",
+    "finished_at": "2026-04-14T12:52:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The inclusion of video game preservation in the EU Digital Fairness Act is long overdue."
+              },
+              {
+                "quote": "As digital titles become increasingly dependent on online services, more and more games are being lost forever once servers go offline."
+              },
+              {
+                "quote": "The ongoing Stop Killing Games initiative, supported by over 1.44 million participants, shows growing demand for legislative action to protect digital games as part of Europes digital heritage and ensure long-term access for consumers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20612,
+          "unit_kind": "feedback"
+        },
+        "text": "The inclusion of video game preservation in the EU Digital Fairness Act is long overdue. As digital titles become increasingly dependent on online services, more and more games are being lost forever once servers go offline. A personal example is BattleForge, a unique RTS-card hybrid I loved, which vanished completely when EA shut it downdespite a passionate community. This isnt just nostalgia; its about cultural and consumer rights. The ongoing Stop Killing Games initiative, supported by over 1.44 million participants, shows growing demand for legislative action to protect digital games as part of Europes digital heritage and ensure long-term access for consumers.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.186490Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586279.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586279",
+    "chunks_doc_id": "F3586279",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586279.clean.paragraph.json"
+}

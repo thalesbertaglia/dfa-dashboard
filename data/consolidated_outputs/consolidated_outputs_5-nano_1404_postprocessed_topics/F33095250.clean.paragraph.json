@@ -1,0 +1,72 @@
+{
+  "doc_id": "F33095250",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:52:48Z",
+    "finished_at": "2026-04-14T09:53:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "completely unusable in cases where their products fall short of commercial expectations, leaving thousands, if not sometimes millions, of their clients unable to use the programs that they payed the fair and agreed price in the past."
+              },
+              {
+                "quote": "akin to extortion or blackmail"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22410,
+          "unit_kind": "feedback"
+        },
+        "text": "After extensively reading the DFA (Digital Fairness Act) I can safely say that it will grant many benefits to both European consumers, small companies but also to non-EU consumers around the world. However I feel like it just falls short of in some aspects, namely those where software sellers both proactively and retroactively make their software in ways that make it completely unusable in cases where their products fall short of commercial expectations, leaving thousands, if not sometimes millions, of their clients unable to use the programs that they payed the fair and agreed price in the past. Companies are of course allowed to seek profit, but when that profit is sought for in ways that are akin to extortion or blackmail, that's where I feel we should all collectively draw the line. Software can be made for profit and still be unshackled from the total control of their developer. And thus, I, as a concerned EU citizen, ask for these protections of EU consumers to be broadened, as to make it fairer for as many people as possible to enjoy and use their tools at their own discretion. Thank you for reading",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.698001Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33095250.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33095250",
+    "chunks_doc_id": "F33095250",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33095250.clean.paragraph.json"
+}

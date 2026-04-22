@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3715627",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:30Z",
+    "finished_at": "2026-04-14T13:46:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect video games from planned obsolescence."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13998,
+          "unit_kind": "feedback"
+        },
+        "text": "We, consumers of digital content, call on the European Union to introduce rules to protect video games from planned obsolescence. Many games, sold as goods without an expiry date, become unlicensed once publishers have finished their support, which violates consumer rights and makes it difficult to preserve cultural heritage. Games become unremunerated over time (e.g. without external fashion), even though consumers have paid for them. We call for ensuring that the games purchased remain game-changing, e.g. offline mode or *embedded self-hosting tools*. Such a law will protect consumer investment and games as cultural heritage. We ask the European Commission to consider legislation guaranteeing consumer rights and supporting the preservation of video games. I warmly thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.107300Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3715627.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3715627",
+    "chunks_doc_id": "F3715627",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

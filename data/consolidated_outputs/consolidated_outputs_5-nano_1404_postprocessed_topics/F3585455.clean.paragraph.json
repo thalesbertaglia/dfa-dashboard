@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585455",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:27:56Z",
+    "finished_at": "2026-04-14T12:28:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games market"
+              },
+              {
+                "quote": "some developers or publishers leave their games unfinished or unoperational, and still continue to sell them."
+              },
+              {
+                "quote": "the game was still being sold."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "as if people who bought them only rented them out for a couple of years."
+              },
+              {
+                "quote": "conserving the right of the customer to use his games even after their support has ended is needed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33998,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I hope that you may consider upgrading customer protection in the video games market, because sadly some developers or publishers leave their games unfinished or unoperational, and still continue to sell them. One such case is of a game Titanfall, which was abandoned by it's developer Respawn Entertainment and publisher EA, causing it to become unplayable due to hacker attacks. As far as i know, the game is tottally abandoned today, with no option to buy, nor play it by official means, with community trying to repair the damage with modded clients. The worst offense, in my opinion, is that for long time after the attack the game was still being sold. I am hoping that this legislation could change fate of such games in future, abandoned by their creators, as if people who bought them only rented them out for a couple of years. I think that conserving the right of the customer to use his games even after their support has ended is needed, if we would ever want to say that digital markets are fair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.751995Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585455.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585455",
+    "chunks_doc_id": "F3585455",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585455.clean.paragraph.json"
+}

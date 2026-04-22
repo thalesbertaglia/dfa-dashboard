@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584605",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:23Z",
+    "finished_at": "2026-04-14T12:03:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I believe it would be worth your time to look further into the issue of video games preservation."
+              },
+              {
+                "quote": "video game companies have gotten away with outright anti-consumer practices"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23119,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello there! I believe it would be worth your time to look further into the issue of video games preservation. Specifically the Stop killing games initiative and the Stop destroying Video games Europeans citizens initiative! For far too long now video game companies have gotten away with outright anti-consumer practices which have only emboldened them to further push the envelope so to speak in their favor. I and many other believe it is necessary to have legislation put in place in order to protect the rights of the consumer on this issue such that the video games that we have legally digitally purchased remain in our own possession. And remain available to play in their original state to some capacity! Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.314352Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584605.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584605",
+    "chunks_doc_id": "F3584605",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584605.clean.paragraph.json"
+}

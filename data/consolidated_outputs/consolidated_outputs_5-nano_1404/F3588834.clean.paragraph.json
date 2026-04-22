@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588834",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:25:56Z",
+    "finished_at": "2026-04-14T13:26:19Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "this dishonest practice of deactivating a product after it has been sold"
+              },
+              {
+                "quote": "end of life plan for the software so that the user can continue to use the software if the publisher decides to stop the official medium"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22901,
+          "unit_kind": "feedback"
+        },
+        "text": "It is important to clarify the distinction between a subscription or the purchase of a perpetual licence for software. If the purchase of a licence for a software or service does not include a clear expiry date, publishers must provide for an end of life plan for the software so that the user can continue to use the software if the publisher decides to stop the official medium. In my view, this dishonest practice of deactivating a product after it has been sold is very common on the part of video game publishers and vendors of connected devices, but does not limit it to those industries.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.690125Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588834.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588834",
+    "chunks_doc_id": "F3588834",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

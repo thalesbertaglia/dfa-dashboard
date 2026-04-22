@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588031",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:21:55Z",
+    "finished_at": "2026-04-14T13:22:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There are existing legal frameworks namely age ratings and age verification through date of birth verification that are designed to protect minors and advertise the content of games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17090,
+          "unit_kind": "feedback"
+        },
+        "text": "The power that payment processers have shown to have to delist and restrict legal content that certain parties have deemed to be inappropriate based on their personal moral beliefs is unacceptable. It is nothing less than censorship and in opposition to freedom of speech, freedom of expression, religious freedoms. There are existing legal frameworks namely age ratings and age verification through date of birth verification that are designed to protect minors and advertise the content of games. Sanitisation of the internet and online spaces to protect advertisers and payment processers brand images is simply ridiculous. I would also like to add as it it related that requirements to add official IDs to online databases will only lead to increased leaks of private information increased ease of identity theft and fraud as it has been shown time and time again that no database is entirely secure and once something has been uploaded to the internet it can never be fully removed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.604661Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588031.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588031",
+    "chunks_doc_id": "F3588031",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

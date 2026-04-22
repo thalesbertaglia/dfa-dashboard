@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3586713",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:02:32Z",
+    "finished_at": "2026-04-14T13:02:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Labeling a game as a \"live service\" is a shady business practice and this is the main argument they make."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to stop videogame developers,to \"kill\" videogames as soon as they decide."
+              },
+              {
+                "quote": "Many games dissapear over night from gamers library,games we bought as products,not as an monthly subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not as an monthly subscription."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26998,
+          "unit_kind": "feedback"
+        },
+        "text": "Europe is the best place to be a consumer because of laws and policies like this one,however we can do more on behalf of consumers,just like me.I think that we should introduce a line in this act to stop videogame developers,to \"kill\" videogames as soon as they decide.Labeling a game as a \"live service\" is a shady business practice and this is the main argument they make.EU Comission should intervene in this clear overreach-a good you sold as a product,cannot be taken away from consumers.Many games dissapear over night from gamers library,games we bought as products,not as an monthly subscription.Please consider adding a line to this act to protect us from beeing \"stolen\" of whats rightfully bought.For more details please inspect the Stop Destroying Videogames Initiative,a petition with over 1 million signatures. Thank you",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.327957Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586713.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586713",
+    "chunks_doc_id": "F3586713",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584708",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:11Z",
+    "finished_at": "2026-04-14T12:07:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that consumers buy would be protected by this act."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12584,
+          "unit_kind": "feedback"
+        },
+        "text": "I would appreciate it if we can make sure that video games that consumers buy would be protected by this act. Many games now have been used as a way to tell history to a new generation, to tell personal stories and share culture. Loosing games is worrying, as we could be loosing and forgetting something important about our culture and past. And even non historical and cultural games are important, because just like art and literature, games from certain time periods can say a lot of what was happening.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.365823Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584708.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584708",
+    "chunks_doc_id": "F3584708",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

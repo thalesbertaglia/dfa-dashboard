@@ -1,0 +1,89 @@
+{
+  "doc_id": "F3585127",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:20:43Z",
+    "finished_at": "2026-04-14T12:21:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "kill switches"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remotely revoke access - often without warning and never with compensation - to the goods"
+              },
+              {
+                "quote": "unclear definitions of 'goods' and 'services'"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41570,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, In the last two decades, digital media has become the mainstay source of entertainment for a significant part of the EU population. As highlighted in the call for evidence, the explosive growth of this medium - particularly in the form of online services - have lead to an onslaught of customer rights abuse by numerous companies. It has quickly become evident that the existing regulatory frameworks are completely inadequate to address the aforementioned abuse. Regulations are riff with so-called 'grey areas'. Companies often abuse their asymmetrical relationship with their customers to stay in those gray areas, confident in the fact a handful of citizens will never have the means to make their rights due. In particular, an area of personal concern is the de-facto 'norm' of \"buying\" digital medias such as movies, music, video games. Digital video games, for instance, are \"sold\" to customers under often un-lawful license agreements, in with the seller denies all rights of ownership to the buyer. Publishers then unilaterally decides to remotely revoke access - often without warning and never with compensation - to the goods. Those goods are nowadays often designed with built-in \"kill switches\", presented under the guises of DRMs (Digital Rights Management), \"online services\", \"anti-cheats\", etc. While it is understood that some of those technical features are of genuine interest to the user, they are often abused to revoke access to legitimately 'bought' goods. Furthermore, as those goods are not presented with an expiration date and make use the words \"buy\", \"sold\", \"own\", they cannot be considered 'services' as per general understanding of the population. Lastly, publishing companies have nowadays so brazen as to publicly admit medias such as video games are \"killed off\" to force customers to buy the newest installment. It is, quite plainly, planed obsolescence - something the EU has clearly ruled against in the past. Existing regulations should be clarified and adjusted to prevent abusers hiding behind unclear definitions of 'goods' and 'services', switching from one definition to the another as best pleases their interests.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.606531Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585127.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585127",
+    "chunks_doc_id": "F3585127",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

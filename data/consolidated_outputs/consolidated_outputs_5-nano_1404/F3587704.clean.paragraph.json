@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3587704",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:20:08Z",
+    "finished_at": "2026-04-14T13:20:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers decide to shut them down remotely."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Gatekeeping",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "cutting off payment access to developers or platforms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26800,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Comission. Im writing to express my deep concern as a supporter of the Stop Killing Games initiative. More and more players are watching the games they legally purchased disappear not because of technical reasons, but because publishers decide to shut them down remotely. This is a direct attack on digital ownership and cultural preservation. What makes this even more worrying is the growing role of financial institutions especially Visa and Mastercard in enforcing vague content policies by cutting off payment access to developers or platforms. These corporations should not be allowed to silently influence which games are allowed to exist or remain accessible. Stop Killing Games stands for a simple but vital principle: if you buy a game, you should be able to keep it. No publisher, and no payment company, should be able to take it away from you after the fact. Please take action to protect players' rights, stop financial censorship, and ensure that games like books and films can be preserved, played, and passed on.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.573286Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587704.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587704",
+    "chunks_doc_id": "F3587704",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

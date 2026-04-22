@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589022",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:04Z",
+    "finished_at": "2026-04-14T13:28:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I have played online games, and spent money on them."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20737,
+          "unit_kind": "feedback"
+        },
+        "text": "I have played online games, and spent money on them. I know people spend thousands of dollars on live service games. If publishers can just shut these services down on a whim without recourse, I don't believe that's fair. If they do so prematurely, they should be legally forced to return a portion of customers' spending depending on realistic expectations of game lifetime. If that is not possible, it should at least be the case that the games should still be playable in some form, because customers already paid for the game. No new updates should be required, and it doesn't even need to remain online, but players should at least be able to access and play the game. Ideally, the games can be hosted privately and played with friends or a larger community.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.729032Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589022.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589022",
+    "chunks_doc_id": "F3589022",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

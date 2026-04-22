@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584941",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:15:08Z",
+    "finished_at": "2026-04-14T12:15:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "final de vida de videojuegos"
+              },
+              {
+                "quote": "vender obras que se convierten en inservibles una vez se decide dejar de dar soporte"
+              },
+              {
+                "quote": "sin información, a priori, para el consumidor sobre esa caducidad."
+              },
+              {
+                "quote": "consumidores que tienen en su haber videojuegos que compraron en su día y que son inservibles."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27749,
+          "unit_kind": "feedback"
+        },
+        "text": "Quisiera instar a los excelentísimos señores y señoras de la comisión que incluyeran provisiones en el \"Digital Fair Act\" sobre el tratamiento de final de vida de videojuegos y otros productos de ocio digital. Se está convirtiendo en práctica habitual en el sector vender obras que se convierten en inservibles una vez se decide dejar de dar soporte activo, sin un plan para que puedan mantenerse mínimamente usables una vez se decide no dar soporte y sin información, a priori, para el consumidor sobre esa caducidad. El resultado es que hoy en día hay consumidores que tienen en su haber videojuegos que compraron en su día y que son inservibles.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.514533Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584941.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584941",
+    "chunks_doc_id": "F3584941",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

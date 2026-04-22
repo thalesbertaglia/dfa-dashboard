@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584844",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:33Z",
+    "finished_at": "2026-04-14T12:12:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Its an initiative to prevent video game developers from taking away video games that they have sold to customers."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16628,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, my name is Dmitij Alexsson, i'm from Russia and i know how complicated our relationship with EU is at the moment but i think you guys are doing the right thing and i beg you, please look into Stop Destroying Videogames initiative, it just recently passed required amount of votes from EU citizens to be looked into by EU officials (i'm sorry, i don't exactly know how EU voting works) Its an initiative to prevent video game developers from taking away video games that they have sold to customers. Just recently a number of games have been shutdown, one of them was Anthem which i really liked. Please considering discussing some kind of protection, so that publishers / developers cannot just take away product they have already sold to customers. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.465629Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584844.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584844",
+    "chunks_doc_id": "F3584844",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584844.clean.paragraph.json"
+}

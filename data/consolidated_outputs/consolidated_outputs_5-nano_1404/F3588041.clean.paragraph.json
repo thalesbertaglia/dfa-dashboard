@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3588041",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:07Z",
+    "finished_at": "2026-04-14T13:22:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading marketing by influencers"
+              },
+              {
+                "quote": "The act of not mentioning an end of Service, and selling the game as a Product and NOT a Service with a limited lifespan is misleading,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22037,
+          "unit_kind": "feedback"
+        },
+        "text": "Good day to whoever reads this, i feel that the issue of games being destroyed after end of Service falls under \"misleading marketing by influencers\", since end of Service and what happens after is never mentioned. The act of not mentioning an end of Service, and selling the game as a Product and NOT a Service with a limited lifespan is misleading, having the advertiser tell the audience, if it is a game-as-a-Service and not a game-as-a-Product and if this is a game-as-a-Service tell the audience how long this Service will run would solve this issue. As it currently stands games like \"Anthem\" by \"BioWare\" and published by \"Electronic Arts\" are being taken offline, while there are still players who have bought the game at launch 6 years before and who were not told that the game will only be online and accesseble for 6 years. The game was only a Service, but it was sold as a Product, while i am not a legal expert it feels like it should be illegal to sell a temporary Service as a permanent Product. I myself am currently wondering if \"Elite Dangerous\" by \"Frontier Developments\" will be taken down when the publisher is no longer making money with it, it is sadly not an unlikely scenario, the Service that was sold to me as a Product might be taken down, or loose one of it's core functionalities, while i, the consumer have not been informed of this before my purchase. I personally love the games i play and hope to play them even if the publisher, who sold me these Services as Products, no longer deems them profitable. Thank you for reading my feedback on this topic, a conceren consumer an citizen.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.607857Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588041.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588041",
+    "chunks_doc_id": "F3588041",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

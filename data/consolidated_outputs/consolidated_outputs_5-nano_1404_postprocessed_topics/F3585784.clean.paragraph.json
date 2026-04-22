@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585784",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:39Z",
+    "finished_at": "2026-04-14T12:36:57Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "games you purchase can be arbitrarily shut down by a publisher merely to push you to buy their new product."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17719,
+          "unit_kind": "feedback"
+        },
+        "text": "Please include a clause to protect consumer ownership of video games as well. It is a troubling practice that games you purchase can be arbitrarily shut down by a publisher merely to push you to buy their new product. If a phone manufacturer would remotely disable your phone after the support period (where the manufacturer provides firmware and security updates) so you'd buy their newer model of phone, it would be rightly viewed as destroying a product someone bought that was still working fine. Whether that product is digital or not should not matter and the Digital Fairness act could make a landmark move for consumer protection by encompassing this debate. This aligns with the current European Citizens' initiative 'Stop Destroying Videogames' which has gathered over 1.4 million signatures thus far. Clearly there is interest and support for protecting consumer rights in this area. I think it would be wonderful if the Digital Fairness Act could involve asserting a consumer's right to continue using the software they purchased. For details on what that could reasonably look like (expecting the creating party to provide perpetual support is not, obviously), please look at the Stop Destroying Videogames initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.918263Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585784.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585784",
+    "chunks_doc_id": "F3585784",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585784.clean.paragraph.json"
+}

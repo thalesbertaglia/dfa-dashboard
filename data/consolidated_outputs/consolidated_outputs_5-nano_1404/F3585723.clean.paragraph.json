@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585723",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:34:49Z",
+    "finished_at": "2026-04-14T12:35:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video-game longevity"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"End-of-Service\" agreement"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24335,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the Digital Fairness Act and believe that a law surrounding video-game longevity should be considered as a lot of publishers are forcefully shutting down and removing their product for which the consumer has paid for. This is anti-consumer and goes against the concept of ownership. This should be restricted in some capacity, either by forcing the publishers to abandon the term \"buying\" and instead make it clear that we are merely renting their product or by forcing them to provide an \"End-of-Service\" agreement so the consumer is informed about the possible shutting down of the service and be provided an approximate \"life time\" of the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.889475Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585723.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585723",
+    "chunks_doc_id": "F3585723",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

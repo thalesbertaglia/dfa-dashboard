@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585535",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:29:53Z",
+    "finished_at": "2026-04-14T12:30:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability for game producers to shut down online games they made without compensation for the players."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship Pressure",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the censorship regulations that payment processors are pushing onto game distributors"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24201,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I'm not great at writing long messages, but I wanted to share some things that concern me right now. One of them is the ability for game producers to shut down online games they made without compensation for the players. This issue isn't only happening to people in Europe, but to people worldwide. With the right regulation, I believe it's possible to protect consumers by establishing methods that allow them to still enjoy what they paid for. Another issue that plagues the world of games right now is the censorship regulations that payment processors are pushing onto game distributors, thanks to the efforts of a group called \"Collective Shout\". Due to their effective bullying of the payment processors, game distribution platforms such as Steam and Itch.io are now forced to hide and/or delete items from their stores that Collective Shout views as problematic, even if the titles themselves didn't pose any problems earlier. Due to these two factors, gaming has become unreasonably hard to enjoy, with a threat of not being able to enjoy the titles or even see them. This is a problem.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.791317Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585535.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585535",
+    "chunks_doc_id": "F3585535",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

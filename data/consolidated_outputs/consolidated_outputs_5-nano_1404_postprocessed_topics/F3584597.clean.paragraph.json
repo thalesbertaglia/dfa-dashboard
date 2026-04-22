@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584597",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:28:26Z",
+    "finished_at": "2026-04-15T08:28:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "most publishers have the power to revoke ownership of video games paid for by the customer.",
+              "These publishers are able to revoke ownership for any reason and without warning as per their EULA.",
+              "There is also an issue of publishers shutting down video games with no recourse nor refund for the customer.",
+              "This directive could therefore be expanded to include protections in such a way that after a publisher decides to end their service for a particular game, they would be required to provide the consumer a way to keep playing the game that they bought, even if without further maintenance by the publisher.",
+              "This ''end of service'' should be planned during development."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24041,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like this initiative to expand in order to also cover digital ownership of video games (and all other applicable digital media if possible). As is stands now, most publishers have the power to revoke ownership of video games paid for by the customer. These publishers are able to revoke ownership for any reason and without warning as per their EULA. These practices are highly anti-consumer. There is also an issue of publishers shutting down video games with no recourse nor refund for the customer. This directive could therefore be expanded to include protections in such a way that after a publisher decides to end their service for a particular game, they would be required to provide the consumer a way to keep playing the game that they bought, even if without further maintenance by the publisher. This ''end of service'' should be planned during development. Thank You!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.310259Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584597.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584597",
+    "chunks_doc_id": "F3584597",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584597.clean.paragraph.json"
+}

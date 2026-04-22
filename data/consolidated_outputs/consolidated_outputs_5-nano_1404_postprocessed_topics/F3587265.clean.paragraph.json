@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587265",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:14:24Z",
+    "finished_at": "2026-04-14T13:14:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers effectively destroy the games we purchase and own after a few years of ownership."
+              },
+              {
+                "quote": "in-game purchases and micro transactions"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27565,
+          "unit_kind": "feedback"
+        },
+        "text": "I find it unacceptable that publishers effectively destroy the games we purchase and own after a few years of ownership. If people paid a lot of money (which often ranges up to 100 euros) and gave hundreds of hours of their time playing the game and supporting it even further with in-game purchases and micro transactions, it is only fair for the publishers to make the game still accessible and working after they wish to end their official support. Be it in form of giving the community the right tools to run the game servers on their own or any other method that doesnt rob the consumers of their product",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.487888Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587265.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587265",
+    "chunks_doc_id": "F3587265",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587265.clean.paragraph.json"
+}

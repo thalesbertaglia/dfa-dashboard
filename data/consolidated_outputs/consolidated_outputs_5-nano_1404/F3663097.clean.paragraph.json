@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3663097",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:44:45Z",
+    "finished_at": "2026-04-14T13:44:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "ridiculous roadblocks and limitations on developing and installing apps outside the Play Store."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8608,
+          "unit_kind": "feedback"
+        },
+        "text": "Google upcoming policies on app installation are a clear violation of my customer rights and does not comply with digital fairness. I bought a device and must have total control on what and how I install. This attack on my rights is unacceptable. Google is an evil company, they are unscrupulous and unethical. They market this change as something good but anyone with a brain can read between the lines and clearly see the final onjective: Google wants more power over your phone and more MONEY by puttting in place ridiculous roadblocks and limitations on developing and installing apps outside the Play Store.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.075437Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3663097.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3663097",
+    "chunks_doc_id": "F3663097",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

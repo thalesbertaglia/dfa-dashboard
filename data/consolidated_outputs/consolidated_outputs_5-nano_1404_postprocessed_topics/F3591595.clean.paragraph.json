@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3591595",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:36:11Z",
+    "finished_at": "2026-04-14T13:36:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I find it troubling that a company can simply shut down a digital game someone has payed for or spent money on."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A massive card company censoring content because it could \"damage their brand\", is insane."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31791,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to leave feedback regarding two of my concerns as a consumer. The first is about the Stop Killing Games and the destruction of digital games. I find it troubling that a company can simply shut down a digital game someone has payed for or spent money on. I think it should be my right as a consumer to be able to play some version of the game i payed for, even if the company that made it decides to not support said game anymore. The second thing that concerns me is how much power payment processors seem to have over what i can purchase. A good example is what's happening to Steam and Ich io. A massive card company censoring content because it could \"damage their brand\", is insane. Card companies should not have any power over what we buy, if they get away with censoring one thing who knows what they might decide is a \"brand risk\" next. I would love to see more protection for consumers regarding these two issues. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.880212Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591595.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591595",
+    "chunks_doc_id": "F3591595",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3591595.clean.paragraph.json"
+}

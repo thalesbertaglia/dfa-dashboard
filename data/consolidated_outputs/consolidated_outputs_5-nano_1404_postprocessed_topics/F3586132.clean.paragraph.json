@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3586132",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:07Z",
+    "finished_at": "2026-04-14T12:48:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Gamers are increasingly losing access to purchased titles when companies shut down serversoften without end-of-life support or alternativesleaving single-player and fully functional games unusable."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protect users right to use ad blockers for safety and privacy;"
+              },
+              {
+                "quote": "and ensure that age or identity verification does not compromise anonymity or enable surveillance."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33600,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should include strong protections for digital consumers, particularly in the gaming sector. Gamers are increasingly losing access to purchased titles when companies shut down serversoften without end-of-life support or alternativesleaving single-player and fully functional games unusable. This undermines digital ownership and consumer rights. The Act should also address broader digital concerns: prevent payment processors from exerting undue influence on legal content distribution; protect users right to use ad blockers for safety and privacy; and ensure that age or identity verification does not compromise anonymity or enable surveillance. Please consider these issues to ensure lasting digital fairness and freedom.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.108694Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586132.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586132",
+    "chunks_doc_id": "F3586132",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586132.clean.paragraph.json"
+}

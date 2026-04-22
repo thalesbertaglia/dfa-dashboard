@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586234",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:51:20Z",
+    "finished_at": "2026-04-14T12:51:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games have the same cultural value as books."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "If firms no longer have an interest in their games, they should not be allowed to prevent local copies from remaining operable, which do not require a server service at all."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19761,
+          "unit_kind": "feedback"
+        },
+        "text": "For my generation, video games have the same cultural value as books. But one imagined that a book that I bought and loved is no longer interested in his publisher; he puts a switch around and my output breaks down into dust, with all the others that have ever existed. Until ever in the public domain, all the traces of its existence are completely forgotten. It is todtrauric. Please accept the EU Stop Destroying Videogames initiative. If firms no longer have an interest in their games, they should not be allowed to prevent local copies from remaining operable, which do not require a server service at all.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.167568Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586234.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586234",
+    "chunks_doc_id": "F3586234",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586234.clean.paragraph.json"
+}

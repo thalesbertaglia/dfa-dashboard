@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589086",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:03Z",
+    "finished_at": "2026-04-14T13:29:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "with videogames specifically, completely remove authentication servers so even single player, offline playable, games, are no longer playable in any form."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Products are no longer any form of ownership, but quietly went into a form of 'temporary licensing', and once the publisher no longer sees a financial benefit in maintaining access to the purchase, they can revoke access to the purchase by taking down login servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46776,
+          "unit_kind": "feedback"
+        },
+        "text": "I politely request more eyes and regulations on publishers removing purchased digital media, such as movies, music, and video games, from consumer's hands. Products are no longer any form of ownership, but quietly went into a form of 'temporary licensing', and once the publisher no longer sees a financial benefit in maintaining access to the purchase, they can revoke access to the purchase by taking down login servers, removing the ability to download purchases, or with videogames specifically, completely remove authentication servers so even single player, offline playable, games, are no longer playable in any form. These 'live service' games are fully functional without an internet connection but simply won't work if the publisher takes down the login servers after a few years. Measures should be put into place either advertising the game - music or movie purchase as clearly, very clearly, TEMPORARY with a clear life expectancy, or be given a small update at end of life so users no longer have to authenticate with publisher servers to access their purchase so it is not rendered unusuable (and lost media). Regards",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.749296Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589086.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589086",
+    "chunks_doc_id": "F3589086",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

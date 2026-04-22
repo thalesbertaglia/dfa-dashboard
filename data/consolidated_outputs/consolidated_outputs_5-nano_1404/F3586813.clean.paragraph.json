@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3586813",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:03:46Z",
+    "finished_at": "2026-04-14T13:04:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "predatory and morally wrong designs made to target the young and vulnerable."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to target vulnerable and young people to get money out of them"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48113,
+          "unit_kind": "feedback"
+        },
+        "text": "First off i would like to say that i think that the digital fairness act is a great step in the right direction. Companies are doing more and more to target vulnerable and young people to get money out of them, and they have shown their willingness to do these things over and over again. I do want to add video games to this list which i feel is an underrepresented form of media and is filled with predatory and morally wrong designs made to target the young and vulnerable. First off i would like to make a mention of the \"Stop killing games\" initiative. Companies are making certain games (products) that have been paid for unusable/playable. The stop killing games act should go hand in hand with the digital fairness act in my opinion. Secondly i think that there is a significant amount of predatory practices in video games with the sole goal of earning the companies as much money as possible. I fully support the digital fairness act and hope it will take games in to consideration for them to be included.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.350693Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586813.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586813",
+    "chunks_doc_id": "F3586813",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "doc_id": "F33071067",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:25Z",
+    "finished_at": "2026-04-14T09:29:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to see some form of prohibition on forced arbitration clauses that exist in a lot of user license agreements or terms of service presented to a consumer."
+              },
+              {
+                "quote": "The software provider should not be able to alter the product that I have already bought."
+              },
+              {
+                "quote": "The idea is to prevent software providers from unfair practices like selling a product containing certain features, and later through an update put some of those sold features behind a paywall making them a subscription service."
+              },
+              {
+                "quote": "If regulations on altering the product after a purchase are not feasible, then re-definitions of terms may stand as a separate issue."
+              },
+              {
+                "quote": "The end of life plan where I can keep using (in some form) the product I have bought after the hosting service is shut down."
+              },
+              {
+                "quote": "the seller may not after the sale revoke/remove the media from users library, or in some way alter the media (without explicit consent)."
+              },
+              {
+                "quote": "The redefinition of terms, and altering the product after the purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 46339,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, and thank you for the opportunity. I would like to see some form of prohibition on forced arbitration clauses that exist in a lot of user license agreements or terms of service presented to a consumer. The arbiter in these cases is paid for by the product/service provider which does create a bias for the arbiter to please the side that pays for arbiter`s services. I think that arbitration should be mutually agreed upon case by case, rather than be forced on a consumer through a license agreement. I would like to see some discussion started and hopefully regulations imposed regarding what it should mean to \"buy\" or \"purchase\" software. There seems often to be a disconnect between consumers who take is \"buying a copy of a software that is mine to keep\", while sellers often imply that \"buying\" is the same as \"renting\" or at best \"buying a license to use the software for a limited time, where such license may be revoked at any time at providers discretion\". It is my strong belief that \"buying\" a software should mean that I have bought a copy of a software that is mine to keep. If that software is not allowed to be run locally, then there should be an end of life plan where I can keep using (in some form) the product I have bought after the hosting service is shut down. The software provider should not be able to alter the product that I have already bought. Any updates to the software the the provider might want to make after the product has been purchased, the consumer has to explicitly consent to after being presented with update details. The idea is to prevent software providers from unfair practices like selling a product containing certain features, and later through an update put some of those sold features behind a paywall making them a subscription service. This may also extend to digital media like e-books, music, audio, books, pictures or videos, where the seller may not after the sale revoke/remove the media from users library, or in some way alter the media (without explicit consent). In the previous paragraph I have bundled two issues together because to me they seem somewhat coherent. The redefinition of terms, and altering the product after the purchase. If regulations on altering the product after a purchase are not feasible, then re-definitions of terms may stand as a separate issue. Thank you for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.493047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071067.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071067",
+    "chunks_doc_id": "F33071067",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

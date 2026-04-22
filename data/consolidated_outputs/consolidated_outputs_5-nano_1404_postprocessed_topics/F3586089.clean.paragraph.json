@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586089",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:46:34Z",
+    "finished_at": "2026-04-14T12:47:05Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "expanded to cover computer games."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There have been hundreds of instances of games being destroyed after they'd already been sold to customers, and some companies have been pushing to make this a regular policy when they stop selling a game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31326,
+          "unit_kind": "feedback"
+        },
+        "text": "It is my belief that the Digital Fairness Act should be expanded to cover computer games. There have been hundreds of instances of games being destroyed after they'd already been sold to customers, and some companies have been pushing to make this a regular policy when they stop selling a game. I realize that computer games don't seem like a substantive issue to a lot of lawmakers, but even setting aside the very real artistic value, the joy it can bring people, and the various educational games included, simply as a product (and often an expensive one) it should be covered by acts like this. This is a matter that a lot of people - European citizens firmly included - care deeply about, and falls very close to the remit of the Digital Fairness Act. A slight expansion would address this. It should be noted that, in cases of live service or online games, it's not necessarily required for a company to continue supporting a game indefinitely. Instead, the commonly accepted solution is for the company to release the tools and rights for others to run servers for the game, and only once they have stopped offering those services. As a final note, the EU citizens' initiative supporting the protection of computer games from such behavior has 1.4 million signatures as of the last time I checked it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.080543Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586089.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586089",
+    "chunks_doc_id": "F3586089",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586089.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589845",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:06Z",
+    "finished_at": "2026-04-14T13:32:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Preventing the permanent destruction of purchased digital goods, such as video games and TV shows."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Preventing payment processing companies (such as Visa and Mastercard) from leveraging their economic power in order to have products that they consider \"damaging to their brand\" pulled from digital storefronts."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20645,
+          "unit_kind": "feedback"
+        },
+        "text": "I kindly request that the Comission looks into integrating the following measures into the Digital Fairness Act: 1- Preventing the permanent destruction of purchased digital goods, such as video games and TV shows. More and more we see studios erasing these types of products from their streaming services without keeping physical backups (in the case of TV shows) or (in the case of video games) rendering them unplayable by shutting down the servers needed for them to continue functioning without giving the consumers the necessary tools to create and host their own servers, or the ability to bypass this dependency on online connectivity altogether. 2- Preventing payment processing companies (such as Visa and Mastercard) from leveraging their economic power in order to have products that they consider \"damaging to their brand\" pulled from digital storefronts. Over the last couple of days, several payment processors have had many video games of adult nature removed from digital stores such as Steam and Itch.io. This situation has highlighted the need to limit the amount of power that these companies have over what consumers are and aren't allowed to buy using their services. Thank you for listening to my feedback and for creating such an important initiative. I wish the people behind the Digital Fairness Act the best of luck on their future endeavours.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.804193Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589845.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589845",
+    "chunks_doc_id": "F3589845",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584893",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:43Z",
+    "finished_at": "2026-04-14T12:13:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shutdown of \"The Crew\" by Ubisoft, where players lost access to the single player game entirely entirely despite purchasing it"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15783,
+          "unit_kind": "feedback"
+        },
+        "text": "I kindly ask that games, and the rights of customers who purchase them be included in the Digital Fairness Act, as we currently have no power to stop companies from exploiting their player bases, as seen with the shutdown of \"The Crew\" by Ubisoft, where players lost access to the single player game entirely entirely despite purchasing it, and with growing concern surrounding Persona 5: The Phantom X, which appears to be following a similar trajectory.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.487922Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584893.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584893",
+    "chunks_doc_id": "F3584893",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

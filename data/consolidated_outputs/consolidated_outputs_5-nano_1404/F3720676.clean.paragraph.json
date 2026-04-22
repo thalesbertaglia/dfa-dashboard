@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3720676",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:06Z",
+    "finished_at": "2026-04-14T13:47:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Enabling the option to do that is hidding behind developer options, where normal users aren't going anyway."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19721,
+          "unit_kind": "feedback"
+        },
+        "text": "Enabling the option to do that is hidding behind developer options, where normal users aren't going anyway. They would actively have to look for that. Even then, they have to enable the app, where they got a application from, to even allow an installation of a file, so there's another protection there. Disabling this feature restricts developers as well, since they have to always go over googles services to do that. This makes developing apps harder and it might even make them more expensive or time consuming. Restricting others stores through that makes competition really hard if not impossible for others. There are other stores then the google play store, to get or purchase applications from after all.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.123031Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720676.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720676",
+    "chunks_doc_id": "F3720676",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586643",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:56Z",
+    "finished_at": "2026-04-14T13:01:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Offline Access To Purchased Digital Content",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "when a company shuts down its servers, access to these digital purchases can be lost entirely."
+              },
+              {
+                "quote": "the option to download an offline version of their purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28694,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, It would be greatly appreciate it if this act could include provisions for the protection of digital property, particularly in regard to consumer rights around purchased digital content. In todays marketplace, a growing number of products including apps, games, software, and in-app content are dependent on remote servers to function. While this model enables many conveniences, it also creates a risk for consumers: when a company shuts down its servers, access to these digital purchases can be lost entirely. This leaves users without the ability to enjoy content they legally paid for, and in many cases, invested significant time and effort into. It would be extremely valuable if some form of preservation or continued access could be provided. For example, when online services are discontinued, consumers could be given the option to download an offline version of their purchase, even if it has reduced functionality such as lacking online features but still retaining the core content and user data. This would ensure that consumers are not left with nothing after a shutdown and that their digital investments are respected Many thanks.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.307522Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586643.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586643",
+    "chunks_doc_id": "F3586643",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

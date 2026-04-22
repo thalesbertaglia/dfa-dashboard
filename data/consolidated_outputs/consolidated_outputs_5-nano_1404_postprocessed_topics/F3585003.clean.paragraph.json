@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585003",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:43Z",
+    "finished_at": "2026-04-14T12:18:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "in the game sector, the copies available offline are nowadays only to buy licencing keys, which can then only be redeemed digitally and then subject to all these restrictions."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital traders rely on offering only an infinite abo or a licence and then have the right to terminate the abo or withdraw the licence again."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In addition to making it unusable, resale is also prevented, as the subscriptions/licences perceived as purchase then prohibit transfer/sale in their terms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24924,
+          "unit_kind": "feedback"
+        },
+        "text": "I would suggest that consumer rights should also be strengthened in digital ‘purchases’. It has been more common for purchased digital content (e.g. eBooks, films, games) to be rendered unusable even though it was actually purchased. Digital traders rely on offering only an infinite abo or a licence and then have the right to terminate the abo or withdraw the licence again. In addition to making it unusable, resale is also prevented, as the subscriptions/licences perceived as purchase then prohibit transfer/sale in their terms. If I buy a book, a film or a game offline, it is not possible digitally. And in the game sector, the copies available offline are nowadays only to buy licencing keys, which can then only be redeemed digitally and then subject to all these restrictions. As a result, there is no possibility of choosing an alternative means of distribution to digital purchases. Physical media and related rights die, and I (and many others) would be happy if our rights could be respected.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.547539Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585003.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585003",
+    "chunks_doc_id": "F3585003",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585003.clean.paragraph.json"
+}

@@ -1,0 +1,113 @@
+{
+  "doc_id": "F3668086",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:31Z",
+    "finished_at": "2026-04-14T13:46:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the aggressive output of ads and frustrating browsing experience caused by them"
+              },
+              {
+                "quote": "for the sake of forcing consumers to sign up Youtube Premium"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "for the sake of forcing consumers to sign up Youtube Premium"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "then proceed to manipulate prices as they see fit"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"Gacha\" systems"
+              },
+              {
+                "quote": "creating \"The Sanctum\" as a Gacha model that pushes you a skin in which you have no way of previewing its quality, features and can't refund at all if it does not live up to your expectations."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Sony believes that downloading the game should strip you of any rights of ever refunding that game."
+              },
+              {
+                "quote": "In line with this, I believe all purchasable virtual content (except single-use, such as keys) should be refundable within 14 days, so long it's been used for a relatively low amount of hours (generally, 2)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 57674,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe the EU Commission should look into Youtube and evaluate its practices against consumers. The DFA would be a great step for this. As an existing monopoly on video content; the aggressive output of ads and frustrating browsing experience caused by them, going as far as disabling ad-blockers altogether, for the sake of forcing consumers to sign up Youtube Premium and then proceed to manipulate prices as they see fit, should be put into question. Either ads should be non-intrusive or Youtube should be blocked from aggressively and negatively manipulating consumer experience in order to force them to use Youtube Premium. In addition to this concern, another one I have, is that plenty of existing content online is still locked behind \"Gacha\" systems which should seriously be put into question. A good example is the IP League of Legends from Riot Games, creating \"The Sanctum\" as a Gacha model that pushes you a skin in which you have no way of previewing its quality, features and can't refund at all if it does not live up to your expectations. In line with this, I believe all purchasable virtual content (except single-use, such as keys) should be refundable within 14 days, so long it's been used for a relatively low amount of hours (generally, 2). Steam, Ubisoft, Xbox, Gog, Epic Games and many other game distributors already allow this. Except Sony. Sony believes that downloading the game should strip you of any rights of ever refunding that game, even though that means you have no way of testing it on your own hardware. The EU commission should seriously look into that and put a weight on whether Sony is already complying with current warranty and consumer laws.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.089007Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3668086.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3668086",
+    "chunks_doc_id": "F3668086",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

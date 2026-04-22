@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584718",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:07:34Z",
+    "finished_at": "2026-04-14T12:07:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a company can unilaterally block the use of a product, such as a video game, to all consumers who have paid for it, making them no longer able to access it."
+              },
+              {
+                "quote": "even games that are essentially offline (or that have offline modes) are blocked by companies for economic reasons leaves consumers in an extremely vulnerable position, unable to make any claims, nor to keep what they have paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21941,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this is a good initiative to protect consumers, and I think it would be beneficial if it included software products such as video games. In fact, currently, as has been seen in recent cases, a company can unilaterally block the use of a product, such as a video game, to all consumers who have paid for it, making them no longer able to access it. I'm not referring to the need to maintain servers for online games, for example, but the fact that even games that are essentially offline (or that have offline modes) are blocked by companies for economic reasons leaves consumers in an extremely vulnerable position, unable to make any claims, nor to keep what they have paid for. An example of the concern about this issue would be the citizen initiative \"Stop Destroying Videogames\", which currently has more than 1,400,000 signatures.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.370828Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584718.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584718",
+    "chunks_doc_id": "F3584718",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584718.clean.paragraph.json"
+}

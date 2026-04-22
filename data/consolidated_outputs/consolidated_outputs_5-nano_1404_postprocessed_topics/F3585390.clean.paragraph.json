@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585390",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:43Z",
+    "finished_at": "2026-04-14T12:27:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "shady practices where they \"sell\" a license to a game or software as service while pretending they are selling a product."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are now built in a way where the publisher can at any time shut down the game and prevent access to the game they \"sold\" to the consumers,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 36559,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I hope you could add video game and similar software protections in as well, specifically regulation preventing publishers of software from partaking in shady practices where they \"sell\" a license to a game or software as service while pretending they are selling a product. Many modern video games are now built in a way where the publisher can at any time shut down the game and prevent access to the game they \"sold\" to the consumers, often citing different reasons like it no longer being financially viable, however many such games do not need continued support and can function independently from the publisher as long as they remove the DRM before shutting down support. I believe the most common reason for why they do this, is to kill a product they have to force people into buying the sequel or a new product they are releasing. I believe video games, same as music and movies should be viewed as a product and legally be required to be made and sold in a way where the consumer can keep using/playing it, even after rights holder decides to no longer support it, provide download links etc. The specific on how this could be done are up to debate, but simply creating a plan for removal DRM and Online-only functionality after the product is no longer supported would be more than enough to make it possible. Additionally allowing the community that wish to keep supporting the games after the publisher no longer does, would make it so that publishers would not need to spend time or funding to keep the product they \"sold\" functional.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.716230Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585390.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585390",
+    "chunks_doc_id": "F3585390",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585390.clean.paragraph.json"
+}

@@ -1,0 +1,94 @@
+{
+  "doc_id": "F3585443",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-15T08:37:03Z",
+    "finished_at": "2026-04-15T08:37:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "There are software products that depend on a subscription, only because the vendors make more money like that.",
+              "Terminating subscriptions is often made intentionally difficult or punishing e.g. by terminating access immediately instead of at the end of paid period (e.g. Adobe Creative Cloud)."
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "I can buy hardware products today, which for no valid reason depend on the vendor's cloud services to operate.",
+              "I need to create an account, accept their Terms of Service, allow all my data to be uploaded to them, and so on, after I've paid for the product, to use it at all while the device + software could perfectly fine just store the data e.g. on your phone and stay offline (e.g. Garmin)."
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "the developer can at any point choose to destroy it, block me from using it, unilaterally change the terms of use (ToS, Privacy Policy, EULA, etc.), or impose limits on how many times I can install it."
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "When I attempt to buy a copy of a game, instead I'm sold a limited license (e.g. by Steam). If the store ceases to exist or is dissatisfied with me, I lose access to the product."
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              "I can buy a car which has the full capability to heat the seats, but it refuses to unless I pay an extra fee (e.g. BMW). The cost of the functionality was already fully included in the sale price, yet they demand additional fees because they can."
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 55047,
+          "unit_kind": "feedback"
+        },
+        "text": "Currently these all are reality: - I buy a software product, the developer can at any point choose to destroy it, block me from using it, unilaterally change the terms of use (ToS, Privacy Policy, EULA, etc.), or impose limits on how many times I can install it. - I buy a digital product and the vendor can at any time choose to block me, impose arbitrary limits on where, when, on what device, etc. I can enjoy that product, and modify it remotely (e.g. Amazon Kindle books). - When I attempt to buy a copy of a game, instead I'm sold a limited license (e.g. by Steam). If the store ceases to exist or is dissatisfied with me, I lose access to the product. - Software developers mandate the use of unnecessary, heavy (e.g. Denuvo), often dangerous (e.g. SECUROM) or vulnerable software layers (e.g. CVE-2024-22830) with their software, which they attempt to justify with various excuses. - There are software products that depend on a subscription, only because the vendors make more money like that. Terminating subscriptions is often made intentionally difficult or punishing e.g. by terminating access immediately instead of at the end of paid period (e.g. Adobe Creative Cloud). - I can buy hardware products today, which for no valid reason depend on the vendor's cloud services to operate. I need to create an account, accept their Terms of Service, allow all my data to be uploaded to them, and so on, after I've paid for the product, to use it at all while the device + software could perfectly fine just store the data e.g. on your phone and stay offline (e.g. Garmin). - I can buy a hardware product and be promised certain features and capabilities, while the vendor can choose to forcefully push a firmware update to it, unilaterally changing the product's features or capabilities, and restrict my ability to use the device as I did before. This may push a new more lucrative business model on users who already paid for the device using a completely different contract (e.g. Futurehome). Famously also Sony removed the ability to install 3rd party operating systems (namely Linux) in an irreversible manner from Playstation 3, after they were sold and marketed based on that capability. - It is near impossible for me to pay for movies, series, music, and other content, and retain ownership of them so I can enjoy the content on the device I want to enjoy it on, when I want to, where I want to, how I want to, or make backup copies necessary to retain my copy for a long time. Yet they will happily sell me a broken version locked with DRM designed to limit my right to real ownership (e.g. Netflix). - Device vendors may at will push updates to my devices that limit their performance (e.g. Apple), while simultaneously blocking me from repairing said device. - Every product I own has a high chance of depending on some needless cloud service, having automatic updates, generally having functionality that unnecessarily makes the device seriously vulnerable to threats from malicious actors of all kinds. - I can buy a car which has the full capability to heat the seats, but it refuses to unless I pay an extra fee (e.g. BMW). The cost of the functionality was already fully included in the sale price, yet they demand additional fees because they can. - Giant corporations abuse bots to automatically claim ownership of content I upload, and I am given no reasonable means to fight against their false claims, they are not punished for their repeated failures (e.g. Youtube) - Corporations can limit my right to back up content I've purchased and remotely destroy my devices if I attempt to do so (e.g. Nintendo). We desperately need to move back to the \"treat it as a book\" model of ownership. You have your own personal copy which cannot be modified or destroyed against your will. You're free to use it when, how, and where you want, modify it for personal use, repair it, and take backups. Attempts to limit my rights to any of these must be severely punished.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.746239Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585443.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585443",
+    "chunks_doc_id": "F3585443",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

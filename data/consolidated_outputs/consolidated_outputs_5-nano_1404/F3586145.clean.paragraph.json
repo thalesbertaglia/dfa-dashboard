@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586145",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:48:37Z",
+    "finished_at": "2026-04-14T12:49:01Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "digital video games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "aggressive terms of service to prevent us from doing anything about it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23745,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree with the Digital Fairness Act, which protects consumers and strengthens it to prevent abusive practices, but I feel there's something they're forgetting, and I, along with many others, believe should be added: the issue of digital video games, thanks to the Stop Killing Games initiative, which has 1.4 million signatures. For some time now, thanks to the freedom they have, publishers have begun to engage in increasingly abusive practices and use aggressive terms of service to prevent us from doing anything about it. I hope this helps you realize how abusive the companies behind video games are and how they abuse us by removing titles we've paid for with our own money or putting obstacles in our way to prevent us from continuing to enjoy our games, using trivial excuses like security issues or whatever they come up with.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.116292Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586145.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586145",
+    "chunks_doc_id": "F3586145",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

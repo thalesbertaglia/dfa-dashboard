@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585474",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:30Z",
+    "finished_at": "2026-04-14T12:28:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers permanently disabling video games they already sold to their customers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12288,
+          "unit_kind": "feedback"
+        },
+        "text": "I wonder if it would be possible to make better regulation against the practice of video game publishers permanently disabling video games they already sold to their customers a part of this act. This practice is unfair to customers as they are not informed whether the game they are being sold is going to be eventually disabled and are not told beforehand when this is going to happen. More importantly this practice destroys a product that has already been bought. It's as if you bought a book and a few years later someone from the bookstore would come to your house and burn it. I really hope you consider protecting video game players from this unfair treatment.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.761368Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585474.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585474",
+    "chunks_doc_id": "F3585474",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

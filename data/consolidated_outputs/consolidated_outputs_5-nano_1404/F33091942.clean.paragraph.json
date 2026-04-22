@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33091942",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:35:30Z",
+    "finished_at": "2026-04-14T09:35:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11912,
+          "unit_kind": "feedback"
+        },
+        "text": "The Jean Monnet project is very well considered and fits perfectly with what is now of interest to the European Union. It touches on current spurs such as influencers, dark patterns, payment with data, the protection of digital consumers and does not remain in theory, but is committed to having a real impact on society and regulation. In addition, the approach to open science, collaboration between universities and dissemination on social media is just what Brussels wants to see. To make it even more powerful, it would only strengthen two things: make it very clear that children and vulnerable people are also particularly protected, and highlight that it will not only be an academic analysis, but practical and enforceable solutions will be proposed. In short: it is a strong, current project with a lot of real potential.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.588856Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33091942.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33091942",
+    "chunks_doc_id": "F33091942",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

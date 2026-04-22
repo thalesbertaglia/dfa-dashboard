@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3592966",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:41Z",
+    "finished_at": "2026-04-14T13:39:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Problem is, more and more developers build their games as a temporary experience, and can decide to completely shut down a game anytime they want, despite selling it as a good and at full price, physically or not."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "without a consumer agreement forcing them to effectively rent it and not own it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 21831,
+          "unit_kind": "feedback"
+        },
+        "text": "Games are sold as fully fledged consumer goods with no expiration date. As such, a consumer should be able to play a game for as long as they want, without any expiration date, and without a consumer agreement forcing them to effectively rent it and not own it. Problem is, more and more developers build their games as a temporary experience, and can decide to completely shut down a game anytime they want, despite selling it as a good and at full price, physically or not. This practice should be forbidden, not only so that consumers can enjoy the good they bought for as long as they want, but also to prevent games from fully desappearing without any preservation plan. Also, it would prevent another common and unfair practice nowadays, which is to shut down a game in order to force players that enjoyed it to buy the sequel if they want to keep enjoying the experience. The video games industry is currently heavily favoring unfair practices to downright scams because of a lack of regulation. Please, help us make this industry more ethical and fairer for the players by : - Preventing developers from killing their games ; - Forcing developers to plan for the end of active exploitation of their games and allowing players to keep playing after the end of the official support. Solutions to make it happen are numerous, cheap and easy to set up. They just need willingness, that video game companies don't seem to have by themselves. Please, nudge them in the right direction for the sake of an entire industry that already shows worrying signs of deceleration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.941630Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592966.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592966",
+    "chunks_doc_id": "F3592966",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592966.clean.paragraph.json"
+}

@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3589078",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:57Z",
+    "finished_at": "2026-04-14T13:29:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the gaming industry has begun to treat what were once normal retail purchases as more akin to lisencing contracts, selling us access, rather than ownership"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Access, that these companies then retain the right to cut off at some nebulous point in the future without refunding the purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26822,
+          "unit_kind": "feedback"
+        },
+        "text": "The ever accelerating move towards an all digital market has led to the point where the gaming industry has begun to treat what were once normal retail purchases as more akin to lisencing contracts, selling us access, rather than ownership. Access, that these companies then retain the right to cut off at some nebulous point in the future without refunding the purchase. Though I understand it is not a one to one comparison it seems absurd companies can do this without clear and evident information when access will be cut off, instead of simply stating \"At some point in the future\" given the volatility of the videogame market, where games may fail in a matter of weeks and be pulled from the market and made unplayable to anyone who purchased the game (Or rather lisence to access said game) at launch. Imagine if a furniture retailer could simply revoke your access to a piece of furniture you purchased when the furniture itself is discontinued and no longer sold. Game companies should either be made to enable paid customers to continue to play and access the game after it has been withdrawn from the market. Either providing a patch or an update to make the game playable offline, or to allow fan operated and administrated servers to be run instead, Either we purchase a game to access in perpetuity, or we purchase a temporary lisence, companies should be made to indicate which is it that they offer.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.747960Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589078.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589078",
+    "chunks_doc_id": "F3589078",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589078.clean.paragraph.json"
+}

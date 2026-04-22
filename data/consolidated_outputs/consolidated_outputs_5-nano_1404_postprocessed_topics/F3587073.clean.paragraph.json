@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587073",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:28Z",
+    "finished_at": "2026-04-14T13:09:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many companies creating video games shut down the products that costumers have paid for, either in part or in totality."
+              },
+              {
+                "quote": "Not as a service that ends at some random point that they won't tell you, but as a thing I own, just like a movie on a dvd."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18022,
+          "unit_kind": "feedback"
+        },
+        "text": "I think this is a great law, we need more regulation on those sort of things. However I urge you to include an additional point. Many companies creating video games shut down the products that costumers have paid for, either in part or in totality. They do this even though customers have the game on their disk drives inside of their PCs or consoles or whatever. These people have paid for their games and there was never a mention for when or if the service expires or what happens when it does. Personally, I always expected that I get to keep the game that I bought and have saved on my PC. It's like if you pay for a movie on a dvd and 5 years down the line the person you bought it from comes into your house and just rips your dvd apart, making the movie unwatchable. They don't have to do that! And similarly, games don't need to be disabled after a few years. There are many examples of games that have lasted since video games existed. You used to be able to keep your games! I want to keep my games again. I paid for them. Not as a service that ends at some random point that they won't tell you, but as a thing I own, just like a movie on a dvd. This sort of thing should be a violation of consumer rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.426183Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587073.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587073",
+    "chunks_doc_id": "F3587073",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587073.clean.paragraph.json"
+}

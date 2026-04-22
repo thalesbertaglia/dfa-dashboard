@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584157",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:27Z",
+    "finished_at": "2026-04-14T11:50:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games and live services relating to games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"they reserve the right to take away my purchase away for no reason at all\""
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17168,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer of digital goods, i would like to see video games and live services relating to games covered under this act. I have made several gaming purchases in the past which I am not longer able to play, as the companies that manage these titles and the servers have shut them down and are either unwilling or unable to provide a means whereby my purchase is still functional. Currently, the consumer rights and protections are extremely limited, with some companies claiming \"they reserve the right to take away my purchase away for no reason at all\". This is very anti consumer and needs to change! Companies should be held accountable or at the very least provide end of life support for the products that they make where by they are still playable in some form or function or at the very least allow the means for the community to manage online services beyond the games lifespan. This does not mean \"provide endless support\" only the means to provide others to continue managing the game once it has reached its end of life.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.102270Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584157.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584157",
+    "chunks_doc_id": "F3584157",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

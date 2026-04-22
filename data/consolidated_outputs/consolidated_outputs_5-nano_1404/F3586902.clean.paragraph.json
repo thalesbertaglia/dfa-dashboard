@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586902",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:44Z",
+    "finished_at": "2026-04-14T13:06:12Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "provide means to keep playing a game after they end support."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27435,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it would be fitting for the Digital Fairness Act to add a point about requiring videogame publishers to provide means to keep playing a game after they end support. It has already been done in the past by providing offline version of the game or ways for customers to host their own private servers. Its hostile towards consumers to revoke access to product that was not given a \"end of life\" date thus not giving the consumers the capability to make an informed purchase. The end of life plan doesn't have to apply retroactively, because games haven't been produced with that in mind. But it absolutely should be a requirement going forward. Not only for the rights of consumers but also to preserve art and dedicated work on numerous game developers. Some notable examples: Electronic Arts - Spore (2008), Darkspore (2011) Ubisoft - The Crew (2014), The Mighty Quest for Epic Loot (2015) PlayStation - Concord (2024) Blizzard Entertainment - Overwatch (2016) Disney online - Pirates of the Caribbean Online (2007) The real list is massive and the recent trend of developing exclusively online only games is going to make this list even longer in the coming years. The citizens of EU are not asking for companies to support commercially nonviable products. We're asking for the right to keep our purchases in a functioning state after publishers end support.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.379669Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586902.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586902",
+    "chunks_doc_id": "F3586902",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

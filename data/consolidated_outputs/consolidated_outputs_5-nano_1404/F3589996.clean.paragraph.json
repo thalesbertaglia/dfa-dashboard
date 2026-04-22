@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3589996",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:32:48Z",
+    "finished_at": "2026-04-14T13:33:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games are sold as a service with an unknown expiration date"
+              },
+              {
+                "quote": "This includes free-to-play games if they practice microtransactions."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "when the company decides to stop supporting the game, the customer's copy becomes unplayable"
+              },
+              {
+                "quote": "which is a bad practice and gives the service provider (game publisher) an unfair edge over the customer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26867,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! I'd like it if you were to add a point of protecting video game consumer rights. In particular, when it comes to games that stop being supported. Currently a lot of video games are sold as a service with an unknown expiration date, which is a bad practice and gives the service provider (game publisher) an unfair edge over the customer. This includes free-to-play games if they practice microtransactions. Thus, when the company decides to stop supporting the game, the customer's copy becomes unplayable and the game is virtually destroyed. I've had personal experience with it, one of my favorite games (Prime World) suddenly announcing they're shutting the servers down in a month and then not providing the needed software which'd allow people to run their own game servers, thus making the game unaccessible for the public. I really liked the game and have spent money on in-game goods, so the whole ordain was quite painful. Thankfully, after a few years of uncertainty and players' attempts to contact the developer, people were able to obtain the source code for the game, but that's not the case for hundreds of actually not playable anymore games. I'd like to add my personal opinion that simply denying access to the game for people who have paid money for it is not only unjust towards the customers, but also can be viewed as something on (or over) the edge of barbarism, because a game generally consists of hard work of designers, artists, software developers, actors or voice actors and probably quite a few other professions which I forgot to mention. Many aspects of video games include art - be it visual, audio (music, sound effects) or plot-related. And making it unplayable for everyone in my personal opinion devalues mentioned hard work and art for no particular reason. I doubt a person who worked on a game for several years is happy if it shuts down a month after release and noone can ever play it again.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.813848Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589996.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589996",
+    "chunks_doc_id": "F3589996",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

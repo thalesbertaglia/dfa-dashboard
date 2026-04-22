@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3585064",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:19:17Z",
+    "finished_at": "2026-04-14T12:19:36Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "A lot of current AAA games can be seen using the dark patterns and manipulating the player to pull as much money as possible out of him."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Current video game industry especially with large and greedily acting multi-million dollar publishers faces all the same problems listed here."
+              }
+            ]
+          },
+          {
+            "topic": "Video Game Shutdown",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "the problem of video games being shut down."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19263,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative faces modern problems related to digital content and media. While I dearly support this initiative because in my opinion the problems it is supposed to solve are very urgent, I would like to see an addition to this initiative in the form of video games. Current video game industry especially with large and greedily acting multi-million dollar publishers faces all the same problems listed here. A lot of current AAA games can be seen using the dark patterns and manipulating the player to pull as much money as possible out of him. Therefore I request that this initiative covers video games as well, and covers the problem of video games being shut down.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.578821Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585064.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585064",
+    "chunks_doc_id": "F3585064",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585064.clean.paragraph.json"
+}

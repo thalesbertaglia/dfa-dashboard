@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586914",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:05:50Z",
+    "finished_at": "2026-04-14T13:06:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to preserve games and maintain access once the developer has, for whatever reason, decided to stop supporting those games."
+              },
+              {
+                "quote": "And yet, because the devs have decided the stop maintaining the game servers, Anthem will soon become unplayable, even the 14 hour campaign section."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27824,
+          "unit_kind": "feedback"
+        },
+        "text": "As has already been stated by many, it is important for the Digital Fairness Act to look into efforts of the Stop Killing Games movement and work to preserve games and maintain access once the developer has, for whatever reason, decided to stop supporting those games. Case in point is a game by EA called Anthem, released 22/2/2019. It has both a campaign and endgame content. Both of these can be experienced in coop. But it is also perfectly possible to experience the campaign (14.5 hours worth of content), as a solo, offline experience. And yet, because the devs have decided the stop maintaining the game servers, Anthem will soon become unplayable, even the 14 hour campaign section. This is but one example of how the product that we as consumers have paid for is being taken away from us due to decisions by the developers. I sincerely hope legislation will step in to support the rights of gamers as consumers. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.381610Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586914.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586914",
+    "chunks_doc_id": "F3586914",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586914.clean.paragraph.json"
+}

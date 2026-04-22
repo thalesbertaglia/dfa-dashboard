@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3586298",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:10Z",
+    "finished_at": "2026-04-14T12:55:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Influencer Marketing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Marketing and influencers are promoting items where the question is on how some of the sold products work or what the future looks like."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "videogames, e-books, movies or any other digital product that you can buy."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "remote erase your product"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 159056,
+          "unit_kind": "feedback"
+        },
+        "text": "We get more and more online services that lately are pushing towards only cloud options from the makers. For example light bulbs that are connected to a cloud service and need of cloud account for manage the lights. More Internet of Things are doing this, what if they shutdown? You can not use the services and products you have or are forced to new services that are not complete or having more gathering options of your data then you wish. Marketing and influencers are promoting items where the question is on how some of the sold products work or what the future looks like. An other worried matter is owning rights and doing what you want with products. Remote options to disable your product, due you decide to use it \"different\". I am really concerned with the right for consumers and the power big company's have over the product we bought and thought we as consumers own and could use even after a company has decided to stop the product at all including online services. An other example that could be included in this is videogames, e-books, movies or any other digital product that you can buy. Company's that can remote erase your product, due you have no longer \"the license on it\" or they decided that it is the end of the product. I hope some parts regarding my concerns can be taken into account and maybe have some parts included regarding protection of digital products.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.193683Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586298.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586298",
+    "chunks_doc_id": "F3586298",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586298.clean.paragraph.json"
+}

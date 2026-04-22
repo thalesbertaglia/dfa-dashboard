@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3585465",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:16Z",
+    "finished_at": "2026-04-14T12:28:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Publishers often enforce always-online requirements for games that could work offline or with player-hosted servers, and then shut them down."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "core features of a smart home hub sold as part of the product were later disabled and moved behind a paid subscription."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Prohibiting retroactive removal or locking of features that were part of the original purchase unless fair alternatives or compensation are provided."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28054,
+          "unit_kind": "feedback"
+        },
+        "text": "I am a consumer from Norway, an EEA (EØS) member state, and I strongly urge that the Digital Fairness Act explicitly address the issue of video games and digital products losing functionality after purchase. Too often, games are designed to stop functioning when they are no longer profitable, even when servers are not technically necessary. Publishers often enforce always-online requirements for games that could work offline or with player-hosted servers, and then shut them down. This practice leaves consumers with unusable products they paid for, stripping them of value. Historically, games remained functional long after official support ended, but this practice is now deliberately prevented. This aligns with the concerns already identified by the Commission about addictive design, dark patterns, and exploitative practices in video games. It also connects to the Stop Destroying Games initiative, which advocates for the preservation of games through options like offline play or enabling community-hosted servers when official support ends. The same issue affects hardware and software products beyond gaming. A recent example in Norway is Futurehome, where core features of a smart home hub sold as part of the product were later disabled and moved behind a paid subscription. Consumers purchased the device expecting full access to its advertised functions, but retroactive changes effectively turned it into a subscription-based product. This feels deceptive and undermines trust. The DFA should address these problems by: Requiring that digital products remain functional after official support ends (via offline modes, open-source server software, or enabling player-hosted servers). Prohibiting retroactive removal or locking of features that were part of the original purchase unless fair alternatives or compensation are provided. Strengthening transparency obligations when post-purchase changes affect core product functionality or access. These measures would bring games and other digital products into line with the DFAs core goals: preventing manipulative design, ensuring fairness in digital contracts, and safeguarding consumers against deceptive practices. Thank you for considering this feedback. For transparency i have used ChatGPT to help me structure and phrase the feedback so its clearer and easier to understand then i am able to do with my own words. Though this feedback reflects my view exactly best reguard Florian",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.757040Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585465.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585465",
+    "chunks_doc_id": "F3585465",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585465.clean.paragraph.json"
+}

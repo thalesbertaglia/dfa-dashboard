@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584795",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:10:28Z",
+    "finished_at": "2026-04-14T12:11:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays there are many video games that are full priced 60 and sometimes even 70 that are online only and if the publisher decides to shutdown the servers I as a consumer, cannot play the game that I bought ever again."
+              },
+              {
+                "quote": "There is a website that has a list of all video games that are now unplayable: https://stopkillinggames.wiki.gg/wiki/Dead_game_list"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34553,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings, I want to request that you make some protections against video games being shutdown by the Publishers. Nowadays there are many video games that are full priced 60 and sometimes even 70 that are online only and if the publisher decides to shutdown the servers I as a consumer, cannot play the game that I bought ever again. For example in March 31, 2024, Ubisoft a French company decided to shutdown their Video Game called \"The Crew\" which i bought and now i cannot play it anymore. Also in July 14, 2015 there was a free video game with heavy microtransactions from EA called \"Need for Speed: The World\" that the publisher EA shutted down in which I myself spent money on microtransactions and now i have no way of booting the game at all. These 2 are only games that I liked but there are a lot more that are at the risk of being destroyed There is a website that has a list of all video games that are now unplayable: https://stopkillinggames.wiki.gg/wiki/Dead_game_list Currently as I am writing there is a Citizen EU petition that wants to stop this from happening.. https://eci.ec.europa.eu/045/public/#/screen/home",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.439317Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584795.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584795",
+    "chunks_doc_id": "F3584795",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584795.clean.paragraph.json"
+}

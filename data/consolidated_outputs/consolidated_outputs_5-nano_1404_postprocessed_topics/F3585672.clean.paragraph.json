@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585672",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:33:03Z",
+    "finished_at": "2026-04-14T12:33:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "obfuscate or hide their terms of use or licensing agreements which often have clauses to redefine words such as 'own', 'buy', 'purchase' and 'lifetime'."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This makes it so publishers of digital media have the power to change and revoke bought digital goods at any moment for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many video games also include gambling, often heavily weighted against the players."
+              },
+              {
+                "quote": "Many video games and digital media employ convoluted systems of multiple different currencies with different conversion rates which are paid with real money."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29499,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like there to be stricter legislation in 3 sectors to protect fellow European citizens. Namely, Digital Ownership, Media Preservation & Monetization. Digital Ownership: multiple platforms either obfuscate or hide their terms of use or licensing agreements which often have clauses to redefine words such as 'own', 'buy', 'purchase' and 'lifetime'. This makes it so publishers of digital media have the power to change and revoke bought digital goods at any moment for any reason. Media Preservation: end of life plans, versioning & emulation for platforms no longer supported by their owner should be required and supported. This includes items such as e-books and games on old consoles that are no longer available for purchase. Monetization: Many video games and digital media employ convoluted systems of multiple different currencies with different conversion rates which are paid with real money. Many video games also include gambling, often heavily weighted against the players. This needs to stop and when gambling is included both an age check and the exact rates of all rewards should be easily available for users.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.862448Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585672.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585672",
+    "chunks_doc_id": "F3585672",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585672.clean.paragraph.json"
+}

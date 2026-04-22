@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3585593",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:31:09Z",
+    "finished_at": "2026-04-14T12:31:47Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online-only method or DRM!"
+              },
+              {
+                "quote": "blocked it artificially."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "limit data to the bare minimum for your laws to function."
+              },
+              {
+                "quote": "Such as one's age."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 38586,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey!! Love the attention to digital freedom and fairness lately! I got some notes! First of all: I think it would be helpfull to include some rules that stop people from taking away digital products (Videogames, Applications, etc) using online-only method or DRM! Secondly, when it comes to operation systems. Windows has a lot of desktop power due software being build with Windows in mind. Linux recently has been upgraded to support MANY of those features, but have been artificially blocked by SOME companies. Roblox for example used to work just fine untill they blocked it artificially. Thirdly, Payment processors (for example, Visa) have recently been abused by third parties to censor online content without any issues. While some of these actions made sense, it has opened the flood gates for a lot of unneccesary future censorship, which the same third party may or may not have tried before in the past. And finally: While I am aware that you have no power over the UK. I hope you will consider not following into their footsteps. Having to identify with important information to every online service could lead to more danger then good. I suggest adding a feature for your EU wallet to limit data to the bare minimum for your laws to function. Such as one's age. I respect the decision to protect childeren, however I also believe that forcing sharing this much sensitive data is going to lead to disaster, as a good hacker could hack any proper service. Thank you for protecting our digital rights and looking out for us! I hope my feedback will assist you in preparing europe's defenses against corperate and unwanted influences on the digital industry.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.818685Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585593.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585593",
+    "chunks_doc_id": "F3585593",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

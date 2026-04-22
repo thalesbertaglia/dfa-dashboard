@@ -1,0 +1,110 @@
+{
+  "doc_id": "F3585796",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:36:59Z",
+    "finished_at": "2026-04-14T12:37:40Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Currently, games - and increasingly other software - are offered predominantly under a Software as a Service (SaaS) model."
+              },
+              {
+                "quote": "Always-online single-player games: Many games with no essential online components are locked behind phone-home checks."
+              },
+              {
+                "quote": "When servers are shut down, these games become inaccessible despite being fully functional offline."
+              },
+              {
+                "quote": "End-of-life plans for all games sold as services, ensuring they remain usable offline after official support ends."
+              },
+              {
+                "quote": "This practice denies consumers ownership and provides no guarantee of continued availability."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Misleading language of sale: Licences are described as purchases, maintaining the outward appearance of traditional ownership despite no transfer of property."
+              },
+              {
+                "quote": "The terms of service conceal the true nature of the transaction."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Unreasonable licence revocation: Most licences can be revoked at any time, without reason, making it possible to spend significant sums - both on the base game and in-game purchases - only to have access removed without recourse."
+              },
+              {
+                "quote": "A fair-use exemption allowing non-profit groups to maintain or restore discontinued titles."
+              },
+              {
+                "quote": "Legal protection for non-profit preservation, akin to the allowances made for books and other media in libraries and museums, so that volunteers can restore abandoned games to a playable state without risk of legal action."
+              },
+              {
+                "quote": "This could be implemented through two provisions: A requirement that the final update to a discontinued game removes phone-home functionality."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 40361,
+          "unit_kind": "feedback"
+        },
+        "text": "Feedback on the Digital Fairness Act: Overlap with the European Citizens Initiative Stop Destroying Videogames I would like to draw attention to the significant overlap between the proposed Digital Fairness Act and the European Citizens Initiative Stop Destroying Videogames. I request that these considerations be taken into account when drafting and implementing the Act. Currently, games - and increasingly other software - are offered predominantly under a Software as a Service (SaaS) model. This practice denies consumers ownership and provides no guarantee of continued availability. There are several issues with the current approach: Misleading language of sale: Licences are described as purchases, maintaining the outward appearance of traditional ownership despite no transfer of property. The terms of service conceal the true nature of the transaction. (Analogy: car manufacturers sell cars as before, but add a clause saying the buyer does not own the car and the manufacturer may repossess it at any time.) Unreasonable licence revocation: Most licences can be revoked at any time, without reason, making it possible to spend significant sums - both on the base game and in-game purchases - only to have access removed without recourse. This has already happened in practice. Always-online single-player games: Many games with no essential online components are locked behind phone-home checks. When servers are shut down, these games become inaccessible despite being fully functional offline. (Analogy: your car will not start unless it calls a specific number, and that number is later disconnected.) Suppression of preservation efforts: Communities that attempt to restore unsupported games are often threatened with legal action, even when the publisher has abandoned support. (Analogy: a car manufacturer closes all service centers but threatens to sue if owners repair their own cars.) The initiative calls for minimal but important regulation: End-of-life plans for all games sold as services, ensuring they remain usable offline after official support ends. Legal protection for non-profit preservation, akin to the allowances made for books and other media in libraries and museums, so that volunteers can restore abandoned games to a playable state without risk of legal action. This could be implemented through two provisions: A requirement that the final update to a discontinued game removes phone-home functionality. A fair-use exemption allowing non-profit groups to maintain or restore discontinued titles.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.924265Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585796.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585796",
+    "chunks_doc_id": "F3585796",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

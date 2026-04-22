@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3585046",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:18:48Z",
+    "finished_at": "2026-04-14T12:18:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The Digital Fairness Act should also consider providing consumer protections to consumers who have purchased video games, and their access is being permanently revoked by the seller due to end of support."
+              },
+              {
+                "quote": "Video games which are no longer being supported by the developer should remain in an accessible state, instead of being disabled and becoming lost media."
+              },
+              {
+                "quote": "A video game which may be made inaccessible should prominently display this fact during purchase, using the language of 'renting' rather than 'buying', with a minimal supported time being clearly communicated to the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10020,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act should also consider providing consumer protections to consumers who have purchased video games, and their access is being permanently revoked by the seller due to end of support. Video games which are no longer being supported by the developer should remain in an accessible state, instead of being disabled and becoming lost media. A video game which may be made inaccessible should prominently display this fact during purchase, using the language of 'renting' rather than 'buying', with a minimal supported time being clearly communicated to the consumer. Preferably, access to video games should not be revoked at all, with developers having a duty to leave them in a playable state when support ends, whenever this is reasonably achievable. This change will empower consumers to make informed decisions, and preserve the art of video games, while not unreasonably burdening video game developers. People should be allowed to preserve media on their own when it is no longer commercially viable for the developers to do so.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.569487Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585046.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585046",
+    "chunks_doc_id": "F3585046",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "doc_id": "F3587083",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:45Z",
+    "finished_at": "2026-04-14T13:12:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "demands a subscription to use said product"
+              },
+              {
+                "quote": "2. Lock the item behind a subscription that was not there before;"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "\"lifetime\" often indicates a license to use the item for less than a year."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "1. Force invasive features upon users that obligate the purchaser to give up their personal data, bio-metrics etc. in order to keep using the product they already purchased."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games, being censored and removed from all platforms where a buyer can reasonably buy them."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This also includes locking the product and not allowing the purchaser to repair their bought item."
+              },
+              {
+                "quote": "Losing access to a purchased item because it was removed from such a platform is not acceptable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 179884,
+          "unit_kind": "feedback"
+        },
+        "text": "We need the right to ownership. Purchasing a commodity, whether digital or physical, that does not require a subscription based service to function, but the manufacturer/seller demands a subscription to use said product, deprives us of this right. Many sellers and service providers, will advertise a lifetime purchase of an item, yet \"lifetime\" often indicates a license to use the item for less than a year. The seller must not have the right, as we often see, to force software updates, whether on digital or physical (\"smart\", \"IoT\") items which: 1. Force invasive features upon users that obligate the purchaser to give up their personal data, bio-metrics etc. in order to keep using the product they already purchased. 2. Lock the item behind a subscription that was not there before; When purchasing an item, you must have full rights to own what you paid for. It should be absolutely clear, during the transaction, that you are buying a service or limited license and not a product when that is the case. We must have the right to own what we purchase. Paying for a service to use an item(digital or physical) that does not need to connect back to the seller/manufacturer must not be allowed. This also includes locking the product and not allowing the purchaser to repair their bought item. Online platforms that serve as monopolies as to what can be sold and purchased should also be more regulated. Losing access to a purchased item because it was removed from such a platform is not acceptable. We have recently seen many items, such as video games, being censored and removed from all platforms where a buyer can reasonably buy them. This not only hurts both buyer and seller but raises concerns about the very democratic market. There is a monopoly on such markets which is not regulated enough. Abiding to the law becomes secondary as the priority of the seller is abiding to the rules of those monopolized platforms. We have seen how payment processors have a monopoly over what can be sold and bought all over the internet. The market is being regulated by private entities that seem to be above the law. We have seen how a minority of people can decide to pull sellers out of the digital market, sellers that did not violate either the law nor the policies of the platform they sold the products on (see the itch.io situation). The only alternative to not be controlled by private entities in your transactions online is by using cryptocurrency, which while it has many side effects of its own, will also devalue currency and lead to may more issues in the established market and economy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.429399Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587083.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587083",
+    "chunks_doc_id": "F3587083",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584453",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:58:46Z",
+    "finished_at": "2026-04-14T11:59:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "but since its only a license, can be removed for any number of reasons."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14347,
+          "unit_kind": "feedback"
+        },
+        "text": "As an internet consumer and interested in all things related to it, i have played games that had a profound personal impact, maybe at childhood, or at my current age. To think that those experiences and art can be lost to time, breaks not only my heart, but all of the people who enjoyed those games too. It, in some cases, can be deeply consumer unfriendly, said games can be bought, but since its only a license, can be removed for any number of reasons. It is in its agreement, but it would be has if phone producers could shut off your phone at any time. That is why i support the Stop Killing Games Initiative, and their goals line up with what would constitute has digital fairness.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.240721Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584453.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584453",
+    "chunks_doc_id": "F3584453",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

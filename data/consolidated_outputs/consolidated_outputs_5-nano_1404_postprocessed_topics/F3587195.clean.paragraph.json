@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587195",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:13:07Z",
+    "finished_at": "2026-04-14T13:13:53Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Nowadays games aren't sold as products anymore but instead the consumer pays for the right to play the game like a service."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the right to terminate this Agreement at any time for any reason, or for no reason, with or without notice to you."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45669,
+          "unit_kind": "feedback"
+        },
+        "text": "I think the Digital Fairness Act is really important and now is a good time to also address some of the issues in the video games industry. Nowadays games aren't sold as products anymore but instead the consumer pays for the right to play the game like a service. But unlike other services the seller does not have to give a clear timeframe for the duration of the service. It is also often unclear what happens after the end of a video games life span. A lot of games are simply shut down without any option to still play. This doesn't mean the publishers have to run servers indefinitely but they could for example give some option for the consumer to host their own servers. A lot of Terms of service agreements also contain anti consumer practices. For example Blizzard's TOS gives them \"the right to terminate this Agreement at any time for any reason, or for no reason, with or without notice to you.\" After spending money to play a video game I believe one should at least have the right to know what exactly would allow a publisher to terminate their contract. I also think publishers should have to give a clear timeframe for the duration of a video games lifespan and show the consumer their end of life plans for a game. If I'm not buying a copy of a video game anymore but instead a temporary service, I should have the right as a consumer to know what and for how long exactly I am purchasing something. I humbly request you to look further into the issues regarding the video games industry. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.471496Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587195.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587195",
+    "chunks_doc_id": "F3587195",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587195.clean.paragraph.json"
+}

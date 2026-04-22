@@ -1,0 +1,123 @@
+{
+  "doc_id": "F3589116",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:36Z",
+    "finished_at": "2026-04-14T13:32:27Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One dark pattern that I did not see among the listed ones on dfa's website is the \"Yes/Later\" decision options."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I cannot buy a movie and get a file, I can only subscribe to streaming services."
+              },
+              {
+                "quote": "I cannot buy video games, only pay for them and then they still take it from me for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Whenever I make a transaction, I don't know how much it will cost."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "These are privacy nightmares as well as an easy way for the manufacturer to destroy the product that you purchased."
+              },
+              {
+                "quote": "Digital fairness must include the right to personal privacy, which means unbreakable encryption in the digital world."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This forces people into a contract with either Google or Apple."
+              },
+              {
+                "quote": "This also gives the power to these companies to deny basic services to people for any reason."
+              }
+            ]
+          },
+          {
+            "topic": "Age Verification",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Stop age verification."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 170803,
+          "unit_kind": "feedback"
+        },
+        "text": "I really like the DFA, relentless nagging and strong-arming from businesses has to stop! I fully support these restrictions on businesses! I also have some further suggestions that fall under the digital fairness umbrella: 1, The choice to not use digital products. More and more products and services are tied to having a smartphone available at all times. This forces people into a contract with either Google or Apple. This also gives the power to these companies to deny basic services to people for any reason. For example I cannot use the bikesharing (bubi) service in my city (Budapest) without a smart phone, even though it is paid by public funds. 2, Digital ownership. There is basically no way to purchase a copy of digital products these days. I cannot buy a movie and get a file, I can only subscribe to streaming services. I cannot buy video games, only pay for them and then they still take it from me for any reason. Lots of people brought up the stop killing games movement, but this same principle needs to extend to movies, games, music, books etc. 3, IoT devices are never self contained products. They almost always come with an attachment to the manufacturers servers. These are privacy nightmares as well as an easy way for the manufacturer to destroy the product that you purchased. The option to use the manufacturer server is nice, but all IoT devices should be mandated to be fully usable on the local network without internet access. 4, Digital banks are shady. Whenever I make a transaction, I don't know how much it will cost. Only after the fact they take some amount of money from my account. The bank clearly knows how much these will cost, they should be displayed clearly. It baffles me that this is not already the case. 5, One dark pattern that I did not see among the listed ones on dfa's website is the \"Yes/Later\" decision options. A website/software can always be more relentless than a person and basically over time force a user to accept unfavorable options by not letting them say no permanently. 6, Digital fairness must include the right to personal privacy, which means unbreakable encryption in the digital world. 7, Stop age verification. I urge you to listen to the EFF when they say: \"This is why we need to push back against age verification mandates. Not because child safety is not a concern it is. But because age verification mandates risk undermining crucial access to digital services, eroding privacy and data protection, and limiting the freedom of expression.\" The listed problems all describe a situation with a power imbalance. For this reason I think they should be included in either the DFA or a later similar act. Thank you!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.759304Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589116.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589116",
+    "chunks_doc_id": "F3589116",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589116.clean.paragraph.json"
+}

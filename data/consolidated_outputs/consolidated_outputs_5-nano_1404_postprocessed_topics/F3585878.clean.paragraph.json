@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585878",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:48Z",
+    "finished_at": "2026-04-14T12:40:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Hi, when buying videogames in digital format, the most popular platforms (such as steam, epic games, etc) sell \"licenses\"."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the licenses can be revoked by the companies whenever they want and they dont have to give the money back."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29292,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi, when buying videogames in digital format, the most popular platforms (such as steam, epic games, etc) sell \"licenses\". When buying a game it is not clear for the user they are not owning the games they buy. This is a very one sided \"contract\" because the other option is not playing. The problem with these licenses is that they can be revoked by the companies whenever they want and they dont have to give the money back. If we see the same situation in physical format, is like the company entering my house and stealing the game from me. Fortunately the can't do that because the law does not let them, but in digital format, the law does not regulate this, so the companies can delete the games we buy even though we have paid for them. There is another problem with this, some games are made to be played always online (multiplayer games), and when the company wants, they can stop the support for the game and make it unplayable. I would like 2 things if possible. Firts, if I buy a game, I want to own it, and not have the fear of it being stealed away from me. And second, if a company sells a vidiogame with online support, if they want to end the support, release an update giving the users the possibility to create private servers, or anything that will make the game playable (it is not hard, and it will cost almost nothing, please do not let the companies fool you with this, there are countless examples of this being very easy to do). The thing is, digitally, the abscence of laws in some fields have been taken advantage of by the companies and they are taking as much money of the costumers as they can, and there are no other alternatives. Please, if possible regulate this, and defens our games, do not let the companies destroy the games we love. There is an european iniciative explaining this, it is called \"Stop destroying games\". Thank you and good bye.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.967195Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585878.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585878",
+    "chunks_doc_id": "F3585878",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585878.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3587610",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:59Z",
+    "finished_at": "2026-04-14T13:19:15Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "payment processors like VISA and MasterCard are engaging in censorship actions by threatening companies to take things off the shelves."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15987,
+          "unit_kind": "feedback"
+        },
+        "text": "I am here to bring attention to the fact that payment processors like VISA and MasterCard are engaging in censorship actions by threatening companies to take things off the shelves because they didn't like the idea that people could buy them. This is blatant abuse of their monopoly in the market of payment processors and I consider this a severe breach of my rights and the global marketplaces companies rights to sell legally accepted content. They gave out a publicly available statement trough email saying they do not do such things, this is a clear and obvious lie. Does this make it fraud too? Regardless of the type of content they are censoring, this is a clear as day overreach and abuse of power. Even the Japanese government is already looking into the situation, if that isn't enough to start taking actions i don't know what is.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.553740Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587610.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587610",
+    "chunks_doc_id": "F3587610",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587610.clean.paragraph.json"
+}

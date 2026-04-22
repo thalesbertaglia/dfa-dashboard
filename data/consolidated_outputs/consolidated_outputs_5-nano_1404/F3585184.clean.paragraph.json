@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585184",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:22:10Z",
+    "finished_at": "2026-04-14T12:22:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video game publishers revoking access to titles they no longer wish to support"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12818,
+          "unit_kind": "feedback"
+        },
+        "text": "It's heartening to see such initiatives that aim to update the law with modern technology and practices. It would be great to see this one expanded with provisions that protect consumer purchase, or at the very least explicitly confirm whether what is being sold is a good, a service, or a license. Specifically in mind comes the practice of video game publishers revoking access to titles they no longer wish to support, something which over 1 million people have already signed against in the Stop Destroying Videogames petition. Thank you for your consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.627418Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585184.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585184",
+    "chunks_doc_id": "F3585184",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

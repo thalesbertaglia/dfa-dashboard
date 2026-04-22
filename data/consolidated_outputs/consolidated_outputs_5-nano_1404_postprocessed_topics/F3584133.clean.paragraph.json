@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584133",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:49:27Z",
+    "finished_at": "2026-04-14T11:49:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "almost all games require online connection to the publisher, and a game publisher can decide at any moment to disconnect a game and destroy the ownership of hundreds of thousands of gamers."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Make it legally mandatory for each game publisher to have an EOL plan, so that the game remains playable after the publisher stops supporting the game."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19044,
+          "unit_kind": "feedback"
+        },
+        "text": "Imagine you buy something, but at any time the seller destroys your purchase. Sounds absurd? This is what is currently happening with computer games. I can play games from my youth because they were completely offline. But today, almost all games require online connection to the publisher, and a game publisher can decide at any moment to disconnect a game and destroy the ownership of hundreds of thousands of gamers. This has already happened hundreds of times (there are online lists)! If we talk about digital fairness, it seems obvious to me that digital purchases of computer games are also protected. Make it legally mandatory for each game publisher to have an EOL plan, so that the game remains playable after the publisher stops supporting the game. Protect EU consumers’ right to property!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.088367Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584133.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584133",
+    "chunks_doc_id": "F3584133",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584133.clean.paragraph.json"
+}

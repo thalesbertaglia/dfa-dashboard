@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3593546",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:24Z",
+    "finished_at": "2026-04-14T13:39:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "end of life plans should include a way to have consumers maintain everything that theyve used their software for and access to a form of the software that is not reliant on a large amount of continued maintenance"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19246,
+          "unit_kind": "feedback"
+        },
+        "text": "Consumers of software should be protected from having their data and access to software removed from them this should apply to video games but also all other forms of software realistically it is understandable that server space cannot be maintained infinitely for considerably less than profitable products but end of life plans should include a way to have consumers maintain everything that theyve used their software for and access to a form of the software that is not reliant on a large amount of continued maintenance",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.954022Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593546.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593546",
+    "chunks_doc_id": "F3593546",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3593546.clean.paragraph.json"
+}

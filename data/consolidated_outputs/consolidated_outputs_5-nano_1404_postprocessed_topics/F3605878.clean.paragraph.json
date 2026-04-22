@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3605878",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:41:37Z",
+    "finished_at": "2026-04-14T13:41:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "one cannot own what you buy when it is not advertised as a license"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19151,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I write to you other fourths who are closing down video games to which they have sold, I feel unpressed by buying games online, as I cannot know that the product I buy is also my, it did not seem to me that one cannot own what you buy when it is not advertised as a license, but that the publisher is listening and saying that it is your own product. This is a very deep and lucky Pandora box, which can be opened if nothing is done, so I am writing to you in the hope that we can avoid feeling unprinted when buying digital games. Welcome Mathias Hald Svendsen.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.005926Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3605878.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3605878",
+    "chunks_doc_id": "F3605878",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3605878.clean.paragraph.json"
+}

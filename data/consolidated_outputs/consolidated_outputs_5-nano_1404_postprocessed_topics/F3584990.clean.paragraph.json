@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3584990",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:19Z",
+    "finished_at": "2026-04-14T12:18:04Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "enforcing DRM-dependent systems that require online validation even for single-player content (even though when the game was purchased there was no DRM of any kind)"
+              },
+              {
+                "quote": "Games that are primarily single-player should include an offline mode that functions even if authentication servers are taken down."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "publishers disabling access to games that people have legally bought."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Once a game is purchased, players should retain access to the version they bought, regardless of future publisher decisions."
+              },
+              {
+                "quote": "If the company knows well that they cannot provide their online services indefinitely, upon purchase there should be at least information that one day the services will be shut down."
+              }
+            ]
+          },
+          {
+            "topic": "Digital Preservation",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Legal protections should enable archiving, emulation, or redistribution of abandoned games by libraries and preservation groups."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 45342,
+          "unit_kind": "feedback"
+        },
+        "text": "I am writing as a concerned customer to request protections for individuals who purchase digital video games, especially in the light of a growing and troubling trend: publishers disabling access to games that people have legally bought. Whether through delisting already purchased titles, shutting down servers, removing features, or enforcing DRM-dependent systems that require online validation even for single-player content (even though when the game was purchased there was no DRM of any kind), consumers are left with no recourse when a game they paid for becomes unplayable. This practice undermines the rights of consumers. When someone purchases a video game that in any way does not utilize online connectivity in gameplay, they should retain the ability to play it indefinitely, not just until a company decides to disable it. These actions cause trust issues in digital ownership and damage the long-term cultural and historical preservation of games as a medium. This is not an isolated concern. Over 1 million people have already backed public initiatives calling for game preservation and digital ownership reform. The demand for fairer treatment is both widespread and urgent. Customers are not just licensing a temporary experience, they are paying for a product with the expectation that it will remain usable. I can't express how important it is to consider the following consumer protections: -Once a game is purchased, players should retain access to the version they bought, regardless of future publisher decisions. -Games that are primarily single-player should include an offline mode that functions even if authentication servers are taken down. -Regulations should be introduced to curb always-online requirements for games that don't genuinely need them. This is very evident in the most recent \"Like a Dragon\" titles from the company SEGA. -If the company knows well that they cannot provide their online services indefinitely, upon purchase there should be at least information that one day the services will be shut down. As of now, no one informs the consumer of that being a possibility. -Legal protections should enable archiving, emulation, or redistribution of abandoned games by libraries and preservation groups. This should also cover for community made modifications, which are not profitable, but allow smooth experience of older titles which by default may not be compatible with modern systems due to software and hardware changes over the years. Over 50 years of the industry's existence have proven that video games are not just products, they are creative works, cultural artifacts, and often deeply personal experiences. Destroying access to them after sale is not only a disservice to customers but a loss to our shared cultural history. It is as if your purchased book, movie or music album would vanish from your possession because it does not profit the distributor anymore. I appreciate your attention to this matter and encourage you to join the growing number of voices advocating for a future where customers are respected and games endure.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.540897Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584990.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584990",
+    "chunks_doc_id": "F3584990",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584990.clean.paragraph.json"
+}

@@ -1,0 +1,105 @@
+{
+  "doc_id": "F3589500",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:31:26Z",
+    "finished_at": "2026-04-14T13:33:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "forced every legitimate user of this software to subscribe to a service by paying a monthly fee"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "personal data is a token companies sell for a profit"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "drastic change in pricing for their products"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "changes are made to the core of the user agreement, meaning that a user cannot truly make a long lasting informed purchase"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 148671,
+          "unit_kind": "feedback"
+        },
+        "text": "This initiative is a great step towards fair digital goods and a better degree of ownership over digital products. It seems particularly aimed towards entertainment goods which is great as they target younger people that can end up addicted and predated upon by dark patterns. However I would like to aim my response towards other types of digital product, software licenses. We live in an economy largely dictated by companies with outside investment like the stock market and this means that more often than not a profitable company will change hands at some point and with a change of direction comes a change in policy for existing customers; in this ever escalating economic landscape this means that new ownership of a company often means a drastic change in pricing for their products. A company is of course entitled to increase its pricing, it's fair considering inflation and other factors, however it's often the case that changes are made to the core of the user agreement, meaning that a user cannot truly make a long lasting informed purchase, which is a dire situation to be in as a worker requiring said software to be able to legally operate at a basic required level. For example, the digital sculpture software Zbrush gave the option to their customers to obtain a perpetual license for 700 USD, this price increased later on, which seems fair, however, in 2022 the company was acquired by Maxon which annulled the perpetuity of these licenses and forced every legitimate user of this software to subscribe to a service by paying a monthly fee. I believe this change in policy is a problem and an insult to paying customers. Other companies, like Autodesk and Adobe, have other issues, like not offering their users access to past versions of their software or installing many tools in the customers systems that continuously monitor their activity, they do this in the name of fairness and to control if their licenses are legit. In an ecosystem where digital privacy is often neglected I believe this is not acceptable, personal data is a token companies sell for a profit and as users we can't truly know how much of our information is being watched, analyzed and traded. A user should not need to go out of their way to demand privacy, it should be a given, a right. Specially nowadays where there is great profit to be made with AI technology that needs vasts amount of personal data, and the wealthiest companies in the planet are racing to gather the most amount of data possible on our preferences, our tastes, appearance and our personal conversations.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.793330Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589500.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589500",
+    "chunks_doc_id": "F3589500",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3589500.clean.paragraph.json"
+}

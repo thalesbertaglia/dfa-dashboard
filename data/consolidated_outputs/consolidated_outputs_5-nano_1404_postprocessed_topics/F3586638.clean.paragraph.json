@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3586638",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:50Z",
+    "finished_at": "2026-04-14T13:01:17Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the proper disclosure of if the item being purchased will be yours forever or simply a service that will eventually shut down."
+              },
+              {
+                "quote": "The consumer purchases a permanent licence for a piece of software. Some years or months later the company providing the software declares it is no longer supporting the software and it will be permanently shut down, making it unusable for all purchasers."
+              },
+              {
+                "quote": "I believe it should be obviously disclosed at time of purchase if a product will be unusable when support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26902,
+          "unit_kind": "feedback"
+        },
+        "text": "Firstly I want to say I'm very in favour of this act. I think everyone has encountered a number of these issues on a near daily basis. I think a good edition to this would be the proper disclosure of if the item being purchased will be yours forever or simply a service that will eventually shut down. This has been an increasing issue in online commerce for many years, and many examples can be found. I will list some that have become common place: 1. The consumer purchases a permanent licence for a piece of software. Some years or months later the company providing the software declares it is no longer supporting the software and it will be permanently shut down, making it unusable for all purchasers. This effects software such as: Productivity software, Video Editing Software, Artistic Software, Video Games, and many other Software products. 2. The consumer purchases a piece of physical hardware. Upon powering up the item the consumer is instructed to connect it to the Internet for advertised functions to operate. Years or months later the company that produced the item declares it is dropping support for the item. Once support is dropped the item cannot be used in some or any way. This creates an enormous amount of needless waste and environmental harm. This effects items such as: door bell/security cameras, autonomous vacuum cleaners, smart products, exercise equipment, and other items with and online connection. I believe it should be obviously disclosed at time of purchase if a product will be unusable when support ends. Additionally a period of time should be given where the product is guaranteed to have continued support by the company. Alternatively the company could give an end of life plan to allow the product be used even after support has ended. This will allow the consumer to be informed on how long their purchase will last and discourage the practice of shutting products down prematurely, forcing consumers to make additional purchases and producing needless e-waste.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.305923Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586638.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586638",
+    "chunks_doc_id": "F3586638",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586638.clean.paragraph.json"
+}

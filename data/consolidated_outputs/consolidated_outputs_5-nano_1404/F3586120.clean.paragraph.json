@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586120",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:47:37Z",
+    "finished_at": "2026-04-14T12:48:03Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "World of Warcraft"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "subscription model"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26009,
+          "unit_kind": "feedback"
+        },
+        "text": "I hope this initiative addresses concerns from consumers on the ownership of digital products, computer games inparticular, and if it can achieve a positive effect it applies to the rest of the world in regards to its digital products. One game I am passionate about is World of Warcraft. It is a purely online game and currently exists in a strange subscription model but users pay for new expansions as they come out. I worry about what this means for if and when the games life comes to an end. What does their purchase entitle the customer to? It would give me peace of mind if there were measures in place that could possibly allow the customer to keep a version of the game. For example, the developer could provide tools to allow users to make servers for the game or even new content so the 20+ years of content the game has already would not be simply discarded.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.101959Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586120.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586120",
+    "chunks_doc_id": "F3586120",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

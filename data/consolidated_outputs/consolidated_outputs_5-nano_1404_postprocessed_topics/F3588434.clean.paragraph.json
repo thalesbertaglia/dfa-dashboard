@@ -1,0 +1,87 @@
+{
+  "doc_id": "F3588434",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:36Z",
+    "finished_at": "2026-04-14T13:24:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "online video games are increasingly being shut down without providing consumers any option to continue accessing the product, either via official means or through self-hosted alternatives."
+              },
+              {
+                "quote": "Despite being marketed similarly to physical goods, these games operate more like time-limited digital services."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "explicitly state whether the consumer is purchasing a product or leasing a service"
+              },
+              {
+                "quote": "Service duration transparency: Consumers should be informed of the expected duration of service availability at the point of sale."
+              },
+              {
+                "quote": "Digital preservation safeguards: Obligations to enable game preservation, either through post-server-shutdown access methods, transfer of ownership rights, or the ability for users to operate the game independently once official support ends."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 43695,
+          "unit_kind": "feedback"
+        },
+        "text": "In recent years, major US-based payment processors, such as Visa, MasterCard and PayPal, have withdrawn or threatened to whithdraw services from online platforms selling digital goods that, in their view, violate their vague or inconsistently applied terms of service. These actions have a disproportionate impact on smaller platforms and creators within the EU's digital economy. Given their dominant role in digital transactions, these payment processors should be classified as essential service providers. As such, they should be required to uphold a principle of neutrality and not deny services based on subjective belief systems or inconsistent content moderation policies, and leave moderation to the online storefronts. In addition, online video games are increasingly being shut down without providing consumers any option to continue accessing the product, either via official means or through self-hosted alternatives. Despite being marketed similarly to physical goods, these games operate more like time-limited digital services. This creates confusion and a lack of transparency for consumers. Therefore, I recommend that the following consumer protection measures be introduced for digital games and similar digital goods: - Clear disclosure of the nature of the service: Companies must explicitly state whether the consumer is purchasing a product or leasing a service (ie.: a clearly displayed \"lease\" or \"purchase\" button. - Service duration transparency: Consumers should be informed of the expected duration of service availability at the point of sale. - Digital preservation safeguards: Obligations to enable game preservation, either through post-server-shutdown access methods, transfer of ownership rights, or the ability for users to operate the game independently once official support ends. These measures would ensure a fairer and more transparent digital market in line with EU values on consumer rights and digital autonomy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.646964Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588434.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588434",
+    "chunks_doc_id": "F3588434",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588434.clean.paragraph.json"
+}

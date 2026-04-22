@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584511",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:00:11Z",
+    "finished_at": "2026-04-14T12:00:28Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Right now, publishers can shut down games people have paid for without any notice, effectively wiping out purchases with no recourse for the buyer."
+              },
+              {
+                "quote": "When a game is no longer being supported, players should have the option to host it themselves or play it offline."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16583,
+          "unit_kind": "feedback"
+        },
+        "text": "Id like to ask that videogames be included under the Digital Fairness Act. Right now, publishers can shut down games people have paid for without any notice, effectively wiping out purchases with no recourse for the buyer. That doesnt seem fair to consumers who bought a product in good faith. No ones expecting these companies to keep games running forever. But there should be a proper end-of-life plan in place. When a game is no longer being supported, players should have the option to host it themselves or play it offline. This would go a long way toward respecting peoples purchases and giving games a second life after official servers go down. Its not just about consumer rights either. Games are part of our cultural and technological history. When publishers take them offline with no alternative, we lose part of that history. Preserving access to old games helps future generations understand where technology and digital art have come from. I also want to mention how concerning internet censorship can be, especially when it's unclear why something is removed or restricted. Open access and transparency are important for fairness and trust in digital spaces. Thanks for taking the time to read this. I hope this issue can be looked into.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.268386Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584511.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584511",
+    "chunks_doc_id": "F3584511",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

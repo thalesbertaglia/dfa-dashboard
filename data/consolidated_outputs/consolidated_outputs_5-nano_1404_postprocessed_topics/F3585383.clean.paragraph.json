@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3585383",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:27Z",
+    "finished_at": "2026-04-14T12:27:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The legal agreements (EULAs) that come with digital products often heavily favor publishers and restrict how customers can use what they bought."
+              },
+              {
+                "quote": "These agreements should be balanced so consumers can continue to enjoy their software reasonably, even after official support ends."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "DRM (digital rights management) and anti-cheat programs."
+              },
+              {
+                "quote": "Games should never require administrator privileges to run, nor install software that constantly monitors users or opens security holes."
+              },
+              {
+                "quote": "disabling access without warning or options."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many run with high-level system permissions, collect data without clear explanation, and create security risks on users devices."
+              },
+              {
+                "quote": "Data collection must be transparent, limited, and optional."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39416,
+          "unit_kind": "feedback"
+        },
+        "text": "I appreciate the opportunity to share my views on protecting consumers rights in the digital marketplace. When people buy video games or software, they expect to own something that lasts and can be used indefinitely. Unfortunately, many publishers treat these products like they have secret expiration dates, disabling access without warning or options. This is unfair and misleading. To improve consumer protection, I believe the EU should require publishers to clearly disclose if and when a digital product will stop working or being supported. If a game or software will lose official support, companies should provide ways for customers to keep using their purchase privately - such as offering offline modes or self-hosted servers - without needing ongoing help from the publisher. The legal agreements (EULAs) that come with digital products often heavily favor publishers and restrict how customers can use what they bought. These agreements should be balanced so consumers can continue to enjoy their software reasonably, even after official support ends. Another serious issue is the use of DRM (digital rights management) and anti-cheat programs. Many run with high-level system permissions, collect data without clear explanation, and create security risks on users devices. Games should never require administrator privileges to run, nor install software that constantly monitors users or opens security holes. Data collection must be transparent, limited, and optional. This is not just a software problem. Many physical devices with digital components - smart cars, home automation systems, medical devices and more - also suffer from manufacturers cutting off features remotely after sale. Similar rules on transparency and continued use should apply to those as well.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.711375Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585383.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585383",
+    "chunks_doc_id": "F3585383",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585383.clean.paragraph.json"
+}

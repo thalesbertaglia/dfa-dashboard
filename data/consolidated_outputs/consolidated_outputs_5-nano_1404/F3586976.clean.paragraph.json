@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586976",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:07:05Z",
+    "finished_at": "2026-04-14T13:07:30Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Protecting entertainment media such as videogames from being destroyed (i.e. rendered completely inaccessible/unusable)."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Preventing third parties from interfering with perfectly legal transactions and pushing vendors and/or authors to censor their content on grounds of subjective judgements alone."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24678,
+          "unit_kind": "feedback"
+        },
+        "text": "I support the motions proposed by this Act, and would like to suggest two more additional points for consideration: 1. Protecting entertainment media such as videogames from being destroyed (i.e. rendered completely inaccessible/unusable). Many games have been destroyed already, leaving users without access to products that they have paid for, thus running afoul of consumer laws. I do not wish to live in fear that what I pay for to keep might be taken away from me. The \"Stop Destroying Videogames\" initiative that was recently presented - and that has reached almost 1.5 million signatures - is a good reference point to take inspiration from to better understand this proposal; 2. Preventing third parties from interfering with perfectly legal transactions and pushing vendors and/or authors to censor their content on grounds of subjective judgements alone. Recently, popular payment processors have forced multiple large vendors to remove content from their stores due to the material being unsavory according to the former's policy standards, despite being perfectly legal to sell. I believe this fits the description of a \"problematic commercial practice\" stated in the act's description, as it unfairly targets more niche vendors by preventing them to actually sell their wares. Not to mention, this could lead to darker practices down the line, examples including suppression of creative freedoms and direct economic elimination of competitors. I affirm that this emerging trend should not be left unchecked.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.400667Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586976.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586976",
+    "chunks_doc_id": "F3586976",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

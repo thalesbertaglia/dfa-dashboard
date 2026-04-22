@@ -1,0 +1,68 @@
+{
+  "doc_id": "F33083861",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:31:02Z",
+    "finished_at": "2026-04-14T09:31:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "restricting OFFLINE access to the Digital Rights Management (DRM) practice"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11334,
+          "unit_kind": "feedback"
+        },
+        "text": "I strongly support and encourage the commission to expand the scope of law enforcement to restricting OFFLINE access to the Digital Rights Management (DRM) practice in accordance with the Digital Fairness Act. Nowadays, many games, especially those published by large companies such as Rockstar, EA, and Activision... still require regular or periodic DRM check or forced launcher login, even if players just want to play OFFLINE, SINGLE-PLAYER, STORY-MODE content ALONE!!!!!!! It creates a situation where paid customers have less freedom than those who use unauthorised copies. Even I legally buy games through platforms such as Steam, EA or Rockstar and just want to play STAND-ALONE OFFLINE MODE, I am often forced to connect to the internet just to verify the ownership. If the company's server is shut down or the authentication expires, even OFFLINE MODE will stop functioning entirely. This practice is fundamentally unfair to consumers. When people pay for a game, especially when there is an OFFINE MODE in the game, they should have the right to own and store it - not just rely on the leased access rights of the company's ongoing server operations. The DFA is an opportunity to correct this imbalance and ensure that digital ownership means real, lasting ownership.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.549061Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33083861.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33083861",
+    "chunks_doc_id": "F33083861",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

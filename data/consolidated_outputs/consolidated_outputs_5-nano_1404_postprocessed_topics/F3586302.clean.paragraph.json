@@ -1,0 +1,99 @@
+{
+  "doc_id": "F3586302",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:53:14Z",
+    "finished_at": "2026-04-14T12:54:07Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital products try to present themselves as services that require a subscription fee."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The effect this has on companies is increasing their costs as they either have to pay very huge prices (for each developer, employee using them) or change to a different tool in their infrastructure which most of the times is calculated to be just a bit pricier than paying the licenses so that these predatory companies can extort a profit."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "supposed open source software that then changes license and support to a service one, converted into a subscription fee."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Blizzard games rebranded and made difficult to play (warcraft 3)"
+              },
+              {
+                "quote": "Games that have been paid beeing disconinued (games with mandatory internet access)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 52296,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital products try to present themselves as services that require a subscription fee. The whole Software as a Service situation has created a huge problem for european citizens, european consumers and also european companies. A lot of times companies are baited into using supposed open source software that then changes license and support to a service one, converted into a subscription fee. I think this should be looked into as a malicious and predatory practice against companies and the market. The effect this has on companies is increasing their costs as they either have to pay very huge prices (for each developer, employee using them) or change to a different tool in their infrastructure which most of the times is calculated to be just a bit pricier than paying the licenses so that these predatory companies can extort a profit. A lot of times consumers are baited into using software that is either important to their skills (illustration, coding and other tools) or plainly entertainment (games, video steraming) and immidiately after that the service is downgraded, increased in price or simply gone. I think this is also a predatory practice against consumers this time and should be stopped. Finally the huge majority of the times this is done, is done by foreign companies(USA and Chinese mostly) to european citizens Instances of this include but not limited to: the terraform license change adobe subscription models redis labs license change FluentAssertions license change Unity lowering the limit of who must pay Blizzard games rebranded and made difficult to play (warcraft 3) Games that have been paid beeing disconinued (games with mandatory internet access)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.195782Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586302.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586302",
+    "chunks_doc_id": "F3586302",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586302.clean.paragraph.json"
+}

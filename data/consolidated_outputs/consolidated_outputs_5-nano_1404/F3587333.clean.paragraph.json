@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587333",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:15:03Z",
+    "finished_at": "2026-04-14T13:15:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the game you paid for is no longer playable at all."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25992,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for taking the time to read this. I want to bring attention to a harmful trend in the gaming industry. Imagine buying a new game like Death Stranding for 70 a single-player game and still being forced to stay connected to the internet just to play it. Then, just a few months later, the company decides to shut down the servers. For any reason. And suddenly, the game you paid for is no longer playable at all. Its completely gone even though you bought it legally. I believe consumers should have the right to keep and play the games they buy, especially offline (or any online multiplayer game), and even after servers go down. Please consider supporting rules that protect this kind of digital ownership and make sure people dont lose access to what they paid for. Thank you again for your time.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.498592Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587333.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587333",
+    "chunks_doc_id": "F3587333",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

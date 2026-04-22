@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585899",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:40:21Z",
+    "finished_at": "2026-04-14T12:41:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "loot boxes"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 82226,
+          "unit_kind": "feedback"
+        },
+        "text": "A rather large percentage of digital goods being sold are games, and this industry is full of dark patterns, addictive mechanisms like loot boxes and a total lack of guarantees how long the software will receive updates, or how long it is playable. I would like to ask you to make sure that the Act is applicable to computer gaming as well. Computer games are also important cultural artifacts, often containing significant story telling elements, so an important aspect is to ensure that computer games remain playable even if the publisher no longer wants to sell and/or support it. So please include provisions that the publishers should make sure that consumers can keep playing the game they bought, either without a server component, or by having volunteers host or produce their own servers, so the game remains usable. For instance, this can be done by publishing the communication protocols and allowing people to change the security keys used to safely communicate with the server, so people can create their own servers. This is actually not merely relevant to games, but to all products with an online service component, like many IoT devices. We've regularly seen that companies stop supporting these devices, turning perfectly working hardware into e-waste. So for these devices, it is important that they can either be used without any servers at all, so they remain working if the servers of the company that made the product go offline, or with alternative servers not hosted by that company. So ideally, there would be a general rule that is part of the Act that would encompass any purely digital good, or any physical product whose functionality depends in whole or part on digital services, to ensure that the long term functioning of the product is not curtailed artificially, by the forced removal of some or all digital functionality.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.975939Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585899.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585899",
+    "chunks_doc_id": "F3585899",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

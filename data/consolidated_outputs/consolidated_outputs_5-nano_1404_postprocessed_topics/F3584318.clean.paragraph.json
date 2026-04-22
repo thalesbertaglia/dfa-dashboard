@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584318",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:54:58Z",
+    "finished_at": "2026-04-14T11:55:16Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the destruction of games."
+              },
+              {
+                "quote": "hosting private servers"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17168,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello :) I'm here to do my part in bringing awareness to the destruction of games. Games are an art form and art should be preserved, if not through the original dev/publisher, then through the people. I hope that future games wont be lost to time, with no possibility of preservation. If companies cant continue support, the users should have the option to support the games themselves (e. g. by hosting private servers etc.). Thank you very much, I hope you have a wonderful day <3",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.175424Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584318.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584318",
+    "chunks_doc_id": "F3584318",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584318.clean.paragraph.json"
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584611",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:37Z",
+    "finished_at": "2026-04-14T12:04:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns to exploit human psychology in ways that rival casino apps."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One of the clearest examples is the rise of gacha games,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29071,
+          "unit_kind": "feedback"
+        },
+        "text": "I grew up with video games and board games that went far beyond the classic family games most people know. At first, the digitalization of games was something I welcomed. However, over the years, the strategies used by video game publishers have become increasingly dystopian. One of the clearest examples is the rise of gacha games, which use dark patterns to exploit human psychology in ways that rival casino apps. These games manipulate players into spending money by preying on addictive tendencies in Kombination with complex Games giving them even more Dangerous leverage then Casino games. The problem goes deeper than monetization. In video games, mechanics can be patented something that would never be allowed in the board game world. If a single company patented a core mechanic of a board game, the entire tabletop industry would grind to a halt. The fact that board games have a more modern legal framework then video games, that remain vulnerable to such anti-competitive practices shows why new legislation is urgently needed. Another growing issue is the shift toward treating both video games and their hardware, such as consoles, purely as licensed digital products rather than goods owned by the consumer. This opens the door for highly consumer-unfriendly behavior, from revoking access to purchased games to limiting repairs and modifications. If left unchecked, this trend could give corporations unprecedented leverage over consumer",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.317495Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584611.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584611",
+    "chunks_doc_id": "F3584611",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

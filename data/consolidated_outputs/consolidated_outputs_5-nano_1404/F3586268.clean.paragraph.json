@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3586268",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:20Z",
+    "finished_at": "2026-04-14T12:53:08Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Take Steam video games as an example of that."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "buried in their terms of service that the product can be revoked by them at any time"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 47594,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello! As an EU & Swedish citizen, I am incredibly disturbed by a trend of more and more government overreach into the rights of individuals, which includes the rights of companies to conduct business in the way they please in the free market, since companies are simply made up of individuals. I strongly feel that the Digital Fairness Act extends far beyond what I would like to see in legislation, that is to say, it extends far beyond fraud/misleading advertising, which is totally fair to regulate. What I will suggest and what I would love to see is for the Digital Fairness Act to instead include regulation on what I deem the worst fraud occuring internet-wide, which is companies advertising products \"to buy\"/\"to purchase\" like video games, movies, university textbooks, so on so forth. But it is buried in their terms of service that the product can be revoked by them at any time, that it depends on some external server that they own to exist and that \"lifetime\" often means however long they choose to host it. In my opinion, this is what the Digital Fairness Act should focus on, clear and evident fraud, products that are clearly supposed to be called something else, that cannot under any circumstance use terms like \"buy\" or \"purchase\", because they are functionally rentals but they are posing as something else. Take Steam video games as an example of that. I wholeheartedly reject every other proposal in the Digital Fairness Act as I do not want government interference in the free market, where consumers are choosing these products that would be regulated under the DFA and this would just grow the red tape even more. Thank you so much for reading and taking my suggestion into consideration.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.183647Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586268.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586268",
+    "chunks_doc_id": "F3586268",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

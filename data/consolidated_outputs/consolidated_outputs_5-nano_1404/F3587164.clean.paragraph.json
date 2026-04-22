@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3587164",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:06Z",
+    "finished_at": "2026-04-14T13:12:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I used to play an mmo called Tabula Rasa"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12781,
+          "unit_kind": "feedback"
+        },
+        "text": "I used to play an mmo called Tabula Rasa which was intentionally sabotaged by the company NCSoft which held the distribution rights. While the company did not maintain a presence in the EU, they did maintain an European server for the game and therefore, are subject to European laws by right of operation. The game was still being upgraded when the decision was made to terminate the online servers that operated the games. Tabula Rasa is a game that has physical discs and I purchased these, including the special Collectors Edition. Under policies established by NCSoft, private servers are permissible, yet the company has specifically targeted private servers to reactivate the game. As the result of a lawsuit won by Richard Garriot, NCSoft had to cede their rights to ownership of this game, so they have no legal standing to enforce shutdown of private servers, especially considering Mr Garriot has terminated business relations with the company. I love this game and am submitting this report in the hopes that this ruling may return the availability of the game to the public domain and the users who want to play again. I am currently playing another server dependent game Zenless Zone Zero, but this is a soloplayer game. I am hoping if this precedent is established, when the game comes to end of life, there will be an option to play the game after server shutdown.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.455722Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587164.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587164",
+    "chunks_doc_id": "F3587164",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

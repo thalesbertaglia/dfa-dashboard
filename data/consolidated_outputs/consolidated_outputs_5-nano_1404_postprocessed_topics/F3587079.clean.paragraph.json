@@ -1,0 +1,96 @@
+{
+  "doc_id": "F3587079",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:09:43Z",
+    "finished_at": "2026-04-14T13:10:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "to sell people a product that can be at any moment destroyed without any warning."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "practice of EULA be banned"
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "The censorship of art and control of expression forced by payment processors"
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "scrapping our data and using it without our knowledge or permission for their own benefit."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42611,
+          "unit_kind": "feedback"
+        },
+        "text": "Over the last decade our lives in the digital space have been under constant assault, massive corporations stripping us of any freedom or advantage we had in this space. There are many, many issues, but I've narrowed it down to 3 most pressing and immediately addressable ones: 1. Preservation of games - You have doubtless heard about movements like the Stop Destroying Videogames initiative brought by eu citizens and the broader Stop Killing Games initiative aligned with it. It is anti-consumer, to sell people a product that can be at any moment destroyed without any warning. It is anti-labor, removing the ability of game developers who made it in the first place to ever show their work in its context. And it is anti-human, to delete a work of art from history and attack anyone who attempts to preserve it. I sign off on all the suggestions from the Stop Destroying Videogames initiative, and suggest that practice of EULA be banned, all contracts between users and producers of digital software be instead dictated by our laws. 2. The censorship of art and control of expression forced by payment processors - For years companies like Visa, Mastercard, PayPal etc. and payment processing services that depend on them have been trying to dictate what kind of art is allowed to exist in the digital space, putting themselves above the law and government. Their recent attack, supported by small far-right groups abroad, has deleted thousands of works of art: videogames, literature, illustrations and more, from platforms they were shared and sold on, uprooting the livelihoods of their authors. I want the EU to commit to protecting the right of expression and free speech of its citizens, demanding that payment processors follow our law and if they want to operate within the bounds of the EU, and ensure that art of all kind is protected from discrimination. 3. Forced participation in AI schemes - It is becoming harder and harder for an individual to protect themselves from these programs. Corporations have been forcing us to participate, putting AI programs in every application and device, scrapping our data and using it without our knowledge or permission for their own benefit. Just recently Google has updated their Android system, present in many devices commonly used by EU citizens, giving their AI agent Gemini access to messages shared from the device, without the ability to opt out or uninstall it, and other companies like Apple and Microsoft have been taking similar steps. Beyond all the downsides of this \"technology\", of which are many, this is a blatant attack on our privacy and a huge security risk. Online services are demanding we put our faces in their database under the pretext of ID verification. At the very least, we should be able to opt out of participating, and shouldn't be forced to allow these programs to spy on everything we do when using applications and services necessary in modern everyday life.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.427993Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587079.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587079",
+    "chunks_doc_id": "F3587079",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587079.clean.paragraph.json"
+}

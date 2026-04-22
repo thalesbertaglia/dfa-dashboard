@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584344",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:55:47Z",
+    "finished_at": "2026-04-14T11:56:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "misleading or manipulative digital interfaces (dark patterns), which present termination of service as unavoidable or acceptable;"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19380,
+          "unit_kind": "feedback"
+        },
+        "text": "I am a citizen of the European Union and signatory of the European Citizens’ Initiative Stop Killing Games, which has exceeded 1.4 million signatures in support of the right of consumers to maintain access to regularly purchased video games. Increasingly, some publishers deactivate servers or withdraw licences without notice, making video titles unusable and undermining every possibility of digital preservation. This phenomenon, which is attributable to planned allobsolescence, raises significant problems in terms of both individual rights and the protection of digital cultural heritage. I consider that this issue is fully in line with the aims of the Digital Fairness Act, since: — manifests itself through misleading or manipulative digital interfaces (dark patterns), which present termination of service as unavoidable or acceptable; — constitutes an unfair commercial practice, with significant economic and cultural impacts for users; it often involves vulnerable groups, such as minors, who do not have the technical or legal means to protect themselves adequately, and do not have the necessary technical skills to store offline copies or otherwise preserve the digital content acquired. In this context, I would like to propose some considerations: The introduction of rules ensuring continued access to purchased digital goods, similar to what is already provided for physical goods. Obligation for publishers to provide alternative solutions, such as offline mode or public servers, in case of termination of official support. Establishing clear supervisory, transparency and sanctioning mechanisms to counter abusive behaviour and ensure a fair balance in digital relations. Finally, I hope that the European Union will be able to seek harmonisation between the Member States in implementing these measures, in order to avoid regulatory fragmentation that could limit their effectiveness. I would like to thank you very much for your contribution to this consultation and for any further comments you may have. With an estimate, Stefano Viggiano citizen of the European Union",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.188324Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584344.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584344",
+    "chunks_doc_id": "F3584344",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

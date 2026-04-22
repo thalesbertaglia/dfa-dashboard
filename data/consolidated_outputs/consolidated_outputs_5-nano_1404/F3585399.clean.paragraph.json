@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585399",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:50Z",
+    "finished_at": "2026-04-14T12:27:26Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In game items are not considered to have monetary value, therefore, \"in game gambling\" is legal, at least in my understanding."
+              },
+              {
+                "quote": "Since in game items have real value, \"chance mechanics\" that take real money to use, are gambling."
+              },
+              {
+                "quote": "To that I would like to add that games that mimic the expression of classical gambling, but do not gamble real currency, are not gambling (Balatro for example, uses terms of poker, chips and hands, but these are disconnected from any real value, as the full game is a one time purchase)."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a sale means that the product you buy remains accessible."
+              },
+              {
+                "quote": "it does not require the developer to support the product in perpetuity, but does require them to give free all needed code (local and potentially code to run a sever) such that the game or digital good can still be used by the consumer who bought it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35865,
+          "unit_kind": "feedback"
+        },
+        "text": "To ensure fairness, I think the most important thing is that, when it concerns games or other digital goods, a sale means that the product you buy remains accessible. It does not require the developer to support the product in perpetuity, but does require them to give free all needed code (local and potentially code to run a sever) such that the game or digital good can still be used by the consumer who bought it. A second concern I have is about gambling. Things are only considered gambling if the result has monetary value. In game items are not considered to have monetary value, therefore, \"in game gambling\" is legal, at least in my understanding. It is the practical through though, that in game items do hold value, even when admitting so is not legal. There are places that sell and by accounts, not for a game licence, but for the items contained within the account. In addition, the steam marketplace is a prime example showing that in game items have value. Specific hats from Team Fortress 2, or knives from Counterstrike can sell for upwards of thousands of euros (In steam store credit). The abstraction to store credit does not mean it isn't \"real\" value, as you can buy consumer electronics with it, or use shadier means to translate it into real cash. The argument being made is not its practicality, but that in game items have real value. Since in game items have real value, \"chance mechanics\" that take real money to use, are gambling. To that I would like to add that games that mimic the expression of classical gambling, but do not gamble real currency, are not gambling (Balatro for example, uses terms of poker, chips and hands, but these are disconnected from any real value, as the full game is a one time purchase). To this end, I think that any kind of chance based mechanics that take real world money should have their chances clearly communicated, so that consumers know what they are buying. In addition to being 14-18+ (whatever is deemed reasonable), since younger people cannot be expected to reasonably gamble. Physical gambling is similarly restricted. And digitally, accessing \"chance mechanics\" is even easier",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.720582Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585399.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585399",
+    "chunks_doc_id": "F3585399",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

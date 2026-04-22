@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3586659",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:01:12Z",
+    "finished_at": "2026-04-14T13:01:32Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games shutting down and giving no opportunity for the players to continue playing the game they paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19835,
+          "unit_kind": "feedback"
+        },
+        "text": "As a supporter of the \"Stop Killing Games\" movement, I've had bad experiences with video games shutting down and giving no opportunity for the players to continue playing the game they paid for. Games aren't being preserved properly and publishers are taking away the right of consumers to enjoy something they definitely should have the right to enjoy. The biggest example of this is \"The Crew\", a racing game that got shut down even though it still had an active player base, most likely because it wasn't making the publisher enough profit. There's many more examples, some personal ones also include \"Global Agenda\", a game which I miss playing dearly, but it's been abandoned, or \"Skill: Special Force 2\", another game that got abandoned and is now lost to time. These things shouldn't be happening, a video game is as much of an expression of creativity as any other, and I personally, among many others, consider it an art form. Above all, the shutting down of video games is an infringement on consumer rights, which I believe are not rightfully protected in this domain. Please do something about this, thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.310588Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586659.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586659",
+    "chunks_doc_id": "F3586659",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

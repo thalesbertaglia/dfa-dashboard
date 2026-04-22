@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3589170",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:53Z",
+    "finished_at": "2026-04-14T13:30:10Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The terms used to license digital software to consumers are currently highly misleading on a broad scale."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Contract Terms",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "It is not fair to the consumer if the seller decides to block access to the software already paid, if the limitation of the licensing period is not clearly indicated at the time of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17798,
+          "unit_kind": "feedback"
+        },
+        "text": "The terms used to license digital software to consumers are currently highly misleading on a broad scale. When the consumer pays for the use of the software, the product is usually marketed as a one-off payment using the term ‘buy’. No precise time limit is indicated on the Purchasing page. The Licensing Terminal Document may indicate that access to the product can only be disabled at any time for any reason or even without reason. However, the consumer has no reasonable opportunity to know in advance how long after payment the software can be used. It is not fair to the consumer if the seller decides to block access to the software already paid, if the limitation of the licensing period is not clearly indicated at the time of purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.764301Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589170.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589170",
+    "chunks_doc_id": "F3589170",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

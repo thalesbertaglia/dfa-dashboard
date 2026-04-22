@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3588143",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:33Z",
+    "finished_at": "2026-04-14T13:22:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Current server deactivation practices by some developer companies result in the total deactivation of video games, even in single-player mode, which represents a form of digital programmed obsolescence."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 12807,
+          "unit_kind": "feedback"
+        },
+        "text": "The inclusion of the Stop Killing Games initiative in the Digital Fair Act is indispensable to ensure consumer rights in the digital environment. In an economy that is increasingly based on digitally acquired content, it is essential that cultural products, such as video games, remain accessible and functional for those who have legitimately acquired it. Current server deactivation practices by some developer companies result in the total deactivation of video games, even in single-player mode, which represents a form of digital programmed obsolescence. This situation violates not only the principle of fairness in access to digital goods, but also the protection of cultural memory and the right to the continued use of legitimately obtained content. Including this initiative in legislation would allow: — Preserve fair and lasting access to legally acquired digital content. — Promote corporate transparency and accountability. — Safeguard the cultural heritage contained in the interactive environment. This would strengthen the legal framework governing digital consumption, aligning it with the values of fairness, sustainability and respect for users’ rights.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.618012Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588143.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588143",
+    "chunks_doc_id": "F3588143",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

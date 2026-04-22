@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3588570",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:24:09Z",
+    "finished_at": "2026-04-14T13:24:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns mentioned in the objective."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The provider should provide clarity of what will happen with the product when their cloud service stops: When buying of a device, I think it should be made clear for the customer which functionality will remain working \"indefinitely\" and which parts are sold as part of a service that can stop working at any given time or might become subject to an additional charge to provide that service."
+              },
+              {
+                "quote": "The provider must have a plan for continuance of the product."
+              },
+              {
+                "quote": "They should either be able to provide a (paid) alternative when stopping the cloud service or should give the end user the option to host those services themself."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 27203,
+          "unit_kind": "feedback"
+        },
+        "text": "I think it's good to look at problematic parts of software like the dark patterns mentioned in the objective. However, one important thing that I miss in the objectives is the impact of cloud services on the workings of equipment or software; More and more devices and services rely on an internet connection in order to work as advertised. However when buying \"smart\" devices, I basically want to use them without any interference from the supplier. Some examples: - If I buy a thermostat to control the temperature in my house, then I want it to do that, even when the supplier shuts down a platform - If I buy a smart speaker to use as an alarm clock in the morning, then I think it should be able to still do that 3 years after buying it and not only in the first couple of years. If I look at what happens then I see the following articles (in dutch): - Nest thermostats are limited to a basic set of functionality (https://tweakers.net/nieuws/234358/google-stopt-verkoop-nest-thermostaten-in-europa.html). I think this is an example of a bare minimum that a company has to offer. - I bought a Sonos speaker in order to wake me up in the morning. This worked fine, until they released a new app that removed a lot of functionality and resulted in the speaker using my alarms that I had set before, which would wake me up too early on days where I would want a later alarm and not waking me up if I needed to be up early. Sonos acknowledged the problems with the new app, but basically said that people would have to deal with it (https://tweakers.net/nieuws/225600/sonos-ziet-af-van-terugbrengen-oude-appversie-na-tegenvallende-testresultaten.html). Based on the above, I think that some rules need to be made for cloud services to provide clarity of how a product will function in the future: - The provider should provide clarity of what will happen with the product when their cloud service stops: When buying of a device, I think it should be made clear for the customer which functionality will remain working \"indefinitely\" and which parts are sold as part of a service that can stop working at any given time or might become subject to an additional charge to provide that service. - The provider must have a plan for continuance of the product. They should either be able to provide a (paid) alternative when stopping the cloud service or should give the end user the option to host those services themself. - \"Smart\" devices are obviously capable of performing certain tasks offline, I think companies should allow users to control this without requiring any cloud service or specific app. Ideally this would be a simple web page running on the device or adhering to an industry standard API. My examples are mentioning smart devices, but I think the same should apply to software that is \"bought\" (as in a indefinite license to use the product). Requiring a good distinction between what can and cannot be used indefinitely gives a better understanding for consumers of what they can expect.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.657052Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588570.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588570",
+    "chunks_doc_id": "F3588570",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

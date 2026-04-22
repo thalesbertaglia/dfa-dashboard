@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3584379",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:35Z",
+    "finished_at": "2026-04-14T11:56:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video Games"
+              },
+              {
+                "quote": "They get to decide if the player actually gets to play the game they purchased and it needs to stop, as it is extremely unfair."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14560,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe this should also support Video Games too. I think a person purchasing a Video Game should gain the right to be able to play the game at all times, and it is often not the case. The publishers can be very shady and use the customers to their advantage and control them. They get to decide if the player actually gets to play the game they purchased and it needs to stop, as it is extremely unfair.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.205673Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584379.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584379",
+    "chunks_doc_id": "F3584379",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

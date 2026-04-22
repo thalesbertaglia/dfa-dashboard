@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3593174",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:39:03Z",
+    "finished_at": "2026-04-14T13:39:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "not uncommon to have a 'backlog' of games, to play later when we have finished other games."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I'm fine with not owning games if I, for example, subscribe to some game streaming service, that's clearly the deal,"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31588,
+          "unit_kind": "feedback"
+        },
+        "text": "In the way games are sold to us consumers, there is often a discrepancy between how things are portrayed and how they are described in the legal fine print. It may very well be that, legally speaking, we only have a license to the copyrighted work that is a game, however when this license is revoked for whatever reason, we have no resources. We might not even have played the game (yet)! This is especially relevant given that it is not uncommon to have a 'backlog' of games, to play later when we have finished other games. But even if one isn't revoked their license, they may still be unable to play a game due to a dependency on an online service, even for single-player games. I understand that one cannot simply equate 'digital products' to physical ones, but it would be nice if there are at least some limits to how far this can go. I'm fine with not owning games if I, for example, subscribe to some game streaming service, that's clearly the deal, but if I pay for a specific game, not a subscription, I'd like to be able to play it and not have a license revoked, or online service shut down for a game that doesn't require that service as a part of it's gameplay (as opposed to e.g. a multiplayer game).",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.948277Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3593174.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3593174",
+    "chunks_doc_id": "F3593174",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

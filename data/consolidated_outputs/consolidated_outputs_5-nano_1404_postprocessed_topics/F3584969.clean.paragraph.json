@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584969",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:26Z",
+    "finished_at": "2026-04-14T12:16:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games in particular is currently an area of the online product & service scope that has no clear-cut laws to enforce consumer ownership properly"
+              },
+              {
+                "quote": "allowing traders to sell a license to an online game (or a game with any online elements) with no clear end-of-life plan or framework"
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns and addictive design features"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29361,
+          "unit_kind": "feedback"
+        },
+        "text": "A lot of the subjects covered within the Digital Fairness Act's current main objectives, like giving increased control to consumers' online experience as they use online services, intertwine with the issue of consumer ownership of purchased online products and services. Video games in particular is currently an area of the online product & service scope that has no clear-cut laws to enforce consumer ownership properly, allowing traders to sell a license to an online game (or a game with any online elements) with no clear end-of-life plan or framework, allowing them to discontinue the game or its features they've already sold to customers for any reason they deem feasible. As video games are already addressed in the Act as a significant category to cover (for example in the form of reducing problematic features exploiting consumers within video games), I would also see the consideration of addressing this consumer ownership issue of video games as valuable. To add, the issue of publishers and traders destroying video games they've already sold to customers does significantly overlap with the consumer protection values of the Act, as well as the expected positive impacts of increased customer trust (customers know that they get to own the games they purchase). The addressing of this issue will also decrease exploitation of consumers by traders on a more macro, long-term scope, complementing the more nuanced address of dark patterns and addictive design features the Act's current contents already cover.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.530768Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584969.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584969",
+    "chunks_doc_id": "F3584969",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584969.clean.paragraph.json"
+}

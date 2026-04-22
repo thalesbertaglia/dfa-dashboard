@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584613",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:03:41Z",
+    "finished_at": "2026-04-14T12:03:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I urge that the Digital Fairness Act also sets its sights on the issue of games preservation."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16792,
+          "unit_kind": "feedback"
+        },
+        "text": "I urge that the Digital Fairness Act also sets its sights on the issue of games preservation. There is presently a legislative gap that fails to prevent digitally purchased content or products from being made unavailable to consumers who have paid for them. Examples of such behavior include: - \"The Crew\", from Ubisoft, which has shut down on March 31, 2024 - \"Anthem\", from Electronic Arts, which is due for sunset on January 12, 2026 - \"LawBreakers\", published by Nexon, was shut down on September 14, 2018 All the aforementioned games had a \"buy-to-play\" model (characterized by an initial purchase price), and their subsequent shutdown has rendered them inaccessible to consumers who had previously purchased them. Legislation aligned with the principles advocated by initiatives such as \"Stop killing games\" merits serious consideration. This would offer consumers a means to access products they have paid for, while respecting publishers' decisions regarding the operational lifecycle of their games.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.318384Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584613.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584613",
+    "chunks_doc_id": "F3584613",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584613.clean.paragraph.json"
+}

@@ -1,0 +1,74 @@
+{
+  "doc_id": "F3587171",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:12:21Z",
+    "finished_at": "2026-04-14T13:12:44Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "terms like buy and purchase, which imply ownership"
+              },
+              {
+                "quote": "No company should be able to remotely disable things they have SOLD with their sole discretion with no input from buyer."
+              },
+              {
+                "quote": "completely disabling programs even for local use is not acceptable."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23238,
+          "unit_kind": "feedback"
+        },
+        "text": "I agree on this proposition. I would like to raise a related issue that companies currently sell programs, mainly games, using terms like buy and purchase, which imply ownership, but then can later make those programs stop working. If I buy a thing I should be able to use it as long as I want. No company should be able to remotely disable things they have SOLD with their sole discretion with no input from buyer. I understand that support for programs is not forever and some properties, for example those requiring active servers, may not be available forever, but completely disabling programs even for local use is not acceptable. This would be like difference between old cars not having spare parts made anymore versus car company coming and taking your car completely away when support ends. First is understandable, second is unacceptable. The Stop Destroying Games european citizens iniative is raising this issue and has raised over 1.4 million signatures, so there is larger support for this idea.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.458802Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587171.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587171",
+    "chunks_doc_id": "F3587171",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

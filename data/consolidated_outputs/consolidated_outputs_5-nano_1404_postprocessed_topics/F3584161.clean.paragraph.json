@@ -1,0 +1,75 @@
+{
+  "doc_id": "F3584161",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:50:33Z",
+    "finished_at": "2026-04-14T11:50:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games"
+              },
+              {
+                "quote": "if a game gets delisted and even removed from our libraries of games we've purchased and paid for"
+              },
+              {
+                "quote": "the idea of losing access to any game because a company might decide they will not only stop providing support for it but make it defunct entirely, with no recourse available"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23253,
+          "unit_kind": "feedback"
+        },
+        "text": "This act definitely feels like a step in the right direction, but perhaps you could expand it to go over and cover the matter of digital goods such as video games as well? At this time, people like myself will have very little in the ways of recourses if a game gets delisted and even removed from our libraries of games we've purchased and paid for, and I must say, when I'm paying 60, 70, 80 per game as dependent on the price tag, the idea of losing access to any game because a company might decide they will not only stop providing support for it but make it defunct entirely, with no recourse available, no end-of-life plan that would enable a player to continue playing a functioning if stripped-down game, well, it just comes off as predatory and abusive of the consumer-base to me.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.104319Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584161.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584161",
+    "chunks_doc_id": "F3584161",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584161.clean.paragraph.json"
+}

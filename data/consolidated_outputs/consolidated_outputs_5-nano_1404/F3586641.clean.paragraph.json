@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3586641",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:51Z",
+    "finished_at": "2026-04-14T13:01:11Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Most of things are just licensed to us with no stated end date."
+              },
+              {
+                "quote": "We as a gaming community want to see a clear path to play games we paid for potentially forewer or at least until PC becomes obsolete."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20360,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi. I would like to bring attention to ownership of a products. Most of things are just licensed to us with no stated end date. This also includes videogames. Even if they are available to be lanched from a digital library they might just not work, even for a game that should be single player. People try to make fan patches to launch those but they are usually technically illegal. Same is true for multiplayer games. In a past when games had LAN option it was easy yo preserve multiplayer. We as a gaming community want to see a clear path to play games we paid for potentially forewer or at least until PC becomes obsolete. We still can play Chess, Tetris, Snake, why any other game should be different.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.307030Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586641.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586641",
+    "chunks_doc_id": "F3586641",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3584664",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:05:44Z",
+    "finished_at": "2026-04-14T12:06:00Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games that consumers have already paid for in a non-functional state"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15602,
+          "unit_kind": "feedback"
+        },
+        "text": "I hope the Digital Fairness Act can include a provision or some kind of measure to prevent publishers from leaving video games that consumers have already paid for in a non-functional state, with no option for the consumer to make it operable on their own again. I have seen in my own research that this could already be infringing on existing EU legislation, so it would be beneficial to all consumers if the Commission could consider adding this provision to further help protect consumers, and aid in the preservation of media as a whole. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.344047Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584664.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584664",
+    "chunks_doc_id": "F3584664",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "doc_id": "F3586324",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:54:03Z",
+    "finished_at": "2026-04-14T12:55:48Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is no ownership after sale: Some videgames can be rendered unusable remotely by the developers at any point after purchase or be fundamentally altered via mandatory updates, effectively making the original bought product inaccessible by the costumer."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some videogames have gambling mecanics in them that allow users to gamble with real currency and allow minors to access them and in some cases are designed to attract children to such practices."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Intrusive DRM: Some videogames incorporate DRM software that make genuine users that payd for the videogame vulnerable to data leaks and cyberattacks."
+              },
+              {
+                "quote": "Current DRM practices include sending user identificable information to private servers out of the customer control, and many DRM software operates at the kernel level of the OS, when those DRM applications get compromised, all the customers that have it installed are left vulnerable to cyberattacks that can take absolute control of their systems."
+              },
+              {
+                "quote": "Historically DRM developers neglect the fetures that are not directly related to protecting their corporate profits, that often dont include end user safety."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 104648,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act seems to be able to cover videogames. Videogames have been historically neglected by law and regulation, leaving their customers vulnerable to unfair practices. Please consider expanding this Act to help make the videogame industry more fair for the customer. There is no ownership after sale: Some videgames can be rendered unusable remotely by the developers at any point after purchase or be fundamentally altered via mandatory updates, effectively making the original bought product inaccessible by the costumer. Predatory gambling practices: Some videogames have gambling mecanics in them that allow users to gamble with real currency and allow minors to access them and in some cases are designed to attract children to such practices. Intrusive DRM: Some videogames incorporate DRM software that make genuine users that payd for the videogame vulnerable to data leaks and cyberattacks. Current DRM practices include sending user identificable information to private servers out of the customer control, and many DRM software operates at the kernel level of the OS, when those DRM applications get compromised, all the customers that have it installed are left vulnerable to cyberattacks that can take absolute control of their systems. Historically DRM developers neglect the fetures that are not directly related to protecting their corporate profits, that often dont include end user safety.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.204633Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586324.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586324",
+    "chunks_doc_id": "F3586324",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

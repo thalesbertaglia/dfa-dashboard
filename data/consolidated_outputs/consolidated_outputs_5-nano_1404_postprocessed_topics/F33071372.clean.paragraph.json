@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33071372",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:37Z",
+    "finished_at": "2026-04-14T09:28:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Today, consumers buy online games without any real guarantee that they can access them over time."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It amounts to selling a product that can be unilaterally withdrawn without compensation for the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22684,
+          "unit_kind": "feedback"
+        },
+        "text": "I welcome this initiative to better protect consumers from unfair digital practices. However, I would like to draw attention to a still too little covered angle: the issue of ownership and sustainability of digital video games. Today, consumers buy online games without any real guarantee that they can access them over time. Many studios reserve the right to stop the technical support and close the servers, making a paid product totally unusable. The case of The Crew dUbisoft is a striking illustration of this: thousands of players who bought this product lawfully lost access to the game, as the publisher did not keep it. This practice raises several problems: It amounts to selling a product that can be unilaterally withdrawn without compensation for the consumer. It enhances lasymetry between publishers and players, contrary to the principle of fair practices. It seems to be a misleading form of marketing, because consumers think they buy a durable good when it is actually a temporary service, depending on the willingness of the developer. I recommend that European regulations include specific provisions on digital cultural goods, including video games, in order to: ensuring minimum access over time to purchased products, imposing transparency over the expected lifespan of an online game or service, providing compensation for early termination. Such a measure would be essential to restore consumer trust in digital and protect their rights against an industry where the closure of servers and voluntary lobsolescence is becoming more frequent.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.499096Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33071372.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33071372",
+    "chunks_doc_id": "F33071372",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33071372.clean.paragraph.json"
+}

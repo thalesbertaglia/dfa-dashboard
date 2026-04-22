@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3700922",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:13Z",
+    "finished_at": "2026-04-14T13:46:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "certain video games with online features becoming arbitrarily unplayable"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 10544,
+          "unit_kind": "feedback"
+        },
+        "text": "Greetings. I think it would be worthwhile to include, in the framework of the Digital Fairness Act, protections for video game customers from actions on the part of developers and/or publishers that result in certain video games with online features becoming arbitrarily unplayable (usually as part of the publisher or developer ceasing support for the game in order to cut costs). Lists are available online tallying the large number of games thus affected. The practice of cutting support to games with online features, making them partially or completely unavailable to players who had previously paid to access said games in their complete form is a practice that is at the moment legal and common. Companies will sell a game which requires internet connection and then will be able to decommission the game server at their discretion, making the game unplayable, and not compensating the customer for the devaluation of their purchase, not to mention the inherent loss represented by a piece of art being de facto destroyed. Companies decommissioning a game should have to provide the server software or similar means so that the game may be kept operational through community servers (at customers' expense). Alternatively, for games with online requirements, but not functionality, said requirements could be stripped from the game itself though a final update.This sentiment is shared by numerous other gamers, as evidenced by the over 1 million EU citizens who adhered to the European Citizens' Initiative titled Stop Destroying Videogames, Commission registration number: ECI(2024)000007. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.101476Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3700922.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3700922",
+    "chunks_doc_id": "F3700922",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3700922.clean.paragraph.json"
+}

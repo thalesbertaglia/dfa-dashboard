@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3589103",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:29:23Z",
+    "finished_at": "2026-04-14T13:29:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the ability to revoke the licenses at any time and invalidate the purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 25588,
+          "unit_kind": "feedback"
+        },
+        "text": "I fully support this initiative! One item I care deeply about is making sure that online transactions for digital goods are fair. More and more companies are selling \"digital licenses\" and not the goods themselves. This allows companies to use the words like \"purchase\" or \"lifetime ownership\" while still retaining the ability to revoke the licenses at any time and invalidate the purchase. This is highly anti competitive and applies to any form of media purchased online, from movies to games, to any generic software applications.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.754843Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589103.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589103",
+    "chunks_doc_id": "F3589103",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

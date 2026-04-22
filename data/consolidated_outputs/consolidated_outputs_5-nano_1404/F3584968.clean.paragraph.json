@@ -1,0 +1,80 @@
+{
+  "doc_id": "F3584968",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:16:25Z",
+    "finished_at": "2026-04-14T12:16:55Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games."
+              },
+              {
+                "quote": "Stop Killing Games"
+              },
+              {
+                "quote": "end-of-life plans and means for them."
+              },
+              {
+                "quote": "most games requiring internet connection"
+              },
+              {
+                "quote": "the product that one paid for a sum that's even 70 euro or more, might find one day that said product is no longer usable in any way."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 30048,
+          "unit_kind": "feedback"
+        },
+        "text": "I want to add feedback so that the European Commission takes into consideration extending the grasp of Digital Fairness Act so it offers more protection to the very popular art form, which are video games. Currently there is an European Citizens' Initiative called Stop Killing Games which gained over 1,4 million signs. The initiative's aim is to make newly made video games unable to be \"turned off\" and \"destroyed\" by the publisher/developer once they deem it's no longer profitable to them by introducing end-of-life plans and means for them. Currently with most games requiring internet connection, the situation is that the product that one paid for a sum that's even 70 euro or more, might find one day that said product is no longer usable in any way. Think of it like a book publisher deciding they don't want to publish a book any more and they'd go around the world destroying every copy of this book in existence. Currently the multi-billion video games industry is on track to be even more anti consumer than they are. With regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.530291Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584968.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584968",
+    "chunks_doc_id": "F3584968",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

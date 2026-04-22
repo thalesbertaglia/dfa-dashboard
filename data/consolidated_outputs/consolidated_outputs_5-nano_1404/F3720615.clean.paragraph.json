@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3720615",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:05Z",
+    "finished_at": "2026-04-14T13:47:21Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Blocking Side Loading",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "I do not agree on blocking side loading."
+              }
+            ]
+          },
+          {
+            "topic": "Google Play Monopoly",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "From my perspective, google is trying to create a monopoly since Android is the biggest Mobile Os as distribution and that's not okay."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16621,
+          "unit_kind": "feedback"
+        },
+        "text": "I do not agree on blocking side loading. Side loading do not equal to pirating because there are a lot of reason that leads a dev to refuse google play as a app store. From my perspective, google is trying to create a monopoly since Android is the biggest Mobile Os as distribution and that's not okay. I'm the owner of my phone and I decide what do I want to install.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.120969Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720615.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720615",
+    "chunks_doc_id": "F3720615",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

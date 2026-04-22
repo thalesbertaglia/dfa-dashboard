@@ -1,0 +1,95 @@
+{
+  "doc_id": "F3585293",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:24:33Z",
+    "finished_at": "2026-04-14T12:25:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "More and more customers are being tricked into buying perpetual licenses for digital goods where the offering company puts limiting factors in their \"fine print\"."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "One strong recent example for this would be multiple game studios stopping their game servers and terminating perpetual licenses because they feel it is economically no longer sustainable to maintain always-online services."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they aren't making as much money as they can by selling yearly subscriptions, and thus decide to just stop providing their services"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "one-sided termination of a perpetual deal is legally allowed"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 35826,
+          "unit_kind": "feedback"
+        },
+        "text": "More and more customers are being tricked into buying perpetual licenses for digital goods where the offering company puts limiting factors in their \"fine print\". Some are simply putting in a 20, 15 or even 10 year limit on it being perpetual, other companies just simply pull the plug after they discover that they can make more money by just not keeping their end of the deal. Most often they hide behind a huge amount of legal legislation and basically ignore customer rights. My suggestion would be to incentivize companies to keep their part of the deal by giving EU citizens the option to ask for a ruling of a court to see if a change in license or one-sided termination of a perpetual deal is legally allowed. To prevent huge costs to the EU citizens, while at the same time preventing the EU courts from being overwhelmed, these could be dealt on based on a voting system by the EU consumers, where they are able to voice their cases. By providing this as a free service to the EU citizens and enforcing a limit on the number of votes such a case requires, both citizens and companies would be protected against any wrongdoing by the other without upsetting the balance of power that currently exists in favor of these big companies. One strong recent example for this would be multiple game studios stopping their game servers and terminating perpetual licenses because they feel it is economically no longer sustainable to maintain always-online services. A service for which the consumers have never asked, nor are asking to keep these in place for most of these games. Another example are the many VPN providers that in the early years thought they could make quick cash on something that would not exist for a long time, but now VPNs are being used more widely and for many more purposes, they aren't making as much money as they can by selling yearly subscriptions, and thus decide to just stop providing their services or are selling their services without disclosing the perpetual licenses to the buying party, which in their turn decides that they are simply not bound by the previous contracts as \"they were not aware\" of these contracts. (i.e. VPNSecure) Finally it seems that big companies like payment processors are executing their power and might to restrict other companies and brokers in what they not only are allowed to sell, but also are retroactively forcing them to revoke already sold copies of these digital products. These practices are harmful for the EU consumers and are showing what kind of unfair balance of power there is between these kinds of large companies with lots of financial and legal options, and the regular EU consumer that has to live with whatever these companies are making up during their board meetings tomorrow.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.670835Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585293.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585293",
+    "chunks_doc_id": "F3585293",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

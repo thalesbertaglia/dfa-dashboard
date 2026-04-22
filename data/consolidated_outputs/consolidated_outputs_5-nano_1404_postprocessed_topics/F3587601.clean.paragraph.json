@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3587601",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:18:54Z",
+    "finished_at": "2026-04-14T13:19:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "pressuring online game retailers (Steam and itch.io) to remove certain games from their catalogues."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "personalized advertising across platforms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24118,
+          "unit_kind": "feedback"
+        },
+        "text": "As a gamer, there are number of concerns that have come up recently in regards to the topic of the Digital Fairness Act. The recent Stop Killing Games initiative is one, but another one that is as of yet unaddressed is payment processors (Visa and MasterCard in this instance) pressuring online game retailers (Steam and itch.io) to remove certain games from their catalogues. This happened because of an Australian group called Collective Shout campaigned these payment processors into action. In this instance the games that were taken down were adult games with pornographic themes, so some may think it is not a big loss. However, censorship rarely stops at the extremes, and this sets a negative precedent for future campaigns. Setting up protections against this kind of boycotting would be in the spirit of the proposal, because art cannot and should not be suppressed or censored, and artists should be able to get paid for their work. Another concerning trend in legislation recently is age verification systems, like the one forced by the United Kingdom's Online Safety Act. This has caused a lot of upset online in various social media platforms, such as Reddit and Discord. The letter of the law forces websites to set up age verification or use a third party service for it. However, it is a massive privacy concern, not only because these databases of personally identifying information are massive honeypots for malicious actors, but also because the services collecting this data about users can use it for their own gains, such as personalized advertising across platforms. I bring this issue up because I know the EU is working on their own online age verification technology. While the demo on the website looks promising, I still have concerns about whether the EU would be able to track which websites I am visiting. I also have concerns about whether international websites based in countries outside the EU would even bother to implement this verification scheme. I have ran into sites already that have asked me to verify my age and the only method they were going to accept was my government-issued ID. In conclusion, I am a proponent of the stated goals of the Digital Fairness Act and hope that my and my fellow EU citizens' concerns will be addressed in it to our satisfaction.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.551324Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587601.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587601",
+    "chunks_doc_id": "F3587601",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587601.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584371",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:56:28Z",
+    "finished_at": "2026-04-14T11:56:45Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "that digital games that people bought (or paid money for them in some way) would be killed and could no longer be ignored."
+              },
+              {
+                "quote": "I think it is not right if someone bought or paid for parts of a game to be denied access to it unilaterally and permanently without being reimbursed the money he gave to the company."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 17184,
+          "unit_kind": "feedback"
+        },
+        "text": "The proposed changes seem extremely positive for consumer rights! I would like to propose that a part be added to the current proposal to put forward that digital games that people bought (or paid money for them in some way) would be killed and could no longer be ignored. Examples of games that have already happened are ‘PAC man mobile’, ‘Marvel avengers Academy’, ‘the crew’, ‘hyper scape’ and many more. I think it is not right if someone bought or paid for parts of a game to be denied access to it unilaterally and permanently without being reimbursed the money he gave to the company.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.201696Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584371.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584371",
+    "chunks_doc_id": "F3584371",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584371.clean.paragraph.json"
+}

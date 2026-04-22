@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3584902",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:59Z",
+    "finished_at": "2026-04-14T12:14:29Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "‘addictive design of digital products’"
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In particular, the practices concerning random purchases which I think should be subject to the same rules as all other forms of gambling."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 29683,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would like to thank you for this proposal as a first step. I would like to draw your attention to the fact that some software publishers (in particular in the video field) prevent access to their product after it has stopped its support. This is also a violation of consumer rights that should be addressed by this regulation. Would it also be possible to have more information on the ‘addictive design of digital products’? In particular, the practices concerning random purchases which I think should be subject to the same rules as all other forms of gambling. I am afraid that, without that, publishers of software using these practices will find diverted ways to operate as they do now. With kind regards.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.492438Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584902.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584902",
+    "chunks_doc_id": "F3584902",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584902.clean.paragraph.json"
+}

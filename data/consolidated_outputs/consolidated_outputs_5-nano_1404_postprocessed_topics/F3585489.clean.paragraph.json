@@ -1,0 +1,84 @@
+{
+  "doc_id": "F3585489",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:28:52Z",
+    "finished_at": "2026-04-14T12:29:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Firstly, the concept of digital game ownership has become increasingly ambiguous."
+              },
+              {
+                "quote": "Consumers often buy access to a service rather than truly owning the game, and the terms and duration of this access are frequently unclear."
+              },
+              {
+                "quote": "The growing trend of games requiring constant online connectivity, which can be used to arbitrarily revoke user access, also concerns me and I believe it should be regulated."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Secondly, I'm troubled by recent allegations of payment processors using financial leverage to pressure digital platforms."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 33151,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear European Commission, I'm writing to express my sincere appreciation for your ongoing commitment to protecting European consumers. I'd like to bring two specific concerns to your attention for your current initiatives. Firstly, the concept of digital game ownership has become increasingly ambiguous. Consumers often buy access to a service rather than truly owning the game, and the terms and duration of this access are frequently unclear. I suggest publishers be required to clearly state whether a purchase is a product or a service, and if the latter, for how long access is guaranteed. The growing trend of games requiring constant online connectivity, which can be used to arbitrarily revoke user access, also concerns me and I believe it should be regulated. Secondly, I'm troubled by recent allegations of payment processors using financial leverage to pressure digital platforms. Such private-sector influence, in my opinion, undermines free market principles and bypasses the authority of public regulators. Regulatory actions should only come from state institutions, not private entities. I believe this kind of interference warrants investigation and, if necessary, appropriate action. Thank you for considering these points. Addressing behaviors that undermine consumer rights and threaten fair market principles is crucial. Kind regards, A Concerned European Citizen",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.769477Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585489.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585489",
+    "chunks_doc_id": "F3585489",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585489.clean.paragraph.json"
+}

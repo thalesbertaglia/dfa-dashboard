@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3587651",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:19:34Z",
+    "finished_at": "2026-04-14T13:19:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "we pay for a product and the company can remove our ownership"
+              },
+              {
+                "quote": "removing our ability to use the product we paid for."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 11450,
+          "unit_kind": "feedback"
+        },
+        "text": "It is a big customer rights problem, we pay for a product and the company can remove our ownership, it should ideally be viewed as a crime as it is basically getting money from the release and for no reason to not make it playable offline and not costing any money from the company on doing so, removing our ability to use the product we paid for.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.561779Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3587651.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3587651",
+    "chunks_doc_id": "F3587651",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3587651.clean.paragraph.json"
+}

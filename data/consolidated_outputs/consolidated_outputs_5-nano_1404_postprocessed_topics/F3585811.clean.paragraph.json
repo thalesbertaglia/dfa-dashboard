@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3585811",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:20Z",
+    "finished_at": "2026-04-14T12:37:37Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games to become unplayable after just a few years."
+              },
+              {
+                "quote": "Reasons for this include server shutdowns, DRM dependencies, and a lack of offline options."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16961,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Sir or Madam, I am writing to you as an EU citizen, consumer, and gamer with a request that affects many people: Please consider incorporating the European Citizens' Initiative Stop Destroying Videogames, which advocates for the long-term usability of digitally purchased games, into the \"Digital Fairness Act\". It is becoming increasingly common for video games to become unplayable after just a few years. Reasons for this include server shutdowns, DRM dependencies, and a lack of offline options. What was once purchased, loses its value! This practice not only undermines consumer rights, but also poses a problem for the preservation of digital culture. The initiative calls for fair legal regulations to ensure that games can still be used years later - comparable to physical goods. This is not about protectionism, but preserving property, access, and cultural diversity in the digital world. In Austria, over 22,000 people have already signed. Across the EU, there are more than 1,400,000 supporters (as of July 2025). These figures show that this issue is not a niche topic, but affects a relevant part of the population - across all age groups and social classes. I therefore kindly and respectfully ask for your attention to this matter. Please consider incorporating the initiative into the \"Digital Fairness Act\" - in the interests of fair consumer rights, sustainable digital policy, and a digital market based on trust rather than a throw-away mentality. Thank you for your time and your work.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.933337Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585811.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585811",
+    "chunks_doc_id": "F3585811",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585811.clean.paragraph.json"
+}

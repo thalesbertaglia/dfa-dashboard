@@ -1,0 +1,107 @@
+{
+  "doc_id": "F3586184",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:49:56Z",
+    "finished_at": "2026-04-14T12:52:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some developers delay updates or cancel promised content while continuing to charge subscriptions or sell premium content without offering refunds, despite promising compensation."
+              },
+              {
+                "quote": "If a game cannot function without servers, classify it as a subscription service, not a product purchase."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Consider regulating pricing fairness to reflect differences in game content across regions."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Some titles integrate cash shop prompts into in-game elements like the map or inventory, affecting immersion and promoting impulsive spending."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Current DRM and licensing systems often prevent users from sharing or modifying the games theyve purchased, even for personal or non-commercial use."
+              }
+            ]
+          },
+          {
+            "topic": "Adult Content Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Censorship of legal adult content is increasingly common due to external pressure from payment processors or platform policies."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 166408,
+          "unit_kind": "feedback"
+        },
+        "text": "Feedback on Digital Fairness in Videogames Submitted by: František Martinásek, Czech Republic General Comment: First, I would like to express my appreciation that this topic is being addressed. Digital consumer rights, particularly in video games, are long overdue for reform and regulation. Below are my concerns and proposals structured by topic. Ive avoided naming specific game titles to stay aligned with feedback form expectations. 1. Live Service Videogames Issue: Live service games can become completely inaccessible when servers are shut down, even if users paid for access. There is often no single-player fallback or offline patch. Proposal: Mandate the provision of an offline patch or alternative access if servers are shut down permanently. If a game cannot function without servers, classify it as a subscription service, not a product purchase. Consumers should be informed clearly through the EULA or similar agreements that their access is temporary and dependent on ongoing service availability. 2. Subscriptions & Payments Issue 1: Some developers delay updates or cancel promised content while continuing to charge subscriptions or sell premium content without offering refunds, despite promising compensation. Issue 2: Certain games release region-specific versions that censor or limit content (often gambling-related), even though consumers pay the same price as other regions with full access. Proposals: Enforce clear refund policies for delayed or missing content tied to subscriptions. Require full transparency about regional content differences at the point of sale, especially where the content is censored or altered. Consider regulating pricing fairness to reflect differences in game content across regions. 3. Gambling & Microtransactions Issue: Loot boxes and cash shops, especially in pay-to-win formats, often intrude directly into the gameplay experience. Some titles integrate cash shop prompts into in-game elements like the map or inventory, affecting immersion and promoting impulsive spending. Proposal: Restrict cash shop interfaces to menus only, and not as overlays or in-game prompts during gameplay. This would reduce pressure and keep monetization clearly separate from game mechanics. 4. Adult Content & Age Restriction Issue: Censorship of legal adult content is increasingly common due to external pressure from payment processors or platform policies. However, adult users should not be restricted from accessing legal content theyve purchased, especially when appropriate filters and warnings exist. Proposal: Protect legal adult content from unjustified censorship. Implement age verification tied to ID and payment method, ensuring minors are not exposed while preserving adult freedom of choice. Shift responsibility for children's access to parents or guardians, rather than platforms or developers. 5. Sharing and Modifying Games Issue: Current DRM and licensing systems often prevent users from sharing or modifying the games theyve purchased, even for personal or non-commercial use. Proposal: Users should have the right to lend or share digital games with friends, similar to physical media. Allow modding and personal modifications for offline or private use, respecting copyright only when the modifications affect public or multiplayer content. Closing Comment: Digital games should not be treated as disposable services if sold as products. Ownership must come with reasonable rights, including access, modification, and clarity around monetization. The EU has a chance to set a strong standard for digital fairness, and I support such initiatives wholeheartedly.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.138371Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586184.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586184",
+    "chunks_doc_id": "F3586184",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

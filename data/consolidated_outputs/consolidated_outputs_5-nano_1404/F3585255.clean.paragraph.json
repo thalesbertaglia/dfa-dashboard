@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585255",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:42Z",
+    "finished_at": "2026-04-14T12:24:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "unfair trade practice in regards to digital video games."
+              },
+              {
+                "quote": "Helldivers 2 was unavailable for purchase in our region for nearly a year from 2024 June to 2025 May."
+              },
+              {
+                "quote": "There is also a similar, albeit thankfully diminishing nowadays thanks to Russia-Ukraine war, where Baltic States get mishandled together with non-EU countries for shared publishing rights."
+              },
+              {
+                "quote": "One such example where it is true is Fallout: New Vegas."
+              },
+              {
+                "quote": "if you buy this game in the Baltics, instead of getting International version, you will get Russian version"
+              },
+              {
+                "quote": "modding the game impossible, as RU distributed version does not match internationally distributed version, breaking compatibility."
+              },
+              {
+                "quote": "Stop Killing Games initiative that fights to get us the possibility to have access to always-online games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 32156,
+          "unit_kind": "feedback"
+        },
+        "text": "Recently, the Baltic States (including my home country Lithuania) have been under effect of unfair trade practice in regards to digital video games. Specifically - Helldivers 2 was unavailable for purchase in our region for nearly a year from 2024 June to 2025 May. At first, this was because it used to require a PSN Account to play the game - a service which is not provided to our region (which, to be fair, means that technically all Playstations in Lithuania are working illegally - another very awkward thing that limits the accessability that rest of EU can enjoy). However, soon enough, the game dropped that requirement and removed the requirement for PSN Account - however, store access was not restored despite it technically being playable here. Only when Sony decided to update their portfolio of games in May, did they fix the region handling, letting people in Baltics buy the game again. ///// There is also a similar, albeit thankfully diminishing nowadays thanks to Russia-Ukraine war, where Baltic States get mishandled together with non-EU countries for shared publishing rights. One such example where it is true is Fallout: New Vegas. Up to this day, if you buy this game in the Baltics, instead of getting International version, you will get Russian version, as rights for our region are held by 1C. This, in turn, makes modding the game impossible, as RU distributed version does not match internationally distributed version, breaking compatibility. Due to that, if people in our region want to play with mods like the rest of the region can, they're forced to either pirate the right version, or lie on their country of residence and buy the copy as if they were from elsewhere. ///// Finally, there's Stop Killing Games initiative that fights to get us the possibility to have access to always-online games even after the company that developed and maintained the game cuts the plug, by enforcing them to provide either source code or tools to host our own private instances of the game, or removing always-online requirement from games. ///// All three examples show that there's a strong need to bring in regulation to make every EU nation be treated as one and same when it comes to video games. A Digital Fairness Act is the perfect tool to make that reality for the future.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.656265Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585255.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585255",
+    "chunks_doc_id": "F3585255",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

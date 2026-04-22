@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3584841",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:12:25Z",
+    "finished_at": "2026-04-14T12:12:50Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Permanently disabling games"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "license that can end at any time, without warning or recourse"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 24661,
+          "unit_kind": "feedback"
+        },
+        "text": "Hey! I feel compelled to voice my concerns about the current state of digital \"ownership\" in the world we live in. Everything is marketed as if it is a product to be purchased and then sold as a license that can end at any time, without warning or recourse. This is especially bad when it concerns video games, my favorite form of art. Imagine if the Mona Lisa was destroyed because it was no longer profitable. Imagine if the Lord of the rings trilogy was no longer being sold and everyone's copy got revoked. Permanently disabling games, even for those that have already purchased the product, is not only unfair to the customers, but it's anti-art. I would love to see protections put in place. I'd recommend a requirement that all software sold, even as a license, come with a guarantee of an end of life plan. A measure that will allow the product to be used, even if the product is no longer sold or the seller goes bankrupt. Thank you for your time. Ben from Norway.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.464219Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584841.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584841",
+    "chunks_doc_id": "F3584841",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

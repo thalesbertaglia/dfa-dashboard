@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3719947",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:46:44Z",
+    "finished_at": "2026-04-14T13:47:06Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "include spyware and adware with their OS (most notoriously MIUI, the stock OS on Xiaomi devices)"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22275,
+          "unit_kind": "feedback"
+        },
+        "text": "Mobile hardware vendors, and by extension, Google and Apple, should not be allowed to control what software I install on the mobile devices I own. Doing so shifts all software control to them, allowing them to dictate what content I am allowed to consume, as well as allowing them to practice \"planned obsolescence\" (intentionally making devices obsolete). This is a significant limitation on consumer choice and device longevity. Therefore, I suggest mandating mobile hardware vendors to give users the freedom we have enjoyed on traditional desktop computers for the past 30+ years: First and foremost, do not allow vendors to block \"sideloading\" (the installation of applications through unofficial channels). This allows vendors to control what they serve on their own app store, while also giving consumers the choice to use software of their own choosing, and to businesses, the ability to provide their own internal software to their business devices without having to release it to the wider public. Of course, a warning like \"installing unofficial software is risky\" would not be inappropriate, but getting past that should be no harder than tapping a notice like \"I understand the risks, continue\". Next, hardware vendors usually lock the bootloader on their devices. This prevents them from running any operating system other than the one provided. Not only does this harm consumer rights, it also increases e-waste, as all a vendor has to do to force you to buy a new device, even though the old works perfectly fine, is to just stop supporting the OS on the old one, making it a security liability. Not to mention several vendors include spyware and adware with their OS (most notoriously MIUI, the stock OS on Xiaomi devices). Unlocking the bootloader allows consumers to install their own distraction-free operating system, that can be maintained even when the stock one cannot. While some vendors allow the bootloader to be unlocked, most do not, and the few that do, make the process extremely cumbersome or even depend on an external service, that could go down at any moment. Therefore, vendors should not be allowed to lock the bootloader, or at least they should make the unlocking process no more difficult than tapping a similar \"I understand the risks, continue\" notice. Finally, mobile devices should benefit from a standardised hardware-agnostic open boot platform, like the UEFI of desktop computers. UEFI is mostly responsible for taking note of all the hardware components currently present in a device, and then passing all that information to the OS bootloader. This allows operating systems to be designed in a hardware-agnostic way, allowing one OS to boot on a wide collection of devices. More importantly, it allows consumers to change the individual components without having to reinstall the entire OS. However, mobile devices have no such thing, and as of result, the device structure has to be baked into the OS itself. This makes the maintenance of community-based operating systems extremely difficult, once again locking most users into the stock OS. Even worse, vendors do not publish the device structure, making it easier to just buy a new device instead of trying to repair the old one, further increasing e-waste. UEFI (or a similar boot platform) should therefore be mandatory. Implementing the points above would improve consumer freedom, granting the users the same freedom we have on desktop computers, and reduce e-waste, by allowing faulty components to be changed by users without having to change the entire system, both on the software and hardware side. It would also boost innovation by allowing developers to just deploy their software without having to go through the vendor first.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.112706Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3719947.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3719947",
+    "chunks_doc_id": "F3719947",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

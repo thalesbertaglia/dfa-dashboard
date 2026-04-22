@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3664258",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:45:03Z",
+    "finished_at": "2026-04-14T13:45:18Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Sideloading Restrictions",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Controlling sideloading on Android phones is an attack on consumer freedom."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14806,
+          "unit_kind": "feedback"
+        },
+        "text": "Controlling sideloading on Android phones is an attack on consumer freedom. \"Sideloading\" is a term used to give it a negative connotation but let's call it for what it is: installing software. Google wants to control what we can install on the devices we own, so they can better monetize the apps that they allow to install. Microsoft or Dell have no say on the software I install on a device bought from them, why should Google? When I buy a flat, should the real estate company dictate my furniture? And what I can do inside my home? Stop Google's wet dream of dystopian digital totalitarianism and privacy aggression. European consumers deserve better.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.081766Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3664258.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3664258",
+    "chunks_doc_id": "F3664258",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3585652",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:32:29Z",
+    "finished_at": "2026-04-14T12:32:49Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Should companies be allowed to enforce a kind of planned obsolescence, where a product becomes unusable by design?"
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "We're seeing a troubling shift toward a model where ownership is replaced by dependence on subscriptions and servicesoften marketed as if they were tangible goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20436,
+          "unit_kind": "feedback"
+        },
+        "text": "This should include a clear definition of basic consumer rights for digital goods. As the market for digital products and services continues to grow, there is an increasing need for updated and comprehensive consumer protection. Currently, large companies can sell digital goods to consumers and later -without warning- shut down the infrastructure required to use those goods, effectively rendering the purchase worthless. Consumers often have no real recourse when this happens. This raises fundamental questions: What does it truly mean to \"buy\" a digital good? Should companies be allowed to enforce a kind of planned obsolescence, where a product becomes unusable by design? What rights should consumers have regarding continued access to digital goods they've paid for? We're seeing a troubling shift toward a model where ownership is replaced by dependence on subscriptions and servicesoften marketed as if they were tangible goods. This trend supports a dystopian vision in which \"you will own nothing and be happy,\" as control over purchased digital content increasingly lies with corporations rather than consumers. Ultimately, customers should not have to rely on the goodwill of companies to access or retain the digital goods they've bought. Stronger protections are needed to ensure fairness, transparency, and genuine ownership in the digital marketplace, whether it's about software, movies, e-books, videogames or other digital purchases.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.852372Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585652.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585652",
+    "chunks_doc_id": "F3585652",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

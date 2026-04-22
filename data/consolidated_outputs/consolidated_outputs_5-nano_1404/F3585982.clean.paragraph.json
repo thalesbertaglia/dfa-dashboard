@@ -1,0 +1,86 @@
+{
+  "doc_id": "F3585982",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:42:46Z",
+    "finished_at": "2026-04-14T12:43:35Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "protections from \"Visa\" \"Mastercard\" \"Paypal\" from trying to refuse services to legal games and material from being bought from sites like \"Steam\" or \"Amazon\""
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like when I buy games that companies that sell me games from being able to shutdown services to games with out providing a way for us to play them after shutting down their services."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I would like to ask for protections against companies from being able to force people to provide their real life pictures or ID to identify people since it can be used in many bad ways like tracking people or censoring them as excuse."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 49095,
+          "unit_kind": "feedback"
+        },
+        "text": "1. I would like to start with speaking about some protections from \"Visa\" \"Mastercard\" \"Paypal\" from trying to refuse services to legal games and material from being bought from sites like \"Steam\" or \"Amazon\" 2. I would like when I buy games that companies that sell me games from being able to shutdown services to games with out providing a way for us to play them after shutting down their services. 3. I would like to ask for protections against companies from being able to force people to provide their real life pictures or ID to identify people since it can be used in many bad ways like tracking people or censoring them as excuse. (like things that are happening in China and starting to appear in UK)",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.019726Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585982.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585982",
+    "chunks_doc_id": "F3585982",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

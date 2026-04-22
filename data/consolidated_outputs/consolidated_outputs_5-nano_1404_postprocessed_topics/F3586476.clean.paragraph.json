@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3586476",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:57:15Z",
+    "finished_at": "2026-04-14T12:57:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "gambling mechanics, microtransactions, battle passes, cosmetics, ... to try to milk the consumer without any respect."
+              },
+              {
+                "quote": "the game (you paid for) becomes unusable forever and all bought cosmetics, microtransactions, ... with it."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 23441,
+          "unit_kind": "feedback"
+        },
+        "text": "Hi! I have been a gamer for a big part of my life (over 40 years of it) and I saw games go from being physical copies only (cartridges, floppy disks, CDs, DVDs, Blu-rays) to digital distribution. In the early days the games you bought were yours, as you had them physically in your hands and no internet connection was required to play them, heck, in that time the internet wasn't a thing for consumers. It has evolved to that you need an internet connection to play many of the current games, even if the game is single player only. Other things the industry is pushing in the last decade: gambling mechanics, microtransactions, battle passes, cosmetics, ... to try to milk the consumer without any respect. When (and many times it has happened already) a company that has sold you said games decides to shut down the servers that you need in order to play the games, the game (you paid for) becomes unusable forever and all bought cosmetics, microtransactions, ... with it. So I would like to ask to add protection of games to what the Stop Destroying Games movement is calling for. Thanks for reading this.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.255024Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586476.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586476",
+    "chunks_doc_id": "F3586476",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586476.clean.paragraph.json"
+}

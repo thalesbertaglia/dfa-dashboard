@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584500",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:59:48Z",
+    "finished_at": "2026-04-14T12:00:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The video game industry has already shown that this is a problem,"
+              },
+              {
+                "quote": "A recent example is visa and Mastercard deciding to force steam and itch.io to remove video games with adult themes."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "additional protections for purchasing products that are actually just a software license that can be revoked at any time could be added."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 34154,
+          "unit_kind": "feedback"
+        },
+        "text": "A great addition to the protections this will bring, additional protections for purchasing products that are actually just a software license that can be revoked at any time could be added. The video game industry has already shown that this is a problem, but other types of software will be affected as well if protections arent put in place. The citizens initiative stop killing games (which already has over a million signatures) is already trying to accomplish this goal within the video game space, but it could be expanded to protect al types of software. Also, this act could be expanded to protect consumers and online retailers from upstream dependencies censoring content. A recent example is visa and Mastercard deciding to force steam and itch.io to remove video games with adult themes. This is obvious overreach from these companies, but theoretically cloudflare, or Microsoft, or other gigantic companies that these retailers rely on could do the same, or the payment processors could try to censor other things. If a retailer is hosting illegal content, that should be between the retailer and the police to solve, and at no point should an upstream dependency be able to censor content by their own volition, and especially not of they are essentially monopolies or oligopolies.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.263161Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584500.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584500",
+    "chunks_doc_id": "F3584500",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584500.clean.paragraph.json"
+}

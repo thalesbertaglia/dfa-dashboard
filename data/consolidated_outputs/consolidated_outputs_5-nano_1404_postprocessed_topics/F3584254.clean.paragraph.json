@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3584254",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:26Z",
+    "finished_at": "2026-04-14T11:53:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are digital products and should be marketed as such."
+              },
+              {
+                "quote": "Companies sell video games as a service, with a fixed lifetime, without clearly informing the consumer."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 15770,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, I would first like to congratulate the European Union for proposing this act, and I would like to express my full support. That said, I believe that the latter is strongly in line with the proposal of the movement to which StopKillingGames stands, which advocates the preservation of games after the end of their official support. Video games are digital products and should be marketed as such. Companies sell video games as a service, with a fixed lifetime, without clearly informing the consumer. I am against this practice, which I consider predatory and unfair for the following reasons: First, it should be recalled that games are, and should remain, digital products. The airlines therefore engage in predatory behaviour, making the consumer believe that he is buying something, and then withdrawing it from him after a period which has never been explained by that company. Many consumers, including me, see this as a form of flight. Secondly, it should be remembered that the video game was classified as 10th art in 2006. In the name of the conservation of lart and culture, it is therefore unacceptable to eliminate the existence of a work for purely commercial reasons. Wishing you a pleasant day.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.146406Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584254.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584254",
+    "chunks_doc_id": "F3584254",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584254.clean.paragraph.json"
+}

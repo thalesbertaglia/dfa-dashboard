@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3588515",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:23:51Z",
+    "finished_at": "2026-04-14T13:24:09Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games as media needs to preseved like movies and music or anything physical"
+              },
+              {
+                "quote": "enjoying entertainment to then have it taken away from you after i pay for it at any time because they say so is not excuseable or acceptable."
+              },
+              {
+                "quote": "i always want to own my games phyically"
+              },
+              {
+                "quote": "so laws needed to protect consumers rights to own your product you pay for"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18243,
+          "unit_kind": "feedback"
+        },
+        "text": "video games as media needs to be preseved like movies and music or anything physical, companies should not be allowed to control consumer rights, enjoying entertainment to then have it taken away from you after i pay for it at any time because they say so is not excuseable or acceptable. companies need to have rules to prevent games being destroyed I always want to own my games phyically , i pay for it i get goods in return and not have it taken away from me, so laws needed to protect consumers rights to own your product you pay for",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.651936Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588515.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588515",
+    "chunks_doc_id": "F3588515",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

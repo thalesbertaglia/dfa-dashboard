@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3586266",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:52:17Z",
+    "finished_at": "2026-04-14T12:52:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "live service games, such as Call of Duty or GTA"
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "redirect the customer/user of its software to other, more expensive ‘offers’"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41046,
+          "unit_kind": "feedback"
+        },
+        "text": "While this legislative initiative is very comprehensive, I find that a very large part of the digital industry is not covered. In this case, computer games on PCs and consoles, in particular so-called live service games, such as Call of Duty or GTA, where the supplier can simply pull the stick without the player who bought Spieg, are in the position to continue playing either in the game player, in the local multiplayer or on a private server. I mean... The ‘Stop Killing Games’ EU Citizens Initiative has collected almost one half million signatures and deals with this issue. The same applies to other forms of software in which the Winfach boarder switches off the ‘service’ because of its grade, or tries to redirect the customer/user of its software to other, more expensive ‘offers’. I just think of Adobe or Microsoft. I am sure that there are hundreds of similar software providers that make life difficult for the user.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.182838Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586266.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586266",
+    "chunks_doc_id": "F3586266",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586266.clean.paragraph.json"
+}

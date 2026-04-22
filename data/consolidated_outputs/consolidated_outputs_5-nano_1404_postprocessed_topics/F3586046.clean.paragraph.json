@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3586046",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:44:54Z",
+    "finished_at": "2026-04-14T12:45:14Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The videogaming space will be largely improved by any and all regualations that this act manages to create regarding exploitative behaviour."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20617,
+          "unit_kind": "feedback"
+        },
+        "text": "As a Hungarian citizen, this has been a long time coming. The videogaming space will be largely improved by any and all regualations that this act manages to create regarding exploitative behaviour. I would also like to point out the importance of the \"stop destroying videogames\" initiative, to the people reading this. It would mean a lot to me, the 1.4 million who have signed the initiative, and many more around the world, if the EU could take charge, and manage to adress this issue plaguing the industry. Thank you for your service.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.055146Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586046.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586046",
+    "chunks_doc_id": "F3586046",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3586046.clean.paragraph.json"
+}

@@ -1,0 +1,101 @@
+{
+  "doc_id": "F3592404",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:37:40Z",
+    "finished_at": "2026-04-14T13:38:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In the mobile game sector, games are increasingly monetised so much that a satisfactory user experience is hardly possible, without investing at least around 5 in the game."
+              },
+              {
+                "quote": "anti-Cheat software, which requires deep core-level access to users’ PCs."
+              },
+              {
+                "quote": "Massively Multiplayer Online Games (MMOs) where permanent online access is an integral part of the concept."
+              },
+              {
+                "quote": "the online use of many games is often incomprehensible."
+              }
+            ]
+          },
+          {
+            "topic": "Personalisation",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "In addition, and not only mobile Games, it is becoming more common for user data to be shared for advertising purposes."
+              },
+              {
+                "quote": "As an EU citizen who attaches great importance to data protection, I often find myself in a tension between data security and consumption."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "The reason given was the DRM protection, as it was necessary to have a permanent connection with the provider’s servers."
+              },
+              {
+                "quote": "At that time, it was not clear why a single player full prize title with a maximum of four players in coop mode required a permanent online force."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 42664,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear Members of the European Commission, in relation to the Digital Fairness Act, I would like to raise the situation of digital video games. Apart from the current Stop Destroying Games debate, I consider it important to shed light on the general market situation. In the mobile game sector, games are increasingly monetised so much that a satisfactory user experience is hardly possible, without investing at least around 5 in the game. In addition, and not only mobile Games, it is becoming more common for user data to be shared for advertising purposes. As an EU citizen who attaches great importance to data protection, I often find myself in a tension between data security and consumption. The almost unsustainable evolution of the market towards increasing digitalisation and the associated online force has also led some developers to use anti-Cheat software, which requires deep core-level access to users’ PCs. Although this is an effective means of combating cheaters and community members who are in breach of the general terms and conditions, it remains unclear how companies could still use this wide access. In addition, it is known that some of these anti-Cheat systems transmit data from EU users abroad, which has already been critically addressed in some Steam reviews. It should also be noted that, from a consumer point of view, the online use of many games is often incomprehensible. Action RPGs such as Diablo 3 have already highlighted the discrepancy between consumers and service providers since their release in 2012. At that time, it was not clear why a single player full prize title with a maximum of four players in coop mode required a permanent online force. The reason given was the DRM protection, as it was necessary to have a permanent connection with the provider’s servers. However, for many customers, this was a significant constraint, especially in regions with insufficient internet coverage. This problem still persists in parts of Europe which are still waiting for widespread broadband roll-out. Of course, there is a specific category of games called Massively Multiplayer Online Games (MMOs) where permanent online access is an integral part of the concept. However, these constitute a special case that should be considered separately, as an online constraint is understandable and functionally justified. My concern is therefore not against this genre, but against problematic practices in single player and hybrid titles where such coercion is artificially imposed. Accordingly, I would like to ask the Commission to look further at the development of digital games in the further development and application of the Digital Fairness Act. As a consumer, I increasingly feel that I get less and less real performance for more money and, in addition, for sharing my data.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.917739Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592404.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592404",
+    "chunks_doc_id": "F3592404",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

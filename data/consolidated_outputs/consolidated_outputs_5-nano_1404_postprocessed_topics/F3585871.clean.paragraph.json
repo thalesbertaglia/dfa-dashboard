@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3585871",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:39:31Z",
+    "finished_at": "2026-04-14T12:39:51Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games being sold as licenses while being advertised as goods."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 20054,
+          "unit_kind": "feedback"
+        },
+        "text": "Just wanted to say: another unfair practice is video games being sold as licenses while being advertised as goods. An initiative named \"Stop Killing Games\" was already created in this sense. But I do not see a reason as to why we could not stop unfair practices in video games with this procedure as well. Please, take it into consideration. We have already seen cases of video games being taken away without notice or compensation. Plus, video games are their own form of art. Just like we do not want a painting to be lost forever, why should we not try to protect video games too.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.963952Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585871.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585871",
+    "chunks_doc_id": "F3585871",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585871.clean.paragraph.json"
+}

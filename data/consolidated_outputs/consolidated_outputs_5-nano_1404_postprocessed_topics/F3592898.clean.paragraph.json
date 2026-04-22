@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3592898",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:38:28Z",
+    "finished_at": "2026-04-14T13:38:46Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Despite regularly paying subscription fees"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "under the pretext of piracy, take away our right of ownership, our right to repair, and many more of our rights."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18512,
+          "unit_kind": "feedback"
+        },
+        "text": "As a university student, I find it unfair that companies, under the pretext of piracy, take away our right of ownership, our right to repair, and many more of our rights. Despite regularly paying subscription fees, paying our taxes, and handling everything through legal means, we as consumers are not allowed to truly own the products we purchase, to repair them, or to use them freely. This is unacceptable. As a result, those of us who obtain services legally end up being disadvantaged compared to those who download games through piracy or torrents. This is not fair. I kindly, patiently, yet firmly demand justice.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.937090Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3592898.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3592898",
+    "chunks_doc_id": "F3592898",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3592898.clean.paragraph.json"
+}

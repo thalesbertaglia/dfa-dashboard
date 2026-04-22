@@ -1,0 +1,83 @@
+{
+  "doc_id": "F3586625",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:00:21Z",
+    "finished_at": "2026-04-14T13:01:42Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the industry practice of permanently removing access to purchased games without offering a viable alternative, such as an offline or archival mode."
+              }
+            ]
+          },
+          {
+            "topic": "Payment Processor Censorship",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "influence of payment processing companies, such as Visa, Mastercard, and Stripe on the availability of digital content"
+              },
+              {
+                "quote": "This form of de facto censorship by financial service providers not only circumvents proper regulatory processes but also directly affects consumers who have already purchased these titles."
+              },
+              {
+                "quote": "delist or restrict access to hundreds of legal games"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 81299,
+          "unit_kind": "feedback"
+        },
+        "text": "I would like to bring forward two important topics that align closely with the objectives of the Digital Fairness Act and deserve careful consideration in future policy development: Digital Ownership Rights and Payment Processor Censorship. 1. Digital Ownership Rights As digital marketplaces continue to grow, so too does the need for robust consumer protections, particularly concerning digital ownership. The current legal and commercial framework often leaves consumers vulnerable when companies decide to revoke access to legally purchased digital goods, especially video games. One pressing concern is the industry practice of permanently removing access to purchased games without offering a viable alternative, such as an offline or archival mode. This not only undermines consumer trust but also jeopardizes the preservation of digital culture. Unlike physical mediabooks, films, or CDsdigital games are frequently locked behind server access or DRM, leaving users with nothing if the publisher discontinues support. Video games are a unique form of cultural expression, blending storytelling, art, music, and interactivity. When access to these experiences is revoked, it can feel akin to erasing a part of cultural history and personal memory. We do not accept such erasure with other media; we should expect similar long-term access to video games that have been legally purchased. To promote fairness, transparency, and cultural preservation, I respectfully suggest the following policy considerations: *Require that online-only games provide an offline mode or community-hosted alternative, before official servers are shut down. *Ensure that players retain access to single-player or local content for games they have legally purchased, regardless of future commercial decisions. *Support partnerships with libraries, archives, and cultural institutions to preserve access to historically significant games and platforms. These proposals align with the goals of the \"Stop Destroying Video Games\" European Citizens Initiative, which has already garnered over 1.4 million signatures. This level of public support underscores the urgency and broad appeal of protecting digital ownership rights in the modern era. 2. Payment Processor Censorship Another growing concern is the influence of payment processing companies, such as Visa, Mastercard, and Stripe on the availability of digital content. These companies have increasingly pressured online game platforms to delist or restrict access to hundreds of legal games, based on content they deem inappropriate, even in the absence of regulatory or legal violations. This form of de facto censorship by financial service providers not only circumvents proper regulatory processes but also directly affects consumers who have already purchased these titles. In numerous cases, players have found themselves unable to access games they legally bought, simply because a payment processor influenced their removal from a storefront. This situation presents a serious challenge to consumer rights and sets a troubling precedent for private financial institutions acting as gatekeepers of digital expression. The destruction or inaccessibility of legally obtained content due to such pressure is not only unjust but harmful to creators, consumers, and the broader cultural landscape. To address this, I urge policymakers to explore: *Safeguards against the arbitrary removal of legal digital content, due to external pressure from financial intermediaries. *Clear transparency requirements, when digital content is delisted, especially if financial providers are involved. *Mechanisms to ensure continued access to previously purchased digital goods, regardless of third-party commercial decisions",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.299904Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3586625.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3586625",
+    "chunks_doc_id": "F3586625",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

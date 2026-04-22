@@ -1,0 +1,69 @@
+{
+  "doc_id": "F32845157",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:27:12Z",
+    "finished_at": "2026-04-14T09:27:25Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I've experienced two games, Evolve Stage 2 and Atlas Reactor, I both paid for and played."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13154,
+          "unit_kind": "feedback"
+        },
+        "text": "I've experienced two games, Evolve Stage 2 and Atlas Reactor, I both paid for and played. I understood at the time that the payment I made would not guarantee me the ability to be able to play the games forever. When these games went offline I found several player-based initiatives to revive the games in form of private servers run by the community, but there was no support from developers. I'd like to see communities be able to continue playing and enjoying games in a form that would not hurt videogame company profits and their ability to move on to other projects.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.453343Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F32845157.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F32845157",
+    "chunks_doc_id": "F32845157",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F32845157.clean.paragraph.json"
+}

@@ -1,0 +1,69 @@
+{
+  "doc_id": "F3584995",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:17:30Z",
+    "finished_at": "2026-04-14T12:17:43Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This is what publishers are currently doing to video games."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 13183,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello, The current lack of policy for a product I have purchased, and which I can no longer access which was sold to me as a product - and not as a limited time service - is a travesty. Imagine purchasing (not renting or licensing) a movie, a book or a piece of music, and some organization taking your product away for no good reason. This is what publishers are currently doing to video games. As a EU citizen I would appreciate if the EU would consider prevent video games to be destroyed forever through the lens of corporate greed.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.543382Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584995.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584995",
+    "chunks_doc_id": "F3584995",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584995.clean.paragraph.json"
+}

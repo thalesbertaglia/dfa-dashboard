@@ -1,0 +1,90 @@
+{
+  "doc_id": "F3585828",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:37:45Z",
+    "finished_at": "2026-04-14T12:38:33Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Video games are particularly vulnerable to this action."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "There is a dark business practice trending in software distribution which is concerning me, and I believe is important as part of the digital spaces well-being."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Part of this issue is when a company chooses not to thoroughly inform their clients of their product licences."
+              },
+              {
+                "quote": "When a consumer buys software or their dependencies (e consoles and cartridges), they dont know that the software is temporary, and will keep spending."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 48129,
+          "unit_kind": "feedback"
+        },
+        "text": "Thank you for facilitating this submission to the Digital Fairness Act. There is a dark business practice trending in software distribution which is concerning me, and I believe is important as part of the digital spaces well-being. The nature of the problem is when a company destructively removes their sold software for profit. Video games are particularly vulnerable to this action. The companies in question are able to delete their sold distributions at any time, even if a client bought it or a third party wants to support the software. Part of this issue is when a company chooses not to thoroughly inform their clients of their product licences. When a consumer buys software or their dependencies (e.g consoles and cartridges), they dont know that the software is temporary, and will keep spending. It makes me upset that I cant enjoy my hobbies properly, because when I pay for a video game, its likely not staying for as long as I want. Developers rarely have a say either in whether their games get supported or not, because of the publishers extent of power. Issues similar to this have been seen a few years ago in film streaming platforms, while movies had been taken off their platforms without any effort to archive or re-air them. While this has had its attention, consumers of the video-game software branch are still going through similar exploitation. With the little effort a software distributor can choose to go through to help their users, the large gaming demographic is already the first target at risk of being cheated out of its money. I fear that this wont stop while the issue stays unmentioned. Thank you for reading.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.941099Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585828.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585828",
+    "chunks_doc_id": "F3585828",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585828.clean.paragraph.json"
+}

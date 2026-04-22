@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3588843",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:26:01Z",
+    "finished_at": "2026-04-14T13:26:23Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Microtransactions, dark patterns and FOMO frenzy are some of the common attributes in most mobile games, rendering them to be more dangerous and additive than something to enjoy once in a while."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "even mobile games themselves have not been shown to be as regulated or checked as games for various consoles or PC."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 22003,
+          "unit_kind": "feedback"
+        },
+        "text": "Dear EU, I've already written a feedback for this initiative, but I would like to raise another issue regarding advertisement for mobile games and inside said mobile games. I would like to call these ads in three adjectives: malicious, annoying and intrusive. When playing a game you're expected to know that ads will pop up at any second, but especially when the game is requiring touch, this often leads to people being forced to open undesirable links. I saw also my younger cousins, many under the age of 10, to continue downloading different games on their parents phone and other electronic devices because the games they were playing kept showing them advertisement every 5 second; the games weren't dangerous fortunately, but who knows when someone will upload an app that will destroy your phone from the inside. So I would like the EU commission to look into the mobile phone games market and regulate them like other advertisement, many of them also contain \"risque\" elements but are aimed for children, which is not appropriate in any way. Adding to mobile game advertisement regulation, even mobile games themselves have not been shown to be as regulated or checked as games for various consoles or PC. Microtransactions, dark patterns and FOMO frenzy are some of the common attributes in most mobile games, rendering them to be more dangerous and additive than something to enjoy once in a while. I hope my feedback will be helpful for this initiative.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.691430Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588843.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588843",
+    "chunks_doc_id": "F3588843",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588843.clean.paragraph.json"
+}

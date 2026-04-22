@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585248",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:23:30Z",
+    "finished_at": "2026-04-14T12:23:58Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "the market for video games is mostly focused on selling the game (or the license for use of the game) on digital platforms such as Steam or GOG."
+              },
+              {
+                "quote": "If such a seller discontinues selling the game, it can disappear from the game library of a user."
+              },
+              {
+                "quote": "the publisher's decision to stop the servers where some of the game's functions are located."
+              },
+              {
+                "quote": "in the case of video games, for example, through the use of tools provided by the developer to self-host the game in some way;"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 28472,
+          "unit_kind": "feedback"
+        },
+        "text": "As a consumer of digital products and services, I would like to see a uniform approach to ownership of digital products; this especially applies to products such as video games. Today, the market for video games is mostly focused on selling the game (or the license for use of the game) on digital platforms such as Steam or GOG. For some of these platforms, a customer is not actually buying the product, but just a license to use the product through the use of the digital seller's platform. If such a seller discontinues selling the game, it can disappear from the game library of a user. Additionally, it may be possible for a game that one owns to be unusable because of the publisher's decision to stop the servers where some of the game's functions are located. I acknowledge that the developers and publishers incur costs while maintaining the online aspects of the game they developed/produced, and it is unreasonable to demand of them to support the game indefinitely. It is reasonable, though, to expect that the developers/publishers prepare for the end of life of the game and grant the owners of the game means/tools to use the game after that time (this is a part of the Stop Destroying Videogames initiative). eBooks are in a similar situation. One can buy a book and own it by having it physically. If one buys an eBook through, for example, Amazon and stores it on a synced Amazon device like Kindle, and the seller decides to discontinue selling the product, it might disappear from the devices. The producers of eReader devices are also making it increasingly harder for users to download their eBooks from their platforms. In this kind of situation, the owner of the eBook should be informed well in advance and be provided with an easy means to download the good they own. In conclusion, I believe it is only fair for a consumer to be allowed to own their digital goods in the same way they own physical goods. They should be allowed to use the goods even if the creator of said goods does not support them anymore in the case of video games, for example, through the use of tools provided by the developer to self-host the game in some way; in the case of eBooks and other goods, through information and ease of downloading the product.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.653623Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585248.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585248",
+    "chunks_doc_id": "F3585248",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585248.clean.paragraph.json"
+}

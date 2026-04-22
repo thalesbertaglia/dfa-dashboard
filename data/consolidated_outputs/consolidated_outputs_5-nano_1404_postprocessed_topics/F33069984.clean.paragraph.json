@@ -1,0 +1,78 @@
+{
+  "doc_id": "F33069984",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:28:06Z",
+    "finished_at": "2026-04-14T09:28:38Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "from when I was considering a game in which I set my hours of play to be uneconomical and compelled to buy a remastered or completely new version."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "simply selling the same concept again at full price after x years, and giving me the possibility of refusing the version already bought, which would have had to be fired, is not fair!"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 31627,
+          "unit_kind": "feedback"
+        },
+        "text": "I am happy to pay money (with the 19 % tax) for my free work, but I do not see it as one of what will be imposed on me from when I was considering a game in which I set my hours of play to be uneconomical and compelled to buy a remastered or completely new version. Some with more bows than in the old game, or the x-year old bows were not fixed... I also play a tiktakto, not because of new graphics or colour reshaping, but because of the game, simply selling the same concept again at full price after x years, and giving me the possibility of refusing the version already bought, which would have had to be fired, is not fair!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.481613Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33069984.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33069984",
+    "chunks_doc_id": "F33069984",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33069984.clean.paragraph.json"
+}

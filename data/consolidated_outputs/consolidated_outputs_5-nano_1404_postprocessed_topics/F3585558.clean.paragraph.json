@@ -1,0 +1,78 @@
+{
+  "doc_id": "F3585558",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:30:24Z",
+    "finished_at": "2026-04-14T12:31:22Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "managing different orders, too often cancelling different “news” letters, has been made far too difficult and often even unworkable!"
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "“destruction” of digital products. This refers to the intended practice of selling a digital product to a consumer, after which its support is terminated."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 57539,
+          "unit_kind": "feedback"
+        },
+        "text": "Having read this proposal, I find it very useful. Legislation in the digital world often comes into play and this proposal has the potential to prevent the worst abuses. In particular, managing different orders, too often cancelling different “news” letters, has been made far too difficult and often even unworkable! However, I would like to see one aspect of this proposal taken into account: “destruction” of digital products. This refers to the intended practice of selling a digital product to a consumer, after which its support is terminated. At this stage, the product is ‘destructed’, i.e. rendered inoperative even if the product would otherwise be OK. For example, I can give my own experience to the Overwatch game published by Blizzard Entertainment. The game was popular and cost EUR 40. When Blizzard published Overwatch 2, the servers of the original game were run down and the game was completely inactive. It was ‘destructed’. EUR 40 is lost and will never be recovered. Another example is the Battlebor game, where there was a full solo game campaign. Once the multiple games have come to an end, I will no longer be able to play this mode of exclusive games. It is not even possible to launch the whole game. It would be commendable if this approach were taken into account in the initiative and attempted to prevent it.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.802325Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585558.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585558",
+    "chunks_doc_id": "F3585558",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585558.clean.paragraph.json"
+}

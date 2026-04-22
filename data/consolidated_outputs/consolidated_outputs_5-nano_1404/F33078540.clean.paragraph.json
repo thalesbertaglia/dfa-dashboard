@@ -1,0 +1,116 @@
+{
+  "doc_id": "F33078540",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:29:29Z",
+    "finished_at": "2026-04-14T09:29:56Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Many online stores use coupons to trap people into using their store."
+              }
+            ]
+          },
+          {
+            "topic": "Anti-competitive Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Advertisement is anti-competitive."
+              }
+            ]
+          },
+          {
+            "topic": "Open-source Licensing",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "Every publicly funded project should have open-source software with a free software license."
+              }
+            ]
+          },
+          {
+            "topic": "Unfair Pricing",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Digital fingerprint-based pricing should be illegal."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Easy to order, hard to cancel."
+              }
+            ]
+          },
+          {
+            "topic": "Open APIs And OS Interoperability",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "At least the API should be open, so I can write my own software."
+              },
+              {
+                "quote": "Client-server architectures should always have a public API."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 26272,
+          "unit_kind": "feedback"
+        },
+        "text": "1. Many online stores use coupons to trap people into using their store. They give people restricted money, a kind of money which is only accepted in one store. People in shops buy items at higher prices because they left their club card at home. The queue cannot progress because there are coupons for individual items that they need to find. An item should have a price. If it's discounted, it's fine, but locking people in while making their shopping experience worse is not ok. (It's not only digitally related) 2. Advertisement is anti-competitive. Merchants with more money get more popular. Marketing is a job to tilt the table of free markets to their side. Rarely legit, usually not. The better quality should win, not the richest. The solution already exists. There are product finder pages with thematic search. In my opinion, they should have their battle there. But regulation is required because detailed filters work only if the sellers provide the details. We also need a Europe-wide product search. 3. Every publicly funded project should have open-source software with a free software license. It is our money, we want our own copy, not only a usage license. 4. Digital fingerprint-based pricing should be illegal. Usually, airlines use it. 5. Easy to order, hard to cancel. They should have the same difficulty. Or cancellation should be at least as easy as placing an order. Especially for subscriptions. 6. Dependency on proprietary software: First, people should be able to use their free software OSes (like Linux) when it's not directly targeting a specific OS. My guitar pedal, where I can set up its sound, is not compatible with my OS. The monitor I own has configuration software not compatible with my OS. I could go on forever. People have a hard time leaving Windows or Mac because of the dependency on this software. The ethical option never gains popularity unless we stand against the giants and regulate the products. Secondly, this software can become unavailable for users, making them hostile to having to buy a new product. Thirdly, proprietary software is an injustice in general. I bought a camera that had an Android app. It couldn't transfer pictures in their original resolution. So I thought I would extend it. But the source code was unavailable to us. It is my camera, let me do whatever I want with my camera. Very frustrating. It happened multiple times to me with every kind of software. At least the API should be open, so I can write my own software. 7. Client-server architectures should always have a public API. It would start healthy competition for better clients. For other examples, please read consumerrights.wiki Imagine I copy-pasted its content here. Thanks for reading my comment!",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.519861Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33078540.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33078540",
+    "chunks_doc_id": "F33078540",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

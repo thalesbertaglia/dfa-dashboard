@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3589066",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:28:52Z",
+    "finished_at": "2026-04-14T13:29:34Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "When i buy a game, i consider that i'm allowed to play at that game at any time in the future, even if it's 20 years later."
+              },
+              {
+                "quote": "a few examples of games that allow us to keep playing them without connecting to online services or allow peer-to-peer (i - Knockout City - Private Server Edition (made by Velan Studios) or Splitgate for example (Servers are about to shutdown, they're actually working to make a peer-to-peer version, which show the ability to do it, and for some the will to do it)."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 41854,
+          "unit_kind": "feedback"
+        },
+        "text": "Hello. I signed the Stop Killing Games Initiative. When i buy a game, i consider that i'm allowed to play at that game at any time in the future, even if it's 20 years later. As a comparison, imagoine your car dealership taking back your car because it's not produced anymore and therefore, no new parts will be made for this specific model. It would be nefarious, and shocking. It's the same with video games, just because company don't want to keep spending on them and so on, that does not mean they should take it back. The worse part in all that, is even tho we just ask for a version that could work, even if it's not exactly the same game as before, video games lobby is trying to make it look like it's too costly and not doable to allow us to keep enjoying our games. Sadly for them, i have a few examples of games that allow us to keep playing them without connecting to online services or allow peer-to-peer (i.e - Knockout City - Private Server Edition (made by Velan Studios) or Splitgate for example (Servers are about to shutdown, they're actually working to make a peer-to-peer version, which show the ability to do it, and for some the will to do it). BUT When it comes to the \"giant\" of the video games industry, lazyness and constantly trying to pleasing shareholders as if they're the one making this indsutry what it is, don't respect my money, my time aswell as all the persons who ever bought a video game, for themselves or someone they know. (Also, i bought the crew, and can not play it anymore, which is kinda p*ssing me off, since i bought it, but i'll not repeat myself too much there.) I hope my feedback, aswell as all the one you've received might enlighten you on this matter. Thank you for your valuable time and for reading through my rant. Have a good day. Lamaille Julien",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.744080Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3589066.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3589066",
+    "chunks_doc_id": "F3589066",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

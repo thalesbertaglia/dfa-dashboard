@@ -1,0 +1,108 @@
+{
+  "doc_id": "F3584242",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T11:53:02Z",
+    "finished_at": "2026-04-14T11:53:39Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This results in some companies disabling software that was purchased to force purchase of new version or a subscription version."
+              },
+              {
+                "quote": "They are also able to disable features that were bought and requiring additional payments to re-enable them."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Futurehome remotely disabling features of their smart devices and requiring subscription payments to continue using these features, that were advertised when buying the devices."
+              }
+            ]
+          },
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "This behavior is most common with video games, that are routinely disabled when the company stops running servers."
+              }
+            ]
+          },
+          {
+            "topic": "End-of-Life Plans",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "They should also be required to have an \"end-of-life\" plan for software and devices so that they can be used even once they are no longer supported, either by the companies decision or because of the companies bankruptcy."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "They should also not be allowed to remove features that were advertised at the time of purchase."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 37073,
+          "unit_kind": "feedback"
+        },
+        "text": "I believe this act misses an important consumer protection for purchases of software and smart devices running software. With modern software and firmware receiving updates over the internet, companies are now able to change or disable software consumers purchased after the purchase. This results in some companies disabling software that was purchased to force purchase of new version or a subscription version. They are also able to disable features that were bought and requiring additional payments to re-enable them. Example of the former is Adobe, that has disabled licensing servers for older versions of its software, making it impossible to install the software on new computers or computers that had it's operating system reinstalled. An example of the latter is Futurehome remotely disabling features of their smart devices and requiring subscription payments to continue using these features, that were advertised when buying the devices. This behavior is most common with video games, that are routinely disabled when the company stops running servers. Companies should be required to have an \"end-of-life\" plan for software and devices so that they can be used even once they are no longer supported, either by the companies decision or because of the companies bankruptcy. They should also not be allowed to remove features that were advertised at the time of purchase.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.140887Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584242.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584242",
+    "chunks_doc_id": "F3584242",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584242.clean.paragraph.json"
+}

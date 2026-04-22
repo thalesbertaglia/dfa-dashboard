@@ -1,0 +1,81 @@
+{
+  "doc_id": "F3584866",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:13:05Z",
+    "finished_at": "2026-04-14T12:13:24Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "I want this act to also protect video game players."
+              },
+              {
+                "quote": "Companies that make these games can arbitrarily destroy/disable games that people paid for."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Their terms of service (ToS) have terms that let them destroy/stop/disable games for any or no reason at any time."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 19082,
+          "unit_kind": "feedback"
+        },
+        "text": "I want this act to also protect video game players. Companies that make these games can arbitrarily destroy/disable games that people paid for. Their terms of service (ToS) have terms that let them destroy/stop/disable games for any or no reason at any time. This goes against current EU law, if I am not mistaken, and is deeply unethical. Game makers also do not inform us of the end date for the games at the time of purchase, nor do they have any end-of-life plans for these games most of the time ( i.e, ~90%). Most games are also released half-finished or in broken states most of the time. Which goes against their advertisement. Please help the customer. This is act is for customer protection, no? https://stopkillinggames.wiki.gg/wiki/Dead_game_list",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.476856Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3584866.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3584866",
+    "chunks_doc_id": "F3584866",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3584866.clean.paragraph.json"
+}

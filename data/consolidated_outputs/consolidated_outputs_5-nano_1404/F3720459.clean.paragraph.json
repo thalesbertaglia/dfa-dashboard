@@ -1,0 +1,71 @@
+{
+  "doc_id": "F3720459",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:47:01Z",
+    "finished_at": "2026-04-14T13:47:20Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "video games with online features unplayable"
+              },
+              {
+                "quote": "If a game no longer plays (or installs) because the DRM servers were taken offline, then it wasn't really sold to me, was it?"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 18738,
+          "unit_kind": "feedback"
+        },
+        "text": "Please add a further protection to the Digital Fairness Act, protecting paying video game customers from developer/publisher companies that make certain video games with online features unplayable whenever they consider the cost not outweighing the benefits (or simply hope to shift the players to something newer). If a game no longer plays (or installs) because the DRM servers were taken offline, then it wasn't really sold to me, was it? I am not against DRM, nor charging a [reasonable] fee for a service; but if the company decides to pull the plug, they should provide the server software for the customers so they can decide if they want to operate community servers on their own budget and time, and therefore keep the game playable. More than 1 million EU citizens signed the European Citizens' Initiative titled Stop Destroying Videogames, Commission registration number: ECI(2024)000007. Thank you.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:18.118589Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3720459.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3720459",
+    "chunks_doc_id": "F3720459",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

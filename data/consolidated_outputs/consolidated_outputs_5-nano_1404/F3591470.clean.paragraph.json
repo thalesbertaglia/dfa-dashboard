@@ -1,0 +1,77 @@
+{
+  "doc_id": "F3591470",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:35:35Z",
+    "finished_at": "2026-04-14T13:35:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Payment Processor Interference",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "We should be allowed to buy whatever is legal without interference from our payment processors."
+              }
+            ]
+          },
+          {
+            "topic": "Bank Monopoly",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "This monopoly of banks should be broken."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 16315,
+          "unit_kind": "feedback"
+        },
+        "text": "We should be allowed to buy whatever is legal without interference from our payment processors. They are there to provide us with a way to pay, not to decide what we can and cannot buy. This monopoly of banks should be broken.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.867954Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3591470.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3591470",
+    "chunks_doc_id": "F3591470",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}

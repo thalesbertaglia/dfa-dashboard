@@ -1,0 +1,102 @@
+{
+  "doc_id": "F3585371",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:12Z",
+    "finished_at": "2026-04-14T12:26:52Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Gaming",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "a growing concern in the video game market."
+              },
+              {
+                "quote": "Stop Destroying Videogames."
+              }
+            ]
+          },
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "current games are being purposely misrepresented by the companies that publish them."
+              },
+              {
+                "quote": "Pretending like you're buying a product while in reality with most games it feels more like you're only subscribing to a service."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "Pretending like you're buying a product while in reality with most games it feels more like you're only subscribing to a service."
+              }
+            ]
+          },
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "if for whatever reason you don't fully agree with the EULA you are forced to destroy any physical media you purchased."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 39619,
+          "unit_kind": "feedback"
+        },
+        "text": "Good afternoon European Commission, I would first like to say that I am highly appreciative that something is being done by the EU against bad/unfair practices in the digital market. My main reason for submitting this feedback is that I would like to bring attention to a growing concern in the video game market. In the past when buying a video game on an old console you would be able to keep playing it indefinetly even after support for these consoles and games have ended. This is unfortunately no longer the case with most games. There is an initiative going on that has already gathered 1.4 million signatures that is called Stop Destroying Videogames. In addition to this I believe that current games are being purposely misrepresented by the companies that publish them. Pretending like you're buying a product while in reality with most games it feels more like you're only subscribing to a service. Which these games are not being advertised as. There are several games that I used to love playing but have unfortunately straight up dissappeared and will never be able to be played again in the future. It would be a pity to continue losing these amazing pieces of art while the solution of making these games available in an offline only state with no further support being needed is an extremely easy solution. In addition to this companies like Ubisoft also include a section in their EULA that if for whatever reason you don't fully agree with the EULA you are forced to destroy any physical media you purchased. Which I find extremely outrageous to the point where it makes me question the legality of the EULA for some of these games. I don't know how to word my feedback much better as English is not my first language but most of the important info that I wholeheartedly support is also in the European initiative Stop Destroying Videogames.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.705167Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585371.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585371",
+    "chunks_doc_id": "F3585371",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3585371.clean.paragraph.json"
+}

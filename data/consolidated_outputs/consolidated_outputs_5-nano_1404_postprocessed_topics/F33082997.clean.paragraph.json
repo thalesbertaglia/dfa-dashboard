@@ -1,0 +1,108 @@
+{
+  "doc_id": "F33082997",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T09:30:28Z",
+    "finished_at": "2026-04-14T09:31:13Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "It is unacceptable when that software is NO LONGER USABLE due to a server-side authentication that no longer works."
+              },
+              {
+                "quote": "there should be some end-of-life plan where the consumer can somehow retain the functionality of the software they bought after the company has dropped the support for it."
+              }
+            ]
+          },
+          {
+            "topic": "Subscriptions",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "1- a requirement for subscriptions to be \"as easy to unsubscribe as they were to subscribe\""
+              }
+            ]
+          },
+          {
+            "topic": "Misleading Advertising",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "2- a requirement for review and comparison pages to disclose advertisement at the beginning rather than in the fine print at the end"
+              }
+            ]
+          },
+          {
+            "topic": "AI Agent",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "3- AI-generated review are now becoming a serious issue online from safety and accuracy point of view. A disclosure for AI-generated content would be very welcome."
+              }
+            ]
+          },
+          {
+            "topic": "Open Source Preference",
+            "topic_source": "new",
+            "evidence_quotes": [
+              {
+                "quote": "If the manufacturer drops the support for said gadget, they should at least open-source the server-side functionality, so the customer would be able to reproduce it themselves, and maintain the function of their purchased item."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 44641,
+          "unit_kind": "feedback"
+        },
+        "text": "Digital purchases have become a multi-billion market, and digital services are one of the largest emerging industries, which makes it attractive to investors. And the industry is agile, so if a software is no longer viable, it gets phased out. And it is bad to buy a software only to find that the support to it was dropped shortly after due to lack of interest or change of leadership. But it is unacceptable when that software is NO LONGER USABLE due to a server-side authentication that no longer works. It is like buying a car, and then when the manufacturer decides to release a new model, not only they refuse to service your car; they disable your engine from turning on. To clarify my position, I realise the financial incentive in dropping support to old and outdated software, but there should be some end-of-life plan where the consumer can somehow retain the functionality of the software they bought after the company has dropped the support for it. This also extends to smart-gadgets which rely on online services to be functioning. If the manufacturer drops the support for said gadget, they should at least open-source the server-side functionality, so the customer would be able to reproduce it themselves, and maintain the function of their purchased item. And that's only fair. It would be nice to see the following addressed as well: 1- a requirement for subscriptions to be \"as easy to unsubscribe as they were to subscribe\" 2- a requirement for review and comparison pages to disclose advertisement at the beginning rather than in the fine print at the end 3- AI-generated review are now becoming a serious issue online from safety and accuracy point of view. A disclosure for AI-generated content would be very welcome.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:15.544590Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F33082997.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F33082997",
+    "chunks_doc_id": "F33082997",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F33082997.clean.paragraph.json"
+}

@@ -1,0 +1,72 @@
+{
+  "doc_id": "F3588128",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T13:22:26Z",
+    "finished_at": "2026-04-14T13:22:41Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Other Unfair Contract Terms",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "they reserve the right to revoke the license and strip the consumer of their purchase (without refund) at any time for any reason."
+              },
+              {
+                "quote": "The EULAs of payment processors are written vaguely in such a way that any content deemed inappropriate (be it legal or illegal) may be asked to be removed."
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 14385,
+          "unit_kind": "feedback"
+        },
+        "text": "1) Since the inception of digital distribution of goods (such as software, media...) instead of physical distribution, the consumer protection has greatly diminished in favour of corporations' interests. The publishers state in their EULAs (End-User-License-Agreements) that they reserve the right to revoke the license and strip the consumer of their purchase (without refund) at any time for any reason. This has been always the case even with physical media, although there was no effective measure to take away the license from user, once purchased, hence the whole issue did not need to be thoroughly questioned so far. Nowadays, with digital goods, publishers implement measures such as online DRM, effectively allowing themselves to remove a purchased copy on-purpose by severing the connection to authentication servers, or, for worse, rendering the software/media technically unusable by purposeful changes. The legality of revoking a one-time digital purchase (directly or indirectly via technical measures) from the customer should be questioned. The use of protections for digital goods by publishers against piracy and such is understandable, though this should not affect a customer who legally purchased a copy in any way. Companies should be required to leave digital goods in a reasonably usable state for customers who purchased a legal copy, once it reaches the end-of-life. By any means, they should not be able to revoke the legally purchased license (directly or indirectly via technical measures) without refund in such case. 2) Recently, there has been a push by payment processors to block platforms which sell content that those processors deem illegal. Although blocking the selling of unlawful content is completely understandable and desirable by EU consumers as well, such action being done based on sole discretion of the payment processors poses a dangerous precedent. The EULAs of payment processors are written vaguely in such a way that any content deemed inappropriate (be it legal or illegal) may be asked to be removed. These actions are effectively affecting the consumer already, since companies and artists are already being pushed away from creating digital media, which, although legal, could be deemed inappropriate by those payment processors. In digital age, digital payments are in a sense a public necessity. Prohibition of using digital payments effectively disqualifies one (be it an individual or a company) from the free market. It is a draconic measure, which should be under control of courts, not a publicly traded company.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:17.615832Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3588128.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3588128",
+    "chunks_doc_id": "F3588128",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  },
+  "_file_name": "F3588128.clean.paragraph.json"
+}

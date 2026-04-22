@@ -1,0 +1,68 @@
+{
+  "doc_id": "F3585397",
+  "source_path": null,
+  "extraction_run": {
+    "granularity": "paragraph",
+    "schema": "dfa_promptlab_v2",
+    "started_at": "2026-04-14T12:26:50Z",
+    "finished_at": "2026-04-14T12:26:59Z",
+    "resume": true,
+    "llm_config": {
+      "model": "gpt-5-nano",
+      "temperature": 1.0,
+      "max_completion_tokens": 40000,
+      "timeout_s": 60,
+      "repair_on_fail": false,
+      "repair_model": null
+    }
+  },
+  "extractions": {
+    "paragraphs": [
+      {
+        "para_id": "feedback",
+        "items": [
+          {
+            "topic": "Design Patterns",
+            "topic_source": "dfa",
+            "evidence_quotes": [
+              {
+                "quote": "dark patterns"
+              }
+            ]
+          }
+        ],
+        "meta": {
+          "skipped": false,
+          "skip_reason": null,
+          "validation_ok": true,
+          "errors": [],
+          "repaired": false,
+          "latency_ms": 8820,
+          "unit_kind": "feedback"
+        },
+        "text": "The Digital Fairness Act states in it's summary that unfair commercial practices related to dark patterns are of concern to lawmakers. I believe payment processing are performing unfair commercial practices related to dark patterns by preventing companies from operating even though their activities, products and services are legal by stopping their payment processes. The duopoly of Visa and Mastercard being capable of dictating what for transaction companies and individuals are allowed to do without oversight from goverments to prevent them from overreaching by simply deciding that political parties that attempt to regulate them will no longer be allowed to proccess their payments to be an existential threat to our democracy.",
+        "chunk_meta": {
+          "section_id": null,
+          "section_path": null,
+          "span": null,
+          "chunk_quality": "ok",
+          "chunk_word_count": null,
+          "char_len": null
+        }
+      }
+    ]
+  },
+  "consolidated_at": "2026-04-15T11:59:16.719188Z",
+  "consolidation": {
+    "chunks_path": "../../data/chunks/F3585397.clean.chunk.json",
+    "include_chunk_meta": true,
+    "doc_id_mismatch": false,
+    "ex_doc_id": "F3585397",
+    "chunks_doc_id": "F3585397",
+    "stats": {
+      "paragraphs_total": 1,
+      "paragraphs_text_found": 1,
+      "paragraphs_text_missing": 0
+    }
+  }
+}
