@@ -828,8 +828,14 @@ def page_search(items_filtered: pd.DataFrame) -> None:
         label_visibility="collapsed",
     )
     if not query.strip():
+        st.session_state.pop("search_query", None)
+        st.session_state.pop("search_n", None)
         st.caption("Enter a search term to find relevant quotes.")
         return
+
+    if st.session_state.get("search_query") != query:
+        st.session_state["search_query"] = query
+        st.session_state["search_n"] = 60
 
     mask = (
         items_filtered["evidence_quote"]
@@ -837,11 +843,20 @@ def page_search(items_filtered: pd.DataFrame) -> None:
         .str.contains(query.strip(), case=False, regex=False)
     )
     results = items_filtered[mask].copy()
+    total = len(results)
 
     st.caption(
-        f"**{len(results):,}** matches across **{results['doc_id'].nunique():,}** submissions."
+        f"**{total:,}** matches across **{results['doc_id'].nunique():,}** submissions."
     )
-    render_quotes_feed(results, max_quotes=60, show_topic=True)
+
+    n = st.session_state.get("search_n", 60)
+    render_quotes_feed(results, max_quotes=n, show_topic=True)
+
+    if total > n:
+        remaining = total - n
+        if st.button(f"Load {min(60, remaining):,} more ({remaining:,} remaining)"):
+            st.session_state["search_n"] = n + 60
+            st.rerun()
 
 
 def page_landscape(items_filtered: pd.DataFrame) -> None:
