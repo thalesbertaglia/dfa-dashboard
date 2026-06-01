@@ -84,5 +84,13 @@ docs/
 ## Citation
 
 ```bibtex
-@inproceedings{TODO}
+@misc{bertaglia2026traceabledesignllmpipeline,
+      title={Traceable by Design: An LLM Pipeline and Dashboard for EU Regulatory Consultation Analysis}, 
+      author={Thales Bertaglia and Haoyang Gui and Catalina Goanta and Gerasimos Spanakis},
+      year={2026},
+      eprint={2605.30995},
+      archivePrefix={arXiv},
+      primaryClass={cs.CY},
+      url={https://arxiv.org/abs/2605.30995}, 
+}
 ```
