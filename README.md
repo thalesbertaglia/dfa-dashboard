@@ -1,4 +1,4 @@
-# DFA Consultation Analysis
+# DFA Consultation Dashboard
 
 Code and data for the [DFA Dashboard](https://dfa-dashboard.thalesbertaglia.com).
 
